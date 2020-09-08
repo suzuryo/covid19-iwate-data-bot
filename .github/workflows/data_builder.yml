@@ -24,13 +24,13 @@ jobs:
         run: |
           cd data_tools/google_sheets_to_data_json/
           bundle install
-          echo $GOOGLE_SHEETS_TO_DATA_JSON_CREDENTIALS_JSON | base64 --decode > credentials.json
-          echo $GOOGLE_SHEETS_TO_DATA_JSON_TOKEN_YAML | base64 --decode > token.yaml
+          echo $CREDENTIALS_JSON | base64 --decode > credentials.json
+          echo $TOKEN_YAML | base64 --decode > token.yaml
           ruby generate_data_json.rb
         shell: bash
         env:
-          GOOGLE_SHEETS_TO_DATA_JSON_CREDENTIALS_JSON: ${{secrets.GOOGLE_SHEETS_TO_DATA_JSON_CREDENTIALS_JSON}}
-          GOOGLE_SHEETS_TO_DATA_JSON_TOKEN_YAML: ${{secrets.GOOGLE_SHEETS_TO_DATA_JSON_TOKEN_YAML}}
+          CREDENTIALS_JSON: ${{secrets.CREDENTIALS_JSON}}
+          TOKEN_YAML: ${{secrets.TOKEN_YAML}}
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"
