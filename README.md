@@ -1,0 +1,1 @@
+# covid19-iwate-data-bot
