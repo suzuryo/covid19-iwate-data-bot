@@ -36,8 +36,8 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git status | grep modified && git add data && git commit -v -m "[Bot] GitHub Actions - update data.json at $(date +'%Y-%m-%dT%H:%M:%S%z')"
-      - name: Push changes to data-bot/master
+      - name: Push changes to master
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: data-bot/master
+          branch: master
