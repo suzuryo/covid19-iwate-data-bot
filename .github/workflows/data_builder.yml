@@ -2,7 +2,7 @@ name: update_json
 
 on:
   schedule:
-    - cron:  '0 */8 * * *'
+    - cron:  '0 10,12,15,22 * * *'
 
 jobs:
   build:
