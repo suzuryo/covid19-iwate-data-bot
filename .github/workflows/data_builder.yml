@@ -55,21 +55,18 @@ jobs:
               -H "Authorization: Bearer ${{ secrets.ACCESS_TOKEN }}" \
               -H "Accept: application/vnd.github.everest-preview+json" \
               -H "Content-Type: application/json" \
-              https://api.github.com/repos/MeditationDuck/covid19/dispatches --data '{"event_type": "update_json"}' \
-            || true
+              https://api.github.com/repos/MeditationDuck/covid19/dispatches --data '{"event_type": "update_json"}'
       - name: iwate.stopcovid19.jp run deploy_production
         run: |
           sleep 60 && curl -X POST \
               -H "Authorization: Bearer ${{ secrets.ACCESS_TOKEN }}" \
               -H "Accept: application/vnd.github.everest-preview+json" \
               -H "Content-Type: application/json" \
-              https://api.github.com/repos/MeditationDuck/covid19/dispatches --data '{"event_type": "deploy_production"}' \
-            || true
+              https://api.github.com/repos/MeditationDuck/covid19/dispatches --data '{"event_type": "deploy_production"}'
       - name: iwate.stopcovid19.jp run check_broken_links
         run: |
           curl -X POST \
               -H "Authorization: Bearer ${{ secrets.ACCESS_TOKEN }}" \
               -H "Accept: application/vnd.github.everest-preview+json" \
               -H "Content-Type: application/json" \
-              https://api.github.com/repos/MeditationDuck/covid19/dispatches --data '{"event_type": "check_broken_links"}' \
-            || true
+              https://api.github.com/repos/MeditationDuck/covid19/dispatches --data '{"event_type": "check_broken_links"}'
