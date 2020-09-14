@@ -59,7 +59,7 @@ jobs:
             || true
       - name: iwate.stopcovid19.jp run deploy_production
         run: |
-          curl -X POST \
+          sleep 60 && curl -X POST \
               -H "Authorization: Bearer ${{ secrets.ACCESS_TOKEN }}" \
               -H "Accept: application/vnd.github.everest-preview+json" \
               -H "Content-Type: application/json" \
