@@ -47,7 +47,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./data
           publish_branch: gh-pages
-      - name: build iwate.stopcovid19.jp
+      - name: iwate.stopcovid19.jp update_json
         run: |
           curl -X POST \
               -H "Authorization: Bearer ${{ secrets.ACCESS_TOKEN }}" \
