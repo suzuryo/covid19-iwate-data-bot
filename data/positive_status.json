@@ -1,5 +1,5 @@
 {
-  "date": "2020/09/21 07:17",
+  "date": "2020/09/21 19:18",
   "data": [
     {
       "date": "2020-02-13T00:00:00+09:00",
@@ -1098,6 +1098,16 @@
     },
     {
       "date": "2020-09-19T00:00:00+09:00",
+      "hospitalized": 0,
+      "severe_case": null
+    },
+    {
+      "date": "2020-09-20T00:00:00+09:00",
+      "hospitalized": 0,
+      "severe_case": null
+    },
+    {
+      "date": "2020-09-21T00:00:00+09:00",
       "hospitalized": 0,
       "severe_case": null
     }
