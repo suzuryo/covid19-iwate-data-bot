@@ -35,3 +35,11 @@ ruby generate_data_json.rb
 ```
 
 が生成される。
+
+## 4. 実行タイミング
+
+github workflows により、以下のタイミングで自動実行される。
+
+- 10:00 UTC (19:00 JST) 時台に data/*.json が更新され デプロイ される。
+- 12:00 UTC (21:00 JST) 時台に data/*.json が更新され デプロイ される。
+- 14:00 UTC (23:00 JST) 時台に data/*.json が更新され デプロイ される。
