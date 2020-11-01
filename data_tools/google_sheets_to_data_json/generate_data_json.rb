@@ -55,7 +55,7 @@ raise if PATIENTS_CSV.empty?
 INSPECTIONS_CSV = CSV.parse(service.get_spreadsheet_values(SPREADSHEET_ID, 'input_検査件数').values.map(&:to_csv).join, headers: true)
 raise if INSPECTIONS_CSV.empty?
 
-CONTACTS_CSV = CSV.parse(service.get_spreadsheet_values(SPREADSHEET_ID, 'input_帰国者接触者_相談件数').values.map(&:to_csv).join, headers: true)
+CONTACTS_CSV = CSV.parse(service.get_spreadsheet_values(SPREADSHEET_ID, 'input_受診・相談センター_相談件数').values.map(&:to_csv).join, headers: true)
 raise if CONTACTS_CSV.empty?
 
 QUERENTS_CSV = CSV.parse(service.get_spreadsheet_values(SPREADSHEET_ID, 'input_一般_相談件数').values.map(&:to_csv).join, headers: true)
