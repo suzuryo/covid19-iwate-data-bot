@@ -73,6 +73,9 @@ raise if POSITIVE_RATE.empty?
 HOSPITALIZED_NUMBERS = CSV.parse(service.get_spreadsheet_values(SPREADSHEET_ID, 'output_hospitalized_numbers').values.map(&:to_csv).join, headers: true)
 raise if HOSPITALIZED_NUMBERS.empty?
 
+NEWS = CSV.parse(service.get_spreadsheet_values(SPREADSHEET_ID, 'input_news').values.map(&:to_csv).join, headers: true)
+raise if NEWS.empty?
+
 ######################################################################
 # データ生成 テンプレート
 # data.json
@@ -471,6 +474,25 @@ HOSPITALIZED_NUMBERS.each do |row|
 end
 
 ######################################################################
+# データ生成 テンプレート
+# news.json
+######################################################################
+data_news_json = {
+  newsItems: []
+}
+
+NEWS.each do |row|
+  data_news_json[:newsItems].append(
+    {
+      date: row['date'],
+      url: row['url'],
+      text: row['text']
+    }
+  )
+end
+
+
+######################################################################
 # write json
 ######################################################################
 
@@ -496,4 +518,8 @@ end
 
 File.open(File.join(__dir__, '../../data/', 'positive_status.json'), 'w') do |f|
   f.write JSON.pretty_generate(data_positive_status_json)
+end
+
+File.open(File.join(__dir__, '../../data/', 'news.json'), 'w') do |f|
+  f.write JSON.pretty_generate(data_news_json)
 end
