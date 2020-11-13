@@ -2,6 +2,11 @@
   "newsItems": [
     {
       "date": "2020/11/13",
+      "url": "https://iwate.stopcovid19.jp/cards/monitoring-number-of-confirmed-cases/",
+      "text": "新規陽性者数の7日間移動平均が基準の4.4人/日を超えました。この状況が3日続けば岩手県が想定している流行シナリオを上回り、病床等が不足しますので「社会への協力要請」（営業自粛要請・学校の休校等）が発動する可能性があります。"
+    },
+    {
+      "date": "2020/11/13",
       "url": "https://www.youtube.com/watch?v=Fp9LK7rVdDY&t=2746",
       "text": "記者会見 (2020/11/13 事例52-57)"
     },
