@@ -1,6 +1,6 @@
 {
   "contacts": {
-    "date": "2020/11/14 11:07",
+    "date": "2020/11/14 14:02",
     "data": [
       {
         "日付": "2020-02-15T00:00:00+09:00",
@@ -1895,7 +1895,7 @@
     ]
   },
   "querents": {
-    "date": "2020/11/14 11:07",
+    "date": "2020/11/14 14:02",
     "data": [
       {
         "日付": "2020-02-15T00:00:00+09:00",
@@ -3790,7 +3790,7 @@
     ]
   },
   "patients": {
-    "date": "2020/11/14 11:07",
+    "date": "2020/11/14 14:02",
     "data": [
       {
         "id": 1,
@@ -4428,7 +4428,7 @@
         "居住地": "大船渡市",
         "退院": null,
         "date": "2020-11-13",
-        "url": null
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034683.html"
       },
       {
         "id": 59,
@@ -4439,7 +4439,7 @@
         "居住地": "盛岡市",
         "退院": null,
         "date": "2020-11-13",
-        "url": null
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033038.html"
       },
       {
         "id": 60,
@@ -4450,7 +4450,7 @@
         "居住地": "盛岡市",
         "退院": null,
         "date": "2020-11-13",
-        "url": null
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033040.html"
       },
       {
         "id": 61,
@@ -4461,7 +4461,7 @@
         "居住地": "盛岡市",
         "退院": null,
         "date": "2020-11-13",
-        "url": null
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033041.html"
       },
       {
         "id": 62,
@@ -4472,7 +4472,7 @@
         "居住地": "盛岡市",
         "退院": null,
         "date": "2020-11-13",
-        "url": null
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033043.html"
       },
       {
         "id": 63,
@@ -4483,7 +4483,7 @@
         "居住地": "盛岡市",
         "退院": null,
         "date": "2020-11-13",
-        "url": null
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033042.html"
       },
       {
         "id": 64,
@@ -4494,12 +4494,12 @@
         "居住地": "盛岡市",
         "退院": null,
         "date": "2020-11-13",
-        "url": null
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033039.html"
       }
     ]
   },
   "patients_summary": {
-    "date": "2020/11/14 11:07",
+    "date": "2020/11/14 14:02",
     "data": [
       {
         "日付": "2020-02-15T08:00:00+09:00",
@@ -5596,7 +5596,7 @@
     ]
   },
   "inspections_summary": {
-    "date": "2020/11/14 11:07",
+    "date": "2020/11/14 14:02",
     "data": {
       "PCR検査": [
         1,
@@ -6431,10 +6431,10 @@
       "11/13"
     ]
   },
-  "lastUpdate": "2020-11-14 11:07:32 +0900",
+  "lastUpdate": "2020-11-14 14:02:37 +0900",
   "main_summary": {
     "attr": "検査実施件数",
-    "date": "2020/11/14 11:07",
+    "date": "2020/11/14 14:02",
     "value": 6026,
     "children": [
       {
@@ -6469,7 +6469,7 @@
           },
           {
             "attr": "入院・療養等調整中",
-            "value": 8
+            "value": 7
           },
           {
             "attr": "死亡",
