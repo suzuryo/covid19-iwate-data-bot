@@ -80,7 +80,12 @@ raise if NEWS.empty?
 # データ生成 テンプレート
 # data.json
 ######################################################################
+# データを生成した日時
 now = Time.now
+# データの最初の日
+first_date = Date.new(2020, 2, 15)
+# データの最後の日は、基本的に検査結果の最新日時
+last_date = Date.parse(INSPECTIONS_CSV[-1]['date'])
 data_json = {
   contacts: {
     date: now.strftime('%Y/%m/%d %H:%M'),
@@ -184,7 +189,15 @@ end
 # data.json
 # patients_summary の生成
 ######################################################################
-(Date.new(2020, 2, 15)..Date.today).each do |date|
+# データ最終日は検査結果の最終日 last_date が基本だけど、
+# 陽性者数が先に発表されて、検査結果数が後に発表された場合もケアする
+patients_summary_last_date = if last_date < Date.parse(PATIENTS_CSV[-1]['リリース日'])
+                               Date.parse(PATIENTS_CSV[-1]['リリース日'])
+                             else
+                               last_date
+                             end
+
+(first_date..patients_summary_last_date).each do |date|
   output_patients_sum = 0
   PATIENTS_CSV.each do |row|
     if row['リリース日'] === date.strftime('%Y/%m/%d')
@@ -342,7 +355,7 @@ data_positive_by_diagnosed_json = {
 # positive_by_diagnosed.json
 # data の生成
 ######################################################################
-(Date.new(2020, 2, 15)..Date.today).each do |date|
+(first_date..last_date).each do |date|
   positive_by_diagnosed_sum = 0
   PATIENTS_CSV.each do |row|
     if row['陽性確定日'] === date.strftime('%Y/%m/%d')
