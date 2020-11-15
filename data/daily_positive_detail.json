@@ -1,5 +1,5 @@
 {
-  "date": "2020/11/14 23:12",
+  "date": "2020/11/15 14:15",
   "data": [
     {
       "diagnosed_date": "2020-02-13T00:00:00+09:00",
@@ -3029,13 +3029,13 @@
     {
       "diagnosed_date": "2020-11-14T00:00:00+09:00",
       "count": 5,
-      "missing_count": 4,
-      "reported_count": 1,
+      "missing_count": 3,
+      "reported_count": 2,
       "weekly_gain_ratio": null,
       "untracked_percent": null,
       "weekly_average_count": 5.57,
-      "weekly_average_untracked_count": 2.71,
-      "weekly_average_untracked_increse_percent": 127
+      "weekly_average_untracked_count": 2.57,
+      "weekly_average_untracked_increse_percent": 120
     }
   ]
 }
