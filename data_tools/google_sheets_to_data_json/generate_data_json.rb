@@ -480,7 +480,7 @@ HOSPITALIZED_NUMBERS.each do |row|
   data_positive_status_json[:data].append(
     {
       date: Time.parse(row['date']).iso8601,
-      hospitalized: row['うち入院中'].to_i,
+      hospitalized: row['うち入院中'].to_i + row['うち宿泊療養中'].to_i,
       severe_case: nil # SevereCaseCard.vue を使っていないので未使用
     }
   )
