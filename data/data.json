@@ -1,6 +1,6 @@
 {
   "contacts": {
-    "date": "2020/11/16 19:14",
+    "date": "2020/11/16 20:58",
     "data": [
       {
         "日付": "2020-02-15T00:00:00+09:00",
@@ -1923,7 +1923,7 @@
     ]
   },
   "querents": {
-    "date": "2020/11/16 19:14",
+    "date": "2020/11/16 20:58",
     "data": [
       {
         "日付": "2020-02-15T00:00:00+09:00",
@@ -3846,7 +3846,7 @@
     ]
   },
   "patients": {
-    "date": "2020/11/16 19:14",
+    "date": "2020/11/16 20:58",
     "data": [
       {
         "id": 1,
@@ -3855,7 +3855,6 @@
         "年代": "40代",
         "性別": "男性",
         "居住地": "盛岡市",
-        "退院": null,
         "date": "2020-07-29",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1032218.html"
       },
@@ -3866,7 +3865,6 @@
         "年代": "30代",
         "性別": "男性",
         "居住地": "宮古市",
-        "退院": "○",
         "date": "2020-07-29",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1032440.html"
       },
@@ -3877,7 +3875,6 @@
         "年代": "40代",
         "性別": "男性",
         "居住地": "矢巾町",
-        "退院": null,
         "date": "2020-07-30",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1032495.html"
       },
@@ -3888,7 +3885,6 @@
         "年代": "40代",
         "性別": "男性",
         "居住地": "北上市",
-        "退院": null,
         "date": "2020-07-31",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1032537.html"
       },
@@ -3899,7 +3895,6 @@
         "年代": "40代",
         "性別": "男性",
         "居住地": "雫石町",
-        "退院": null,
         "date": "2020-08-05",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1032570.html"
       },
@@ -3910,7 +3905,6 @@
         "年代": "20代",
         "性別": "女性",
         "居住地": "久慈市",
-        "退院": null,
         "date": "2020-08-06",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1032659.html"
       },
@@ -3921,7 +3915,6 @@
         "年代": "10歳未満",
         "性別": "女性",
         "居住地": "久慈市",
-        "退院": null,
         "date": "2020-08-07",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1032689.html"
       },
@@ -3932,7 +3925,6 @@
         "年代": "50代",
         "性別": "女性",
         "居住地": "久慈市",
-        "退院": null,
         "date": "2020-08-13",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1032735.html"
       },
@@ -3943,7 +3935,6 @@
         "年代": "60代",
         "性別": "女性",
         "居住地": "久慈市",
-        "退院": null,
         "date": "2020-08-16",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1032752.html"
       },
@@ -3954,7 +3945,6 @@
         "年代": "40代",
         "性別": "男性",
         "居住地": "盛岡市",
-        "退院": null,
         "date": "2020-08-19",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1032358.html"
       },
@@ -3965,7 +3955,6 @@
         "年代": "40代",
         "性別": "女性",
         "居住地": "盛岡市",
-        "退院": null,
         "date": "2020-08-20",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1032364.html"
       },
@@ -3976,7 +3965,6 @@
         "年代": "50代",
         "性別": "女性",
         "居住地": "久慈市",
-        "退院": null,
         "date": "2020-08-23",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1032759.html"
       },
@@ -3987,7 +3975,6 @@
         "年代": "20代",
         "性別": "男性",
         "居住地": "盛岡市",
-        "退院": null,
         "date": "2020-08-25",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1032417.html"
       },
@@ -3998,7 +3985,6 @@
         "年代": "20代",
         "性別": "男性",
         "居住地": "盛岡市",
-        "退院": null,
         "date": "2020-08-26",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1032421.html"
       },
@@ -4009,7 +3995,6 @@
         "年代": "20代",
         "性別": "男性",
         "居住地": "遠野市",
-        "退院": null,
         "date": "2020-08-26",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1032918.html"
       },
@@ -4020,7 +4005,6 @@
         "年代": "30代",
         "性別": "女性",
         "居住地": "遠野市",
-        "退院": null,
         "date": "2020-08-26",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1032999.html"
       },
@@ -4031,7 +4015,6 @@
         "年代": "10歳未満",
         "性別": "男性",
         "居住地": "遠野市",
-        "退院": null,
         "date": "2020-08-26",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1033000.html"
       },
@@ -4042,7 +4025,6 @@
         "年代": "60代",
         "性別": "男性",
         "居住地": "遠野市",
-        "退院": null,
         "date": "2020-08-26",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1033001.html"
       },
@@ -4053,7 +4035,6 @@
         "年代": "60代",
         "性別": "女性",
         "居住地": "遠野市",
-        "退院": null,
         "date": "2020-08-26",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1033002.html"
       },
@@ -4064,7 +4045,6 @@
         "年代": "20代",
         "性別": "男性",
         "居住地": "奥州市",
-        "退院": null,
         "date": "2020-09-01",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1033003.html"
       },
@@ -4075,7 +4055,6 @@
         "年代": "20代",
         "性別": "男性",
         "居住地": "奥州市",
-        "退院": null,
         "date": "2020-09-01",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1033202.html"
       },
@@ -4086,7 +4065,6 @@
         "年代": "40代",
         "性別": "男性",
         "居住地": "奥州市",
-        "退院": null,
         "date": "2020-09-01",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1033203.html"
       },
@@ -4097,7 +4075,6 @@
         "年代": "40代",
         "性別": "男性",
         "居住地": "奥州市",
-        "退院": null,
         "date": "2020-09-04",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1033197.html"
       },
@@ -4108,7 +4085,6 @@
         "年代": "20代",
         "性別": "女性",
         "居住地": "滝沢市",
-        "退院": null,
         "date": "2020-10-03",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1033298.html"
       },
@@ -4119,7 +4095,6 @@
         "年代": "40代",
         "性別": "男性",
         "居住地": "盛岡市",
-        "退院": null,
         "date": "2020-10-13",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1032774.html"
       },
@@ -4130,7 +4105,6 @@
         "年代": "20代",
         "性別": "女性",
         "居住地": "県外",
-        "退院": null,
         "date": "2020-10-15",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1032806.html"
       },
@@ -4141,7 +4115,6 @@
         "年代": "30代",
         "性別": "男性",
         "居住地": "盛岡市",
-        "退院": null,
         "date": "2020-10-23",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1032861.html"
       },
@@ -4152,7 +4125,6 @@
         "年代": "50代",
         "性別": "男性",
         "居住地": "一関市",
-        "退院": null,
         "date": "2020-11-03",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034511.html"
       },
@@ -4163,7 +4135,6 @@
         "年代": "20代",
         "性別": "女性",
         "居住地": "盛岡市",
-        "退院": null,
         "date": "2020-11-03",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1032951.html"
       },
@@ -4174,7 +4145,6 @@
         "年代": "20代",
         "性別": "女性",
         "居住地": "盛岡市",
-        "退院": null,
         "date": "2020-11-06",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1032972.html"
       },
@@ -4185,7 +4155,6 @@
         "年代": "40代",
         "性別": "男性",
         "居住地": "盛岡市",
-        "退院": null,
         "date": "2020-11-09",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1032979.html"
       },
@@ -4196,7 +4165,6 @@
         "年代": "30代",
         "性別": "女性",
         "居住地": "盛岡市",
-        "退院": null,
         "date": "2020-11-10",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1032999.html"
       },
@@ -4207,7 +4175,6 @@
         "年代": "40代",
         "性別": "男性",
         "居住地": "盛岡市",
-        "退院": null,
         "date": "2020-11-10",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033000.html"
       },
@@ -4218,7 +4185,6 @@
         "年代": "40代",
         "性別": "男性",
         "居住地": "盛岡市",
-        "退院": null,
         "date": "2020-11-11",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033003.html"
       },
@@ -4229,7 +4195,6 @@
         "年代": "30代",
         "性別": "男性",
         "居住地": "盛岡市",
-        "退院": null,
         "date": "2020-11-11",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033004.html"
       },
@@ -4240,7 +4205,6 @@
         "年代": "20代",
         "性別": "男性",
         "居住地": "盛岡市",
-        "退院": null,
         "date": "2020-11-11",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033005.html"
       },
@@ -4251,7 +4215,6 @@
         "年代": "20代",
         "性別": "男性",
         "居住地": "滝沢市",
-        "退院": null,
         "date": "2020-11-11",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034628.html"
       },
@@ -4262,7 +4225,6 @@
         "年代": "20代",
         "性別": "男性",
         "居住地": "久慈市",
-        "退院": null,
         "date": "2020-11-11",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034626.html"
       },
@@ -4273,7 +4235,6 @@
         "年代": "60代",
         "性別": "男性",
         "居住地": "盛岡市",
-        "退院": null,
         "date": "2020-11-11",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033006.html"
       },
@@ -4284,7 +4245,6 @@
         "年代": "40代",
         "性別": "男性",
         "居住地": "盛岡市",
-        "退院": null,
         "date": "2020-11-11",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033007.html"
       },
@@ -4295,7 +4255,6 @@
         "年代": "50代",
         "性別": "男性",
         "居住地": "盛岡市",
-        "退院": null,
         "date": "2020-11-11",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033008.html"
       },
@@ -4306,7 +4265,6 @@
         "年代": "50代",
         "性別": "男性",
         "居住地": "盛岡市",
-        "退院": null,
         "date": "2020-11-12",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033014.html"
       },
@@ -4317,7 +4275,6 @@
         "年代": "60代",
         "性別": "女性",
         "居住地": "盛岡市",
-        "退院": null,
         "date": "2020-11-12",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033030.html"
       },
@@ -4328,7 +4285,6 @@
         "年代": "50代",
         "性別": "男性",
         "居住地": "滝沢市",
-        "退院": null,
         "date": "2020-11-12",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034663.html"
       },
@@ -4339,7 +4295,6 @@
         "年代": "50代",
         "性別": "女性",
         "居住地": "滝沢市",
-        "退院": null,
         "date": "2020-11-12",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034664.html"
       },
@@ -4350,7 +4305,6 @@
         "年代": "20代",
         "性別": "女性",
         "居住地": "滝沢市",
-        "退院": null,
         "date": "2020-11-12",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034665.html"
       },
@@ -4361,7 +4315,6 @@
         "年代": "20代",
         "性別": "女性",
         "居住地": "久慈市",
-        "退院": null,
         "date": "2020-11-12",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034666.html"
       },
@@ -4372,7 +4325,6 @@
         "年代": "20代",
         "性別": "男性",
         "居住地": "久慈市",
-        "退院": null,
         "date": "2020-11-12",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034667.html"
       },
@@ -4383,7 +4335,6 @@
         "年代": "50代",
         "性別": "男性",
         "居住地": "滝沢市",
-        "退院": null,
         "date": "2020-11-12",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034668.html"
       },
@@ -4394,7 +4345,6 @@
         "年代": "40代",
         "性別": "女性",
         "居住地": "滝沢市",
-        "退院": null,
         "date": "2020-11-12",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034669.html"
       },
@@ -4405,7 +4355,6 @@
         "年代": "10歳未満",
         "性別": "女性",
         "居住地": "滝沢市",
-        "退院": null,
         "date": "2020-11-12",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034670.html"
       },
@@ -4416,7 +4365,6 @@
         "年代": "40代",
         "性別": "男性",
         "居住地": "盛岡市",
-        "退院": null,
         "date": "2020-11-13",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033031.html"
       },
@@ -4427,7 +4375,6 @@
         "年代": "50代",
         "性別": "男性",
         "居住地": "盛岡市",
-        "退院": null,
         "date": "2020-11-13",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033032.html"
       },
@@ -4438,7 +4385,6 @@
         "年代": "20代",
         "性別": "女性",
         "居住地": "盛岡市",
-        "退院": null,
         "date": "2020-11-13",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033033.html"
       },
@@ -4449,7 +4395,6 @@
         "年代": "30代",
         "性別": "女性",
         "居住地": "盛岡市",
-        "退院": null,
         "date": "2020-11-13",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033034.html"
       },
@@ -4460,7 +4405,6 @@
         "年代": "20代",
         "性別": "男性",
         "居住地": "矢巾町",
-        "退院": null,
         "date": "2020-11-13",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034680.html"
       },
@@ -4471,7 +4415,6 @@
         "年代": "20代",
         "性別": "男性",
         "居住地": "宮古市",
-        "退院": null,
         "date": "2020-11-13",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034681.html"
       },
@@ -4482,7 +4425,6 @@
         "年代": "20代",
         "性別": "男性",
         "居住地": "大船渡市",
-        "退院": null,
         "date": "2020-11-13",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034683.html"
       },
@@ -4493,7 +4435,6 @@
         "年代": "40代",
         "性別": "男性",
         "居住地": "盛岡市",
-        "退院": null,
         "date": "2020-11-13",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033038.html"
       },
@@ -4504,7 +4445,6 @@
         "年代": "20代",
         "性別": "男性",
         "居住地": "盛岡市",
-        "退院": null,
         "date": "2020-11-13",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033040.html"
       },
@@ -4515,7 +4455,6 @@
         "年代": "50代",
         "性別": "男性",
         "居住地": "盛岡市",
-        "退院": null,
         "date": "2020-11-13",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033041.html"
       },
@@ -4526,7 +4465,6 @@
         "年代": "30代",
         "性別": "女性",
         "居住地": "盛岡市",
-        "退院": null,
         "date": "2020-11-13",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033043.html"
       },
@@ -4537,7 +4475,6 @@
         "年代": "60代",
         "性別": "男性",
         "居住地": "盛岡市",
-        "退院": null,
         "date": "2020-11-13",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033042.html"
       },
@@ -4548,7 +4485,6 @@
         "年代": "60代",
         "性別": "男性",
         "居住地": "盛岡市",
-        "退院": null,
         "date": "2020-11-13",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033039.html"
       },
@@ -4559,7 +4495,6 @@
         "年代": "60代",
         "性別": "男性",
         "居住地": "盛岡市",
-        "退院": null,
         "date": "2020-11-14",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033044.html"
       },
@@ -4570,7 +4505,6 @@
         "年代": "20代",
         "性別": "男性",
         "居住地": "盛岡市",
-        "退院": null,
         "date": "2020-11-14",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033045.html"
       },
@@ -4581,7 +4515,6 @@
         "年代": "50代",
         "性別": "男性",
         "居住地": "滝沢市",
-        "退院": null,
         "date": "2020-11-14",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034684.html"
       },
@@ -4592,7 +4525,6 @@
         "年代": "20代",
         "性別": "男性",
         "居住地": "宮古市",
-        "退院": null,
         "date": "2020-11-14",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034685.html"
       },
@@ -4603,7 +4535,6 @@
         "年代": "30代",
         "性別": "男性",
         "居住地": "雫石町",
-        "退院": null,
         "date": "2020-11-14",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034686.html"
       },
@@ -4614,7 +4545,6 @@
         "年代": "20代",
         "性別": "男性",
         "居住地": "宮古市",
-        "退院": null,
         "date": "2020-11-15",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034687.html"
       },
@@ -4625,7 +4555,6 @@
         "年代": "30代",
         "性別": "男性",
         "居住地": "宮古市",
-        "退院": null,
         "date": "2020-11-15",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034688.html"
       },
@@ -4636,7 +4565,6 @@
         "年代": "20代",
         "性別": "男性",
         "居住地": "宮古市",
-        "退院": null,
         "date": "2020-11-15",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034689.html"
       },
@@ -4647,7 +4575,6 @@
         "年代": "50代",
         "性別": "女性",
         "居住地": "盛岡市",
-        "退院": null,
         "date": "2020-11-15",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033049.html"
       },
@@ -4658,7 +4585,6 @@
         "年代": "60代",
         "性別": "女性",
         "居住地": "盛岡市",
-        "退院": null,
         "date": "2020-11-15",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033051.html"
       },
@@ -4669,14 +4595,13 @@
         "年代": "20代",
         "性別": "男性",
         "居住地": "盛岡市",
-        "退院": null,
         "date": "2020-11-15",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033052.html"
       }
     ]
   },
   "patients_summary": {
-    "date": "2020/11/16 19:14",
+    "date": "2020/11/16 20:58",
     "data": [
       {
         "日付": "2020-02-15T08:00:00+09:00",
@@ -5781,7 +5706,7 @@
     ]
   },
   "inspections_summary": {
-    "date": "2020/11/16 19:14",
+    "date": "2020/11/16 20:58",
     "data": {
       "PCR検査": [
         1,
@@ -6622,10 +6547,10 @@
       "11/15"
     ]
   },
-  "lastUpdate": "2020-11-16 19:14:46 +0900",
+  "lastUpdate": "2020-11-16 20:58:05 +0900",
   "main_summary": {
     "attr": "検査実施件数",
-    "date": "2020/11/16 19:14",
+    "date": "2020/11/16 20:58",
     "value": 6445,
     "children": [
       {
