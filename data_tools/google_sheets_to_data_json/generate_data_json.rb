@@ -244,20 +244,6 @@ data_json[:main_summary][:children][0][:value] = PATIENTS_CSV.size
 # 手動管理する値を採用する
 # 個別の退院日が発表され、個別の症状が発表されるならコメントアウトしているコードを利用できるようになる。
 
-# 症状ごとのカウント
-patients_status = {
-  軽症・中等症: 0,
-  重症: 0,
-  宿泊療養: 0,
-  自宅療養: 0,
-  入院・療養等調整中: 0,
-  死亡: 0,
-  退院等（療養期間経過を含む）: 0,
-}
-
-PATIENTS_CSV.each do |row|
-  patients_status[row['陽性者の状況'].to_sym] += 1
-end
 
 # 入院中
 data_json[:main_summary][:children][0][:children][0][:value] = HOSPITALIZED_NUMBERS[-1]['うち入院中'].to_i
@@ -267,19 +253,19 @@ data_json[:main_summary][:children][0][:children][0][:value] = HOSPITALIZED_NUMB
 # 不明 : 未発表なのでカウントできない
 
 # 宿泊療養
-data_json[:main_summary][:children][0][:children][1][:value] = patients_status[:宿泊療養]
+data_json[:main_summary][:children][0][:children][1][:value] = HOSPITALIZED_NUMBERS[-1]['うち宿泊療養中'].to_i
 
 # 自宅療養
-data_json[:main_summary][:children][0][:children][2][:value] = patients_status[:自宅療養]
+data_json[:main_summary][:children][0][:children][2][:value] = HOSPITALIZED_NUMBERS[-1]['うち自宅療養中'].to_i
 
 # 入院療養等調整中
-data_json[:main_summary][:children][0][:children][3][:value] = patients_status[:入院・療養等調整中]
+data_json[:main_summary][:children][0][:children][3][:value] = HOSPITALIZED_NUMBERS[-1]['うち入院調整中'].to_i
 
 # 死亡
 data_json[:main_summary][:children][0][:children][4][:value] = HOSPITALIZED_NUMBERS[-1]['うち死亡'].to_i
 
 # 退院
-data_json[:main_summary][:children][0][:children][5][:value] = HOSPITALIZED_NUMBERS[-1]['うち退院'].to_i
+data_json[:main_summary][:children][0][:children][5][:value] = HOSPITALIZED_NUMBERS[-1]['うち退院療養解除'].to_i
 
 
 ######################################################################
