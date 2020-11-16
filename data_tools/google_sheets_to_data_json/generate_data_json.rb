@@ -178,7 +178,6 @@ PATIENTS_CSV.each do |row|
       年代: row['年代'],
       性別: row['性別'],
       居住地: row['居住地'],
-      退院: row['退院'] != '' ? row['退院'] : nil,
       date: Time.parse(row['陽性確定日']).strftime('%Y-%m-%d'),
       url: row['url'] != '' ? row['url'] : nil,
     }
