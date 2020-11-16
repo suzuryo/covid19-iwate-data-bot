@@ -1,13 +1,18 @@
 {
   "newsItems": [
     {
+      "date": "2020/11/16",
+      "url": "https://www.youtube.com/watch?v=WHk0AnqAHK4",
+      "text": "📺 記者会見 (2020/11/14 事例70-75)"
+    },
+    {
       "date": "2020/11/15",
       "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1033035/1033046.html",
       "text": "📞 11月2日〜11月11日まで盛岡市菜園「居酒屋大石」「大石蔵之助」を利用した人は連絡を"
     },
     {
       "date": "2020/11/14",
-      "url": "https://www.youtube.com/watch?v=jG6QepPFQwE&t=0",
+      "url": "https://www.youtube.com/watch?v=jG6QepPFQwE",
       "text": "📺 記者会見 (2020/11/14 事例58-64)"
     },
     {
@@ -17,7 +22,7 @@
     },
     {
       "date": "",
-      "url": "https://www.youtube.com/watch?v=Fp9LK7rVdDY&t=0",
+      "url": "https://www.youtube.com/watch?v=Fp9LK7rVdDY",
       "text": "📺 記者会見 (2020/11/13 事例52-57)"
     },
     {
@@ -32,7 +37,7 @@
     },
     {
       "date": "2020/11/12",
-      "url": "https://www.youtube.com/watch?v=8IkCe27e6eI&t=0",
+      "url": "https://www.youtube.com/watch?v=8IkCe27e6eI",
       "text": "📺 記者会見 (2020/11/12 事例43-51)"
     },
     {
