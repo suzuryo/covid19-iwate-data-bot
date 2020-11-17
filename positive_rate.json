@@ -3062,13 +3062,13 @@
     {
       "diagnosed_date": "2020-11-17T00:00:00+09:00",
       "positive_count": 9,
-      "negative_count": 165,
+      "negative_count": 197,
       "pcr_positive_count": 9,
       "antigen_positive_count": 0,
-      "pcr_negative_count": 159,
-      "antigen_negative_count": 6,
-      "weekly_average_diagnosed_count": 141.7,
-      "positive_rate": 5.1
+      "pcr_negative_count": 189,
+      "antigen_negative_count": 8,
+      "weekly_average_diagnosed_count": 146.0,
+      "positive_rate": 4.94
     }
   ]
 }
