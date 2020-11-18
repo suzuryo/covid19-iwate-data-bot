@@ -1,6 +1,6 @@
 {
   "contacts": {
-    "date": "2020/11/18 13:08",
+    "date": "2020/11/18 17:38",
     "data": [
       {
         "日付": "2020-02-15T00:00:00+09:00",
@@ -1923,7 +1923,7 @@
     ]
   },
   "querents": {
-    "date": "2020/11/18 13:08",
+    "date": "2020/11/18 17:38",
     "data": [
       {
         "日付": "2020-02-15T00:00:00+09:00",
@@ -3846,7 +3846,7 @@
     ]
   },
   "patients": {
-    "date": "2020/11/18 13:08",
+    "date": "2020/11/18 17:38",
     "data": [
       {
         "id": 1,
@@ -4646,7 +4646,7 @@
         "性別": "男性",
         "居住地": "葛巻町",
         "date": "2020-11-17",
-        "url": null
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034802.html"
       },
       {
         "id": 81,
@@ -4656,7 +4656,7 @@
         "性別": "女性",
         "居住地": "滝沢市",
         "date": "2020-11-17",
-        "url": null
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034803.html"
       },
       {
         "id": 82,
@@ -4666,7 +4666,7 @@
         "性別": "男性",
         "居住地": "矢巾町",
         "date": "2020-11-17",
-        "url": null
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034804.html"
       },
       {
         "id": 83,
@@ -4676,7 +4676,7 @@
         "性別": "男性",
         "居住地": "滝沢市",
         "date": "2020-11-17",
-        "url": null
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034805.html"
       },
       {
         "id": 84,
@@ -4686,7 +4686,7 @@
         "性別": "男性",
         "居住地": "滝沢市",
         "date": "2020-11-17",
-        "url": null
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034807.html"
       },
       {
         "id": 85,
@@ -4696,7 +4696,7 @@
         "性別": "女性",
         "居住地": "盛岡市",
         "date": "2020-11-17",
-        "url": null
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033061.html"
       },
       {
         "id": 86,
@@ -4706,7 +4706,7 @@
         "性別": "女性",
         "居住地": "盛岡市",
         "date": "2020-11-17",
-        "url": null
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033061.html"
       },
       {
         "id": 87,
@@ -4716,7 +4716,7 @@
         "性別": "男性",
         "居住地": "盛岡市",
         "date": "2020-11-18",
-        "url": null
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033061.html"
       },
       {
         "id": 88,
@@ -4726,7 +4726,7 @@
         "性別": "男性",
         "居住地": "盛岡市",
         "date": "2020-11-18",
-        "url": null
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033061.html"
       },
       {
         "id": 89,
@@ -4741,7 +4741,7 @@
     ]
   },
   "patients_summary": {
-    "date": "2020/11/18 13:08",
+    "date": "2020/11/18 17:38",
     "data": [
       {
         "日付": "2020-02-15T08:00:00+09:00",
@@ -5858,7 +5858,7 @@
     ]
   },
   "inspections_summary": {
-    "date": "2020/11/18 13:08",
+    "date": "2020/11/18 17:38",
     "data": {
       "PCR検査": [
         1,
@@ -6705,10 +6705,10 @@
       "11/17"
     ]
   },
-  "lastUpdate": "2020-11-18 13:08:27 +0900",
+  "lastUpdate": "2020-11-18 17:38:34 +0900",
   "main_summary": {
     "attr": "検査実施件数",
-    "date": "2020/11/18 13:08",
+    "date": "2020/11/18 17:38",
     "value": 6819,
     "children": [
       {
