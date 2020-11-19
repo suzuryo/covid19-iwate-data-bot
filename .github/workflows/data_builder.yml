@@ -1,8 +1,6 @@
 name: update_json
 
 on:
-  schedule:
-    - cron:  '0 10,12,14 * * *'
   repository_dispatch:
     types: [deploy_production]
 
