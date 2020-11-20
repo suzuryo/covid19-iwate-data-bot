@@ -1,6 +1,6 @@
 {
   "contacts": {
-    "date": "2020/11/20 18:14",
+    "date": "2020/11/20 18:43",
     "data": [
       {
         "日付": "2020-02-15T00:00:00+09:00",
@@ -1951,7 +1951,7 @@
     ]
   },
   "querents": {
-    "date": "2020/11/20 18:14",
+    "date": "2020/11/20 18:43",
     "data": [
       {
         "日付": "2020-02-15T00:00:00+09:00",
@@ -3902,7 +3902,7 @@
     ]
   },
   "patients": {
-    "date": "2020/11/20 18:14",
+    "date": "2020/11/20 18:43",
     "data": [
       {
         "id": 1,
@@ -4882,7 +4882,7 @@
         "性別": "女性",
         "居住地": "盛岡市",
         "date": "2020-11-19",
-        "url": null
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033075.html"
       },
       {
         "id": 99,
@@ -4892,7 +4892,7 @@
         "性別": "女性",
         "居住地": "盛岡市",
         "date": "2020-11-19",
-        "url": null
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033076.html"
       },
       {
         "id": 100,
@@ -4902,7 +4902,7 @@
         "性別": "男性",
         "居住地": "盛岡市",
         "date": "2020-11-19",
-        "url": null
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033077.html"
       },
       {
         "id": 101,
@@ -4912,7 +4912,7 @@
         "性別": "男性",
         "居住地": "盛岡市",
         "date": "2020-11-19",
-        "url": null
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033078.html"
       },
       {
         "id": 102,
@@ -4922,7 +4922,7 @@
         "性別": "女性",
         "居住地": "紫波町",
         "date": "2020-11-19",
-        "url": null
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034984.html"
       },
       {
         "id": 103,
@@ -4932,7 +4932,7 @@
         "性別": "女性",
         "居住地": "紫波町",
         "date": "2020-11-19",
-        "url": null
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034986.html"
       },
       {
         "id": 104,
@@ -4942,7 +4942,7 @@
         "性別": "男性",
         "居住地": "雫石町",
         "date": "2020-11-19",
-        "url": null
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034987.html"
       },
       {
         "id": 105,
@@ -4952,7 +4952,7 @@
         "性別": "女性",
         "居住地": "矢巾町",
         "date": "2020-11-19",
-        "url": null
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034991.html"
       },
       {
         "id": 106,
@@ -4962,7 +4962,7 @@
         "性別": "女性",
         "居住地": "花巻市",
         "date": "2020-11-19",
-        "url": null
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034992.html"
       },
       {
         "id": 107,
@@ -4972,7 +4972,7 @@
         "性別": "男性",
         "居住地": "花巻市",
         "date": "2020-11-19",
-        "url": null
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034993.html"
       },
       {
         "id": 108,
@@ -4982,7 +4982,7 @@
         "性別": "男性",
         "居住地": "住田町",
         "date": "2020-11-19",
-        "url": null
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034994.html"
       },
       {
         "id": 109,
@@ -4992,7 +4992,7 @@
         "性別": "女性",
         "居住地": "釜石市",
         "date": "2020-11-19",
-        "url": null
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034996.html"
       },
       {
         "id": 110,
@@ -5002,7 +5002,7 @@
         "性別": "男性",
         "居住地": "釜石市",
         "date": "2020-11-19",
-        "url": null
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034997.html"
       },
       {
         "id": 111,
@@ -5012,7 +5012,7 @@
         "性別": "女性",
         "居住地": "宮古市",
         "date": "2020-11-19",
-        "url": null
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034998.html"
       },
       {
         "id": 112,
@@ -5022,12 +5022,12 @@
         "性別": "女性",
         "居住地": "宮古市",
         "date": "2020-11-19",
-        "url": null
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034999.html"
       }
     ]
   },
   "patients_summary": {
-    "date": "2020/11/20 18:14",
+    "date": "2020/11/20 18:43",
     "data": [
       {
         "日付": "2020-02-15T08:00:00+09:00",
@@ -6152,7 +6152,7 @@
     ]
   },
   "inspections_summary": {
-    "date": "2020/11/20 18:14",
+    "date": "2020/11/20 18:43",
     "data": {
       "PCR検査": [
         1,
@@ -7005,10 +7005,10 @@
       "11/19"
     ]
   },
-  "lastUpdate": "2020-11-20 18:14:07 +0900",
+  "lastUpdate": "2020-11-20 18:43:54 +0900",
   "main_summary": {
     "attr": "検査実施件数",
-    "date": "2020/11/20 18:14",
+    "date": "2020/11/20 18:43",
     "value": 7284,
     "children": [
       {
