@@ -1,4 +1,4 @@
-name: update_json
+name: googleSheetMenu
 
 on:
   repository_dispatch:

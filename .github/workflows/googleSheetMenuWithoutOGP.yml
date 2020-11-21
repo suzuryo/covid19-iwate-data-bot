@@ -1,0 +1,56 @@
+name: googleSheetMenuWithoutOGP
+
+on:
+  repository_dispatch:
+    types: [googleSheetMenuWithoutOGP]
+
+jobs:
+  build:
+    name: update & build & deploy & check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - name: Setup Ruby
+        uses: actions/setup-ruby@v1
+        with:
+          ruby-version: '2.7'
+      - name: Setup Timezone
+        run: |
+          sudo timedatectl set-timezone Asia/Tokyo
+      - name: Generate JSON
+        run: |
+          cd data_tools/google_sheets_to_data_json/
+          bundle install
+          echo $CREDENTIALS_JSON | base64 --decode > credentials.json
+          echo $TOKEN_YAML | base64 --decode > token.yaml
+          ruby generate_data_json.rb
+        shell: bash
+        env:
+          CREDENTIALS_JSON: ${{secrets.CREDENTIALS_JSON}}
+          TOKEN_YAML: ${{secrets.TOKEN_YAML}}
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git status | grep modified && git add data && git commit -v -m "[Bot] GitHub Actions - update data.json at $(date +'%Y-%m-%dT%H:%M:%S%z')"
+      - name: Push changes to master
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: master
+      - name: deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./data
+          publish_branch: gh-pages
+      - name: iwate.stopcovid19.jp run googleSheetMenuWithoutOGP
+        run: |
+          curl -X POST \
+              -H "Authorization: Bearer ${{ secrets.ACCESS_TOKEN }}" \
+              -H "Accept: application/vnd.github.everest-preview+json" \
+              -H "Content-Type: application/json" \
+              https://api.github.com/repos/MeditationDuck/covid19/dispatches --data '{"event_type": "googleSheetMenuWithoutOGP"}'
