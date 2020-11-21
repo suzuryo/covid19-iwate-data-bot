@@ -130,7 +130,7 @@ data_json = {
                 value: 0
               },
               {
-                attr: '重症', # 岩手県がまだ発表していないので未使用
+                attr: '重症',
                 value: 0
               },
               {
@@ -140,7 +140,7 @@ data_json = {
             ]
           },
           {
-            attr: '宿泊療養', # 岩手県がまだ発表していないので未使用
+            attr: '宿泊療養',
             value: 0
           },
           {
@@ -248,7 +248,9 @@ data_json[:main_summary][:children][0][:value] = PATIENTS_CSV.size
 data_json[:main_summary][:children][0][:children][0][:value] = HOSPITALIZED_NUMBERS[-1]['うち入院中'].to_i
 
 # 軽症・中等症 : 未発表なのでカウントできない
-# 重症 : 未発表なのでカウントできない
+# 重症
+data_json[:main_summary][:children][0][:children][0][:children][1][:value] = HOSPITALIZED_NUMBERS[-1]['うち重症'].to_i
+
 # 不明 : 未発表なのでカウントできない
 
 # 宿泊療養
@@ -468,7 +470,7 @@ HOSPITALIZED_NUMBERS.each do |row|
       hospital: row['うち入院中'].to_i,
       hotel: row['うち宿泊療養中'].to_i,
       hospitalized: row['うち入院中'].to_i + row['うち宿泊療養中'].to_i,
-      severe_case: nil # SevereCaseCard.vue を使っていないので未使用
+      severe_case: row['うち重症'].to_i,
     }
   )
 end
