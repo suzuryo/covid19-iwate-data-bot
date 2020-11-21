@@ -1,5 +1,5 @@
 {
-  "date": "2020/11/21 14:45",
+  "date": "2020/11/21 15:30",
   "data": [
     {
       "date": "2020-02-13T00:00:00+09:00",
@@ -1973,6 +1973,13 @@
       "hospital": 46,
       "hotel": 22,
       "hospitalized": 68,
+      "severe_case": null
+    },
+    {
+      "date": "2020-11-21T00:00:00+09:00",
+      "hospital": 55,
+      "hotel": 27,
+      "hospitalized": 82,
       "severe_case": null
     }
   ]
