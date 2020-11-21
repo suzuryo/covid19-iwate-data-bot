@@ -1,6 +1,6 @@
 {
   "contacts": {
-    "date": "2020/11/21 18:14",
+    "date": "2020/11/21 18:37",
     "data": [
       {
         "日付": "2020-02-15T00:00:00+09:00",
@@ -1951,7 +1951,7 @@
     ]
   },
   "querents": {
-    "date": "2020/11/21 18:14",
+    "date": "2020/11/21 18:37",
     "data": [
       {
         "日付": "2020-02-15T00:00:00+09:00",
@@ -3902,7 +3902,7 @@
     ]
   },
   "patients": {
-    "date": "2020/11/21 18:14",
+    "date": "2020/11/21 18:37",
     "data": [
       {
         "id": 1,
@@ -5112,7 +5112,7 @@
         "性別": "女性",
         "居住地": "紫波町",
         "date": "2020-11-20",
-        "url": null
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035005.html"
       },
       {
         "id": 122,
@@ -5122,7 +5122,7 @@
         "性別": "男性",
         "居住地": "矢巾町",
         "date": "2020-11-20",
-        "url": null
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035006.html"
       },
       {
         "id": 123,
@@ -5132,7 +5132,7 @@
         "性別": "女性",
         "居住地": "矢巾町",
         "date": "2020-11-20",
-        "url": null
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035007.html"
       },
       {
         "id": 124,
@@ -5142,7 +5142,7 @@
         "性別": "男性",
         "居住地": "宮古市",
         "date": "2020-11-20",
-        "url": null
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035008.html"
       },
       {
         "id": 125,
@@ -5152,7 +5152,7 @@
         "性別": "女性",
         "居住地": "宮古市",
         "date": "2020-11-20",
-        "url": null
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035009.html"
       },
       {
         "id": 126,
@@ -5162,7 +5162,7 @@
         "性別": "女性",
         "居住地": "洋野町",
         "date": "2020-11-20",
-        "url": null
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035010.html"
       },
       {
         "id": 127,
@@ -5177,7 +5177,7 @@
     ]
   },
   "patients_summary": {
-    "date": "2020/11/21 18:14",
+    "date": "2020/11/21 18:37",
     "data": [
       {
         "日付": "2020-02-15T08:00:00+09:00",
@@ -6306,7 +6306,7 @@
     ]
   },
   "inspections_summary": {
-    "date": "2020/11/21 18:14",
+    "date": "2020/11/21 18:37",
     "data": {
       "PCR検査": [
         1,
@@ -7162,10 +7162,10 @@
       "11/20"
     ]
   },
-  "lastUpdate": "2020-11-21 18:14:04 +0900",
+  "lastUpdate": "2020-11-21 18:37:03 +0900",
   "main_summary": {
     "attr": "検査実施件数",
-    "date": "2020/11/21 18:14",
+    "date": "2020/11/21 18:37",
     "value": 7433,
     "children": [
       {
