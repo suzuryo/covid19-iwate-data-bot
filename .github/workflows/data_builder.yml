@@ -2,7 +2,7 @@ name: update_json
 
 on:
   repository_dispatch:
-    types: [deploy_production]
+    types: [googleSheetMenu]
 
 jobs:
   build:
