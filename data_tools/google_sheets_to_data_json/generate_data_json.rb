@@ -126,7 +126,7 @@ data_json = {
             value: 0,
             children: [
               {
-                attr: '軽症・中等症',
+                attr: '軽症・中等症', # 岩手県が発表していないので未使用
                 value: 0
               },
               {
@@ -134,7 +134,7 @@ data_json = {
                 value: 0
               },
               {
-                attr: '不明', # 岩手県がまだ発表していないので未使用
+                attr: '不明', # 岩手県が発表していないので未使用
                 value: 0
               }
             ]
@@ -144,7 +144,7 @@ data_json = {
             value: 0
           },
           {
-            attr: '自宅療養', # 岩手県がまだ発表していないので未使用
+            attr: '自宅療養', # 岩手県が発表していないので未使用
             value: 0
           },
           {
@@ -152,7 +152,7 @@ data_json = {
             value: 0
           },
           {
-            attr: '死亡', # 岩手県がまだ発表していないので未使用
+            attr: '死亡',
             value: 0
           },
           {
@@ -247,29 +247,29 @@ data_json[:main_summary][:children][0][:value] = PATIENTS_CSV.size
 # 個別の退院日が発表され、個別の症状が発表されるならコメントアウトしているコードを利用できるようになる。
 
 
-# 入院中
-data_json[:main_summary][:children][0][:children][0][:value] = HOSPITALIZED_NUMBERS[-1]['うち入院中'].to_i
+# 入院
+data_json[:main_summary][:children][0][:children][0][:value] = HOSPITALIZED_NUMBERS[-1]['入院'].to_i
 
 # 軽症・中等症 : 未発表なのでカウントできない
 # 重症
-data_json[:main_summary][:children][0][:children][0][:children][1][:value] = HOSPITALIZED_NUMBERS[-1]['うち重症'].to_i
+data_json[:main_summary][:children][0][:children][0][:children][1][:value] = HOSPITALIZED_NUMBERS[-1]['重症'].to_i
 
 # 不明 : 未発表なのでカウントできない
 
 # 宿泊療養
-data_json[:main_summary][:children][0][:children][1][:value] = HOSPITALIZED_NUMBERS[-1]['うち宿泊療養中'].to_i
+data_json[:main_summary][:children][0][:children][1][:value] = HOSPITALIZED_NUMBERS[-1]['宿泊療養'].to_i
 
 # 自宅療養
-data_json[:main_summary][:children][0][:children][2][:value] = HOSPITALIZED_NUMBERS[-1]['うち自宅療養中'].to_i
+data_json[:main_summary][:children][0][:children][2][:value] = HOSPITALIZED_NUMBERS[-1]['自宅療養'].to_i
 
-# 入院療養等調整中
-data_json[:main_summary][:children][0][:children][3][:value] = HOSPITALIZED_NUMBERS[-1]['うち入院調整中'].to_i
+# 調整中
+data_json[:main_summary][:children][0][:children][3][:value] = HOSPITALIZED_NUMBERS[-1]['調整中'].to_i
 
 # 死亡
-data_json[:main_summary][:children][0][:children][4][:value] = HOSPITALIZED_NUMBERS[-1]['うち死亡'].to_i
+data_json[:main_summary][:children][0][:children][4][:value] = HOSPITALIZED_NUMBERS[-1]['死亡'].to_i
 
-# 退院
-data_json[:main_summary][:children][0][:children][5][:value] = HOSPITALIZED_NUMBERS[-1]['うち退院療養解除'].to_i
+# 退院等
+data_json[:main_summary][:children][0][:children][5][:value] = HOSPITALIZED_NUMBERS[-1]['退院等'].to_i
 
 
 ######################################################################
@@ -470,10 +470,10 @@ HOSPITALIZED_NUMBERS.each do |row|
   data_positive_status_json[:data].append(
     {
       date: Time.parse(row['date']).iso8601,
-      hospital: row['うち入院中'].to_i,
-      hotel: row['うち宿泊療養中'].to_i,
-      hospitalized: row['うち入院中'].to_i + row['うち宿泊療養中'].to_i,
-      severe_case: row['うち重症'].to_i,
+      hospital: row['入院'].to_i,
+      hotel: row['宿泊療養'].to_i,
+      hospitalized: row['入院'].to_i + row['宿泊療養'].to_i,
+      severe_case: row['重症'].to_i,
     }
   )
 end
