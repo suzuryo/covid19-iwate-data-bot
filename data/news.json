@@ -2,6 +2,11 @@
   "newsItems": [
     {
       "date": "2020/11/26",
+      "url": "https://iwate.stopcovid19.jp/cards/untracked-rate",
+      "text": "📊 接触歴等不明者数のグラフを追加しました。現在は不明者数（リンクの追えない事例）が少なく、陽性者の接触歴を積極的に追って陽性事例が見つかっている状態"
+    },
+    {
+      "date": "",
       "url": "https://www.youtube.com/watch?v=Cm3t7tUlJ-g",
       "text": "📺 記者会見 (2020/11/26 事例163-175)"
     },
