@@ -327,7 +327,8 @@ PATIENT_MUNICIPALITIES.each do |row|
       area: row['area'],
       label: row['label'],
       ruby: row['ruby'],
-      count: row['count'].to_i
+      count: row['count'].to_i,
+      count_per_population: row['count_per_population']
     }
   )
 end
