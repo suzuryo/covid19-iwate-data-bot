@@ -1,15 +1,15 @@
 {
-  "date": "2020/11/27 14:49",
+  "date": "2020/11/27 15:07",
   "datasets": {
-    "date": "2020/11/27 14:49",
+    "date": "2020/11/27 15:07",
     "data": [
       {
         "code": "032018",
         "area": "岩手県",
         "label": "盛岡市",
         "ruby": "もりおかし",
-        "count": 73,
-        "count_per_population": "0.025"
+        "count": 77,
+        "count_per_population": "0.026"
       },
       {
         "code": "032026",
