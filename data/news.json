@@ -1,6 +1,11 @@
 {
   "newsItems": [
     {
+      "date": "2020/11/27",
+      "url": "https://www.youtube.com/watch?v=s0tNhGUQ82c",
+      "text": "📺 記者会見 (2020/11/27)"
+    },
+    {
       "date": "2020/11/26",
       "url": "/cards/untracked-rate/",
       "text": "📊 接触歴等不明者数のグラフを追加。現在は不明者数（リンクの追えない事例）は少なく、陽性者の接触歴を積極的に追って陽性事例が見つかっている状態"
