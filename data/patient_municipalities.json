@@ -1,15 +1,15 @@
 {
-  "date": "2020/11/29 14:47",
+  "date": "2020/11/29 15:33",
   "datasets": {
-    "date": "2020/11/29 14:47",
+    "date": "2020/11/29 15:33",
     "data": [
       {
         "code": "032018",
         "area": "岩手県",
         "label": "盛岡市",
         "ruby": "もりおかし",
-        "count": 80,
-        "count_per_population": "0.027"
+        "count": 87,
+        "count_per_population": "0.030"
       },
       {
         "code": "032026",
@@ -112,8 +112,8 @@
         "area": "岩手県",
         "label": "滝沢市",
         "ruby": "たきざわし",
-        "count": 19,
-        "count_per_population": "0.034"
+        "count": 20,
+        "count_per_population": "0.036"
       },
       {
         "code": "033014",
