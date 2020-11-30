@@ -173,13 +173,13 @@ PATIENTS_CSV.each do |row|
   data_json[:patients][:data].append(
     {
       id: row['id'].to_i,
-      リリース日: row['リリース日'].blank? ? nil : Time.parse(row['リリース日']).iso8601,
+      # リリース日: row['リリース日'].blank? ? nil : Time.parse(row['リリース日']).iso8601, # 利用していないので出力しない
       陽性確定日: row['陽性確定日'].blank? ? nil : Time.parse(row['陽性確定日']).iso8601,
       発症日: row['発症日'].blank? ? nil : Time.parse(row['発症日']).iso8601,
       無症状病原体保有者: row['無症状病原体保有者'] === '無症状病原体保有者' ? true : false,
       通番: row['通番'].blank? ? nil : row['通番'],
       年代: row['年代'].blank? ? nil : row['年代'],
-      性別: row['性別'].blank? ? nil : row['性別'],
+      # 性別: row['性別'].blank? ? nil : row['性別'], # 利用していないので出力しない
       居住地: row['居住地'].blank? ? nil : row['居住地'],
       date: row['陽性確定日'].blank? ? nil : Time.parse(row['陽性確定日']).strftime('%Y-%m-%d'),
       url: row['url'].blank? ? nil : row['url'],
@@ -280,9 +280,9 @@ CONTACTS_CSV.each do |row|
   data_json[:contacts][:data].append(
     {
       日付: Time.parse(row['date']).iso8601,
-      コールセンター: row['コールセンター'].to_i,
-      各保健所: row['各保健所'].to_i,
-      医療政策室: row['医療政策室'].to_i,
+      # コールセンター: row['コールセンター'].to_i, # 利用していないので出力しない
+      # 各保健所: row['各保健所'].to_i, # 利用していないので出力しない
+      # 医療政策室: row['医療政策室'].to_i, # 利用していないので出力しない
       小計: row['小計'].to_i,
     }
   )
@@ -296,9 +296,9 @@ QUERENTS_CSV.each do |row|
   data_json[:querents][:data].append(
     {
       日付: Time.parse(row['date']).iso8601,
-      コールセンター: row['コールセンター'].to_i,
-      各保健所: row['各保健所'].to_i,
-      医療政策室: row['医療政策室'].to_i,
+      # コールセンター: row['コールセンター'].to_i, # 利用していないので出力しない
+      # 各保健所: row['各保健所'].to_i, # 利用していないので出力しない
+      # 医療政策室: row['医療政策室'].to_i, # 利用していないので出力しない
       小計: row['小計'].to_i,
     }
   )
@@ -409,7 +409,7 @@ POSITIVE_RATE.each do |row|
     {
       diagnosed_date: Time.parse(row['diagnosed_date']).iso8601,
       positive_count: row['positive_count'].blank? ? nil : row['positive_count'].to_i,
-      negative_count: row['negative_count'].blank? ? nil : row['negative_count'].to_i,
+      # negative_count: row['negative_count'].blank? ? nil : row['negative_count'].to_i, # 利用していないので出力しない
       pcr_positive_count: row['pcr_positive_count'].blank? ? nil : row['pcr_positive_count'].to_i,
       antigen_positive_count: row['antigen_positive_count'].blank? ? nil : row['antigen_positive_count'].to_i,
       pcr_negative_count: row['pcr_negative_count'].blank? ? nil : row['pcr_negative_count'].to_i,
@@ -474,7 +474,7 @@ HOSPITALIZED_NUMBERS.each do |row|
       hospital: row['入院'].to_i,
       hotel: row['宿泊療養'].to_i,
       hospitalized: row['入院'].to_i + row['宿泊療養'].to_i,
-      severe_case: row['重症'].to_i,
+      # severe_case: row['重症'].to_i, # 利用していないので出力しない
     }
   )
 end
