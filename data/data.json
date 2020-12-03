@@ -1,6 +1,6 @@
 {
   "contacts": {
-    "date": "2020/12/03 07:02",
+    "date": "2020/12/03 13:09",
     "data": [
       {
         "日付": "2020-02-15T00:00:00+09:00",
@@ -1117,7 +1117,7 @@
     ]
   },
   "querents": {
-    "date": "2020/12/03 07:02",
+    "date": "2020/12/03 13:09",
     "data": [
       {
         "日付": "2020-02-15T00:00:00+09:00",
@@ -2234,7 +2234,7 @@
     ]
   },
   "patients": {
-    "date": "2020/12/03 07:02",
+    "date": "2020/12/03 13:09",
     "data": [
       {
         "id": 1,
@@ -2245,7 +2245,8 @@
         "年代": "40代",
         "居住地": "盛岡市",
         "date": "2020-07-29",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1032218.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1032218.html",
+        "会見": "https://www.youtube.com/watch?v=jieVMzuMnIA"
       },
       {
         "id": 2,
@@ -2256,7 +2257,8 @@
         "年代": "30代",
         "居住地": "宮古市",
         "date": "2020-07-29",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1032440.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1032440.html",
+        "会見": "https://www.youtube.com/watch?v=sONjK7u1Pak"
       },
       {
         "id": 3,
@@ -2267,7 +2269,8 @@
         "年代": "40代",
         "居住地": "矢巾町",
         "date": "2020-07-30",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1032495.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1032495.html",
+        "会見": null
       },
       {
         "id": 4,
@@ -2278,7 +2281,8 @@
         "年代": "40代",
         "居住地": "北上市",
         "date": "2020-07-31",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1032537.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1032537.html",
+        "会見": null
       },
       {
         "id": 5,
@@ -2289,7 +2293,8 @@
         "年代": "40代",
         "居住地": "雫石町",
         "date": "2020-08-05",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1032570.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1032570.html",
+        "会見": null
       },
       {
         "id": 6,
@@ -2300,7 +2305,8 @@
         "年代": "20代",
         "居住地": "久慈市",
         "date": "2020-08-06",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1032659.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1032659.html",
+        "会見": null
       },
       {
         "id": 7,
@@ -2311,7 +2317,8 @@
         "年代": "10歳未満",
         "居住地": "久慈市",
         "date": "2020-08-07",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1032689.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1032689.html",
+        "会見": null
       },
       {
         "id": 8,
@@ -2322,7 +2329,8 @@
         "年代": "50代",
         "居住地": "久慈市",
         "date": "2020-08-13",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1032735.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1032735.html",
+        "会見": null
       },
       {
         "id": 9,
@@ -2333,7 +2341,8 @@
         "年代": "60代",
         "居住地": "久慈市",
         "date": "2020-08-16",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1032752.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1032752.html",
+        "会見": null
       },
       {
         "id": 10,
@@ -2344,7 +2353,8 @@
         "年代": "40代",
         "居住地": "盛岡市",
         "date": "2020-08-19",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1032358.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1032358.html",
+        "会見": null
       },
       {
         "id": 11,
@@ -2355,7 +2365,8 @@
         "年代": "40代",
         "居住地": "盛岡市",
         "date": "2020-08-20",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1032364.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1032364.html",
+        "会見": null
       },
       {
         "id": 12,
@@ -2366,7 +2377,8 @@
         "年代": "50代",
         "居住地": "久慈市",
         "date": "2020-08-23",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1032759.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1032759.html",
+        "会見": null
       },
       {
         "id": 13,
@@ -2377,7 +2389,8 @@
         "年代": "20代",
         "居住地": "盛岡市",
         "date": "2020-08-25",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1032417.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1032417.html",
+        "会見": null
       },
       {
         "id": 14,
@@ -2388,7 +2401,8 @@
         "年代": "20代",
         "居住地": "盛岡市",
         "date": "2020-08-26",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1032421.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1032421.html",
+        "会見": "https://www.youtube.com/watch?v=jDf4Bjuz2v8"
       },
       {
         "id": 15,
@@ -2399,7 +2413,8 @@
         "年代": "20代",
         "居住地": "遠野市",
         "date": "2020-08-26",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1032918.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1032918.html",
+        "会見": "https://www.youtube.com/watch?v=jDf4Bjuz2v8"
       },
       {
         "id": 16,
@@ -2410,7 +2425,8 @@
         "年代": "30代",
         "居住地": "遠野市",
         "date": "2020-08-26",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1032999.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1032999.html",
+        "会見": "https://www.youtube.com/watch?v=jDf4Bjuz2v8"
       },
       {
         "id": 17,
@@ -2421,7 +2437,8 @@
         "年代": "10歳未満",
         "居住地": "遠野市",
         "date": "2020-08-26",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1033000.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1033000.html",
+        "会見": "https://www.youtube.com/watch?v=jDf4Bjuz2v8"
       },
       {
         "id": 18,
@@ -2432,7 +2449,8 @@
         "年代": "60代",
         "居住地": "遠野市",
         "date": "2020-08-26",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1033001.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1033001.html",
+        "会見": "https://www.youtube.com/watch?v=jDf4Bjuz2v8"
       },
       {
         "id": 19,
@@ -2443,7 +2461,8 @@
         "年代": "60代",
         "居住地": "遠野市",
         "date": "2020-08-26",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1033002.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1033002.html",
+        "会見": "https://www.youtube.com/watch?v=jDf4Bjuz2v8"
       },
       {
         "id": 20,
@@ -2454,7 +2473,8 @@
         "年代": "20代",
         "居住地": "奥州市",
         "date": "2020-09-01",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1033003.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1033003.html",
+        "会見": "https://www.youtube.com/watch?v=8aK6E_S77BE"
       },
       {
         "id": 21,
@@ -2465,7 +2485,8 @@
         "年代": "20代",
         "居住地": "奥州市",
         "date": "2020-09-01",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1033202.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1033202.html",
+        "会見": "https://www.youtube.com/watch?v=8aK6E_S77BE"
       },
       {
         "id": 22,
@@ -2476,7 +2497,8 @@
         "年代": "40代",
         "居住地": "奥州市",
         "date": "2020-09-01",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1033203.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1033203.html",
+        "会見": "https://www.youtube.com/watch?v=8aK6E_S77BE"
       },
       {
         "id": 23,
@@ -2487,7 +2509,8 @@
         "年代": "40代",
         "居住地": "奥州市",
         "date": "2020-09-04",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1033197.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1033197.html",
+        "会見": "https://www.youtube.com/watch?v=D8pU6igSRs8"
       },
       {
         "id": 24,
@@ -2498,7 +2521,8 @@
         "年代": "20代",
         "居住地": "滝沢市",
         "date": "2020-10-03",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1033298.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1033298.html",
+        "会見": null
       },
       {
         "id": 25,
@@ -2509,7 +2533,8 @@
         "年代": "40代",
         "居住地": "盛岡市",
         "date": "2020-10-13",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1032774.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1032774.html",
+        "会見": "https://www.youtube.com/watch?v=pX6-f4TcDp0"
       },
       {
         "id": 26,
@@ -2520,7 +2545,8 @@
         "年代": "20代",
         "居住地": "県外",
         "date": "2020-10-15",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1032806.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1032806.html",
+        "会見": "https://www.youtube.com/watch?v=I-T_bUpoLqs"
       },
       {
         "id": 27,
@@ -2531,7 +2557,8 @@
         "年代": "30代",
         "居住地": "盛岡市",
         "date": "2020-10-23",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1032861.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1032861.html",
+        "会見": null
       },
       {
         "id": 28,
@@ -2542,7 +2569,8 @@
         "年代": "50代",
         "居住地": "一関市",
         "date": "2020-11-03",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034511.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034511.html",
+        "会見": null
       },
       {
         "id": 29,
@@ -2553,7 +2581,8 @@
         "年代": "20代",
         "居住地": "盛岡市",
         "date": "2020-11-03",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1032951.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1032951.html",
+        "会見": "https://www.youtube.com/watch?v=ZT8v2u4ZNPs"
       },
       {
         "id": 30,
@@ -2564,7 +2593,8 @@
         "年代": "20代",
         "居住地": "盛岡市",
         "date": "2020-11-06",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1032972.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1032972.html",
+        "会見": null
       },
       {
         "id": 31,
@@ -2575,7 +2605,8 @@
         "年代": "40代",
         "居住地": "盛岡市",
         "date": "2020-11-09",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1032979.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1032979.html",
+        "会見": "https://www.youtube.com/watch?v=fSBa6psuzXk"
       },
       {
         "id": 32,
@@ -2586,7 +2617,8 @@
         "年代": "30代",
         "居住地": "盛岡市",
         "date": "2020-11-10",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1032999.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1032999.html",
+        "会見": "https://www.youtube.com/watch?v=1T9JsT-ajhc"
       },
       {
         "id": 33,
@@ -2597,7 +2629,8 @@
         "年代": "40代",
         "居住地": "盛岡市",
         "date": "2020-11-10",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033000.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033000.html",
+        "会見": "https://www.youtube.com/watch?v=1T9JsT-ajhc"
       },
       {
         "id": 34,
@@ -2608,7 +2641,8 @@
         "年代": "40代",
         "居住地": "盛岡市",
         "date": "2020-11-11",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033003.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033003.html",
+        "会見": null
       },
       {
         "id": 35,
@@ -2619,7 +2653,8 @@
         "年代": "30代",
         "居住地": "盛岡市",
         "date": "2020-11-11",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033004.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033004.html",
+        "会見": null
       },
       {
         "id": 36,
@@ -2630,7 +2665,8 @@
         "年代": "20代",
         "居住地": "盛岡市",
         "date": "2020-11-11",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033005.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033005.html",
+        "会見": null
       },
       {
         "id": 37,
@@ -2641,7 +2677,8 @@
         "年代": "20代",
         "居住地": "滝沢市",
         "date": "2020-11-11",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034628.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034628.html",
+        "会見": null
       },
       {
         "id": 38,
@@ -2652,7 +2689,8 @@
         "年代": "20代",
         "居住地": "久慈市",
         "date": "2020-11-11",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034626.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034626.html",
+        "会見": "https://www.youtube.com/watch?v=WiRQAaUdli8"
       },
       {
         "id": 39,
@@ -2663,7 +2701,8 @@
         "年代": "60代",
         "居住地": "盛岡市",
         "date": "2020-11-11",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033006.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033006.html",
+        "会見": null
       },
       {
         "id": 40,
@@ -2674,7 +2713,8 @@
         "年代": "40代",
         "居住地": "盛岡市",
         "date": "2020-11-11",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033007.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033007.html",
+        "会見": null
       },
       {
         "id": 41,
@@ -2685,7 +2725,8 @@
         "年代": "50代",
         "居住地": "盛岡市",
         "date": "2020-11-11",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033008.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033008.html",
+        "会見": null
       },
       {
         "id": 42,
@@ -2696,7 +2737,8 @@
         "年代": "50代",
         "居住地": "盛岡市",
         "date": "2020-11-12",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033014.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033014.html",
+        "会見": null
       },
       {
         "id": 43,
@@ -2707,7 +2749,8 @@
         "年代": "60代",
         "居住地": "盛岡市",
         "date": "2020-11-12",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033030.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033030.html",
+        "会見": "https://www.youtube.com/watch?v=8IkCe27e6eI"
       },
       {
         "id": 44,
@@ -2718,7 +2761,8 @@
         "年代": "50代",
         "居住地": "滝沢市",
         "date": "2020-11-12",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034663.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034663.html",
+        "会見": "https://www.youtube.com/watch?v=8IkCe27e6eI"
       },
       {
         "id": 45,
@@ -2729,7 +2773,8 @@
         "年代": "50代",
         "居住地": "滝沢市",
         "date": "2020-11-12",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034664.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034664.html",
+        "会見": "https://www.youtube.com/watch?v=8IkCe27e6eI"
       },
       {
         "id": 46,
@@ -2740,7 +2785,8 @@
         "年代": "20代",
         "居住地": "滝沢市",
         "date": "2020-11-12",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034665.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034665.html",
+        "会見": "https://www.youtube.com/watch?v=8IkCe27e6eI"
       },
       {
         "id": 47,
@@ -2751,7 +2797,8 @@
         "年代": "20代",
         "居住地": "久慈市",
         "date": "2020-11-12",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034666.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034666.html",
+        "会見": "https://www.youtube.com/watch?v=8IkCe27e6eI"
       },
       {
         "id": 48,
@@ -2762,7 +2809,8 @@
         "年代": "20代",
         "居住地": "久慈市",
         "date": "2020-11-12",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034667.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034667.html",
+        "会見": "https://www.youtube.com/watch?v=8IkCe27e6eI"
       },
       {
         "id": 49,
@@ -2773,7 +2821,8 @@
         "年代": "50代",
         "居住地": "滝沢市",
         "date": "2020-11-12",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034668.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034668.html",
+        "会見": "https://www.youtube.com/watch?v=8IkCe27e6eI"
       },
       {
         "id": 50,
@@ -2784,7 +2833,8 @@
         "年代": "40代",
         "居住地": "滝沢市",
         "date": "2020-11-12",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034669.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034669.html",
+        "会見": "https://www.youtube.com/watch?v=8IkCe27e6eI"
       },
       {
         "id": 51,
@@ -2795,7 +2845,8 @@
         "年代": "10歳未満",
         "居住地": "滝沢市",
         "date": "2020-11-12",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034670.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034670.html",
+        "会見": "https://www.youtube.com/watch?v=8IkCe27e6eI"
       },
       {
         "id": 52,
@@ -2806,7 +2857,8 @@
         "年代": "40代",
         "居住地": "盛岡市",
         "date": "2020-11-13",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033031.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033031.html",
+        "会見": "https://www.youtube.com/watch?v=Fp9LK7rVdDY"
       },
       {
         "id": 53,
@@ -2817,7 +2869,8 @@
         "年代": "50代",
         "居住地": "盛岡市",
         "date": "2020-11-13",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033032.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033032.html",
+        "会見": "https://www.youtube.com/watch?v=Fp9LK7rVdDY"
       },
       {
         "id": 54,
@@ -2828,7 +2881,8 @@
         "年代": "20代",
         "居住地": "盛岡市",
         "date": "2020-11-13",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033033.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033033.html",
+        "会見": "https://www.youtube.com/watch?v=Fp9LK7rVdDY"
       },
       {
         "id": 55,
@@ -2839,7 +2893,8 @@
         "年代": "30代",
         "居住地": "盛岡市",
         "date": "2020-11-13",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033034.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033034.html",
+        "会見": "https://www.youtube.com/watch?v=Fp9LK7rVdDY"
       },
       {
         "id": 56,
@@ -2850,7 +2905,8 @@
         "年代": "20代",
         "居住地": "矢巾町",
         "date": "2020-11-13",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034680.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034680.html",
+        "会見": "https://www.youtube.com/watch?v=Fp9LK7rVdDY"
       },
       {
         "id": 57,
@@ -2861,7 +2917,8 @@
         "年代": "20代",
         "居住地": "宮古市",
         "date": "2020-11-13",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034681.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034681.html",
+        "会見": "https://www.youtube.com/watch?v=Fp9LK7rVdDY"
       },
       {
         "id": 58,
@@ -2872,7 +2929,8 @@
         "年代": "20代",
         "居住地": "大船渡市",
         "date": "2020-11-13",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034683.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034683.html",
+        "会見": "https://www.youtube.com/watch?v=jG6QepPFQwE"
       },
       {
         "id": 59,
@@ -2883,7 +2941,8 @@
         "年代": "40代",
         "居住地": "盛岡市",
         "date": "2020-11-13",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033038.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033038.html",
+        "会見": "https://www.youtube.com/watch?v=jG6QepPFQwE"
       },
       {
         "id": 60,
@@ -2894,7 +2953,8 @@
         "年代": "20代",
         "居住地": "盛岡市",
         "date": "2020-11-13",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033040.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033040.html",
+        "会見": "https://www.youtube.com/watch?v=jG6QepPFQwE"
       },
       {
         "id": 61,
@@ -2905,7 +2965,8 @@
         "年代": "50代",
         "居住地": "盛岡市",
         "date": "2020-11-13",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033041.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033041.html",
+        "会見": "https://www.youtube.com/watch?v=jG6QepPFQwE"
       },
       {
         "id": 62,
@@ -2916,7 +2977,8 @@
         "年代": "30代",
         "居住地": "盛岡市",
         "date": "2020-11-13",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033043.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033043.html",
+        "会見": "https://www.youtube.com/watch?v=jG6QepPFQwE"
       },
       {
         "id": 63,
@@ -2927,7 +2989,8 @@
         "年代": "60代",
         "居住地": "盛岡市",
         "date": "2020-11-13",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033042.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033042.html",
+        "会見": "https://www.youtube.com/watch?v=jG6QepPFQwE"
       },
       {
         "id": 64,
@@ -2938,7 +3001,8 @@
         "年代": "60代",
         "居住地": "盛岡市",
         "date": "2020-11-13",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033039.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033039.html",
+        "会見": "https://www.youtube.com/watch?v=jG6QepPFQwE"
       },
       {
         "id": 65,
@@ -2949,7 +3013,8 @@
         "年代": "60代",
         "居住地": "盛岡市",
         "date": "2020-11-14",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033044.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033044.html",
+        "会見": null
       },
       {
         "id": 66,
@@ -2960,7 +3025,8 @@
         "年代": "20代",
         "居住地": "盛岡市",
         "date": "2020-11-14",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033045.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033045.html",
+        "会見": null
       },
       {
         "id": 67,
@@ -2971,7 +3037,8 @@
         "年代": "50代",
         "居住地": "滝沢市",
         "date": "2020-11-14",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034684.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034684.html",
+        "会見": null
       },
       {
         "id": 68,
@@ -2982,7 +3049,8 @@
         "年代": "20代",
         "居住地": "宮古市",
         "date": "2020-11-14",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034685.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034685.html",
+        "会見": null
       },
       {
         "id": 69,
@@ -2993,7 +3061,8 @@
         "年代": "30代",
         "居住地": "雫石町",
         "date": "2020-11-14",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034686.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034686.html",
+        "会見": null
       },
       {
         "id": 70,
@@ -3004,7 +3073,8 @@
         "年代": "20代",
         "居住地": "宮古市",
         "date": "2020-11-15",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034687.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034687.html",
+        "会見": "https://www.youtube.com/watch?v=WHk0AnqAHK4"
       },
       {
         "id": 71,
@@ -3015,7 +3085,8 @@
         "年代": "30代",
         "居住地": "宮古市",
         "date": "2020-11-15",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034688.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034688.html",
+        "会見": "https://www.youtube.com/watch?v=WHk0AnqAHK4"
       },
       {
         "id": 72,
@@ -3026,7 +3097,8 @@
         "年代": "20代",
         "居住地": "宮古市",
         "date": "2020-11-15",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034689.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034689.html",
+        "会見": "https://www.youtube.com/watch?v=WHk0AnqAHK4"
       },
       {
         "id": 73,
@@ -3037,7 +3109,8 @@
         "年代": "50代",
         "居住地": "盛岡市",
         "date": "2020-11-15",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033049.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033049.html",
+        "会見": "https://www.youtube.com/watch?v=WHk0AnqAHK4"
       },
       {
         "id": 74,
@@ -3048,7 +3121,8 @@
         "年代": "60代",
         "居住地": "盛岡市",
         "date": "2020-11-15",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033051.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033051.html",
+        "会見": "https://www.youtube.com/watch?v=WHk0AnqAHK4"
       },
       {
         "id": 75,
@@ -3059,7 +3133,8 @@
         "年代": "20代",
         "居住地": "盛岡市",
         "date": "2020-11-15",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033052.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033052.html",
+        "会見": "https://www.youtube.com/watch?v=WHk0AnqAHK4"
       },
       {
         "id": 76,
@@ -3070,7 +3145,8 @@
         "年代": "20代",
         "居住地": "盛岡市",
         "date": "2020-11-16",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033057.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033057.html",
+        "会見": "https://www.youtube.com/watch?v=dOcHFv9jNX0"
       },
       {
         "id": 77,
@@ -3081,7 +3157,8 @@
         "年代": "50代",
         "居住地": "盛岡市",
         "date": "2020-11-16",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033058.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033058.html",
+        "会見": "https://www.youtube.com/watch?v=dOcHFv9jNX0"
       },
       {
         "id": 78,
@@ -3092,7 +3169,8 @@
         "年代": "70代",
         "居住地": "宮古市",
         "date": "2020-11-17",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034751.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034751.html",
+        "会見": "https://www.youtube.com/watch?v=dOcHFv9jNX0"
       },
       {
         "id": 79,
@@ -3103,7 +3181,8 @@
         "年代": "50代",
         "居住地": "宮古市",
         "date": "2020-11-17",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034752.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1029635/1034752.html",
+        "会見": "https://www.youtube.com/watch?v=dOcHFv9jNX0"
       },
       {
         "id": 80,
@@ -3114,7 +3193,8 @@
         "年代": "50代",
         "居住地": "葛巻町",
         "date": "2020-11-17",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034802.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034802.html",
+        "会見": "https://www.youtube.com/watch?v=LfB4bg4wgnY"
       },
       {
         "id": 81,
@@ -3125,7 +3205,8 @@
         "年代": "80代",
         "居住地": "滝沢市",
         "date": "2020-11-17",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034803.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034803.html",
+        "会見": "https://www.youtube.com/watch?v=LfB4bg4wgnY"
       },
       {
         "id": 82,
@@ -3136,7 +3217,8 @@
         "年代": "40代",
         "居住地": "矢巾町",
         "date": "2020-11-17",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034804.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034804.html",
+        "会見": "https://www.youtube.com/watch?v=LfB4bg4wgnY"
       },
       {
         "id": 83,
@@ -3147,7 +3229,8 @@
         "年代": "80代",
         "居住地": "滝沢市",
         "date": "2020-11-17",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034805.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034805.html",
+        "会見": "https://www.youtube.com/watch?v=LfB4bg4wgnY"
       },
       {
         "id": 84,
@@ -3158,7 +3241,8 @@
         "年代": "90代",
         "居住地": "滝沢市",
         "date": "2020-11-17",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034807.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034807.html",
+        "会見": "https://www.youtube.com/watch?v=LfB4bg4wgnY"
       },
       {
         "id": 85,
@@ -3169,7 +3253,8 @@
         "年代": "40代",
         "居住地": "盛岡市",
         "date": "2020-11-17",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033062.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033062.html",
+        "会見": "https://www.youtube.com/watch?v=LfB4bg4wgnY"
       },
       {
         "id": 86,
@@ -3180,7 +3265,8 @@
         "年代": "40代",
         "居住地": "盛岡市",
         "date": "2020-11-17",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033063.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033063.html",
+        "会見": "https://www.youtube.com/watch?v=LfB4bg4wgnY"
       },
       {
         "id": 87,
@@ -3191,7 +3277,8 @@
         "年代": "70代",
         "居住地": "盛岡市",
         "date": "2020-11-18",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033064.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033064.html",
+        "会見": "https://www.youtube.com/watch?v=LfB4bg4wgnY"
       },
       {
         "id": 88,
@@ -3202,7 +3289,8 @@
         "年代": "60代",
         "居住地": "盛岡市",
         "date": "2020-11-18",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033065.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033065.html",
+        "会見": "https://www.youtube.com/watch?v=LfB4bg4wgnY"
       },
       {
         "id": 89,
@@ -3213,7 +3301,8 @@
         "年代": "30代",
         "居住地": "宮古市",
         "date": "2020-11-18",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034808.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034808.html",
+        "会見": "https://www.youtube.com/watch?v=LfB4bg4wgnY"
       },
       {
         "id": 90,
@@ -3224,7 +3313,8 @@
         "年代": "40代",
         "居住地": "盛岡市",
         "date": "2020-11-18",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033067.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033067.html",
+        "会見": "https://www.youtube.com/watch?v=aqMIv1Vt0eE"
       },
       {
         "id": 91,
@@ -3235,7 +3325,8 @@
         "年代": "20代",
         "居住地": "盛岡市",
         "date": "2020-11-18",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033068.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033068.html",
+        "会見": "https://www.youtube.com/watch?v=aqMIv1Vt0eE"
       },
       {
         "id": 92,
@@ -3246,7 +3337,8 @@
         "年代": "50代",
         "居住地": "滝沢市",
         "date": "2020-11-18",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034876.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034876.html",
+        "会見": "https://www.youtube.com/watch?v=aqMIv1Vt0eE"
       },
       {
         "id": 93,
@@ -3257,7 +3349,8 @@
         "年代": "50代",
         "居住地": "滝沢市",
         "date": "2020-11-18",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034878.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034878.html",
+        "会見": "https://www.youtube.com/watch?v=aqMIv1Vt0eE"
       },
       {
         "id": 94,
@@ -3268,7 +3361,8 @@
         "年代": "20代",
         "居住地": "滝沢市",
         "date": "2020-11-18",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034879.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034879.html",
+        "会見": "https://www.youtube.com/watch?v=aqMIv1Vt0eE"
       },
       {
         "id": 95,
@@ -3279,7 +3373,8 @@
         "年代": "50代",
         "居住地": "花巻市",
         "date": "2020-11-18",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034880.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034880.html",
+        "会見": "https://www.youtube.com/watch?v=aqMIv1Vt0eE"
       },
       {
         "id": 96,
@@ -3290,7 +3385,8 @@
         "年代": "50代",
         "居住地": "奥州市",
         "date": "2020-11-18",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034881.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034881.html",
+        "会見": "https://www.youtube.com/watch?v=aqMIv1Vt0eE"
       },
       {
         "id": 97,
@@ -3301,7 +3397,8 @@
         "年代": "50代",
         "居住地": "一関市",
         "date": "2020-11-18",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034883.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034883.html",
+        "会見": "https://www.youtube.com/watch?v=aqMIv1Vt0eE"
       },
       {
         "id": 98,
@@ -3312,7 +3409,8 @@
         "年代": "70代",
         "居住地": "盛岡市",
         "date": "2020-11-19",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033075.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033075.html",
+        "会見": "https://www.youtube.com/watch?v=3fW7iHhhEOA"
       },
       {
         "id": 99,
@@ -3323,7 +3421,8 @@
         "年代": "50代",
         "居住地": "盛岡市",
         "date": "2020-11-19",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033076.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033076.html",
+        "会見": "https://www.youtube.com/watch?v=3fW7iHhhEOA"
       },
       {
         "id": 100,
@@ -3334,7 +3433,8 @@
         "年代": "40代",
         "居住地": "盛岡市",
         "date": "2020-11-19",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033077.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033077.html",
+        "会見": "https://www.youtube.com/watch?v=3fW7iHhhEOA"
       },
       {
         "id": 101,
@@ -3345,7 +3445,8 @@
         "年代": "20代",
         "居住地": "盛岡市",
         "date": "2020-11-19",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033078.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033078.html",
+        "会見": "https://www.youtube.com/watch?v=3fW7iHhhEOA"
       },
       {
         "id": 102,
@@ -3356,7 +3457,8 @@
         "年代": "40代",
         "居住地": "紫波町",
         "date": "2020-11-19",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034984.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034984.html",
+        "会見": "https://www.youtube.com/watch?v=3fW7iHhhEOA"
       },
       {
         "id": 103,
@@ -3367,7 +3469,8 @@
         "年代": "40代",
         "居住地": "紫波町",
         "date": "2020-11-19",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034986.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034986.html",
+        "会見": "https://www.youtube.com/watch?v=3fW7iHhhEOA"
       },
       {
         "id": 104,
@@ -3378,7 +3481,8 @@
         "年代": "30代",
         "居住地": "雫石町",
         "date": "2020-11-19",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034987.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034987.html",
+        "会見": "https://www.youtube.com/watch?v=3fW7iHhhEOA"
       },
       {
         "id": 105,
@@ -3389,7 +3493,8 @@
         "年代": "40代",
         "居住地": "矢巾町",
         "date": "2020-11-19",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034991.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034991.html",
+        "会見": "https://www.youtube.com/watch?v=3fW7iHhhEOA"
       },
       {
         "id": 106,
@@ -3400,7 +3505,8 @@
         "年代": "40代",
         "居住地": "花巻市",
         "date": "2020-11-19",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034992.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034992.html",
+        "会見": "https://www.youtube.com/watch?v=3fW7iHhhEOA"
       },
       {
         "id": 107,
@@ -3411,7 +3517,8 @@
         "年代": "20代",
         "居住地": "花巻市",
         "date": "2020-11-19",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034993.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034993.html",
+        "会見": "https://www.youtube.com/watch?v=3fW7iHhhEOA"
       },
       {
         "id": 108,
@@ -3422,7 +3529,8 @@
         "年代": "50代",
         "居住地": "住田町",
         "date": "2020-11-19",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034994.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034994.html",
+        "会見": "https://www.youtube.com/watch?v=3fW7iHhhEOA"
       },
       {
         "id": 109,
@@ -3433,7 +3541,8 @@
         "年代": "20代",
         "居住地": "釜石市",
         "date": "2020-11-19",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034996.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034996.html",
+        "会見": "https://www.youtube.com/watch?v=3fW7iHhhEOA"
       },
       {
         "id": 110,
@@ -3444,7 +3553,8 @@
         "年代": "20代",
         "居住地": "釜石市",
         "date": "2020-11-19",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034997.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034997.html",
+        "会見": "https://www.youtube.com/watch?v=3fW7iHhhEOA"
       },
       {
         "id": 111,
@@ -3455,7 +3565,8 @@
         "年代": "30代",
         "居住地": "宮古市",
         "date": "2020-11-19",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034998.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034998.html",
+        "会見": "https://www.youtube.com/watch?v=3fW7iHhhEOA"
       },
       {
         "id": 112,
@@ -3466,7 +3577,8 @@
         "年代": "60代",
         "居住地": "宮古市",
         "date": "2020-11-19",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034999.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1034999.html",
+        "会見": "https://www.youtube.com/watch?v=3fW7iHhhEOA"
       },
       {
         "id": 113,
@@ -3477,7 +3589,8 @@
         "年代": "80代",
         "居住地": "盛岡市",
         "date": "2020-11-20",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033083.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033083.html",
+        "会見": null
       },
       {
         "id": 114,
@@ -3488,7 +3601,8 @@
         "年代": "70代",
         "居住地": "盛岡市",
         "date": "2020-11-20",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033084.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033084.html",
+        "会見": "https://www.youtube.com/watch?v=LVTbKfbYIng"
       },
       {
         "id": 115,
@@ -3499,7 +3613,8 @@
         "年代": "50代",
         "居住地": "盛岡市",
         "date": "2020-11-20",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033086.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033086.html",
+        "会見": "https://www.youtube.com/watch?v=LVTbKfbYIng"
       },
       {
         "id": 116,
@@ -3510,7 +3625,8 @@
         "年代": "50代",
         "居住地": "盛岡市",
         "date": "2020-11-20",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033088.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033088.html",
+        "会見": "https://www.youtube.com/watch?v=LVTbKfbYIng"
       },
       {
         "id": 117,
@@ -3521,7 +3637,8 @@
         "年代": "10代",
         "居住地": "盛岡市",
         "date": "2020-11-20",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033091.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033091.html",
+        "会見": "https://www.youtube.com/watch?v=LVTbKfbYIng"
       },
       {
         "id": 118,
@@ -3532,7 +3649,8 @@
         "年代": "30代",
         "居住地": "盛岡市",
         "date": "2020-11-20",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033090.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033090.html",
+        "会見": "https://www.youtube.com/watch?v=LVTbKfbYIng"
       },
       {
         "id": 119,
@@ -3543,7 +3661,8 @@
         "年代": "60代",
         "居住地": "盛岡市",
         "date": "2020-11-20",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033089.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033089.html",
+        "会見": "https://www.youtube.com/watch?v=LVTbKfbYIng"
       },
       {
         "id": 120,
@@ -3554,7 +3673,8 @@
         "年代": "20代",
         "居住地": "盛岡市",
         "date": "2020-11-20",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033087.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033087.html",
+        "会見": "https://www.youtube.com/watch?v=LVTbKfbYIng"
       },
       {
         "id": 121,
@@ -3565,7 +3685,8 @@
         "年代": "70代",
         "居住地": "紫波町",
         "date": "2020-11-20",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035005.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035005.html",
+        "会見": "https://www.youtube.com/watch?v=LVTbKfbYIng"
       },
       {
         "id": 122,
@@ -3576,7 +3697,8 @@
         "年代": "30代",
         "居住地": "矢巾町",
         "date": "2020-11-20",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035006.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035006.html",
+        "会見": "https://www.youtube.com/watch?v=LVTbKfbYIng"
       },
       {
         "id": 123,
@@ -3587,7 +3709,8 @@
         "年代": "10歳未満",
         "居住地": "矢巾町",
         "date": "2020-11-20",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035007.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035007.html",
+        "会見": "https://www.youtube.com/watch?v=LVTbKfbYIng"
       },
       {
         "id": 124,
@@ -3598,7 +3721,8 @@
         "年代": "70代",
         "居住地": "宮古市",
         "date": "2020-11-20",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035008.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035008.html",
+        "会見": "https://www.youtube.com/watch?v=LVTbKfbYIng"
       },
       {
         "id": 125,
@@ -3609,7 +3733,8 @@
         "年代": "60代",
         "居住地": "宮古市",
         "date": "2020-11-20",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035009.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035009.html",
+        "会見": "https://www.youtube.com/watch?v=LVTbKfbYIng"
       },
       {
         "id": 126,
@@ -3620,7 +3745,8 @@
         "年代": "90代",
         "居住地": "洋野町",
         "date": "2020-11-20",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035010.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035010.html",
+        "会見": "https://www.youtube.com/watch?v=LVTbKfbYIng"
       },
       {
         "id": 127,
@@ -3631,7 +3757,8 @@
         "年代": "40代",
         "居住地": "盛岡市",
         "date": "2020-11-20",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033085.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033085.html",
+        "会見": "https://www.youtube.com/watch?v=LVTbKfbYIng"
       },
       {
         "id": 128,
@@ -3642,7 +3769,8 @@
         "年代": "50代",
         "居住地": "盛岡市",
         "date": "2020-11-21",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033096.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033096.html",
+        "会見": null
       },
       {
         "id": 129,
@@ -3653,7 +3781,8 @@
         "年代": "60代",
         "居住地": "盛岡市",
         "date": "2020-11-21",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033097.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033097.html",
+        "会見": null
       },
       {
         "id": 130,
@@ -3664,7 +3793,8 @@
         "年代": "70代",
         "居住地": "盛岡市",
         "date": "2020-11-21",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033098.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033098.html",
+        "会見": null
       },
       {
         "id": 131,
@@ -3675,7 +3805,8 @@
         "年代": "50代",
         "居住地": "盛岡市",
         "date": "2020-11-21",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033099.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033099.html",
+        "会見": null
       },
       {
         "id": 132,
@@ -3686,7 +3817,8 @@
         "年代": "10歳未満",
         "居住地": "宮古市",
         "date": "2020-11-21",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035013.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035013.html",
+        "会見": null
       },
       {
         "id": 133,
@@ -3697,7 +3829,8 @@
         "年代": "70代",
         "居住地": "宮古市",
         "date": "2020-11-21",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035014.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035014.html",
+        "会見": null
       },
       {
         "id": 134,
@@ -3708,7 +3841,8 @@
         "年代": "80代",
         "居住地": "花巻市",
         "date": "2020-11-21",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035015.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035015.html",
+        "会見": null
       },
       {
         "id": 135,
@@ -3719,7 +3853,8 @@
         "年代": "30代",
         "居住地": "洋野町",
         "date": "2020-11-21",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035016.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035016.html",
+        "会見": null
       },
       {
         "id": 136,
@@ -3730,7 +3865,8 @@
         "年代": "40代",
         "居住地": "洋野町",
         "date": "2020-11-21",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035017.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035017.html",
+        "会見": null
       },
       {
         "id": 137,
@@ -3741,7 +3877,8 @@
         "年代": "80代",
         "居住地": "洋野町",
         "date": "2020-11-21",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035018.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035018.html",
+        "会見": null
       },
       {
         "id": 138,
@@ -3752,7 +3889,8 @@
         "年代": "40代",
         "居住地": "矢巾町",
         "date": "2020-11-22",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035019.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035019.html",
+        "会見": "https://www.youtube.com/watch?v=Ld4EyTpy0gI"
       },
       {
         "id": 139,
@@ -3763,7 +3901,8 @@
         "年代": "30代",
         "居住地": "矢巾町",
         "date": "2020-11-22",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035020.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035020.html",
+        "会見": "https://www.youtube.com/watch?v=Ld4EyTpy0gI"
       },
       {
         "id": 140,
@@ -3774,7 +3913,8 @@
         "年代": "50代",
         "居住地": "宮古市",
         "date": "2020-11-22",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035021.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035021.html",
+        "会見": "https://www.youtube.com/watch?v=Ld4EyTpy0gI"
       },
       {
         "id": 141,
@@ -3785,7 +3925,8 @@
         "年代": "60代",
         "居住地": "宮古市",
         "date": "2020-11-22",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035022.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035022.html",
+        "会見": "https://www.youtube.com/watch?v=Ld4EyTpy0gI"
       },
       {
         "id": 142,
@@ -3796,7 +3937,8 @@
         "年代": "20代",
         "居住地": "盛岡市",
         "date": "2020-11-23",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033107.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033107.html",
+        "会見": "https://www.youtube.com/watch?v=dmaJuEZZJ34"
       },
       {
         "id": 143,
@@ -3807,7 +3949,8 @@
         "年代": "40代",
         "居住地": "盛岡市",
         "date": "2020-11-23",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033108.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033108.html",
+        "会見": "https://www.youtube.com/watch?v=dmaJuEZZJ34"
       },
       {
         "id": 144,
@@ -3818,7 +3961,8 @@
         "年代": "50代",
         "居住地": "盛岡市",
         "date": "2020-11-23",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033109.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033109.html",
+        "会見": "https://www.youtube.com/watch?v=dmaJuEZZJ34"
       },
       {
         "id": 145,
@@ -3829,7 +3973,8 @@
         "年代": "40代",
         "居住地": "盛岡市",
         "date": "2020-11-23",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033110.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033110.html",
+        "会見": "https://www.youtube.com/watch?v=dmaJuEZZJ34"
       },
       {
         "id": 146,
@@ -3840,7 +3985,8 @@
         "年代": "30代",
         "居住地": "滝沢市",
         "date": "2020-11-23",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035034.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035034.html",
+        "会見": "https://www.youtube.com/watch?v=dmaJuEZZJ34"
       },
       {
         "id": 147,
@@ -3851,7 +3997,8 @@
         "年代": "80代",
         "居住地": "滝沢市",
         "date": "2020-11-23",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035035.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035035.html",
+        "会見": "https://www.youtube.com/watch?v=dmaJuEZZJ34"
       },
       {
         "id": 148,
@@ -3862,7 +4009,8 @@
         "年代": "40代",
         "居住地": "紫波町",
         "date": "2020-11-23",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035036.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035036.html",
+        "会見": "https://www.youtube.com/watch?v=dmaJuEZZJ34"
       },
       {
         "id": 149,
@@ -3873,7 +4021,8 @@
         "年代": "80代",
         "居住地": "花巻市",
         "date": "2020-11-23",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035037.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035037.html",
+        "会見": "https://www.youtube.com/watch?v=dmaJuEZZJ34"
       },
       {
         "id": 150,
@@ -3884,7 +4033,8 @@
         "年代": "60代",
         "居住地": "宮古市",
         "date": "2020-11-23",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035038.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035038.html",
+        "会見": "https://www.youtube.com/watch?v=dmaJuEZZJ34"
       },
       {
         "id": 151,
@@ -3895,7 +4045,8 @@
         "年代": "50代",
         "居住地": "宮古市",
         "date": "2020-11-23",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035039.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035039.html",
+        "会見": "https://www.youtube.com/watch?v=dmaJuEZZJ34"
       },
       {
         "id": 152,
@@ -3906,7 +4057,8 @@
         "年代": "80代",
         "居住地": "洋野町",
         "date": "2020-11-23",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035040.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035040.html",
+        "会見": "https://www.youtube.com/watch?v=dmaJuEZZJ34"
       },
       {
         "id": 153,
@@ -3917,7 +4069,8 @@
         "年代": "60代",
         "居住地": "洋野町",
         "date": "2020-11-23",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035041.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035041.html",
+        "会見": "https://www.youtube.com/watch?v=dmaJuEZZJ34"
       },
       {
         "id": 154,
@@ -3928,7 +4081,8 @@
         "年代": "50代",
         "居住地": "洋野町",
         "date": "2020-11-23",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035042.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035042.html",
+        "会見": "https://www.youtube.com/watch?v=dmaJuEZZJ34"
       },
       {
         "id": 155,
@@ -3939,7 +4093,8 @@
         "年代": "90代",
         "居住地": "洋野町",
         "date": "2020-11-23",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035043.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035043.html",
+        "会見": "https://www.youtube.com/watch?v=dmaJuEZZJ34"
       },
       {
         "id": 156,
@@ -3950,7 +4105,8 @@
         "年代": "60代",
         "居住地": "盛岡市",
         "date": "2020-11-24",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033115.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033115.html",
+        "会見": "https://www.youtube.com/watch?v=BjYlbtjqleU"
       },
       {
         "id": 157,
@@ -3961,7 +4117,8 @@
         "年代": "30代",
         "居住地": "盛岡市",
         "date": "2020-11-24",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033116.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033116.html",
+        "会見": "https://www.youtube.com/watch?v=BjYlbtjqleU"
       },
       {
         "id": 158,
@@ -3972,7 +4129,8 @@
         "年代": "50代",
         "居住地": "盛岡市",
         "date": "2020-11-24",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033117.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033117.html",
+        "会見": "https://www.youtube.com/watch?v=BjYlbtjqleU"
       },
       {
         "id": 159,
@@ -3983,7 +4141,8 @@
         "年代": "40代",
         "居住地": "宮古市",
         "date": "2020-11-24",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035115.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035115.html",
+        "会見": "https://www.youtube.com/watch?v=BjYlbtjqleU"
       },
       {
         "id": 160,
@@ -3994,7 +4153,8 @@
         "年代": "50代",
         "居住地": "宮古市",
         "date": "2020-11-24",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035116.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035116.html",
+        "会見": "https://www.youtube.com/watch?v=BjYlbtjqleU"
       },
       {
         "id": 161,
@@ -4005,7 +4165,8 @@
         "年代": "80代",
         "居住地": "宮古市",
         "date": "2020-11-24",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035117.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035117.html",
+        "会見": "https://www.youtube.com/watch?v=BjYlbtjqleU"
       },
       {
         "id": 162,
@@ -4016,7 +4177,8 @@
         "年代": "40代",
         "居住地": "県外",
         "date": "2020-11-24",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035118.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035118.html",
+        "会見": "https://www.youtube.com/watch?v=BjYlbtjqleU"
       },
       {
         "id": 163,
@@ -4027,7 +4189,8 @@
         "年代": "10歳未満",
         "居住地": "盛岡市",
         "date": "2020-11-25",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033127.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033127.html",
+        "会見": "https://www.youtube.com/watch?v=Cm3t7tUlJ-g"
       },
       {
         "id": 164,
@@ -4038,7 +4201,8 @@
         "年代": "30代",
         "居住地": "盛岡市",
         "date": "2020-11-25",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033128.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033128.html",
+        "会見": "https://www.youtube.com/watch?v=Cm3t7tUlJ-g"
       },
       {
         "id": 165,
@@ -4049,7 +4213,8 @@
         "年代": "20代",
         "居住地": "盛岡市",
         "date": "2020-11-25",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033129.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033129.html",
+        "会見": "https://www.youtube.com/watch?v=Cm3t7tUlJ-g"
       },
       {
         "id": 166,
@@ -4060,7 +4225,8 @@
         "年代": "50代",
         "居住地": "盛岡市",
         "date": "2020-11-25",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033130.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033130.html",
+        "会見": "https://www.youtube.com/watch?v=Cm3t7tUlJ-g"
       },
       {
         "id": 167,
@@ -4071,7 +4237,8 @@
         "年代": "40代",
         "居住地": "盛岡市",
         "date": "2020-11-25",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033131.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033131.html",
+        "会見": "https://www.youtube.com/watch?v=Cm3t7tUlJ-g"
       },
       {
         "id": 168,
@@ -4082,7 +4249,8 @@
         "年代": "60代",
         "居住地": "盛岡市",
         "date": "2020-11-25",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033132.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033132.html",
+        "会見": "https://www.youtube.com/watch?v=Cm3t7tUlJ-g"
       },
       {
         "id": 169,
@@ -4093,7 +4261,8 @@
         "年代": "30代",
         "居住地": "滝沢市",
         "date": "2020-11-25",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035139.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035139.html",
+        "会見": "https://www.youtube.com/watch?v=Cm3t7tUlJ-g"
       },
       {
         "id": 170,
@@ -4104,7 +4273,8 @@
         "年代": "30代",
         "居住地": "釜石市",
         "date": "2020-11-25",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035140.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035140.html",
+        "会見": "https://www.youtube.com/watch?v=Cm3t7tUlJ-g"
       },
       {
         "id": 171,
@@ -4115,7 +4285,8 @@
         "年代": "50代",
         "居住地": "宮古市",
         "date": "2020-11-25",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035141.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035141.html",
+        "会見": "https://www.youtube.com/watch?v=Cm3t7tUlJ-g"
       },
       {
         "id": 172,
@@ -4126,7 +4297,8 @@
         "年代": "40代",
         "居住地": "宮古市",
         "date": "2020-11-25",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035142.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035142.html",
+        "会見": "https://www.youtube.com/watch?v=Cm3t7tUlJ-g"
       },
       {
         "id": 173,
@@ -4137,7 +4309,8 @@
         "年代": "60代",
         "居住地": "宮古市",
         "date": "2020-11-25",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035143.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035143.html",
+        "会見": "https://www.youtube.com/watch?v=Cm3t7tUlJ-g"
       },
       {
         "id": 174,
@@ -4148,7 +4321,8 @@
         "年代": "60代",
         "居住地": "宮古市",
         "date": "2020-11-25",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035144.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035144.html",
+        "会見": "https://www.youtube.com/watch?v=Cm3t7tUlJ-g"
       },
       {
         "id": 175,
@@ -4159,7 +4333,8 @@
         "年代": "50代",
         "居住地": "宮古市",
         "date": "2020-11-25",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035145.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035145.html",
+        "会見": "https://www.youtube.com/watch?v=Cm3t7tUlJ-g"
       },
       {
         "id": 176,
@@ -4170,7 +4345,8 @@
         "年代": "60代",
         "居住地": "盛岡市",
         "date": "2020-11-26",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033141.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033141.html",
+        "会見": "https://www.youtube.com/watch?v=s0tNhGUQ82c"
       },
       {
         "id": 177,
@@ -4181,7 +4357,8 @@
         "年代": "70代",
         "居住地": "盛岡市",
         "date": "2020-11-26",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033142.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033142.html",
+        "会見": "https://www.youtube.com/watch?v=s0tNhGUQ82c"
       },
       {
         "id": 178,
@@ -4192,7 +4369,8 @@
         "年代": "70代",
         "居住地": "盛岡市",
         "date": "2020-11-26",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033143.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033143.html",
+        "会見": "https://www.youtube.com/watch?v=s0tNhGUQ82c"
       },
       {
         "id": 179,
@@ -4203,7 +4381,8 @@
         "年代": "20代",
         "居住地": "盛岡市",
         "date": "2020-11-26",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033144.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033144.html",
+        "会見": "https://www.youtube.com/watch?v=s0tNhGUQ82c"
       },
       {
         "id": 180,
@@ -4214,7 +4393,8 @@
         "年代": "40代",
         "居住地": "盛岡市",
         "date": "2020-11-27",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033150.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033150.html",
+        "会見": null
       },
       {
         "id": 181,
@@ -4225,7 +4405,8 @@
         "年代": "70代",
         "居住地": "盛岡市",
         "date": "2020-11-27",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033151.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033151.html",
+        "会見": null
       },
       {
         "id": 182,
@@ -4236,7 +4417,8 @@
         "年代": "60代",
         "居住地": "盛岡市",
         "date": "2020-11-27",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033152.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033152.html",
+        "会見": null
       },
       {
         "id": 183,
@@ -4247,7 +4429,8 @@
         "年代": "50代",
         "居住地": "滝沢市",
         "date": "2020-11-27",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035196.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035196.html",
+        "会見": null
       },
       {
         "id": 184,
@@ -4258,7 +4441,8 @@
         "年代": "70代",
         "居住地": "盛岡市",
         "date": "2020-11-28",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033161.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033161.html",
+        "会見": "https://www.youtube.com/watch?v=nSZGsokkLYU"
       },
       {
         "id": 185,
@@ -4269,7 +4453,8 @@
         "年代": "50代",
         "居住地": "盛岡市",
         "date": "2020-11-28",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033160.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033160.html",
+        "会見": "https://www.youtube.com/watch?v=nSZGsokkLYU"
       },
       {
         "id": 186,
@@ -4280,7 +4465,8 @@
         "年代": "50代",
         "居住地": "盛岡市",
         "date": "2020-11-28",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033163.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033163.html",
+        "会見": "https://www.youtube.com/watch?v=nSZGsokkLYU"
       },
       {
         "id": 187,
@@ -4291,7 +4477,8 @@
         "年代": "40代",
         "居住地": "盛岡市",
         "date": "2020-11-28",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033164.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033164.html",
+        "会見": "https://www.youtube.com/watch?v=nSZGsokkLYU"
       },
       {
         "id": 188,
@@ -4302,7 +4489,8 @@
         "年代": "20代",
         "居住地": "盛岡市",
         "date": "2020-11-28",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033167.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033167.html",
+        "会見": "https://www.youtube.com/watch?v=nSZGsokkLYU"
       },
       {
         "id": 189,
@@ -4313,7 +4501,8 @@
         "年代": "70代",
         "居住地": "盛岡市",
         "date": "2020-11-28",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033166.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033166.html",
+        "会見": "https://www.youtube.com/watch?v=nSZGsokkLYU"
       },
       {
         "id": 190,
@@ -4324,7 +4513,8 @@
         "年代": "80代",
         "居住地": "盛岡市",
         "date": "2020-11-28",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033165.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033165.html",
+        "会見": "https://www.youtube.com/watch?v=nSZGsokkLYU"
       },
       {
         "id": 191,
@@ -4335,7 +4525,8 @@
         "年代": "80代",
         "居住地": "滝沢市",
         "date": "2020-11-28",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035197.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035197.html",
+        "会見": "https://www.youtube.com/watch?v=nSZGsokkLYU"
       },
       {
         "id": 192,
@@ -4346,7 +4537,8 @@
         "年代": "50代",
         "居住地": "盛岡市",
         "date": "2020-11-29",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033185.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033185.html",
+        "会見": "https://www.youtube.com/watch?v=XmUqI5SE-bU"
       },
       {
         "id": 193,
@@ -4357,7 +4549,8 @@
         "年代": "40代",
         "居住地": "県外",
         "date": "2020-11-29",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033187.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033187.html",
+        "会見": "https://www.youtube.com/watch?v=XmUqI5SE-bU"
       },
       {
         "id": 194,
@@ -4368,7 +4561,8 @@
         "年代": "10代",
         "居住地": "盛岡市",
         "date": "2020-11-29",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033188.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033188.html",
+        "会見": "https://www.youtube.com/watch?v=XmUqI5SE-bU"
       },
       {
         "id": 195,
@@ -4379,7 +4573,8 @@
         "年代": "20代",
         "居住地": "盛岡市",
         "date": "2020-11-30",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033200.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033200.html",
+        "会見": "https://www.youtube.com/watch?v=LFP-pR5DF8c"
       },
       {
         "id": 196,
@@ -4390,7 +4585,8 @@
         "年代": "40代",
         "居住地": "盛岡市",
         "date": "2020-11-30",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033202.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033202.html",
+        "会見": "https://www.youtube.com/watch?v=LFP-pR5DF8c"
       },
       {
         "id": 197,
@@ -4401,7 +4597,8 @@
         "年代": "70代",
         "居住地": "盛岡市",
         "date": "2020-11-30",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033203.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033203.html",
+        "会見": "https://www.youtube.com/watch?v=LFP-pR5DF8c"
       },
       {
         "id": 198,
@@ -4412,7 +4609,8 @@
         "年代": "60代",
         "居住地": "盛岡市",
         "date": "2020-11-30",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033201.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033201.html",
+        "会見": "https://www.youtube.com/watch?v=LFP-pR5DF8c"
       },
       {
         "id": 199,
@@ -4423,7 +4621,8 @@
         "年代": "70代",
         "居住地": "盛岡市",
         "date": "2020-11-30",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033204.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033204.html",
+        "会見": "https://www.youtube.com/watch?v=LFP-pR5DF8c"
       },
       {
         "id": 200,
@@ -4434,7 +4633,8 @@
         "年代": "50代",
         "居住地": "盛岡市",
         "date": "2020-11-30",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033205.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033205.html",
+        "会見": "https://www.youtube.com/watch?v=LFP-pR5DF8c"
       },
       {
         "id": 201,
@@ -4445,7 +4645,8 @@
         "年代": "60代",
         "居住地": "滝沢市",
         "date": "2020-11-30",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1035205/1035305.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1035205/1035305.html",
+        "会見": "https://www.youtube.com/watch?v=LFP-pR5DF8c"
       },
       {
         "id": 202,
@@ -4456,7 +4657,8 @@
         "年代": "80代",
         "居住地": "滝沢市",
         "date": "2020-11-30",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1035205/1035306.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1035205/1035306.html",
+        "会見": "https://www.youtube.com/watch?v=LFP-pR5DF8c"
       },
       {
         "id": 203,
@@ -4467,7 +4669,8 @@
         "年代": "70代",
         "居住地": "滝沢市",
         "date": "2020-11-30",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1035205/1035307.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1035205/1035307.html",
+        "会見": "https://www.youtube.com/watch?v=LFP-pR5DF8c"
       },
       {
         "id": 204,
@@ -4478,7 +4681,8 @@
         "年代": "70代",
         "居住地": "県内",
         "date": "2020-11-30",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1035205/1035308.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1035205/1035308.html",
+        "会見": "https://www.youtube.com/watch?v=LFP-pR5DF8c"
       },
       {
         "id": 205,
@@ -4489,7 +4693,8 @@
         "年代": "70代",
         "居住地": "盛岡市",
         "date": "2020-12-01",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033213.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033213.html",
+        "会見": "https://www.youtube.com/watch?v=UggvMaGr1GE"
       },
       {
         "id": 206,
@@ -4500,7 +4705,8 @@
         "年代": "10代",
         "居住地": "盛岡市",
         "date": "2020-12-01",
-        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033215.html"
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033215.html",
+        "会見": "https://www.youtube.com/watch?v=UggvMaGr1GE"
       },
       {
         "id": 207,
@@ -4511,7 +4717,8 @@
         "年代": "40代",
         "居住地": "花巻市",
         "date": "2020-12-01",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1035205/1035322.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1035205/1035322.html",
+        "会見": "https://www.youtube.com/watch?v=UggvMaGr1GE"
       },
       {
         "id": 208,
@@ -4522,12 +4729,13 @@
         "年代": "20代",
         "居住地": "洋野町",
         "date": "2020-12-01",
-        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1035205/1035323.html"
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1035205/1035323.html",
+        "会見": "https://www.youtube.com/watch?v=UggvMaGr1GE"
       }
     ]
   },
   "patients_summary": {
-    "date": "2020/12/03 07:02",
+    "date": "2020/12/03 13:09",
     "data": [
       {
         "日付": "2020-02-15T08:00:00+09:00",
@@ -5700,7 +5908,7 @@
     ]
   },
   "inspections_summary": {
-    "date": "2020/12/03 07:02",
+    "date": "2020/12/03 13:09",
     "data": {
       "PCR検査": [
         1,
@@ -6589,10 +6797,10 @@
       "12/01"
     ]
   },
-  "lastUpdate": "2020-12-03 07:02:14 +0900",
+  "lastUpdate": "2020-12-03 13:09:08 +0900",
   "main_summary": {
     "attr": "検査実施件数",
-    "date": "2020/12/03 07:02",
+    "date": "2020/12/03 13:09",
     "value": 9554,
     "children": [
       {
