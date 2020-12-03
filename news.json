@@ -2,6 +2,11 @@
   "newsItems": [
     {
       "date": "2020/12/3",
+      "url": "https://www.kitagin.co.jp/news/download/pdf/20201203_1.pdf",
+      "text": "📄 自主公表（北日本銀行）"
+    },
+    {
+      "date": "",
       "url": "/cards/attributes-of-confirmed-cases/",
       "text": "📺 対応する記者会見へのリンクを個別事例に設置しました"
     },
