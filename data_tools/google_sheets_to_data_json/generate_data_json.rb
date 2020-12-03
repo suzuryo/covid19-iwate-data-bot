@@ -183,6 +183,7 @@ PATIENTS_CSV.each do |row|
       居住地: row['居住地'].blank? ? nil : row['居住地'],
       date: row['陽性確定日'].blank? ? nil : Time.parse(row['陽性確定日']).strftime('%Y-%m-%d'),
       url: row['url'].blank? ? nil : row['url'],
+      会見: row['記者会見1'].blank? ? nil : row['記者会見1'],
     }
   )
 end
