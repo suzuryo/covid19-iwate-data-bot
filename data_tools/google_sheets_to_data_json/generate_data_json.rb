@@ -88,33 +88,33 @@ first_date = Date.new(2020, 2, 15)
 last_date = Date.parse(INSPECTIONS_CSV[-1]['date'])
 data_json = {
   contacts: {
-    date: now.strftime('%Y/%m/%d %H:%M'),
+    date: now.iso8601,
     data: []
   },
   querents: {
-    date: now.strftime('%Y/%m/%d %H:%M'),
+    date: now.iso8601,
     data: []
   },
   patients: {
-    date: now.strftime('%Y/%m/%d %H:%M'),
+    date: now.iso8601,
     data: []
   },
   patients_summary: {
-    date: now.strftime('%Y/%m/%d %H:%M'),
+    date: now.iso8601,
     data: []
   },
   inspections_summary: {
-    date: now.strftime('%Y/%m/%d %H:%M'),
+    date: now.iso8601,
     data: {
       PCR検査: [],
       抗原検査: []
     },
     labels: []
   },
-  lastUpdate: now,
+  lastUpdate: now.iso8601,
   main_summary: {
     attr: '検査実施件数',
-    date: now.strftime('%Y/%m/%d %H:%M'),
+    date: now.iso8601,
     value: 0,
     children: [
       {
@@ -181,7 +181,7 @@ PATIENTS_CSV.each do |row|
       年代: row['年代'].blank? ? nil : row['年代'],
       # 性別: row['性別'].blank? ? nil : row['性別'], # 利用していないので出力しない
       居住地: row['居住地'].blank? ? nil : row['居住地'],
-      date: row['陽性確定日'].blank? ? nil : Time.parse(row['陽性確定日']).strftime('%Y-%m-%d'),
+      date: row['陽性確定日'].blank? ? nil : Time.parse(row['陽性確定日']).iso8601,
       url: row['url'].blank? ? nil : row['url'],
       会見: row['記者会見1'].blank? ? nil : row['記者会見1'],
     }
@@ -310,9 +310,9 @@ end
 # data.patient_municipalities.json
 ######################################################################
 data_patient_municipalities_json = {
-  date: now.strftime('%Y/%m/%d %H:%M'),
+  date: now.iso8601,
   datasets: {
-    date: now.strftime('%Y/%m/%d %H:%M'),
+    date: now.iso8601,
     data: []
   }
 }
@@ -339,7 +339,7 @@ end
 # positive_by_diagnosed.json
 ######################################################################
 data_positive_by_diagnosed_json = {
-  date: now.strftime('%Y/%m/%d %H:%M'),
+  date: now.iso8601,
   data: []
 }
 
@@ -368,7 +368,7 @@ end
 # data_daily_positive_detail.json
 ######################################################################
 data_daily_positive_detail_json = {
-  date: now.strftime('%Y/%m/%d %H:%M'),
+  date: now.iso8601,
   data: []
 }
 
@@ -397,7 +397,7 @@ end
 # positive_rate.json
 ######################################################################
 data_positive_rate_json = {
-  date: now.strftime('%Y/%m/%d %H:%M'),
+  date: now.iso8601,
   data: []
 }
 
@@ -426,7 +426,7 @@ end
 # positive_status.json
 ######################################################################
 data_positive_status_json = {
-  date: now.strftime('%Y/%m/%d %H:%M'),
+  date: now.iso8601,
   data: []
 }
 
@@ -461,7 +461,7 @@ data_positive_status_json = {
 #
 #   data_positive_status_json[:data].append(
 #     {
-#       "date": date.strftime('%Y/%m/%d'),
+#       "date": date.iso8601,
 #       "hospitalized": hospitalized_sum,
 #       "severe_case": nil # SevereCaseCard.vue を使っていないので未使用
 #     }
