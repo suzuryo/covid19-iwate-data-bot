@@ -1,17 +1,17 @@
 {
   "newsItems": [
     {
-      "date": "2020/12/2",
-      "url": "https://www.youtube.com/watch?v=UggvMaGr1GE",
-      "text": "📺 記者会見 (2020/12/02 事例205-208)"
-    },
-    {
-      "date": "2020/12/1",
-      "url": "https://www.youtube.com/watch?v=LFP-pR5DF8c",
-      "text": "📺 記者会見 (2020/12/01 事例195-204)"
+      "date": "2020/12/3",
+      "url": "https://www.kitagin.co.jp/news/download/pdf/20201203_1.pdf",
+      "text": "📄 自主公表（北日本銀行） "
     },
     {
       "date": "",
+      "url": "/cards/attributes-of-confirmed-cases/",
+      "text": "📺 対応する記者会見へのリンクを個別事例に設置しました"
+    },
+    {
+      "date": "2020/12/2",
       "url": "https://chuo-hp.jp/covid/",
       "text": "📄 自主公表（岩手県立中央病院）"
     },
@@ -21,19 +21,9 @@
       "text": "📄 自主公表（松園第一病院）"
     },
     {
-      "date": "2020/11/30",
-      "url": "https://www.youtube.com/watch?v=XmUqI5SE-bU",
-      "text": "📺 記者会見 (2020/11/30 事例192-194)"
-    },
-    {
       "date": "2020/11/29",
       "url": "https://www.youtube.com/watch?v=ewGUZq-Ku-c",
       "text": "📺 記者会見 (2020/11/29 盛岡市保健所 矢野所長 メッセージ)"
-    },
-    {
-      "date": "",
-      "url": "https://www.youtube.com/watch?v=nSZGsokkLYU",
-      "text": "📺 記者会見 (2020/11/29 事例184-191)"
     },
     {
       "date": "2020/11/28",
@@ -44,16 +34,6 @@
       "date": "",
       "url": "https://www.tvi.jp/tviweb/oshirase1201",
       "text": "📄 自主公表（テレビ岩手）"
-    },
-    {
-      "date": "2020/11/27",
-      "url": "https://www.youtube.com/watch?v=s0tNhGUQ82c",
-      "text": "📺 記者会見 (2020/11/27 事例176-179)"
-    },
-    {
-      "date": "2020/11/26",
-      "url": "https://www.youtube.com/watch?v=Cm3t7tUlJ-g",
-      "text": "📺 記者会見 (2020/11/26 事例163-175)"
     },
     {
       "date": "2020/11/24",
