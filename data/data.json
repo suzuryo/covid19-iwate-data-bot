@@ -1,6 +1,6 @@
 {
   "contacts": {
-    "date": "2020-12-05T15:48:20+09:00",
+    "date": "2020-12-05T19:00:04+09:00",
     "data": [
       {
         "日付": "2020-02-15T00:00:00+09:00",
@@ -1173,7 +1173,7 @@
     ]
   },
   "querents": {
-    "date": "2020-12-05T15:48:20+09:00",
+    "date": "2020-12-05T19:00:04+09:00",
     "data": [
       {
         "日付": "2020-02-15T00:00:00+09:00",
@@ -2346,7 +2346,7 @@
     ]
   },
   "patients": {
-    "date": "2020-12-05T15:48:20+09:00",
+    "date": "2020-12-05T19:00:04+09:00",
     "data": [
       {
         "id": 1,
@@ -3714,7 +3714,7 @@
         "居住地": "盛岡市",
         "date": "2020-11-20T00:00:00+09:00",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033084.html",
-        "会見": "https://www.youtube.com/watch?v=LVTbKfbYIng"
+        "会見": null
       },
       {
         "id": 115,
@@ -3726,7 +3726,7 @@
         "居住地": "盛岡市",
         "date": "2020-11-20T00:00:00+09:00",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033086.html",
-        "会見": "https://www.youtube.com/watch?v=LVTbKfbYIng"
+        "会見": null
       },
       {
         "id": 116,
@@ -3738,7 +3738,7 @@
         "居住地": "盛岡市",
         "date": "2020-11-20T00:00:00+09:00",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033088.html",
-        "会見": "https://www.youtube.com/watch?v=LVTbKfbYIng"
+        "会見": null
       },
       {
         "id": 117,
@@ -3750,7 +3750,7 @@
         "居住地": "盛岡市",
         "date": "2020-11-20T00:00:00+09:00",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033091.html",
-        "会見": "https://www.youtube.com/watch?v=LVTbKfbYIng"
+        "会見": null
       },
       {
         "id": 118,
@@ -3762,7 +3762,7 @@
         "居住地": "盛岡市",
         "date": "2020-11-20T00:00:00+09:00",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033090.html",
-        "会見": "https://www.youtube.com/watch?v=LVTbKfbYIng"
+        "会見": null
       },
       {
         "id": 119,
@@ -3774,7 +3774,7 @@
         "居住地": "盛岡市",
         "date": "2020-11-20T00:00:00+09:00",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033089.html",
-        "会見": "https://www.youtube.com/watch?v=LVTbKfbYIng"
+        "会見": null
       },
       {
         "id": 120,
@@ -3786,7 +3786,7 @@
         "居住地": "盛岡市",
         "date": "2020-11-20T00:00:00+09:00",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033087.html",
-        "会見": "https://www.youtube.com/watch?v=LVTbKfbYIng"
+        "会見": null
       },
       {
         "id": 121,
@@ -3798,7 +3798,7 @@
         "居住地": "紫波町",
         "date": "2020-11-20T00:00:00+09:00",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035005.html",
-        "会見": "https://www.youtube.com/watch?v=LVTbKfbYIng"
+        "会見": null
       },
       {
         "id": 122,
@@ -3810,7 +3810,7 @@
         "居住地": "矢巾町",
         "date": "2020-11-20T00:00:00+09:00",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035006.html",
-        "会見": "https://www.youtube.com/watch?v=LVTbKfbYIng"
+        "会見": null
       },
       {
         "id": 123,
@@ -3822,7 +3822,7 @@
         "居住地": "矢巾町",
         "date": "2020-11-20T00:00:00+09:00",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035007.html",
-        "会見": "https://www.youtube.com/watch?v=LVTbKfbYIng"
+        "会見": null
       },
       {
         "id": 124,
@@ -3834,7 +3834,7 @@
         "居住地": "宮古市",
         "date": "2020-11-20T00:00:00+09:00",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035008.html",
-        "会見": "https://www.youtube.com/watch?v=LVTbKfbYIng"
+        "会見": null
       },
       {
         "id": 125,
@@ -3846,7 +3846,7 @@
         "居住地": "宮古市",
         "date": "2020-11-20T00:00:00+09:00",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035009.html",
-        "会見": "https://www.youtube.com/watch?v=LVTbKfbYIng"
+        "会見": null
       },
       {
         "id": 126,
@@ -3858,7 +3858,7 @@
         "居住地": "洋野町",
         "date": "2020-11-20T00:00:00+09:00",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1034904/1035010.html",
-        "会見": "https://www.youtube.com/watch?v=LVTbKfbYIng"
+        "会見": null
       },
       {
         "id": 127,
@@ -3870,7 +3870,7 @@
         "居住地": "盛岡市",
         "date": "2020-11-20T00:00:00+09:00",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033085.html",
-        "会見": "https://www.youtube.com/watch?v=LVTbKfbYIng"
+        "会見": null
       },
       {
         "id": 128,
@@ -4913,19 +4913,19 @@
         "年代": "50代",
         "居住地": "盛岡市",
         "date": "2020-12-04T00:00:00+09:00",
-        "url": null,
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033306.html",
         "会見": null
       },
       {
         "id": 215,
         "陽性確定日": "2020-12-04T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2020-12-04T00:00:00+09:00",
         "無症状病原体保有者": false,
         "通番": "事例0215",
         "年代": "40代",
         "居住地": "盛岡市",
         "date": "2020-12-04T00:00:00+09:00",
-        "url": null,
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033307.html",
         "会見": null
       },
       {
@@ -4937,7 +4937,7 @@
         "年代": "60代",
         "居住地": "盛岡市",
         "date": "2020-12-04T00:00:00+09:00",
-        "url": null,
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033308.html",
         "会見": null
       },
       {
@@ -4949,7 +4949,7 @@
         "年代": "60代",
         "居住地": "盛岡市",
         "date": "2020-12-04T00:00:00+09:00",
-        "url": null,
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033309.html",
         "会見": null
       },
       {
@@ -4961,7 +4961,7 @@
         "年代": "70代",
         "居住地": "盛岡市",
         "date": "2020-12-04T00:00:00+09:00",
-        "url": null,
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033310.html",
         "会見": null
       },
       {
@@ -4973,25 +4973,25 @@
         "年代": "70代",
         "居住地": "盛岡市",
         "date": "2020-12-04T00:00:00+09:00",
-        "url": null,
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1033311.html",
         "会見": null
       },
       {
         "id": 220,
         "陽性確定日": "2020-12-04T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2020-12-01T00:00:00+09:00",
         "無症状病原体保有者": false,
         "通番": "事例0220",
         "年代": "60代",
         "居住地": "岩手町",
         "date": "2020-12-04T00:00:00+09:00",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1035205/1035382.html",
         "会見": null
       }
     ]
   },
   "patients_summary": {
-    "date": "2020-12-05T15:48:20+09:00",
+    "date": "2020-12-05T19:00:04+09:00",
     "data": [
       {
         "日付": "2020-02-15T08:00:00+09:00",
@@ -6176,7 +6176,7 @@
     ]
   },
   "inspections_summary": {
-    "date": "2020-12-05T15:48:20+09:00",
+    "date": "2020-12-05T19:00:04+09:00",
     "data": {
       "PCR検査": [
         1,
@@ -7074,10 +7074,10 @@
       "12/04"
     ]
   },
-  "lastUpdate": "2020-12-05T15:48:20+09:00",
+  "lastUpdate": "2020-12-05T19:00:04+09:00",
   "main_summary": {
     "attr": "検査実施件数",
-    "date": "2020-12-05T15:48:20+09:00",
+    "date": "2020-12-05T19:00:04+09:00",
     "value": 9982,
     "children": [
       {
