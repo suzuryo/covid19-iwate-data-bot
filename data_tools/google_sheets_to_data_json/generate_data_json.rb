@@ -411,7 +411,7 @@ POSITIVE_BY_DIAGNOSED.each do |row|
       untracked_percent: nil, # 未使用
       weekly_average_count: row['weekly_average_count'].blank? ? nil : row['weekly_average_count'].to_f,
       weekly_average_untracked_count: row['weekly_average_untracked_count'].blank? ? nil : row['weekly_average_untracked_count'].to_f,
-      weekly_average_untracked_increse_percent: row['weekly_average_untracked_increse_percent'].blank? ? nil : row['weekly_average_untracked_increse_percent'].to_i
+      weekly_average_untracked_increse_percent: row['weekly_average_untracked_increse_percent'].blank? ? nil : row['weekly_average_untracked_increse_percent'].to_f
     }
   )
 end
