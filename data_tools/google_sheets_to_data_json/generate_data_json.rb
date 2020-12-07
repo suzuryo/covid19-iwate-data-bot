@@ -177,7 +177,7 @@ PATIENTS_CSV.each do |row|
       # リリース日: row['リリース日'].blank? ? nil : Time.parse(row['リリース日']).iso8601, # 利用していないので出力しない
       陽性確定日: row['陽性確定日'].blank? ? nil : Time.parse(row['陽性確定日']).iso8601,
       発症日: row['発症日'].blank? ? nil : Time.parse(row['発症日']).iso8601,
-      無症状病原体保有者: row['無症状病原体保有者'] === '無症状病原体保有者' ? true : false,
+      無症状病原体保有者: row['無症状病原体保有者'] == '無症状病原体保有者' ? true : false,
       通番: row['通番'].blank? ? nil : row['通番'],
       年代: row['年代'].blank? ? nil : row['年代'],
       # 性別: row['性別'].blank? ? nil : row['性別'], # 利用していないので出力しない
@@ -227,7 +227,7 @@ patients_summary_last_date = if last_date > Date.parse(PATIENTS_CSV[-1]['リリ�
 (first_date..patients_summary_last_date).each do |date|
   output_patients_sum = 0
   PATIENTS_CSV.each do |row|
-    if row['リリース日'] === date.strftime('%Y/%m/%d')
+    if row['リリース日'] == date.strftime('%Y/%m/%d')
       output_patients_sum += 1
     end
   end
@@ -374,7 +374,7 @@ data_positive_by_diagnosed_json = {
 (first_date..last_date).each do |date|
   positive_by_diagnosed_sum = 0
   PATIENTS_CSV.each do |row|
-    if row['陽性確定日'] === date.strftime('%Y/%m/%d')
+    if row['陽性確定日'] == date.strftime('%Y/%m/%d')
       positive_by_diagnosed_sum += 1
     end
   end
