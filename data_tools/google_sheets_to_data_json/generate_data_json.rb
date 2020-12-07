@@ -194,35 +194,15 @@ end
 # patients_summary の生成
 ######################################################################
 # データ最終日は検査結果の最終日 last_date が基本だけど、
-# 陽性者数が先に発表されて、検査結果数が後に発表された場合もケアする
+# 当日のデータ発表後のビルドは Date.today
 
-# if 検査結果最終日 > 陽性者リスト最終日            # 陽性者がいない
-#   return 検査結果最終日
-# elsif 検査結果最終日 < 陽性者リスト最終日         # 陽性者が発表されたけど検査結果がまだ公表されていない
-#   return 陽性者リストの最終日
-# else                                        # 発表された or まだ発表されていない
-#   if 検査結果最終日 === 昨日                     # 今日の発表があった
-#     今日
-#   elsif 検査結果最終日 < 昨日                    # 今日の発表がまだ
-#     検査最終日
-#   else                                        # 検査最終日が昨日より新しい
-#     エラー
-#   end
-# end
-
-patients_summary_last_date = if last_date > Date.parse(PATIENTS_CSV[-1]['リリース日'])
-                               last_date
-                             elsif last_date < Date.parse(PATIENTS_CSV[-1]['リリース日'])
-                               Date.parse(PATIENTS_CSV[-1]['リリース日'])
-                             else
-                               if last_date === Date.yesterday
-                                 Date.today
-                               elsif last_date < Date.yesterday
-                                 last_date
-                               else
-                                 raise
-                               end
-                             end
+patients_summary_last_date = if last_date == Date.yesterday
+  # その日の検査件数が発表後
+  Date.today
+else
+  # その日の検査件数が発表前
+  last_date
+end
 
 (first_date..patients_summary_last_date).each do |date|
   output_patients_sum = 0
