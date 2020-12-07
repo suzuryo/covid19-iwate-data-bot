@@ -85,8 +85,6 @@ raise if NEWS.empty?
 now = Time.now
 # データの最初の日
 first_date = Date.new(2020, 2, 15)
-# データの最後の日は、基本的に検査結果の最新日時
-last_date = Date.parse(INSPECTIONS_CSV[-1]['date'])
 data_json = {
   contacts: {
     date: now.iso8601,
@@ -193,16 +191,9 @@ end
 # data.json
 # patients_summary の生成
 ######################################################################
-# データ最終日は検査結果の最終日 last_date が基本だけど、
-# 当日のデータ発表後のビルドは Date.today
 
-patients_summary_last_date = if last_date == Date.yesterday
-  # その日の検査件数が発表後
-  Date.today
-else
-  # その日の検査件数が発表前
-  last_date
-end
+# データ最終日は検査結果の最終日が基本だけど、 当日のデータ発表後は Date.today
+patients_summary_last_date = Date.parse(INSPECTIONS_CSV[-1]['date']) == Date.yesterday ? Date.today : Date.yesterday
 
 (first_date..patients_summary_last_date).each do |date|
   output_patients_sum = 0
@@ -351,7 +342,7 @@ data_positive_by_diagnosed_json = {
 # positive_by_diagnosed.json
 # data の生成
 ######################################################################
-(first_date..last_date).each do |date|
+(first_date..Date.parse(INSPECTIONS_CSV[-1]['date'])).each do |date|
   positive_by_diagnosed_sum = 0
   PATIENTS_CSV.each do |row|
     if row['陽性確定日'] == date.strftime('%Y/%m/%d')
