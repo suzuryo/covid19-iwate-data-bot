@@ -1,6 +1,6 @@
 {
   "contacts": {
-    "date": "2020-12-11T17:05:16+09:00",
+    "date": "2020-12-11T22:01:23+09:00",
     "data": [
       {
         "日付": "2020-02-15T00:00:00+09:00",
@@ -1197,7 +1197,7 @@
     ]
   },
   "querents": {
-    "date": "2020-12-11T17:05:16+09:00",
+    "date": "2020-12-11T22:01:23+09:00",
     "data": [
       {
         "日付": "2020-02-15T00:00:00+09:00",
@@ -2394,7 +2394,7 @@
     ]
   },
   "patients": {
-    "date": "2020-12-11T17:05:16+09:00",
+    "date": "2020-12-11T22:01:23+09:00",
     "data": [
       {
         "id": 1,
@@ -5249,7 +5249,7 @@
         "年代": "30代",
         "居住地": "八幡平市",
         "date": "2020-12-10T00:00:00+09:00",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1035205/1035541.html",
         "会見": "https://www.youtube.com/watch?v=6w0RSzfJKo0"
       },
       {
@@ -5261,7 +5261,7 @@
         "年代": "40代",
         "居住地": "滝沢市",
         "date": "2020-12-10T00:00:00+09:00",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1035205/1035542.html",
         "会見": "https://www.youtube.com/watch?v=6w0RSzfJKo0"
       },
       {
@@ -5273,7 +5273,7 @@
         "年代": "20代",
         "居住地": "滝沢市",
         "date": "2020-12-10T00:00:00+09:00",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1035205/1035543.html",
         "会見": "https://www.youtube.com/watch?v=6w0RSzfJKo0"
       },
       {
@@ -5285,7 +5285,7 @@
         "年代": "30代",
         "居住地": "滝沢市",
         "date": "2020-12-10T00:00:00+09:00",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1035205/1035544.html",
         "会見": "https://www.youtube.com/watch?v=6w0RSzfJKo0"
       },
       {
@@ -5297,7 +5297,7 @@
         "年代": "20代",
         "居住地": "滝沢市",
         "date": "2020-12-10T00:00:00+09:00",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1035205/1035545.html",
         "会見": "https://www.youtube.com/watch?v=6w0RSzfJKo0"
       },
       {
@@ -5309,7 +5309,7 @@
         "年代": "20代",
         "居住地": "滝沢市",
         "date": "2020-12-10T00:00:00+09:00",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1035205/1035546.html",
         "会見": "https://www.youtube.com/watch?v=6w0RSzfJKo0"
       },
       {
@@ -5321,7 +5321,7 @@
         "年代": "30代",
         "居住地": "滝沢市",
         "date": "2020-12-10T00:00:00+09:00",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1035205/1035547.html",
         "会見": "https://www.youtube.com/watch?v=6w0RSzfJKo0"
       },
       {
@@ -5333,7 +5333,7 @@
         "年代": "30代",
         "居住地": "雫石町",
         "date": "2020-12-10T00:00:00+09:00",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1035205/1035548.html",
         "会見": "https://www.youtube.com/watch?v=6w0RSzfJKo0"
       },
       {
@@ -5345,7 +5345,7 @@
         "年代": "30代",
         "居住地": "雫石町",
         "date": "2020-12-10T00:00:00+09:00",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1035205/1035549.html",
         "会見": "https://www.youtube.com/watch?v=6w0RSzfJKo0"
       },
       {
@@ -5357,7 +5357,7 @@
         "年代": "50代",
         "居住地": "雫石町",
         "date": "2020-12-10T00:00:00+09:00",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1035205/1035550.html",
         "会見": "https://www.youtube.com/watch?v=6w0RSzfJKo0"
       },
       {
@@ -5369,7 +5369,7 @@
         "年代": "40代",
         "居住地": "雫石町",
         "date": "2020-12-10T00:00:00+09:00",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1035205/1035551.html",
         "会見": "https://www.youtube.com/watch?v=6w0RSzfJKo0"
       },
       {
@@ -5381,7 +5381,7 @@
         "年代": "40代",
         "居住地": "雫石町",
         "date": "2020-12-10T00:00:00+09:00",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1035205/1035552.html",
         "会見": "https://www.youtube.com/watch?v=6w0RSzfJKo0"
       },
       {
@@ -5393,7 +5393,7 @@
         "年代": "70代",
         "居住地": "雫石町",
         "date": "2020-12-10T00:00:00+09:00",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1035205/1035553.html",
         "会見": "https://www.youtube.com/watch?v=6w0RSzfJKo0"
       },
       {
@@ -5405,7 +5405,7 @@
         "年代": "60代",
         "居住地": "雫石町",
         "date": "2020-12-10T00:00:00+09:00",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1035205/1035554.html",
         "会見": "https://www.youtube.com/watch?v=6w0RSzfJKo0"
       },
       {
@@ -5417,13 +5417,13 @@
         "年代": "30代",
         "居住地": "西和賀町",
         "date": "2020-12-10T00:00:00+09:00",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1035205/1035555.html",
         "会見": "https://www.youtube.com/watch?v=6w0RSzfJKo0"
       }
     ]
   },
   "patients_summary": {
-    "date": "2020-12-11T17:05:16+09:00",
+    "date": "2020-12-11T22:01:23+09:00",
     "data": [
       {
         "日付": "2020-02-15T08:00:00+09:00",
@@ -6632,7 +6632,7 @@
     ]
   },
   "inspections_summary": {
-    "date": "2020-12-11T17:05:16+09:00",
+    "date": "2020-12-11T22:01:23+09:00",
     "data": {
       "PCR検査": [
         1,
@@ -7548,10 +7548,10 @@
       "12/10"
     ]
   },
-  "lastUpdate": "2020-12-11T17:05:16+09:00",
+  "lastUpdate": "2020-12-11T22:01:23+09:00",
   "main_summary": {
     "attr": "検査実施件数",
-    "date": "2020-12-11T17:05:16+09:00",
+    "date": "2020-12-11T22:01:23+09:00",
     "value": 10535,
     "children": [
       {
