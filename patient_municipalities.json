@@ -1,14 +1,14 @@
 {
-  "date": "2020-12-14T08:42:33+09:00",
+  "date": "2020-12-14T15:15:53+09:00",
   "datasets": {
-    "date": "2020-12-14T08:42:33+09:00",
+    "date": "2020-12-14T15:15:53+09:00",
     "data": [
       {
         "code": "032018",
         "area": "岩手県",
         "label": "盛岡市",
         "ruby": "もりおかし",
-        "count": 128,
+        "count": 129,
         "count_per_population": "0.044"
       },
       {
@@ -32,8 +32,8 @@
         "area": "岩手県",
         "label": "花巻市",
         "ruby": "はなまきし",
-        "count": 8,
-        "count_per_population": "0.009"
+        "count": 11,
+        "count_per_population": "0.012"
       },
       {
         "code": "032069",
