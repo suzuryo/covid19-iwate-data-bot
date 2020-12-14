@@ -176,7 +176,7 @@ PATIENTS_CSV.each do |row|
       陽性確定日: row['陽性確定日'].blank? ? nil : Time.parse(row['陽性確定日']).iso8601,
       発症日: row['発症日'].blank? ? nil : Time.parse(row['発症日']).iso8601,
       無症状病原体保有者: row['無症状病原体保有者'] == '無症状病原体保有者' ? true : false,
-      通番: row['通番'].blank? ? nil : row['通番'],
+      # 通番: row['通番'].blank? ? nil : row['通番'],
       年代: row['年代'].blank? ? nil : row['年代'],
       # 性別: row['性別'].blank? ? nil : row['性別'], # 利用していないので出力しない
       居住地: row['居住地'].blank? ? nil : row['居住地'],
