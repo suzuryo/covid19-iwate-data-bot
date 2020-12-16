@@ -1,7 +1,7 @@
 {
-  "date": "2020-12-15T17:14:33+09:00",
+  "date": "2020-12-16T15:17:25+09:00",
   "datasets": {
-    "date": "2020-12-15T17:14:33+09:00",
+    "date": "2020-12-16T15:17:25+09:00",
     "data": [
       {
         "code": "032018",
@@ -32,8 +32,8 @@
         "area": "岩手県",
         "label": "花巻市",
         "ruby": "はなまきし",
-        "count": 11,
-        "count_per_population": "0.012"
+        "count": 12,
+        "count_per_population": "0.013"
       },
       {
         "code": "032069",
@@ -112,8 +112,8 @@
         "area": "岩手県",
         "label": "滝沢市",
         "ruby": "たきざわし",
-        "count": 30,
-        "count_per_population": "0.054"
+        "count": 31,
+        "count_per_population": "0.055"
       },
       {
         "code": "033014",
@@ -160,8 +160,8 @@
         "area": "岩手県",
         "label": "西和賀町",
         "ruby": "にしわがまち",
-        "count": 1,
-        "count_per_population": "0.020"
+        "count": 2,
+        "count_per_population": "0.039"
       },
       {
         "code": "033812",
