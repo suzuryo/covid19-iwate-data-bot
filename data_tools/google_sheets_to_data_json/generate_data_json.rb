@@ -173,14 +173,13 @@ PATIENTS_CSV.each do |row|
     {
       id: row['id'].to_i,
       # リリース日: row['リリース日'].blank? ? nil : Time.parse(row['リリース日']).iso8601, # 利用していないので出力しない
-      陽性確定日: row['陽性確定日'].blank? ? nil : Time.parse(row['陽性確定日']).iso8601,
+      確定日: row['確定日'].blank? ? nil : Time.parse(row['確定日']).iso8601,
       発症日: row['発症日'].blank? ? nil : Time.parse(row['発症日']).iso8601,
       無症状: row['無症状'] == '無症状' ? true : false,
       # 通番: row['通番'].blank? ? nil : row['通番'],
       年代: row['年代'].blank? ? nil : row['年代'],
       # 性別: row['性別'].blank? ? nil : row['性別'], # 利用していないので出力しない
       居住地: row['居住地'].blank? ? nil : row['居住地'],
-      date: row['陽性確定日'].blank? ? nil : Time.parse(row['陽性確定日']).iso8601,
       url: row['url'].blank? ? nil : row['url'],
       会見: row['記者会見1'].blank? ? nil : row['記者会見1'],
     }
@@ -345,7 +344,7 @@ data_positive_by_diagnosed_json = {
 (first_date..Date.parse(INSPECTIONS_CSV[-1]['date'])).each do |date|
   positive_by_diagnosed_sum = 0
   PATIENTS_CSV.each do |row|
-    if row['陽性確定日'] == date.strftime('%Y/%m/%d')
+    if row['確定日'] == date.strftime('%Y/%m/%d')
       positive_by_diagnosed_sum += 1
     end
   end
