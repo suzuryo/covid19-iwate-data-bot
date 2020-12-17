@@ -173,7 +173,7 @@ PATIENTS_CSV.each do |row|
     {
       id: row['id'].to_i,
       # リリース日: row['リリース日'].blank? ? nil : Time.parse(row['リリース日']).iso8601, # 利用していないので出力しない
-      date: row['確定日'].blank? ? nil : Time.parse(row['確定日']).iso8601,
+      確定日: row['確定日'].blank? ? nil : Time.parse(row['確定日']).iso8601,
       発症日: row['発症日'].blank? ? nil : Time.parse(row['発症日']).iso8601,
       無症状: row['無症状'] == '無症状' ? true : false,
       # 通番: row['通番'].blank? ? nil : row['通番'],
