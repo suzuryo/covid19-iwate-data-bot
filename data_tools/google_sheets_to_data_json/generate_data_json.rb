@@ -53,9 +53,6 @@ SPREADSHEET_ID = '1VjxD8YTwEngvkfYOLD-4JG1tA5AnzTlgnzDO1lkTlNc'
 PATIENTS_CSV = CSV.parse(service.get_spreadsheet_values(SPREADSHEET_ID, 'output_patients').values.map(&:to_csv).join, headers: true)
 raise if PATIENTS_CSV.empty?
 
-INSPECTIONS_CSV = CSV.parse(service.get_spreadsheet_values(SPREADSHEET_ID, 'input_検査件数').values.map(&:to_csv).join, headers: true)
-raise if INSPECTIONS_CSV.empty?
-
 CONTACTS_CSV = CSV.parse(service.get_spreadsheet_values(SPREADSHEET_ID, 'input_受診・相談センター_相談件数').values.map(&:to_csv).join, headers: true)
 raise if CONTACTS_CSV.empty?
 
@@ -101,14 +98,6 @@ data_json = {
   patients_summary: {
     date: now.iso8601,
     data: []
-  },
-  inspections_summary: {
-    date: now.iso8601,
-    data: {
-      PCR検査: [],
-      抗原検査: []
-    },
-    labels: []
   },
   lastUpdate: now.iso8601,
   main_summary: {
@@ -192,7 +181,7 @@ end
 ######################################################################
 
 # データ最終日は検査結果の最終日が基本だけど、 当日のデータ発表後は Date.today
-patients_summary_last_date = Date.parse(INSPECTIONS_CSV[-1]['date']) == Date.yesterday ? Date.today : Date.yesterday
+patients_summary_last_date = Date.parse(POSITIVE_RATE[-1]['diagnosed_date']) == Date.yesterday ? Date.today : Date.yesterday
 
 (first_date..patients_summary_last_date).each do |date|
   output_patients_sum = 0
@@ -212,24 +201,13 @@ end
 
 ######################################################################
 # data.json
-# inspections_summary の生成
-######################################################################
-INSPECTIONS_CSV.each do |row|
-  data_json[:inspections_summary][:data][:PCR検査].append row['PCR検査件数'].to_i
-  data_json[:inspections_summary][:data][:抗原検査].append row['抗原検査件数'].to_i
-  data_json[:inspections_summary][:labels].append Time.parse(row['date']).strftime('%-m/%d')
-end
-
-
-######################################################################
-# data.json
 # main_summary の生成
 ######################################################################
 # 検査実施件数
 inspection_sum = 0
-INSPECTIONS_CSV.each do |row|
-  inspection_sum += row['検査件数合計'].to_i
-end
+POSITIVE_RATE.each do |row|
+  inspection_sum += row['positive_count'].to_i + row['nevative_count'].to_i
+ end
 data_json[:main_summary][:value] = inspection_sum
 
 # 陽性患者数
@@ -341,7 +319,7 @@ data_positive_by_diagnosed_json = {
 # positive_by_diagnosed.json
 # data の生成
 ######################################################################
-(first_date..Date.parse(INSPECTIONS_CSV[-1]['date'])).each do |date|
+(first_date..Date.parse(POSITIVE_RATE[-1]['diagnosed_date'])).each do |date|
   positive_by_diagnosed_sum = 0
   PATIENTS_CSV.each do |row|
     if row['確定日'] == date.strftime('%Y/%m/%d')
