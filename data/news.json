@@ -1,9 +1,14 @@
 {
   "newsItems": [
     {
+      "date": "2020/12/28",
+      "url": "https://www.tohoku-rokin.or.jp/media/files/20201211_covid-19_moriokasiten_rinjikyugyo.pdf",
+      "text": "📄 自主公表 (東北労働金庫 盛岡支店)(2020/12/13)"
+    },
+    {
       "date": "2020/12/25",
       "url": "https://www.city.ichinoseki.iwate.jp/index.cfm/28,127161,c,html/127161/20201225-193150.pdf",
-      "text": "📄 自主公表 (一関市役所 本庁舎)"
+      "text": "📄 自主公表 (一関市役所 本庁舎)(2020/12/25)"
     },
     {
       "date": "",
