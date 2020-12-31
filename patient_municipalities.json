@@ -1,7 +1,7 @@
 {
-  "date": "2020-12-31T15:39:17+09:00",
+  "date": "2020-12-31T15:44:11+09:00",
   "datasets": {
-    "date": "2020-12-31T15:39:17+09:00",
+    "date": "2020-12-31T15:44:11+09:00",
     "data": [
       {
         "code": "032018",
@@ -40,8 +40,8 @@
         "area": "岩手県",
         "label": "北上市",
         "ruby": "きたかみし",
-        "count": 5,
-        "count_per_population": "0.005"
+        "count": 4,
+        "count_per_population": "0.004"
       },
       {
         "code": "032077",
@@ -272,7 +272,7 @@
         "area": "県外",
         "label": "県外",
         "ruby": "けんがい",
-        "count": 4,
+        "count": 5,
         "count_per_population": null
       }
     ]
