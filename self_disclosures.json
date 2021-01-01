@@ -1,0 +1,220 @@
+{
+  "newsItems": [
+    {
+      "date": "2020-12-31T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
+        "ja": "http://www.ohshuku.or.jp/",
+        "en": null
+      },
+      "text": {
+        "ja": "鶯宿温泉病院・介護老人保健施設おうしゅく (第13報)",
+        "en": null
+      }
+    },
+    {
+      "date": "2020-12-28T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
+        "ja": "https://chuo-hp.jp/covid/",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手県立中央病院 (院内感染終息について)",
+        "en": null
+      }
+    },
+    {
+      "date": "2020-12-13T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.tohoku-rokin.or.jp/media/files/20201211_covid-19_moriokasiten_rinjikyugyo.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "東北労働金庫 盛岡支店",
+        "en": null
+      }
+    },
+    {
+      "date": "2020-12-07T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.e-nexco.co.jp/cms_assets/emergency/2020/12/07/9e2426eb1751e3d7cd8727c44efc19aeda36d8eb.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "NEXCO東日本 東北自動車道 長者原SA 上り線",
+        "en": null
+      }
+    },
+    {
+      "date": "2020-12-25T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.city.ichinoseki.iwate.jp/index.cfm/28,127161,c,html/127161/20201225-193150.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "一関市役所 本庁舎",
+        "en": null
+      }
+    },
+    {
+      "date": "2020-12-23T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
+        "ja": "http://www.morioka.jrc.or.jp/news/",
+        "en": null
+      },
+      "text": {
+        "ja": "盛岡赤十字病院 (第7報)",
+        "en": null
+      }
+    },
+    {
+      "date": "2020-12-21T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.san-ai-hos.jp/",
+        "en": null
+      },
+      "text": {
+        "ja": "三愛病院 (第6報)",
+        "en": null
+      }
+    },
+    {
+      "date": "2020-12-03T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.kitagin.co.jp/news/download/pdf/20201203_1.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "北日本銀行 千厩支店",
+        "en": null
+      }
+    },
+    {
+      "date": "2020-11-21T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
+        "ja": "https://usami-net.com/app/information?id=620",
+        "en": null
+      },
+      "text": {
+        "ja": "宇佐美 出光 盛岡流通センター給油所",
+        "en": null
+      }
+    },
+    {
+      "date": "2020-11-24T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.japanpost.jp/information/notices2_list.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "日本郵政 盛岡大通郵便局",
+        "en": null
+      }
+    },
+    {
+      "date": "2020-11-27T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.koseki.co.jp/news/pdf/20201127info.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "コセキ株式会社 盛岡営業所",
+        "en": null
+      }
+    },
+    {
+      "date": "2020-12-03T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.koseki.co.jp/news/pdf/20201203info.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "コセキ株式会社 盛岡営業所 (続報)",
+        "en": null
+      }
+    },
+    {
+      "date": "2020-12-03T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.daily-yamazaki.jp/news/20201203.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "デイリーヤマザキ 盛岡流通センター店",
+        "en": null
+      }
+    },
+    {
+      "date": "2020-11-18T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.kaneko-de-net.com/cms/wp-content/uploads/2020/11/947bf52d59d0ad799f887940ec768a57.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "金子新聞販売株式会社",
+        "en": null
+      }
+    },
+    {
+      "date": "2020-11-19T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.kaneko-de-net.com/cms/wp-content/uploads/2020/11/6b36696c501baf3b4f163e7b0d05fdf0.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "金子新聞販売株式会社 (対応経験から学んだこと)",
+        "en": null
+      }
+    },
+    {
+      "date": "2020-10-15T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.prudential.co.jp/pdf/20201016.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "プルデンシャル生命保険株式会社 盛岡支社",
+        "en": null
+      }
+    },
+    {
+      "date": "2020-12-17T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
+        "ja": "http://www.matsuzono.jp/first_hp_information.html",
+        "en": null
+      },
+      "text": {
+        "ja": "松園第一病院 (第6報)(入院の受け入れ再開について)",
+        "en": null
+      }
+    },
+    {
+      "date": "2020-12-13T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.city.hanamaki.iwate.jp/kenko_iryo_fukushi/oshirase/1013243.html",
+        "en": null
+      },
+      "text": {
+        "ja": "花巻市 大迫総合支所 (更新)",
+        "en": null
+      }
+    }
+  ]
+}
