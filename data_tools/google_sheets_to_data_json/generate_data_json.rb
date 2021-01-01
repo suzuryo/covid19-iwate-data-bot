@@ -74,6 +74,9 @@ raise if HOSPITALIZED_NUMBERS.empty?
 NEWS = CSV.parse(service.get_spreadsheet_values(SPREADSHEET_ID, 'input_news').values.map(&:to_csv).join, headers: true)
 raise if NEWS.empty?
 
+SELF_DISCLOSURES = CSV.parse(service.get_spreadsheet_values(SPREADSHEET_ID, 'input_self_disclosures').values.map(&:to_csv).join, headers: true)
+raise if NEWS.empty?
+
 ######################################################################
 # データ生成 テンプレート
 # data.json
@@ -463,13 +466,44 @@ data_news_json = {
 NEWS.each do |row|
   data_news_json[:newsItems].append(
     {
-      date: row['date'],
-      url: row['url'],
-      text: row['text']
+      date: Time.parse(row['date']).iso8601,
+      icon: row['icon'],
+      url: {
+        ja: row['url_ja'],
+        en: row['url_en']
+      },
+      text: {
+        ja: row['text_ja'],
+        en: row['text_en'],
+      }
     }
   )
 end
 
+######################################################################
+# データ生成 テンプレート
+# self_disclosures.json
+######################################################################
+data_self_disclosures_json = {
+  newsItems: []
+}
+
+SELF_DISCLOSURES.each do |row|
+  data_self_disclosures_json[:newsItems].append(
+    {
+      date: Time.parse(row['date']).iso8601,
+      icon: row['icon'],
+      url: {
+        ja: row['url_ja'],
+        en: row['url_en']
+      },
+      text: {
+        ja: row['text_ja'],
+        en: row['text_en'],
+      }
+    }
+  )
+end
 
 ######################################################################
 # write json
@@ -501,4 +535,8 @@ end
 
 File.open(File.join(__dir__, '../../data/', 'news.json'), 'w') do |f|
   f.write JSON.pretty_generate(data_news_json)
+end
+
+File.open(File.join(__dir__, '../../data/', 'self_disclosures.json'), 'w') do |f|
+  f.write JSON.pretty_generate(data_self_disclosures_json)
 end
