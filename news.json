@@ -1,6 +1,18 @@
 {
   "newsItems": [
     {
+      "date": "2021-01-05T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/covid19-jihikensa_00001.html",
+        "en": null
+      },
+      "text": {
+        "ja": "自費検査を提供する機関一覧(厚生労働省)",
+        "en": null
+      }
+    },
+    {
       "date": "2020-12-30T00:00:00+09:00",
       "icon": "📄",
       "url": {
