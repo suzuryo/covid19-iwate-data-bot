@@ -1,6 +1,6 @@
 {
   "contacts": {
-    "date": "2021-01-08T18:13:38+09:00",
+    "date": "2021-01-08T18:35:38+09:00",
     "data": [
       {
         "日付": "2020-02-15T00:00:00+09:00",
@@ -1257,7 +1257,7 @@
     ]
   },
   "querents": {
-    "date": "2021-01-08T18:13:38+09:00",
+    "date": "2021-01-08T18:35:38+09:00",
     "data": [
       {
         "日付": "2020-02-15T00:00:00+09:00",
@@ -2514,7 +2514,7 @@
     ]
   },
   "patients": {
-    "date": "2021-01-08T18:13:38+09:00",
+    "date": "2021-01-08T18:35:38+09:00",
     "data": [
       {
         "id": 1,
@@ -6579,47 +6579,47 @@
       {
         "id": 407,
         "確定日": "2021-01-07T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-01-07T00:00:00+09:00",
         "無症状": false,
         "年代": "40代",
         "居住地": "北上市",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1035613/1036388.html",
         "会見": "https://www.youtube.com/watch?v=dox8Oi_ImiY"
       },
       {
         "id": 408,
         "確定日": "2021-01-07T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-01-07T00:00:00+09:00",
         "無症状": false,
         "年代": "10歳未満",
         "居住地": "北上市",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1035613/1036389.html",
         "会見": "https://www.youtube.com/watch?v=dox8Oi_ImiY"
       },
       {
         "id": 409,
         "確定日": "2021-01-07T00:00:00+09:00",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "40代",
         "居住地": "北上市",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1035613/1036390.html",
         "会見": "https://www.youtube.com/watch?v=dox8Oi_ImiY"
       },
       {
         "id": 410,
         "確定日": "2021-01-07T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-01-03T00:00:00+09:00",
         "無症状": false,
         "年代": "60代",
         "居住地": "一関市",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1035613/1036391.html",
         "会見": "https://www.youtube.com/watch?v=dox8Oi_ImiY"
       }
     ]
   },
   "patients_summary": {
-    "date": "2021-01-08T18:13:38+09:00",
+    "date": "2021-01-08T18:35:38+09:00",
     "data": [
       {
         "日付": "2020-02-15T08:00:00+09:00",
@@ -7939,10 +7939,10 @@
       }
     ]
   },
-  "lastUpdate": "2021-01-08T18:13:38+09:00",
+  "lastUpdate": "2021-01-08T18:35:38+09:00",
   "main_summary": {
     "attr": "検査実施件数",
-    "date": "2021-01-08T18:13:38+09:00",
+    "date": "2021-01-08T18:35:38+09:00",
     "value": 410,
     "children": [
       {
