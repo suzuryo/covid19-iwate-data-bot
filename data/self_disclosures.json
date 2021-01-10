@@ -13,6 +13,30 @@
       }
     },
     {
+      "date": "2020-08-16T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
+        "ja": "",
+        "en": null
+      },
+      "text": {
+        "ja": "JRバス東北 スワロー号",
+        "en": null
+      }
+    },
+    {
+      "date": "2020-08-21T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.ksdenki.co.jp/kshd/pages/important_notices07.aspx",
+        "en": null
+      },
+      "text": {
+        "ja": "ケーズデンキ盛岡配送センター",
+        "en": null
+      }
+    },
+    {
       "date": "2020-08-26T00:00:00+09:00",
       "icon": "📄",
       "url": {
@@ -104,7 +128,7 @@
         "en": null
       },
       "text": {
-        "ja": "県北広域振興局農政部",
+        "ja": "県農林水産部",
         "en": null
       }
     },
@@ -116,7 +140,7 @@
         "en": null
       },
       "text": {
-        "ja": "県農林水産部",
+        "ja": "県北広域振興局農政部",
         "en": null
       }
     },
@@ -184,11 +208,11 @@
       "date": "2020-11-18T00:00:00+09:00",
       "icon": "📄",
       "url": {
-        "ja": "https://www.kaneko-de-net.com/cms/wp-content/uploads/2020/11/947bf52d59d0ad799f887940ec768a57.pdf",
+        "ja": "",
         "en": null
       },
       "text": {
-        "ja": "金子新聞販売",
+        "ja": "テレビ岩手 盛岡本社",
         "en": null
       }
     },
@@ -196,11 +220,11 @@
       "date": "2020-11-18T00:00:00+09:00",
       "icon": "📄",
       "url": {
-        "ja": "",
+        "ja": "https://www.kaneko-de-net.com/cms/wp-content/uploads/2020/11/947bf52d59d0ad799f887940ec768a57.pdf",
         "en": null
       },
       "text": {
-        "ja": "テレビ岩手 盛岡本社",
+        "ja": "金子新聞販売",
         "en": null
       }
     },
@@ -268,18 +292,6 @@
       "date": "2020-12-03T00:00:00+09:00",
       "icon": "📄",
       "url": {
-        "ja": "https://www.kitagin.co.jp/news/download/pdf/20201203_1.pdf",
-        "en": null
-      },
-      "text": {
-        "ja": "北日本銀行 千厩支店",
-        "en": null
-      }
-    },
-    {
-      "date": "2020-12-03T00:00:00+09:00",
-      "icon": "📄",
-      "url": {
         "ja": "https://www.koseki.co.jp/news/pdf/20201203info.pdf",
         "en": null
       },
@@ -301,6 +313,18 @@
       }
     },
     {
+      "date": "2020-12-03T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.kitagin.co.jp/news/download/pdf/20201203_1.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "北日本銀行 千厩支店",
+        "en": null
+      }
+    },
+    {
       "date": "2020-12-12T00:00:00+09:00",
       "icon": "📄",
       "url": {
@@ -316,11 +340,11 @@
       "date": "2020-12-13T00:00:00+09:00",
       "icon": "📄",
       "url": {
-        "ja": "https://www.tohoku-rokin.or.jp/media/files/20201211_covid-19_moriokasiten_rinjikyugyo.pdf",
+        "ja": "https://www.city.hanamaki.iwate.jp/kenko_iryo_fukushi/oshirase/1013243.html",
         "en": null
       },
       "text": {
-        "ja": "東北労働金庫 盛岡支店",
+        "ja": "花巻市 大迫総合支所 (更新)",
         "en": null
       }
     },
@@ -328,11 +352,11 @@
       "date": "2020-12-13T00:00:00+09:00",
       "icon": "📄",
       "url": {
-        "ja": "https://www.city.hanamaki.iwate.jp/kenko_iryo_fukushi/oshirase/1013243.html",
+        "ja": "https://www.tohoku-rokin.or.jp/media/files/20201211_covid-19_moriokasiten_rinjikyugyo.pdf",
         "en": null
       },
       "text": {
-        "ja": "花巻市 大迫総合支所 (更新)",
+        "ja": "東北労働金庫 盛岡支店",
         "en": null
       }
     },
@@ -388,11 +412,11 @@
       "date": "2021-01-05T00:00:00+09:00",
       "icon": "📄",
       "url": {
-        "ja": "http://www.ohshuku.or.jp/",
+        "ja": "http://www.matsuzono.jp/first_hp_information.html",
         "en": null
       },
       "text": {
-        "ja": "鶯宿温泉病院・介護老人保健施設おうしゅく (第15報)",
+        "ja": "松園第一病院 (入院患者の受入再開について)",
         "en": null
       }
     },
@@ -400,11 +424,11 @@
       "date": "2021-01-05T00:00:00+09:00",
       "icon": "📄",
       "url": {
-        "ja": "http://www.matsuzono.jp/first_hp_information.html",
+        "ja": "http://www.ohshuku.or.jp/",
         "en": null
       },
       "text": {
-        "ja": "松園第一病院 (入院患者の受入再開について)",
+        "ja": "鶯宿温泉病院・介護老人保健施設おうしゅく (第15報)",
         "en": null
       }
     },
