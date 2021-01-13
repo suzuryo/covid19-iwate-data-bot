@@ -1,6 +1,6 @@
 {
   "contacts": {
-    "date": "2021-01-13T15:08:59+09:00",
+    "date": "2021-01-13T15:21:58+09:00",
     "data": [
       {
         "日付": "2020-02-15T00:00:00+09:00",
@@ -1257,7 +1257,7 @@
     ]
   },
   "querents": {
-    "date": "2021-01-13T15:08:59+09:00",
+    "date": "2021-01-13T15:21:58+09:00",
     "data": [
       {
         "日付": "2020-02-15T00:00:00+09:00",
@@ -2514,7 +2514,7 @@
     ]
   },
   "patients": {
-    "date": "2021-01-13T15:08:59+09:00",
+    "date": "2021-01-13T15:21:58+09:00",
     "data": [
       {
         "id": 1,
@@ -6864,7 +6864,7 @@
         "年代": "50代",
         "居住地": "盛岡市",
         "url": null,
-        "会見": null
+        "会見": "https://www.youtube.com/watch?v=LnhO4OtejQc"
       },
       {
         "id": 436,
@@ -6874,7 +6874,7 @@
         "年代": "20代",
         "居住地": "盛岡市",
         "url": null,
-        "会見": null
+        "会見": "https://www.youtube.com/watch?v=LnhO4OtejQc"
       },
       {
         "id": 437,
@@ -6884,7 +6884,7 @@
         "年代": "50代",
         "居住地": "盛岡市",
         "url": null,
-        "会見": null
+        "会見": "https://www.youtube.com/watch?v=LnhO4OtejQc"
       },
       {
         "id": 438,
@@ -6894,7 +6894,7 @@
         "年代": "40代",
         "居住地": "盛岡市",
         "url": null,
-        "会見": null
+        "会見": "https://www.youtube.com/watch?v=LnhO4OtejQc"
       },
       {
         "id": 439,
@@ -6904,7 +6904,7 @@
         "年代": "50代",
         "居住地": "盛岡市",
         "url": null,
-        "会見": null
+        "会見": "https://www.youtube.com/watch?v=LnhO4OtejQc"
       },
       {
         "id": 440,
@@ -6914,7 +6914,7 @@
         "年代": "60代",
         "居住地": "滝沢市",
         "url": null,
-        "会見": null
+        "会見": "https://www.youtube.com/watch?v=LnhO4OtejQc"
       },
       {
         "id": 441,
@@ -6924,7 +6924,7 @@
         "年代": "70代",
         "居住地": "雫石町",
         "url": null,
-        "会見": null
+        "会見": "https://www.youtube.com/watch?v=LnhO4OtejQc"
       },
       {
         "id": 442,
@@ -6934,7 +6934,7 @@
         "年代": "20代",
         "居住地": "北上市",
         "url": null,
-        "会見": null
+        "会見": "https://www.youtube.com/watch?v=LnhO4OtejQc"
       },
       {
         "id": 443,
@@ -6944,7 +6944,7 @@
         "年代": "40代",
         "居住地": "一関市",
         "url": null,
-        "会見": null
+        "会見": "https://www.youtube.com/watch?v=LnhO4OtejQc"
       },
       {
         "id": 444,
@@ -6954,12 +6954,12 @@
         "年代": "50代",
         "居住地": "釜石市",
         "url": null,
-        "会見": null
+        "会見": "https://www.youtube.com/watch?v=LnhO4OtejQc"
       }
     ]
   },
   "patients_summary": {
-    "date": "2021-01-13T15:08:59+09:00",
+    "date": "2021-01-13T15:21:58+09:00",
     "data": [
       {
         "日付": "2020-02-15T08:00:00+09:00",
@@ -8299,10 +8299,10 @@
       }
     ]
   },
-  "lastUpdate": "2021-01-13T15:08:59+09:00",
+  "lastUpdate": "2021-01-13T15:21:58+09:00",
   "main_summary": {
     "attr": "検査実施件数",
-    "date": "2021-01-13T15:08:59+09:00",
+    "date": "2021-01-13T15:21:58+09:00",
     "value": 444,
     "children": [
       {
