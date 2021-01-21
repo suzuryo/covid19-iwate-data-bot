@@ -1,0 +1,28 @@
+{
+  "alertItems": [
+    {
+      "date": "2021-01-20T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
+        "ja": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1033980.html",
+        "en": ""
+      },
+      "text": {
+        "ja": "「理容 いこい」(盛岡市西青山)を1月6日(水)〜1月17日(日)に利用した方は盛岡市保健所(019-603-8308)に連絡を",
+        "en": "Please contact Morioka City Public Health Center (019-603-8308) if you used \"理容 いこい (Barber Ikoi)\" (Nishi Aoyama, Morioka City) from January 6 (Wed.) to January 17 (Sun.)."
+      }
+    },
+    {
+      "date": "2021-01-21T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000164708_00001.html",
+        "en": null
+      },
+      "text": {
+        "ja": "日本国内の累計感染者数は34.7万人、これは盛岡市と宮古市の人口の合計よりも多い",
+        "en": null
+      }
+    }
+  ]
+}
