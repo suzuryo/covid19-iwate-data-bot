@@ -74,6 +74,9 @@ raise if HOSPITALIZED_NUMBERS.empty?
 NEWS = CSV.parse(service.get_spreadsheet_values(SPREADSHEET_ID, 'input_news').values.map(&:to_csv).join, headers: true)
 raise if NEWS.empty?
 
+ALERT = CSV.parse(service.get_spreadsheet_values(SPREADSHEET_ID, 'input_alert').values.map(&:to_csv).join, headers: true)
+raise if ALERT.empty?
+
 SELF_DISCLOSURES = CSV.parse(service.get_spreadsheet_values(SPREADSHEET_ID, 'input_self_disclosures').values.map(&:to_csv).join, headers: true)
 raise if SELF_DISCLOSURES.empty?
 
@@ -482,6 +485,31 @@ end
 
 ######################################################################
 # データ生成 テンプレート
+# alert.json
+######################################################################
+data_alert_json = {
+  alertItems: []
+}
+
+ALERT.each do |row|
+  data_alert_json[:alertItems].append(
+    {
+      date: Time.parse(row['date']).iso8601,
+      icon: row['icon'],
+      url: {
+        ja: row['url_ja'],
+        en: row['url_en']
+      },
+      text: {
+        ja: row['text_ja'],
+        en: row['text_en'],
+      }
+    }
+  )
+end
+
+######################################################################
+# データ生成 テンプレート
 # self_disclosures.json
 ######################################################################
 data_self_disclosures_json = {
@@ -535,6 +563,10 @@ end
 
 File.open(File.join(__dir__, '../../data/', 'news.json'), 'w') do |f|
   f.write JSON.pretty_generate(data_news_json)
+end
+
+File.open(File.join(__dir__, '../../data/', 'alert.json'), 'w') do |f|
+  f.write JSON.pretty_generate(data_alert_json)
 end
 
 File.open(File.join(__dir__, '../../data/', 'self_disclosures.json'), 'w') do |f|
