@@ -75,7 +75,7 @@ NEWS = CSV.parse(service.get_spreadsheet_values(SPREADSHEET_ID, 'input_news').va
 raise if NEWS.empty?
 
 SELF_DISCLOSURES = CSV.parse(service.get_spreadsheet_values(SPREADSHEET_ID, 'input_self_disclosures').values.map(&:to_csv).join, headers: true)
-raise if NEWS.empty?
+raise if SELF_DISCLOSURES.empty?
 
 ######################################################################
 # データ生成 テンプレート
