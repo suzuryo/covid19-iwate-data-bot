@@ -23,9 +23,11 @@ jobs:
           sudo timedatectl set-timezone Asia/Tokyo
       - name: Generate JSON
         run: |
-          echo $CREDENTIALS_JSON | base64 --decode > data_tools/google_sheets_to_data_json/credentials.json
-          echo $TOKEN_YAML | base64 --decode > data_tools/google_sheets_to_data_json/token.yaml
-          ruby data_tools/google_sheets_to_data_json/generate_data_json.rb
+          cd data_tools/google_sheets_to_data_json/
+          bundle install
+          echo $CREDENTIALS_JSON | base64 --decode > credentials.json
+          echo $TOKEN_YAML | base64 --decode > token.yaml
+          ruby generate_data_json.rb
         shell: bash
         env:
           CREDENTIALS_JSON: ${{secrets.CREDENTIALS_JSON}}
