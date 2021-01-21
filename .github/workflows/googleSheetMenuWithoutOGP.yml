@@ -24,7 +24,6 @@ jobs:
       - name: Generate JSON
         run: |
           cd data_tools/google_sheets_to_data_json/
-          bundle install
           echo $CREDENTIALS_JSON | base64 --decode > credentials.json
           echo $TOKEN_YAML | base64 --decode > token.yaml
           ruby generate_data_json.rb
