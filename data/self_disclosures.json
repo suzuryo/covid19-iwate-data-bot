@@ -676,7 +676,19 @@
       "date": "2021-02-03T00:00:00+09:00",
       "icon": "📄",
       "url": {
-        "ja": "https://youtu.be/FSe5uP9tkwg?t=633",
+        "ja": "https://www.city.ofunato.iwate.jp/site/corona/17706.html",
+        "en": null
+      },
+      "text": {
+        "ja": "大船渡市立第一中学校",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-02-14T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.city.ofunato.iwate.jp/site/corona/17706.html",
         "en": null
       },
       "text": {
