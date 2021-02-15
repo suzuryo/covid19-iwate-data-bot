@@ -695,6 +695,18 @@
         "ja": "大船渡市立第一中学校",
         "en": null
       }
+    },
+    {
+      "date": "2021-02-15T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
+        "ja": "http://www.iwatekenkotsu.co.jp/pdf/newsrelease/newsrelease_20210215.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手県交通 大船渡営業所",
+        "en": null
+      }
     }
   ]
 }
