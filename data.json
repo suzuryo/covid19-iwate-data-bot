@@ -1,6 +1,6 @@
 {
   "contacts": {
-    "date": "2021-02-15T15:17:36+09:00",
+    "date": "2021-02-15T16:23:19+09:00",
     "data": [
       {
         "日付": "2020-02-15T00:00:00+09:00",
@@ -1429,7 +1429,7 @@
     ]
   },
   "querents": {
-    "date": "2021-02-15T15:17:36+09:00",
+    "date": "2021-02-15T16:23:19+09:00",
     "data": [
       {
         "日付": "2020-02-15T00:00:00+09:00",
@@ -2858,7 +2858,7 @@
     ]
   },
   "patients": {
-    "date": "2021-02-15T15:17:36+09:00",
+    "date": "2021-02-15T16:23:19+09:00",
     "data": [
       {
         "id": 1,
@@ -8077,7 +8077,7 @@
         "無症状": false,
         "年代": "50代",
         "居住地": "大船渡市",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1036662/1037323.html",
         "会見": "https://www.youtube.com/watch?v=8tlm4Gaft0I"
       },
       {
@@ -8087,7 +8087,7 @@
         "無症状": false,
         "年代": "50代",
         "居住地": "大船渡市",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1036662/1037324.html",
         "会見": "https://www.youtube.com/watch?v=8tlm4Gaft0I"
       },
       {
@@ -8097,13 +8097,13 @@
         "無症状": false,
         "年代": "10代",
         "居住地": "大船渡市",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1036662/1037325.html",
         "会見": "https://www.youtube.com/watch?v=8tlm4Gaft0I"
       }
     ]
   },
   "patients_summary": {
-    "date": "2021-02-15T15:17:36+09:00",
+    "date": "2021-02-15T16:23:19+09:00",
     "data": [
       {
         "日付": "2020-02-15T08:00:00+09:00",
@@ -9575,10 +9575,10 @@
       }
     ]
   },
-  "lastUpdate": "2021-02-15T15:17:36+09:00",
+  "lastUpdate": "2021-02-15T16:23:19+09:00",
   "main_summary": {
     "attr": "検査実施件数",
-    "date": "2021-02-15T15:17:36+09:00",
+    "date": "2021-02-15T16:23:19+09:00",
     "value": 524,
     "children": [
       {
