@@ -1,6 +1,6 @@
 {
   "contacts": {
-    "date": "2021-02-16T15:19:25+09:00",
+    "date": "2021-02-16T16:49:09+09:00",
     "data": [
       {
         "日付": "2020-02-15T00:00:00+09:00",
@@ -1429,7 +1429,7 @@
     ]
   },
   "querents": {
-    "date": "2021-02-16T15:19:25+09:00",
+    "date": "2021-02-16T16:49:09+09:00",
     "data": [
       {
         "日付": "2020-02-15T00:00:00+09:00",
@@ -2858,7 +2858,7 @@
     ]
   },
   "patients": {
-    "date": "2021-02-16T15:19:25+09:00",
+    "date": "2021-02-16T16:49:09+09:00",
     "data": [
       {
         "id": 1,
@@ -8107,7 +8107,7 @@
         "無症状": false,
         "年代": "10代",
         "居住地": "大船渡市",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1036662/1037357.html",
         "会見": "https://www.youtube.com/watch?v=zq7bj1K4dNo"
       },
       {
@@ -8117,7 +8117,7 @@
         "無症状": true,
         "年代": "10代",
         "居住地": "大船渡市",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1036662/1037358.html",
         "会見": "https://www.youtube.com/watch?v=zq7bj1K4dNo"
       },
       {
@@ -8127,7 +8127,7 @@
         "無症状": false,
         "年代": "10代",
         "居住地": "大船渡市",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1036662/1037359.html",
         "会見": "https://www.youtube.com/watch?v=zq7bj1K4dNo"
       },
       {
@@ -8137,7 +8137,7 @@
         "無症状": true,
         "年代": "50代",
         "居住地": "大船渡市",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1036662/1037360.html",
         "会見": "https://www.youtube.com/watch?v=zq7bj1K4dNo"
       },
       {
@@ -8147,7 +8147,7 @@
         "無症状": true,
         "年代": "40代",
         "居住地": "陸前高田市",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1036662/1037361.html",
         "会見": "https://www.youtube.com/watch?v=zq7bj1K4dNo"
       },
       {
@@ -8157,13 +8157,13 @@
         "無症状": false,
         "年代": "90歳以上",
         "居住地": "宮古市",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1036662/1037362.html",
         "会見": "https://www.youtube.com/watch?v=zq7bj1K4dNo"
       }
     ]
   },
   "patients_summary": {
-    "date": "2021-02-16T15:19:25+09:00",
+    "date": "2021-02-16T16:49:09+09:00",
     "data": [
       {
         "日付": "2020-02-15T08:00:00+09:00",
@@ -9639,10 +9639,10 @@
       }
     ]
   },
-  "lastUpdate": "2021-02-16T15:19:25+09:00",
+  "lastUpdate": "2021-02-16T16:49:09+09:00",
   "main_summary": {
     "attr": "検査実施件数",
-    "date": "2021-02-16T15:19:25+09:00",
+    "date": "2021-02-16T16:49:09+09:00",
     "value": 530,
     "children": [
       {
