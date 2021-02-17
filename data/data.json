@@ -1,6 +1,6 @@
 {
   "contacts": {
-    "date": "2021-02-17T15:40:24+09:00",
+    "date": "2021-02-17T20:02:52+09:00",
     "data": [
       {
         "日付": "2020-02-15T00:00:00+09:00",
@@ -1429,7 +1429,7 @@
     ]
   },
   "querents": {
-    "date": "2021-02-17T15:40:24+09:00",
+    "date": "2021-02-17T20:02:52+09:00",
     "data": [
       {
         "日付": "2020-02-15T00:00:00+09:00",
@@ -2858,7 +2858,7 @@
     ]
   },
   "patients": {
-    "date": "2021-02-17T15:40:24+09:00",
+    "date": "2021-02-17T20:02:52+09:00",
     "data": [
       {
         "id": 1,
@@ -8173,87 +8173,87 @@
       {
         "id": 532,
         "確定日": "2021-02-16T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-02-07T00:00:00+09:00",
         "無症状": false,
         "年代": "50代",
         "居住地": "大船渡市",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1036662/1037520.html",
         "会見": "https://www.youtube.com/watch?v=H_HwlVeVWOQ"
       },
       {
         "id": 533,
         "確定日": "2021-02-16T00:00:00+09:00",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "10代",
         "居住地": "大船渡市",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1036662/1037521.html",
         "会見": "https://www.youtube.com/watch?v=H_HwlVeVWOQ"
       },
       {
         "id": 534,
         "確定日": "2021-02-16T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-01-29T00:00:00+09:00",
         "無症状": false,
         "年代": "10代",
         "居住地": "大船渡市",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1036662/1037522.html",
         "会見": "https://www.youtube.com/watch?v=H_HwlVeVWOQ"
       },
       {
         "id": 535,
         "確定日": "2021-02-16T00:00:00+09:00",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "10代",
         "居住地": "大船渡市",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1036662/1037524.html",
         "会見": "https://www.youtube.com/watch?v=H_HwlVeVWOQ"
       },
       {
         "id": 536,
         "確定日": "2021-02-16T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-02-12T00:00:00+09:00",
         "無症状": false,
         "年代": "70代",
         "居住地": "宮古市",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1036662/1037525.html",
         "会見": "https://www.youtube.com/watch?v=H_HwlVeVWOQ"
       },
       {
         "id": 537,
         "確定日": "2021-02-16T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-02-11T00:00:00+09:00",
         "無症状": false,
         "年代": "70代",
         "居住地": "宮古市",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1036662/1037526.html",
         "会見": "https://www.youtube.com/watch?v=H_HwlVeVWOQ"
       },
       {
         "id": 538,
         "確定日": "2021-02-16T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-02-16T00:00:00+09:00",
         "無症状": false,
         "年代": "10代",
         "居住地": "宮古市",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1036662/1037527.html",
         "会見": "https://www.youtube.com/watch?v=H_HwlVeVWOQ"
       },
       {
         "id": 539,
         "確定日": "2021-02-16T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-02-13T00:00:00+09:00",
         "無症状": false,
         "年代": "10代",
         "居住地": "宮古市",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1036662/1037528.html",
         "会見": "https://www.youtube.com/watch?v=H_HwlVeVWOQ"
       }
     ]
   },
   "patients_summary": {
-    "date": "2021-02-17T15:40:24+09:00",
+    "date": "2021-02-17T20:02:52+09:00",
     "data": [
       {
         "日付": "2020-02-15T08:00:00+09:00",
@@ -9733,10 +9733,10 @@
       }
     ]
   },
-  "lastUpdate": "2021-02-17T15:40:24+09:00",
+  "lastUpdate": "2021-02-17T20:02:52+09:00",
   "main_summary": {
     "attr": "検査実施件数",
-    "date": "2021-02-17T15:40:24+09:00",
+    "date": "2021-02-17T20:02:52+09:00",
     "value": 539,
     "children": [
       {
