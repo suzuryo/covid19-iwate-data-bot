@@ -1,6 +1,6 @@
 {
   "contacts": {
-    "date": "2021-03-17T16:16:02+09:00",
+    "date": "2021-03-17T16:57:14+09:00",
     "data": [
       {
         "日付": "2020-02-15T00:00:00+09:00",
@@ -1429,7 +1429,7 @@
     ]
   },
   "querents": {
-    "date": "2021-03-17T16:16:02+09:00",
+    "date": "2021-03-17T16:57:14+09:00",
     "data": [
       {
         "日付": "2020-02-15T00:00:00+09:00",
@@ -2858,7 +2858,7 @@
     ]
   },
   "patients": {
-    "date": "2021-03-17T16:16:02+09:00",
+    "date": "2021-03-17T16:57:14+09:00",
     "data": [
       {
         "id": 1,
@@ -8533,47 +8533,47 @@
       {
         "id": 568,
         "確定日": "2021-03-16T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-03-15T00:00:00+09:00",
         "無症状": false,
         "年代": "50代",
         "居住地": "宮古保健所管内",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1037921/1038826.html",
         "会見": "https://www.youtube.com/watch?v=meg9qngynAU"
       },
       {
         "id": 569,
         "確定日": "2021-03-16T00:00:00+09:00",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "10歳未満",
         "居住地": "久慈市",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1037921/1038827.html",
         "会見": "https://www.youtube.com/watch?v=meg9qngynAU"
       },
       {
         "id": 570,
         "確定日": "2021-03-16T00:00:00+09:00",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "10歳未満",
         "居住地": "久慈市",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1037921/1038828.html",
         "会見": "https://www.youtube.com/watch?v=meg9qngynAU"
       },
       {
         "id": 571,
         "確定日": "2021-03-16T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-03-15T00:00:00+09:00",
         "無症状": false,
         "年代": "30代",
         "居住地": "久慈市",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1037921/1038829.html",
         "会見": "https://www.youtube.com/watch?v=meg9qngynAU"
       }
     ]
   },
   "patients_summary": {
-    "date": "2021-03-17T16:16:02+09:00",
+    "date": "2021-03-17T16:57:14+09:00",
     "data": [
       {
         "日付": "2020-02-15T08:00:00+09:00",
@@ -10165,10 +10165,10 @@
       }
     ]
   },
-  "lastUpdate": "2021-03-17T16:16:02+09:00",
+  "lastUpdate": "2021-03-17T16:57:14+09:00",
   "main_summary": {
     "attr": "検査実施件数",
-    "date": "2021-03-17T16:16:02+09:00",
+    "date": "2021-03-17T16:57:14+09:00",
     "value": 571,
     "children": [
       {
