@@ -1,7 +1,7 @@
 {
-  "date": "2021-03-17T23:08:17+09:00",
+  "date": "2021-03-18T15:11:15+09:00",
   "datasets": {
-    "date": "2021-03-17T23:08:17+09:00",
+    "date": "2021-03-18T15:11:15+09:00",
     "data": [
       {
         "code": "032018",
@@ -48,8 +48,8 @@
         "area": "岩手県",
         "label": "久慈市",
         "ruby": "くじし",
-        "count": 19,
-        "count_per_population": "0.058"
+        "count": 20,
+        "count_per_population": "0.061"
       },
       {
         "code": "032085",
@@ -112,8 +112,8 @@
         "area": "岩手県",
         "label": "滝沢市",
         "ruby": "たきざわし",
-        "count": 39,
-        "count_per_population": "0.070"
+        "count": 40,
+        "count_per_population": "0.072"
       },
       {
         "code": "033014",
@@ -152,8 +152,8 @@
         "area": "岩手県",
         "label": "矢巾町",
         "ruby": "やはばちょう",
-        "count": 10,
-        "count_per_population": "0.036"
+        "count": 11,
+        "count_per_population": "0.040"
       },
       {
         "code": "033669",
@@ -216,8 +216,8 @@
         "area": "岩手県",
         "label": "田野畑村",
         "ruby": "たのはたむら",
-        "count": 0,
-        "count_per_population": "0.000"
+        "count": 2,
+        "count_per_population": "0.066"
       },
       {
         "code": "034851",
