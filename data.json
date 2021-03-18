@@ -1,6 +1,6 @@
 {
   "contacts": {
-    "date": "2021-03-18T15:21:23+09:00",
+    "date": "2021-03-18T16:25:42+09:00",
     "data": [
       {
         "日付": "2020-02-15T00:00:00+09:00",
@@ -1429,7 +1429,7 @@
     ]
   },
   "querents": {
-    "date": "2021-03-18T15:21:23+09:00",
+    "date": "2021-03-18T16:25:42+09:00",
     "data": [
       {
         "日付": "2020-02-15T00:00:00+09:00",
@@ -2858,7 +2858,7 @@
     ]
   },
   "patients": {
-    "date": "2021-03-18T15:21:23+09:00",
+    "date": "2021-03-18T16:25:42+09:00",
     "data": [
       {
         "id": 1,
@@ -8577,7 +8577,7 @@
         "無症状": true,
         "年代": "40代",
         "居住地": "滝沢市",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1037921/1038871.html",
         "会見": "https://www.youtube.com/watch?v=E69dm84RzDI"
       },
       {
@@ -8587,7 +8587,7 @@
         "無症状": false,
         "年代": "40代",
         "居住地": "矢巾町",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1037921/1038872.html",
         "会見": "https://www.youtube.com/watch?v=E69dm84RzDI"
       },
       {
@@ -8597,23 +8597,23 @@
         "無症状": false,
         "年代": "60代",
         "居住地": "田野畑村",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1037921/1038874.html",
         "会見": "https://www.youtube.com/watch?v=E69dm84RzDI"
       },
       {
         "id": 575,
         "確定日": "2021-03-17T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-03-17T00:00:00+09:00",
         "無症状": false,
         "年代": "50代",
         "居住地": "久慈市",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1037921/1038875.html",
         "会見": "https://www.youtube.com/watch?v=E69dm84RzDI"
       }
     ]
   },
   "patients_summary": {
-    "date": "2021-03-18T15:21:23+09:00",
+    "date": "2021-03-18T16:25:42+09:00",
     "data": [
       {
         "日付": "2020-02-15T08:00:00+09:00",
@@ -10209,10 +10209,10 @@
       }
     ]
   },
-  "lastUpdate": "2021-03-18T15:21:23+09:00",
+  "lastUpdate": "2021-03-18T16:25:42+09:00",
   "main_summary": {
     "attr": "検査実施件数",
-    "date": "2021-03-18T15:21:23+09:00",
+    "date": "2021-03-18T16:25:42+09:00",
     "value": 575,
     "children": [
       {
