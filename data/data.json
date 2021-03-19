@@ -1,6 +1,6 @@
 {
   "contacts": {
-    "date": "2021-03-19T15:48:45+09:00",
+    "date": "2021-03-19T16:42:16+09:00",
     "data": [
       {
         "日付": "2020-02-15T00:00:00+09:00",
@@ -1429,7 +1429,7 @@
     ]
   },
   "querents": {
-    "date": "2021-03-19T15:48:45+09:00",
+    "date": "2021-03-19T16:42:16+09:00",
     "data": [
       {
         "日付": "2020-02-15T00:00:00+09:00",
@@ -2858,7 +2858,7 @@
     ]
   },
   "patients": {
-    "date": "2021-03-19T15:48:45+09:00",
+    "date": "2021-03-19T16:42:16+09:00",
     "data": [
       {
         "id": 1,
@@ -8643,57 +8643,57 @@
       {
         "id": 579,
         "確定日": "2021-03-18T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-03-11T00:00:00+09:00",
         "無症状": false,
         "年代": "40代",
         "居住地": "滝沢市",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1037921/1038933.html",
         "会見": "https://www.youtube.com/watch?v=xi4Exf5EqfA"
       },
       {
         "id": 580,
         "確定日": "2021-03-18T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-03-13T00:00:00+09:00",
         "無症状": false,
         "年代": "10代",
         "居住地": "滝沢市",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1037921/1038934.html",
         "会見": "https://www.youtube.com/watch?v=xi4Exf5EqfA"
       },
       {
         "id": 581,
         "確定日": "2021-03-18T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-03-12T00:00:00+09:00",
         "無症状": false,
         "年代": "10代",
         "居住地": "滝沢市",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1037921/1038935.html",
         "会見": "https://www.youtube.com/watch?v=xi4Exf5EqfA"
       },
       {
         "id": 582,
         "確定日": "2021-03-18T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-03-12T00:00:00+09:00",
         "無症状": false,
         "年代": "10代",
         "居住地": "滝沢市",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1037921/1038936.html",
         "会見": "https://www.youtube.com/watch?v=xi4Exf5EqfA"
       },
       {
         "id": 583,
         "確定日": "2021-03-18T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-03-09T00:00:00+09:00",
         "無症状": false,
         "年代": "40代",
         "居住地": "矢巾町",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1037921/1038938.html",
         "会見": "https://www.youtube.com/watch?v=xi4Exf5EqfA"
       }
     ]
   },
   "patients_summary": {
-    "date": "2021-03-19T15:48:45+09:00",
+    "date": "2021-03-19T16:42:16+09:00",
     "data": [
       {
         "日付": "2020-02-15T08:00:00+09:00",
@@ -10293,10 +10293,10 @@
       }
     ]
   },
-  "lastUpdate": "2021-03-19T15:48:45+09:00",
+  "lastUpdate": "2021-03-19T16:42:16+09:00",
   "main_summary": {
     "attr": "検査実施件数",
-    "date": "2021-03-19T15:48:45+09:00",
+    "date": "2021-03-19T16:42:16+09:00",
     "value": 583,
     "children": [
       {
