@@ -35,6 +35,18 @@
         "ja": "宮城県・仙台市が独自の緊急事態宣言",
         "en": null
       }
+    },
+    {
+      "date": "2021-03-22T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.city.yamagata-yamagata.lg.jp/kakuka/somu/bousai/sogo/kikikanri/dokuzinokinkyuzitaisengen.html",
+        "en": null
+      },
+      "text": {
+        "ja": "山形県・山形市が独自の緊急事態宣言",
+        "en": null
+      }
     }
   ]
 }
