@@ -5,11 +5,11 @@
       "icon": "📄",
       "url": {
         "ja": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1035392.html",
-        "en": null
+        "en": ""
       },
       "text": {
         "ja": "岩手県が不要不急の往来自粛をお願いしている地域",
-        "en": null
+        "en": "Areas where Iwate Prefecture asks people to refrain from unnecessary traffic."
       }
     },
     {
@@ -17,11 +17,11 @@
       "icon": "📄",
       "url": {
         "ja": "https://www.pref.miyagi.jp/site/covid-19/02.html",
-        "en": null
+        "en": ""
       },
       "text": {
         "ja": "宮城県の陽性者数が増加傾向",
-        "en": null
+        "en": "The number of positive cases in Miyagi Prefecture is increasing."
       }
     },
     {
@@ -29,11 +29,11 @@
       "icon": "📄",
       "url": {
         "ja": "https://www.pref.miyagi.jp/uploaded/attachment/840122.pdf",
-        "en": null
+        "en": "https://www.pref.miyagi.jp/uploaded/attachment/840229.pdf"
       },
       "text": {
         "ja": "宮城県・仙台市が独自の緊急事態宣言",
-        "en": null
+        "en": "Miyagi Prefecture and Sendai City declare their own state of emergency"
       }
     },
     {
@@ -41,11 +41,11 @@
       "icon": "📄",
       "url": {
         "ja": "https://www.city.yamagata-yamagata.lg.jp/kakuka/somu/bousai/sogo/kikikanri/dokuzinokinkyuzitaisengen.html",
-        "en": null
+        "en": ""
       },
       "text": {
         "ja": "山形県・山形市が独自の緊急事態宣言",
-        "en": null
+        "en": "Yamagata Prefecture and Yamagata City Declare Their Own State of Emergency"
       }
     }
   ]
