@@ -472,12 +472,12 @@ NEWS.each do |row|
       date: Time.parse(row['date']).iso8601,
       icon: row['icon'],
       url: {
-        ja: row['url_ja'],
-        en: row['url_en']
+        ja: row['url_ja'].blank? ? nil : row['url_ja'],
+        en: row['url_en'].blank? ? nil : row['url_en']
       },
       text: {
-        ja: row['text_ja'],
-        en: row['text_en'],
+        ja: row['text_ja'].blank? ? nil : row['text_ja'],
+        en: row['text_en'].blank? ? nil : row['text_en'],
       }
     }
   )
@@ -497,12 +497,12 @@ ALERT.each do |row|
       date: Time.parse(row['date']).iso8601,
       icon: row['icon'],
       url: {
-        ja: row['url_ja'],
-        en: row['url_en']
+        ja: row['url_ja'].blank? ? nil : row['url_ja'],
+        en: row['url_en'].blank? ? nil : row['url_en'],
       },
       text: {
-        ja: row['text_ja'],
-        en: row['text_en'],
+        ja: row['text_ja'].blank? ? nil : row['text_ja'],
+        en: row['text_en'].blank? ? nil : row['text_en'],
       }
     }
   )
@@ -522,12 +522,12 @@ SELF_DISCLOSURES.each do |row|
       date: Time.parse(row['date']).iso8601,
       icon: row['icon'],
       url: {
-        ja: row['url_ja'],
-        en: row['url_en']
+        ja: row['url_ja'].blank? ? nil : row['url_ja'],
+        en: row['url_en'].blank? ? nil : row['url_en'],
       },
       text: {
-        ja: row['text_ja'],
-        en: row['text_en'],
+        ja: row['text_ja'].blank? ? nil : row['text_ja'],
+        en: row['text_en'].blank? ? nil : row['text_en'],
       }
     }
   )
