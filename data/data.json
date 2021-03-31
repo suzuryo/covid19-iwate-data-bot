@@ -1,6 +1,6 @@
 {
   "contacts": {
-    "date": "2021-03-31T15:07:19+09:00",
+    "date": "2021-03-31T16:29:39+09:00",
     "data": [
       {
         "日付": "2020-02-15T00:00:00+09:00",
@@ -1429,7 +1429,7 @@
     ]
   },
   "querents": {
-    "date": "2021-03-31T15:07:19+09:00",
+    "date": "2021-03-31T16:29:39+09:00",
     "data": [
       {
         "日付": "2020-02-15T00:00:00+09:00",
@@ -2858,7 +2858,7 @@
     ]
   },
   "patients": {
-    "date": "2021-03-31T15:07:19+09:00",
+    "date": "2021-03-31T16:29:39+09:00",
     "data": [
       {
         "id": 1,
@@ -9003,77 +9003,77 @@
       {
         "id": 615,
         "確定日": "2021-03-30T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-03-28T00:00:00+09:00",
         "無症状": false,
         "年代": "30代",
         "居住地": "盛岡市",
-        "url": null,
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1034567.html",
         "会見": "https://www.youtube.com/watch?v=sTvZ_iE5gJQ"
       },
       {
         "id": 616,
         "確定日": "2021-03-30T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-03-29T00:00:00+09:00",
         "無症状": false,
         "年代": "40代",
         "居住地": "盛岡市",
-        "url": null,
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1034568.html",
         "会見": "https://www.youtube.com/watch?v=sTvZ_iE5gJQ"
       },
       {
         "id": 617,
         "確定日": "2021-03-30T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-03-27T00:00:00+09:00",
         "無症状": false,
         "年代": "40代",
         "居住地": "盛岡市",
-        "url": null,
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1034569.html",
         "会見": "https://www.youtube.com/watch?v=sTvZ_iE5gJQ"
       },
       {
         "id": 618,
         "確定日": "2021-03-30T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-03-23T00:00:00+09:00",
         "無症状": false,
         "年代": "30代",
         "居住地": "盛岡市",
-        "url": null,
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1034570.html",
         "会見": "https://www.youtube.com/watch?v=sTvZ_iE5gJQ"
       },
       {
         "id": 619,
         "確定日": "2021-03-30T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-03-28T00:00:00+09:00",
         "無症状": false,
         "年代": "20代",
         "居住地": "矢巾町",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1037921/1041020.html",
         "会見": "https://www.youtube.com/watch?v=sTvZ_iE5gJQ"
       },
       {
         "id": 620,
         "確定日": "2021-03-30T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-03-28T00:00:00+09:00",
         "無症状": false,
         "年代": "10代",
         "居住地": "県外",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1037921/1041021.html",
         "会見": "https://www.youtube.com/watch?v=sTvZ_iE5gJQ"
       },
       {
         "id": 621,
         "確定日": "2021-03-30T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-03-27T00:00:00+09:00",
         "無症状": false,
         "年代": "20代",
         "居住地": "奥州市",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1037921/1041023.html",
         "会見": "https://www.youtube.com/watch?v=sTvZ_iE5gJQ"
       }
     ]
   },
   "patients_summary": {
-    "date": "2021-03-31T15:07:19+09:00",
+    "date": "2021-03-31T16:29:39+09:00",
     "data": [
       {
         "日付": "2020-02-15T08:00:00+09:00",
@@ -10721,10 +10721,10 @@
       }
     ]
   },
-  "lastUpdate": "2021-03-31T15:07:19+09:00",
+  "lastUpdate": "2021-03-31T16:29:39+09:00",
   "main_summary": {
     "attr": "検査実施件数",
-    "date": "2021-03-31T15:07:19+09:00",
+    "date": "2021-03-31T16:29:39+09:00",
     "value": 621,
     "children": [
       {
