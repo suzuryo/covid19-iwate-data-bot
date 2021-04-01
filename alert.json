@@ -52,8 +52,8 @@
       "date": "2021-04-01T00:00:00+09:00",
       "icon": "📄",
       "url": {
-        "ja": "https://iwate.stopcovid19.jp",
-        "en": "https://iwate.stopcovid19.jp/en/"
+        "ja": "/cards/monitoring-number-of-confirmed-cases",
+        "en": "/en/cards/monitoring-number-of-confirmed-cases"
       },
       "text": {
         "ja": "岩手県の陽性者数が増加傾向 (施設クラスター)",
