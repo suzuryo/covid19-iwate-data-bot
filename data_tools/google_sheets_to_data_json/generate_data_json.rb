@@ -105,58 +105,7 @@ data_json = {
     date: now.iso8601,
     data: []
   },
-  lastUpdate: now.iso8601,
-  main_summary: {
-    attr: '検査実施件数',
-    date: now.iso8601,
-    value: 0,
-    children: [
-      {
-        attr: '陽性患者数',
-        value: 0,
-        children: [
-          {
-            attr: '入院中',
-            value: 0,
-            children: [
-              {
-                attr: '軽症・中等症', # 岩手県が発表していないので未使用
-                value: 0
-              },
-              {
-                attr: '重症',
-                value: 0
-              },
-              {
-                attr: '不明', # 岩手県が発表していないので未使用
-                value: 0
-              }
-            ]
-          },
-          {
-            attr: '宿泊療養',
-            value: 0
-          },
-          {
-            attr: '自宅療養', # 岩手県が発表していないので未使用
-            value: 0
-          },
-          {
-            attr: '入院・療養等調整中',
-            value: 0
-          },
-          {
-            attr: '死亡',
-            value: 0
-          },
-          {
-            attr: '退院',
-            value: 0
-          },
-        ]
-      }
-    ]
-  }
+  lastUpdate: now.iso8601
 }
 
 ######################################################################
@@ -204,52 +153,6 @@ patients_summary_last_date = Date.parse(POSITIVE_RATE[-1]['diagnosed_date']) == 
     }
   )
 end
-
-######################################################################
-# data.json
-# main_summary の生成
-######################################################################
-# 検査実施件数
-inspection_sum = 0
-POSITIVE_RATE.each do |row|
-  inspection_sum += row['positive_count'].to_i + row['nevative_count'].to_i
- end
-data_json[:main_summary][:value] = inspection_sum
-
-# 陽性患者数
-data_json[:main_summary][:children][0][:value] = PATIENTS_CSV.size
-
-# 岩手県が個別の症状（軽症・中症・重症）を発表していないのでカウントできない
-# 岩手県が個別の退院日を公表していないので Google Sheets の output_patients から
-# カウントできないので、 Google Sheets の output_hospitalized_numbers で
-# 手動管理する値を採用する
-# 個別の退院日が発表され、個別の症状が発表されるならコメントアウトしているコードを利用できるようになる。
-
-
-# 入院
-data_json[:main_summary][:children][0][:children][0][:value] = HOSPITALIZED_NUMBERS[-1]['入院'].to_i
-
-# 軽症・中等症 : 未発表なのでカウントできない
-# 重症
-data_json[:main_summary][:children][0][:children][0][:children][1][:value] = HOSPITALIZED_NUMBERS[-1]['重症'].to_i
-
-# 不明 : 未発表なのでカウントできない
-
-# 宿泊療養
-data_json[:main_summary][:children][0][:children][1][:value] = HOSPITALIZED_NUMBERS[-1]['宿泊療養'].to_i
-
-# 自宅療養
-data_json[:main_summary][:children][0][:children][2][:value] = HOSPITALIZED_NUMBERS[-1]['自宅療養'].to_i
-
-# 調整中
-data_json[:main_summary][:children][0][:children][3][:value] = HOSPITALIZED_NUMBERS[-1]['調整中'].to_i
-
-# 死亡
-data_json[:main_summary][:children][0][:children][4][:value] = HOSPITALIZED_NUMBERS[-1]['死亡'].to_i
-
-# 退院等
-data_json[:main_summary][:children][0][:children][5][:value] = HOSPITALIZED_NUMBERS[-1]['退院等'].to_i
-
 
 ######################################################################
 # data.json
@@ -534,6 +437,32 @@ SELF_DISCLOSURES.each do |row|
 end
 
 ######################################################################
+# main_summary.json
+# main_summary の生成
+######################################################################
+
+data_main_summary = {
+  date: now.iso8601,
+  陽性者数: PATIENTS_CSV.size,
+  陽性者数前日差: POSITIVE_BY_DIAGNOSED[-1]['count'].to_i,
+  入院: HOSPITALIZED_NUMBERS[-1]['入院'].to_i,
+  入院前日差: HOSPITALIZED_NUMBERS[-1]['入院'].to_i - HOSPITALIZED_NUMBERS[-2]['入院'].to_i,
+  重症: HOSPITALIZED_NUMBERS[-1]['重症'].to_i,
+  重症前日差: HOSPITALIZED_NUMBERS[-1]['重症'].to_i - HOSPITALIZED_NUMBERS[-2]['重症'].to_i,
+  宿泊療養: HOSPITALIZED_NUMBERS[-1]['宿泊療養'].to_i,
+  宿泊療養前日差: HOSPITALIZED_NUMBERS[-1]['宿泊療養'].to_i - HOSPITALIZED_NUMBERS[-2]['宿泊療養'].to_i,
+  自宅療養: HOSPITALIZED_NUMBERS[-1]['自宅療養'].to_i,
+  自宅療養前日差: HOSPITALIZED_NUMBERS[-1]['自宅療養'].to_i - HOSPITALIZED_NUMBERS[-2]['自宅療養'].to_i,
+  調整中: HOSPITALIZED_NUMBERS[-1]['調整中'].to_i,
+  調整中前日差: HOSPITALIZED_NUMBERS[-1]['調整中'].to_i - HOSPITALIZED_NUMBERS[-2]['調整中'].to_i,
+  死亡: HOSPITALIZED_NUMBERS[-1]['死亡'].to_i,
+  死亡前日差: HOSPITALIZED_NUMBERS[-1]['死亡'].to_i - HOSPITALIZED_NUMBERS[-2]['死亡'].to_i,
+  退院等: HOSPITALIZED_NUMBERS[-1]['退院等'].to_i,
+  退院等前日差: HOSPITALIZED_NUMBERS[-1]['退院等'].to_i - HOSPITALIZED_NUMBERS[-2]['退院等'].to_i,
+}
+
+
+######################################################################
 # write json
 ######################################################################
 
@@ -571,4 +500,8 @@ end
 
 File.open(File.join(__dir__, '../../data/', 'self_disclosures.json'), 'w') do |f|
   f.write JSON.pretty_generate(data_self_disclosures_json)
+end
+
+File.open(File.join(__dir__, '../../data/', 'main_summary.json'), 'w') do |f|
+  f.write JSON.pretty_generate(data_main_summary)
 end
