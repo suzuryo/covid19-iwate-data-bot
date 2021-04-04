@@ -5,7 +5,7 @@ iwate.stopcovid19.jp のビルドに必要な json が生成される。
 
 ## 1. 環境構築
 
-- ruby 2.7.1
+- ruby 3.0.0
 
 ```
 $ bundle
@@ -17,10 +17,10 @@ $ bundle
 - Google Sheets API を利用するための OAuth 用の credentials.json が必要
 - 初回起動時に token.yaml が生成される
 
-## 3. CLIプログラムの実行
+## 3. JSON生成プログラムの実行
 
 ```
-ruby generate_data_json.rb
+ruby data_tools/google_sheets_to_data_json/generate_data_json.rb
 ```
 
 実行すると
@@ -45,3 +45,17 @@ ruby generate_data_json.rb
 - ~~14:00 UTC (23:00 JST) 時台に data/*.json が更新され デプロイ される。~~
 
 情報公開のタイミングが、当日深夜発表から、翌日15時に変更になったため、19,21,23での定時buildは停止し、Google Sheets のメニューからデプロイする。
+
+## 5. TSV生成プログラムの実行
+
+```
+ruby data_tools/sites_to_tsv/generate_tsv.rb
+```
+
+実行すると
+
+```
+./data/sites.tsv
+```
+
+が生成される。
