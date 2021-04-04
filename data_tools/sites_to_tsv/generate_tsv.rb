@@ -104,16 +104,20 @@ class TsvFromSites
       doc.css('#voice > h4').each do |h4|
         patient[:接触歴] = '不明'
         case h4.text
-        when /^発症日：/
-          m = h4.text.match(/(?<month>\d+)月(?<day>\d+)/)
-          patient[:発症日] = m ? Date.parse("2021/#{m[:month]}/#{m[:day]}").strftime('%Y/%m/%d') : ''
         when /^症状：/
-          # 無症状
           if h4.text.match(/無症状病原体保有者/)
+            # 無症状
             patient[:無症状] = '無症状'
+          else
+            # 有症状
+            patient[:無症状] = ''
+          end
+        when /^発症日：/
+          if patient[:無症状] == '無症状'
             patient[:発症日] = ''
           else
-            patient[:無症状] = ''
+            m = h4.text.match(/(?<month>\d+)月(?<day>\d+)/)
+            patient[:発症日] = m ? Date.parse("2021/#{m[:month]}/#{m[:day]}").strftime('%Y/%m/%d') : ''
           end
         when /^年代：/
           patient[:年代] = h4.text.gsub('年代：', '').strip
