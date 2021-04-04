@@ -125,6 +125,9 @@ class TsvFromSites
           patient[:性別] = h4.text.gsub('性別：', '').strip
         when /^居住地：/
           patient[:居住地] = h4.text.gsub('居住地：', '').strip
+          if patient[:居住地].match(/県外/)
+            patient[:居住地] = '県外'
+          end
         when /^入院状況：/
           m = h4.text.match(/(?<month>\d+)月(?<day>\d+)/)
           patient[:入院日] = m ? Date.parse("2021/#{m[:month]}/#{m[:day]}").strftime('%Y/%m/%d') : ''
@@ -189,6 +192,9 @@ class TsvFromSites
 
       # 居住地
       patient[:居住地] = doc.css('#voice > dl > dd:nth-child(6)').text.strip
+      if patient[:居住地].match(/県外/)
+        patient[:居住地] = '県外'
+      end
 
       # 入院日
       m = doc.css('#voice > dl > dd:nth-child(14)').text.match(/(?<month>\d+)月(?<day>\d+)/)
