@@ -34,7 +34,7 @@ class TsvFromSitesCLI < Thor
     sites = TsvFromSites.new(
       id: id,
       url_iwate: 'https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1039755/index.html',
-      url_morioka: 'http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032215.html'
+      url_morioka: 'http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/'
     )
 
     # 最新データが空ならば何もしない
@@ -75,7 +75,7 @@ class TsvFromSites
     links = []
 
     # 指定id以降のデータが存在すればデータ取得の準備
-    base_doc.css('#voice > table:nth-child(10) > tbody > tr > td:nth-child(1) > ul > li > a').each do |link|
+    base_doc.css('#voice > ul > li > a').each do |link|
       links << link if link.text.match(/県内(?<id>\d+)例目/)[:id].to_i > @id
     end
 
@@ -83,7 +83,7 @@ class TsvFromSites
       patient = {}
 
       # url
-      url = URI.parse(link.attribute('href').value.delete("\n"))
+      url = URI.parse('http://www.city.morioka.iwate.jp/' + link.attribute('href').value.delete("\n").gsub('../../../../../', ''))
 
       # document
       doc = Nokogiri::HTML(url.open)
