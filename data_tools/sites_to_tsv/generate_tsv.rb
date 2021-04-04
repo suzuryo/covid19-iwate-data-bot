@@ -23,9 +23,11 @@ class TsvFromSitesCLI < Thor
 
   def generate
     if options[:id].nil?
-      json = JSON.parse(URI.open('https://raw.githubusercontent.com/MeditationDuck/covid19/development/data/main_summary.json').read)
-      id = json['陽性者数']
+      # オプションが指定されていなければ、公開済みの最新のidを取得
+      json = JSON.parse(URI.open('https://raw.githubusercontent.com/MeditationDuck/covid19/development/data/data.json').read)
+      id = json['patients']['data'][-1]['id']
     else
+      # オプションが指定されていれば、そのidを採用
       id = options[:id]
     end
 
@@ -35,6 +37,10 @@ class TsvFromSitesCLI < Thor
       url_morioka: 'http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032215.html'
     )
 
+    # 最新データが空ならば何もしない
+    return if sites.data.blank?
+
+    # 最新データがあればファイルを保存
     File.open(File.join(__dir__, '../../data/', 'sites.tsv'), 'w') do |f|
       prev_id = id
       sites.data.sort_by { |a| a[:id] }.uniq.each do |b|
@@ -64,11 +70,13 @@ class TsvFromSites
     @patients.concat from_morioka(Nokogiri::HTML(URI.parse(@url_morioka).open)).compact
   end
 
+  # 盛岡市のページをスクレイピング
   def from_morioka(base_doc)
     links = []
 
+    # 指定id以降のデータが存在すればデータ取得の準備
     base_doc.css('#voice > table:nth-child(10) > tbody > tr > td:nth-child(1) > ul > li > a').each do |link|
-      links << link if link.text.match(/県内(?<id>\d+)例目/)[:id].to_i >= @id
+      links << link if link.text.match(/県内(?<id>\d+)例目/)[:id].to_i > @id
     end
 
     links.map do |link|
@@ -128,11 +136,12 @@ class TsvFromSites
     end
   end
 
+  # 岩手県のページをスクレイピング
   def from_iwate(base_doc)
     links = []
 
     base_doc.css('#voice > table > tbody > tr > td:nth-child(1) a').each do |link|
-      links << link if link.text.match(/第(?<id>\d+)例目/)[:id].to_i >= @id
+      links << link if link.text.match(/第(?<id>\d+)例目/)[:id].to_i > @id
     end
 
     links.map do |link|
