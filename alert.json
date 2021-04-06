@@ -13,14 +13,14 @@
       }
     },
     {
-      "date": "2021-03-18T00:00:00+09:00",
+      "date": "2021-04-05T00:00:00+09:00",
       "icon": "📄",
       "url": {
-        "ja": "https://www.pref.miyagi.jp/site/covid-19/",
+        "ja": "https://www.pref.miyagi.jp/uploaded/attachment/845605.pdf",
         "en": null
       },
       "text": {
-        "ja": "宮城県が「まん延防止等重点措置」対象区域",
+        "ja": "宮城県が「まん延防止等重点措置」「独自の緊急事態宣言」",
         "en": "Miyagi Prefecture and Sendai City declare their own state of emergency"
       }
     },
@@ -32,7 +32,7 @@
         "en": null
       },
       "text": {
-        "ja": "山形県が独自の緊急事態宣言",
+        "ja": "山形県が「独自の緊急事態宣言」",
         "en": "Yamagata Prefecture and Yamagata City Declare Their Own State of Emergency"
       }
     },
