@@ -46,16 +46,30 @@ ruby data_tools/google_sheets_to_data_json/generate_data_json.rb
 
 情報公開のタイミングが、当日深夜発表から、翌日15時に変更になったため、19,21,23での定時buildは停止し、Google Sheets のメニューからデプロイする。
 
-## 5. TSV生成プログラムの実行
+## 5. 岩手県と盛岡市のサイトからTSVを生成プログラムの実行
 
 ```
 ruby data_tools/sites_to_tsv/generate_tsv.rb
 ```
 
-実行すると
+実行すると、pref.iwateとcity.moriokaからデータを取得して
 
 ```
 ./data/sites.tsv
+```
+
+が生成される。
+
+## 6. twitter.com/iwatevscovid19 からTSVを生成プログラムの実行
+
+```
+ruby data_tools/twitter_to_tsv/tweets_to_tsv.rb
+```
+
+実行すると、twitter.com/iwatevscovid19 のつぶやき群からデータを取得して
+
+```
+./data/tweets.tsv
 ```
 
 が生成される。
