@@ -51,7 +51,7 @@ class TsvFromTwitterCLI < Thor
       tweets.data[:main_summary].sort_by{|a| a['date']}.uniq.each do |b|
         f.write '検査件数'
         f.write "\n"
-        f.write "#{b['date'].strftime('%Y/%m/%d')}\t#{b['県PCR検査']}\t#{b['民間等'].to_i + b['地域外来等'].to_i}\t#{b['抗原検査']}"
+        f.write "#{b['date'].days_ago(1).strftime('%Y/%m/%d')}\t#{b['県PCR検査']}\t#{b['民間等'].to_i + b['地域外来等'].to_i}\t#{b['抗原検査']}\t#{b['県PCR検査'].to_i + b['民間等'].to_i + b['地域外来等'].to_i}\t#{b['県PCR検査'].to_i + b['民間等'].to_i + b['抗原検査'].to_i}"
         f.write "\n" * 2
         f.write '検査陽性者の状況'
         f.write "\n"
@@ -61,9 +61,12 @@ class TsvFromTwitterCLI < Thor
 
       f.write '陽性者'
       f.write "\n"
+
+      prev_id = tweets.data[:patients].sort_by{|a| a['id'].to_i}.uniq[0]['id']
       tweets.data[:patients].sort_by{|a| a['id'].to_i}.uniq.each do |b|
-        f.write "#{b['id']}\t\t\t\t\t#{b['年代']}\t#{b['性別']}\t#{b['居住地']}\t\t\t#{b['接触歴']}\t\tPCR検査"
-        f.write "\n"
+        f.write "\n" * (b['id'].to_i - prev_id)
+        f.write "#{b['id']}\t#{b['created_at'].days_ago(1).strftime('%Y/%m/%d')}\t#{b['created_at'].days_ago(2).strftime('%Y/%m/%d')}\t\t\t#{b['年代']}\t#{b['性別']}\t#{b['居住地']}\t\t\t#{b['接触歴']}\t\tPCR検査\t#{b['職業']}"
+        prev_id = b['id']
       end
 
     end
@@ -105,7 +108,8 @@ class TsvFromTweets
     request = Typhoeus::Request.new(url, options)
     response = request.run
     # 自分の呟きだけをフィルタ
-    JSON.parse(response.body)['data'].select {|d| d['author_id'] == USER_ID.to_s}.map {|m| m['text']}
+
+    JSON.parse(response.body)['data'].select {|d| d['author_id'] == USER_ID.to_s}
   end
 
   def data
@@ -115,7 +119,8 @@ class TsvFromTweets
     }
 
     get_user_tweets.each do |line|
-      text = line.gsub(' ', '').gsub('　', '').gsub('年代：', '').gsub('性別：', '').gsub('居住地：', '').gsub('職業：', '')
+      text = line['text'].gsub(' ', '').gsub('　', '').gsub('年代：', '').gsub('性別：', '').gsub('居住地：', '').gsub('職業：', '') + "\n"
+      created_at = Time.parse(line['created_at']).in_time_zone('Asia/Tokyo')
 
       # main_summary
       main_summary = /【検査報告】\s(?<month>\d+)月(?<day>\d+)日[（(](?<曜日>[日月火水木金土])[)）]\s/.match(text)
@@ -147,7 +152,7 @@ class TsvFromTweets
         ②(?<性別>.+?)\s
         ③(?<居住地>.+?)\s
         ④(?<職業>.+?)\s
-        [・※](?<接触歴>.+)
+        [・※](?<接触歴>.+)\s
       /x
 
       patients1 = text.scan(pat1)
@@ -156,6 +161,7 @@ class TsvFromTweets
       if patients1
         patients1.each do |patient|
           h = {}
+          h['created_at'] = created_at
           h['id'] = patient[0].to_i
           h['年代'] = patient[1]
           h['性別'] = patient[2]
@@ -170,6 +176,7 @@ class TsvFromTweets
         patients2.each do |patient|
           d[:patients].reject!{|item| item['id'] == patient[0].to_i }
           h = {}
+          h['created_at'] = created_at
           h['id'] = patient[0].to_i
           h['年代'] = patient[1]
           h['性別'] = patient[2]
