@@ -20,43 +20,19 @@
         "en": null
       },
       "text": {
-        "ja": "宮城県が「まん延防止等重点措置」「独自の緊急事態宣言」",
+        "ja": "宮城県が「まん延防止等重点措置」",
         "en": "Miyagi Prefecture and Sendai City declare their own state of emergency"
       }
     },
     {
-      "date": "2021-03-22T00:00:00+09:00",
-      "icon": "📄",
-      "url": {
-        "ja": "https://www.city.yamagata-yamagata.lg.jp/kakuka/somu/bousai/sogo/kikikanri/dokuzinokinkyuzitaisengen.html",
-        "en": null
-      },
-      "text": {
-        "ja": "山形県が「独自の緊急事態宣言」",
-        "en": "Yamagata Prefecture and Yamagata City Declare Their Own State of Emergency"
-      }
-    },
-    {
-      "date": "2021-03-31T00:00:00+09:00",
-      "icon": "📄",
-      "url": {
-        "ja": "https://stopcovid19.pref.aomori.lg.jp/",
-        "en": "https://stopcovid19.pref.aomori.lg.jp/en/"
-      },
-      "text": {
-        "ja": "青森県の陽性者数が増加傾向",
-        "en": "The number of positive cases in Aomori Prefecture is increasing."
-      }
-    },
-    {
-      "date": "2021-04-01T00:00:00+09:00",
+      "date": "2021-04-06T00:00:00+09:00",
       "icon": "📄",
       "url": {
         "ja": "/cards/monitoring-number-of-confirmed-cases",
         "en": "/en/cards/monitoring-number-of-confirmed-cases"
       },
       "text": {
-        "ja": "岩手県の陽性者数が増加傾向 (変異株2例•教育保育施設クラスター・スポーツ活動クラスターx2・職場クラスター)",
+        "ja": "岩手県の陽性者数が増加傾向 ( 変異株2例 )",
         "en": "The number of positive cases in Iwate Prefecture is increasing."
       }
     },
