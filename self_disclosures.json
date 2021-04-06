@@ -1007,6 +1007,18 @@
         "ja": "一関学院高等学校 (一関市)",
         "en": null
       }
+    },
+    {
+      "date": "2021-04-05T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
+        "ja": "http://www.tochinai.com/tochinai/img/important.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "栃内病院 (滝沢市)",
+        "en": null
+      }
     }
   ]
 }
