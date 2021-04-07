@@ -126,6 +126,7 @@ PATIENTS_CSV.each do |row|
       居住地: row['居住地'].blank? ? nil : row['居住地'],
       url: row['url'].blank? ? nil : row['url'],
       会見: row['記者会見1'].blank? ? nil : row['記者会見1'],
+      接触歴: row['接触歴'].blank? ? nil : row['接触歴'],
     }
   )
 end
