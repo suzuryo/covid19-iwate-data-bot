@@ -17,8 +17,8 @@ class TsvFromSitesCLI < Thor
   # ./generate_tsv.rb generate --id 667
   # オプション id を指定すると、それ以降のidのデータを探して出力する
 
-  default_command :generate
-  option :id, type: :numeric
+  # default_command :generate
+  option :id, type: :numeric, required: true
   desc 'generate', 'generate tsv data'
 
   def generate
