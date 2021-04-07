@@ -28,8 +28,8 @@ class TsvFromTwitterCLI < Thor
   # ./tweet_to_tsv.rb generate --days 2
   # オプション days を指定すると、days日分のデータを探して出力する
 
-  default_command :generate
-  option :days, type: :numeric
+  # default_command :generate
+  option :days, type: :numeric, required: true
   desc 'generate', 'generate tsv data'
 
   def generate
@@ -65,7 +65,7 @@ class TsvFromTwitterCLI < Thor
       prev_id = tweets.data[:patients].sort_by{|a| a['id'].to_i}.uniq[0]['id']
       tweets.data[:patients].sort_by{|a| a['id'].to_i}.uniq.each do |b|
         f.write "\n" * (b['id'].to_i - prev_id)
-        f.write "#{b['id']}\t#{b['created_at'].days_ago(1).strftime('%Y/%m/%d')}\t#{b['created_at'].days_ago(2).strftime('%Y/%m/%d')}\t\t\t#{b['年代']}\t#{b['性別']}\t#{b['居住地']}\t\t\t#{b['接触歴']}\t\tPCR検査\t#{b['職業']}"
+        f.write "#{b['id']}\t#{b['created_at'].strftime('%Y/%m/%d')}\t#{b['created_at'].days_ago(1).strftime('%Y/%m/%d')}\t\t\t#{b['年代']}\t#{b['性別']}\t#{b['居住地']}\t\t\t#{b['接触歴']}\t\tPCR検査\t#{b['職業']}"
         prev_id = b['id']
       end
 
