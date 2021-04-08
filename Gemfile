@@ -4,7 +4,7 @@ source "https://rubygems.org"
 
 gem 'activesupport'
 gem 'dotenv'
-gem 'google-api-client'
+gem 'google-apis-sheets_v4'
 gem 'nokogiri'
 gem 'thor'
 gem 'typhoeus'
