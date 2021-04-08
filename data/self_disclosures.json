@@ -1096,6 +1096,18 @@
       "date": "2021-04-08T00:00:00+09:00",
       "icon": "📄",
       "url": {
+        "ja": "https://www.city.ichinoseki.iwate.jp/index.cfm/28,127161,c,html/127161/20210408-165943.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "一関市消防本部 室根地域 (一関市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-04-08T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
         "ja": "https://www.toyota-ej.co.jp/images/news_pdf/20210408.pdf",
         "en": null
       },
