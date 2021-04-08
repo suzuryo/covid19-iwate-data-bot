@@ -35,18 +35,6 @@
         "ja": "岩手県の陽性者数が増加傾向 ( 変異株2例 )",
         "en": "The number of positive cases in Iwate Prefecture is increasing."
       }
-    },
-    {
-      "date": "2021-04-02T00:00:00+09:00",
-      "icon": "📄",
-      "url": {
-        "ja": "/cards/number-of-confirmed-cases-by-municipalities/",
-        "en": "/en/cards/number-of-confirmed-cases-by-municipalities/"
-      },
-      "text": {
-        "ja": "盛岡市の「直近1週間対人口10万人」指標が15を超えた",
-        "en": null
-      }
     }
   ]
 }
