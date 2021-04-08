@@ -1,5 +1,4 @@
 /credentials.json
 /token.yaml
-/data/sites.tsv
 /.env
-/data/tweets.tsv
+/tsv/

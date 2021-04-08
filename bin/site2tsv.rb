@@ -41,7 +41,7 @@ class TsvFromSitesCLI < Thor
     return if sites.data.blank?
 
     # 最新データがあればファイルを保存
-    File.open(File.join(__dir__, '../../data/', 'sites.tsv'), 'w') do |f|
+    File.open(File.join(__dir__, '../tsv/', 'site.tsv'), 'w') do |f|
       prev_id = id
       sites.data.sort_by { |a| a[:id] }.uniq.each do |b|
         f.write "\n" * (b[:id] - prev_id)

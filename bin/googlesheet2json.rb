@@ -15,8 +15,8 @@ require 'active_support/core_ext/date'
 
 OOB_URI = 'urn:ietf:wg:oauth:2.0:oob'
 APPLICATION_NAME = 'iwate.stopcovid19.jp DATA JSON Converter'
-CREDENTIALS_PATH = File.join(__dir__, 'credentials.json')
-TOKEN_PATH = File.join(__dir__, 'token.yaml')
+CREDENTIALS_PATH = File.join(__dir__, '../credentials.json')
+TOKEN_PATH = File.join(__dir__, '../token.yaml')
 SCOPE = Google::Apis::SheetsV4::AUTH_SPREADSHEETS_READONLY
 
 def authorize
@@ -467,42 +467,42 @@ data_main_summary = {
 # write json
 ######################################################################
 
-File.open(File.join(__dir__, '../../data/', 'data.json'), 'w') do |f|
+File.open(File.join(__dir__, '../data/', 'data.json'), 'w') do |f|
   f.write JSON.pretty_generate(data_json)
 end
 
-File.open(File.join(__dir__, '../../data/', 'patient_municipalities.json'), 'w') do |f|
+File.open(File.join(__dir__, '../data/', 'patient_municipalities.json'), 'w') do |f|
   f.write JSON.pretty_generate(data_patient_municipalities_json)
 end
 
-File.open(File.join(__dir__, '../../data/', 'positive_by_diagnosed.json'), 'w') do |f|
+File.open(File.join(__dir__, '../data/', 'positive_by_diagnosed.json'), 'w') do |f|
   f.write JSON.pretty_generate(data_positive_by_diagnosed_json)
 end
 
-File.open(File.join(__dir__, '../../data/', 'daily_positive_detail.json'), 'w') do |f|
+File.open(File.join(__dir__, '../data/', 'daily_positive_detail.json'), 'w') do |f|
   f.write JSON.pretty_generate(data_daily_positive_detail_json)
 end
 
-File.open(File.join(__dir__, '../../data/', 'positive_rate.json'), 'w') do |f|
+File.open(File.join(__dir__, '../data/', 'positive_rate.json'), 'w') do |f|
   f.write JSON.pretty_generate(data_positive_rate_json)
 end
 
-File.open(File.join(__dir__, '../../data/', 'positive_status.json'), 'w') do |f|
+File.open(File.join(__dir__, '../data/', 'positive_status.json'), 'w') do |f|
   f.write JSON.pretty_generate(data_positive_status_json)
 end
 
-File.open(File.join(__dir__, '../../data/', 'news.json'), 'w') do |f|
+File.open(File.join(__dir__, '../data/', 'news.json'), 'w') do |f|
   f.write JSON.pretty_generate(data_news_json)
 end
 
-File.open(File.join(__dir__, '../../data/', 'alert.json'), 'w') do |f|
+File.open(File.join(__dir__, '../data/', 'alert.json'), 'w') do |f|
   f.write JSON.pretty_generate(data_alert_json)
 end
 
-File.open(File.join(__dir__, '../../data/', 'self_disclosures.json'), 'w') do |f|
+File.open(File.join(__dir__, '../data/', 'self_disclosures.json'), 'w') do |f|
   f.write JSON.pretty_generate(data_self_disclosures_json)
 end
 
-File.open(File.join(__dir__, '../../data/', 'main_summary.json'), 'w') do |f|
+File.open(File.join(__dir__, '../data/', 'main_summary.json'), 'w') do |f|
   f.write JSON.pretty_generate(data_main_summary)
 end
