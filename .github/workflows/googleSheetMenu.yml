@@ -16,7 +16,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.0'
+          ruby-version: '3.0.1'
           bundler-cache: true
       - name: Setup Timezone
         run: |
@@ -26,7 +26,7 @@ jobs:
           bundle install
           echo $CREDENTIALS_JSON | base64 --decode > credentials.json
           echo $TOKEN_YAML | base64 --decode > token.yaml
-          ruby bin/data2json.rb
+          ruby bin/googlesheet2json.rb
         shell: bash
         env:
           CREDENTIALS_JSON: ${{secrets.CREDENTIALS_JSON}}
