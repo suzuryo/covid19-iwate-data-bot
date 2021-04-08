@@ -1,5 +1,4 @@
-/data_tools/google_sheets_to_data_json/credentials.json
-/data_tools/google_sheets_to_data_json/token.yaml
-/data/sites.tsv
-/data_tools/twitter_to_tsv/.env
-/data/tweets.tsv
+/credentials.json
+/token.yaml
+/.env
+/tsv/

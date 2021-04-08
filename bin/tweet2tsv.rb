@@ -18,7 +18,7 @@ USER_ID = 1251721687415980032
 # Twitter API TOKEN
 BEARER_TOKEN = ENV['TWITTER_BEARER_TOKEN']
 
-class TsvFromTwitterCLI < Thor
+class Tweet2TsvCLI < Thor
   # Google Sheets にコピペしやすいTSVデータを出力する
   # data/tweets.tsv にファイルが出力される
   #
@@ -28,8 +28,8 @@ class TsvFromTwitterCLI < Thor
   # ./tweet_to_tsv.rb generate --days 2
   # オプション days を指定すると、days日分のデータを探して出力する
 
-  # default_command :generate
-  option :days, type: :numeric, required: true
+  default_command :generate
+  option :days, type: :numeric
   desc 'generate', 'generate tsv data'
 
   def generate
@@ -41,13 +41,13 @@ class TsvFromTwitterCLI < Thor
       days = options[:days]
     end
 
-    tweets = TsvFromTweets.new(days: days)
+    tweets = Tweet2TSV.new(days: days)
 
     # 最新データが空ならば何もしない
     return if tweets.data.blank?
 
     # 最新データがあればファイルを保存
-    File.open(File.join(__dir__, '../../data/', 'tweets.tsv'), 'w') do |f|
+    File.open(File.join(__dir__, '../tsv/', 'tweet.tsv'), 'w') do |f|
       tweets.data[:main_summary].sort_by{|a| a['date']}.uniq.each do |b|
         f.write '検査件数'
         f.write "\n"
@@ -79,7 +79,7 @@ class TsvFromTwitterCLI < Thor
 end
 
 
-class TsvFromTweets
+class Tweet2TSV
   def initialize(days: nil)
     @tweets = []
     @days = days
@@ -192,4 +192,4 @@ class TsvFromTweets
 
 end
 
-TsvFromTwitterCLI.start
+Tweet2TsvCLI.start
