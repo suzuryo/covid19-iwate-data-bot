@@ -89,6 +89,9 @@ class Tweet2TSV
 
   def get_user_tweets
     now = Time.now
+    days_ago = now.days_ago(@days)
+    start_time = Time.new(days_ago.year, days_ago.month, days_ago.day, 15, 0, 'JST').rfc3339
+    end_time = now.rfc3339
 
     options = {
       method: 'get',
@@ -98,8 +101,8 @@ class Tweet2TSV
       },
       params: {
         "max_results" => 100,
-        "start_time" => now.days_ago(@days).rfc3339,
-        "end_time" => now.rfc3339,
+        "start_time" => start_time,
+        "end_time" => end_time,
         "tweet.fields" => "author_id,created_at,id",
       }
     }
