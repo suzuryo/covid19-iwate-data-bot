@@ -41,7 +41,7 @@ ruby bin/googlesheet2json.rb
 ## 3. 岩手県と盛岡市のサイトからTSVを生成プログラムの実行
 
 ```
-ruby bin/site2tsv.rb
+bundle exec bin/site2tsv.rb
 ```
 
 実行すると、pref.iwateとcity.moriokaからデータをスクレイピングして
@@ -55,7 +55,7 @@ ruby bin/site2tsv.rb
 ## 4. twitter.com/iwatevscovid19 からTSVを生成プログラムの実行
 
 ```
-ruby bin/tweet2tsv.rb
+bundle exec bin/tweet2tsv.rb
 ```
 
 - TWITTER_BEARER_TOKEN を取得して .env に設定する
