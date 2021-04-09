@@ -33,7 +33,7 @@ class Tweet2TsvCLI < Thor
 
   def generate
     if options[:days].nil?
-      # オプションが指定されていなければ、公開済みの最新のidを取得
+      # オプションが指定されていなければ、直近1日分のデータを取得
       days = 1
     else
       # オプションが指定されていれば、そのidを採用
