@@ -18,15 +18,15 @@ class Site2TsvCLI < Thor
   # ./generate_tsv.rb generate --id 667
   # オプション id を指定すると、それ以降のidのデータを探して出力する
 
-  # default_command :generate
-  option :id, type: :numeric, required: true
+  default_command :generate
+  option :id, type: :numeric
   desc 'generate', 'generate tsv data'
 
   def generate
     if options[:id].nil?
-      # オプションが指定されていなければ、公開済みの最新のidを取得
+      # オプションが指定されていなければ、公開済みの昨日のid以降を取得
       json = JSON.parse(URI.open('https://raw.githubusercontent.com/MeditationDuck/covid19/development/data/data.json').read)
-      id = json['patients']['data'][-1]['id']
+      id = json['patients']['data'].filter{|a| Time.parse(a['確定日']) < Time.parse(json['patients']['data'][-1]['確定日'])}.sort_by{|a| a['id']}[-1]['id'].to_i + 1
     else
       # オプションが指定されていれば、そのidを採用
       id = options[:id]
