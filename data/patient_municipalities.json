@@ -1,15 +1,15 @@
 {
-  "date": "2021-04-10T11:47:29+09:00",
+  "date": "2021-04-10T15:11:42+09:00",
   "datasets": {
-    "date": "2021-04-10T11:47:29+09:00",
+    "date": "2021-04-10T15:11:42+09:00",
     "data": [
       {
         "code": "032018",
         "area": "岩手県",
         "label": "盛岡市",
         "ruby": "もりおかし",
-        "count": 277,
-        "count_per_population": "0.095"
+        "count": 281,
+        "count_per_population": "0.096"
       },
       {
         "code": "032026",
@@ -64,8 +64,8 @@
         "area": "岩手県",
         "label": "一関市",
         "ruby": "いちのせきし",
-        "count": 50,
-        "count_per_population": "0.044"
+        "count": 52,
+        "count_per_population": "0.046"
       },
       {
         "code": "032107",
@@ -104,8 +104,8 @@
         "area": "岩手県",
         "label": "奥州市",
         "ruby": "おうしゅうし",
-        "count": 24,
-        "count_per_population": "0.021"
+        "count": 26,
+        "count_per_population": "0.023"
       },
       {
         "code": "032166",
