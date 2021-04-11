@@ -18,7 +18,7 @@ $ bundle
 - 初回起動時に token.yaml が生成される
 
 ```
-ruby bin/googlesheet2json.rb
+bundle exec bin/googlesheet2json.rb
 ```
 
 実行すると
@@ -42,6 +42,8 @@ ruby bin/googlesheet2json.rb
 
 ```
 bundle exec bin/site2tsv.rb
+bundle exec bin/site2tsv.rb new
+bundle exec bin/site2tsv.rb new --id NUM
 ```
 
 実行すると、pref.iwateとcity.moriokaからデータをスクレイピングして
@@ -56,6 +58,8 @@ bundle exec bin/site2tsv.rb
 
 ```
 bundle exec bin/tweet2tsv.rb
+bundle exec bin/tweet2tsv.rb new
+bundle exec bin/tweet2tsv.rb new --days NUM
 ```
 
 - TWITTER_BEARER_TOKEN を取得して .env に設定する

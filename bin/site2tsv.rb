@@ -6,55 +6,73 @@ require 'json'
 require 'nokogiri'
 require 'open-uri'
 require 'thor'
-require_relative 'lib/Site2TSV'
+require_relative 'lib/SiteParser'
 
-class Site2TsvCLI < Thor
-  # Google Sheets にコピペしやすいTSVデータを出力する
-  # data/sites.tsv にファイルが出力される
-  #
-  # ./generate_tsv.rb
-  # オプションを何も指定しないと、最新のid以降のデータを探して出力する
-  #
-  # ./generate_tsv.rb generate --id 667
-  # オプション id を指定すると、それ以降のidのデータを探して出力する
+module Site2Tsv
+  VERSION = '0.1.0'
+  MORIOKA_URL = 'http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/'
+  IWATE_URL = 'https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1039755/index.html'
 
-  default_command :generate
-  option :id, type: :numeric
-  desc 'generate', 'generate tsv data'
+  class Cli < Thor
+    check_unknown_options!
+    include Thor::Actions
 
-  def generate
-    if options[:id].nil?
-      # オプションが指定されていなければ、公開済みの昨日のid以降を取得
-      json = JSON.parse(URI.open('https://raw.githubusercontent.com/MeditationDuck/covid19/development/data/data.json').read)
-      id = json['patients']['data'].filter{|a| Time.parse(a['確定日']) < Time.parse(json['patients']['data'][-1]['確定日'])}.sort_by{|a| a['id']}[-1]['id'].to_i + 1
-    else
-      # オプションが指定されていれば、そのidを採用
-      id = options[:id]
+    default_command :new
+
+    def self.exit_on_failure?
+      true
     end
 
-    sites = Site2TSV.new(
-      id: id,
-      url_iwate: 'https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1039755/index.html',
-      url_morioka: 'http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/'
-    )
+    def self.source_root
+      File.join(__dir__, '../template/')
+    end
 
-    # 最新データが空ならば何もしない
-    return if sites.data.blank?
+    desc 'version', 'Display Iwate Covid19 Tweet2Tsv version'
+    map %w[-v --version] => :version
 
-    # 最新データがあればファイルを保存
-    File.open(File.join(__dir__, '../tsv/', 'site.tsv'), 'w') do |f|
+    class_option 'verbose', type: :boolean, default: false
+
+    def version
+      say "Site2Tsv #{VERSION}"
+    end
+
+    desc 'new', 'Create a new site.tsv'
+    option :id, type: :numeric, aliases: '-1'
+
+    def new
+      # オプションが指定されていなければ、公開済みの昨日のid以降を取得
+      id = options[:id].nil? ? recent_id : options[:id].to_i
+
+      sites = Site2Tsv::SiteParser.new(
+        id: id,
+        url_iwate: IWATE_URL,
+        url_morioka: MORIOKA_URL
+      )
+
+      # 最新データが空ならば何もしない
+      raise Error, set_color('ERROR: data blank', :red) if sites.data.blank?
+
+      @patients = ""
       prev_id = id
       sites.data.sort_by { |a| a[:id] }.uniq.each do |b|
-        f.write "\n" * (b[:id] - prev_id)
-        f.write "#{b[:id]}\t#{b[:リリース日]}\t#{b[:確定日]}\t#{b[:発症日]}\t#{b[:無症状]}\t#{b[:年代]}\t#{b[:性別]}\t#{b[:居住地]}\t#{b[:入院日]}\t#{b[:url]}\t#{b[:接触歴]}"
+        @patients += "\n" * (b[:id] - prev_id)
+        @patients += "#{b[:id]}\t#{b[:リリース日]}\t#{b[:確定日]}\t#{b[:発症日]}\t#{b[:無症状]}\t#{b[:年代]}\t#{b[:性別]}\t#{b[:居住地]}\t#{b[:入院日]}\t#{b[:url]}\t#{b[:接触歴]}"
         prev_id = b[:id]
       end
+
+      remove_file File.join(__dir__, '../tsv/site.tsv')
+      template File.join(__dir__, '../template/site.tsv.erb'), File.join(__dir__, '../tsv/site.tsv')
     end
+
+    private
+
+    def recent_id
+      json = JSON.parse(URI.open('https://raw.githubusercontent.com/MeditationDuck/covid19/development/data/data.json').read)
+      json['patients']['data'].filter{|a| Time.parse(a['確定日']) < Time.parse(json['patients']['data'][-1]['確定日'])}.sort_by{|a| a['id']}[-1]['id'].to_i + 1
+    end
+
   end
 
-  def self.exit_on_failure?
-    true
-  end
 end
 
-Site2TsvCLI.start
+Site2Tsv::Cli.start

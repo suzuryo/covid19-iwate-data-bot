@@ -6,75 +6,68 @@ require 'dotenv/load'
 require 'json'
 require 'thor'
 require 'typhoeus'
-require_relative 'lib/Tweet2TSV'
+require_relative 'lib/TwitterParser'
 
-# Twitter API
-ENDPOINT_URL = "https://api.twitter.com/2/users/:id/tweets"
+module Tweet2Tsv
+  VERSION = '0.1.0'
+  ENDPOINT_URL = "https://api.twitter.com/2/users/:id/tweets"
+  USER_ID = 1251721687415980032
+  BEARER_TOKEN = ENV['TWITTER_BEARER_TOKEN']
 
-# https://twitter.com/iwatevscovid19/ 's USER_ID
-USER_ID = 1251721687415980032
+  class Cli < Thor
+    check_unknown_options!
+    include Thor::Actions
 
-# Twitter API TOKEN
-BEARER_TOKEN = ENV['TWITTER_BEARER_TOKEN']
+    default_command :new
 
-class Tweet2TsvCLI < Thor
-  # Google Sheets にコピペしやすいTSVデータを出力する
-  # data/tweets.tsv にファイルが出力される
-  #
-  # ./tweet_to_tsv.rb
-  # オプションを何も指定しないと、直近1日のデータを探して出力する
-  #
-  # ./tweet_to_tsv.rb generate --days 2
-  # オプション days を指定すると、days日分のデータを探して出力する
-
-  default_command :generate
-  option :days, type: :numeric
-  desc 'generate', 'generate tsv data'
-
-  def generate
-    if options[:days].nil?
-      # オプションが指定されていなければ、直近1日分のデータを取得
-      days = 1
-    else
-      # オプションが指定されていれば、そのidを採用
-      days = options[:days]
+    def self.exit_on_failure?
+      true
     end
 
-    tweets = Site2TSV.new(days: days)
+    def self.source_root
+      File.join(__dir__, '../template/')
+    end
 
-    # 最新データが空ならば何もしない
-    return if tweets.data.blank?
+    desc 'version', 'Display Iwate Covid19 Tweet2Tsv version'
+    map %w[-v --version] => :version
 
-    # 最新データがあればファイルを保存
-    File.open(File.join(__dir__, '../tsv/', 'tweet.tsv'), 'w') do |f|
+    class_option 'verbose', type: :boolean, default: false
+
+    def version
+      say "Tweet2Tsv #{VERSION}"
+    end
+
+    desc 'new', 'Create a new tweet.tsv'
+    option :days, type: :numeric, default: 1, aliases: '-d'
+
+    def new
+      # オプションが指定されていなければ、直近1日分のデータを取得
+      days = options[:days].nil? ? 1 : options[:days].to_i
+
+      tweets = Tweet2Tsv::TwitterParser.new(days)
+
+      # 最新データが空ならば何もしない
+      raise Error, set_color('ERROR: data blank', :red) if tweets.data.blank?
+
+      @main_summary1 = ""
+      @main_summary2 = ""
       tweets.data[:main_summary].sort_by{|a| a['date']}.uniq.each do |b|
-        f.write '検査件数'
-        f.write "\n"
-        f.write "#{b['date'].days_ago(1).strftime('%Y/%m/%d')}\t#{b['県PCR検査']}\t#{b['民間等'].to_i + b['地域外来等'].to_i}\t#{b['抗原検査']}\t#{b['県PCR検査'].to_i + b['民間等'].to_i + b['地域外来等'].to_i}\t#{b['県PCR検査'].to_i + b['民間等'].to_i + b['抗原検査'].to_i}"
-        f.write "\n" * 2
-        f.write '検査陽性者の状況'
-        f.write "\n"
-        f.write "#{b['date'].strftime('%Y/%m/%d')}\t#{b['累計う\\sち検出']}\t#{b['入院中']}\t#{b['入院中うち重症者']}\t#{b['宿泊療養']}\t\t#{b['退院等']}\t#{b['死亡者']}\t#{b['調整中']}"
-        f.write "\n" * 2
+        @main_summary1 += "#{b['date'].days_ago(1).strftime('%Y/%m/%d')}\t#{b['県PCR検査']}\t#{b['民間等'].to_i + b['地域外来等'].to_i}\t#{b['抗原検査']}\t#{b['県PCR検査'].to_i + b['民間等'].to_i + b['地域外来等'].to_i}\t#{b['県PCR検査'].to_i + b['民間等'].to_i + b['地域外来等'].to_i + b['抗原検査'].to_i}\n"
+        @main_summary2 += "#{b['date'].strftime('%Y/%m/%d')}\t#{b['累計う\\sち検出']}\t#{b['入院中']}\t#{b['入院中うち重症者']}\t#{b['宿泊療養']}\t\t#{b['退院等']}\t#{b['死亡者']}\t#{b['調整中']}\n"
       end
 
-      f.write '陽性者'
-      f.write "\n"
-
+      @positive_cases = ""
       prev_id = tweets.data[:patients].sort_by{|a| a['id'].to_i}.uniq[0]['id']
       tweets.data[:patients].sort_by{|a| a['id'].to_i}.uniq.each do |b|
-        f.write "\n" * (b['id'].to_i - prev_id)
-        f.write "#{b['id']}\t#{b['created_at'].strftime('%Y/%m/%d')}\t#{b['created_at'].days_ago(1).strftime('%Y/%m/%d')}\t\t\t#{b['年代']}\t#{b['性別']}\t#{b['居住地']}\t\t\t#{b['接触歴']}\t\tPCR検査\t#{b['職業']}"
+        @positive_cases += "\n" * (b['id'].to_i - prev_id)
+        @positive_cases += "#{b['id']}\t#{b['created_at'].strftime('%Y/%m/%d')}\t#{b['created_at'].days_ago(1).strftime('%Y/%m/%d')}\t\t\t#{b['年代']}\t#{b['性別']}\t#{b['居住地']}\t\t\t#{b['接触歴']}\t\tPCR検査\t#{b['職業']}"
         prev_id = b['id']
       end
 
+      remove_file File.join(__dir__, '../tsv/tweet.tsv')
+      template File.join(__dir__, '../template/tweet.tsv.erb'), File.join(__dir__, '../tsv/tweet.tsv')
     end
-
-  end
-
-  def self.exit_on_failure?
-    true
   end
 end
 
-Tweet2TsvCLI.start
+Tweet2Tsv::Cli.start
