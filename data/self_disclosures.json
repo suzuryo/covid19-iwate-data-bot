@@ -1187,6 +1187,18 @@
         "ja": "工藤建設 (奥州市)",
         "en": null
       }
+    },
+    {
+      "date": "2021-04-13T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.sumitomolife.co.jp/infolist/pdf/coronavirus3.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "住友生命保険相互会社 盛岡支社 (盛岡市)",
+        "en": null
+      }
     }
   ]
 }
