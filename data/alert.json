@@ -23,18 +23,6 @@
         "ja": "宮城県が「まん延防止等重点措置」「これ以上の病床確保が困難な状態」",
         "en": "Miyagi Prefecture and Sendai City declare their own state of emergency"
       }
-    },
-    {
-      "date": "2021-04-06T00:00:00+09:00",
-      "icon": "📄",
-      "url": {
-        "ja": "/cards/monitoring-number-of-confirmed-cases",
-        "en": "/en/cards/monitoring-number-of-confirmed-cases"
-      },
-      "text": {
-        "ja": "岩手県の陽性者数が増加傾向（変異株としてN501Yが2件、仙台で多いE484Kが31件）",
-        "en": "The number of positive cases in Iwate Prefecture is increasing."
-      }
     }
   ]
 }
