@@ -1,6 +1,6 @@
 {
   "contacts": {
-    "date": "2021-04-19T16:50:31+09:00",
+    "date": "2021-04-20T13:50:56+09:00",
     "data": [
       {
         "日付": "2020-02-15T00:00:00+09:00",
@@ -1429,7 +1429,7 @@
     ]
   },
   "querents": {
-    "date": "2021-04-19T16:50:31+09:00",
+    "date": "2021-04-20T13:50:56+09:00",
     "data": [
       {
         "日付": "2020-02-15T00:00:00+09:00",
@@ -2858,7 +2858,7 @@
     ]
   },
   "patients": {
-    "date": "2021-04-19T16:50:31+09:00",
+    "date": "2021-04-20T13:50:56+09:00",
     "data": [
       {
         "id": 1,
@@ -11382,7 +11382,7 @@
         "年代": "20代",
         "居住地": "奥州市",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1039755/1041774.html",
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=59j-YqoLb2E",
         "接触歴": "判明"
       },
       {
@@ -11393,7 +11393,7 @@
         "年代": "30代",
         "居住地": "奥州市",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1039755/1041775.html",
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=59j-YqoLb2E",
         "接触歴": "不明"
       },
       {
@@ -11404,7 +11404,7 @@
         "年代": "40代",
         "居住地": "盛岡市",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1034958.html",
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=VKBu6yU6oEA",
         "接触歴": "判明"
       },
       {
@@ -11415,7 +11415,7 @@
         "年代": "40代",
         "居住地": "盛岡市",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1034959.html",
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=VKBu6yU6oEA",
         "接触歴": "判明"
       },
       {
@@ -11426,7 +11426,7 @@
         "年代": "50代",
         "居住地": "一関市",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1039755/1041776.html",
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=VKBu6yU6oEA",
         "接触歴": "判明"
       },
       {
@@ -11454,7 +11454,7 @@
     ]
   },
   "patients_summary": {
-    "date": "2021-04-19T16:50:31+09:00",
+    "date": "2021-04-20T13:50:56+09:00",
     "data": [
       {
         "日付": "2020-02-15T08:00:00+09:00",
@@ -13178,5 +13178,5 @@
       }
     ]
   },
-  "lastUpdate": "2021-04-19T16:50:31+09:00"
+  "lastUpdate": "2021-04-20T13:50:56+09:00"
 }
