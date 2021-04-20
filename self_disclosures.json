@@ -1271,6 +1271,18 @@
         "ja": "旭工業 花巻工場 (花巻市)",
         "en": null
       }
+    },
+    {
+      "date": "2020-11-19T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.bridgestone.co.jp/corporate/covid19news/covid19_cases2.html",
+        "en": null
+      },
+      "text": {
+        "ja": "ブリヂストン工業用品岩手販売 (盛岡市)",
+        "en": null
+      }
     }
   ]
 }
