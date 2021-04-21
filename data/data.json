@@ -1,6 +1,6 @@
 {
   "contacts": {
-    "date": "2021-04-21T17:05:35+09:00",
+    "date": "2021-04-22T08:07:13+09:00",
     "data": [
       {
         "日付": "2020-02-15T00:00:00+09:00",
@@ -1429,7 +1429,7 @@
     ]
   },
   "querents": {
-    "date": "2021-04-21T17:05:35+09:00",
+    "date": "2021-04-22T08:07:13+09:00",
     "data": [
       {
         "日付": "2020-02-15T00:00:00+09:00",
@@ -2858,7 +2858,7 @@
     ]
   },
   "patients": {
-    "date": "2021-04-21T17:05:35+09:00",
+    "date": "2021-04-22T08:07:13+09:00",
     "data": [
       {
         "id": 1,
@@ -11526,7 +11526,7 @@
         "居住地": "北上市",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1039755/1042048.html",
         "会見": "https://www.youtube.com/watch?v=OYJB4mLITOE",
-        "接触歴": "不明"
+        "接触歴": "判明"
       },
       {
         "id": 789,
@@ -11537,7 +11537,7 @@
         "居住地": "北上市",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1039755/1042049.html",
         "会見": "https://www.youtube.com/watch?v=OYJB4mLITOE",
-        "接触歴": "不明"
+        "接触歴": "判明"
       },
       {
         "id": 790,
@@ -11548,7 +11548,7 @@
         "居住地": "北上市",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1039755/1042050.html",
         "会見": "https://www.youtube.com/watch?v=OYJB4mLITOE",
-        "接触歴": "不明"
+        "接触歴": "判明"
       },
       {
         "id": 791,
@@ -11570,7 +11570,7 @@
         "居住地": "宮古保健所管内",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1039755/1042055.html",
         "会見": "https://www.youtube.com/watch?v=OYJB4mLITOE",
-        "接触歴": "不明"
+        "接触歴": "判明"
       },
       {
         "id": 793,
@@ -11581,7 +11581,7 @@
         "居住地": "宮古保健所管内",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1039755/1042056.html",
         "会見": "https://www.youtube.com/watch?v=OYJB4mLITOE",
-        "接触歴": "不明"
+        "接触歴": "判明"
       },
       {
         "id": 794,
@@ -11592,12 +11592,12 @@
         "居住地": "宮古保健所管内",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1039755/1042057.html",
         "会見": "https://www.youtube.com/watch?v=OYJB4mLITOE",
-        "接触歴": "不明"
+        "接触歴": "判明"
       }
     ]
   },
   "patients_summary": {
-    "date": "2021-04-21T17:05:35+09:00",
+    "date": "2021-04-22T08:07:13+09:00",
     "data": [
       {
         "日付": "2020-02-15T08:00:00+09:00",
@@ -13329,5 +13329,5 @@
       }
     ]
   },
-  "lastUpdate": "2021-04-21T17:05:35+09:00"
+  "lastUpdate": "2021-04-22T08:07:13+09:00"
 }
