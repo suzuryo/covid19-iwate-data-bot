@@ -5,23 +5,11 @@
       "icon": "📄",
       "url": {
         "ja": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1035392.html",
-        "en": null
+        "en": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1035392.html"
       },
       "text": {
         "ja": "岩手県が不要不急の往来自粛をお願いしている地域",
         "en": "Areas where Iwate Prefecture asks people to refrain from unnecessary traffic."
-      }
-    },
-    {
-      "date": "2021-04-05T00:00:00+09:00",
-      "icon": "📄",
-      "url": {
-        "ja": "https://www.pref.miyagi.jp/uploaded/attachment/845605.pdf",
-        "en": null
-      },
-      "text": {
-        "ja": "宮城県が「まん延防止等重点措置」「これ以上の病床確保が困難な状態」",
-        "en": "Miyagi Prefecture and Sendai City declare their own state of emergency"
       }
     }
   ]
