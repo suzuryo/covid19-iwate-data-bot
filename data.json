@@ -1,6 +1,6 @@
 {
   "contacts": {
-    "date": "2021-04-24T15:14:50+09:00",
+    "date": "2021-04-24T16:56:44+09:00",
     "data": [
       {
         "日付": "2020-02-15T00:00:00+09:00",
@@ -1429,7 +1429,7 @@
     ]
   },
   "querents": {
-    "date": "2021-04-24T15:14:50+09:00",
+    "date": "2021-04-24T16:56:44+09:00",
     "data": [
       {
         "日付": "2020-02-15T00:00:00+09:00",
@@ -2858,7 +2858,7 @@
     ]
   },
   "patients": {
-    "date": "2021-04-24T15:14:50+09:00",
+    "date": "2021-04-24T16:56:44+09:00",
     "data": [
       {
         "id": 1,
@@ -11785,110 +11785,110 @@
         "id": 812,
         "確定日": "2021-04-23T00:00:00+09:00",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "30代",
         "居住地": "盛岡市",
-        "url": null,
-        "会見": null,
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1035042.html",
+        "会見": "https://www.youtube.com/watch?v=BImHa6Za9g4",
         "接触歴": "判明"
       },
       {
         "id": 813,
         "確定日": "2021-04-23T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-04-23T00:00:00+09:00",
         "無症状": false,
         "年代": "30代",
         "居住地": "盛岡市",
-        "url": null,
-        "会見": null,
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1035043.html",
+        "会見": "https://www.youtube.com/watch?v=BImHa6Za9g4",
         "接触歴": "判明"
       },
       {
         "id": 814,
         "確定日": "2021-04-23T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-04-22T00:00:00+09:00",
         "無症状": false,
         "年代": "60代",
         "居住地": "盛岡市",
-        "url": null,
-        "会見": null,
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1035045.html",
+        "会見": "https://www.youtube.com/watch?v=BImHa6Za9g4",
         "接触歴": "判明"
       },
       {
         "id": 815,
         "確定日": "2021-04-23T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-04-23T00:00:00+09:00",
         "無症状": false,
         "年代": "30代",
         "居住地": "盛岡市",
-        "url": null,
-        "会見": null,
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1035047.html",
+        "会見": "https://www.youtube.com/watch?v=BImHa6Za9g4",
         "接触歴": "判明"
       },
       {
         "id": 816,
         "確定日": "2021-04-23T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-04-21T00:00:00+09:00",
         "無症状": false,
         "年代": "30代",
         "居住地": "盛岡市",
-        "url": null,
-        "会見": null,
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1035049.html",
+        "会見": "https://www.youtube.com/watch?v=BImHa6Za9g4",
         "接触歴": "判明"
       },
       {
         "id": 817,
         "確定日": "2021-04-23T00:00:00+09:00",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "40代",
         "居住地": "盛岡市",
-        "url": null,
-        "会見": null,
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1035051.html",
+        "会見": "https://www.youtube.com/watch?v=BImHa6Za9g4",
         "接触歴": "判明"
       },
       {
         "id": 818,
         "確定日": "2021-04-23T00:00:00+09:00",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "30代",
         "居住地": "盛岡市",
-        "url": null,
-        "会見": null,
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1035050.html",
+        "会見": "https://www.youtube.com/watch?v=BImHa6Za9g4",
         "接触歴": "判明"
       },
       {
         "id": 819,
         "確定日": "2021-04-23T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-04-20T00:00:00+09:00",
         "無症状": false,
         "年代": "50代",
         "居住地": "盛岡市",
-        "url": null,
-        "会見": null,
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1035048.html",
+        "会見": "https://www.youtube.com/watch?v=BImHa6Za9g4",
         "接触歴": "判明"
       },
       {
         "id": 820,
         "確定日": "2021-04-23T00:00:00+09:00",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "60代",
         "居住地": "盛岡市",
-        "url": null,
-        "会見": null,
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1035046.html",
+        "会見": "https://www.youtube.com/watch?v=BImHa6Za9g4",
         "接触歴": "判明"
       },
       {
         "id": 821,
         "確定日": "2021-04-23T00:00:00+09:00",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "60代",
         "居住地": "盛岡市",
-        "url": null,
-        "会見": null,
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1035044.html",
+        "会見": "https://www.youtube.com/watch?v=BImHa6Za9g4",
         "接触歴": "判明"
       },
       {
@@ -11899,7 +11899,7 @@
         "年代": "40代",
         "居住地": "滝沢市",
         "url": null,
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=BImHa6Za9g4",
         "接触歴": "判明"
       },
       {
@@ -11910,7 +11910,7 @@
         "年代": "30代",
         "居住地": "滝沢市",
         "url": null,
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=BImHa6Za9g4",
         "接触歴": "判明"
       },
       {
@@ -11919,9 +11919,9 @@
         "発症日": null,
         "無症状": false,
         "年代": "90歳以上",
-        "居住地": "滝沢市",
+        "居住地": "奥州市",
         "url": null,
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=BImHa6Za9g4",
         "接触歴": "判明"
       },
       {
@@ -11932,7 +11932,7 @@
         "年代": "60代",
         "居住地": "奥州市",
         "url": null,
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=BImHa6Za9g4",
         "接触歴": "判明"
       },
       {
@@ -11943,7 +11943,7 @@
         "年代": "60代",
         "居住地": "奥州市",
         "url": null,
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=BImHa6Za9g4",
         "接触歴": "判明"
       },
       {
@@ -11954,7 +11954,7 @@
         "年代": "30代",
         "居住地": "奥州市",
         "url": null,
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=BImHa6Za9g4",
         "接触歴": "判明"
       },
       {
@@ -11965,7 +11965,7 @@
         "年代": "10歳未満",
         "居住地": "奥州市",
         "url": null,
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=BImHa6Za9g4",
         "接触歴": "判明"
       },
       {
@@ -11976,7 +11976,7 @@
         "年代": "80代",
         "居住地": "奥州市",
         "url": null,
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=BImHa6Za9g4",
         "接触歴": "判明"
       },
       {
@@ -11987,7 +11987,7 @@
         "年代": "80代",
         "居住地": "奥州市",
         "url": null,
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=BImHa6Za9g4",
         "接触歴": "判明"
       },
       {
@@ -11998,7 +11998,7 @@
         "年代": "70代",
         "居住地": "奥州市",
         "url": null,
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=BImHa6Za9g4",
         "接触歴": "判明"
       },
       {
@@ -12009,7 +12009,7 @@
         "年代": "60代",
         "居住地": "奥州市",
         "url": null,
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=BImHa6Za9g4",
         "接触歴": "判明"
       },
       {
@@ -12020,7 +12020,7 @@
         "年代": "30代",
         "居住地": "奥州市",
         "url": null,
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=BImHa6Za9g4",
         "接触歴": "不明"
       },
       {
@@ -12031,7 +12031,7 @@
         "年代": "60代",
         "居住地": "一関市",
         "url": null,
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=BImHa6Za9g4",
         "接触歴": "不明"
       },
       {
@@ -12042,7 +12042,7 @@
         "年代": "70代",
         "居住地": "一関市",
         "url": null,
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=BImHa6Za9g4",
         "接触歴": "不明"
       },
       {
@@ -12053,7 +12053,7 @@
         "年代": "30代",
         "居住地": "宮古市",
         "url": null,
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=BImHa6Za9g4",
         "接触歴": "判明"
       },
       {
@@ -12064,7 +12064,7 @@
         "年代": "10代",
         "居住地": "久慈保健所管内",
         "url": null,
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=BImHa6Za9g4",
         "接触歴": "判明"
       },
       {
@@ -12075,13 +12075,13 @@
         "年代": "70代",
         "居住地": "久慈保健所管内",
         "url": null,
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=BImHa6Za9g4",
         "接触歴": "判明"
       }
     ]
   },
   "patients_summary": {
-    "date": "2021-04-24T15:14:50+09:00",
+    "date": "2021-04-24T16:56:44+09:00",
     "data": [
       {
         "日付": "2020-02-15T08:00:00+09:00",
@@ -13825,5 +13825,5 @@
       }
     ]
   },
-  "lastUpdate": "2021-04-24T15:14:50+09:00"
+  "lastUpdate": "2021-04-24T16:56:44+09:00"
 }
