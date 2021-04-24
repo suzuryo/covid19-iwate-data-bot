@@ -1,7 +1,7 @@
 {
-  "date": "2021-04-24T15:14:50+09:00",
+  "date": "2021-04-24T16:56:44+09:00",
   "datasets": {
-    "date": "2021-04-24T15:14:50+09:00",
+    "date": "2021-04-24T16:56:44+09:00",
     "data": [
       {
         "code": "032018",
@@ -104,16 +104,16 @@
         "area": "岩手県",
         "label": "奥州市",
         "ruby": "おうしゅうし",
-        "count": 52,
-        "count_per_population": "0.046"
+        "count": 53,
+        "count_per_population": "0.047"
       },
       {
         "code": "032166",
         "area": "岩手県",
         "label": "滝沢市",
         "ruby": "たきざわし",
-        "count": 52,
-        "count_per_population": "0.093"
+        "count": 51,
+        "count_per_population": "0.091"
       },
       {
         "code": "033014",
