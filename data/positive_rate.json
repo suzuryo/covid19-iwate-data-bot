@@ -1,5 +1,5 @@
 {
-  "date": "2021-04-24T18:57:57+09:00",
+  "date": "2021-04-25T15:13:43+09:00",
   "data": [
     {
       "diagnosed_date": "2020-02-13T00:00:00+09:00",
@@ -4360,6 +4360,16 @@
       "antigen_negative_count": 88,
       "weekly_average_diagnosed_count": 223.1,
       "positive_rate": 2.69
+    },
+    {
+      "diagnosed_date": "2021-04-24T00:00:00+09:00",
+      "positive_count": 10,
+      "pcr_positive_count": 10,
+      "antigen_positive_count": 0,
+      "pcr_negative_count": 200,
+      "antigen_negative_count": 52,
+      "weekly_average_diagnosed_count": 230.1,
+      "positive_rate": 3.0
     }
   ]
 }
