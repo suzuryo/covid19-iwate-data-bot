@@ -1,6 +1,6 @@
 {
   "contacts": {
-    "date": "2021-04-28T15:25:51+09:00",
+    "date": "2021-04-28T16:42:40+09:00",
     "data": [
       {
         "日付": "2020-02-15T00:00:00+09:00",
@@ -1429,7 +1429,7 @@
     ]
   },
   "querents": {
-    "date": "2021-04-28T15:25:51+09:00",
+    "date": "2021-04-28T16:42:40+09:00",
     "data": [
       {
         "日付": "2020-02-15T00:00:00+09:00",
@@ -2858,7 +2858,7 @@
     ]
   },
   "patients": {
-    "date": "2021-04-28T15:25:51+09:00",
+    "date": "2021-04-28T16:42:40+09:00",
     "data": [
       {
         "id": 1,
@@ -12345,33 +12345,33 @@
       {
         "id": 863,
         "確定日": "2021-04-27T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-04-25T00:00:00+09:00",
         "無症状": false,
         "年代": "10代",
         "居住地": "矢巾町",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1042320/1042513.html",
         "会見": "https://www.youtube.com/watch?v=ouQatlGLCc8",
         "接触歴": "判明"
       },
       {
         "id": 864,
         "確定日": "2021-04-27T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-04-27T00:00:00+09:00",
         "無症状": false,
         "年代": "80代",
         "居住地": "滝沢市",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1042320/1042514.html",
         "会見": "https://www.youtube.com/watch?v=ouQatlGLCc8",
         "接触歴": "不明"
       },
       {
         "id": 865,
         "確定日": "2021-04-27T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-04-23T00:00:00+09:00",
         "無症状": false,
         "年代": "30代",
         "居住地": "奥州市",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1042320/1042515.html",
         "会見": "https://www.youtube.com/watch?v=ouQatlGLCc8",
         "接触歴": "不明"
       },
@@ -12379,28 +12379,28 @@
         "id": 866,
         "確定日": "2021-04-27T00:00:00+09:00",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "50代",
         "居住地": "一関市",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1042320/1042516.html",
         "会見": "https://www.youtube.com/watch?v=ouQatlGLCc8",
         "接触歴": "判明"
       },
       {
         "id": 867,
         "確定日": "2021-04-27T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-04-24T00:00:00+09:00",
         "無症状": false,
         "年代": "40代",
         "居住地": "大船渡市",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1042320/1042517.html",
         "会見": "https://www.youtube.com/watch?v=ouQatlGLCc8",
         "接触歴": "判明"
       }
     ]
   },
   "patients_summary": {
-    "date": "2021-04-28T15:25:51+09:00",
+    "date": "2021-04-28T16:42:40+09:00",
     "data": [
       {
         "日付": "2020-02-15T08:00:00+09:00",
@@ -14160,5 +14160,5 @@
       }
     ]
   },
-  "lastUpdate": "2021-04-28T15:25:51+09:00"
+  "lastUpdate": "2021-04-28T16:42:40+09:00"
 }
