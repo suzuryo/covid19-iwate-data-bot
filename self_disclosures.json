@@ -1403,6 +1403,18 @@
         "ja": "INDY 都南店 (盛岡市)",
         "en": null
       }
+    },
+    {
+      "date": "2021-04-28T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.japanpost.jp/information/notices2_latest.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手郵便局 (北上市)",
+        "en": null
+      }
     }
   ]
 }
