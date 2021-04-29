@@ -357,6 +357,7 @@ HOSPITALIZED_NUMBERS.each do |row|
       hospital: row['入院'].to_i,
       hotel: row['宿泊療養'].to_i,
       hospitalized: row['入院'].to_i + row['宿泊療養'].to_i,
+      waiting: row['調整中'].to_i,
       # severe_case: row['重症'].to_i, # 利用していないので出力しない
     }
   )
