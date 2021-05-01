@@ -89,7 +89,7 @@ class Morioka
         patient['入院日'] = m ? Date.parse("2021/#{m[:month]}/#{m[:day]}").strftime('%Y/%m/%d') : ''
       when /^その他/
         h4_next_element = h4.next_element.text
-        patient['接触歴'] = if /よりよいウェブサイトにするために/.match h4_next_element || h4_next_element.blank?
+        patient['接触歴'] = if /よりよいウェブサイトにするために/.match(h4_next_element) || h4_next_element.blank?
                            '不明'
                          else
                            '判明'
