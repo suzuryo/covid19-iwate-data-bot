@@ -2,82 +2,51 @@
 # coding: utf-8
 # frozen_string_literal: true
 
-require 'google/apis/sheets_v4'
-require 'googleauth'
-require 'googleauth/stores/file_token_store'
 require 'fileutils'
 require 'json'
 require 'time'
 require 'date'
-require 'csv'
 require 'active_support/core_ext/object/blank'
 require 'active_support/core_ext/date'
+require_relative '../lib/googlesheets'
 
-OOB_URI = 'urn:ietf:wg:oauth:2.0:oob'
-APPLICATION_NAME = 'iwate.stopcovid19.jp DATA JSON Converter'
-CREDENTIALS_PATH = File.join(__dir__, '../credentials.json')
-TOKEN_PATH = File.join(__dir__, '../token.yaml')
-SCOPE = Google::Apis::SheetsV4::AUTH_SPREADSHEETS_READONLY
-
-def authorize
-  client_id = Google::Auth::ClientId.from_file CREDENTIALS_PATH
-  token_store = Google::Auth::Stores::FileTokenStore.new file: TOKEN_PATH
-  authorizer = Google::Auth::UserAuthorizer.new client_id, SCOPE, token_store
-  user_id = 'default'
-  credentials = authorizer.get_credentials user_id
-  if credentials.nil?
-    url = authorizer.get_authorization_url base_url: OOB_URI
-    puts 'Open the following URL in the browser and enter the ' \
-         "resulting code after authorization:\n" + url
-    code = gets
-    credentials = authorizer.get_and_store_credentials_from_code(
-      user_id: user_id, code: code, base_url: OOB_URI
-    )
-  end
-  credentials
-end
-
-# Initialize the API
-service = Google::Apis::SheetsV4::SheetsService.new
-service.client_options.application_name = APPLICATION_NAME
-service.authorization = authorize
+GoogleSheets = GoogleSheetsIwate.new
 
 # ここまで Google Sheets API を使うための Quickstart テンプレ
 # https://developers.google.com/sheets/api/quickstart/ruby
 
 ######################################################################
-# Google Sheets から データを取得して CSV::Table にする
+# Google Sheets から batch_get_spreadsheet_values した値をシートごとに Hash の Array にする
 ######################################################################
-SPREADSHEET_ID = '1VjxD8YTwEngvkfYOLD-4JG1tA5AnzTlgnzDO1lkTlNc'
 
-PATIENTS_CSV = CSV.parse(service.get_spreadsheet_values(SPREADSHEET_ID, 'output_patients').values.map(&:to_csv).join, headers: true)
-raise if PATIENTS_CSV.empty?
+PATIENTS = GoogleSheets.data(GoogleSheetsIwate::SHEET_RANGES[:PATIENTS])
+raise if PATIENTS.empty?
 
-CONTACTS_CSV = CSV.parse(service.get_spreadsheet_values(SPREADSHEET_ID, 'input_受診・相談センター_相談件数').values.map(&:to_csv).join, headers: true)
-raise if CONTACTS_CSV.empty?
+CONTACTS = GoogleSheets.data(GoogleSheetsIwate::SHEET_RANGES[:CONTACTS])
+raise if CONTACTS.empty?
 
-QUERENTS_CSV = CSV.parse(service.get_spreadsheet_values(SPREADSHEET_ID, 'input_一般_相談件数').values.map(&:to_csv).join, headers: true)
-raise if QUERENTS_CSV.empty?
+QUERENTS = GoogleSheets.data(GoogleSheetsIwate::SHEET_RANGES[:QUERENTS])
+raise if QUERENTS.empty?
 
-PATIENT_MUNICIPALITIES = CSV.parse(service.get_spreadsheet_values(SPREADSHEET_ID, 'output_patient_municipalities').values.map(&:to_csv).join, headers: true)
+PATIENT_MUNICIPALITIES = GoogleSheets.data(GoogleSheetsIwate::SHEET_RANGES[:PATIENT_MUNICIPALITIES])
 raise if PATIENT_MUNICIPALITIES.empty?
 
-POSITIVE_BY_DIAGNOSED = CSV.parse(service.get_spreadsheet_values(SPREADSHEET_ID, 'output_positive_by_diagnosed').values.map(&:to_csv).join, headers: true)
+POSITIVE_BY_DIAGNOSED = GoogleSheets.data(GoogleSheetsIwate::SHEET_RANGES[:POSITIVE_BY_DIAGNOSED])
 raise if POSITIVE_BY_DIAGNOSED.empty?
 
-POSITIVE_RATE = CSV.parse(service.get_spreadsheet_values(SPREADSHEET_ID, 'output_positive_rate').values.map(&:to_csv).join, headers: true)
+POSITIVE_RATE = GoogleSheets.data(GoogleSheetsIwate::SHEET_RANGES[:POSITIVE_RATE])
 raise if POSITIVE_RATE.empty?
 
-HOSPITALIZED_NUMBERS = CSV.parse(service.get_spreadsheet_values(SPREADSHEET_ID, 'output_hospitalized_numbers').values.map(&:to_csv).join, headers: true)
+HOSPITALIZED_NUMBERS = GoogleSheets.data(GoogleSheetsIwate::SHEET_RANGES[:HOSPITALIZED_NUMBERS])
 raise if HOSPITALIZED_NUMBERS.empty?
 
-NEWS = CSV.parse(service.get_spreadsheet_values(SPREADSHEET_ID, 'input_news').values.map(&:to_csv).join, headers: true)
+NEWS = GoogleSheets.data(GoogleSheetsIwate::SHEET_RANGES[:NEWS])
 raise if NEWS.empty?
 
-ALERT = CSV.parse(service.get_spreadsheet_values(SPREADSHEET_ID, 'input_alert').values.map(&:to_csv).join, headers: true)
+ALERT = GoogleSheets.data(GoogleSheetsIwate::SHEET_RANGES[:ALERT])
 raise if ALERT.empty?
 
-SELF_DISCLOSURES = CSV.parse(service.get_spreadsheet_values(SPREADSHEET_ID, 'input_self_disclosures').values.map(&:to_csv).join, headers: true)
+SELF_DISCLOSURES = GoogleSheets.data(GoogleSheetsIwate::SHEET_RANGES[:SELF_DISCLOSURES])
 raise if SELF_DISCLOSURES.empty?
 
 ######################################################################
@@ -112,7 +81,7 @@ data_json = {
 # data.json
 # patients の生成
 ######################################################################
-PATIENTS_CSV.each do |row|
+PATIENTS.each do |row|
   data_json[:patients][:data].append(
     {
       id: row['id'].to_i,
@@ -141,7 +110,7 @@ patients_summary_last_date = Date.parse(POSITIVE_RATE[-1]['diagnosed_date']) == 
 
 (first_date..patients_summary_last_date).each do |date|
   output_patients_sum = 0
-  PATIENTS_CSV.each do |row|
+  PATIENTS.each do |row|
     if row['リリース日'] == date.strftime('%Y/%m/%d')
       output_patients_sum += 1
     end
@@ -159,7 +128,7 @@ end
 # data.json
 # contacts の生成
 ######################################################################
-CONTACTS_CSV.each do |row|
+CONTACTS.each do |row|
   data_json[:contacts][:data].append(
     {
       日付: Time.parse(row['date']).iso8601,
@@ -175,7 +144,7 @@ end
 # data.querents.json
 # querents の生成
 ######################################################################
-QUERENTS_CSV.each do |row|
+QUERENTS.each do |row|
   data_json[:querents][:data].append(
     {
       日付: Time.parse(row['date']).iso8601,
@@ -231,7 +200,7 @@ data_positive_by_diagnosed_json = {
 ######################################################################
 (first_date..Date.parse(POSITIVE_RATE[-1]['diagnosed_date'])).each do |date|
   positive_by_diagnosed_sum = 0
-  PATIENTS_CSV.each do |row|
+  PATIENTS.each do |row|
     if row['確定日'] == date.strftime('%Y/%m/%d')
       positive_by_diagnosed_sum += 1
     end
@@ -445,7 +414,7 @@ end
 
 data_main_summary = {
   date: now.iso8601,
-  陽性者数: PATIENTS_CSV.size,
+  陽性者数: PATIENTS.size,
   陽性者数前日差: POSITIVE_BY_DIAGNOSED[-1]['count'].to_i,
   入院: HOSPITALIZED_NUMBERS[-1]['入院'].to_i,
   入院前日差: HOSPITALIZED_NUMBERS[-1]['入院'].to_i - HOSPITALIZED_NUMBERS[-2]['入院'].to_i,
