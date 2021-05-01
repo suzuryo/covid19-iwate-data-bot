@@ -19,11 +19,7 @@ module Site2Tsv
         Iwate.new(url: @url, selector: @selector, id: @id).data
       when SITES[:morioka][:regex]
         Morioka.new(url: @url, selector: @selector, id: @id).data
-      else
-        nil
       end
     end
-
   end
 end
-

@@ -6,12 +6,12 @@ SITES = {
   iwate: {
     url: 'https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1042320/index.html',
     selector: '#voice > table > tbody > tr > td:nth-child(1) a',
-    regex: /^https:\/\/www.pref.iwate.jp/
+    regex: %r{^https://www.pref.iwate.jp}
   },
   morioka: {
     url: 'http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/',
     selector: '#voice > ul > li > a',
-    regex: /^http:\/\/www.city.morioka.iwate.jp/
+    regex: %r{^http://www.city.morioka.iwate.jp}
   }
 }.freeze
 
@@ -24,6 +24,7 @@ class String
   def iwate?
     !!(SITES[:iwate][:regex].match self)
   end
+
   def morioka?
     !!(SITES[:morioka][:regex].match self)
   end

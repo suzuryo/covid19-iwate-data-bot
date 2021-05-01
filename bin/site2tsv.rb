@@ -10,6 +10,7 @@ require_relative '../lib/site'
 require_relative '../lib/settings'
 
 module Site2Tsv
+  # Site2Tsv CLI
   class Cli < Thor
     # remove_file や template を利用する
     include Thor::Actions

@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 module Tweet2Tsv
+  # Twitter
   class Twitter
     def initialize(days)
       @tweets = []
@@ -98,19 +99,19 @@ module Tweet2Tsv
           end
         end
 
-        if patients2
-          patients2&.each do |patient|
-            d[:patients].reject! { |item| item['id'] == patient[0].to_i }
-            h = {}
-            h['created_at'] = created_at
-            h['id'] = patient[0].to_i
-            h['年代'] = patient[1] == '90歳' ? '90歳以上' : patient[1] # 90歳以上 と 90歳\n以上 の2パターンある
-            h['性別'] = patient[2]
-            h['居住地'] = patient[3].split(/[(（]/)[0]
-            h['職業'] = patient[4]
-            h['接触歴'] = '判明'
-            d[:patients] << h
-          end
+        next unless patients2
+
+        patients2&.each do |patient|
+          d[:patients].reject! { |item| item['id'] == patient[0].to_i }
+          h = {}
+          h['created_at'] = created_at
+          h['id'] = patient[0].to_i
+          h['年代'] = patient[1] == '90歳' ? '90歳以上' : patient[1] # 90歳以上 と 90歳\n以上 の2パターンある
+          h['性別'] = patient[2]
+          h['居住地'] = patient[3].split(/[(（]/)[0]
+          h['職業'] = patient[4]
+          h['接触歴'] = '判明'
+          d[:patients] << h
         end
       end
       d

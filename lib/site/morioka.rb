@@ -66,10 +66,10 @@ class Morioka
       case h4.text
       when /^症状：/
         patient['無症状'] = if h4.text.match(/無症状病原体保有者/)
-                          '無症状'
-                        else
-                          ''
-                        end
+                           '無症状'
+                         else
+                           ''
+                         end
       when /^発症日：/
         if patient['無症状'] == '無症状'
           patient['発症日'] = ''
@@ -88,15 +88,12 @@ class Morioka
         m = h4.text.match(/(?<month>\d+)月(?<day>\d+)/)
         patient['入院日'] = m ? Date.parse("2021/#{m[:month]}/#{m[:day]}").strftime('%Y/%m/%d') : ''
       when /^その他/
-        if /よりよいウェブサイトにするために，このページにどのような問題点があったかをお聞かせください。/.match h4.next_element.text
-          patient['接触歴'] = '不明'
-        else
-          if h4.next_element.text.blank?
-            patient['接触歴'] = '不明'
-          else
-            patient['接触歴'] = '判明'
-          end
-        end
+        h4_next_element = h4.next_element.text
+        patient['接触歴'] = if /よりよいウェブサイトにするために/.match h4_next_element || h4_next_element.blank?
+                           '不明'
+                         else
+                           '判明'
+                         end
       end
     end
 

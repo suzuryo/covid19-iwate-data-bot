@@ -14,6 +14,7 @@ module Tweet2Tsv
   USER_ID = 1251721687415980032
   BEARER_TOKEN = ENV['TWITTER_BEARER_TOKEN']
 
+  # Tweet2Tsv CLI
   class Cli < Thor
     check_unknown_options!
     include Thor::Actions

@@ -64,13 +64,14 @@ class Iwate
     patient['年代'] = dl['年代']
     patient['性別'] = dl['性別']
 
-    if dl['居住地'].match(/県外/)
-      patient['居住地'] = '県外'
-    elsif dl['居住地'].match(/滞在地：/)
-      patient['居住地'] = dl['居住地'].gsub('滞在地：', '')
-    else
-      patient['居住地'] = dl['居住地']
-    end
+    patient['居住地'] = case dl['居住地']
+                     when /県外/
+                       '県外'
+                     when /滞在地：/
+                       dl['居住地'].gsub('滞在地：', '')
+                     else
+                       dl['居住地']
+                     end
 
     patient['職業'] = dl['職業']
 
