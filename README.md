@@ -1,7 +1,4 @@
-# Google Sheets で管理しているデータから json を書き出す CLI スクリプト
-
-data の json を手動管理するのは大変なので、Google Sheetsに入力して、このスクリプトを動かせば、
-iwate.stopcovid19.jp のビルドに必要な json が生成される。
+# iwate.stopcovid19.jp で使う json を書き出す CLI スクリプト
 
 ## 1. 環境構築
 
@@ -24,7 +21,7 @@ bundle exec bin/googlesheet2json.rb
 実行すると
 
 ```
-./data/alertsummary.json
+./data/alert.json
 ./data/daily_positive_detail.json
 ./data/data.json
 ./data/main_summary.json
@@ -41,12 +38,12 @@ bundle exec bin/googlesheet2json.rb
 ## 3. 岩手県と盛岡市のサイトからTSVを生成プログラムの実行
 
 ```
-bundle exec bin/site2tsv.rb
+bundle exec bin/site2tsv.rb # 普通はこれ
 bundle exec bin/site2tsv.rb new
 bundle exec bin/site2tsv.rb new --id NUM
 ```
 
-実行すると、pref.iwateとcity.moriokaからデータをスクレイピングして
+実行すると、pref.iwateとcity.moriokaのサイトから、id NUM 以降のデータをスクレイピングして
 
 ```
 ./tsv/site.tsv
@@ -57,14 +54,14 @@ bundle exec bin/site2tsv.rb new --id NUM
 ## 4. twitter.com/iwatevscovid19 からTSVを生成プログラムの実行
 
 ```
-bundle exec bin/tweet2tsv.rb
+bundle exec bin/tweet2tsv.rb # 普通はこれ
 bundle exec bin/tweet2tsv.rb new
 bundle exec bin/tweet2tsv.rb new --days NUM
 ```
 
 - TWITTER_BEARER_TOKEN を取得して .env に設定する
 
-実行すると、twitter.com/iwatevscovid19 のつぶやき群からデータを取得して
+実行すると、twitter.com/iwatevscovid19 のつぶやき群から、 NUM days のデータを取得して
 
 ```
 ./tsv/tweet.tsv
