@@ -67,7 +67,7 @@ module Tweet2Tsv
 
         pat1 = /
         【第(?<例目>\d+?)例目】\s
-        ①(?<年代>.+?)(\s|\s以上\s)
+        ①(?<年代>.+?)(?<年代a>\s|\s以上\s)
         ②(?<性別>.+?)\s
         ③(?<居住地>.+?)\s
         ④(?<職業>.+?)\s
@@ -75,7 +75,7 @@ module Tweet2Tsv
 
         pat2 = /
         【第(?<例目>\d+?)例目】\s
-        ①(?<年代>.+?)(\s|\s以上\s)
+        ①(?<年代>.+?)(?<年代a>\s|\s以上\s)
         ②(?<性別>.+?)\s
         ③(?<居住地>.+?)\s
         ④(?<職業>.+?)\s
@@ -91,9 +91,9 @@ module Tweet2Tsv
             h['created_at'] = created_at
             h['id'] = patient[0].to_i
             h['年代'] = patient[1] == '90歳' ? '90歳以上' : patient[1] # 90歳以上 と 90歳\n以上 の2パターンある
-            h['性別'] = patient[2]
-            h['居住地'] = patient[3].split(/[(（]/)[0]
-            h['職業'] = patient[4]
+            h['性別'] = patient[3]
+            h['居住地'] = patient[4].split(/[(（]/)[0]
+            h['職業'] = patient[5]
             h['接触歴'] = '不明'
             d[:patients] << h
           end
@@ -107,9 +107,9 @@ module Tweet2Tsv
           h['created_at'] = created_at
           h['id'] = patient[0].to_i
           h['年代'] = patient[1] == '90歳' ? '90歳以上' : patient[1] # 90歳以上 と 90歳\n以上 の2パターンある
-          h['性別'] = patient[2]
-          h['居住地'] = patient[3].split(/[(（]/)[0]
-          h['職業'] = patient[4]
+          h['性別'] = patient[3]
+          h['居住地'] = patient[4].split(/[(（]/)[0]
+          h['職業'] = patient[5]
           h['接触歴'] = '判明'
           d[:patients] << h
         end
