@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module Tweet2Tsv
-  class TwitterParser
+  class Twitter
     def initialize(days)
       @tweets = []
       @days = days

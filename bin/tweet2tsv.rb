@@ -6,7 +6,7 @@ require 'dotenv/load'
 require 'json'
 require 'thor'
 require 'typhoeus'
-require_relative '../lib/site/twitter'
+require_relative '../lib/twitter'
 
 module Tweet2Tsv
   VERSION = '0.1.0'
@@ -44,7 +44,7 @@ module Tweet2Tsv
       # オプションが指定されていなければ、直近1日分のデータを取得
       days = options[:days].nil? ? 1 : options[:days].to_i
 
-      tweets = Tweet2Tsv::TwitterParser.new(days)
+      tweets = Tweet2Tsv::Twitter.new(days)
 
       # 最新データが空ならば何もしない
       raise Error, set_color('ERROR: data blank', :red) if tweets.data.blank?
