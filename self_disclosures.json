@@ -1408,7 +1408,7 @@
       "date": "2021-04-28T00:00:00+09:00",
       "icon": "📄",
       "url": {
-        "ja": "https://www.japanpost.jp/information/notices2_latest.pdf",
+        "ja": "https://www.japanpost.jp/information/notices2_list.pdf",
         "en": null
       },
       "text": {
@@ -1449,6 +1449,18 @@
       },
       "text": {
         "ja": "岩手銀行 土沢支店 [全職員のPCR結果] (花巻市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-05-01T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
+        "ja": "http://www.matsuzono.jp/covid19/covid19_info2.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "松園第二病院 [第2報] (盛岡市)",
         "en": null
       }
     }
