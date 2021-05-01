@@ -1,5 +1,4 @@
 #!/usr/bin/env ruby
-# coding: utf-8
 # frozen_string_literal: true
 
 require 'fileutils'
@@ -88,14 +87,14 @@ PATIENTS.each do |row|
       # リリース日: row['リリース日'].blank? ? nil : Time.parse(row['リリース日']).iso8601, # 利用していないので出力しない
       確定日: row['確定日'].blank? ? nil : Time.parse(row['確定日']).iso8601,
       発症日: row['発症日'].blank? ? nil : Time.parse(row['発症日']).iso8601,
-      無症状: row['無症状'] == '無症状' ? true : false,
+      無症状: row['無症状'] == '無症状',
       # 通番: row['通番'].blank? ? nil : row['通番'],
       年代: row['年代'].blank? ? nil : row['年代'],
       # 性別: row['性別'].blank? ? nil : row['性別'], # 利用していないので出力しない
       居住地: row['居住地'].blank? ? nil : row['居住地'],
       url: row['url'].blank? ? nil : row['url'],
       会見: row['記者会見1'].blank? ? nil : row['記者会見1'],
-      接触歴: row['接触歴'].blank? ? nil : row['接触歴'],
+      接触歴: row['接触歴'].blank? ? nil : row['接触歴']
     }
   )
 end
@@ -111,9 +110,7 @@ patients_summary_last_date = Date.parse(POSITIVE_RATE[-1]['diagnosed_date']) == 
 (first_date..patients_summary_last_date).each do |date|
   output_patients_sum = 0
   PATIENTS.each do |row|
-    if row['リリース日'] == date.strftime('%Y/%m/%d')
-      output_patients_sum += 1
-    end
+    output_patients_sum += 1 if row['リリース日'] == date.strftime('%Y/%m/%d')
   end
 
   data_json[:patients_summary][:data].append(
@@ -135,7 +132,7 @@ CONTACTS.each do |row|
       # コールセンター: row['コールセンター'].to_i, # 利用していないので出力しない
       # 各保健所: row['各保健所'].to_i, # 利用していないので出力しない
       # 医療政策室: row['医療政策室'].to_i, # 利用していないので出力しない
-      小計: row['小計'].blank? ? nil : row['小計'].to_i,
+      小計: row['小計'].blank? ? nil : row['小計'].to_i
     }
   )
 end
@@ -151,7 +148,7 @@ QUERENTS.each do |row|
       # コールセンター: row['コールセンター'].to_i, # 利用していないので出力しない
       # 各保健所: row['各保健所'].to_i, # 利用していないので出力しない
       # 医療政策室: row['医療政策室'].to_i, # 利用していないので出力しない
-      小計: row['小計'].blank? ? nil : row['小計'].to_i,
+      小計: row['小計'].blank? ? nil : row['小計'].to_i
     }
   )
 end
@@ -201,9 +198,7 @@ data_positive_by_diagnosed_json = {
 (first_date..Date.parse(POSITIVE_RATE[-1]['diagnosed_date'])).each do |date|
   positive_by_diagnosed_sum = 0
   PATIENTS.each do |row|
-    if row['確定日'] == date.strftime('%Y/%m/%d')
-      positive_by_diagnosed_sum += 1
-    end
+    positive_by_diagnosed_sum += 1 if row['確定日'] == date.strftime('%Y/%m/%d')
   end
 
   data_positive_by_diagnosed_json[:data].append(
@@ -326,7 +321,7 @@ HOSPITALIZED_NUMBERS.each do |row|
       hospital: row['入院'].to_i,
       hotel: row['宿泊療養'].to_i,
       hospitalized: row['入院'].to_i + row['宿泊療養'].to_i,
-      waiting: row['調整中'].to_i,
+      waiting: row['調整中'].to_i
       # severe_case: row['重症'].to_i, # 利用していないので出力しない
     }
   )
@@ -351,7 +346,7 @@ NEWS.each do |row|
       },
       text: {
         ja: row['text_ja'].blank? ? nil : row['text_ja'],
-        en: row['text_en'].blank? ? nil : row['text_en'],
+        en: row['text_en'].blank? ? nil : row['text_en']
       }
     }
   )
@@ -372,11 +367,11 @@ ALERT.each do |row|
       icon: row['icon'],
       url: {
         ja: row['url_ja'].blank? ? nil : row['url_ja'],
-        en: row['url_en'].blank? ? nil : row['url_en'],
+        en: row['url_en'].blank? ? nil : row['url_en']
       },
       text: {
         ja: row['text_ja'].blank? ? nil : row['text_ja'],
-        en: row['text_en'].blank? ? nil : row['text_en'],
+        en: row['text_en'].blank? ? nil : row['text_en']
       }
     }
   )
@@ -397,11 +392,11 @@ SELF_DISCLOSURES.each do |row|
       icon: row['icon'],
       url: {
         ja: row['url_ja'].blank? ? nil : row['url_ja'],
-        en: row['url_en'].blank? ? nil : row['url_en'],
+        en: row['url_en'].blank? ? nil : row['url_en']
       },
       text: {
         ja: row['text_ja'].blank? ? nil : row['text_ja'],
-        en: row['text_en'].blank? ? nil : row['text_en'],
+        en: row['text_en'].blank? ? nil : row['text_en']
       }
     }
   )
@@ -429,9 +424,8 @@ data_main_summary = {
   死亡: HOSPITALIZED_NUMBERS[-1]['死亡'].to_i,
   死亡前日差: HOSPITALIZED_NUMBERS[-1]['死亡'].to_i - HOSPITALIZED_NUMBERS[-2]['死亡'].to_i,
   退院等: HOSPITALIZED_NUMBERS[-1]['退院等'].to_i,
-  退院等前日差: HOSPITALIZED_NUMBERS[-1]['退院等'].to_i - HOSPITALIZED_NUMBERS[-2]['退院等'].to_i,
+  退院等前日差: HOSPITALIZED_NUMBERS[-1]['退院等'].to_i - HOSPITALIZED_NUMBERS[-2]['退院等'].to_i
 }
-
 
 ######################################################################
 # write json
