@@ -1,5 +1,8 @@
+# frozen_string_literal: true
+
 module Tweet2Tsv
-  class TwitterParser
+  # Twitter
+  class Twitter
     def initialize(days)
       @tweets = []
       @days = days
@@ -7,7 +10,7 @@ module Tweet2Tsv
       @now = Time.now
     end
 
-    def get_user_tweets
+    def user_tweets
       now = Time.now
       days_ago = now.days_ago(@days)
       start_time = Time.new(days_ago.year, days_ago.month, days_ago.day, 15, 0, 'JST').rfc3339
@@ -16,14 +19,14 @@ module Tweet2Tsv
       options = {
         method: 'get',
         headers: {
-          "User-Agent" => "v2RubyExampleCode",
-          "Authorization" => "Bearer #{BEARER_TOKEN}",
+          'User-Agent' => 'v2RubyExampleCode',
+          'Authorization' => "Bearer #{BEARER_TOKEN}"
         },
         params: {
-          "max_results" => 100,
-          "start_time" => start_time,
-          "end_time" => end_time,
-          "tweet.fields" => "author_id,created_at,id",
+          'max_results' => 100,
+          'start_time' => start_time,
+          'end_time' => end_time,
+          'tweet.fields' => 'author_id,created_at,id'
         }
       }
 
@@ -32,7 +35,7 @@ module Tweet2Tsv
       response = request.run
       # 自分の呟きだけをフィルタ
 
-      JSON.parse(response.body)['data'].select {|d| d['author_id'] == USER_ID.to_s}
+      JSON.parse(response.body)['data'].select { |d| d['author_id'] == USER_ID.to_s }
     end
 
     def data
@@ -41,8 +44,8 @@ module Tweet2Tsv
         patients: []
       }
 
-      get_user_tweets.each do |line|
-        text = line['text'].gsub(' ', '').gsub('　', '').gsub('年代：', '').gsub('性別：', '').gsub('居住地：', '').gsub('職業：', '') + "\n"
+      user_tweets.each do |line|
+        text = "#{line['text'].gsub(' ', '').gsub('　', '').gsub('年代：', '').gsub('性別：', '').gsub('居住地：', '').gsub('職業：', '')}\n"
         created_at = Time.parse(line['created_at']).in_time_zone('Asia/Tokyo')
 
         # main_summary
@@ -55,15 +58,16 @@ module Tweet2Tsv
           h.merge! /■検査内訳\s・県PCR検査[：:](?<県PCR検査>\d+)件\s・民間等[：:](?<民間等>\d+)件\s・地域外来等[：:](?<地域外来等>\d+)件\s・抗原検査[：:](?<抗原検査>\d+)件/.match(text).named_captures
           h.merge! /■累計[：:](?<累計>[\d,]+)件[（(]うち検出(?<累計う\sち検出>\d+)件[)）]\s/.match(text).named_captures
           h.merge! /■患者等状況\s・入院中(?<入院中>\d+)名[（(]うち重症者(?<入院中うち重症者>\d+)名[)）]\s・宿泊療養(?<宿泊療養>\d+)名\s・退院等(?<退院等>\d+)名\s・死亡者(?<死亡者>\d+)名\s・調整中(?<調整中>\d+)名/.match(text).named_captures
-          h.merge! ({'date' => Date.parse("2021/#{h['month']}/#{h['day']}")})
+          h.merge!({ 'date' => Date.parse("2021/#{h['month']}/#{h['day']}") })
           d[:main_summary] << h
         end
 
-
         # patients
+        # 90歳以上 と 90歳\n以上 の2パターンある
+
         pat1 = /
         【第(?<例目>\d+?)例目】\s
-        ①(?<年代>.+?)\s
+        ①(?<年代>.+?)(\s|\s以上\s)
         ②(?<性別>.+?)\s
         ③(?<居住地>.+?)\s
         ④(?<職業>.+?)\s
@@ -71,7 +75,7 @@ module Tweet2Tsv
 
         pat2 = /
         【第(?<例目>\d+?)例目】\s
-        ①(?<年代>.+?)\s
+        ①(?<年代>.+?)(\s|\s以上\s)
         ②(?<性別>.+?)\s
         ③(?<居住地>.+?)\s
         ④(?<職業>.+?)\s
@@ -82,11 +86,11 @@ module Tweet2Tsv
         patients2 = text.scan(pat2)
 
         if patients1
-          patients1.each do |patient|
+          patients1&.each do |patient|
             h = {}
             h['created_at'] = created_at
             h['id'] = patient[0].to_i
-            h['年代'] = patient[1]
+            h['年代'] = patient[1] == '90歳' ? '90歳以上' : patient[1] # 90歳以上 と 90歳\n以上 の2パターンある
             h['性別'] = patient[2]
             h['居住地'] = patient[3].split(/[(（]/)[0]
             h['職業'] = patient[4]
@@ -95,23 +99,22 @@ module Tweet2Tsv
           end
         end
 
-        if patients2
-          patients2.each do |patient|
-            d[:patients].reject!{|item| item['id'] == patient[0].to_i }
-            h = {}
-            h['created_at'] = created_at
-            h['id'] = patient[0].to_i
-            h['年代'] = patient[1]
-            h['性別'] = patient[2]
-            h['居住地'] = patient[3].split(/[(（]/)[0]
-            h['職業'] = patient[4]
-            h['接触歴'] = '判明'
-            d[:patients] << h
-          end
+        next unless patients2
+
+        patients2&.each do |patient|
+          d[:patients].reject! { |item| item['id'] == patient[0].to_i }
+          h = {}
+          h['created_at'] = created_at
+          h['id'] = patient[0].to_i
+          h['年代'] = patient[1] == '90歳' ? '90歳以上' : patient[1] # 90歳以上 と 90歳\n以上 の2パターンある
+          h['性別'] = patient[2]
+          h['居住地'] = patient[3].split(/[(（]/)[0]
+          h['職業'] = patient[4]
+          h['接触歴'] = '判明'
+          d[:patients] << h
         end
       end
       d
     end
   end
 end
-
