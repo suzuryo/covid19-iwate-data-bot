@@ -11,6 +11,18 @@
         "ja": "岩手県が不要不急の往来自粛をお願いしている地域",
         "en": "Areas where Iwate Prefecture asks people to refrain from unnecessary traffic."
       }
+    },
+    {
+      "date": "2021-05-03T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
+        "ja": "/cards/monitoring-number-of-confirmed-cases",
+        "en": "/en/cards/monitoring-number-of-confirmed-cases"
+      },
+      "text": {
+        "ja": "新規陽性者数の7日間移動平均が直線的に上抜けし、感染拡大局面となり医療負荷が増大中",
+        "en": "The 7-day moving average of the number of new positive cases has moved linearly upward, indicating that the infection is spreading and the medical burden is increasing."
+      }
     }
   ]
 }
