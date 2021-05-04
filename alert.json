@@ -23,6 +23,18 @@
         "ja": "新規陽性者数の7日間移動平均が直線的に上抜け、感染拡大局面が継続、医療負荷が増大中",
         "en": "The 7-day moving average of the number of new positive cases has moved linearly upward, indicating that the infection is spreading and the medical burden is increasing."
       }
+    },
+    {
+      "date": "2021-05-04T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.city.hanamaki.iwate.jp/1011531/1013905/1011558/1014220.html",
+        "en": null
+      },
+      "text": {
+        "ja": "花巻市内の中学校2校・小学校5校について5月6日〜7日の2日間を臨時休業（休校）",
+        "en": null
+      }
     }
   ]
 }
