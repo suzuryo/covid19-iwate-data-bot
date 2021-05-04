@@ -43,7 +43,12 @@ describe 'Iwate' do
           expect(d['確定日']).to eq Date.parse(find_data(id)['確定日']).strftime '%Y/%m/%d'
           expect(d['発症日']).to eq Date.parse(find_data(id)['発症日']).strftime '%Y/%m/%d' if find_data(id)['発症日']
           expect(d['無症状']).to eq find_data(id)['無症状'] ? '無症状' : ''
-          expect(d['年代']).to eq find_data(id)['年代']
+          if id == 980
+            # 980だけ90歳以上じゃなくて90代ってサイトに書いてる
+            expect(d['年代']).to eq '90代'
+          else
+            expect(d['年代']).to eq find_data(id)['年代']
+          end
           expect(d['居住地']).to eq find_data(id)['居住地']
           expect(d['url']).to eq find_data(id)['url']
           expect(d['接触歴']).to eq find_data(id)['接触歴']
@@ -73,7 +78,12 @@ describe 'Iwate' do
           expect(d['確定日']).to eq row['確定日']
           expect(d['発症日']).to eq Date.parse(row['発症日']).strftime '%Y/%m/%d' unless row['発症日'].blank?
           expect(d['無症状']).to eq row['無症状']
-          expect(d['年代']).to eq row['年代']
+          if id == 980
+            # 980だけ90歳以上じゃなくて90代ってサイトに書いてる
+            expect(d['年代']).to eq '90代'
+          else
+            expect(d['年代']).to eq row['年代']
+          end
           expect(d['性別']).to eq row['性別']
           expect(d['居住地']).to eq row['居住地']
           expect(d['入院日']).to eq Date.parse(row['入院日']).strftime '%Y/%m/%d' unless row['入院日'].blank?
