@@ -27,13 +27,13 @@ class Iwate
 
     Nokogiri::HTML(html).css(@selector).filter_map do |node|
       # 個別ページへのリンクから id を抽出
-      m = /第(?<id>\d+)例目/.match node.text
+      m = /第(?<id>[\d,]+)例目/.match node.text
 
       # マッチしたものだけを採用
       next unless m
 
       # 指定 id よりも多いものだけを採用
-      next if m[:id].to_i < @id
+      next if m[:id].delete(',').to_i < @id
 
       URI.parse(node.attribute('href').value.delete("\n"))
     end
@@ -49,7 +49,7 @@ class Iwate
     patient = {}
 
     # id
-    patient['id'] = doc.css('#voice > h2').text.match(/第(?<id>\d+)例目の患者に関する情報/)[:id].to_i
+    patient['id'] = doc.css('#voice > h2').text.match(/第(?<id>[\d,]+)例目の患者に関する情報/)[:id].delete(',').to_i
 
     # リリース日
     m = doc.css('#voice > h2').text.match(/令和3年(?<month>\d+)月(?<day>\d+)日/)
