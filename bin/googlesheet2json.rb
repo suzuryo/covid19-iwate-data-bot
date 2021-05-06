@@ -21,12 +21,6 @@ GoogleSheets = GoogleSheetsIwate.new
 PATIENTS = GoogleSheets.data(GoogleSheetsIwate::SHEET_RANGES[:PATIENTS])
 raise if PATIENTS.empty?
 
-CONTACTS = GoogleSheets.data(GoogleSheetsIwate::SHEET_RANGES[:CONTACTS])
-raise if CONTACTS.empty?
-
-QUERENTS = GoogleSheets.data(GoogleSheetsIwate::SHEET_RANGES[:QUERENTS])
-raise if QUERENTS.empty?
-
 PATIENT_MUNICIPALITIES = GoogleSheets.data(GoogleSheetsIwate::SHEET_RANGES[:PATIENT_MUNICIPALITIES])
 raise if PATIENT_MUNICIPALITIES.empty?
 
@@ -57,14 +51,6 @@ now = Time.now
 # データの最初の日
 first_date = Date.new(2020, 2, 15)
 data_json = {
-  contacts: {
-    date: now.iso8601,
-    data: []
-  },
-  querents: {
-    date: now.iso8601,
-    data: []
-  },
   patients: {
     date: now.iso8601,
     data: []
@@ -117,38 +103,6 @@ patients_summary_last_date = Date.parse(POSITIVE_RATE[-1]['diagnosed_date']) == 
     {
       日付: Time.new(date.year, date.month, date.day, 8, 0, 0).iso8601,
       小計: output_patients_sum
-    }
-  )
-end
-
-######################################################################
-# data.json
-# contacts の生成
-######################################################################
-CONTACTS.each do |row|
-  data_json[:contacts][:data].append(
-    {
-      日付: Time.parse(row['date']).iso8601,
-      # コールセンター: row['コールセンター'].to_i, # 利用していないので出力しない
-      # 各保健所: row['各保健所'].to_i, # 利用していないので出力しない
-      # 医療政策室: row['医療政策室'].to_i, # 利用していないので出力しない
-      小計: row['小計'].blank? ? nil : row['小計'].to_i
-    }
-  )
-end
-
-######################################################################
-# data.querents.json
-# querents の生成
-######################################################################
-QUERENTS.each do |row|
-  data_json[:querents][:data].append(
-    {
-      日付: Time.parse(row['date']).iso8601,
-      # コールセンター: row['コールセンター'].to_i, # 利用していないので出力しない
-      # 各保健所: row['各保健所'].to_i, # 利用していないので出力しない
-      # 医療政策室: row['医療政策室'].to_i, # 利用していないので出力しない
-      小計: row['小計'].blank? ? nil : row['小計'].to_i
     }
   )
 end

@@ -15,8 +15,6 @@ class GoogleSheetsIwate
 
   SHEET_RANGES = {
     PATIENTS: 'output_patients',
-    CONTACTS: '\'input_受診・相談センター_相談件数\'', # 日本語シート名はシングルクォートで囲われる
-    QUERENTS: '\'input_一般_相談件数\'', # 日本語シート名はシングルクォートで囲われる
     PATIENT_MUNICIPALITIES: 'output_patient_municipalities',
     POSITIVE_BY_DIAGNOSED: 'output_positive_by_diagnosed',
     POSITIVE_RATE: 'output_positive_rate',
