@@ -1,7 +1,7 @@
 {
-  "date": "2021-05-06T06:30:29+09:00",
+  "date": "2021-05-06T15:14:43+09:00",
   "datasets": {
-    "date": "2021-05-06T06:30:29+09:00",
+    "date": "2021-05-06T15:14:43+09:00",
     "data": [
       {
         "code": "032018",
@@ -32,8 +32,8 @@
         "area": "岩手県",
         "label": "花巻市",
         "ruby": "はなまきし",
-        "count": 40,
-        "count_per_population": "0.043"
+        "count": 42,
+        "count_per_population": "0.045"
       },
       {
         "code": "032069",
@@ -104,8 +104,8 @@
         "area": "岩手県",
         "label": "奥州市",
         "ruby": "おうしゅうし",
-        "count": 107,
-        "count_per_population": "0.095"
+        "count": 130,
+        "count_per_population": "0.115"
       },
       {
         "code": "032166",
