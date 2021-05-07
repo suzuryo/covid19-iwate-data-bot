@@ -1619,6 +1619,30 @@
         "ja": "さいとう製菓",
         "en": null
       }
+    },
+    {
+      "date": "2021-05-07T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.indy-corp.com/pc/info-tonan.html",
+        "en": null
+      },
+      "text": {
+        "ja": "INDY 都南店 [営業再開について] (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-05-07T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
+        "ja": "http://www.hopital-ohshu.or.jp/cgi-bin/news.cgi?f1=1620362836&f2=iclinic",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手クリニック一関 [第2報] (一関市)",
+        "en": null
+      }
     }
   ]
 }
