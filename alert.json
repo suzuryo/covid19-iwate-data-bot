@@ -28,8 +28,8 @@
       "date": "2021-05-07T00:00:00+09:00",
       "icon": "📄",
       "url": {
-        "ja": "/cards/monitoring-number-of-confirmed-cases",
-        "en": "/en/cards/monitoring-number-of-confirmed-cases"
+        "ja": "/cards/monitoring-number-of-confirmed-cases/",
+        "en": "/en/cards/monitoring-number-of-confirmed-cases/"
       },
       "text": {
         "ja": "新規陽性者数の7日間移動平均線が上抜け、感染拡大局面が継続",
@@ -40,8 +40,8 @@
       "date": "2021-05-07T00:00:00+09:00",
       "icon": "📄",
       "url": {
-        "ja": "/cards/untracked-rate",
-        "en": "/en/cards/untracked-rate"
+        "ja": "/cards/untracked-rate/",
+        "en": "/en/cards/untracked-rate/"
       },
       "text": {
         "ja": "接触歴不明者数が平均3人/日以上 (過去最高値を維持)",
@@ -52,11 +52,23 @@
       "date": "2021-05-07T00:00:00+09:00",
       "icon": "📄",
       "url": {
-        "ja": "/cards/number-of-hospitalized",
-        "en": "/en/cards/number-of-hospitalized"
+        "ja": "/cards/number-of-hospitalized/",
+        "en": "/en/cards/number-of-hospitalized/"
       },
       "text": {
         "ja": "胆江保健医療圏での確保病床の逼迫により別地域に入院するケースあり、医療従事者のGWなし、医療負荷が増大中",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-05-07T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
+        "ja": "/cards/attributes-of-confirmed-cases/",
+        "en": "/en/cards/attributes-of-confirmed-cases/"
+      },
+      "text": {
+        "ja": "花巻市の特定の地域年代層にクラスターの疑い (現在調査中)",
         "en": null
       }
     },
@@ -68,19 +80,7 @@
         "en": null
       },
       "text": {
-        "ja": "石鳥谷地域・東和地域の公共施設・体育館・スポーツ施設など休館などの利用制限",
-        "en": null
-      }
-    },
-    {
-      "date": "2021-05-07T00:00:00+09:00",
-      "icon": "📄",
-      "url": {
-        "ja": "/cards/attributes-of-confirmed-cases",
-        "en": "/en/cards/attributes-of-confirmed-cases"
-      },
-      "text": {
-        "ja": "花巻市の特定の地域年代層にクラスターの疑い (現在調査中)",
+        "ja": "石鳥谷と東和の公共施設・スポーツ施設は休館などの利用制限",
         "en": null
       }
     }
