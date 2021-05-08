@@ -1655,6 +1655,18 @@
         "ja": "花巻市内の中学校 (花巻市)",
         "en": null
       }
+    },
+    {
+      "date": "2021-05-08T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.saitoseika.co.jp/event/preview.php?eid=00005&showclosedentry=yes",
+        "en": null
+      },
+      "text": {
+        "ja": "さいとう製菓 [更新]",
+        "en": null
+      }
     }
   ]
 }
