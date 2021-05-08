@@ -56,7 +56,7 @@ module Tweet2Tsv
           h.merge! main_summary.named_captures
           h.merge! /■実施報告[：:](?<実施報告>\d+)件\s.*※うち検出[：:](?<実施報告うち検出>\d+)件\s/.match(text).named_captures
           h.merge! /■検査内訳\s・県PCR検査[：:](?<県PCR検査>\d+)件\s・民間等[：:](?<民間等>\d+)件\s・地域外来等[：:](?<地域外来等>\d+)件\s・抗原検査[：:](?<抗原検査>\d+)件/.match(text).named_captures
-          h.merge! /■累計[：:](?<累計>[\d,]+)件[（(]うち検出(?<累計う\sち検出>\d+)件[)）]\s/.match(text).named_captures
+          h.merge! /■累計[：:](?<累計>[\d,]+)件[（(]うち検出(?<累計う\sち検出>[\d,]+)件[)）]\s/.match(text).named_captures
           h.merge! /■患者等状況\s・入院中(?<入院中>\d+)名[（(]うち重症者(?<入院中うち重症者>\d+)名[)）]\s・宿泊療養(?<宿泊療養>\d+)名\s・退院等(?<退院等>\d+)名\s・死亡者(?<死亡者>\d+)名\s・調整中(?<調整中>\d+)名/.match(text).named_captures
           h.merge!({ 'date' => Date.parse("2021/#{h['month']}/#{h['day']}") })
           d[:main_summary] << h
