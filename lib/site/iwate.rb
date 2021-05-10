@@ -35,7 +35,7 @@ class Iwate
       # 指定 id よりも多いものだけを採用
       next if m[:id].delete(',').to_i < @id
 
-      URI.parse(node.attribute('href').value.delete("\n"))
+      URI.parse(node.attribute('href').value.delete("\n").rstrip)
     end
   end
 
