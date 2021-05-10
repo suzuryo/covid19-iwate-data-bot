@@ -35,7 +35,10 @@ class Morioka
       # 指定 id よりも多いものだけを採用
       next if m[:id].to_i < @id
 
-      URI.parse("http://www.city.morioka.iwate.jp/#{node.attribute('href').value.delete("\n").gsub('../../../../../', '')}.rstrip")
+      p node.attribute('href')
+      p URI.parse("http://www.city.morioka.iwate.jp/#{node.attribute('href').value.delete("\n").gsub('../../../../../', '').rstrip}")
+
+      URI.parse("http://www.city.morioka.iwate.jp/#{node.attribute('href').value.delete("\n").gsub('../../../../../', '').rstrip}")
     end
   end
 
