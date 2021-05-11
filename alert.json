@@ -26,7 +26,7 @@
     },
     {
       "date": "2021-05-10T00:00:00+09:00",
-      "icon": "📄",
+      "icon": "📺",
       "url": {
         "ja": "https://www.youtube.com/watch?v=yubQBYfxc6A",
         "en": null
@@ -38,13 +38,25 @@
     },
     {
       "date": "2021-05-11T00:00:00+09:00",
-      "icon": "📄",
+      "icon": "📺",
       "url": {
         "ja": "https://www.youtube.com/watch?v=RVb8mPY0ixM",
         "en": null
       },
       "text": {
-        "ja": "盛岡市内の場合、陽性者の行動歴をたどると、高頻度に盛岡市内の中心部の繁華街における飲食の機会が見られる。53名について遡ると11店舗につながる。 (矢野所長)",
+        "ja": "盛岡市内の場合、陽性者の行動歴をたどると、高頻度に盛岡市内の中心部の繁華街における飲食の機会が見られる。53名について遡ると11店舗につながる。接触歴を追えていない隠れたクラスターが存在すると思われる。接触歴の調査にお店・個人ともに協力を。 (矢野所長)",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-05-11T00:00:00+09:00",
+      "icon": "📺",
+      "url": {
+        "ja": "/cards/number-of-confirmed-cases-by-municipalities",
+        "en": "/en/cards/number-of-confirmed-cases-by-municipalities"
+      },
+      "text": {
+        "ja": "盛岡市の「直近1週間の対人口10万人あたり感染者数」指標が15を超えた",
         "en": null
       }
     }
