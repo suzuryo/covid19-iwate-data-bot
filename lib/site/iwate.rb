@@ -46,6 +46,7 @@ class Iwate
   end
 
   def parse(uri, doc)
+    p uri
     patient = {}
 
     # id
