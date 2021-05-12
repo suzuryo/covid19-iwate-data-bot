@@ -1,6 +1,6 @@
 {
   "patients": {
-    "date": "2021-05-12T17:17:40+09:00",
+    "date": "2021-05-12T17:33:03+09:00",
     "data": [
       {
         "id": 1,
@@ -12347,77 +12347,77 @@
       {
         "id": 1123,
         "確定日": "2021-05-11T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-05-07T00:00:00+09:00",
         "無症状": false,
         "年代": "40代",
         "居住地": "盛岡市",
-        "url": null,
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1035269.html",
         "会見": "https://www.youtube.com/watch?v=haSkVBd65tA",
         "接触歴": "判明"
       },
       {
         "id": 1124,
         "確定日": "2021-05-11T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-05-07T00:00:00+09:00",
         "無症状": false,
         "年代": "40代",
         "居住地": "盛岡市",
-        "url": null,
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1035270.html",
         "会見": "https://www.youtube.com/watch?v=haSkVBd65tA",
         "接触歴": "判明"
       },
       {
         "id": 1125,
         "確定日": "2021-05-11T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-05-08T00:00:00+09:00",
         "無症状": false,
         "年代": "30代",
         "居住地": "盛岡市",
-        "url": null,
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1035271.html",
         "会見": "https://www.youtube.com/watch?v=haSkVBd65tA",
         "接触歴": "判明"
       },
       {
         "id": 1126,
         "確定日": "2021-05-11T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-05-07T00:00:00+09:00",
         "無症状": false,
         "年代": "50代",
         "居住地": "盛岡市",
-        "url": null,
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1035272.html",
         "会見": "https://www.youtube.com/watch?v=haSkVBd65tA",
         "接触歴": "判明"
       },
       {
         "id": 1127,
         "確定日": "2021-05-11T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-05-09T00:00:00+09:00",
         "無症状": false,
         "年代": "30代",
         "居住地": "盛岡市",
-        "url": null,
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1035273.html",
         "会見": "https://www.youtube.com/watch?v=haSkVBd65tA",
         "接触歴": "判明"
       },
       {
         "id": 1128,
         "確定日": "2021-05-11T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-05-09T00:00:00+09:00",
         "無症状": false,
         "年代": "30代",
         "居住地": "盛岡市",
-        "url": null,
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1035274.html",
         "会見": "https://www.youtube.com/watch?v=haSkVBd65tA",
         "接触歴": "判明"
       },
       {
         "id": 1129,
         "確定日": "2021-05-11T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-05-09T00:00:00+09:00",
         "無症状": false,
         "年代": "20代",
         "居住地": "盛岡市",
-        "url": null,
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1035275.html",
         "会見": "https://www.youtube.com/watch?v=haSkVBd65tA",
         "接触歴": "判明"
       },
@@ -12523,7 +12523,7 @@
     ]
   },
   "patients_summary": {
-    "date": "2021-05-12T17:17:40+09:00",
+    "date": "2021-05-12T17:33:03+09:00",
     "data": [
       {
         "日付": "2020-02-15T08:00:00+09:00",
@@ -14339,5 +14339,5 @@
       }
     ]
   },
-  "lastUpdate": "2021-05-12T17:17:40+09:00"
+  "lastUpdate": "2021-05-12T17:33:03+09:00"
 }
