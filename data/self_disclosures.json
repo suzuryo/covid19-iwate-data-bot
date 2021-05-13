@@ -1835,6 +1835,30 @@
         "ja": "岩手日報社 (盛岡市)",
         "en": null
       }
+    },
+    {
+      "date": "2021-05-13T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.youtube.com/watch?v=TXxQkr2dS9U",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手県庁 10F 教育委員会 事務局",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-05-13T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.youtube.com/watch?v=TXxQkr2dS9U",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手県庁 8F 建築住宅課",
+        "en": null
+      }
     }
   ]
 }
