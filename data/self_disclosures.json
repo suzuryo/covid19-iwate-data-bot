@@ -1840,7 +1840,7 @@
       "date": "2021-05-13T00:00:00+09:00",
       "icon": "📄",
       "url": {
-        "ja": "https://www.youtube.com/watch?v=TXxQkr2dS9U",
+        "ja": "https://youtu.be/TXxQkr2dS9U?t=565",
         "en": null
       },
       "text": {
@@ -1852,7 +1852,7 @@
       "date": "2021-05-13T00:00:00+09:00",
       "icon": "📄",
       "url": {
-        "ja": "https://www.youtube.com/watch?v=TXxQkr2dS9U",
+        "ja": "https://youtu.be/TXxQkr2dS9U?t=565",
         "en": null
       },
       "text": {
@@ -1941,6 +1941,18 @@
       },
       "text": {
         "ja": "盛岡西消防署 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-05-14T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
+        "ja": "http://www.oshu-shakyo.jp/wp-content/uploads/2021/05/20210514001.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "奥州市社会福祉協議会 (奥州市)",
         "en": null
       }
     }
