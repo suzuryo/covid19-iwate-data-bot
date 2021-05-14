@@ -1912,6 +1912,18 @@
       "date": "2021-05-14T00:00:00+09:00",
       "icon": "📄",
       "url": {
+        "ja": "https://care-net.biz/03/jyusuikai/",
+        "en": null
+      },
+      "text": {
+        "ja": "養護老人ホーム寿水荘 社会福祉法人寿水会 [第3報] (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-05-14T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
         "ja": "https://www.morioka-fire.jp/rink/R3.5.14shingatakoronakansen.pdf",
         "en": null
       },
