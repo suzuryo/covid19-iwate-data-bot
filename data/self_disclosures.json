@@ -1924,6 +1924,18 @@
       "date": "2021-05-14T00:00:00+09:00",
       "icon": "📄",
       "url": {
+        "ja": "http://www.hopital-ohshu.or.jp/cgi-bin/news.cgi?f1=1620967561&f2=iclinic",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手クリニック一関 [終息および今後の医療体制について] (一関市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-05-14T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
         "ja": "https://www.morioka-fire.jp/rink/R3.5.14shingatakoronakansen.pdf",
         "en": null
       },
