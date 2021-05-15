@@ -1984,6 +1984,18 @@
       "date": "2021-05-14T00:00:00+09:00",
       "icon": "📄",
       "url": {
+        "ja": "https://www.city.hanamaki.iwate.jp/kenko_iryo_fukushi/oshirase/1013361/1014298.html",
+        "en": null
+      },
+      "text": {
+        "ja": "花巻市内の学校 [花巻市長メッセージ] (花巻市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-05-14T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
         "ja": "https://www.city.kitakami.iwate.jp/life/emergency/corona/kenkou_iryou/16558.html",
         "en": null
       },
