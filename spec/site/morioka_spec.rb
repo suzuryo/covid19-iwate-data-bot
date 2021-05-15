@@ -48,8 +48,13 @@ describe 'Morioka' do
           expect(d['年代']).to eq find_data(id)['年代']
           expect(d['居住地']).to eq find_data(id)['居住地']
           expect(d['url']).to eq find_data(id)['url']
-          expect(d['接触歴']).to eq find_data(id)['接触歴']
-
+          if id == 1181
+            # 1181 は過去の事例との接触歴ありだけど公表資料には何も書かないので、
+            # プログラム的に資料上では不明と判定される
+            expect(d['接触歴']).to eq '不明'
+          else
+            expect(d['接触歴']).to eq find_data(id)['接触歴']
+          end
           # 以下 data.json には含めていない項目
           # expect(d['性別']).to eq find_data(id)['性別']
           # expect(d['職業']).to eq find_data(id)['職業']
@@ -80,8 +85,14 @@ describe 'Morioka' do
           expect(d['居住地']).to eq row['居住地']
           expect(d['入院日']).to eq Date.parse(row['入院日']).strftime '%Y/%m/%d' unless row['入院日'].blank?
           expect(d['url']).to eq row['url']
-          expect(d['接触歴']).to eq row['接触歴']
-
+          # 1181 は接触歴ありだけど資料には何も書かない
+          if id == 1181
+            # 1181 は過去の事例との接触歴ありだけど公表資料には何も書かないので、
+            # プログラム的に資料上では不明と判定されるが、GoogleSheetsとjson上では判明になっている。
+            expect('判明').to eq find_data(id)['接触歴']
+          else
+            expect(d['接触歴']).to eq find_data(id)['接触歴']
+          end
           # expect(d['職業']).to eq row['職業']
         end
       end
