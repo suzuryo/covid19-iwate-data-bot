@@ -62,7 +62,7 @@ class Iwate
     # dl の dt と dd のハッシュ
     dl = doc.css('#voice > dl > dt').map { |v| [v.text, v.next_element.text.strip.gsub("\n", '')] }.to_h
 
-    patient['年代'] = dl['年代']
+    patient['年代'] = dl['年代'].gsub(' ', '')
     patient['性別'] = dl['性別']
 
     patient['居住地'] = case dl['居住地']
