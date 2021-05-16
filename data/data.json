@@ -1,6 +1,6 @@
 {
   "patients": {
-    "date": "2021-05-16T14:18:59+09:00",
+    "date": "2021-05-16T14:36:58+09:00",
     "data": [
       {
         "id": 1,
@@ -13100,7 +13100,7 @@
         "年代": "10歳未満",
         "居住地": "県央保健所管内",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1042663/1043174.html",
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=UsWoelEGjqs",
         "接触歴": "判明"
       },
       {
@@ -13111,7 +13111,7 @@
         "年代": "10歳未満",
         "居住地": "県央保健所管内",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1042663/1043175.html",
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=UsWoelEGjqs",
         "接触歴": "判明"
       },
       {
@@ -13271,7 +13271,7 @@
     ]
   },
   "patients_summary": {
-    "date": "2021-05-16T14:18:59+09:00",
+    "date": "2021-05-16T14:36:58+09:00",
     "data": [
       {
         "日付": "2020-02-15T08:00:00+09:00",
@@ -15099,5 +15099,5 @@
       }
     ]
   },
-  "lastUpdate": "2021-05-16T14:18:59+09:00"
+  "lastUpdate": "2021-05-16T14:36:58+09:00"
 }
