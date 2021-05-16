@@ -16,8 +16,8 @@
       "date": "2021-05-11T00:00:00+09:00",
       "icon": "📺",
       "url": {
-        "ja": "/cards/number-of-confirmed-cases-by-municipalities",
-        "en": "/en/cards/number-of-confirmed-cases-by-municipalities"
+        "ja": "/cards/number-of-confirmed-cases-by-municipalities/",
+        "en": "/en/cards/number-of-confirmed-cases-by-municipalities/"
       },
       "text": {
         "ja": "盛岡市の「直近1週間の対人口10万人あたりの感染者数」(ステージ3指標の一つ)が閾値の15を超えて20.3の最高値を更新",
