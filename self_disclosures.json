@@ -2051,6 +2051,18 @@
         "ja": "グループホーム ひだまり [第2報] (奥州市)",
         "en": null
       }
+    },
+    {
+      "date": "2021-05-16T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.yamada-denki.jp/information/200419prevention/pdf/210516_morioka.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "家電住まいる館 YAMADA 盛岡本店 (盛岡市)",
+        "en": null
+      }
     }
   ]
 }
