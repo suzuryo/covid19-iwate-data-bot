@@ -2099,6 +2099,18 @@
         "ja": "Outbreak of a COVID-19 Infection at Iwate University (Morioka)",
         "en": null
       }
+    },
+    {
+      "date": "2021-05-17T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.yamada-denki.jp/information/200419prevention/pdf/210517_01.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "YAMADA テックランド北上店 (北上市)",
+        "en": null
+      }
     }
   ]
 }
