@@ -36,8 +36,8 @@ describe 'Iwate' do
           id = d['id']
           next if id < TARGET_MIN_ID
 
-          # # DEBUG
-          # p id
+          # DEBUG
+          p id
 
           expect(d['id']).to eq find_data(id)['id']
           expect(d['確定日']).to eq Date.parse(find_data(id)['確定日']).strftime '%Y/%m/%d'

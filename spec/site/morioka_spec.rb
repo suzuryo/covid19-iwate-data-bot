@@ -68,8 +68,8 @@ describe 'Morioka' do
           id = d['id']
           next if id < TARGET_MIN_ID
 
-          # # DEBUG
-          # p id
+          # DEBUG
+          p id
 
           row = google_sheets.find { |a| a['id'] == id.to_s }
 
