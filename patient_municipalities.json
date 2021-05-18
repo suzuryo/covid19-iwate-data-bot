@@ -1,15 +1,15 @@
 {
-  "date": "2021-05-18T08:22:47+09:00",
+  "date": "2021-05-18T15:33:12+09:00",
   "datasets": {
-    "date": "2021-05-18T08:22:47+09:00",
+    "date": "2021-05-18T15:33:12+09:00",
     "data": [
       {
         "code": "032018",
         "area": "岩手県",
         "label": "盛岡市",
         "ruby": "もりおかし",
-        "count": 444,
-        "count_per_population": "0.152"
+        "count": 450,
+        "count_per_population": "0.154"
       },
       {
         "code": "032026",
@@ -32,8 +32,8 @@
         "area": "岩手県",
         "label": "花巻市",
         "ruby": "はなまきし",
-        "count": 51,
-        "count_per_population": "0.055"
+        "count": 52,
+        "count_per_population": "0.056"
       },
       {
         "code": "032069",
@@ -64,8 +64,8 @@
         "area": "岩手県",
         "label": "一関市",
         "ruby": "いちのせきし",
-        "count": 75,
-        "count_per_population": "0.067"
+        "count": 76,
+        "count_per_population": "0.068"
       },
       {
         "code": "032107",
@@ -104,16 +104,16 @@
         "area": "岩手県",
         "label": "奥州市",
         "ruby": "おうしゅうし",
-        "count": 146,
-        "count_per_population": "0.129"
+        "count": 147,
+        "count_per_population": "0.130"
       },
       {
         "code": "032166",
         "area": "岩手県",
         "label": "滝沢市",
         "ruby": "たきざわし",
-        "count": 93,
-        "count_per_population": "0.166"
+        "count": 95,
+        "count_per_population": "0.170"
       },
       {
         "code": "033014",
@@ -152,8 +152,8 @@
         "area": "岩手県",
         "label": "矢巾町",
         "ruby": "やはばちょう",
-        "count": 15,
-        "count_per_population": "0.054"
+        "count": 16,
+        "count_per_population": "0.058"
       },
       {
         "code": "033669",
@@ -184,8 +184,8 @@
         "area": "岩手県",
         "label": "住田町",
         "ruby": "すみたちょう",
-        "count": 4,
-        "count_per_population": "0.079"
+        "count": 5,
+        "count_per_population": "0.099"
       },
       {
         "code": "034614",
@@ -272,7 +272,7 @@
         "area": "県外",
         "label": "県外",
         "ruby": "けんがい",
-        "count": 23,
+        "count": 24,
         "count_per_population": null
       }
     ]
