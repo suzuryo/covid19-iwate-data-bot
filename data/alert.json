@@ -20,7 +20,19 @@
         "en": "/en/cards/number-of-confirmed-cases-by-municipalities/"
       },
       "text": {
-        "ja": "盛岡市の「直近1週間の対人口10万人あたりの感染者数」(ステージ3指標の一つ)が閾値の15を超えて21.3の最高値を更新",
+        "ja": "盛岡市の「直近1週間の対人口10万人あたりの感染者数」(ステージ3指標の一つ)が閾値の15を超えて18.9の高値を維持",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-05-11T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
+        "ja": "/cards/number-of-hospitalized/",
+        "en": "/en/cards/number-of-hospitalized/"
+      },
+      "text": {
+        "ja": "入院中(宿泊療養と調整中を除く)の値が過去最高値",
         "en": null
       }
     },
