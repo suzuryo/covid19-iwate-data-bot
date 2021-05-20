@@ -1,6 +1,6 @@
 {
   "patients": {
-    "date": "2021-05-20T15:13:51+09:00",
+    "date": "2021-05-20T15:21:39+09:00",
     "data": [
       {
         "id": 1,
@@ -14026,11 +14026,286 @@
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1042663/1043310.html",
         "会見": "https://www.youtube.com/watch?v=mExzfvE0q_0",
         "接触歴": "判明"
+      },
+      {
+        "id": 1276,
+        "確定日": "2021-05-19T00:00:00+09:00",
+        "発症日": null,
+        "無症状": false,
+        "年代": "10代",
+        "居住地": "盛岡市",
+        "url": null,
+        "会見": "https://www.youtube.com/watch?v=KIMhbmpLunE",
+        "接触歴": "判明"
+      },
+      {
+        "id": 1277,
+        "確定日": "2021-05-19T00:00:00+09:00",
+        "発症日": null,
+        "無症状": false,
+        "年代": "10代",
+        "居住地": "盛岡市",
+        "url": null,
+        "会見": "https://www.youtube.com/watch?v=KIMhbmpLunE",
+        "接触歴": "判明"
+      },
+      {
+        "id": 1278,
+        "確定日": "2021-05-19T00:00:00+09:00",
+        "発症日": null,
+        "無症状": false,
+        "年代": "10代",
+        "居住地": "盛岡市",
+        "url": null,
+        "会見": "https://www.youtube.com/watch?v=KIMhbmpLunE",
+        "接触歴": "判明"
+      },
+      {
+        "id": 1279,
+        "確定日": "2021-05-19T00:00:00+09:00",
+        "発症日": null,
+        "無症状": false,
+        "年代": "10代",
+        "居住地": "盛岡市",
+        "url": null,
+        "会見": "https://www.youtube.com/watch?v=KIMhbmpLunE",
+        "接触歴": "判明"
+      },
+      {
+        "id": 1280,
+        "確定日": "2021-05-19T00:00:00+09:00",
+        "発症日": null,
+        "無症状": false,
+        "年代": "10代",
+        "居住地": "盛岡市",
+        "url": null,
+        "会見": "https://www.youtube.com/watch?v=KIMhbmpLunE",
+        "接触歴": "判明"
+      },
+      {
+        "id": 1281,
+        "確定日": "2021-05-19T00:00:00+09:00",
+        "発症日": null,
+        "無症状": false,
+        "年代": "20代",
+        "居住地": "盛岡市",
+        "url": null,
+        "会見": "https://www.youtube.com/watch?v=KIMhbmpLunE",
+        "接触歴": "判明"
+      },
+      {
+        "id": 1282,
+        "確定日": "2021-05-19T00:00:00+09:00",
+        "発症日": null,
+        "無症状": false,
+        "年代": "50代",
+        "居住地": "盛岡市",
+        "url": null,
+        "会見": "https://www.youtube.com/watch?v=KIMhbmpLunE",
+        "接触歴": "判明"
+      },
+      {
+        "id": 1283,
+        "確定日": "2021-05-19T00:00:00+09:00",
+        "発症日": null,
+        "無症状": false,
+        "年代": "70代",
+        "居住地": "盛岡市",
+        "url": null,
+        "会見": "https://www.youtube.com/watch?v=KIMhbmpLunE",
+        "接触歴": "不明"
+      },
+      {
+        "id": 1284,
+        "確定日": "2021-05-19T00:00:00+09:00",
+        "発症日": null,
+        "無症状": false,
+        "年代": "20代",
+        "居住地": "盛岡市",
+        "url": null,
+        "会見": "https://www.youtube.com/watch?v=KIMhbmpLunE",
+        "接触歴": "判明"
+      },
+      {
+        "id": 1285,
+        "確定日": "2021-05-19T00:00:00+09:00",
+        "発症日": null,
+        "無症状": false,
+        "年代": "40代",
+        "居住地": "盛岡市",
+        "url": null,
+        "会見": "https://www.youtube.com/watch?v=KIMhbmpLunE",
+        "接触歴": "判明"
+      },
+      {
+        "id": 1286,
+        "確定日": "2021-05-19T00:00:00+09:00",
+        "発症日": null,
+        "無症状": false,
+        "年代": "30代",
+        "居住地": "盛岡市",
+        "url": null,
+        "会見": "https://www.youtube.com/watch?v=KIMhbmpLunE",
+        "接触歴": "判明"
+      },
+      {
+        "id": 1287,
+        "確定日": "2021-05-19T00:00:00+09:00",
+        "発症日": null,
+        "無症状": false,
+        "年代": "10歳未満",
+        "居住地": "盛岡市",
+        "url": null,
+        "会見": "https://www.youtube.com/watch?v=KIMhbmpLunE",
+        "接触歴": "判明"
+      },
+      {
+        "id": 1288,
+        "確定日": "2021-05-19T00:00:00+09:00",
+        "発症日": null,
+        "無症状": false,
+        "年代": "30代",
+        "居住地": "盛岡市",
+        "url": null,
+        "会見": "https://www.youtube.com/watch?v=KIMhbmpLunE",
+        "接触歴": "判明"
+      },
+      {
+        "id": 1289,
+        "確定日": "2021-05-19T00:00:00+09:00",
+        "発症日": null,
+        "無症状": false,
+        "年代": "70代",
+        "居住地": "滝沢市",
+        "url": null,
+        "会見": "https://www.youtube.com/watch?v=KIMhbmpLunE",
+        "接触歴": "判明"
+      },
+      {
+        "id": 1290,
+        "確定日": "2021-05-19T00:00:00+09:00",
+        "発症日": null,
+        "無症状": false,
+        "年代": "40代",
+        "居住地": "滝沢市",
+        "url": null,
+        "会見": "https://www.youtube.com/watch?v=KIMhbmpLunE",
+        "接触歴": "判明"
+      },
+      {
+        "id": 1291,
+        "確定日": "2021-05-19T00:00:00+09:00",
+        "発症日": null,
+        "無症状": false,
+        "年代": "10代",
+        "居住地": "滝沢市",
+        "url": null,
+        "会見": "https://www.youtube.com/watch?v=KIMhbmpLunE",
+        "接触歴": "判明"
+      },
+      {
+        "id": 1292,
+        "確定日": "2021-05-19T00:00:00+09:00",
+        "発症日": null,
+        "無症状": false,
+        "年代": "10代",
+        "居住地": "滝沢市",
+        "url": null,
+        "会見": "https://www.youtube.com/watch?v=KIMhbmpLunE",
+        "接触歴": "判明"
+      },
+      {
+        "id": 1293,
+        "確定日": "2021-05-19T00:00:00+09:00",
+        "発症日": null,
+        "無症状": false,
+        "年代": "10代",
+        "居住地": "県央保健所管内",
+        "url": null,
+        "会見": "https://www.youtube.com/watch?v=KIMhbmpLunE",
+        "接触歴": "判明"
+      },
+      {
+        "id": 1294,
+        "確定日": "2021-05-19T00:00:00+09:00",
+        "発症日": null,
+        "無症状": false,
+        "年代": "70代",
+        "居住地": "花巻市",
+        "url": null,
+        "会見": "https://www.youtube.com/watch?v=KIMhbmpLunE",
+        "接触歴": "判明"
+      },
+      {
+        "id": 1295,
+        "確定日": "2021-05-19T00:00:00+09:00",
+        "発症日": null,
+        "無症状": false,
+        "年代": "70代",
+        "居住地": "花巻市",
+        "url": null,
+        "会見": "https://www.youtube.com/watch?v=KIMhbmpLunE",
+        "接触歴": "判明"
+      },
+      {
+        "id": 1296,
+        "確定日": "2021-05-19T00:00:00+09:00",
+        "発症日": null,
+        "無症状": false,
+        "年代": "40代",
+        "居住地": "北上市",
+        "url": null,
+        "会見": "https://www.youtube.com/watch?v=KIMhbmpLunE",
+        "接触歴": "判明"
+      },
+      {
+        "id": 1297,
+        "確定日": "2021-05-19T00:00:00+09:00",
+        "発症日": null,
+        "無症状": false,
+        "年代": "20代",
+        "居住地": "北上市",
+        "url": null,
+        "会見": "https://www.youtube.com/watch?v=KIMhbmpLunE",
+        "接触歴": "判明"
+      },
+      {
+        "id": 1298,
+        "確定日": "2021-05-19T00:00:00+09:00",
+        "発症日": null,
+        "無症状": false,
+        "年代": "20代",
+        "居住地": "北上市",
+        "url": null,
+        "会見": "https://www.youtube.com/watch?v=KIMhbmpLunE",
+        "接触歴": "判明"
+      },
+      {
+        "id": 1299,
+        "確定日": "2021-05-19T00:00:00+09:00",
+        "発症日": null,
+        "無症状": false,
+        "年代": "40代",
+        "居住地": "北上市",
+        "url": null,
+        "会見": "https://www.youtube.com/watch?v=KIMhbmpLunE",
+        "接触歴": "判明"
+      },
+      {
+        "id": 1300,
+        "確定日": "2021-05-19T00:00:00+09:00",
+        "発症日": null,
+        "無症状": false,
+        "年代": "60代",
+        "居住地": "奥州市",
+        "url": null,
+        "会見": "https://www.youtube.com/watch?v=KIMhbmpLunE",
+        "接触歴": "判明"
       }
     ]
   },
   "patients_summary": {
-    "date": "2021-05-20T15:13:51+09:00",
+    "date": "2021-05-20T15:21:39+09:00",
     "data": [
       {
         "日付": "2020-02-15T08:00:00+09:00",
@@ -15871,8 +16146,12 @@
       {
         "日付": "2021-05-19T08:00:00+09:00",
         "小計": 17
+      },
+      {
+        "日付": "2021-05-20T08:00:00+09:00",
+        "小計": 25
       }
     ]
   },
-  "lastUpdate": "2021-05-20T15:13:51+09:00"
+  "lastUpdate": "2021-05-20T15:21:39+09:00"
 }
