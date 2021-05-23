@@ -44,23 +44,39 @@ module Tweet2Tsv
         patients: []
       }
 
-      user_tweets.each do |line|
-        text = "#{line['text'].gsub(' ', '').gsub('　', '').gsub('年代：', '').gsub('性別：', '').gsub('居住地：', '').gsub('職業：', '')}\n"
+      # 日別に tweets{} にまとめる
+      tweets = {}
+      user_tweets.reverse.each do |line|
         created_at = Time.parse(line['created_at']).in_time_zone('Asia/Tokyo')
+        ymd = created_at.strftime('%Y%m%d')
+        tweets[ymd] = {
+          created_at: created_at,
+          text: tweets[ymd] ? tweets[ymd][:text] + line['text'] + "\n" : ''
+        }
+      end
+
+      tweets.each do |ymd, line|
+        # p line
+        text = "#{line[:text].gsub(' ', '').gsub('　', '').gsub('年代：', '').gsub('性別：', '').gsub('居住地：', '').gsub('職業：', '')}\n"
+
+        h = {}
 
         # main_summary
-        main_summary = /【検査報告】\s(?<month>\d+)月(?<day>\d+)日[（(](?<曜日>[日月火水木金土])[)）]\s/.match(text)
-        if main_summary
-          h = {}
-          # 実施報告件数の場合
-          h.merge! main_summary.named_captures
-          h.merge! /■実施報告[：:](?<実施報告>\d+)件\s.*※うち検出[：:](?<実施報告うち検出>\d+)件\s/.match(text).named_captures
-          h.merge! /■検査内訳\s・県PCR検査[：:](?<県PCR検査>\d+)件\s・民間等[：:](?<民間等>\d+)件\s・地域外来等[：:](?<地域外来等>\d+)件\s・抗原検査[：:](?<抗原検査>\d+)件/.match(text).named_captures
-          h.merge! /■累計[：:](?<累計>[\d,]+)件[（(]うち検出(?<累計う\sち検出>[\d,]+)件[)）]\s/.match(text).named_captures
-          h.merge! /■患者等状況\s・入院中(?<入院中>\d+)名[（(]うち重症者(?<入院中うち重症者>\d+)名[)）]\s・宿泊療養(?<宿泊療養>\d+)名\s・退院等(?<退院等>\d+)名\s・死亡者(?<死亡者>\d+)名\s・調整中(?<調整中>\d+)名/.match(text).named_captures
-          h.merge!({ 'date' => Date.parse("2021/#{h['month']}/#{h['day']}") })
-          d[:main_summary] << h
-        end
+        h.merge! /【検査報告】\s(?<month>\d+)月(?<day>\d+)日[（(](?<曜日>[日月火水木金土])[)）]\s/.match(text).named_captures
+        h.merge! /■実施報告[：:](?<実施報告>[\d]+)件\s.*※うち検出[：:](?<実施報告うち検出>\d+)件/.match(text)&.named_captures
+        h.merge! /県PCR検査[：:](?<県PCR検査>\d+)件/.match(text)&.named_captures
+        h.merge! /民間等[：:](?<民間等>\d+)件/.match(text)&.named_captures
+        h.merge! /地域外来等[：:](?<地域外来等>\d+)件/.match(text)&.named_captures
+        h.merge! /抗原検査[：:](?<抗原検査>\d+)件/.match(text)&.named_captures
+        h.merge! /■累計[：:](?<累計>[\d,]+)件[（(]うち検出(?<累計う\sち検出>[\d,]+)件[)）]/.match(text)&.named_captures
+        h.merge! /入院中(?<入院中>\d+)名/.match(text)&.named_captures
+        h.merge! /うち重症者(?<入院中うち重症者>\d+)名/.match(text)&.named_captures
+        h.merge! /宿泊療養(?<宿泊療養>\d+)名/.match(text)&.named_captures
+        h.merge! /退院等(?<退院等>\d+)名/.match(text)&.named_captures
+        h.merge! /死亡者(?<死亡者>\d+)名/.match(text)&.named_captures
+        h.merge! /調整中(?<調整中>\d+)名/.match(text)&.named_captures
+        h.merge!({ 'date' => Date.parse("2021/#{h['month']}/#{h['day']}") })
+        d[:main_summary] << h
 
         # patients
         # 90歳以上 と 90歳\n以上 の2パターンある
@@ -89,7 +105,7 @@ module Tweet2Tsv
         if patients1
           patients1&.each do |patient|
             h = {}
-            h['created_at'] = created_at
+            h['created_at'] = line[:created_at]
             h['id'] = patient[0].to_i
             h['年代'] = patient[1] == '90歳' ? '90歳以上' : patient[1] # 90歳以上 と 90歳\n以上 の2パターンある
             h['性別'] = patient[3].gsub(/^男$/, '男性').gsub(/^女$/, '女性')
@@ -105,7 +121,7 @@ module Tweet2Tsv
         patients2&.each do |patient|
           d[:patients].reject! { |item| item['id'] == patient[0].to_i }
           h = {}
-          h['created_at'] = created_at
+          h['created_at'] = line[:created_at]
           h['id'] = patient[0].to_i
           h['年代'] = patient[1] == '90歳' ? '90歳以上' : patient[1] # 90歳以上 と 90歳\n以上 の2パターンある
           h['性別'] = patient[3].gsub(/^男$/, '男性').gsub(/^女$/, '女性')
