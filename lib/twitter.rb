@@ -51,7 +51,7 @@ module Tweet2Tsv
         ymd = created_at.strftime('%Y%m%d')
         tweets[ymd] = {
           created_at: created_at,
-          text: tweets[ymd] ? tweets[ymd][:text] + line['text'] + "\n" : ''
+          text: tweets[ymd] ? tweets[ymd][:text] + line['text'] + "\n\n" : ''
         }
       end
 
