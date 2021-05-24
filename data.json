@@ -1,6 +1,6 @@
 {
   "patients": {
-    "date": "2021-05-24T16:30:05+09:00",
+    "date": "2021-05-24T16:40:58+09:00",
     "data": [
       {
         "id": 1,
@@ -14783,7 +14783,7 @@
         "年代": "20代",
         "居住地": "盛岡市",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1035459.html",
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=0zCq_feKKeY",
         "接触歴": "判明"
       },
       {
@@ -14794,7 +14794,7 @@
         "年代": "60代",
         "居住地": "盛岡市",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1035460.html",
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=0zCq_feKKeY",
         "接触歴": "判明"
       },
       {
@@ -14805,7 +14805,7 @@
         "年代": "70代",
         "居住地": "盛岡市",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1035461.html",
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=0zCq_feKKeY",
         "接触歴": "不明"
       },
       {
@@ -14816,7 +14816,7 @@
         "年代": "50代",
         "居住地": "盛岡市",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1035462.html",
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=0zCq_feKKeY",
         "接触歴": "判明"
       },
       {
@@ -14827,7 +14827,7 @@
         "年代": "50代",
         "居住地": "盛岡市",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1035463.html",
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=0zCq_feKKeY",
         "接触歴": "判明"
       },
       {
@@ -14838,7 +14838,7 @@
         "年代": "40代",
         "居住地": "盛岡市",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1035464.html",
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=0zCq_feKKeY",
         "接触歴": "判明"
       },
       {
@@ -14849,35 +14849,35 @@
         "年代": "20代",
         "居住地": "盛岡市",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1035465.html",
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=0zCq_feKKeY",
         "接触歴": "判明"
       },
       {
         "id": 1351,
         "確定日": "2021-05-23T00:00:00+09:00",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "50代",
         "居住地": "中部保健所管内",
-        "url": null,
-        "会見": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1042736/1043448.html",
+        "会見": "https://www.youtube.com/watch?v=0zCq_feKKeY",
         "接触歴": "不明"
       },
       {
         "id": 1352,
         "確定日": "2021-05-23T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-05-23T00:00:00+09:00",
         "無症状": false,
         "年代": "10代",
         "居住地": "宮古市",
-        "url": null,
-        "会見": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1042736/1043450.html",
+        "会見": "https://www.youtube.com/watch?v=0zCq_feKKeY",
         "接触歴": "判明"
       }
     ]
   },
   "patients_summary": {
-    "date": "2021-05-24T16:30:05+09:00",
+    "date": "2021-05-24T16:40:58+09:00",
     "data": [
       {
         "日付": "2020-02-15T08:00:00+09:00",
@@ -16741,5 +16741,5 @@
       }
     ]
   },
-  "lastUpdate": "2021-05-24T16:30:05+09:00"
+  "lastUpdate": "2021-05-24T16:40:58+09:00"
 }
