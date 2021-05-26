@@ -2675,6 +2675,42 @@
         "ja": "和かな 盛岡本店 [接触者の陰性報告] (盛岡市)",
         "en": null
       }
+    },
+    {
+      "date": "2021-05-25T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.city.oshu.iwate.jp/site/korona/41943.html",
+        "en": null
+      },
+      "text": {
+        "ja": "まごころ病院 (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-05-26T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
+        "ja": "https://emergency.aeon.jp/moriokaminami/.assets/NS%2C%E5%96%9C%E4%B9%85%E6%B0%B4%E5%BA%B5%E3%80%81%E3%83%A6%E3%83%8B%E3%82%AF%E3%83%AD.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "イオンモール盛岡南 (ユニクロ) (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-05-26T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
+        "ja": "https://emergency.aeon.jp/moriokaminami/.assets/NS%2C%E5%96%9C%E4%B9%85%E6%B0%B4%E5%BA%B5%E3%80%81%E3%83%A6%E3%83%8B%E3%82%AF%E3%83%AD.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "イオンモール盛岡南 (喜久水庵) (盛岡市)",
+        "en": null
+      }
     }
   ]
 }
