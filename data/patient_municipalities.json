@@ -1,7 +1,7 @@
 {
-  "date": "2021-05-29T18:58:48+09:00",
+  "date": "2021-05-30T01:02:16+09:00",
   "datasets": {
-    "date": "2021-05-29T18:58:48+09:00",
+    "date": "2021-05-30T01:02:16+09:00",
     "data": [
       {
         "code": "032018",
@@ -17,7 +17,7 @@
         "label": "宮古市",
         "ruby": "みやこし",
         "count": 72,
-        "count_per_population": "0.141"
+        "count_per_population": "0.143"
       },
       {
         "code": "032034",
@@ -65,7 +65,7 @@
         "label": "一関市",
         "ruby": "いちのせきし",
         "count": 77,
-        "count_per_population": "0.068"
+        "count_per_population": "0.069"
       },
       {
         "code": "032107",
@@ -81,7 +81,7 @@
         "label": "釜石市",
         "ruby": "かまいしし",
         "count": 13,
-        "count_per_population": "0.039"
+        "count_per_population": "0.041"
       },
       {
         "code": "032131",
@@ -105,7 +105,7 @@
         "label": "奥州市",
         "ruby": "おうしゅうし",
         "count": 154,
-        "count_per_population": "0.137"
+        "count_per_population": "0.136"
       },
       {
         "code": "032166",
@@ -113,7 +113,7 @@
         "label": "滝沢市",
         "ruby": "たきざわし",
         "count": 104,
-        "count_per_population": "0.186"
+        "count_per_population": "0.187"
       },
       {
         "code": "033014",
@@ -121,7 +121,7 @@
         "label": "雫石町",
         "ruby": "しずくいしちょう",
         "count": 81,
-        "count_per_population": "0.516"
+        "count_per_population": "0.515"
       },
       {
         "code": "033022",
@@ -153,7 +153,7 @@
         "label": "矢巾町",
         "ruby": "やはばちょう",
         "count": 16,
-        "count_per_population": "0.058"
+        "count_per_population": "0.057"
       },
       {
         "code": "033669",
@@ -217,7 +217,7 @@
         "label": "田野畑村",
         "ruby": "たのはたむら",
         "count": 3,
-        "count_per_population": "0.099"
+        "count_per_population": "0.098"
       },
       {
         "code": "034851",
@@ -257,7 +257,7 @@
         "label": "洋野町",
         "ruby": "ひろのちょう",
         "count": 10,
-        "count_per_population": "0.067"
+        "count_per_population": "0.066"
       },
       {
         "code": "035246",
