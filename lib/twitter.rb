@@ -63,18 +63,18 @@ module Tweet2Tsv
 
         # main_summary
         h.merge! /【検査報告】\s(?<month>\d+)月(?<day>\d+)日[（(](?<曜日>[日月火水木金土])[)）]\s/.match(text).named_captures
-        h.merge! /■実施報告[：:](?<実施報告>[\d]+)件\s.*※うち検出[：:](?<実施報告うち検出>\d+)件/.match(text)&.named_captures
-        h.merge! /県PCR検査[：:](?<県PCR検査>\d+)件/.match(text)&.named_captures
-        h.merge! /民間等[：:](?<民間等>\d+)件/.match(text)&.named_captures
-        h.merge! /地域外来等[：:](?<地域外来等>\d+)件/.match(text)&.named_captures
-        h.merge! /抗原検査[：:](?<抗原検査>\d+)件/.match(text)&.named_captures
+        h.merge! /■実施報告[：:](?<実施報告>[\d,]+)件\s.*※うち検出[：:](?<実施報告うち検出>[\d,]+)件/.match(text)&.named_captures
+        h.merge! /県PCR検査[：:](?<県PCR検査>[\d,]+)件/.match(text)&.named_captures
+        h.merge! /民間等[：:](?<民間等>[\d,]+)件/.match(text)&.named_captures
+        h.merge! /地域外来等[：:](?<地域外来等>[\d,]+)件/.match(text)&.named_captures
+        h.merge! /抗原検査[：:](?<抗原検査>[\d,]+)件/.match(text)&.named_captures
         h.merge! /■累計[：:](?<累計>[\d,]+)件[（(]うち検出(?<累計う\sち検出>[\d,]+)件[)）]/.match(text)&.named_captures
-        h.merge! /入院中(?<入院中>\d+)名/.match(text)&.named_captures
-        h.merge! /うち重症者(?<入院中うち重症者>\d+)名/.match(text)&.named_captures
-        h.merge! /宿泊療養(?<宿泊療養>\d+)名/.match(text)&.named_captures
-        h.merge! /退院等(?<退院等>\d+)名/.match(text)&.named_captures
-        h.merge! /死亡者(?<死亡者>\d+)名/.match(text)&.named_captures
-        h.merge! /調整中(?<調整中>\d+)名/.match(text)&.named_captures
+        h.merge! /入院中(?<入院中>[\d,]+)名/.match(text)&.named_captures
+        h.merge! /うち重症者(?<入院中うち重症者>[\d,]+)名/.match(text)&.named_captures
+        h.merge! /宿泊療養(?<宿泊療養>[\d,]+)名/.match(text)&.named_captures
+        h.merge! /退院等(?<退院等>[\d,]+)名/.match(text)&.named_captures
+        h.merge! /死亡者(?<死亡者>[\d,]+)名/.match(text)&.named_captures
+        h.merge! /調整中(?<調整中>[\d,]+)名/.match(text)&.named_captures
         h.merge!({ 'date' => Date.parse("2021/#{h['month']}/#{h['day']}") })
         d[:main_summary] << h
 
