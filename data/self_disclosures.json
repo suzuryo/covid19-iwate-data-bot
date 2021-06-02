@@ -2999,6 +2999,18 @@
         "ja": "岩手医科大学 (矢巾町)",
         "en": null
       }
+    },
+    {
+      "date": "2021-06-02T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
+        "ja": "https://emergency.aeon.jp/moriokaminami/.assets/0602PETEMOpdf.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "イオンモール盛岡南 1F (PETEMO) (盛岡市本宮)",
+        "en": null
+      }
     }
   ]
 }
