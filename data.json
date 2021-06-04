@@ -1,6 +1,6 @@
 {
   "patients": {
-    "date": "2021-06-04T16:55:31+09:00",
+    "date": "2021-06-04T17:43:51+09:00",
     "data": [
       {
         "id": 1,
@@ -16197,22 +16197,22 @@
       {
         "id": 1473,
         "確定日": "2021-06-03T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-05-28T00:00:00+09:00",
         "無症状": false,
         "年代": "30代",
         "居住地": "盛岡市",
-        "url": null,
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1035669.html",
         "会見": "https://www.youtube.com/watch?v=PAxastCIDew",
         "接触歴": "不明"
       },
       {
         "id": 1474,
         "確定日": "2021-06-03T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-05-27T00:00:00+09:00",
         "無症状": false,
         "年代": "20代",
         "居住地": "盛岡市",
-        "url": null,
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1035671.html",
         "会見": "https://www.youtube.com/watch?v=PAxastCIDew",
         "接触歴": "不明"
       },
@@ -16220,54 +16220,54 @@
         "id": 1475,
         "確定日": "2021-06-03T00:00:00+09:00",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "20代",
         "居住地": "盛岡市",
-        "url": null,
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1035672.html",
         "会見": "https://www.youtube.com/watch?v=PAxastCIDew",
         "接触歴": "判明"
       },
       {
         "id": 1476,
         "確定日": "2021-06-03T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-06-02T00:00:00+09:00",
         "無症状": false,
         "年代": "30代",
         "居住地": "盛岡市",
-        "url": null,
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1035673.html",
         "会見": "https://www.youtube.com/watch?v=PAxastCIDew",
         "接触歴": "判明"
       },
       {
         "id": 1477,
         "確定日": "2021-06-03T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-06-01T00:00:00+09:00",
         "無症状": false,
         "年代": "10代",
         "居住地": "盛岡市",
-        "url": null,
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1035674.html",
         "会見": "https://www.youtube.com/watch?v=PAxastCIDew",
         "接触歴": "判明"
       },
       {
         "id": 1478,
         "確定日": "2021-06-03T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-06-03T00:00:00+09:00",
         "無症状": false,
         "年代": "50代",
         "居住地": "盛岡市",
-        "url": null,
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1035675.html",
         "会見": "https://www.youtube.com/watch?v=PAxastCIDew",
         "接触歴": "判明"
       },
       {
         "id": 1479,
         "確定日": "2021-06-03T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-06-01T00:00:00+09:00",
         "無症状": false,
         "年代": "20代",
         "居住地": "盛岡市",
-        "url": null,
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1035676.html",
         "会見": "https://www.youtube.com/watch?v=PAxastCIDew",
         "接触歴": "判明"
       },
@@ -16296,7 +16296,7 @@
     ]
   },
   "patients_summary": {
-    "date": "2021-06-04T16:55:31+09:00",
+    "date": "2021-06-04T17:43:51+09:00",
     "data": [
       {
         "日付": "2020-02-15T08:00:00+09:00",
@@ -18204,5 +18204,5 @@
       }
     ]
   },
-  "lastUpdate": "2021-06-04T16:55:31+09:00"
+  "lastUpdate": "2021-06-04T17:43:51+09:00"
 }
