@@ -44,19 +44,7 @@
         "en": "/en/cards/monitoring-number-of-confirmed-cases-per-100k/"
       },
       "text": {
-        "ja": "盛岡市の「直近1週間の対人口10万人あたりの感染者数」がステージ3閾値の 15 を超えている (盛岡市中心部の飲食店関連の感染例が続いている状態)",
-        "en": null
-      }
-    },
-    {
-      "date": "2021-06-04T00:00:00+09:00",
-      "icon": "📄",
-      "url": {
-        "ja": "/cards/attributes-of-confirmed-cases/",
-        "en": "/en/cards/attributes-of-confirmed-cases/"
-      },
-      "text": {
-        "ja": "盛岡市の場合、直近1週間の感染例のうち20代と30代の合計が31例（市全体の63%) となり、20代・30代を中心に広がった一週間",
+        "ja": "盛岡市の「直近1週間の対人口10万人あたりの感染者数」がステージ3閾値の 15 を超えている",
         "en": null
       }
     }
