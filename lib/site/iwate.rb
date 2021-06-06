@@ -50,7 +50,7 @@ class Iwate
     patient = {}
 
     # id
-    patient['id'] = doc.css('#voice > h2').text.match(/第(?<id>[\d,]+)例目の患者に関する情報/)[:id].delete(',').to_i
+    patient['id'] = doc.css('#voice > h2').text.match(/第(?<id>[\d,]+)例目[以降]*の患者に関する情報/)[:id].delete(',').to_i
 
     # リリース日
     m = doc.css('#voice > h2').text.match(/令和3年(?<month>\d+)月(?<day>\d+)日/)
