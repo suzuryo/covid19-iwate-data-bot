@@ -3119,6 +3119,30 @@
         "ja": "岩手県庁 教育委員会 事務局 (盛岡市)",
         "en": null
       }
+    },
+    {
+      "date": "2021-05-30T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.nsg.co.jp/-/media/nsgcom/tiles/covid19releasefy2022_j.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "日本板硝子 グループ会社 (花巻市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-05-24T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.atsugi.co.jp/news/pdf/210524_covid19.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "アツギ東北 (盛岡市)",
+        "en": null
+      }
     }
   ]
 }
