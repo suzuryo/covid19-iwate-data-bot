@@ -1,15 +1,15 @@
 {
-  "date": "2021-06-08T15:13:27+09:00",
+  "date": "2021-06-08T16:51:33+09:00",
   "datasets": {
-    "date": "2021-06-08T15:13:27+09:00",
+    "date": "2021-06-08T16:51:33+09:00",
     "data": [
       {
         "code": "032018",
         "area": "岩手県",
         "label": "盛岡市",
         "ruby": "もりおかし",
-        "count": 614,
-        "count_per_population": "0.212"
+        "count": 613,
+        "count_per_population": "0.211"
       },
       {
         "code": "032026",
@@ -272,7 +272,7 @@
         "area": "県外",
         "label": "県外",
         "ruby": "けんがい",
-        "count": 26,
+        "count": 27,
         "count_per_population": null
       }
     ]
