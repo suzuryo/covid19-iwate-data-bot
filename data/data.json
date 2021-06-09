@@ -1,6 +1,6 @@
 {
   "patients": {
-    "date": "2021-06-09T15:30:44+09:00",
+    "date": "2021-06-09T16:33:17+09:00",
     "data": [
       {
         "id": 1,
@@ -16802,84 +16802,84 @@
       {
         "id": 1528,
         "確定日": "2021-06-08T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-06-03T00:00:00+09:00",
         "無症状": false,
         "年代": "30代",
         "居住地": "県央保健所管内",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1042990/1043911.html",
         "会見": "https://www.youtube.com/watch?v=LASQ-UxtHEY",
         "接触歴": "不明"
       },
       {
         "id": 1529,
         "確定日": "2021-06-08T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-06-07T00:00:00+09:00",
         "無症状": false,
         "年代": "70代",
         "居住地": "県央保健所管内",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1042990/1043912.html",
         "会見": "https://www.youtube.com/watch?v=LASQ-UxtHEY",
         "接触歴": "判明"
       },
       {
         "id": 1530,
         "確定日": "2021-06-08T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-05-31T00:00:00+09:00",
         "無症状": false,
         "年代": "20代",
         "居住地": "紫波町",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1042990/1043913.html",
         "会見": "https://www.youtube.com/watch?v=LASQ-UxtHEY",
         "接触歴": "判明"
       },
       {
         "id": 1531,
         "確定日": "2021-06-08T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-06-06T00:00:00+09:00",
         "無症状": false,
         "年代": "30代",
         "居住地": "県央保健所管内",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1042990/1043914.html",
         "会見": "https://www.youtube.com/watch?v=LASQ-UxtHEY",
         "接触歴": "不明"
       },
       {
         "id": 1532,
         "確定日": "2021-06-08T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-06-06T00:00:00+09:00",
         "無症状": false,
         "年代": "60代",
         "居住地": "中部保健所管内",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1042990/1043915.html",
         "会見": "https://www.youtube.com/watch?v=LASQ-UxtHEY",
         "接触歴": "不明"
       },
       {
         "id": 1533,
         "確定日": "2021-06-08T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-06-04T00:00:00+09:00",
         "無症状": false,
         "年代": "20代",
         "居住地": "中部保健所管内",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1042990/1043916.html",
         "会見": "https://www.youtube.com/watch?v=LASQ-UxtHEY",
         "接触歴": "判明"
       },
       {
         "id": 1534,
         "確定日": "2021-06-08T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-06-06T00:00:00+09:00",
         "無症状": false,
         "年代": "20代",
         "居住地": "中部保健所管内",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1042990/1043917.html",
         "会見": "https://www.youtube.com/watch?v=LASQ-UxtHEY",
         "接触歴": "不明"
       }
     ]
   },
   "patients_summary": {
-    "date": "2021-06-09T15:30:44+09:00",
+    "date": "2021-06-09T16:33:17+09:00",
     "data": [
       {
         "日付": "2020-02-15T08:00:00+09:00",
@@ -18807,5 +18807,5 @@
       }
     ]
   },
-  "lastUpdate": "2021-06-09T15:30:44+09:00"
+  "lastUpdate": "2021-06-09T16:33:17+09:00"
 }
