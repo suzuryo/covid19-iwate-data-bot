@@ -61,6 +61,12 @@ class Morioka
     # 確定日
     patient['確定日'] = m ? Date.parse("2021/#{m[:month]}/#{m[:day]}").days_ago(1).strftime('%Y/%m/%d') : ''
 
+    # 1308はリリース日が2021/05/21で確定日が2021/05/20なのに、ページの更新日が2021/05/22になってる
+    # 1565はリリース日が2021/06/12で確定日が2021/06/11なのに、ページの更新日が2021/06/13になってる
+    patient['確定日'] = patient['確定日'] = m ? Date.parse("2021/#{m[:month]}/#{m[:day]}").days_ago(2).strftime('%Y/%m/%d') : '' if [1308, 1565].include?(patient['id'])
+    # 1304はリリース日が2021/05/21で確定日が2021/05/20なのに、ページの更新日が2021/06/01になっている
+    patient['確定日'] = '2021/05/20' if patient['id'] == 1304
+
     # h4
     doc.css('#voice > h4').each do |h4|
       patient['接触歴'] = '不明'
@@ -85,6 +91,8 @@ class Morioka
       when /^居住地：/
         patient['居住地'] = h4.text.gsub('居住地：', '').strip
         patient['居住地'] = '県外' if patient['居住地'].match(/県外/)
+        # 1366は「県内（滞在地：盛岡市）」だけど「盛岡市」に分類する
+        patient['居住地'] = '盛岡市' if patient['id'] == 1366
       when /^入院状況：/
         m = h4.text.match(/(?<month>\d+)月(?<day>\d+)/)
         patient['入院日'] = m ? Date.parse("2021/#{m[:month]}/#{m[:day]}").strftime('%Y/%m/%d') : ''

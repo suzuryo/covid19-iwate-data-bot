@@ -50,7 +50,12 @@ describe 'Iwate' do
             expect(d['年代']).to eq find_data(id)['年代']
           end
           expect(d['居住地']).to eq find_data(id)['居住地']
-          expect(d['url']).to eq find_data(id)['url']
+          # 1580はURLが // ってなってる
+          if id == 1579
+            expect(d['url']).to eq 'https://www.pref.iwate.jp//kurashikankyou/iryou/covid19/1042990/1044000.html'
+          else
+            expect(d['url']).to eq find_data(id)['url']
+          end
           expect(d['接触歴']).to eq find_data(id)['接触歴']
 
           # 以下 data.json には含めていない項目
@@ -87,7 +92,12 @@ describe 'Iwate' do
           expect(d['性別']).to eq row['性別']
           expect(d['居住地']).to eq row['居住地']
           expect(d['入院日']).to eq Date.parse(row['入院日']).strftime '%Y/%m/%d' unless row['入院日'].blank?
-          expect(d['url']).to eq row['url']
+          # 1580はURLが // ってなってる
+          if id == 1579
+            expect(d['url']).to eq 'https://www.pref.iwate.jp//kurashikankyou/iryou/covid19/1042990/1044000.html'
+          else
+            expect(d['url']).to eq row['url']
+          end
           expect(d['接触歴']).to eq row['接触歴']
 
           # expect(d['職業']).to eq row['職業']

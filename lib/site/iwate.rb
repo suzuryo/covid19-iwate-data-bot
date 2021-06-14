@@ -74,6 +74,11 @@ class Iwate
                        dl['居住地']
                      end
 
+    # 1543は 「滝沢市 （県央保健所）」 って書いてあるので滝沢市に固定する
+    if patient['id'] == 1543
+      patient['居住地'] = '滝沢市'
+    end
+
     patient['職業'] = dl['職業']
 
     m1 = dl['入院状況'].match(/(?<month>\d+)月(?<day>\d+)日/)
