@@ -3196,11 +3196,35 @@
       "date": "2021-06-14T00:00:00+09:00",
       "icon": "📄",
       "url": {
+        "ja": "https://www.facebook.com/hibimataya",
+        "en": null
+      },
+      "text": {
+        "ja": "ひび又屋 [続報 陰性報告] (大槌町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-06-14T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
         "ja": "https://www.atsugi.co.jp/news/pdf/210614_covid19.pdf",
         "en": null
       },
       "text": {
         "ja": "アツギ東北 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-06-14T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.yoshidasangyo.co.jp/news/20210614/index.html",
+        "en": null
+      },
+      "text": {
+        "ja": "吉田産業 水沢支店 花北営業所 [経過報告と営業再開] (北上市)",
         "en": null
       }
     }
