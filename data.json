@@ -1,6 +1,6 @@
 {
   "patients": {
-    "date": "2021-06-16T17:10:29+09:00",
+    "date": "2021-06-16T17:18:59+09:00",
     "data": [
       {
         "id": 1,
@@ -17737,51 +17737,51 @@
       {
         "id": 1613,
         "確定日": "2021-06-15T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-06-10T00:00:00+09:00",
         "無症状": false,
         "年代": "30代",
         "居住地": "県央保健所管内",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1042990/1044090.html",
         "会見": "https://www.youtube.com/watch?v=bgjOHelpbqw",
         "接触歴": "不明"
       },
       {
         "id": 1614,
         "確定日": "2021-06-15T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-06-13T00:00:00+09:00",
         "無症状": false,
         "年代": "20代",
         "居住地": "中部保健所管内",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1042990/1044091.html",
         "会見": "https://www.youtube.com/watch?v=bgjOHelpbqw",
         "接触歴": "不明"
       },
       {
         "id": 1615,
         "確定日": "2021-06-15T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-06-14T00:00:00+09:00",
         "無症状": false,
         "年代": "10代",
         "居住地": "花巻市",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1042990/1044092.html",
         "会見": "https://www.youtube.com/watch?v=bgjOHelpbqw",
         "接触歴": "判明"
       },
       {
         "id": 1616,
         "確定日": "2021-06-15T00:00:00+09:00",
-        "発症日": null,
+        "発症日": "2021-06-12T00:00:00+09:00",
         "無症状": false,
         "年代": "10代",
         "居住地": "中部保健所管内",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1042990/1044093.html",
         "会見": "https://www.youtube.com/watch?v=bgjOHelpbqw",
         "接触歴": "判明"
       }
     ]
   },
   "patients_summary": {
-    "date": "2021-06-16T17:10:29+09:00",
+    "date": "2021-06-16T17:18:59+09:00",
     "data": [
       {
         "日付": "2020-02-15T08:00:00+09:00",
@@ -19737,5 +19737,5 @@
       }
     ]
   },
-  "lastUpdate": "2021-06-16T17:10:29+09:00"
+  "lastUpdate": "2021-06-16T17:18:59+09:00"
 }
