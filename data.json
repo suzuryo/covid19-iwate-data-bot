@@ -1,6 +1,6 @@
 {
   "patients": {
-    "date": "2021-06-29T09:05:31+09:00",
+    "date": "2021-06-29T15:12:18+09:00",
     "data": [
       {
         "id": 1,
@@ -18237,7 +18237,7 @@
         "年代": "30代",
         "居住地": "盛岡市",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1035951.html",
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=kjXLoBYo67Y",
         "接触歴": "判明"
       },
       {
@@ -18248,7 +18248,7 @@
         "年代": "30代",
         "居住地": "県央保健所管内",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1042990/1044349.html",
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=kjXLoBYo67Y",
         "接触歴": "不明"
       },
       {
@@ -18259,7 +18259,7 @@
         "年代": "20代",
         "居住地": "盛岡市",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1035952.html",
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=sPAOpNjR4WA",
         "接触歴": "判明"
       },
       {
@@ -18270,7 +18270,7 @@
         "年代": "20代",
         "居住地": "盛岡市",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1035953.html",
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=sPAOpNjR4WA",
         "接触歴": "判明"
       },
       {
@@ -18281,7 +18281,7 @@
         "年代": "50代",
         "居住地": "盛岡市",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1035954.html",
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=sPAOpNjR4WA",
         "接触歴": "不明"
       },
       {
@@ -18292,7 +18292,7 @@
         "年代": "40代",
         "居住地": "盛岡市",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1035955.html",
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=sPAOpNjR4WA",
         "接触歴": "不明"
       },
       {
@@ -18303,7 +18303,7 @@
         "年代": "50代",
         "居住地": "盛岡市",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1035956.html",
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=sPAOpNjR4WA",
         "接触歴": "判明"
       },
       {
@@ -18314,7 +18314,7 @@
         "年代": "20代",
         "居住地": "盛岡市",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1035957.html",
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=sPAOpNjR4WA",
         "接触歴": "判明"
       },
       {
@@ -18325,7 +18325,7 @@
         "年代": "60代",
         "居住地": "雫石町",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1042990/1044353.html",
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=sPAOpNjR4WA",
         "接触歴": "不明"
       },
       {
@@ -18336,13 +18336,46 @@
         "年代": "60代",
         "居住地": "中部保健所管内",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1042990/1044354.html",
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=sPAOpNjR4WA",
+        "接触歴": "判明"
+      },
+      {
+        "id": 1668,
+        "確定日": "2021-06-28T00:00:00+09:00",
+        "発症日": null,
+        "無症状": false,
+        "年代": "30代",
+        "居住地": "県央保健所管内",
+        "url": null,
+        "会見": "https://www.youtube.com/watch?v=yWXHk9Y4ReM",
+        "接触歴": "判明"
+      },
+      {
+        "id": 1669,
+        "確定日": "2021-06-28T00:00:00+09:00",
+        "発症日": null,
+        "無症状": false,
+        "年代": "30代",
+        "居住地": "県外",
+        "url": null,
+        "会見": "https://www.youtube.com/watch?v=yWXHk9Y4ReM",
+        "接触歴": "不明"
+      },
+      {
+        "id": 1670,
+        "確定日": "2021-06-28T00:00:00+09:00",
+        "発症日": null,
+        "無症状": false,
+        "年代": "40代",
+        "居住地": "県外",
+        "url": null,
+        "会見": "https://www.youtube.com/watch?v=yWXHk9Y4ReM",
         "接触歴": "判明"
       }
     ]
   },
   "patients_summary": {
-    "date": "2021-06-29T09:05:31+09:00",
+    "date": "2021-06-29T15:12:18+09:00",
     "data": [
       {
         "日付": "2020-02-15T08:00:00+09:00",
@@ -20343,8 +20376,12 @@
       {
         "日付": "2021-06-28T08:00:00+09:00",
         "小計": 0
+      },
+      {
+        "日付": "2021-06-29T08:00:00+09:00",
+        "小計": 3
       }
     ]
   },
-  "lastUpdate": "2021-06-29T09:05:31+09:00"
+  "lastUpdate": "2021-06-29T15:12:18+09:00"
 }
