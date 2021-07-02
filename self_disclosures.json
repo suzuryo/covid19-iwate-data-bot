@@ -3400,6 +3400,18 @@
       "date": "2021-07-02T00:00:00+09:00",
       "icon": "📄",
       "url": {
+        "ja": "http://esashi.co.jp/image/houkoku.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "江差プリント社 (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-07-02T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
         "ja": "https://www.city.oshu.iwate.jp/site/gikai/",
         "en": null
       },
