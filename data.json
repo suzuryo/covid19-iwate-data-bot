@@ -1,6 +1,6 @@
 {
   "patients": {
-    "date": "2021-07-05T15:13:47+09:00",
+    "date": "2021-07-05T15:32:33+09:00",
     "data": [
       {
         "id": 1,
@@ -18633,7 +18633,7 @@
         "年代": "30代",
         "居住地": "盛岡市",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1036032.html",
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=c0weGJzl2zo",
         "接触歴": "不明"
       },
       {
@@ -18644,7 +18644,7 @@
         "年代": "30代",
         "居住地": "盛岡市",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1036033.html",
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=c0weGJzl2zo",
         "接触歴": "不明"
       },
       {
@@ -18655,7 +18655,7 @@
         "年代": "20代",
         "居住地": "盛岡市",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1036034.html",
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=c0weGJzl2zo",
         "接触歴": "判明"
       },
       {
@@ -18666,7 +18666,7 @@
         "年代": "60代",
         "居住地": "盛岡市",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1036035.html",
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=c0weGJzl2zo",
         "接触歴": "判明"
       },
       {
@@ -18677,7 +18677,7 @@
         "年代": "40代",
         "居住地": "盛岡市",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1036036.html",
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=c0weGJzl2zo",
         "接触歴": "不明"
       },
       {
@@ -18688,7 +18688,7 @@
         "年代": "40代",
         "居住地": "盛岡市",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1036037.html",
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=c0weGJzl2zo",
         "接触歴": "不明"
       },
       {
@@ -18699,7 +18699,7 @@
         "年代": "40代",
         "居住地": "県央保健所管内",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1042990/1044535.html",
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=c0weGJzl2zo",
         "接触歴": "不明"
       },
       {
@@ -18710,7 +18710,7 @@
         "年代": "70代",
         "居住地": "県央保健所管内",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1042990/1044536.html",
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=c0weGJzl2zo",
         "接触歴": "判明"
       },
       {
@@ -18721,7 +18721,7 @@
         "年代": "30代",
         "居住地": "県央保健所管内",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1042990/1044537.html",
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=c0weGJzl2zo",
         "接触歴": "不明"
       },
       {
@@ -18732,7 +18732,7 @@
         "年代": "50代",
         "居住地": "北上市",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1042990/1044538.html",
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=c0weGJzl2zo",
         "接触歴": "不明"
       },
       {
@@ -18743,7 +18743,7 @@
         "年代": "50代",
         "居住地": "北上市",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1042990/1044539.html",
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=c0weGJzl2zo",
         "接触歴": "不明"
       },
       {
@@ -18754,7 +18754,7 @@
         "年代": "40代",
         "居住地": "中部保健所管内",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1042990/1044540.html",
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=c0weGJzl2zo",
         "接触歴": "判明"
       },
       {
@@ -18765,7 +18765,7 @@
         "年代": "70代",
         "居住地": "奥州市",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1042990/1044541.html",
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=c0weGJzl2zo",
         "接触歴": "判明"
       },
       {
@@ -18776,7 +18776,7 @@
         "年代": "50代",
         "居住地": "一関市",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1042990/1044542.html",
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=c0weGJzl2zo",
         "接触歴": "不明"
       },
       {
@@ -18787,7 +18787,7 @@
         "年代": "40代",
         "居住地": "県央保健所管内",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1042990/1044543.html",
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=vXnjjBLD-pw",
         "接触歴": "判明"
       },
       {
@@ -18798,7 +18798,7 @@
         "年代": "50代",
         "居住地": "中部保健所管内",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1042990/1044544.html",
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=vXnjjBLD-pw",
         "接触歴": "不明"
       },
       {
@@ -18809,7 +18809,7 @@
         "年代": "40代",
         "居住地": "北上市",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1042990/1044545.html",
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=vXnjjBLD-pw",
         "接触歴": "判明"
       },
       {
@@ -18820,7 +18820,7 @@
         "年代": "50代",
         "居住地": "北上市",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1042990/1044546.html",
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=vXnjjBLD-pw",
         "接触歴": "判明"
       },
       {
@@ -18831,7 +18831,7 @@
         "年代": "50代",
         "居住地": "中部保健所管内",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1042990/1044547.html",
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=vXnjjBLD-pw",
         "接触歴": "判明"
       },
       {
@@ -18842,7 +18842,7 @@
         "年代": "40代",
         "居住地": "奥州保健所管内",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1042990/1044548.html",
-        "会見": null,
+        "会見": "https://www.youtube.com/watch?v=vXnjjBLD-pw",
         "接触歴": "不明"
       },
       {
@@ -19035,7 +19035,7 @@
     ]
   },
   "patients_summary": {
-    "date": "2021-07-05T15:13:47+09:00",
+    "date": "2021-07-05T15:32:33+09:00",
     "data": [
       {
         "日付": "2020-02-15T08:00:00+09:00",
@@ -21067,5 +21067,5 @@
       }
     ]
   },
-  "lastUpdate": "2021-07-05T15:13:47+09:00"
+  "lastUpdate": "2021-07-05T15:32:33+09:00"
 }
