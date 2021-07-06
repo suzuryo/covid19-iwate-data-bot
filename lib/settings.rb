@@ -4,7 +4,7 @@ TARGET_MIN_ID = 849
 
 SITES = {
   iwate: {
-    url: 'https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1042990/index.html',
+    url: 'https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1043206/index.html',
     selector: '#voice > table > tbody > tr > td:nth-child(1) a',
     regex: %r{^https://www.pref.iwate.jp}
   },
