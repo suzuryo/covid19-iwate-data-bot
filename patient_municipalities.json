@@ -1,7 +1,7 @@
 {
-  "date": "2021-07-09T11:16:14+09:00",
+  "date": "2021-07-09T15:06:15+09:00",
   "datasets": {
-    "date": "2021-07-09T11:16:14+09:00",
+    "date": "2021-07-09T15:06:15+09:00",
     "data": [
       {
         "code": "032018",
@@ -40,8 +40,8 @@
         "area": "岩手県",
         "label": "北上市",
         "ruby": "きたかみし",
-        "count": 65,
-        "count_per_population": "0.070"
+        "count": 68,
+        "count_per_population": "0.073"
       },
       {
         "code": "032077",
@@ -112,8 +112,8 @@
         "area": "岩手県",
         "label": "滝沢市",
         "ruby": "たきざわし",
-        "count": 111,
-        "count_per_population": "0.200"
+        "count": 113,
+        "count_per_population": "0.203"
       },
       {
         "code": "033014",
