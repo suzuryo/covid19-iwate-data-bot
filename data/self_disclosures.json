@@ -3563,6 +3563,30 @@
         "ja": "一関ヒロセ電機 (一関市)",
         "en": null
       }
+    },
+    {
+      "date": "2021-07-09T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.city.kitakami.iwate.jp/life/emergency/corona/kenkou_iryou/19704.html",
+        "en": null
+      },
+      "text": {
+        "ja": "北上市教育委員会 (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-07-09T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.city.kitakami.iwate.jp/life/emergency/corona/kenkou_iryou/19710.html",
+        "en": null
+      },
+      "text": {
+        "ja": "北上市内の小学校 (北上市)",
+        "en": null
+      }
     }
   ]
 }
