@@ -3551,6 +3551,18 @@
         "ja": "都タクシー (北上市)",
         "en": null
       }
+    },
+    {
+      "date": "2021-07-09T00:00:00+09:00",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.hirose.com/medias/20210709_press_covid.pdf?context=bWFzdGVyfHByaXZhdGVfc3lzX3VwbG9hZHw5NDE3N3xhcHBsaWNhdGlvbi9wZGZ8c3lzLW1hc3Rlci9wcml2YXRlX3N5c191cGxvYWQvaDRlL2g1Mi85MDQ5MjQ4MjY4MzE4LzIwMjEwNzA5X3ByZXNzX2NvdmlkLnBkZnw5OTIzYjIyY2JmOWRiMGQ5Y2RmMWQyZmZiMzE0Y2E1N2ZhNTYzMzRjNTI0ZmNjYzZkMTcxZGZlODA3MTFhMmQ2",
+        "en": null
+      },
+      "text": {
+        "ja": "一関ヒロセ電機 (一関市)",
+        "en": null
+      }
     }
   ]
 }
