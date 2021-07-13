@@ -71,8 +71,8 @@ PATIENTS.each do |row|
     {
       id: row['id'].to_i,
       # リリース日: row['リリース日'].blank? ? nil : Time.parse(row['リリース日']).iso8601, # 利用していないので出力しない
-      確定日: row['確定日'].blank? ? nil : Time.parse(row['確定日']).iso8601,
-      発症日: row['発症日'].blank? ? nil : Time.parse(row['発症日']).iso8601,
+      確定日: row['確定日'].blank? ? nil : Date.parse(row['確定日']).strftime('%Y-%m-%d'),
+      発症日: row['発症日'].blank? ? nil : Date.parse(row['発症日']).strftime('%Y-%m-%d'),
       無症状: row['無症状'] == '無症状',
       # 通番: row['通番'].blank? ? nil : row['通番'],
       年代: row['年代'].blank? ? nil : row['年代'],
@@ -101,7 +101,7 @@ patients_summary_last_date = Date.parse(POSITIVE_RATE[-1]['diagnosed_date']) == 
 
   data_json[:patients_summary][:data].append(
     {
-      日付: Time.new(date.year, date.month, date.day, 8, 0, 0).iso8601,
+      日付: date.strftime('%Y-%m-%d'),
       小計: output_patients_sum
     }
   )
@@ -152,12 +152,12 @@ data_positive_by_diagnosed_json = {
 (first_date..Date.parse(POSITIVE_RATE[-1]['diagnosed_date'])).each do |date|
   positive_by_diagnosed_sum = 0
   PATIENTS.each do |row|
-    positive_by_diagnosed_sum += 1 if row['確定日'] == date.strftime('%Y/%m/%d')
+    positive_by_diagnosed_sum += 1 if row['確定日'] == date.strftime('%Y-%m-%d')
   end
 
   data_positive_by_diagnosed_json[:data].append(
     {
-      diagnosed_date: Time.new(date.year, date.month, date.day, 0, 0, 0).iso8601,
+      diagnosed_date: date.strftime('%Y-%m-%d'),
       count: positive_by_diagnosed_sum
     }
   )
@@ -179,7 +179,7 @@ data_daily_positive_detail_json = {
 POSITIVE_BY_DIAGNOSED.each do |row|
   data_daily_positive_detail_json[:data].append(
     {
-      diagnosed_date: Time.parse(row['diagnosed_date']).iso8601,
+      diagnosed_date: Time.parse(row['diagnosed_date']).strftime('%Y-%m-%d'),
       count: row['count'].to_i,
       missing_count: row['missing_count'].to_i,
       reported_count: row['reported_count'].to_i,
@@ -208,7 +208,7 @@ data_positive_rate_json = {
 POSITIVE_RATE.each do |row|
   data_positive_rate_json[:data].append(
     {
-      diagnosed_date: Time.parse(row['diagnosed_date']).iso8601,
+      diagnosed_date: Time.parse(row['diagnosed_date']).strftime('%Y-%m-%d'),
       positive_count: row['positive_count'].blank? ? nil : row['positive_count'].to_i,
       # negative_count: row['negative_count'].blank? ? nil : row['negative_count'].to_i, # 利用していないので出力しない
       pcr_positive_count: row['pcr_positive_count'].blank? ? nil : row['pcr_positive_count'].to_i,
@@ -271,7 +271,7 @@ data_positive_status_json = {
 HOSPITALIZED_NUMBERS.each do |row|
   data_positive_status_json[:data].append(
     {
-      date: Time.parse(row['date']).iso8601,
+      date: Time.parse(row['date']).strftime('%Y-%m-%d'),
       hospital: row['入院'].to_i,
       hotel: row['宿泊療養'].to_i,
       hospitalized: row['入院'].to_i + row['宿泊療養'].to_i,
@@ -292,7 +292,7 @@ data_news_json = {
 NEWS.each do |row|
   data_news_json[:newsItems].append(
     {
-      date: Time.parse(row['date']).iso8601,
+      date: Time.parse(row['date']).strftime('%Y-%m-%d'),
       icon: row['icon'],
       url: {
         ja: row['url_ja'].blank? ? nil : row['url_ja'],
@@ -317,7 +317,7 @@ data_alert_json = {
 ALERT.each do |row|
   data_alert_json[:alertItems].append(
     {
-      date: Time.parse(row['date']).iso8601,
+      date: Time.parse(row['date']).strftime('%Y-%m-%d'),
       icon: row['icon'],
       url: {
         ja: row['url_ja'].blank? ? nil : row['url_ja'],
@@ -342,7 +342,7 @@ data_self_disclosures_json = {
 SELF_DISCLOSURES.each do |row|
   data_self_disclosures_json[:newsItems].append(
     {
-      date: Time.parse(row['date']).iso8601,
+      date: Time.parse(row['date']).strftime('%Y-%m-%d'),
       icon: row['icon'],
       url: {
         ja: row['url_ja'].blank? ? nil : row['url_ja'],
