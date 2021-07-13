@@ -1,3620 +1,3620 @@
 {
-  "date": "2021-07-13T21:15:18+09:00",
+  "date": "2021-07-13T23:04:02+09:00",
   "data": [
     {
-      "date": "2020-02-13T00:00:00+09:00",
+      "date": "2020-02-13",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-02-14T00:00:00+09:00",
+      "date": "2020-02-14",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-02-15T00:00:00+09:00",
+      "date": "2020-02-15",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-02-16T00:00:00+09:00",
+      "date": "2020-02-16",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-02-17T00:00:00+09:00",
+      "date": "2020-02-17",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-02-18T00:00:00+09:00",
+      "date": "2020-02-18",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-02-19T00:00:00+09:00",
+      "date": "2020-02-19",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-02-20T00:00:00+09:00",
+      "date": "2020-02-20",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-02-21T00:00:00+09:00",
+      "date": "2020-02-21",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-02-22T00:00:00+09:00",
+      "date": "2020-02-22",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-02-23T00:00:00+09:00",
+      "date": "2020-02-23",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-02-24T00:00:00+09:00",
+      "date": "2020-02-24",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-02-25T00:00:00+09:00",
+      "date": "2020-02-25",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-02-26T00:00:00+09:00",
+      "date": "2020-02-26",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-02-27T00:00:00+09:00",
+      "date": "2020-02-27",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-02-28T00:00:00+09:00",
+      "date": "2020-02-28",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-02-29T00:00:00+09:00",
+      "date": "2020-02-29",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-03-01T00:00:00+09:00",
+      "date": "2020-03-01",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-03-02T00:00:00+09:00",
+      "date": "2020-03-02",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-03-03T00:00:00+09:00",
+      "date": "2020-03-03",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-03-04T00:00:00+09:00",
+      "date": "2020-03-04",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-03-05T00:00:00+09:00",
+      "date": "2020-03-05",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-03-06T00:00:00+09:00",
+      "date": "2020-03-06",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-03-07T00:00:00+09:00",
+      "date": "2020-03-07",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-03-08T00:00:00+09:00",
+      "date": "2020-03-08",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-03-09T00:00:00+09:00",
+      "date": "2020-03-09",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-03-10T00:00:00+09:00",
+      "date": "2020-03-10",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-03-11T00:00:00+09:00",
+      "date": "2020-03-11",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-03-12T00:00:00+09:00",
+      "date": "2020-03-12",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-03-13T00:00:00+09:00",
+      "date": "2020-03-13",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-03-14T00:00:00+09:00",
+      "date": "2020-03-14",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-03-15T00:00:00+09:00",
+      "date": "2020-03-15",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-03-16T00:00:00+09:00",
+      "date": "2020-03-16",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-03-17T00:00:00+09:00",
+      "date": "2020-03-17",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-03-18T00:00:00+09:00",
+      "date": "2020-03-18",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-03-19T00:00:00+09:00",
+      "date": "2020-03-19",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-03-20T00:00:00+09:00",
+      "date": "2020-03-20",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-03-21T00:00:00+09:00",
+      "date": "2020-03-21",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-03-22T00:00:00+09:00",
+      "date": "2020-03-22",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-03-23T00:00:00+09:00",
+      "date": "2020-03-23",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-03-24T00:00:00+09:00",
+      "date": "2020-03-24",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-03-25T00:00:00+09:00",
+      "date": "2020-03-25",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-03-26T00:00:00+09:00",
+      "date": "2020-03-26",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-03-27T00:00:00+09:00",
+      "date": "2020-03-27",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-03-28T00:00:00+09:00",
+      "date": "2020-03-28",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-03-29T00:00:00+09:00",
+      "date": "2020-03-29",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-03-30T00:00:00+09:00",
+      "date": "2020-03-30",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-03-31T00:00:00+09:00",
+      "date": "2020-03-31",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-04-01T00:00:00+09:00",
+      "date": "2020-04-01",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-04-02T00:00:00+09:00",
+      "date": "2020-04-02",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-04-03T00:00:00+09:00",
+      "date": "2020-04-03",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-04-04T00:00:00+09:00",
+      "date": "2020-04-04",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-04-05T00:00:00+09:00",
+      "date": "2020-04-05",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-04-06T00:00:00+09:00",
+      "date": "2020-04-06",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-04-07T00:00:00+09:00",
+      "date": "2020-04-07",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-04-08T00:00:00+09:00",
+      "date": "2020-04-08",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-04-09T00:00:00+09:00",
+      "date": "2020-04-09",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-04-10T00:00:00+09:00",
+      "date": "2020-04-10",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-04-11T00:00:00+09:00",
+      "date": "2020-04-11",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-04-12T00:00:00+09:00",
+      "date": "2020-04-12",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-04-13T00:00:00+09:00",
+      "date": "2020-04-13",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-04-14T00:00:00+09:00",
+      "date": "2020-04-14",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-04-15T00:00:00+09:00",
+      "date": "2020-04-15",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-04-16T00:00:00+09:00",
+      "date": "2020-04-16",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-04-17T00:00:00+09:00",
+      "date": "2020-04-17",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-04-18T00:00:00+09:00",
+      "date": "2020-04-18",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-04-19T00:00:00+09:00",
+      "date": "2020-04-19",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-04-20T00:00:00+09:00",
+      "date": "2020-04-20",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-04-21T00:00:00+09:00",
+      "date": "2020-04-21",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-04-22T00:00:00+09:00",
+      "date": "2020-04-22",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-04-23T00:00:00+09:00",
+      "date": "2020-04-23",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-04-24T00:00:00+09:00",
+      "date": "2020-04-24",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-04-25T00:00:00+09:00",
+      "date": "2020-04-25",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-04-26T00:00:00+09:00",
+      "date": "2020-04-26",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-04-27T00:00:00+09:00",
+      "date": "2020-04-27",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-04-28T00:00:00+09:00",
+      "date": "2020-04-28",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-04-29T00:00:00+09:00",
+      "date": "2020-04-29",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-04-30T00:00:00+09:00",
+      "date": "2020-04-30",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-05-01T00:00:00+09:00",
+      "date": "2020-05-01",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-05-02T00:00:00+09:00",
+      "date": "2020-05-02",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-05-03T00:00:00+09:00",
+      "date": "2020-05-03",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-05-04T00:00:00+09:00",
+      "date": "2020-05-04",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-05-05T00:00:00+09:00",
+      "date": "2020-05-05",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-05-06T00:00:00+09:00",
+      "date": "2020-05-06",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-05-07T00:00:00+09:00",
+      "date": "2020-05-07",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-05-08T00:00:00+09:00",
+      "date": "2020-05-08",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-05-09T00:00:00+09:00",
+      "date": "2020-05-09",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-05-10T00:00:00+09:00",
+      "date": "2020-05-10",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-05-11T00:00:00+09:00",
+      "date": "2020-05-11",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-05-12T00:00:00+09:00",
+      "date": "2020-05-12",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-05-13T00:00:00+09:00",
+      "date": "2020-05-13",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-05-14T00:00:00+09:00",
+      "date": "2020-05-14",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-05-15T00:00:00+09:00",
+      "date": "2020-05-15",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-05-16T00:00:00+09:00",
+      "date": "2020-05-16",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-05-17T00:00:00+09:00",
+      "date": "2020-05-17",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-05-18T00:00:00+09:00",
+      "date": "2020-05-18",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-05-19T00:00:00+09:00",
+      "date": "2020-05-19",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-05-20T00:00:00+09:00",
+      "date": "2020-05-20",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-05-21T00:00:00+09:00",
+      "date": "2020-05-21",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-05-22T00:00:00+09:00",
+      "date": "2020-05-22",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-05-23T00:00:00+09:00",
+      "date": "2020-05-23",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-05-24T00:00:00+09:00",
+      "date": "2020-05-24",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-05-25T00:00:00+09:00",
+      "date": "2020-05-25",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-05-26T00:00:00+09:00",
+      "date": "2020-05-26",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-05-27T00:00:00+09:00",
+      "date": "2020-05-27",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-05-28T00:00:00+09:00",
+      "date": "2020-05-28",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-05-29T00:00:00+09:00",
+      "date": "2020-05-29",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-05-30T00:00:00+09:00",
+      "date": "2020-05-30",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-05-31T00:00:00+09:00",
+      "date": "2020-05-31",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-06-01T00:00:00+09:00",
+      "date": "2020-06-01",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-06-02T00:00:00+09:00",
+      "date": "2020-06-02",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-06-03T00:00:00+09:00",
+      "date": "2020-06-03",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-06-04T00:00:00+09:00",
+      "date": "2020-06-04",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-06-05T00:00:00+09:00",
+      "date": "2020-06-05",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-06-06T00:00:00+09:00",
+      "date": "2020-06-06",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-06-07T00:00:00+09:00",
+      "date": "2020-06-07",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-06-08T00:00:00+09:00",
+      "date": "2020-06-08",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-06-09T00:00:00+09:00",
+      "date": "2020-06-09",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-06-10T00:00:00+09:00",
+      "date": "2020-06-10",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-06-11T00:00:00+09:00",
+      "date": "2020-06-11",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-06-12T00:00:00+09:00",
+      "date": "2020-06-12",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-06-13T00:00:00+09:00",
+      "date": "2020-06-13",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-06-14T00:00:00+09:00",
+      "date": "2020-06-14",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-06-15T00:00:00+09:00",
+      "date": "2020-06-15",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-06-16T00:00:00+09:00",
+      "date": "2020-06-16",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-06-17T00:00:00+09:00",
+      "date": "2020-06-17",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-06-18T00:00:00+09:00",
+      "date": "2020-06-18",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-06-19T00:00:00+09:00",
+      "date": "2020-06-19",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-06-20T00:00:00+09:00",
+      "date": "2020-06-20",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-06-21T00:00:00+09:00",
+      "date": "2020-06-21",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-06-22T00:00:00+09:00",
+      "date": "2020-06-22",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-06-23T00:00:00+09:00",
+      "date": "2020-06-23",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-06-24T00:00:00+09:00",
+      "date": "2020-06-24",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-06-25T00:00:00+09:00",
+      "date": "2020-06-25",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-06-26T00:00:00+09:00",
+      "date": "2020-06-26",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-06-27T00:00:00+09:00",
+      "date": "2020-06-27",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-06-28T00:00:00+09:00",
+      "date": "2020-06-28",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-06-29T00:00:00+09:00",
+      "date": "2020-06-29",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-06-30T00:00:00+09:00",
+      "date": "2020-06-30",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-07-01T00:00:00+09:00",
+      "date": "2020-07-01",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-07-02T00:00:00+09:00",
+      "date": "2020-07-02",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-07-03T00:00:00+09:00",
+      "date": "2020-07-03",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-07-04T00:00:00+09:00",
+      "date": "2020-07-04",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-07-05T00:00:00+09:00",
+      "date": "2020-07-05",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-07-06T00:00:00+09:00",
+      "date": "2020-07-06",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-07-07T00:00:00+09:00",
+      "date": "2020-07-07",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-07-08T00:00:00+09:00",
+      "date": "2020-07-08",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-07-09T00:00:00+09:00",
+      "date": "2020-07-09",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-07-10T00:00:00+09:00",
+      "date": "2020-07-10",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-07-11T00:00:00+09:00",
+      "date": "2020-07-11",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-07-12T00:00:00+09:00",
+      "date": "2020-07-12",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-07-13T00:00:00+09:00",
+      "date": "2020-07-13",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-07-14T00:00:00+09:00",
+      "date": "2020-07-14",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-07-15T00:00:00+09:00",
+      "date": "2020-07-15",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-07-16T00:00:00+09:00",
+      "date": "2020-07-16",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-07-17T00:00:00+09:00",
+      "date": "2020-07-17",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-07-18T00:00:00+09:00",
+      "date": "2020-07-18",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-07-19T00:00:00+09:00",
+      "date": "2020-07-19",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-07-20T00:00:00+09:00",
+      "date": "2020-07-20",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-07-21T00:00:00+09:00",
+      "date": "2020-07-21",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-07-22T00:00:00+09:00",
+      "date": "2020-07-22",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-07-23T00:00:00+09:00",
+      "date": "2020-07-23",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-07-24T00:00:00+09:00",
+      "date": "2020-07-24",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-07-25T00:00:00+09:00",
+      "date": "2020-07-25",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-07-26T00:00:00+09:00",
+      "date": "2020-07-26",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-07-27T00:00:00+09:00",
+      "date": "2020-07-27",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-07-28T00:00:00+09:00",
+      "date": "2020-07-28",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-07-29T00:00:00+09:00",
+      "date": "2020-07-29",
       "hospital": 2,
       "hotel": 0,
       "hospitalized": 2,
       "waiting": 0
     },
     {
-      "date": "2020-07-30T00:00:00+09:00",
+      "date": "2020-07-30",
       "hospital": 2,
       "hotel": 0,
       "hospitalized": 2,
       "waiting": 0
     },
     {
-      "date": "2020-07-31T00:00:00+09:00",
+      "date": "2020-07-31",
       "hospital": 4,
       "hotel": 0,
       "hospitalized": 4,
       "waiting": 0
     },
     {
-      "date": "2020-08-01T00:00:00+09:00",
+      "date": "2020-08-01",
       "hospital": 4,
       "hotel": 0,
       "hospitalized": 4,
       "waiting": 0
     },
     {
-      "date": "2020-08-02T00:00:00+09:00",
+      "date": "2020-08-02",
       "hospital": 4,
       "hotel": 0,
       "hospitalized": 4,
       "waiting": 0
     },
     {
-      "date": "2020-08-03T00:00:00+09:00",
+      "date": "2020-08-03",
       "hospital": 4,
       "hotel": 0,
       "hospitalized": 4,
       "waiting": 0
     },
     {
-      "date": "2020-08-04T00:00:00+09:00",
+      "date": "2020-08-04",
       "hospital": 3,
       "hotel": 0,
       "hospitalized": 3,
       "waiting": 0
     },
     {
-      "date": "2020-08-05T00:00:00+09:00",
+      "date": "2020-08-05",
       "hospital": 4,
       "hotel": 0,
       "hospitalized": 4,
       "waiting": 0
     },
     {
-      "date": "2020-08-06T00:00:00+09:00",
+      "date": "2020-08-06",
       "hospital": 5,
       "hotel": 0,
       "hospitalized": 5,
       "waiting": 0
     },
     {
-      "date": "2020-08-07T00:00:00+09:00",
+      "date": "2020-08-07",
       "hospital": 5,
       "hotel": 0,
       "hospitalized": 5,
       "waiting": 0
     },
     {
-      "date": "2020-08-08T00:00:00+09:00",
+      "date": "2020-08-08",
       "hospital": 6,
       "hotel": 0,
       "hospitalized": 6,
       "waiting": 0
     },
     {
-      "date": "2020-08-09T00:00:00+09:00",
+      "date": "2020-08-09",
       "hospital": 6,
       "hotel": 0,
       "hospitalized": 6,
       "waiting": 0
     },
     {
-      "date": "2020-08-10T00:00:00+09:00",
+      "date": "2020-08-10",
       "hospital": 6,
       "hotel": 0,
       "hospitalized": 6,
       "waiting": 0
     },
     {
-      "date": "2020-08-11T00:00:00+09:00",
+      "date": "2020-08-11",
       "hospital": 6,
       "hotel": 0,
       "hospitalized": 6,
       "waiting": 0
     },
     {
-      "date": "2020-08-12T00:00:00+09:00",
+      "date": "2020-08-12",
       "hospital": 6,
       "hotel": 0,
       "hospitalized": 6,
       "waiting": 0
     },
     {
-      "date": "2020-08-13T00:00:00+09:00",
+      "date": "2020-08-13",
       "hospital": 7,
       "hotel": 0,
       "hospitalized": 7,
       "waiting": 0
     },
     {
-      "date": "2020-08-14T00:00:00+09:00",
+      "date": "2020-08-14",
       "hospital": 6,
       "hotel": 0,
       "hospitalized": 6,
       "waiting": 0
     },
     {
-      "date": "2020-08-15T00:00:00+09:00",
+      "date": "2020-08-15",
       "hospital": 6,
       "hotel": 0,
       "hospitalized": 6,
       "waiting": 0
     },
     {
-      "date": "2020-08-16T00:00:00+09:00",
+      "date": "2020-08-16",
       "hospital": 5,
       "hotel": 0,
       "hospitalized": 5,
       "waiting": 0
     },
     {
-      "date": "2020-08-17T00:00:00+09:00",
+      "date": "2020-08-17",
       "hospital": 5,
       "hotel": 0,
       "hospitalized": 5,
       "waiting": 0
     },
     {
-      "date": "2020-08-18T00:00:00+09:00",
+      "date": "2020-08-18",
       "hospital": 5,
       "hotel": 0,
       "hospitalized": 5,
       "waiting": 0
     },
     {
-      "date": "2020-08-19T00:00:00+09:00",
+      "date": "2020-08-19",
       "hospital": 5,
       "hotel": 0,
       "hospitalized": 5,
       "waiting": 0
     },
     {
-      "date": "2020-08-20T00:00:00+09:00",
+      "date": "2020-08-20",
       "hospital": 6,
       "hotel": 0,
       "hospitalized": 6,
       "waiting": 0
     },
     {
-      "date": "2020-08-21T00:00:00+09:00",
+      "date": "2020-08-21",
       "hospital": 5,
       "hotel": 0,
       "hospitalized": 5,
       "waiting": 0
     },
     {
-      "date": "2020-08-22T00:00:00+09:00",
+      "date": "2020-08-22",
       "hospital": 5,
       "hotel": 0,
       "hospitalized": 5,
       "waiting": 0
     },
     {
-      "date": "2020-08-23T00:00:00+09:00",
+      "date": "2020-08-23",
       "hospital": 6,
       "hotel": 0,
       "hospitalized": 6,
       "waiting": 0
     },
     {
-      "date": "2020-08-24T00:00:00+09:00",
+      "date": "2020-08-24",
       "hospital": 6,
       "hotel": 0,
       "hospitalized": 6,
       "waiting": 0
     },
     {
-      "date": "2020-08-25T00:00:00+09:00",
+      "date": "2020-08-25",
       "hospital": 5,
       "hotel": 0,
       "hospitalized": 5,
       "waiting": 0
     },
     {
-      "date": "2020-08-26T00:00:00+09:00",
+      "date": "2020-08-26",
       "hospital": 9,
       "hotel": 0,
       "hospitalized": 9,
       "waiting": 0
     },
     {
-      "date": "2020-08-27T00:00:00+09:00",
+      "date": "2020-08-27",
       "hospital": 11,
       "hotel": 0,
       "hospitalized": 11,
       "waiting": 0
     },
     {
-      "date": "2020-08-28T00:00:00+09:00",
+      "date": "2020-08-28",
       "hospital": 11,
       "hotel": 0,
       "hospitalized": 11,
       "waiting": 0
     },
     {
-      "date": "2020-08-29T00:00:00+09:00",
+      "date": "2020-08-29",
       "hospital": 11,
       "hotel": 0,
       "hospitalized": 11,
       "waiting": 0
     },
     {
-      "date": "2020-08-30T00:00:00+09:00",
+      "date": "2020-08-30",
       "hospital": 11,
       "hotel": 0,
       "hospitalized": 11,
       "waiting": 0
     },
     {
-      "date": "2020-08-31T00:00:00+09:00",
+      "date": "2020-08-31",
       "hospital": 11,
       "hotel": 0,
       "hospitalized": 11,
       "waiting": 0
     },
     {
-      "date": "2020-09-01T00:00:00+09:00",
+      "date": "2020-09-01",
       "hospital": 10,
       "hotel": 0,
       "hospitalized": 10,
       "waiting": 0
     },
     {
-      "date": "2020-09-02T00:00:00+09:00",
+      "date": "2020-09-02",
       "hospital": 13,
       "hotel": 0,
       "hospitalized": 13,
       "waiting": 0
     },
     {
-      "date": "2020-09-03T00:00:00+09:00",
+      "date": "2020-09-03",
       "hospital": 12,
       "hotel": 0,
       "hospitalized": 12,
       "waiting": 0
     },
     {
-      "date": "2020-09-04T00:00:00+09:00",
+      "date": "2020-09-04",
       "hospital": 6,
       "hotel": 0,
       "hospitalized": 6,
       "waiting": 0
     },
     {
-      "date": "2020-09-05T00:00:00+09:00",
+      "date": "2020-09-05",
       "hospital": 6,
       "hotel": 0,
       "hospitalized": 6,
       "waiting": 0
     },
     {
-      "date": "2020-09-06T00:00:00+09:00",
+      "date": "2020-09-06",
       "hospital": 6,
       "hotel": 0,
       "hospitalized": 6,
       "waiting": 0
     },
     {
-      "date": "2020-09-07T00:00:00+09:00",
+      "date": "2020-09-07",
       "hospital": 6,
       "hotel": 0,
       "hospitalized": 6,
       "waiting": 0
     },
     {
-      "date": "2020-09-08T00:00:00+09:00",
+      "date": "2020-09-08",
       "hospital": 5,
       "hotel": 0,
       "hospitalized": 5,
       "waiting": 0
     },
     {
-      "date": "2020-09-09T00:00:00+09:00",
+      "date": "2020-09-09",
       "hospital": 4,
       "hotel": 0,
       "hospitalized": 4,
       "waiting": 0
     },
     {
-      "date": "2020-09-10T00:00:00+09:00",
+      "date": "2020-09-10",
       "hospital": 4,
       "hotel": 0,
       "hospitalized": 4,
       "waiting": 0
     },
     {
-      "date": "2020-09-11T00:00:00+09:00",
+      "date": "2020-09-11",
       "hospital": 2,
       "hotel": 0,
       "hospitalized": 2,
       "waiting": 0
     },
     {
-      "date": "2020-09-12T00:00:00+09:00",
+      "date": "2020-09-12",
       "hospital": 2,
       "hotel": 0,
       "hospitalized": 2,
       "waiting": 0
     },
     {
-      "date": "2020-09-13T00:00:00+09:00",
+      "date": "2020-09-13",
       "hospital": 2,
       "hotel": 0,
       "hospitalized": 2,
       "waiting": 0
     },
     {
-      "date": "2020-09-14T00:00:00+09:00",
+      "date": "2020-09-14",
       "hospital": 1,
       "hotel": 0,
       "hospitalized": 1,
       "waiting": 0
     },
     {
-      "date": "2020-09-15T00:00:00+09:00",
+      "date": "2020-09-15",
       "hospital": 1,
       "hotel": 0,
       "hospitalized": 1,
       "waiting": 0
     },
     {
-      "date": "2020-09-16T00:00:00+09:00",
+      "date": "2020-09-16",
       "hospital": 1,
       "hotel": 0,
       "hospitalized": 1,
       "waiting": 0
     },
     {
-      "date": "2020-09-17T00:00:00+09:00",
+      "date": "2020-09-17",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-09-18T00:00:00+09:00",
+      "date": "2020-09-18",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-09-19T00:00:00+09:00",
+      "date": "2020-09-19",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-09-20T00:00:00+09:00",
+      "date": "2020-09-20",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-09-21T00:00:00+09:00",
+      "date": "2020-09-21",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-09-22T00:00:00+09:00",
+      "date": "2020-09-22",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-09-23T00:00:00+09:00",
+      "date": "2020-09-23",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-09-24T00:00:00+09:00",
+      "date": "2020-09-24",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-09-25T00:00:00+09:00",
+      "date": "2020-09-25",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-09-26T00:00:00+09:00",
+      "date": "2020-09-26",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-09-27T00:00:00+09:00",
+      "date": "2020-09-27",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-09-28T00:00:00+09:00",
+      "date": "2020-09-28",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-09-29T00:00:00+09:00",
+      "date": "2020-09-29",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-09-30T00:00:00+09:00",
+      "date": "2020-09-30",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-10-01T00:00:00+09:00",
+      "date": "2020-10-01",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-10-02T00:00:00+09:00",
+      "date": "2020-10-02",
       "hospital": 0,
       "hotel": 0,
       "hospitalized": 0,
       "waiting": 0
     },
     {
-      "date": "2020-10-03T00:00:00+09:00",
+      "date": "2020-10-03",
       "hospital": 1,
       "hotel": 0,
       "hospitalized": 1,
       "waiting": 0
     },
     {
-      "date": "2020-10-04T00:00:00+09:00",
+      "date": "2020-10-04",
       "hospital": 1,
       "hotel": 0,
       "hospitalized": 1,
       "waiting": 0
     },
     {
-      "date": "2020-10-05T00:00:00+09:00",
+      "date": "2020-10-05",
       "hospital": 1,
       "hotel": 0,
       "hospitalized": 1,
       "waiting": 0
     },
     {
-      "date": "2020-10-06T00:00:00+09:00",
+      "date": "2020-10-06",
       "hospital": 1,
       "hotel": 0,
       "hospitalized": 1,
       "waiting": 0
     },
     {
-      "date": "2020-10-07T00:00:00+09:00",
+      "date": "2020-10-07",
       "hospital": 1,
       "hotel": 0,
       "hospitalized": 1,
       "waiting": 0
     },
     {
-      "date": "2020-10-08T00:00:00+09:00",
+      "date": "2020-10-08",
       "hospital": 1,
       "hotel": 0,
       "hospitalized": 1,
       "waiting": 0
     },
     {
-      "date": "2020-10-09T00:00:00+09:00",
+      "date": "2020-10-09",
       "hospital": 1,
       "hotel": 0,
       "hospitalized": 1,
       "waiting": 0
     },
     {
-      "date": "2020-10-10T00:00:00+09:00",
+      "date": "2020-10-10",
       "hospital": 1,
       "hotel": 0,
       "hospitalized": 1,
       "waiting": 0
     },
     {
-      "date": "2020-10-11T00:00:00+09:00",
+      "date": "2020-10-11",
       "hospital": 1,
       "hotel": 0,
       "hospitalized": 1,
       "waiting": 0
     },
     {
-      "date": "2020-10-12T00:00:00+09:00",
+      "date": "2020-10-12",
       "hospital": 1,
       "hotel": 0,
       "hospitalized": 1,
       "waiting": 0
     },
     {
-      "date": "2020-10-13T00:00:00+09:00",
+      "date": "2020-10-13",
       "hospital": 1,
       "hotel": 0,
       "hospitalized": 1,
       "waiting": 0
     },
     {
-      "date": "2020-10-14T00:00:00+09:00",
+      "date": "2020-10-14",
       "hospital": 2,
       "hotel": 0,
       "hospitalized": 2,
       "waiting": 0
     },
     {
-      "date": "2020-10-15T00:00:00+09:00",
+      "date": "2020-10-15",
       "hospital": 2,
       "hotel": 0,
       "hospitalized": 2,
       "waiting": 0
     },
     {
-      "date": "2020-10-16T00:00:00+09:00",
+      "date": "2020-10-16",
       "hospital": 3,
       "hotel": 0,
       "hospitalized": 3,
       "waiting": 0
     },
     {
-      "date": "2020-10-17T00:00:00+09:00",
+      "date": "2020-10-17",
       "hospital": 3,
       "hotel": 0,
       "hospitalized": 3,
       "waiting": 0
     },
     {
-      "date": "2020-10-18T00:00:00+09:00",
+      "date": "2020-10-18",
       "hospital": 3,
       "hotel": 0,
       "hospitalized": 3,
       "waiting": 0
     },
     {
-      "date": "2020-10-19T00:00:00+09:00",
+      "date": "2020-10-19",
       "hospital": 3,
       "hotel": 0,
       "hospitalized": 3,
       "waiting": 0
     },
     {
-      "date": "2020-10-20T00:00:00+09:00",
+      "date": "2020-10-20",
       "hospital": 3,
       "hotel": 0,
       "hospitalized": 3,
       "waiting": 0
     },
     {
-      "date": "2020-10-21T00:00:00+09:00",
+      "date": "2020-10-21",
       "hospital": 3,
       "hotel": 0,
       "hospitalized": 3,
       "waiting": 0
     },
     {
-      "date": "2020-10-22T00:00:00+09:00",
+      "date": "2020-10-22",
       "hospital": 3,
       "hotel": 0,
       "hospitalized": 3,
       "waiting": 0
     },
     {
-      "date": "2020-10-23T00:00:00+09:00",
+      "date": "2020-10-23",
       "hospital": 4,
       "hotel": 0,
       "hospitalized": 4,
       "waiting": 0
     },
     {
-      "date": "2020-10-24T00:00:00+09:00",
+      "date": "2020-10-24",
       "hospital": 4,
       "hotel": 0,
       "hospitalized": 4,
       "waiting": 0
     },
     {
-      "date": "2020-10-25T00:00:00+09:00",
+      "date": "2020-10-25",
       "hospital": 4,
       "hotel": 0,
       "hospitalized": 4,
       "waiting": 0
     },
     {
-      "date": "2020-10-26T00:00:00+09:00",
+      "date": "2020-10-26",
       "hospital": 4,
       "hotel": 0,
       "hospitalized": 4,
       "waiting": 0
     },
     {
-      "date": "2020-10-27T00:00:00+09:00",
+      "date": "2020-10-27",
       "hospital": 4,
       "hotel": 0,
       "hospitalized": 4,
       "waiting": 0
     },
     {
-      "date": "2020-10-28T00:00:00+09:00",
+      "date": "2020-10-28",
       "hospital": 4,
       "hotel": 0,
       "hospitalized": 4,
       "waiting": 0
     },
     {
-      "date": "2020-10-29T00:00:00+09:00",
+      "date": "2020-10-29",
       "hospital": 2,
       "hotel": 0,
       "hospitalized": 2,
       "waiting": 0
     },
     {
-      "date": "2020-10-30T00:00:00+09:00",
+      "date": "2020-10-30",
       "hospital": 2,
       "hotel": 0,
       "hospitalized": 2,
       "waiting": 0
     },
     {
-      "date": "2020-10-31T00:00:00+09:00",
+      "date": "2020-10-31",
       "hospital": 2,
       "hotel": 0,
       "hospitalized": 2,
       "waiting": 0
     },
     {
-      "date": "2020-11-01T00:00:00+09:00",
+      "date": "2020-11-01",
       "hospital": 2,
       "hotel": 0,
       "hospitalized": 2,
       "waiting": 0
     },
     {
-      "date": "2020-11-02T00:00:00+09:00",
+      "date": "2020-11-02",
       "hospital": 2,
       "hotel": 0,
       "hospitalized": 2,
       "waiting": 0
     },
     {
-      "date": "2020-11-03T00:00:00+09:00",
+      "date": "2020-11-03",
       "hospital": 3,
       "hotel": 0,
       "hospitalized": 3,
       "waiting": 0
     },
     {
-      "date": "2020-11-04T00:00:00+09:00",
+      "date": "2020-11-04",
       "hospital": 4,
       "hotel": 0,
       "hospitalized": 4,
       "waiting": 0
     },
     {
-      "date": "2020-11-05T00:00:00+09:00",
+      "date": "2020-11-05",
       "hospital": 4,
       "hotel": 0,
       "hospitalized": 4,
       "waiting": 0
     },
     {
-      "date": "2020-11-06T00:00:00+09:00",
+      "date": "2020-11-06",
       "hospital": 4,
       "hotel": 0,
       "hospitalized": 4,
       "waiting": 0
     },
     {
-      "date": "2020-11-07T00:00:00+09:00",
+      "date": "2020-11-07",
       "hospital": 4,
       "hotel": 0,
       "hospitalized": 4,
       "waiting": 0
     },
     {
-      "date": "2020-11-08T00:00:00+09:00",
+      "date": "2020-11-08",
       "hospital": 4,
       "hotel": 0,
       "hospitalized": 4,
       "waiting": 0
     },
     {
-      "date": "2020-11-09T00:00:00+09:00",
+      "date": "2020-11-09",
       "hospital": 4,
       "hotel": 0,
       "hospitalized": 4,
       "waiting": 1
     },
     {
-      "date": "2020-11-10T00:00:00+09:00",
+      "date": "2020-11-10",
       "hospital": 5,
       "hotel": 0,
       "hospitalized": 5,
       "waiting": 2
     },
     {
-      "date": "2020-11-11T00:00:00+09:00",
+      "date": "2020-11-11",
       "hospital": 6,
       "hotel": 0,
       "hospitalized": 6,
       "waiting": 10
     },
     {
-      "date": "2020-11-12T00:00:00+09:00",
+      "date": "2020-11-12",
       "hospital": 14,
       "hotel": 0,
       "hospitalized": 14,
       "waiting": 9
     },
     {
-      "date": "2020-11-13T00:00:00+09:00",
+      "date": "2020-11-13",
       "hospital": 28,
       "hotel": 0,
       "hospitalized": 28,
       "waiting": 8
     },
     {
-      "date": "2020-11-14T00:00:00+09:00",
+      "date": "2020-11-14",
       "hospital": 36,
       "hotel": 0,
       "hospitalized": 36,
       "waiting": 4
     },
     {
-      "date": "2020-11-15T00:00:00+09:00",
+      "date": "2020-11-15",
       "hospital": 30,
       "hotel": 13,
       "hospitalized": 43,
       "waiting": 3
     },
     {
-      "date": "2020-11-16T00:00:00+09:00",
+      "date": "2020-11-16",
       "hospital": 29,
       "hotel": 17,
       "hospitalized": 46,
       "waiting": 2
     },
     {
-      "date": "2020-11-17T00:00:00+09:00",
+      "date": "2020-11-17",
       "hospital": 31,
       "hotel": 22,
       "hospitalized": 53,
       "waiting": 4
     },
     {
-      "date": "2020-11-18T00:00:00+09:00",
+      "date": "2020-11-18",
       "hospital": 37,
       "hotel": 22,
       "hospitalized": 59,
       "waiting": 1
     },
     {
-      "date": "2020-11-19T00:00:00+09:00",
+      "date": "2020-11-19",
       "hospital": 38,
       "hotel": 22,
       "hospitalized": 60,
       "waiting": 8
     },
     {
-      "date": "2020-11-20T00:00:00+09:00",
+      "date": "2020-11-20",
       "hospital": 46,
       "hotel": 22,
       "hospitalized": 68,
       "waiting": 14
     },
     {
-      "date": "2020-11-21T00:00:00+09:00",
+      "date": "2020-11-21",
       "hospital": 55,
       "hotel": 27,
       "hospitalized": 82,
       "waiting": 11
     },
     {
-      "date": "2020-11-22T00:00:00+09:00",
+      "date": "2020-11-22",
       "hospital": 67,
       "hotel": 27,
       "hospitalized": 94,
       "waiting": 2
     },
     {
-      "date": "2020-11-23T00:00:00+09:00",
+      "date": "2020-11-23",
       "hospital": 70,
       "hotel": 19,
       "hospitalized": 89,
       "waiting": 1
     },
     {
-      "date": "2020-11-24T00:00:00+09:00",
+      "date": "2020-11-24",
       "hospital": 80,
       "hotel": 15,
       "hospitalized": 95,
       "waiting": 5
     },
     {
-      "date": "2020-11-25T00:00:00+09:00",
+      "date": "2020-11-25",
       "hospital": 79,
       "hotel": 16,
       "hospitalized": 95,
       "waiting": 2
     },
     {
-      "date": "2020-11-26T00:00:00+09:00",
+      "date": "2020-11-26",
       "hospital": 82,
       "hotel": 13,
       "hospitalized": 95,
       "waiting": 3
     },
     {
-      "date": "2020-11-27T00:00:00+09:00",
+      "date": "2020-11-27",
       "hospital": 74,
       "hotel": 16,
       "hospitalized": 90,
       "waiting": 3
     },
     {
-      "date": "2020-11-28T00:00:00+09:00",
+      "date": "2020-11-28",
       "hospital": 70,
       "hotel": 21,
       "hospitalized": 91,
       "waiting": 2
     },
     {
-      "date": "2020-11-29T00:00:00+09:00",
+      "date": "2020-11-29",
       "hospital": 69,
       "hotel": 22,
       "hospitalized": 91,
       "waiting": 4
     },
     {
-      "date": "2020-11-30T00:00:00+09:00",
+      "date": "2020-11-30",
       "hospital": 70,
       "hotel": 19,
       "hospitalized": 89,
       "waiting": 4
     },
     {
-      "date": "2020-12-01T00:00:00+09:00",
+      "date": "2020-12-01",
       "hospital": 71,
       "hotel": 14,
       "hospitalized": 85,
       "waiting": 4
     },
     {
-      "date": "2020-12-02T00:00:00+09:00",
+      "date": "2020-12-02",
       "hospital": 68,
       "hotel": 9,
       "hospitalized": 77,
       "waiting": 3
     },
     {
-      "date": "2020-12-03T00:00:00+09:00",
+      "date": "2020-12-03",
       "hospital": 66,
       "hotel": 8,
       "hospitalized": 74,
       "waiting": 3
     },
     {
-      "date": "2020-12-04T00:00:00+09:00",
+      "date": "2020-12-04",
       "hospital": 58,
       "hotel": 7,
       "hospitalized": 65,
       "waiting": 3
     },
     {
-      "date": "2020-12-05T00:00:00+09:00",
+      "date": "2020-12-05",
       "hospital": 58,
       "hotel": 5,
       "hospitalized": 63,
       "waiting": 3
     },
     {
-      "date": "2020-12-06T00:00:00+09:00",
+      "date": "2020-12-06",
       "hospital": 54,
       "hotel": 5,
       "hospitalized": 59,
       "waiting": 2
     },
     {
-      "date": "2020-12-07T00:00:00+09:00",
+      "date": "2020-12-07",
       "hospital": 51,
       "hotel": 2,
       "hospitalized": 53,
       "waiting": 2
     },
     {
-      "date": "2020-12-08T00:00:00+09:00",
+      "date": "2020-12-08",
       "hospital": 53,
       "hotel": 2,
       "hospitalized": 55,
       "waiting": 2
     },
     {
-      "date": "2020-12-09T00:00:00+09:00",
+      "date": "2020-12-09",
       "hospital": 53,
       "hotel": 2,
       "hospitalized": 55,
       "waiting": 2
     },
     {
-      "date": "2020-12-10T00:00:00+09:00",
+      "date": "2020-12-10",
       "hospital": 53,
       "hotel": 1,
       "hospitalized": 54,
       "waiting": 0
     },
     {
-      "date": "2020-12-11T00:00:00+09:00",
+      "date": "2020-12-11",
       "hospital": 57,
       "hotel": 0,
       "hospitalized": 57,
       "waiting": 14
     },
     {
-      "date": "2020-12-12T00:00:00+09:00",
+      "date": "2020-12-12",
       "hospital": 98,
       "hotel": 11,
       "hospitalized": 109,
       "waiting": 3
     },
     {
-      "date": "2020-12-13T00:00:00+09:00",
+      "date": "2020-12-13",
       "hospital": 93,
       "hotel": 17,
       "hospitalized": 110,
       "waiting": 3
     },
     {
-      "date": "2020-12-14T00:00:00+09:00",
+      "date": "2020-12-14",
       "hospital": 95,
       "hotel": 19,
       "hospitalized": 114,
       "waiting": 0
     },
     {
-      "date": "2020-12-15T00:00:00+09:00",
+      "date": "2020-12-15",
       "hospital": 91,
       "hotel": 19,
       "hospitalized": 110,
       "waiting": 8
     },
     {
-      "date": "2020-12-16T00:00:00+09:00",
+      "date": "2020-12-16",
       "hospital": 87,
       "hotel": 29,
       "hospitalized": 116,
       "waiting": 0
     },
     {
-      "date": "2020-12-17T00:00:00+09:00",
+      "date": "2020-12-17",
       "hospital": 95,
       "hotel": 29,
       "hospitalized": 124,
       "waiting": 0
     },
     {
-      "date": "2020-12-18T00:00:00+09:00",
+      "date": "2020-12-18",
       "hospital": 88,
       "hotel": 29,
       "hospitalized": 117,
       "waiting": 0
     },
     {
-      "date": "2020-12-19T00:00:00+09:00",
+      "date": "2020-12-19",
       "hospital": 85,
       "hotel": 28,
       "hospitalized": 113,
       "waiting": 0
     },
     {
-      "date": "2020-12-20T00:00:00+09:00",
+      "date": "2020-12-20",
       "hospital": 83,
       "hotel": 29,
       "hospitalized": 112,
       "waiting": 1
     },
     {
-      "date": "2020-12-21T00:00:00+09:00",
+      "date": "2020-12-21",
       "hospital": 84,
       "hotel": 23,
       "hospitalized": 107,
       "waiting": 0
     },
     {
-      "date": "2020-12-22T00:00:00+09:00",
+      "date": "2020-12-22",
       "hospital": 86,
       "hotel": 22,
       "hospitalized": 108,
       "waiting": 0
     },
     {
-      "date": "2020-12-23T00:00:00+09:00",
+      "date": "2020-12-23",
       "hospital": 85,
       "hotel": 16,
       "hospitalized": 101,
       "waiting": 0
     },
     {
-      "date": "2020-12-24T00:00:00+09:00",
+      "date": "2020-12-24",
       "hospital": 77,
       "hotel": 11,
       "hospitalized": 88,
       "waiting": 0
     },
     {
-      "date": "2020-12-25T00:00:00+09:00",
+      "date": "2020-12-25",
       "hospital": 59,
       "hotel": 11,
       "hospitalized": 70,
       "waiting": 0
     },
     {
-      "date": "2020-12-26T00:00:00+09:00",
+      "date": "2020-12-26",
       "hospital": 59,
       "hotel": 4,
       "hospitalized": 63,
       "waiting": 0
     },
     {
-      "date": "2020-12-27T00:00:00+09:00",
+      "date": "2020-12-27",
       "hospital": 62,
       "hotel": 3,
       "hospitalized": 65,
       "waiting": 0
     },
     {
-      "date": "2020-12-28T00:00:00+09:00",
+      "date": "2020-12-28",
       "hospital": 65,
       "hotel": 5,
       "hospitalized": 70,
       "waiting": 0
     },
     {
-      "date": "2020-12-29T00:00:00+09:00",
+      "date": "2020-12-29",
       "hospital": 61,
       "hotel": 7,
       "hospitalized": 68,
       "waiting": 0
     },
     {
-      "date": "2020-12-30T00:00:00+09:00",
+      "date": "2020-12-30",
       "hospital": 56,
       "hotel": 12,
       "hospitalized": 68,
       "waiting": 0
     },
     {
-      "date": "2020-12-31T00:00:00+09:00",
+      "date": "2020-12-31",
       "hospital": 52,
       "hotel": 12,
       "hospitalized": 64,
       "waiting": 0
     },
     {
-      "date": "2021-01-01T00:00:00+09:00",
+      "date": "2021-01-01",
       "hospital": 52,
       "hotel": 11,
       "hospitalized": 63,
       "waiting": 0
     },
     {
-      "date": "2021-01-02T00:00:00+09:00",
+      "date": "2021-01-02",
       "hospital": 53,
       "hotel": 9,
       "hospitalized": 62,
       "waiting": 0
     },
     {
-      "date": "2021-01-03T00:00:00+09:00",
+      "date": "2021-01-03",
       "hospital": 56,
       "hotel": 7,
       "hospitalized": 63,
       "waiting": 0
     },
     {
-      "date": "2021-01-04T00:00:00+09:00",
+      "date": "2021-01-04",
       "hospital": 51,
       "hotel": 5,
       "hospitalized": 56,
       "waiting": 0
     },
     {
-      "date": "2021-01-05T00:00:00+09:00",
+      "date": "2021-01-05",
       "hospital": 53,
       "hotel": 2,
       "hospitalized": 55,
       "waiting": 0
     },
     {
-      "date": "2021-01-06T00:00:00+09:00",
+      "date": "2021-01-06",
       "hospital": 48,
       "hotel": 2,
       "hospitalized": 50,
       "waiting": 0
     },
     {
-      "date": "2021-01-07T00:00:00+09:00",
+      "date": "2021-01-07",
       "hospital": 47,
       "hotel": 3,
       "hospitalized": 50,
       "waiting": 0
     },
     {
-      "date": "2021-01-08T00:00:00+09:00",
+      "date": "2021-01-08",
       "hospital": 46,
       "hotel": 1,
       "hospitalized": 47,
       "waiting": 0
     },
     {
-      "date": "2021-01-09T00:00:00+09:00",
+      "date": "2021-01-09",
       "hospital": 49,
       "hotel": 0,
       "hospitalized": 49,
       "waiting": 3
     },
     {
-      "date": "2021-01-10T00:00:00+09:00",
+      "date": "2021-01-10",
       "hospital": 58,
       "hotel": 4,
       "hospitalized": 62,
       "waiting": 0
     },
     {
-      "date": "2021-01-11T00:00:00+09:00",
+      "date": "2021-01-11",
       "hospital": 59,
       "hotel": 4,
       "hospitalized": 63,
       "waiting": 2
     },
     {
-      "date": "2021-01-12T00:00:00+09:00",
+      "date": "2021-01-12",
       "hospital": 60,
       "hotel": 5,
       "hospitalized": 65,
       "waiting": 0
     },
     {
-      "date": "2021-01-13T00:00:00+09:00",
+      "date": "2021-01-13",
       "hospital": 64,
       "hotel": 5,
       "hospitalized": 69,
       "waiting": 1
     },
     {
-      "date": "2021-01-14T00:00:00+09:00",
+      "date": "2021-01-14",
       "hospital": 57,
       "hotel": 10,
       "hospitalized": 67,
       "waiting": 1
     },
     {
-      "date": "2021-01-15T00:00:00+09:00",
+      "date": "2021-01-15",
       "hospital": 56,
       "hotel": 11,
       "hospitalized": 67,
       "waiting": 0
     },
     {
-      "date": "2021-01-16T00:00:00+09:00",
+      "date": "2021-01-16",
       "hospital": 57,
       "hotel": 10,
       "hospitalized": 67,
       "waiting": 0
     },
     {
-      "date": "2021-01-17T00:00:00+09:00",
+      "date": "2021-01-17",
       "hospital": 63,
       "hotel": 9,
       "hospitalized": 72,
       "waiting": 0
     },
     {
-      "date": "2021-01-18T00:00:00+09:00",
+      "date": "2021-01-18",
       "hospital": 64,
       "hotel": 3,
       "hospitalized": 67,
       "waiting": 0
     },
     {
-      "date": "2021-01-19T00:00:00+09:00",
+      "date": "2021-01-19",
       "hospital": 63,
       "hotel": 1,
       "hospitalized": 64,
       "waiting": 0
     },
     {
-      "date": "2021-01-20T00:00:00+09:00",
+      "date": "2021-01-20",
       "hospital": 66,
       "hotel": 1,
       "hospitalized": 67,
       "waiting": 0
     },
     {
-      "date": "2021-01-21T00:00:00+09:00",
+      "date": "2021-01-21",
       "hospital": 52,
       "hotel": 8,
       "hospitalized": 60,
       "waiting": 0
     },
     {
-      "date": "2021-01-22T00:00:00+09:00",
+      "date": "2021-01-22",
       "hospital": 52,
       "hotel": 7,
       "hospitalized": 59,
       "waiting": 0
     },
     {
-      "date": "2021-01-23T00:00:00+09:00",
+      "date": "2021-01-23",
       "hospital": 42,
       "hotel": 10,
       "hospitalized": 52,
       "waiting": 0
     },
     {
-      "date": "2021-01-24T00:00:00+09:00",
+      "date": "2021-01-24",
       "hospital": 40,
       "hotel": 7,
       "hospitalized": 47,
       "waiting": 0
     },
     {
-      "date": "2021-01-25T00:00:00+09:00",
+      "date": "2021-01-25",
       "hospital": 33,
       "hotel": 3,
       "hospitalized": 36,
       "waiting": 0
     },
     {
-      "date": "2021-01-26T00:00:00+09:00",
+      "date": "2021-01-26",
       "hospital": 29,
       "hotel": 2,
       "hospitalized": 31,
       "waiting": 0
     },
     {
-      "date": "2021-01-27T00:00:00+09:00",
+      "date": "2021-01-27",
       "hospital": 28,
       "hotel": 5,
       "hospitalized": 33,
       "waiting": 0
     },
     {
-      "date": "2021-01-28T00:00:00+09:00",
+      "date": "2021-01-28",
       "hospital": 25,
       "hotel": 4,
       "hospitalized": 29,
       "waiting": 0
     },
     {
-      "date": "2021-01-29T00:00:00+09:00",
+      "date": "2021-01-29",
       "hospital": 21,
       "hotel": 2,
       "hospitalized": 23,
       "waiting": 0
     },
     {
-      "date": "2021-01-30T00:00:00+09:00",
+      "date": "2021-01-30",
       "hospital": 19,
       "hotel": 2,
       "hospitalized": 21,
       "waiting": 0
     },
     {
-      "date": "2021-01-31T00:00:00+09:00",
+      "date": "2021-01-31",
       "hospital": 17,
       "hotel": 3,
       "hospitalized": 20,
       "waiting": 0
     },
     {
-      "date": "2021-02-01T00:00:00+09:00",
+      "date": "2021-02-01",
       "hospital": 15,
       "hotel": 3,
       "hospitalized": 18,
       "waiting": 0
     },
     {
-      "date": "2021-02-02T00:00:00+09:00",
+      "date": "2021-02-02",
       "hospital": 17,
       "hotel": 2,
       "hospitalized": 19,
       "waiting": 0
     },
     {
-      "date": "2021-02-03T00:00:00+09:00",
+      "date": "2021-02-03",
       "hospital": 21,
       "hotel": 1,
       "hospitalized": 22,
       "waiting": 0
     },
     {
-      "date": "2021-02-04T00:00:00+09:00",
+      "date": "2021-02-04",
       "hospital": 23,
       "hotel": 1,
       "hospitalized": 24,
       "waiting": 0
     },
     {
-      "date": "2021-02-05T00:00:00+09:00",
+      "date": "2021-02-05",
       "hospital": 24,
       "hotel": 1,
       "hospitalized": 25,
       "waiting": 0
     },
     {
-      "date": "2021-02-06T00:00:00+09:00",
+      "date": "2021-02-06",
       "hospital": 24,
       "hotel": 2,
       "hospitalized": 26,
       "waiting": 0
     },
     {
-      "date": "2021-02-07T00:00:00+09:00",
+      "date": "2021-02-07",
       "hospital": 20,
       "hotel": 2,
       "hospitalized": 22,
       "waiting": 0
     },
     {
-      "date": "2021-02-08T00:00:00+09:00",
+      "date": "2021-02-08",
       "hospital": 20,
       "hotel": 1,
       "hospitalized": 21,
       "waiting": 0
     },
     {
-      "date": "2021-02-09T00:00:00+09:00",
+      "date": "2021-02-09",
       "hospital": 19,
       "hotel": 3,
       "hospitalized": 22,
       "waiting": 0
     },
     {
-      "date": "2021-02-10T00:00:00+09:00",
+      "date": "2021-02-10",
       "hospital": 19,
       "hotel": 2,
       "hospitalized": 21,
       "waiting": 0
     },
     {
-      "date": "2021-02-11T00:00:00+09:00",
+      "date": "2021-02-11",
       "hospital": 19,
       "hotel": 3,
       "hospitalized": 22,
       "waiting": 0
     },
     {
-      "date": "2021-02-12T00:00:00+09:00",
+      "date": "2021-02-12",
       "hospital": 16,
       "hotel": 3,
       "hospitalized": 19,
       "waiting": 0
     },
     {
-      "date": "2021-02-13T00:00:00+09:00",
+      "date": "2021-02-13",
       "hospital": 17,
       "hotel": 2,
       "hospitalized": 19,
       "waiting": 0
     },
     {
-      "date": "2021-02-14T00:00:00+09:00",
+      "date": "2021-02-14",
       "hospital": 15,
       "hotel": 1,
       "hospitalized": 16,
       "waiting": 0
     },
     {
-      "date": "2021-02-15T00:00:00+09:00",
+      "date": "2021-02-15",
       "hospital": 17,
       "hotel": 1,
       "hospitalized": 18,
       "waiting": 0
     },
     {
-      "date": "2021-02-16T00:00:00+09:00",
+      "date": "2021-02-16",
       "hospital": 19,
       "hotel": 0,
       "hospitalized": 19,
       "waiting": 0
     },
     {
-      "date": "2021-02-17T00:00:00+09:00",
+      "date": "2021-02-17",
       "hospital": 26,
       "hotel": 0,
       "hospitalized": 26,
       "waiting": 0
     },
     {
-      "date": "2021-02-18T00:00:00+09:00",
+      "date": "2021-02-18",
       "hospital": 22,
       "hotel": 6,
       "hospitalized": 28,
       "waiting": 0
     },
     {
-      "date": "2021-02-19T00:00:00+09:00",
+      "date": "2021-02-19",
       "hospital": 21,
       "hotel": 8,
       "hospitalized": 29,
       "waiting": 1
     },
     {
-      "date": "2021-02-20T00:00:00+09:00",
+      "date": "2021-02-20",
       "hospital": 20,
       "hotel": 11,
       "hospitalized": 31,
       "waiting": 0
     },
     {
-      "date": "2021-02-21T00:00:00+09:00",
+      "date": "2021-02-21",
       "hospital": 19,
       "hotel": 11,
       "hospitalized": 30,
       "waiting": 0
     },
     {
-      "date": "2021-02-22T00:00:00+09:00",
+      "date": "2021-02-22",
       "hospital": 17,
       "hotel": 13,
       "hospitalized": 30,
       "waiting": 0
     },
     {
-      "date": "2021-02-23T00:00:00+09:00",
+      "date": "2021-02-23",
       "hospital": 14,
       "hotel": 14,
       "hospitalized": 28,
       "waiting": 0
     },
     {
-      "date": "2021-02-24T00:00:00+09:00",
+      "date": "2021-02-24",
       "hospital": 13,
       "hotel": 13,
       "hospitalized": 26,
       "waiting": 0
     },
     {
-      "date": "2021-02-25T00:00:00+09:00",
+      "date": "2021-02-25",
       "hospital": 13,
       "hotel": 13,
       "hospitalized": 26,
       "waiting": 0
     },
     {
-      "date": "2021-02-26T00:00:00+09:00",
+      "date": "2021-02-26",
       "hospital": 11,
       "hotel": 6,
       "hospitalized": 17,
       "waiting": 0
     },
     {
-      "date": "2021-02-27T00:00:00+09:00",
+      "date": "2021-02-27",
       "hospital": 11,
       "hotel": 3,
       "hospitalized": 14,
       "waiting": 0
     },
     {
-      "date": "2021-02-28T00:00:00+09:00",
+      "date": "2021-02-28",
       "hospital": 9,
       "hotel": 3,
       "hospitalized": 12,
       "waiting": 0
     },
     {
-      "date": "2021-03-01T00:00:00+09:00",
+      "date": "2021-03-01",
       "hospital": 8,
       "hotel": 0,
       "hospitalized": 8,
       "waiting": 0
     },
     {
-      "date": "2021-03-02T00:00:00+09:00",
+      "date": "2021-03-02",
       "hospital": 7,
       "hotel": 0,
       "hospitalized": 7,
       "waiting": 0
     },
     {
-      "date": "2021-03-03T00:00:00+09:00",
+      "date": "2021-03-03",
       "hospital": 2,
       "hotel": 0,
       "hospitalized": 2,
       "waiting": 0
     },
     {
-      "date": "2021-03-04T00:00:00+09:00",
+      "date": "2021-03-04",
       "hospital": 2,
       "hotel": 0,
       "hospitalized": 2,
       "waiting": 0
     },
     {
-      "date": "2021-03-05T00:00:00+09:00",
+      "date": "2021-03-05",
       "hospital": 1,
       "hotel": 0,
       "hospitalized": 1,
       "waiting": 1
     },
     {
-      "date": "2021-03-06T00:00:00+09:00",
+      "date": "2021-03-06",
       "hospital": 2,
       "hotel": 0,
       "hospitalized": 2,
       "waiting": 0
     },
     {
-      "date": "2021-03-07T00:00:00+09:00",
+      "date": "2021-03-07",
       "hospital": 2,
       "hotel": 0,
       "hospitalized": 2,
       "waiting": 0
     },
     {
-      "date": "2021-03-08T00:00:00+09:00",
+      "date": "2021-03-08",
       "hospital": 2,
       "hotel": 0,
       "hospitalized": 2,
       "waiting": 0
     },
     {
-      "date": "2021-03-09T00:00:00+09:00",
+      "date": "2021-03-09",
       "hospital": 1,
       "hotel": 0,
       "hospitalized": 1,
       "waiting": 0
     },
     {
-      "date": "2021-03-10T00:00:00+09:00",
+      "date": "2021-03-10",
       "hospital": 1,
       "hotel": 0,
       "hospitalized": 1,
       "waiting": 0
     },
     {
-      "date": "2021-03-11T00:00:00+09:00",
+      "date": "2021-03-11",
       "hospital": 3,
       "hotel": 0,
       "hospitalized": 3,
       "waiting": 0
     },
     {
-      "date": "2021-03-12T00:00:00+09:00",
+      "date": "2021-03-12",
       "hospital": 3,
       "hotel": 0,
       "hospitalized": 3,
       "waiting": 0
     },
     {
-      "date": "2021-03-13T00:00:00+09:00",
+      "date": "2021-03-13",
       "hospital": 6,
       "hotel": 0,
       "hospitalized": 6,
       "waiting": 0
     },
     {
-      "date": "2021-03-14T00:00:00+09:00",
+      "date": "2021-03-14",
       "hospital": 9,
       "hotel": 0,
       "hospitalized": 9,
       "waiting": 0
     },
     {
-      "date": "2021-03-15T00:00:00+09:00",
+      "date": "2021-03-15",
       "hospital": 10,
       "hotel": 0,
       "hospitalized": 10,
       "waiting": 0
     },
     {
-      "date": "2021-03-16T00:00:00+09:00",
+      "date": "2021-03-16",
       "hospital": 10,
       "hotel": 0,
       "hospitalized": 10,
       "waiting": 0
     },
     {
-      "date": "2021-03-17T00:00:00+09:00",
+      "date": "2021-03-17",
       "hospital": 16,
       "hotel": 0,
       "hospitalized": 16,
       "waiting": 0
     },
     {
-      "date": "2021-03-18T00:00:00+09:00",
+      "date": "2021-03-18",
       "hospital": 16,
       "hotel": 2,
       "hospitalized": 18,
       "waiting": 0
     },
     {
-      "date": "2021-03-19T00:00:00+09:00",
+      "date": "2021-03-19",
       "hospital": 21,
       "hotel": 2,
       "hospitalized": 23,
       "waiting": 2
     },
     {
-      "date": "2021-03-20T00:00:00+09:00",
+      "date": "2021-03-20",
       "hospital": 22,
       "hotel": 3,
       "hospitalized": 25,
       "waiting": 0
     },
     {
-      "date": "2021-03-21T00:00:00+09:00",
+      "date": "2021-03-21",
       "hospital": 23,
       "hotel": 3,
       "hospitalized": 26,
       "waiting": 1
     },
     {
-      "date": "2021-03-22T00:00:00+09:00",
+      "date": "2021-03-22",
       "hospital": 23,
       "hotel": 3,
       "hospitalized": 26,
       "waiting": 0
     },
     {
-      "date": "2021-03-23T00:00:00+09:00",
+      "date": "2021-03-23",
       "hospital": 23,
       "hotel": 3,
       "hospitalized": 26,
       "waiting": 1
     },
     {
-      "date": "2021-03-24T00:00:00+09:00",
+      "date": "2021-03-24",
       "hospital": 25,
       "hotel": 4,
       "hospitalized": 29,
       "waiting": 0
     },
     {
-      "date": "2021-03-25T00:00:00+09:00",
+      "date": "2021-03-25",
       "hospital": 27,
       "hotel": 4,
       "hospitalized": 31,
       "waiting": 2
     },
     {
-      "date": "2021-03-26T00:00:00+09:00",
+      "date": "2021-03-26",
       "hospital": 24,
       "hotel": 6,
       "hospitalized": 30,
       "waiting": 4
     },
     {
-      "date": "2021-03-27T00:00:00+09:00",
+      "date": "2021-03-27",
       "hospital": 25,
       "hotel": 9,
       "hospitalized": 34,
       "waiting": 2
     },
     {
-      "date": "2021-03-28T00:00:00+09:00",
+      "date": "2021-03-28",
       "hospital": 23,
       "hotel": 10,
       "hospitalized": 33,
       "waiting": 2
     },
     {
-      "date": "2021-03-29T00:00:00+09:00",
+      "date": "2021-03-29",
       "hospital": 19,
       "hotel": 11,
       "hospitalized": 30,
       "waiting": 0
     },
     {
-      "date": "2021-03-30T00:00:00+09:00",
+      "date": "2021-03-30",
       "hospital": 21,
       "hotel": 11,
       "hospitalized": 32,
       "waiting": 2
     },
     {
-      "date": "2021-03-31T00:00:00+09:00",
+      "date": "2021-03-31",
       "hospital": 22,
       "hotel": 10,
       "hospitalized": 32,
       "waiting": 6
     },
     {
-      "date": "2021-04-01T00:00:00+09:00",
+      "date": "2021-04-01",
       "hospital": 32,
       "hotel": 14,
       "hospitalized": 46,
       "waiting": 16
     },
     {
-      "date": "2021-04-02T00:00:00+09:00",
+      "date": "2021-04-02",
       "hospital": 47,
       "hotel": 20,
       "hospitalized": 67,
       "waiting": 20
     },
     {
-      "date": "2021-04-03T00:00:00+09:00",
+      "date": "2021-04-03",
       "hospital": 56,
       "hotel": 34,
       "hospitalized": 90,
       "waiting": 7
     },
     {
-      "date": "2021-04-04T00:00:00+09:00",
+      "date": "2021-04-04",
       "hospital": 70,
       "hotel": 41,
       "hospitalized": 111,
       "waiting": 2
     },
     {
-      "date": "2021-04-05T00:00:00+09:00",
+      "date": "2021-04-05",
       "hospital": 71,
       "hotel": 42,
       "hospitalized": 113,
       "waiting": 0
     },
     {
-      "date": "2021-04-06T00:00:00+09:00",
+      "date": "2021-04-06",
       "hospital": 76,
       "hotel": 43,
       "hospitalized": 119,
       "waiting": 0
     },
     {
-      "date": "2021-04-07T00:00:00+09:00",
+      "date": "2021-04-07",
       "hospital": 84,
       "hotel": 37,
       "hospitalized": 121,
       "waiting": 0
     },
     {
-      "date": "2021-04-08T00:00:00+09:00",
+      "date": "2021-04-08",
       "hospital": 86,
       "hotel": 35,
       "hospitalized": 121,
       "waiting": 2
     },
     {
-      "date": "2021-04-09T00:00:00+09:00",
+      "date": "2021-04-09",
       "hospital": 84,
       "hotel": 33,
       "hospitalized": 117,
       "waiting": 3
     },
     {
-      "date": "2021-04-10T00:00:00+09:00",
+      "date": "2021-04-10",
       "hospital": 78,
       "hotel": 35,
       "hospitalized": 113,
       "waiting": 3
     },
     {
-      "date": "2021-04-11T00:00:00+09:00",
+      "date": "2021-04-11",
       "hospital": 78,
       "hotel": 32,
       "hospitalized": 110,
       "waiting": 0
     },
     {
-      "date": "2021-04-12T00:00:00+09:00",
+      "date": "2021-04-12",
       "hospital": 69,
       "hotel": 29,
       "hospitalized": 98,
       "waiting": 0
     },
     {
-      "date": "2021-04-13T00:00:00+09:00",
+      "date": "2021-04-13",
       "hospital": 61,
       "hotel": 20,
       "hospitalized": 81,
       "waiting": 0
     },
     {
-      "date": "2021-04-14T00:00:00+09:00",
+      "date": "2021-04-14",
       "hospital": 52,
       "hotel": 17,
       "hospitalized": 69,
       "waiting": 0
     },
     {
-      "date": "2021-04-15T00:00:00+09:00",
+      "date": "2021-04-15",
       "hospital": 50,
       "hotel": 15,
       "hospitalized": 65,
       "waiting": 1
     },
     {
-      "date": "2021-04-16T00:00:00+09:00",
+      "date": "2021-04-16",
       "hospital": 49,
       "hotel": 18,
       "hospitalized": 67,
       "waiting": 0
     },
     {
-      "date": "2021-04-17T00:00:00+09:00",
+      "date": "2021-04-17",
       "hospital": 39,
       "hotel": 15,
       "hospitalized": 54,
       "waiting": 1
     },
     {
-      "date": "2021-04-18T00:00:00+09:00",
+      "date": "2021-04-18",
       "hospital": 32,
       "hotel": 15,
       "hospitalized": 47,
       "waiting": 3
     },
     {
-      "date": "2021-04-19T00:00:00+09:00",
+      "date": "2021-04-19",
       "hospital": 33,
       "hotel": 13,
       "hospitalized": 46,
       "waiting": 3
     },
     {
-      "date": "2021-04-20T00:00:00+09:00",
+      "date": "2021-04-20",
       "hospital": 30,
       "hotel": 12,
       "hospitalized": 42,
       "waiting": 1
     },
     {
-      "date": "2021-04-21T00:00:00+09:00",
+      "date": "2021-04-21",
       "hospital": 35,
       "hotel": 11,
       "hospitalized": 46,
       "waiting": 1
     },
     {
-      "date": "2021-04-22T00:00:00+09:00",
+      "date": "2021-04-22",
       "hospital": 36,
       "hotel": 5,
       "hospitalized": 41,
       "waiting": 1
     },
     {
-      "date": "2021-04-23T00:00:00+09:00",
+      "date": "2021-04-23",
       "hospital": 42,
       "hotel": 4,
       "hospitalized": 46,
       "waiting": 2
     },
     {
-      "date": "2021-04-24T00:00:00+09:00",
+      "date": "2021-04-24",
       "hospital": 56,
       "hotel": 7,
       "hospitalized": 63,
       "waiting": 7
     },
     {
-      "date": "2021-04-25T00:00:00+09:00",
+      "date": "2021-04-25",
       "hospital": 63,
       "hotel": 12,
       "hospitalized": 75,
       "waiting": 3
     },
     {
-      "date": "2021-04-26T00:00:00+09:00",
+      "date": "2021-04-26",
       "hospital": 59,
       "hotel": 13,
       "hospitalized": 72,
       "waiting": 4
     },
     {
-      "date": "2021-04-27T00:00:00+09:00",
+      "date": "2021-04-27",
       "hospital": 61,
       "hotel": 17,
       "hospitalized": 78,
       "waiting": 4
     },
     {
-      "date": "2021-04-28T00:00:00+09:00",
+      "date": "2021-04-28",
       "hospital": 62,
       "hotel": 20,
       "hospitalized": 82,
       "waiting": 3
     },
     {
-      "date": "2021-04-29T00:00:00+09:00",
+      "date": "2021-04-29",
       "hospital": 65,
       "hotel": 23,
       "hospitalized": 88,
       "waiting": 31
     },
     {
-      "date": "2021-04-30T00:00:00+09:00",
+      "date": "2021-04-30",
       "hospital": 80,
       "hotel": 32,
       "hospitalized": 112,
       "waiting": 15
     },
     {
-      "date": "2021-05-01T00:00:00+09:00",
+      "date": "2021-05-01",
       "hospital": 92,
       "hotel": 29,
       "hospitalized": 121,
       "waiting": 32
     },
     {
-      "date": "2021-05-02T00:00:00+09:00",
+      "date": "2021-05-02",
       "hospital": 106,
       "hotel": 32,
       "hospitalized": 138,
       "waiting": 20
     },
     {
-      "date": "2021-05-03T00:00:00+09:00",
+      "date": "2021-05-03",
       "hospital": 120,
       "hotel": 38,
       "hospitalized": 158,
       "waiting": 14
     },
     {
-      "date": "2021-05-04T00:00:00+09:00",
+      "date": "2021-05-04",
       "hospital": 123,
       "hotel": 41,
       "hospitalized": 164,
       "waiting": 8
     },
     {
-      "date": "2021-05-05T00:00:00+09:00",
+      "date": "2021-05-05",
       "hospital": 121,
       "hotel": 45,
       "hospitalized": 166,
       "waiting": 8
     },
     {
-      "date": "2021-05-06T00:00:00+09:00",
+      "date": "2021-05-06",
       "hospital": 124,
       "hotel": 48,
       "hospitalized": 172,
       "waiting": 25
     },
     {
-      "date": "2021-05-07T00:00:00+09:00",
+      "date": "2021-05-07",
       "hospital": 131,
       "hotel": 53,
       "hospitalized": 184,
       "waiting": 26
     },
     {
-      "date": "2021-05-08T00:00:00+09:00",
+      "date": "2021-05-08",
       "hospital": 134,
       "hotel": 54,
       "hospitalized": 188,
       "waiting": 26
     },
     {
-      "date": "2021-05-09T00:00:00+09:00",
+      "date": "2021-05-09",
       "hospital": 131,
       "hotel": 50,
       "hospitalized": 181,
       "waiting": 29
     },
     {
-      "date": "2021-05-10T00:00:00+09:00",
+      "date": "2021-05-10",
       "hospital": 129,
       "hotel": 45,
       "hospitalized": 174,
       "waiting": 24
     },
     {
-      "date": "2021-05-11T00:00:00+09:00",
+      "date": "2021-05-11",
       "hospital": 127,
       "hotel": 44,
       "hospitalized": 171,
       "waiting": 28
     },
     {
-      "date": "2021-05-12T00:00:00+09:00",
+      "date": "2021-05-12",
       "hospital": 117,
       "hotel": 45,
       "hospitalized": 162,
       "waiting": 28
     },
     {
-      "date": "2021-05-13T00:00:00+09:00",
+      "date": "2021-05-13",
       "hospital": 116,
       "hotel": 46,
       "hospitalized": 162,
       "waiting": 24
     },
     {
-      "date": "2021-05-14T00:00:00+09:00",
+      "date": "2021-05-14",
       "hospital": 113,
       "hotel": 49,
       "hospitalized": 162,
       "waiting": 29
     },
     {
-      "date": "2021-05-15T00:00:00+09:00",
+      "date": "2021-05-15",
       "hospital": 110,
       "hotel": 51,
       "hospitalized": 161,
       "waiting": 42
     },
     {
-      "date": "2021-05-16T00:00:00+09:00",
+      "date": "2021-05-16",
       "hospital": 121,
       "hotel": 50,
       "hospitalized": 171,
       "waiting": 22
     },
     {
-      "date": "2021-05-17T00:00:00+09:00",
+      "date": "2021-05-17",
       "hospital": 131,
       "hotel": 57,
       "hospitalized": 188,
       "waiting": 9
     },
     {
-      "date": "2021-05-18T00:00:00+09:00",
+      "date": "2021-05-18",
       "hospital": 134,
       "hotel": 55,
       "hospitalized": 189,
       "waiting": 12
     },
     {
-      "date": "2021-05-19T00:00:00+09:00",
+      "date": "2021-05-19",
       "hospital": 110,
       "hotel": 61,
       "hospitalized": 171,
       "waiting": 15
     },
     {
-      "date": "2021-05-20T00:00:00+09:00",
+      "date": "2021-05-20",
       "hospital": 114,
       "hotel": 64,
       "hospitalized": 178,
       "waiting": 21
     },
     {
-      "date": "2021-05-21T00:00:00+09:00",
+      "date": "2021-05-21",
       "hospital": 121,
       "hotel": 62,
       "hospitalized": 183,
       "waiting": 12
     },
     {
-      "date": "2021-05-22T00:00:00+09:00",
+      "date": "2021-05-22",
       "hospital": 121,
       "hotel": 61,
       "hospitalized": 182,
       "waiting": 13
     },
     {
-      "date": "2021-05-23T00:00:00+09:00",
+      "date": "2021-05-23",
       "hospital": 108,
       "hotel": 58,
       "hospitalized": 166,
       "waiting": 13
     },
     {
-      "date": "2021-05-24T00:00:00+09:00",
+      "date": "2021-05-24",
       "hospital": 104,
       "hotel": 51,
       "hospitalized": 155,
       "waiting": 14
     },
     {
-      "date": "2021-05-25T00:00:00+09:00",
+      "date": "2021-05-25",
       "hospital": 106,
       "hotel": 42,
       "hospitalized": 148,
       "waiting": 11
     },
     {
-      "date": "2021-05-26T00:00:00+09:00",
+      "date": "2021-05-26",
       "hospital": 100,
       "hotel": 42,
       "hospitalized": 142,
       "waiting": 10
     },
     {
-      "date": "2021-05-27T00:00:00+09:00",
+      "date": "2021-05-27",
       "hospital": 91,
       "hotel": 36,
       "hospitalized": 127,
       "waiting": 10
     },
     {
-      "date": "2021-05-28T00:00:00+09:00",
+      "date": "2021-05-28",
       "hospital": 86,
       "hotel": 38,
       "hospitalized": 124,
       "waiting": 6
     },
     {
-      "date": "2021-05-29T00:00:00+09:00",
+      "date": "2021-05-29",
       "hospital": 94,
       "hotel": 39,
       "hospitalized": 133,
       "waiting": 8
     },
     {
-      "date": "2021-05-30T00:00:00+09:00",
+      "date": "2021-05-30",
       "hospital": 91,
       "hotel": 45,
       "hospitalized": 136,
       "waiting": 7
     },
     {
-      "date": "2021-05-31T00:00:00+09:00",
+      "date": "2021-05-31",
       "hospital": 82,
       "hotel": 39,
       "hospitalized": 121,
       "waiting": 5
     },
     {
-      "date": "2021-06-01T00:00:00+09:00",
+      "date": "2021-06-01",
       "hospital": 79,
       "hotel": 37,
       "hospitalized": 116,
       "waiting": 3
     },
     {
-      "date": "2021-06-02T00:00:00+09:00",
+      "date": "2021-06-02",
       "hospital": 76,
       "hotel": 35,
       "hospitalized": 111,
       "waiting": 12
     },
     {
-      "date": "2021-06-03T00:00:00+09:00",
+      "date": "2021-06-03",
       "hospital": 71,
       "hotel": 36,
       "hospitalized": 107,
       "waiting": 3
     },
     {
-      "date": "2021-06-04T00:00:00+09:00",
+      "date": "2021-06-04",
       "hospital": 67,
       "hotel": 31,
       "hospitalized": 98,
       "waiting": 8
     },
     {
-      "date": "2021-06-05T00:00:00+09:00",
+      "date": "2021-06-05",
       "hospital": 65,
       "hotel": 31,
       "hospitalized": 96,
       "waiting": 5
     },
     {
-      "date": "2021-06-06T00:00:00+09:00",
+      "date": "2021-06-06",
       "hospital": 64,
       "hotel": 30,
       "hospitalized": 94,
       "waiting": 6
     },
     {
-      "date": "2021-06-07T00:00:00+09:00",
+      "date": "2021-06-07",
       "hospital": 62,
       "hotel": 27,
       "hospitalized": 89,
       "waiting": 6
     },
     {
-      "date": "2021-06-08T00:00:00+09:00",
+      "date": "2021-06-08",
       "hospital": 60,
       "hotel": 28,
       "hospitalized": 88,
       "waiting": 2
     },
     {
-      "date": "2021-06-09T00:00:00+09:00",
+      "date": "2021-06-09",
       "hospital": 59,
       "hotel": 26,
       "hospitalized": 85,
       "waiting": 8
     },
     {
-      "date": "2021-06-10T00:00:00+09:00",
+      "date": "2021-06-10",
       "hospital": 60,
       "hotel": 30,
       "hospitalized": 90,
       "waiting": 8
     },
     {
-      "date": "2021-06-11T00:00:00+09:00",
+      "date": "2021-06-11",
       "hospital": 66,
       "hotel": 36,
       "hospitalized": 102,
       "waiting": 8
     },
     {
-      "date": "2021-06-12T00:00:00+09:00",
+      "date": "2021-06-12",
       "hospital": 70,
       "hotel": 41,
       "hospitalized": 111,
       "waiting": 9
     },
     {
-      "date": "2021-06-13T00:00:00+09:00",
+      "date": "2021-06-13",
       "hospital": 68,
       "hotel": 45,
       "hospitalized": 113,
       "waiting": 8
     },
     {
-      "date": "2021-06-14T00:00:00+09:00",
+      "date": "2021-06-14",
       "hospital": 70,
       "hotel": 47,
       "hospitalized": 117,
       "waiting": 5
     },
     {
-      "date": "2021-06-15T00:00:00+09:00",
+      "date": "2021-06-15",
       "hospital": 63,
       "hotel": 48,
       "hospitalized": 111,
       "waiting": 3
     },
     {
-      "date": "2021-06-16T00:00:00+09:00",
+      "date": "2021-06-16",
       "hospital": 61,
       "hotel": 41,
       "hospitalized": 102,
       "waiting": 5
     },
     {
-      "date": "2021-06-17T00:00:00+09:00",
+      "date": "2021-06-17",
       "hospital": 60,
       "hotel": 44,
       "hospitalized": 104,
       "waiting": 0
     },
     {
-      "date": "2021-06-18T00:00:00+09:00",
+      "date": "2021-06-18",
       "hospital": 57,
       "hotel": 43,
       "hospitalized": 100,
       "waiting": 0
     },
     {
-      "date": "2021-06-19T00:00:00+09:00",
+      "date": "2021-06-19",
       "hospital": 52,
       "hotel": 33,
       "hospitalized": 85,
       "waiting": 1
     },
     {
-      "date": "2021-06-20T00:00:00+09:00",
+      "date": "2021-06-20",
       "hospital": 49,
       "hotel": 25,
       "hospitalized": 74,
       "waiting": 0
     },
     {
-      "date": "2021-06-21T00:00:00+09:00",
+      "date": "2021-06-21",
       "hospital": 47,
       "hotel": 19,
       "hospitalized": 66,
       "waiting": 0
     },
     {
-      "date": "2021-06-22T00:00:00+09:00",
+      "date": "2021-06-22",
       "hospital": 46,
       "hotel": 12,
       "hospitalized": 58,
       "waiting": 2
     },
     {
-      "date": "2021-06-23T00:00:00+09:00",
+      "date": "2021-06-23",
       "hospital": 43,
       "hotel": 13,
       "hospitalized": 56,
       "waiting": 2
     },
     {
-      "date": "2021-06-24T00:00:00+09:00",
+      "date": "2021-06-24",
       "hospital": 45,
       "hotel": 12,
       "hospitalized": 57,
       "waiting": 1
     },
     {
-      "date": "2021-06-25T00:00:00+09:00",
+      "date": "2021-06-25",
       "hospital": 39,
       "hotel": 12,
       "hospitalized": 51,
       "waiting": 0
     },
     {
-      "date": "2021-06-26T00:00:00+09:00",
+      "date": "2021-06-26",
       "hospital": 36,
       "hotel": 14,
       "hospitalized": 50,
       "waiting": 0
     },
     {
-      "date": "2021-06-27T00:00:00+09:00",
+      "date": "2021-06-27",
       "hospital": 34,
       "hotel": 13,
       "hospitalized": 47,
       "waiting": 3
     },
     {
-      "date": "2021-06-28T00:00:00+09:00",
+      "date": "2021-06-28",
       "hospital": 33,
       "hotel": 15,
       "hospitalized": 48,
       "waiting": 0
     },
     {
-      "date": "2021-06-29T00:00:00+09:00",
+      "date": "2021-06-29",
       "hospital": 29,
       "hotel": 14,
       "hospitalized": 43,
       "waiting": 1
     },
     {
-      "date": "2021-06-30T00:00:00+09:00",
+      "date": "2021-06-30",
       "hospital": 33,
       "hotel": 13,
       "hospitalized": 46,
       "waiting": 3
     },
     {
-      "date": "2021-07-01T00:00:00+09:00",
+      "date": "2021-07-01",
       "hospital": 33,
       "hotel": 14,
       "hospitalized": 47,
       "waiting": 0
     },
     {
-      "date": "2021-07-02T00:00:00+09:00",
+      "date": "2021-07-02",
       "hospital": 36,
       "hotel": 14,
       "hospitalized": 50,
       "waiting": 6
     },
     {
-      "date": "2021-07-03T00:00:00+09:00",
+      "date": "2021-07-03",
       "hospital": 46,
       "hotel": 16,
       "hospitalized": 62,
       "waiting": 1
     },
     {
-      "date": "2021-07-04T00:00:00+09:00",
+      "date": "2021-07-04",
       "hospital": 47,
       "hotel": 14,
       "hospitalized": 61,
       "waiting": 3
     },
     {
-      "date": "2021-07-05T00:00:00+09:00",
+      "date": "2021-07-05",
       "hospital": 64,
       "hotel": 12,
       "hospitalized": 76,
       "waiting": 2
     },
     {
-      "date": "2021-07-06T00:00:00+09:00",
+      "date": "2021-07-06",
       "hospital": 65,
       "hotel": 14,
       "hospitalized": 79,
       "waiting": 1
     },
     {
-      "date": "2021-07-07T00:00:00+09:00",
+      "date": "2021-07-07",
       "hospital": 66,
       "hotel": 16,
       "hospitalized": 82,
       "waiting": 2
     },
     {
-      "date": "2021-07-08T00:00:00+09:00",
+      "date": "2021-07-08",
       "hospital": 65,
       "hotel": 16,
       "hospitalized": 81,
       "waiting": 5
     },
     {
-      "date": "2021-07-09T00:00:00+09:00",
+      "date": "2021-07-09",
       "hospital": 64,
       "hotel": 17,
       "hospitalized": 81,
       "waiting": 9
     },
     {
-      "date": "2021-07-10T00:00:00+09:00",
+      "date": "2021-07-10",
       "hospital": 67,
       "hotel": 19,
       "hospitalized": 86,
       "waiting": 4
     },
     {
-      "date": "2021-07-11T00:00:00+09:00",
+      "date": "2021-07-11",
       "hospital": 75,
       "hotel": 16,
       "hospitalized": 91,
       "waiting": 5
     },
     {
-      "date": "2021-07-12T00:00:00+09:00",
+      "date": "2021-07-12",
       "hospital": 79,
       "hotel": 17,
       "hospitalized": 96,
       "waiting": 8
     },
     {
-      "date": "2021-07-13T00:00:00+09:00",
+      "date": "2021-07-13",
       "hospital": 89,
       "hotel": 19,
       "hospitalized": 108,

@@ -1,7 +1,7 @@
 {
   "newsItems": [
     {
-      "date": "2020-07-31T00:00:00+09:00",
+      "date": "2020-07-31",
       "icon": "🍀",
       "url": {
         "ja": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1032521.html",
@@ -13,7 +13,7 @@
       }
     },
     {
-      "date": "2020-11-29T00:00:00+09:00",
+      "date": "2020-11-29",
       "icon": "📺",
       "url": {
         "ja": "https://www.youtube.com/watch?v=ewGUZq-Ku-c",
@@ -25,7 +25,7 @@
       }
     },
     {
-      "date": "2021-03-03T00:00:00+09:00",
+      "date": "2021-03-03",
       "icon": "📄",
       "url": {
         "ja": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1037252.html",
@@ -37,7 +37,7 @@
       }
     },
     {
-      "date": "2021-05-27T00:00:00+09:00",
+      "date": "2021-05-27",
       "icon": "📺",
       "url": {
         "ja": "https://www.youtube.com/watch?v=7ulbrYDQZgs",
@@ -49,7 +49,7 @@
       }
     },
     {
-      "date": "2021-07-01T00:00:00+09:00",
+      "date": "2021-07-01",
       "icon": "📄",
       "url": {
         "ja": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1044242.html",
@@ -61,7 +61,7 @@
       }
     },
     {
-      "date": "2021-07-09T00:00:00+09:00",
+      "date": "2021-07-09",
       "icon": "📄",
       "url": {
         "ja": "https://www.pref.iwate.jp/kurashikankyou/iryou/kenkou/jouhou/1035134.html#35",
@@ -73,7 +73,7 @@
       }
     },
     {
-      "date": "2021-07-09T00:00:00+09:00",
+      "date": "2021-07-09",
       "icon": "📄",
       "url": {
         "ja": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/035/134/20210709_02_3.pdf",

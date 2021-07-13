@@ -1,7 +1,7 @@
 {
   "alertItems": [
     {
-      "date": "2021-03-01T00:00:00+09:00",
+      "date": "2021-03-01",
       "icon": "📄",
       "url": {
         "ja": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1035392.html",
@@ -13,7 +13,7 @@
       }
     },
     {
-      "date": "2021-07-09T00:00:00+09:00",
+      "date": "2021-07-09",
       "icon": "📄",
       "url": {
         "ja": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/035/134/20210709_02_3.pdf",
@@ -25,7 +25,7 @@
       }
     },
     {
-      "date": "2021-07-13T00:00:00+09:00",
+      "date": "2021-07-13",
       "icon": "📄",
       "url": {
         "ja": "https://www.fnn.jp/articles/-/210091",
