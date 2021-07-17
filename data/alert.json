@@ -11,30 +11,6 @@
         "ja": "岩手県が不要不急の往来自粛をお願いしている地域",
         "en": "Areas where Iwate Prefecture asks people to refrain from unnecessary traffic."
       }
-    },
-    {
-      "date": "2021-07-09",
-      "icon": "📄",
-      "url": {
-        "ja": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/035/134/20210709_02_3.pdf",
-        "en": null
-      },
-      "text": {
-        "ja": "L452Rをスクリーニング検査で4件検出",
-        "en": null
-      }
-    },
-    {
-      "date": "2021-07-13",
-      "icon": "📄",
-      "url": {
-        "ja": "https://www.fnn.jp/articles/-/210091",
-        "en": null
-      },
-      "text": {
-        "ja": "L452Rをスクリーニング検査で14件検出",
-        "en": null
-      }
     }
   ]
 }
