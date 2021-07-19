@@ -3815,6 +3815,30 @@
         "ja": "JEUGIAカルチャーセンター (盛岡市本宮)",
         "en": null
       }
+    },
+    {
+      "date": "2021-05-17",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.e-nexco.co.jp/news/cms_assets/news/2021/05/17/pdf.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "紫波サービスエリア 上り線 (紫波町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-07-19",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.e-nexco.co.jp/news/cms_assets/news/2021/07/19/pdf.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "NEXCO東日本 グループ会社 (北上市)",
+        "en": null
+      }
     }
   ]
 }
