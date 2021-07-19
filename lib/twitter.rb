@@ -62,8 +62,7 @@ module Tweet2Tsv
         h = {}
 
         # main_summary
-        h.merge! /【検査報告】\s(?<month>\d+)月(?<day>\d+)日[（(](?<曜日>[日月火水木金土])[)）]\s/.match(text).named_captures
-        h.merge! /■実施報告[：:](?<実施報告>[\d,]+)件\s.*※うち検出[：:](?<実施報告うち検出>[\d,]+)件/.match(text)&.named_captures
+        h.merge! /\s(?<month>\d+)月(?<day>\d+)日[（(](?<曜日>[日月火水木金土])[)）]\s■実施報告[：:](?<実施報告>[\d,]+)件\s.*※うち検出[：:](?<実施報告うち検出>[\d,]+)件/.match(text)&.named_captures
         h.merge! /県PCR検査[：:](?<県PCR検査>[\d,]+)件/.match(text)&.named_captures
         h.merge! /民間等[：:](?<民間等>[\d,]+)件/.match(text)&.named_captures
         h.merge! /地域外来等[：:](?<地域外来等>[\d,]+)件/.match(text)&.named_captures
