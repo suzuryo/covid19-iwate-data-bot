@@ -3821,11 +3821,11 @@
       "icon": "📄",
       "url": {
         "ja": "https://www.e-nexco.co.jp/news/cms_assets/news/2021/05/17/pdf.pdf",
-        "en": null
+        "en": "https://www.e-nexco.co.jp/en/news/important_info/2021/0517/00009813.html"
       },
       "text": {
         "ja": "岩手ハイウェイサービス [紫波サービスエリア 上り線] (紫波町)",
-        "en": null
+        "en": "岩手ハイウェイサービス [紫波サービスエリア 上り線] (紫波町)"
       }
     },
     {
@@ -3833,10 +3833,22 @@
       "icon": "📄",
       "url": {
         "ja": "https://www.e-nexco.co.jp/news/cms_assets/news/2021/07/19/pdf.pdf",
-        "en": null
+        "en": "https://www.e-nexco.co.jp/en/news/important_info/2021/0719/00010007.html"
       },
       "text": {
         "ja": "NEXCO東日本 グループ会社 (北上市)",
+        "en": "NEXCO EAST group company (Kitakami)"
+      }
+    },
+    {
+      "date": "2021-07-20",
+      "icon": "📄",
+      "url": {
+        "ja": "https://emergency.aeon.jp/moriokaminami/.assets/0720JEUGIA%E3%82%A4%E3%82%AA%E3%83%B3%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%84.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "イオンモール盛岡南 [更新] (盛岡市本宮)",
         "en": null
       }
     }
