@@ -1,6 +1,6 @@
 {
   "patients": {
-    "date": "2021-07-22T15:04:43+09:00",
+    "date": "2021-07-22T16:37:31+09:00",
     "data": [
       {
         "id": 1,
@@ -20619,62 +20619,62 @@
       {
         "id": 1875,
         "確定日": "2021-07-21",
-        "発症日": null,
+        "発症日": "2021-07-15",
         "無症状": false,
         "年代": "20代",
         "居住地": "中部保健所管内",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1043206/1045150.html",
         "yt": null,
         "接触歴": "判明"
       },
       {
         "id": 1876,
         "確定日": "2021-07-21",
-        "発症日": null,
+        "発症日": "2021-07-20",
         "無症状": false,
         "年代": "20代",
         "居住地": "花巻市",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1043206/1045151.html",
         "yt": null,
         "接触歴": "判明"
       },
       {
         "id": 1877,
         "確定日": "2021-07-21",
-        "発症日": null,
+        "発症日": "2021-07-20",
         "無症状": false,
         "年代": "20代",
         "居住地": "二戸保健所管内",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1043206/1045152.html",
         "yt": null,
         "接触歴": "不明"
       },
       {
         "id": 1878,
         "確定日": "2021-07-21",
-        "発症日": null,
+        "発症日": "2021-07-17",
         "無症状": false,
         "年代": "20代",
         "居住地": "二戸保健所管内",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1043206/1045153.html",
         "yt": null,
         "接触歴": "判明"
       },
       {
         "id": 1879,
         "確定日": "2021-07-21",
-        "発症日": null,
+        "発症日": "2021-07-19",
         "無症状": false,
         "年代": "20代",
         "居住地": "二戸保健所管内",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1043206/1045154.html",
         "yt": null,
         "接触歴": "判明"
       }
     ]
   },
   "patients_summary": {
-    "date": "2021-07-22T15:04:43+09:00",
+    "date": "2021-07-22T16:37:31+09:00",
     "data": [
       {
         "日付": "2020-02-15",
@@ -22774,5 +22774,5 @@
       }
     ]
   },
-  "lastUpdate": "2021-07-22T15:04:43+09:00"
+  "lastUpdate": "2021-07-22T16:37:31+09:00"
 }
