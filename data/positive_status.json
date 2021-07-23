@@ -1,5 +1,5 @@
 {
-  "date": "2021-07-23T13:38:52+09:00",
+  "date": "2021-07-23T15:03:15+09:00",
   "data": [
     {
       "date": "2020-02-13",
@@ -3680,6 +3680,13 @@
       "date": "2021-07-22",
       "hospital": 63,
       "hotel": 16,
+      "hospitalized": 79,
+      "waiting": 2
+    },
+    {
+      "date": "2021-07-23",
+      "hospital": 66,
+      "hotel": 13,
       "hospitalized": 79,
       "waiting": 2
     }
