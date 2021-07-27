@@ -1,6 +1,6 @@
 {
   "patients": {
-    "date": "2021-07-27T15:06:28+09:00",
+    "date": "2021-07-27T16:44:54+09:00",
     "data": [
       {
         "id": 1,
@@ -21158,22 +21158,22 @@
       {
         "id": 1924,
         "確定日": "2021-07-26",
-        "発症日": null,
+        "発症日": "2021-07-26",
         "無症状": false,
         "年代": "50代",
         "居住地": "盛岡市",
-        "url": null,
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1036201.html",
         "yt": "DP6TfLNeSPI",
         "接触歴": "不明"
       },
       {
         "id": 1925,
         "確定日": "2021-07-26",
-        "発症日": null,
+        "発症日": "2021-07-24",
         "無症状": false,
         "年代": "40代",
         "居住地": "盛岡市",
-        "url": null,
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1036202.html",
         "yt": "DP6TfLNeSPI",
         "接触歴": "判明"
       },
@@ -21181,94 +21181,94 @@
         "id": 1926,
         "確定日": "2021-07-26",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "80代",
         "居住地": "盛岡市",
-        "url": null,
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1036203.html",
         "yt": "DP6TfLNeSPI",
         "接触歴": "判明"
       },
       {
         "id": 1927,
         "確定日": "2021-07-26",
-        "発症日": null,
+        "発症日": "2021-07-24",
         "無症状": false,
         "年代": "40代",
         "居住地": "盛岡市",
-        "url": null,
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1036204.html",
         "yt": "DP6TfLNeSPI",
         "接触歴": "判明"
       },
       {
         "id": 1928,
         "確定日": "2021-07-26",
-        "発症日": null,
+        "発症日": "2021-07-19",
         "無症状": false,
         "年代": "40代",
         "居住地": "盛岡市",
-        "url": null,
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1036205.html",
         "yt": "DP6TfLNeSPI",
         "接触歴": "判明"
       },
       {
         "id": 1929,
         "確定日": "2021-07-26",
-        "発症日": null,
+        "発症日": "2021-07-25",
         "無症状": false,
         "年代": "60代",
         "居住地": "県央保健所管内",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1043206/1045261.html",
         "yt": "DP6TfLNeSPI",
         "接触歴": "判明"
       },
       {
         "id": 1930,
         "確定日": "2021-07-26",
-        "発症日": null,
+        "発症日": "2021-07-25",
         "無症状": false,
         "年代": "50代",
         "居住地": "県央保健所管内",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1043206/1045262.html",
         "yt": "DP6TfLNeSPI",
         "接触歴": "不明"
       },
       {
         "id": 1931,
         "確定日": "2021-07-26",
-        "発症日": null,
+        "発症日": "2021-07-25",
         "無症状": false,
         "年代": "50代",
         "居住地": "北上市",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1043206/1045263.html",
         "yt": "DP6TfLNeSPI",
         "接触歴": "判明"
       },
       {
         "id": 1932,
         "確定日": "2021-07-26",
-        "発症日": null,
+        "発症日": "2021-07-25",
         "無症状": false,
         "年代": "10歳未満",
         "居住地": "北上市",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1043206/1045264.html",
         "yt": "DP6TfLNeSPI",
         "接触歴": "判明"
       },
       {
         "id": 1933,
         "確定日": "2021-07-26",
-        "発症日": null,
+        "発症日": "2021-07-25",
         "無症状": false,
         "年代": "40代",
         "居住地": "二戸保健所管内",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1043206/1045266.html",
         "yt": "DP6TfLNeSPI",
         "接触歴": "判明"
       }
     ]
   },
   "patients_summary": {
-    "date": "2021-07-27T15:06:28+09:00",
+    "date": "2021-07-27T16:44:54+09:00",
     "data": [
       {
         "日付": "2020-02-15",
@@ -23388,5 +23388,5 @@
       }
     ]
   },
-  "lastUpdate": "2021-07-27T15:06:28+09:00"
+  "lastUpdate": "2021-07-27T16:44:54+09:00"
 }
