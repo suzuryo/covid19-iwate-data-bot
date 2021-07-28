@@ -1,6 +1,6 @@
 {
   "patients": {
-    "date": "2021-07-28T15:29:02+09:00",
+    "date": "2021-07-28T16:59:58+09:00",
     "data": [
       {
         "id": 1,
@@ -21269,43 +21269,43 @@
         "id": 1934,
         "確定日": "2021-07-27",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "40代",
         "居住地": "盛岡市",
-        "url": null,
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1036229.html",
         "yt": "aPSDrZuo678",
         "接触歴": "判明"
       },
       {
         "id": 1935,
         "確定日": "2021-07-27",
-        "発症日": null,
+        "発症日": "2021-07-24",
         "無症状": false,
         "年代": "40代",
         "居住地": "盛岡市",
-        "url": null,
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/1036231.html",
         "yt": "aPSDrZuo678",
         "接触歴": "不明"
       },
       {
         "id": 1936,
         "確定日": "2021-07-27",
-        "発症日": null,
+        "発症日": "2021-07-23",
         "無症状": false,
         "年代": "30代",
         "居住地": "県央保健所管内",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1043206/1045292.html",
         "yt": "aPSDrZuo678",
         "接触歴": "不明"
       },
       {
         "id": 1937,
         "確定日": "2021-07-27",
-        "発症日": null,
+        "発症日": "2021-07-25",
         "無症状": false,
         "年代": "60代",
         "居住地": "県央保健所管内",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1043206/1045293.html",
         "yt": "aPSDrZuo678",
         "接触歴": "判明"
       },
@@ -21313,10 +21313,10 @@
         "id": 1938,
         "確定日": "2021-07-27",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "40代",
         "居住地": "県央保健所管内",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1043206/1045294.html",
         "yt": "aPSDrZuo678",
         "接触歴": "判明"
       },
@@ -21324,98 +21324,98 @@
         "id": 1939,
         "確定日": "2021-07-27",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "10代",
         "居住地": "県央保健所管内",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1043206/1045295.html",
         "yt": "aPSDrZuo678",
         "接触歴": "判明"
       },
       {
         "id": 1940,
         "確定日": "2021-07-27",
-        "発症日": null,
+        "発症日": "2021-07-21",
         "無症状": false,
         "年代": "30代",
         "居住地": "中部保健所管内",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1043206/1045296.html",
         "yt": "aPSDrZuo678",
         "接触歴": "判明"
       },
       {
         "id": 1941,
         "確定日": "2021-07-27",
-        "発症日": null,
+        "発症日": "2021-07-20",
         "無症状": false,
         "年代": "30代",
         "居住地": "中部保健所管内",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1043206/1045297.html",
         "yt": "aPSDrZuo678",
         "接触歴": "判明"
       },
       {
         "id": 1942,
         "確定日": "2021-07-27",
-        "発症日": null,
+        "発症日": "2021-07-22",
         "無症状": false,
         "年代": "20代",
         "居住地": "花巻市",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1043206/1045298.html",
         "yt": "aPSDrZuo678",
         "接触歴": "判明"
       },
       {
         "id": 1943,
         "確定日": "2021-07-27",
-        "発症日": null,
+        "発症日": "2021-07-22",
         "無症状": false,
         "年代": "20代",
         "居住地": "花巻市",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1043206/1045299.html",
         "yt": "aPSDrZuo678",
         "接触歴": "判明"
       },
       {
         "id": 1944,
         "確定日": "2021-07-27",
-        "発症日": null,
+        "発症日": "2021-07-25",
         "無症状": false,
         "年代": "60代",
         "居住地": "中部保健所管内",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1043206/1045300.html",
         "yt": "aPSDrZuo678",
         "接触歴": "不明"
       },
       {
         "id": 1945,
         "確定日": "2021-07-27",
-        "発症日": null,
+        "発症日": "2021-07-22",
         "無症状": false,
         "年代": "60代",
         "居住地": "中部保健所管内",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1043206/1045301.html",
         "yt": "aPSDrZuo678",
         "接触歴": "判明"
       },
       {
         "id": 1946,
         "確定日": "2021-07-27",
-        "発症日": null,
+        "発症日": "2021-07-25",
         "無症状": false,
         "年代": "50代",
         "居住地": "中部保健所管内",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1043206/1045302.html",
         "yt": "aPSDrZuo678",
         "接触歴": "判明"
       },
       {
         "id": 1947,
         "確定日": "2021-07-27",
-        "発症日": null,
+        "発症日": "2021-07-26",
         "無症状": false,
         "年代": "10代",
         "居住地": "中部保健所管内",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1043206/1045303.html",
         "yt": "aPSDrZuo678",
         "接触歴": "判明"
       },
@@ -21423,39 +21423,39 @@
         "id": 1948,
         "確定日": "2021-07-27",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "20代",
         "居住地": "中部保健所管内",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1043206/1045304.html",
         "yt": "aPSDrZuo678",
         "接触歴": "判明"
       },
       {
         "id": 1949,
         "確定日": "2021-07-27",
-        "発症日": null,
+        "発症日": "2021-07-25",
         "無症状": false,
         "年代": "60代",
         "居住地": "奥州市",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1043206/1045305.html",
         "yt": "aPSDrZuo678",
         "接触歴": "判明"
       },
       {
         "id": 1950,
         "確定日": "2021-07-27",
-        "発症日": null,
+        "発症日": "2021-07-21",
         "無症状": false,
         "年代": "40代",
         "居住地": "二戸保健所管内",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1043206/1045306.html",
         "yt": "aPSDrZuo678",
         "接触歴": "不明"
       }
     ]
   },
   "patients_summary": {
-    "date": "2021-07-28T15:29:02+09:00",
+    "date": "2021-07-28T16:59:58+09:00",
     "data": [
       {
         "日付": "2020-02-15",
@@ -23579,5 +23579,5 @@
       }
     ]
   },
-  "lastUpdate": "2021-07-28T15:29:02+09:00"
+  "lastUpdate": "2021-07-28T16:59:58+09:00"
 }
