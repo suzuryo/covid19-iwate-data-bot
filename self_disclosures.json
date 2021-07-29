@@ -4055,6 +4055,30 @@
         "ja": "ゲオ奥州水沢佐倉河店 (奥州市)",
         "en": null
       }
+    },
+    {
+      "date": "2021-07-29",
+      "icon": "📄",
+      "url": {
+        "ja": "https://ninohe-suntop.co.jp/oshirase_0729.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "二戸サントップ (二戸市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-07-29",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.yamada-denki.jp/information/200419prevention/pdf/210729_02.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "家電住まいる館 YAMADA 盛岡本店 (盛岡市)",
+        "en": null
+      }
     }
   ]
 }
