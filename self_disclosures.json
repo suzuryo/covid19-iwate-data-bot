@@ -4079,6 +4079,30 @@
         "ja": "二戸サントップ (二戸市)",
         "en": null
       }
+    },
+    {
+      "date": "2021-07-27",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.sankyocc.jp/topics/20210727.html",
+        "en": null
+      },
+      "text": {
+        "ja": "三協技術 盛岡支店 [経過報告] (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-07-30",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.warabeya.co.jp/ja/news2/news2-3322902653558388595/main/0/link/20210730oshirase_iwate.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "わらべや日洋 岩手工場 (北上市)",
+        "en": null
+      }
     }
   ]
 }
