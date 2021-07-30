@@ -1,6 +1,6 @@
 {
   "patients": {
-    "date": "2021-07-30T15:26:49+09:00",
+    "date": "2021-07-30T16:49:27+09:00",
     "data": [
       {
         "id": 1,
@@ -21675,11 +21675,11 @@
       {
         "id": 1971,
         "確定日": "2021-07-29",
-        "発症日": null,
+        "発症日": "2021-07-28",
         "無症状": false,
         "年代": "10代",
         "居住地": "県央保健所管内",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1044103/1045381.html",
         "yt": "DVqXBI-ryvg",
         "接触歴": "判明"
       },
@@ -21687,54 +21687,54 @@
         "id": 1972,
         "確定日": "2021-07-29",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "50代",
         "居住地": "八幡平市",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1044103/1045382.html",
         "yt": "DVqXBI-ryvg",
         "接触歴": "判明"
       },
       {
         "id": 1973,
         "確定日": "2021-07-29",
-        "発症日": null,
+        "発症日": "2021-07-27",
         "無症状": false,
         "年代": "30代",
         "居住地": "県央保健所管内",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1044103/1045383.html",
         "yt": "DVqXBI-ryvg",
         "接触歴": "不明"
       },
       {
         "id": 1974,
         "確定日": "2021-07-29",
-        "発症日": null,
+        "発症日": "2021-07-26",
         "無症状": false,
         "年代": "60代",
         "居住地": "花巻市",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1044103/1045384.html",
         "yt": "DVqXBI-ryvg",
         "接触歴": "判明"
       },
       {
         "id": 1975,
         "確定日": "2021-07-29",
-        "発症日": null,
+        "発症日": "2021-07-23",
         "無症状": false,
         "年代": "40代",
         "居住地": "奥州保健所管内",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1044103/1045385.html",
         "yt": "DVqXBI-ryvg",
         "接触歴": "判明"
       },
       {
         "id": 1976,
         "確定日": "2021-07-29",
-        "発症日": null,
+        "発症日": "2021-07-28",
         "無症状": false,
         "年代": "40代",
         "居住地": "奥州保健所管内",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1044103/1045386.html",
         "yt": "DVqXBI-ryvg",
         "接触歴": "判明"
       },
@@ -21742,61 +21742,61 @@
         "id": 1977,
         "確定日": "2021-07-29",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "10歳未満",
         "居住地": "奥州保健所管内",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1044103/1045387.html",
         "yt": "DVqXBI-ryvg",
         "接触歴": "判明"
       },
       {
         "id": 1978,
         "確定日": "2021-07-29",
-        "発症日": null,
+        "発症日": "2021-07-15",
         "無症状": false,
         "年代": "60代",
         "居住地": "奥州保健所管内",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1044103/1045388.html",
         "yt": "DVqXBI-ryvg",
         "接触歴": "判明"
       },
       {
         "id": 1979,
         "確定日": "2021-07-29",
-        "発症日": null,
+        "発症日": "2021-07-26",
         "無症状": false,
         "年代": "50代",
         "居住地": "宮古市",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1044103/1045389.html",
         "yt": "DVqXBI-ryvg",
         "接触歴": "不明"
       },
       {
         "id": 1980,
         "確定日": "2021-07-29",
-        "発症日": null,
+        "発症日": "2021-07-28",
         "無症状": false,
         "年代": "10歳未満",
         "居住地": "久慈保健所管内",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1044103/1045390.html",
         "yt": "DVqXBI-ryvg",
         "接触歴": "判明"
       },
       {
         "id": 1981,
         "確定日": "2021-07-29",
-        "発症日": null,
+        "発症日": "2021-07-23",
         "無症状": false,
         "年代": "40代",
         "居住地": "二戸保健所管内",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1044103/1045391.html",
         "yt": "DVqXBI-ryvg",
         "接触歴": "不明"
       }
     ]
   },
   "patients_summary": {
-    "date": "2021-07-30T15:26:49+09:00",
+    "date": "2021-07-30T16:49:27+09:00",
     "data": [
       {
         "日付": "2020-02-15",
@@ -23928,5 +23928,5 @@
       }
     ]
   },
-  "lastUpdate": "2021-07-30T15:26:49+09:00"
+  "lastUpdate": "2021-07-30T16:49:27+09:00"
 }
