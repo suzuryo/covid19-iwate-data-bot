@@ -4,8 +4,10 @@ source 'https://rubygems.org'
 
 gem 'activesupport'
 gem 'dotenv'
+gem "functions_framework"
 gem 'google-apis-sheets_v4'
 gem 'nokogiri'
+gem 'sinatra'
 gem 'thor'
 gem 'typhoeus'
 
