@@ -9,7 +9,7 @@ SITES = {
     regex: %r{^https://www.pref.iwate.jp}
   },
   morioka: {
-    url: 'http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1032217/',
+    url: 'http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1036303/index.html',
     selector: '#voice > ul > li > a',
     regex: %r{^http://www.city.morioka.iwate.jp}
   }
