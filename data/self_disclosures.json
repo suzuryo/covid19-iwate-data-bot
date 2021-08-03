@@ -4199,6 +4199,30 @@
         "ja": "たかむろ水光園 (遠野市)",
         "en": null
       }
+    },
+    {
+      "date": "2021-08-02",
+      "icon": "📄",
+      "url": {
+        "ja": "http://ironcarbody.com/",
+        "en": null
+      },
+      "text": {
+        "ja": "アイアン車体 (遠野市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-08-02",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.dai-ichi-life.co.jp/information/pdf/covid19_001.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "第一生命 盛岡支社 宮古営業オフィス (宮古市)",
+        "en": null
+      }
     }
   ]
 }
