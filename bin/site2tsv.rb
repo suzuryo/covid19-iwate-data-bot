@@ -38,7 +38,7 @@ module Site2Tsv
       prev_id = id
       data.sort_by { |a| a['id'] }.uniq.each do |b|
         @patients += "\n" * (b['id'] - prev_id)
-        @patients += "#{b['id']}\t#{b['リリース日']}\t#{b['確定日']}\t#{b['発症日']}\t#{b['無症状']}\t#{b['年代']}\t#{b['性別']}\t#{b['居住地']}\t#{b['入院日']}\t#{b['url']}\t#{b['接触歴']}"
+        @patients += "#{b['id']}\t#{b['リリース日']}\t#{b['確定日']}\t#{b['発症日']}\t#{b['無症状']}\t#{b['年代']}\t#{b['性別']}\t#{b['居住地']}\t\t#{b['入院日']}\t#{b['url']}\t#{b['接触歴']}"
         prev_id = b['id']
       end
 
