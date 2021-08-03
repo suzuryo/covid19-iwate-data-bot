@@ -11,6 +11,18 @@
         "ja": "岩手県が不要不急の往来自粛をお願いしている地域",
         "en": "Areas where Iwate Prefecture asks people to refrain from unnecessary traffic."
       }
+    },
+    {
+      "date": "2021-08-03",
+      "icon": "📄",
+      "url": {
+        "ja": "https://iwate.stopcovid19.jp/cards/untracked-rate/",
+        "en": null
+      },
+      "text": {
+        "ja": "接触歴不明者数が過去最大",
+        "en": null
+      }
     }
   ]
 }
