@@ -78,6 +78,7 @@ PATIENTS.each do |row|
       年代: row['年代'].blank? ? nil : row['年代'],
       # 性別: row['性別'].blank? ? nil : row['性別'], # 利用していないので出力しない
       居住地: row['居住地'].blank? ? nil : row['居住地'],
+      滞在地: row['滞在地'].blank? ? nil : row['滞在地'],
       url: row['url'].blank? ? nil : row['url'],
       yt: row['記者会見1'].blank? ? nil : /https:\/\/www\.youtube\.com\/watch\?v=(.+)$/.match(row['記者会見1'])[1],
       接触歴: row['接触歴'].blank? ? nil : row['接触歴']
