@@ -4,11 +4,23 @@
       "date": "2021-08-03",
       "icon": "📄",
       "url": {
-        "ja": "https://iwate.stopcovid19.jp/cards/untracked-rate/",
+        "ja": "/cards/untracked-rate/",
         "en": null
       },
       "text": {
         "ja": "接触歴不明者数が過去最大",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-08-04",
+      "icon": "📄",
+      "url": {
+        "ja": "/cards/monitoring-number-of-confirmed-cases-per-100k/",
+        "en": null
+      },
+      "text": {
+        "ja": "盛岡市の直近1週間新規患者数(対人口10万人)の指標がほぼステージ3",
         "en": null
       }
     }
