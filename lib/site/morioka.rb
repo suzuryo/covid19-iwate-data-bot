@@ -91,6 +91,7 @@ class Morioka
       when /^居住地：/
         patient['居住地'] = h4.text.gsub('居住地：', '').strip
         patient['居住地'] = '県外' if patient['居住地'].match(/県外/)
+        patient['滞在地'] = h4.text.split(/滞在地[:：]/)[1].gsub(/[)）]/, '') if patient['居住地'] === '県外'
         # 1366は「県内（滞在地：盛岡市）」だけど「盛岡市」に分類する
         patient['居住地'] = '盛岡市' if patient['id'] == 1366
       when /^入院状況：/

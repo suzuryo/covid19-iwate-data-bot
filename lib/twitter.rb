@@ -108,7 +108,16 @@ module Tweet2Tsv
             h['id'] = patient[0].to_i
             h['年代'] = patient[1] == '90歳' ? '90歳以上' : patient[1] # 90歳以上 と 90歳\n以上 の2パターンある
             h['性別'] = patient[3].gsub(/^男$/, '男性').gsub(/^女$/, '女性')
-            h['居住地'] = patient[4].split(/[(（]/)[0].gsub('滞在地：', '')
+            h['居住地'] = if /^県外/.match patient[4].split(/[(（]/)[0]
+                         '県外'
+                       else
+                         patient[4].split(/[(（]/)[0].gsub('滞在地', '').gsub(/[:：]/, '')
+                       end
+            h['滞在地'] = if h['居住地'] === '県外'
+                         patient[4].split(/滞在地/)[1].split(/[(（]/)[0].gsub('滞在地', '').gsub(/[:：]/, '').gsub(/[)）]/, '')
+                       else
+                         ''
+                       end
             h['職業'] = patient[5]
             h['接触歴'] = '不明'
             d[:patients] << h
@@ -124,7 +133,16 @@ module Tweet2Tsv
           h['id'] = patient[0].to_i
           h['年代'] = patient[1] == '90歳' ? '90歳以上' : patient[1] # 90歳以上 と 90歳\n以上 の2パターンある
           h['性別'] = patient[3].gsub(/^男$/, '男性').gsub(/^女$/, '女性')
-          h['居住地'] = patient[4].split(/[(（]/)[0].gsub('滞在地：', '')
+          h['居住地'] = if /^県外/.match patient[4].split(/[(（]/)[0]
+                       '県外'
+                     else
+                       patient[4].split(/[(（]/)[0].gsub('滞在地', '').gsub(/[:：]/, '')
+                     end
+          h['滞在地'] = if h['居住地'] === '県外'
+                       patient[4].split(/滞在地/)[1].split(/[(（]/)[0].gsub('滞在地', '').gsub(/[:：]/, '').gsub(/[)）]/, '')
+                     else
+                       ''
+                     end
           h['職業'] = patient[5]
           h['接触歴'] = '判明'
           d[:patients] << h

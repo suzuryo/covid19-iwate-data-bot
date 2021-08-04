@@ -67,9 +67,8 @@ class Iwate
 
     patient['居住地'] = case dl['居住地']
                      when /県外/
+                       patient['滞在地'] = dl['居住地'].split(/滞在地[:：]/)[1].gsub(/[)）]/, '')
                        '県外'
-                     when /滞在地：/
-                       dl['居住地'].gsub('滞在地：', '')
                      else
                        dl['居住地']
                      end

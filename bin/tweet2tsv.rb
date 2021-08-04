@@ -61,7 +61,7 @@ module Tweet2Tsv
       prev_id = tweets.data[:patients].sort_by { |a| a['id'].to_i }.uniq[0]['id']
       tweets.data[:patients].sort_by { |a| a['id'].to_i }.uniq.each do |b|
         @positive_cases += "\n" * (b['id'].to_i - prev_id)
-        @positive_cases += "#{b['id']}\t#{b['created_at'].strftime('%Y/%m/%d')}\t#{b['created_at'].days_ago(1).strftime('%Y/%m/%d')}\t\t\t#{b['年代']}\t#{b['性別']}\t#{b['居住地']}\t\t\t\t#{b['接触歴']}\t\tPCR検査\t#{b['職業']}"
+        @positive_cases += "#{b['id']}\t#{b['created_at'].strftime('%Y/%m/%d')}\t#{b['created_at'].days_ago(1).strftime('%Y/%m/%d')}\t\t\t#{b['年代']}\t#{b['性別']}\t#{b['居住地']}\t#{b['滞在地']}\t\t\t#{b['接触歴']}\t\tPCR検査\t#{b['職業']}"
         prev_id = b['id']
       end
 
