@@ -4331,6 +4331,18 @@
         "ja": "岩手県立大学 (滝沢市)",
         "en": null
       }
+    },
+    {
+      "date": "2021-08-05",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.iwate-med.ac.jp/news/n1-information/21080501-soumu/",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手医科大学 (矢巾町)",
+        "en": null
+      }
     }
   ]
 }
