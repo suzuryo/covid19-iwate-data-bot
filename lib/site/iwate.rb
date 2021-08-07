@@ -67,10 +67,10 @@ class Iwate
 
     patient['居住地'] = case dl['居住地']
                      when /県外/
-                       patient['滞在地'] = dl['居住地'].split(/滞在地[:：]/)[1].gsub(/[)）]/, '')
+                       patient['滞在地'] = dl['居住地'].split(/滞在地[:：]/)[1].split(/[(（]/)[0].rstrip
                        '県外'
                      else
-                       dl['居住地']
+                       dl['居住地'].split(/[(（]/)[0].rstrip
                      end
 
     # 1543は 「滝沢市 （県央保健所）」 って書いてあるので滝沢市に固定する
