@@ -13,7 +13,7 @@
       }
     },
     {
-      "date": "2021-08-08",
+      "date": "2021-08-10",
       "icon": "📄",
       "url": {
         "ja": "/cards/monitoring-number-of-confirmed-cases-per-100k/",
@@ -21,6 +21,18 @@
       },
       "text": {
         "ja": "岩手県全域の直近1週間対人口10万人指標が過去最大",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-08-10",
+      "icon": "📄",
+      "url": {
+        "ja": "/cards/number-of-hospitalized/",
+        "en": null
+      },
+      "text": {
+        "ja": "入院者数が過去最大",
         "en": null
       }
     }
