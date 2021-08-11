@@ -184,11 +184,11 @@ POSITIVE_BY_DIAGNOSED.each do |row|
       count: row['count'].to_i,
       missing_count: row['missing_count'].to_i,
       reported_count: row['reported_count'].to_i,
-      weekly_gain_ratio: nil, # 未使用
-      untracked_percent: nil, # 未使用
+      # weekly_gain_ratio: nil, # 未使用
+      # untracked_percent: nil, # 未使用
       weekly_average_count: row['weekly_average_count'].blank? ? nil : row['weekly_average_count'].to_f,
       weekly_average_untracked_count: row['weekly_average_untracked_count'].blank? ? nil : row['weekly_average_untracked_count'].to_f,
-      weekly_average_untracked_increse_percent: row['weekly_average_untracked_increse_percent'].blank? ? nil : row['weekly_average_untracked_increse_percent'].to_f
+      # weekly_average_untracked_increse_percent: row['weekly_average_untracked_increse_percent'].blank? ? nil : row['weekly_average_untracked_increse_percent'].to_f 未使用
     }
   )
 end
@@ -275,7 +275,7 @@ HOSPITALIZED_NUMBERS.each do |row|
       date: Time.parse(row['date']).strftime('%Y-%m-%d'),
       hospital: row['入院'].to_i,
       hotel: row['宿泊療養'].to_i,
-      hospitalized: row['入院'].to_i + row['宿泊療養'].to_i,
+      # hospitalized: row['入院'].to_i + row['宿泊療養'].to_i, # 未使用
       waiting: row['調整中'].to_i
       # severe_case: row['重症'].to_i, # 利用していないので出力しない
     }
