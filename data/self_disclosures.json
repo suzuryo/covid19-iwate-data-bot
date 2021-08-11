@@ -4499,6 +4499,18 @@
         "ja": "雫石町職員 [雫石町役場・町立保育所] (雫石町)",
         "en": null
       }
+    },
+    {
+      "date": "2021-08-11",
+      "icon": "📄",
+      "url": {
+        "ja": "https://prd-4s-public.s3.ap-northeast-1.amazonaws.com/sys-master/public/h96/hfe/9061488623646/20210811press_covid.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "東北ヒロセ電機 宮古工場 (宮古市)",
+        "en": null
+      }
     }
   ]
 }
