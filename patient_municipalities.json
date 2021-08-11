@@ -1,7 +1,7 @@
 {
-  "date": "2021-08-11T15:23:31+09:00",
+  "date": "2021-08-11T15:30:42+09:00",
   "datasets": {
-    "date": "2021-08-11T15:23:31+09:00",
+    "date": "2021-08-11T15:30:42+09:00",
     "data": [
       {
         "code": "032018",
@@ -16,16 +16,16 @@
         "area": "岩手県",
         "label": "宮古市",
         "ruby": "みやこし",
-        "count": 112,
-        "count_per_population": "0.222"
+        "count": 113,
+        "count_per_population": "0.224"
       },
       {
         "code": "032034",
         "area": "岩手県",
         "label": "大船渡市",
         "ruby": "おおふなとし",
-        "count": 33,
-        "count_per_population": "0.095"
+        "count": 31,
+        "count_per_population": "0.089"
       },
       {
         "code": "032051",
@@ -64,8 +64,8 @@
         "area": "岩手県",
         "label": "一関市",
         "ruby": "いちのせきし",
-        "count": 93,
-        "count_per_population": "0.083"
+        "count": 94,
+        "count_per_population": "0.084"
       },
       {
         "code": "032107",
@@ -104,8 +104,8 @@
         "area": "岩手県",
         "label": "奥州市",
         "ruby": "おうしゅうし",
-        "count": 179,
-        "count_per_population": "0.158"
+        "count": 176,
+        "count_per_population": "0.156"
       },
       {
         "code": "032166",
