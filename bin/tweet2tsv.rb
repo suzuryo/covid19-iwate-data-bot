@@ -40,12 +40,18 @@ module Tweet2Tsv
 
     desc 'new', 'Create a new tweet.tsv'
     option :days, type: :numeric, default: 1, aliases: '-d'
+    option :from_files, type: :boolean
 
     def new
       # オプションが指定されていなければ、直近1日分のデータを取得
       days = options[:days].nil? ? 1 : options[:days].to_i
+      from_files = options[:from_files]
 
-      tweets = Tweet2Tsv::Twitter.new(days)
+      if from_files
+        tweets = Tweet2Tsv::FromFile.new
+      else
+        tweets = Tweet2Tsv::Twitter.new(days)
+      end
 
       # 最新データが空ならば何もしない
       raise Error, set_color('ERROR: data blank', :red) if tweets.data.blank?

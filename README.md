@@ -35,7 +35,7 @@ bundle exec bin/googlesheet2json.rb
 
 が生成される。
 
-## 3. 岩手県と盛岡市のサイトからTSVを生成プログラムの実行
+## 3. 岩手県と盛岡市のサイトからTSVを生成する
 
 ```
 bundle exec bin/site2tsv.rb # 普通はこれ
@@ -51,7 +51,7 @@ bundle exec bin/site2tsv.rb new --id NUM
 
 が生成される。
 
-## 4. twitter.com/iwatevscovid19 からTSVを生成プログラムの実行
+## 4.1 twitter.com/iwatevscovid19 からTSVを生成する
 
 ```
 bundle exec bin/tweet2tsv.rb # 普通はこれ
@@ -62,6 +62,23 @@ bundle exec bin/tweet2tsv.rb new --days NUM
 - TWITTER_BEARER_TOKEN を取得して .env に設定する
 
 実行すると、twitter.com/iwatevscovid19 のつぶやき群から、 NUM days のデータを取得して
+
+```
+./tsv/tweet.tsv
+```
+
+が生成される。
+
+
+## 4.2 ./input/tweets.txt からTSVを生成する
+
+その日の15時にLINEで届くメッセージをコピペして `./input/tweets.txt` を作成してから
+
+```
+bundle exec bin/tweet2tsv.rb --from-files
+```
+
+を実行すると、
 
 ```
 ./tsv/tweet.tsv
