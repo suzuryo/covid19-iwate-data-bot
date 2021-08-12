@@ -71,6 +71,30 @@
         "ja": "岩手県 新型コロナウイルス感染症対策本部 第36回 本部員会議",
         "en": null
       }
+    },
+    {
+      "date": "2021-07-09",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1044723.html",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手警戒宣言",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-08-12",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1045804.html",
+        "en": null
+      },
+      "text": {
+        "ja": "県独自の岩手緊急事態宣言",
+        "en": null
+      }
     }
   ]
 }
