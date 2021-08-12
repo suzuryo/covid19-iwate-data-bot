@@ -85,3 +85,17 @@ bundle exec bin/tweet2tsv.rb --from-files
 ```
 
 が生成される。
+
+# 5. iwate-ninshou.jp から GoogleMyMap に読み込ませるCSVを生成する
+
+```
+bundle exec bin/iwateNinshouRestaurant2csv.rb
+```
+
+を実行すると、
+
+```
+./tsv/restaurant.csv
+```
+
+が生成される。
