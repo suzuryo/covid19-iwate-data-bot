@@ -275,6 +275,7 @@ HOSPITALIZED_NUMBERS.each do |row|
       date: Time.parse(row['date']).strftime('%Y-%m-%d'),
       hospital: row['入院'].to_i,
       hotel: row['宿泊療養'].to_i,
+      home: row['自宅療養'].to_i,
       # hospitalized: row['入院'].to_i + row['宿泊療養'].to_i, # 未使用
       waiting: row['調整中'].to_i
       # severe_case: row['重症'].to_i, # 利用していないので出力しない
