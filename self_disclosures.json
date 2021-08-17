@@ -4895,6 +4895,18 @@
         "ja": "岩手大学 (盛岡市)",
         "en": null
       }
+    },
+    {
+      "date": "2021-08-17",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.iwate-med.ac.jp/news/n1-information/21081701-soumu/",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手医科大学 (矢巾町)",
+        "en": null
+      }
     }
   ]
 }
