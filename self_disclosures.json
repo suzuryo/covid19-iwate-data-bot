@@ -4811,6 +4811,30 @@
         "ja": "SMC 釜石工場 (釜石市)",
         "en": null
       }
+    },
+    {
+      "date": "2021-08-16",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.instagram.com/p/CSoJxKelryq/",
+        "en": null
+      },
+      "text": {
+        "ja": "円晶 [続報] (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-08-13",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.naro.go.jp/other/laboratory/naro/143418.html",
+        "en": null
+      },
+      "text": {
+        "ja": "農業・食品産業技術総合研究機構",
+        "en": null
+      }
     }
   ]
 }
