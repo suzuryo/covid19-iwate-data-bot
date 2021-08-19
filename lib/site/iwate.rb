@@ -83,6 +83,13 @@ class Iwate
     m1 = dl['入院状況'].match(/(?<month>\d+)月(?<day>\d+)日/)
     patient['入院日'] = m1 ? Date.parse("2021/#{m1[:month]}/#{m1[:day]}").strftime('%Y/%m/%d') : ''
 
+    patient['陽性最終確定検査手法'] = if dl['主な行動歴等'].match(/PCR[：:]検出/)
+                              'PCR検査'
+                            elsif dl['主な行動歴等'].match(/抗原[：:]検出/)
+                              '抗原検査'
+                            else
+                              nil
+                            end
     # 無症状の場合は発症日は空
     # 有症状の場合は無症状が空
     if dl['症状'].match(/無症状/)

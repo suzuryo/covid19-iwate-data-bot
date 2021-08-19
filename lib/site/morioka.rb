@@ -97,6 +97,14 @@ class Morioka
       when /^入院状況：/
         m = h4.text.match(/(?<month>\d+)月(?<day>\d+)/)
         patient['入院日'] = m ? Date.parse("2021/#{m[:month]}/#{m[:day]}").strftime('%Y/%m/%d') : ''
+      when /^主な行動歴/
+        patient['陽性最終確定検査手法'] = if h4.next_element.text.match(/PCR[：:]検出/)
+                                  'PCR検査'
+                                elsif h4.next_element.text.match(/抗原[：:]検出/)
+                                  '抗原検査'
+                                else
+                                  nil
+                                end
       when /^その他/
         h4_next_element = h4.next_element.text
         patient['接触歴'] = if /よりよいウェブサイトにするために/.match(h4_next_element) || h4_next_element.blank?
