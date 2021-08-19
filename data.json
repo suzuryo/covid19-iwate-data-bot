@@ -1,6 +1,6 @@
 {
   "patients": {
-    "date": "2021-08-19T15:18:27+09:00",
+    "date": "2021-08-19T18:02:52+09:00",
     "data": [
       {
         "id": 1,
@@ -30534,11 +30534,11 @@
         "id": 2545,
         "確定日": "2021-08-18",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "40代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1036303/1036554.html",
         "yt": "mt-mLSFRYDQ",
         "接触歴": "判明"
       },
@@ -30546,107 +30546,107 @@
         "id": 2546,
         "確定日": "2021-08-18",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "60代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1036303/1036555.html",
         "yt": "mt-mLSFRYDQ",
         "接触歴": "判明"
       },
       {
         "id": 2547,
         "確定日": "2021-08-18",
-        "発症日": null,
+        "発症日": "2021-08-13",
         "無症状": false,
         "年代": "60代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1036303/1036556.html",
         "yt": "mt-mLSFRYDQ",
         "接触歴": "判明"
       },
       {
         "id": 2548,
         "確定日": "2021-08-18",
-        "発症日": null,
+        "発症日": "2021-08-16",
         "無症状": false,
         "年代": "10代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1036303/1036557.html",
         "yt": "mt-mLSFRYDQ",
         "接触歴": "判明"
       },
       {
         "id": 2549,
         "確定日": "2021-08-18",
-        "発症日": null,
+        "発症日": "2021-08-16",
         "無症状": false,
         "年代": "60代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1036303/1036558.html",
         "yt": "mt-mLSFRYDQ",
         "接触歴": "判明"
       },
       {
         "id": 2550,
         "確定日": "2021-08-18",
-        "発症日": null,
+        "発症日": "2021-08-16",
         "無症状": false,
         "年代": "40代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1036303/1036559.html",
         "yt": "mt-mLSFRYDQ",
         "接触歴": "判明"
       },
       {
         "id": 2551,
         "確定日": "2021-08-18",
-        "発症日": null,
+        "発症日": "2021-08-15",
         "無症状": false,
         "年代": "30代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1036303/1036560.html",
         "yt": "mt-mLSFRYDQ",
         "接触歴": "判明"
       },
       {
         "id": 2552,
         "確定日": "2021-08-18",
-        "発症日": null,
+        "発症日": "2021-08-15",
         "無症状": false,
         "年代": "30代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1036303/1036562.html",
         "yt": "mt-mLSFRYDQ",
         "接触歴": "不明"
       },
       {
         "id": 2553,
         "確定日": "2021-08-18",
-        "発症日": null,
+        "発症日": "2021-08-11",
         "無症状": false,
         "年代": "30代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1036303/1036563.html",
         "yt": "mt-mLSFRYDQ",
         "接触歴": "不明"
       },
       {
         "id": 2554,
         "確定日": "2021-08-18",
-        "発症日": null,
+        "発症日": "2021-08-15",
         "無症状": false,
         "年代": "40代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1036303/1036564.html",
         "yt": "mt-mLSFRYDQ",
         "接触歴": "不明"
       },
@@ -31085,7 +31085,7 @@
     ]
   },
   "patients_summary": {
-    "date": "2021-08-19T15:18:27+09:00",
+    "date": "2021-08-19T18:02:52+09:00",
     "data": [
       {
         "日付": "2020-02-15",
@@ -33297,5 +33297,5 @@
       }
     ]
   },
-  "lastUpdate": "2021-08-19T15:18:27+09:00"
+  "lastUpdate": "2021-08-19T18:02:52+09:00"
 }
