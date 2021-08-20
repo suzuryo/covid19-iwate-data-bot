@@ -5137,7 +5137,7 @@
       }
     },
     {
-      "date": "2021-08-19",
+      "date": "2021-08-20",
       "icon": "📄",
       "url": {
         "ja": "https://www.aeontown.co.jp/kamaishi/information/detail/?id=5901",
@@ -5145,6 +5145,18 @@
       },
       "text": {
         "ja": "イオンタウン釜石 ユニクロ (釜石市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-08-20",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.uniqlo.com/jp/ja/contents/corp/press-release/2021/08/covid19_2021.html",
+        "en": null
+      },
+      "text": {
+        "ja": "ユニクロ イオンタウン釜石店 (釜石市)",
         "en": null
       }
     }
