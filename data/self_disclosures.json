@@ -5207,6 +5207,18 @@
         "ja": "円晶 [狸横丁に関して] (奥州市)",
         "en": null
       }
+    },
+    {
+      "date": "2021-08-20",
+      "icon": "📄",
+      "url": {
+        "ja": "https://prd-4s-public.s3.ap-northeast-1.amazonaws.com/sys-master/public/h23/h5c/9061652398110/20210820_ppress_covid.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "一関ヒロセ電機 (一関市)",
+        "en": null
+      }
     }
   ]
 }
