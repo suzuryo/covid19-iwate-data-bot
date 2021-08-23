@@ -5363,6 +5363,18 @@
         "ja": "朝日生命 盛岡東営業所 (盛岡市)",
         "en": null
       }
+    },
+    {
+      "date": "2021-08-23",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.nissay.co.jp/coronavirusoshirase/infomation/index.html",
+        "en": null
+      },
+      "text": {
+        "ja": "日本生命 (盛岡市)",
+        "en": null
+      }
     }
   ]
 }
