@@ -1,7 +1,7 @@
 {
-  "date": "2021-08-23T08:32:42+09:00",
+  "date": "2021-08-23T15:05:35+09:00",
   "datasets": {
-    "date": "2021-08-23T08:32:42+09:00",
+    "date": "2021-08-23T15:05:35+09:00",
     "data": [
       {
         "code": "032018",
@@ -32,8 +32,8 @@
         "area": "岩手県",
         "label": "花巻市",
         "ruby": "はなまきし",
-        "count": 73,
-        "count_per_population": "0.078"
+        "count": 74,
+        "count_per_population": "0.079"
       },
       {
         "code": "032069",
@@ -256,8 +256,8 @@
         "area": "岩手県",
         "label": "洋野町",
         "ruby": "ひろのちょう",
-        "count": 10,
-        "count_per_population": "0.066"
+        "count": 11,
+        "count_per_population": "0.073"
       },
       {
         "code": "035246",
