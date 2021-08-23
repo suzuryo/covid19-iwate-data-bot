@@ -5459,6 +5459,42 @@
         "ja": "盛岡赤十字病院 (第8報) (盛岡市)",
         "en": null
       }
+    },
+    {
+      "date": "2021-08-21",
+      "icon": "📄",
+      "url": {
+        "ja": "http://www.daiichi-kamotsu.co.jp/company/pressroom/info/covid/pdf/21082102.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "第一貨物 一関営業所 (一関市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-08-16",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.npr.co.jp/news/pdf/2021_0816_01.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "日ピス岩手 (一関市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-08-04",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.vitalnet.jp/news/2196",
+        "en": null
+      },
+      "text": {
+        "ja": "バイタルネット 盛岡支店 (盛岡市)",
+        "en": null
+      }
     }
   ]
 }
