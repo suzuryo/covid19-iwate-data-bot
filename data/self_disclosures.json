@@ -409,18 +409,6 @@
       }
     },
     {
-      "date": "2021-01-04",
-      "icon": "📄",
-      "url": {
-        "ja": "http://www.morioka.jrc.or.jp/news/",
-        "en": null
-      },
-      "text": {
-        "ja": "盛岡赤十字病院 [更新] (盛岡市)",
-        "en": null
-      }
-    },
-    {
       "date": "2021-01-05",
       "icon": "📄",
       "url": {
@@ -5373,6 +5361,102 @@
       },
       "text": {
         "ja": "日本生命 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2020-12-22",
+      "icon": "📄",
+      "url": {
+        "ja": "http://www.morioka.jrc.or.jp/news/2766/",
+        "en": null
+      },
+      "text": {
+        "ja": "盛岡赤十字病院 (第7報) (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2020-12-17",
+      "icon": "📄",
+      "url": {
+        "ja": "http://www.morioka.jrc.or.jp/news/2755/",
+        "en": null
+      },
+      "text": {
+        "ja": "盛岡赤十字病院 (第5報) (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2020-12-02",
+      "icon": "📄",
+      "url": {
+        "ja": "http://www.morioka.jrc.or.jp/news/2719/",
+        "en": null
+      },
+      "text": {
+        "ja": "盛岡赤十字病院 (第4報) (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2020-12-21",
+      "icon": "📄",
+      "url": {
+        "ja": "http://www.morioka.jrc.or.jp/news/2755/",
+        "en": null
+      },
+      "text": {
+        "ja": "盛岡赤十字病院 (第6報) (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2020-11-24",
+      "icon": "📄",
+      "url": {
+        "ja": "http://www.morioka.jrc.or.jp/news/2700/",
+        "en": null
+      },
+      "text": {
+        "ja": "盛岡赤十字病院 (第3報) (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2020-11-16",
+      "icon": "📄",
+      "url": {
+        "ja": "http://www.morioka.jrc.or.jp/news/2684/",
+        "en": null
+      },
+      "text": {
+        "ja": "盛岡赤十字病院 (第2報) (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2020-11-13",
+      "icon": "📄",
+      "url": {
+        "ja": "http://www.morioka.jrc.or.jp/news/2682/",
+        "en": null
+      },
+      "text": {
+        "ja": "盛岡赤十字病院 (第1報) (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-01-04",
+      "icon": "📄",
+      "url": {
+        "ja": "http://www.morioka.jrc.or.jp/news/2776/",
+        "en": null
+      },
+      "text": {
+        "ja": "盛岡赤十字病院 (第8報) (盛岡市)",
         "en": null
       }
     }
