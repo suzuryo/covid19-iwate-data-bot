@@ -60,7 +60,7 @@ class Iwate
     patient['確定日'] = m ? Date.parse("2021/#{m[:month]}/#{m[:day]}").days_ago(1).strftime('%Y/%m/%d') : ''
 
     # dl の dt と dd のハッシュ
-    dl = doc.css('#voice > dl > dt').map { |v| [v.text, v.next_element.text.strip.gsub("\n", '')] }.to_h
+    dl = doc.css('#voice > dl > dt').map { |v| [v.text.gsub("\n", ''), v.next_element.text.strip.gsub("\n", '')] }.to_h
 
     patient['年代'] = dl['年代'].gsub(' ', '')
     patient['性別'] = dl['性別']
