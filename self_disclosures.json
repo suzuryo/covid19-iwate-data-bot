@@ -5807,6 +5807,42 @@
         "ja": "富士大学 (花巻市)",
         "en": null
       }
+    },
+    {
+      "date": "2021-08-26",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.kioxia-iwate.co.jp/news/2021/20210826-1.html",
+        "en": null
+      },
+      "text": {
+        "ja": "キオクシア岩手 [敷地内で工事を行っている協力会社] (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-08-26",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.kitagin.co.jp/news/download/pdf/20210826_1.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "北日本銀行 [取引先] (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-08-26",
+      "icon": "📄",
+      "url": {
+        "ja": "https://www.city.ichinoseki.iwate.jp/index.cfm/28,127161,c,html/127161/20210826-162408.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "市内小学校 (一関市)",
+        "en": null
+      }
     }
   ]
 }
