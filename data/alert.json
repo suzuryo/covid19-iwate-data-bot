@@ -1,30 +1,6 @@
 {
   "alertItems": [
     {
-      "date": "2021-08-24",
-      "icon": "📄",
-      "url": {
-        "ja": "/vaccine/",
-        "en": null
-      },
-      "text": {
-        "ja": "8月24日の県による集団接種の予約状況を見て、予約テクニックなど追記しました",
-        "en": null
-      }
-    },
-    {
-      "date": "2021-08-12",
-      "icon": "📄",
-      "url": {
-        "ja": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1045804.html",
-        "en": null
-      },
-      "text": {
-        "ja": "岩手県独自の「岩手緊急事態宣言」を実施中 (2021.8.12〜) 【解除の目安：毎日の陽性者数 17人以下が1週間続く】",
-        "en": "The Iwate governor declared a Iwate own's state of emergency over COVID-19."
-      }
-    },
-    {
       "date": "2021-08-26",
       "icon": "📄",
       "url": {
@@ -32,8 +8,8 @@
         "en": null
       },
       "text": {
-        "ja": "岩手県独自の「岩手緊急事態宣言」の改訂 (2021.8.26) [変更点は赤文字の部分]",
-        "en": null
+        "ja": "岩手県独自の「岩手緊急事態宣言」を実施中 (2021.8.12〜)  [2021.8.26 変更点は赤文字の部分]【解除の目安：毎日の陽性者数 17人以下が1週間続く】",
+        "en": "The Iwate governor declared a Iwate own's state of emergency over COVID-19."
       }
     },
     {
@@ -45,6 +21,18 @@
       },
       "text": {
         "ja": "飲食店の営業時間短縮要請と協力金について (2021.8.30〜9.12) [対象：盛岡市]",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-08-24",
+      "icon": "📄",
+      "url": {
+        "ja": "/vaccine/",
+        "en": null
+      },
+      "text": {
+        "ja": "8月24日の県による集団接種の予約状況を見て、予約テクニックなど追記しました",
         "en": null
       }
     }
