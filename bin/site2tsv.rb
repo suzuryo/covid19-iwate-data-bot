@@ -36,7 +36,7 @@ module Site2Tsv
       # 文字列組み立て
       @patients = ''
       prev_id = id
-      data.sort_by { |a| a['id'] }.uniq.each do |b|
+      data.filter{ |a| !(a.instance_of? OpenURI::HTTPError) }.sort_by { |a| a['id'] }.uniq.each do |b|
         @patients += "\n" * (b['id'] - prev_id)
         @patients += "#{b['id']}\t#{b['リリース日']}\t#{b['確定日']}\t#{b['発症日']}\t#{b['無症状']}\t#{b['年代']}\t#{b['性別']}\t#{b['居住地']}\t#{b['滞在地']}\t#{b['入院日']}\t#{b['url']}\t#{b['接触歴']}\t#{b['陽性最終確定検査手法']}"
         prev_id = b['id']

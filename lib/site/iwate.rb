@@ -16,7 +16,12 @@ class Iwate
 
   def data
     uris.map do |uri|
-      parse(uri, doc(uri))
+      begin
+        parse(uri, doc(uri))
+      rescue => e
+        p uri, e
+        e
+      end
     end
   end
 
