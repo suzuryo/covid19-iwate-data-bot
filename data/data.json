@@ -1,6 +1,6 @@
 {
   "patients": {
-    "date": "2021-08-30T20:50:05+09:00",
+    "date": "2021-08-30T21:18:31+09:00",
     "data": [
       {
         "id": 1,
@@ -35423,7 +35423,7 @@
         "居住地": "盛岡市",
         "滞在地": null,
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1036303/1036765.html",
-        "yt": null,
+        "yt": "QchITI-XKZo",
         "接触歴": "判明"
       },
       {
@@ -35435,7 +35435,7 @@
         "居住地": "盛岡市",
         "滞在地": null,
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1036303/1036766.html",
-        "yt": null,
+        "yt": "QchITI-XKZo",
         "接触歴": "判明"
       },
       {
@@ -35447,7 +35447,7 @@
         "居住地": "盛岡市",
         "滞在地": null,
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1036303/1036767.html",
-        "yt": null,
+        "yt": "QchITI-XKZo",
         "接触歴": "判明"
       },
       {
@@ -35459,7 +35459,7 @@
         "居住地": "盛岡市",
         "滞在地": null,
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1036303/1036769.html",
-        "yt": null,
+        "yt": "QchITI-XKZo",
         "接触歴": "判明"
       },
       {
@@ -35471,7 +35471,7 @@
         "居住地": "奥州市",
         "滞在地": "盛岡市",
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1036303/1036770.html",
-        "yt": null,
+        "yt": "QchITI-XKZo",
         "接触歴": "判明"
       },
       {
@@ -35483,7 +35483,7 @@
         "居住地": "盛岡市",
         "滞在地": null,
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1036303/1036772.html",
-        "yt": null,
+        "yt": "QchITI-XKZo",
         "接触歴": "判明"
       },
       {
@@ -35495,7 +35495,7 @@
         "居住地": "盛岡市",
         "滞在地": null,
         "url": "http://www.city.morioka.iwate.jp/kenkou/kenko/1031971/1032075/1036303/1036773.html",
-        "yt": null,
+        "yt": "QchITI-XKZo",
         "接触歴": "判明"
       },
       {
@@ -35507,7 +35507,7 @@
         "居住地": "県央保健所管内",
         "滞在地": null,
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1046015/1046607.html",
-        "yt": null,
+        "yt": "QchITI-XKZo",
         "接触歴": "判明"
       },
       {
@@ -35519,7 +35519,7 @@
         "居住地": "県央保健所管内",
         "滞在地": null,
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1046015/1046608.html",
-        "yt": null,
+        "yt": "QchITI-XKZo",
         "接触歴": "判明"
       },
       {
@@ -35531,7 +35531,7 @@
         "居住地": "県央保健所管内",
         "滞在地": null,
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1046015/1046609.html",
-        "yt": null,
+        "yt": "QchITI-XKZo",
         "接触歴": "判明"
       },
       {
@@ -35543,7 +35543,7 @@
         "居住地": "中部保健所管内",
         "滞在地": null,
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1046015/1046610.html",
-        "yt": null,
+        "yt": "QchITI-XKZo",
         "接触歴": "判明"
       },
       {
@@ -35555,7 +35555,7 @@
         "居住地": "花巻市",
         "滞在地": null,
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1046015/1046611.html",
-        "yt": null,
+        "yt": "QchITI-XKZo",
         "接触歴": "不明"
       },
       {
@@ -35567,7 +35567,7 @@
         "居住地": "県外",
         "滞在地": "北上市",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1046015/1046612.html",
-        "yt": null,
+        "yt": "QchITI-XKZo",
         "接触歴": "判明"
       },
       {
@@ -35579,7 +35579,7 @@
         "居住地": "県外",
         "滞在地": "北上市",
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1046015/1046613.html",
-        "yt": null,
+        "yt": "QchITI-XKZo",
         "接触歴": "判明"
       },
       {
@@ -35591,7 +35591,7 @@
         "居住地": "遠野市",
         "滞在地": null,
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1046015/1046614.html",
-        "yt": null,
+        "yt": "QchITI-XKZo",
         "接触歴": "判明"
       },
       {
@@ -35603,7 +35603,7 @@
         "居住地": "中部保健所管内",
         "滞在地": null,
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1046015/1046615.html",
-        "yt": null,
+        "yt": "QchITI-XKZo",
         "接触歴": "判明"
       },
       {
@@ -35615,7 +35615,7 @@
         "居住地": "奥州市",
         "滞在地": null,
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1046015/1046616.html",
-        "yt": null,
+        "yt": "QchITI-XKZo",
         "接触歴": "判明"
       },
       {
@@ -35627,13 +35627,13 @@
         "居住地": "一関保健所管内",
         "滞在地": null,
         "url": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1046015/1046617.html",
-        "yt": null,
+        "yt": "QchITI-XKZo",
         "接触歴": "判明"
       }
     ]
   },
   "patients_summary": {
-    "date": "2021-08-30T20:50:05+09:00",
+    "date": "2021-08-30T21:18:31+09:00",
     "data": [
       {
         "日付": "2020-02-15",
@@ -37889,5 +37889,5 @@
       }
     ]
   },
-  "lastUpdate": "2021-08-30T20:50:05+09:00"
+  "lastUpdate": "2021-08-30T21:18:31+09:00"
 }
