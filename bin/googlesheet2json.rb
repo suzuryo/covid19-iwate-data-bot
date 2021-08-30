@@ -295,7 +295,6 @@ NEWS.each do |row|
   data_news_json[:newsItems].append(
     {
       date: Time.parse(row['date']).strftime('%Y-%m-%d'),
-      icon: row['icon'],
       url: {
         ja: row['url_ja'].blank? ? nil : row['url_ja'],
         en: row['url_en'].blank? ? nil : row['url_en']
@@ -320,7 +319,6 @@ ALERT.each do |row|
   data_alert_json[:alertItems].append(
     {
       date: Time.parse(row['date']).strftime('%Y-%m-%d'),
-      icon: row['icon'],
       url: {
         ja: row['url_ja'].blank? ? nil : row['url_ja'],
         en: row['url_en'].blank? ? nil : row['url_en']
@@ -345,7 +343,6 @@ SELF_DISCLOSURES.each do |row|
   data_self_disclosures_json[:newsItems].append(
     {
       date: Time.parse(row['date']).strftime('%Y-%m-%d'),
-      icon: row['icon'],
       url: {
         ja: row['url_ja'].blank? ? nil : row['url_ja'],
         en: row['url_en'].blank? ? nil : row['url_en']
