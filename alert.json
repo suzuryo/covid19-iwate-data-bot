@@ -2,7 +2,6 @@
   "alertItems": [
     {
       "date": "2021-08-26",
-      "icon": "📄",
       "url": {
         "ja": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/035/134/20210826_03_1.pdf",
         "en": null
@@ -14,7 +13,6 @@
     },
     {
       "date": "2021-08-26",
-      "icon": "📄",
       "url": {
         "ja": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/035/134/20210826_03_3-kai.pdf",
         "en": null
@@ -26,7 +24,6 @@
     },
     {
       "date": "2021-08-30",
-      "icon": "📄",
       "url": {
         "ja": "/cards/monitoring-number-of-confirmed-cases-per-100k/",
         "en": null

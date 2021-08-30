@@ -2,7 +2,6 @@
   "newsItems": [
     {
       "date": "2020-07-31",
-      "icon": "🍀",
       "url": {
         "ja": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1032521.html",
         "en": null
@@ -14,7 +13,6 @@
     },
     {
       "date": "2021-05-11",
-      "icon": "📺",
       "url": {
         "ja": "https://www.youtube.com/watch?v=P4KN8qskP2M",
         "en": null
@@ -26,7 +24,6 @@
     },
     {
       "date": "2021-03-03",
-      "icon": "📄",
       "url": {
         "ja": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1037252.html",
         "en": null
@@ -38,7 +35,6 @@
     },
     {
       "date": "2021-05-27",
-      "icon": "📺",
       "url": {
         "ja": "https://www.youtube.com/watch?v=7ulbrYDQZgs",
         "en": null
@@ -50,7 +46,6 @@
     },
     {
       "date": "2021-07-01",
-      "icon": "📄",
       "url": {
         "ja": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1044242.html",
         "en": null
@@ -62,7 +57,6 @@
     },
     {
       "date": "2021-08-13",
-      "icon": "📄",
       "url": {
         "ja": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/035/134/20210812_03.pdf",
         "en": null
@@ -74,7 +68,6 @@
     },
     {
       "date": "2021-08-19",
-      "icon": "📄",
       "url": {
         "ja": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/035/134/20210819_03_1.pdf",
         "en": null
@@ -86,7 +79,6 @@
     },
     {
       "date": "2021-08-20",
-      "icon": "📄",
       "url": {
         "ja": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1037252.html",
         "en": null
@@ -98,7 +90,6 @@
     },
     {
       "date": "2021-08-26",
-      "icon": "📄",
       "url": {
         "ja": "https://www.pref.iwate.jp/kurashikankyou/iryou/kenkou/jouhou/1035134.html#39",
         "en": null
@@ -110,7 +101,6 @@
     },
     {
       "date": "2021-08-12",
-      "icon": "📄",
       "url": {
         "ja": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1045804.html",
         "en": null
@@ -122,7 +112,6 @@
     },
     {
       "date": "2021-08-26",
-      "icon": "📄",
       "url": {
         "ja": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/035/134/20210826_03_1.pdf",
         "en": null
@@ -134,7 +123,6 @@
     },
     {
       "date": "2021-08-26",
-      "icon": "📄",
       "url": {
         "ja": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/035/134/20210826_03_3-kai.pdf",
         "en": null
@@ -146,7 +134,6 @@
     },
     {
       "date": "2021-08-26",
-      "icon": "📺",
       "url": {
         "ja": "https://www.youtube.com/watch?v=Hoqsv4-35ZM",
         "en": null
