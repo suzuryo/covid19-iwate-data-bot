@@ -5598,6 +5598,39 @@
         "ja": "富士大学 (花巻市)",
         "en": null
       }
+    },
+    {
+      "date": "2021-09-01",
+      "url": {
+        "ja": "http://www.nikkaniwate.co.jp/",
+        "en": null
+      },
+      "text": {
+        "ja": "日刊岩手建設工業新聞社 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-09-01",
+      "url": {
+        "ja": "http://www.morioka-times.com/corona_20210901.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "盛岡タイムス社 関連会社 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-08-30",
+      "url": {
+        "ja": "https://www.asahi-life.co.jp/oshirase_20210830.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "朝日生命 盛岡東営業所 (盛岡市)",
+        "en": null
+      }
     }
   ]
 }
