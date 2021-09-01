@@ -5653,6 +5653,28 @@
         "ja": "萬屋 盛岡店 (盛岡市)",
         "en": null
       }
+    },
+    {
+      "date": "2021-09-01",
+      "url": {
+        "ja": "https://www.iwatebank.co.jp/assets/pdf/20210901_covid_news.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手銀行 一関支店 (一関市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-08-28",
+      "url": {
+        "ja": "http://matsuzonofukushikai.jp/asukanosato/topics/img/asukanosato20210828.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "花巻あすかの里 (花巻市)",
+        "en": null
+      }
     }
   ]
 }
