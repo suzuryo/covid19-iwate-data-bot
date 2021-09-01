@@ -1,47 +1,47 @@
 {
-  "date": "2021-09-01T13:57:31+09:00",
+  "date": "2021-09-01T15:11:08+09:00",
   "datasets": {
-    "date": "2021-09-01T13:57:31+09:00",
+    "date": "2021-09-01T15:11:08+09:00",
     "data": [
       {
         "code": "032018",
         "area": "岩手県",
         "label": "盛岡市",
         "ruby": "もりおかし",
-        "count": 1065,
-        "count_per_population": "0.367"
+        "count": 1081,
+        "count_per_population": "0.373"
       },
       {
         "code": "032026",
         "area": "岩手県",
         "label": "宮古市",
         "ruby": "みやこし",
-        "count": 148,
-        "count_per_population": "0.294"
+        "count": 149,
+        "count_per_population": "0.296"
       },
       {
         "code": "032034",
         "area": "岩手県",
         "label": "大船渡市",
         "ruby": "おおふなとし",
-        "count": 40,
-        "count_per_population": "0.115"
+        "count": 41,
+        "count_per_population": "0.118"
       },
       {
         "code": "032051",
         "area": "岩手県",
         "label": "花巻市",
         "ruby": "はなまきし",
-        "count": 83,
-        "count_per_population": "0.089"
+        "count": 84,
+        "count_per_population": "0.090"
       },
       {
         "code": "032069",
         "area": "岩手県",
         "label": "北上市",
         "ruby": "きたかみし",
-        "count": 143,
-        "count_per_population": "0.154"
+        "count": 145,
+        "count_per_population": "0.156"
       },
       {
         "code": "032077",
@@ -64,8 +64,8 @@
         "area": "岩手県",
         "label": "一関市",
         "ruby": "いちのせきし",
-        "count": 130,
-        "count_per_population": "0.116"
+        "count": 131,
+        "count_per_population": "0.117"
       },
       {
         "code": "032107",
@@ -104,7 +104,7 @@
         "area": "岩手県",
         "label": "奥州市",
         "ruby": "おうしゅうし",
-        "count": 229,
+        "count": 230,
         "count_per_population": "0.203"
       },
       {
@@ -272,7 +272,7 @@
         "area": "県外",
         "label": "県外",
         "ruby": "けんがい",
-        "count": 134,
+        "count": 141,
         "count_per_population": null
       }
     ]
