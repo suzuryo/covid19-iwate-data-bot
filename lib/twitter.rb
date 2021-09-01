@@ -64,10 +64,9 @@ module Tweet2Tsv
                      else
                        patient[4].split(/[(（]/)[0].gsub('滞在地', '').gsub(/[:：]/, '')
                      end
-          h['滞在地'] = if h['居住地'] === '県外'
-                       patient[4].split(/滞在地/)[1].split(/[(（]/)[0].gsub('滞在地', '').gsub(/[:：]/, '').gsub(/[)）]/, '')
-                     else
-                       ''
+          h['滞在地'] = unless patient[4].split(/滞在地[:：]/)[1].nil?
+                      p patient[4].split(/滞在地/)[1].split(/[(（]/)[0].gsub('滞在地', '').gsub(/[:：]/, '').gsub(/[)）]/, '')
+                      patient[4].split(/滞在地/)[1].split(/[(（]/)[0].gsub('滞在地', '').gsub(/[:：]/, '').gsub(/[)）]/, '')
                      end
           h['職業'] = patient[5]
           h['接触歴'] = '不明'
@@ -87,10 +86,9 @@ module Tweet2Tsv
                    else
                      patient[4].split(/[(（]/)[0].gsub('滞在地', '').gsub(/[:：]/, '')
                    end
-        h['滞在地'] = if h['居住地'] === '県外'
+        h['滞在地'] = unless patient[4].split(/滞在地[:：]/)[1].nil?
+                     p patient[4].split(/滞在地/)[1].split(/[(（]/)[0].gsub('滞在地', '').gsub(/[:：]/, '').gsub(/[)）]/, '')
                      patient[4].split(/滞在地/)[1].split(/[(（]/)[0].gsub('滞在地', '').gsub(/[:：]/, '').gsub(/[)）]/, '')
-                   else
-                     ''
                    end
         h['職業'] = patient[5]
         h['接触歴'] = '判明'
