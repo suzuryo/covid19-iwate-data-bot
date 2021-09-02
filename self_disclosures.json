@@ -5694,7 +5694,7 @@
         "en": null
       },
       "text": {
-        "ja": "イオンモール盛岡 (Natural Coordinate)(まくらぼ) (盛岡市前潟)",
+        "ja": "イオンモール盛岡 (NaturalCoordinate)(まくらぼ) (盛岡市前潟)",
         "en": null
       }
     },
@@ -5750,6 +5750,17 @@
       },
       "text": {
         "ja": "久慈郵便局 (久慈市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-09-02",
+      "url": {
+        "ja": "https://www.daiso-sangyo.co.jp/info/important/11875",
+        "en": null
+      },
+      "text": {
+        "ja": "Naturalcoordinate盛岡 (イオンモール盛岡) (盛岡市前潟)",
         "en": null
       }
     }
