@@ -5829,6 +5829,17 @@
         "ja": "東北銀行 青山支店 (盛岡市)",
         "en": null
       }
+    },
+    {
+      "date": "2021-09-03",
+      "url": {
+        "ja": "https://www.iwatebank.co.jp/assets/pdf/20210903_covid_news.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手銀行 一関支店 [続報] (一関市)",
+        "en": null
+      }
     }
   ]
 }
