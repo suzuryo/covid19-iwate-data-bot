@@ -5851,6 +5851,39 @@
         "ja": "青紀土木 北上営業所 [続報] (北上市)",
         "en": null
       }
+    },
+    {
+      "date": "2021-09-03",
+      "url": {
+        "ja": "https://www.morioka-gas.co.jp/cms/wp-content/uploads/2021/09/moriokagas_coronainfo_20210903.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "盛岡ガス [続報] (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-09-02",
+      "url": {
+        "ja": "http://www.nikkaniwate.co.jp/",
+        "en": null
+      },
+      "text": {
+        "ja": "日刊岩手建設工業新聞社 [続報] (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-09-02",
+      "url": {
+        "ja": "http://www.morioka-times.com/corona_20210902.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "盛岡タイムス社 関連会社 [続報] (盛岡市)",
+        "en": null
+      }
     }
   ]
 }
