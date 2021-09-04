@@ -1,4 +1,6 @@
 /credentials.json
 /token.yaml
 /.env
-/tsv/
+/tsv/*
+
+!.gitkeep
