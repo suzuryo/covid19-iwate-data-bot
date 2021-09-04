@@ -3,9 +3,11 @@
 ## 1. 環境構築
 
 - ruby 3.0.1
+- Python 3.7.11
 
 ```
 $ bundle
+$ pip install -r requirements.txt
 ```
 
 ## 2. JSON生成プログラムの実行
@@ -35,23 +37,7 @@ bundle exec bin/googlesheet2json.rb
 
 が生成される。
 
-## 3. 岩手県と盛岡市のサイトからTSVを生成する
-
-```
-bundle exec bin/site2tsv.rb # 普通はこれ
-bundle exec bin/site2tsv.rb new
-bundle exec bin/site2tsv.rb new --id NUM
-```
-
-実行すると、pref.iwateとcity.moriokaのサイトから、id NUM 以降のデータをスクレイピングして
-
-```
-./tsv/site.tsv
-```
-
-が生成される。
-
-## 4.1 twitter.com/iwatevscovid19 からTSVを生成する
+## 3.1 twitter.com/iwatevscovid19 からTSVを生成する
 
 ```
 bundle exec bin/tweet2tsv.rb # 普通はこれ
@@ -70,7 +56,7 @@ bundle exec bin/tweet2tsv.rb new --days NUM
 が生成される。
 
 
-## 4.2 ./input/tweets.txt からTSVを生成する
+## 3.2 ./input/tweets.txt からTSVを生成する
 
 その日の15時にLINEで届くメッセージをコピペして `./input/tweets.txt` を作成してから
 
@@ -96,6 +82,26 @@ bundle exec bin/iwateNinshouRestaurant2csv.rb
 
 ```
 ./tsv/restaurant.csv
+```
+
+が生成される。
+
+------------------------------------------------------------
+
+## [obsoleted]. 岩手県と盛岡市のサイトからTSVを生成する
+
+個別ページでの公表が無くなったので 2021/9/2に使えなくなった
+
+```
+bundle exec bin/site2tsv.rb # 普通はこれ
+bundle exec bin/site2tsv.rb new
+bundle exec bin/site2tsv.rb new --id NUM
+```
+
+実行すると、pref.iwateとcity.moriokaのサイトから、id NUM 以降のデータをスクレイピングして
+
+```
+./tsv/site.tsv
 ```
 
 が生成される。
