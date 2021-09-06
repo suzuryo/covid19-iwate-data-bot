@@ -45,17 +45,6 @@
       }
     },
     {
-      "date": "2021-07-01",
-      "url": {
-        "ja": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1044242.html",
-        "en": null
-      },
-      "text": {
-        "ja": "県や国などの支援策 まとめ 【第5弾】",
-        "en": null
-      }
-    },
-    {
       "date": "2021-08-13",
       "url": {
         "ja": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/035/134/20210812_03.pdf",
@@ -140,6 +129,17 @@
       },
       "text": {
         "ja": "知事メッセージ (まん延防止等重点措置適用の見送り・盛岡市を対象に飲食店の時短要請)",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-09-01",
+      "url": {
+        "ja": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1046603.html",
+        "en": null
+      },
+      "text": {
+        "ja": "県や国などの支援策 まとめ 【第6弾】",
         "en": null
       }
     }
