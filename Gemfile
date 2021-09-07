@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 
 gem 'activesupport'
 gem 'dotenv'
+gem 'down'
 gem "functions_framework"
 gem 'google-apis-sheets_v4'
 gem 'nokogiri'

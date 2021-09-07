@@ -15,6 +15,8 @@ GEM
     declarative (0.0.20)
     diff-lcs (1.4.4)
     dotenv (2.7.6)
+    down (5.2.3)
+      addressable (~> 2.8)
     ethon (0.14.0)
       ffi (>= 1.15.0)
     faraday (1.7.1)
@@ -149,6 +151,7 @@ PLATFORMS
 DEPENDENCIES
   activesupport
   dotenv
+  down
   functions_framework
   google-apis-sheets_v4
   nokogiri

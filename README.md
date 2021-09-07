@@ -72,6 +72,20 @@ bundle exec bin/tweet2tsv.rb --from-files
 
 が生成される。
 
+## 4. 岩手県のサイトからPDFをダウンロードしてCSVに変換する
+
+```
+bundle exec bin/pdf2tsv.rb
+```
+
+を実行すると
+
+```
+./tsv/site.tsv
+```
+
+が生成される。
+
 # 5. iwate-ninshou.jp から GoogleMyMap に読み込ませるCSVを生成する
 
 ```
