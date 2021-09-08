@@ -17,15 +17,6 @@ CSV_DIR_MORIOKA = File.expand_path(File.join(__dir__, '../download/csv/morioka')
 module Pdf2Tsv
   # Site2Tsv CLI
   class Cli < Thor
-    # {
-    #   url: 'https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/046/698/patients_2021090502.pdf',
-    #   pdf: '/Users/suzuryo/repos/github.com/suzuryo/covid19-iwate-data-bot/download/pdf/iwate/patients_2021090502.pdf',
-    #   csv: [
-    #     '/Users/suzuryo/repos/github.com/suzuryo/covid19-iwate-data-bot/download/csv/iwate/patients_2021090502-page-1-table-1.csv',
-    #     '/Users/suzuryo/repos/github.com/suzuryo/covid19-iwate-data-bot/download/csv/iwate/patients_2021090502-page-2-table-1.csv'
-    #   ]
-    # }
-
     # remove_file や template を利用する
     include Thor::Actions
     # 規定外のオプションをチェック
@@ -52,7 +43,6 @@ module Pdf2Tsv
         end
       end
 
-
       # データが空ならば何もしない
       raise Error, set_color('ERROR: patients blank', :red) if @tsv.blank?
 
@@ -69,6 +59,7 @@ module Pdf2Tsv
     end
 
     private
+
     def morioka
       files = []
       # すでにダウンロード済みのPDFファイル
@@ -103,7 +94,6 @@ module Pdf2Tsv
       end
 
       # PDFからcamelotでテーブルを検出してCSVを生成
-
       files.map {|a| a[:pdf] }.each do |pdf|
         # すでに生成済みのCSVファイル
         csv_filenames = Dir.children(CSV_DIR_MORIOKA).reject { |a| a.to_s.include? '.gitkeep' }
@@ -136,7 +126,6 @@ module Pdf2Tsv
                      end
 
           h['職業'] = row[4]
-
 
           if row[5].match(/無症状/)
             # 症状が無い場合は発症日が空
@@ -200,7 +189,6 @@ module Pdf2Tsv
 
         files << {url: url, pdf: "#{PDF_DIR_IWATE}/#{pdf_filename}"}
 
-
         # ダウンロードしたファイル名
         new_pdf_filenames << pdf_filename
       end
@@ -208,9 +196,7 @@ module Pdf2Tsv
       # デバッグ用
       # new_pdf_filenames = Dir.children(PDF_DIR).reject {|a| a.to_s.include? '.gitkeep'}
 
-
       # PDFからcamelotでテーブルを検出してCSVを生成
-
       files.map {|a| a[:pdf] }.each do |pdf|
         # すでに生成済みのCSVファイル
         csv_filenames = Dir.children(CSV_DIR_IWATE).reject { |a| a.to_s.include? '.gitkeep' }
@@ -243,7 +229,6 @@ module Pdf2Tsv
                      end
 
           h['職業'] = row[4]
-
 
           if row[5].match(/無症状/)
             # 症状が無い場合は発症日が空
