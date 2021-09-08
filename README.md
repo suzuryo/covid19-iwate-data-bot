@@ -72,7 +72,7 @@ bundle exec bin/tweet2tsv.rb --from-files
 
 が生成される。
 
-## 4. 岩手県のサイトからPDFをダウンロードしてCSVに変換する
+## 4. 岩手県と盛岡市のサイトからPDFをダウンロードしてTSVを生成する
 
 ```
 bundle exec bin/pdf2tsv.rb
@@ -81,7 +81,7 @@ bundle exec bin/pdf2tsv.rb
 を実行すると
 
 ```
-./tsv/site.tsv
+./tsv/pdf.tsv
 ```
 
 が生成される。
