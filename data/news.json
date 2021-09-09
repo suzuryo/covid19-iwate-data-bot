@@ -78,24 +78,13 @@
       }
     },
     {
-      "date": "2021-08-26",
-      "url": {
-        "ja": "https://www.pref.iwate.jp/kurashikankyou/iryou/kenkou/jouhou/1035134.html#39",
-        "en": null
-      },
-      "text": {
-        "ja": "岩手県 新型コロナウイルス感染症対策本部 第39回 本部員会議",
-        "en": null
-      }
-    },
-    {
       "date": "2021-08-12",
       "url": {
         "ja": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1045804.html",
         "en": null
       },
       "text": {
-        "ja": "岩手県独自の「岩手緊急事態宣言」を実施中 (2021.8.12〜) 【解除の目安：毎日の陽性者数 17人以下が1週間続く】",
+        "ja": "岩手県独自の「岩手緊急事態宣言」を実施 (ver1) (2021.8.12〜) 【解除の目安：毎日の陽性者数 17人以下が1週間続く】",
         "en": null
       }
     },
@@ -106,7 +95,7 @@
         "en": null
       },
       "text": {
-        "ja": "岩手県独自の「岩手緊急事態宣言」の改訂 (2021.8.26) [変更点は赤文字の部分]",
+        "ja": "岩手県独自の「岩手緊急事態宣言」の改訂 (ver2) [変更点は赤文字の部分]",
         "en": null
       }
     },
@@ -140,6 +129,39 @@
       },
       "text": {
         "ja": "県や国などの支援策 まとめ 【第6弾】",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-09-09",
+      "url": {
+        "ja": "https://www.pref.iwate.jp/kurashikankyou/iryou/kenkou/jouhou/1035134.html#40",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手県 新型コロナウイルス感染症対策本部 第40回 本部員会議",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-09-09",
+      "url": {
+        "ja": "https://www.youtube.com/watch?v=AoBUI4Bi9Jk",
+        "en": null
+      },
+      "text": {
+        "ja": "知事メッセージ (岩手緊急事態宣言の1ヶ月の振り返り・盛岡市の飲食店の時短要請終了・学校や職場クラスターについて)",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-09-09",
+      "url": {
+        "ja": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/035/134/20210909_02_5.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手県独自の「岩手緊急事態宣言」の改訂 (ver3) [変更点は赤文字の部分]",
         "en": null
       }
     }
