@@ -7,6 +7,7 @@ gem 'dotenv'
 gem 'down'
 gem "functions_framework"
 gem 'google-apis-sheets_v4'
+gem 'highline'
 gem 'nokogiri'
 gem 'sinatra'
 gem 'thor'

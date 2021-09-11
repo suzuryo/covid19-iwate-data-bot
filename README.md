@@ -75,7 +75,8 @@ bundle exec bin/tweet2tsv.rb --from-files
 ## 4. 岩手県と盛岡市のサイトからPDFをダウンロードしてTSVを生成する
 
 ```
-bundle exec bin/pdf2tsv.rb
+bundle exec bin/pdf2tsv.rb      # 普通はこれ
+bundle exec bin/pdf2tsv.rb --rm # ダウンロード済みのPDFと変換済みのCSVを削除してやり直す
 ```
 
 を実行すると

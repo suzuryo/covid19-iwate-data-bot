@@ -5,6 +5,7 @@ require 'active_support/core_ext/date'
 require 'csv'
 require 'down'
 require 'fileutils'
+require 'highline/import'
 require 'nokogiri'
 require 'open-uri'
 require 'thor'
@@ -25,8 +26,18 @@ module Pdf2Tsv
     default_command :generate
     # CLIの説明
     desc 'generate', 'Generate a site.tsv'
+    option :rm, type: :boolean
 
     def generate
+
+      if options[:rm]
+        exit unless HighLine.agree('本当にダウンロード済のPDFと変換済みのCSVファイルを削除しますか？ [y/n]')
+        FileUtils.rm(Dir.glob(File.join(PDF_DIR_IWATE, '*.pdf')), force: true)
+        FileUtils.rm(Dir.glob(File.join(CSV_DIR_IWATE, '*.csv')), force: true)
+        FileUtils.rm(Dir.glob(File.join(PDF_DIR_MORIOKA, '*.pdf')), force: true)
+        FileUtils.rm(Dir.glob(File.join(CSV_DIR_MORIOKA, '*.csv')), force: true)
+      end
+
       # 文字列組み立て
       @patients = []
       @patients += iwate
