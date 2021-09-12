@@ -135,7 +135,7 @@ module Pdf2Tsv
             h['滞在地'] = unless r3.split(/滞在地[:：]/)[1].nil?
                          r3.split(/滞在地/)[1].split(/[(（]/)[0].gsub('滞在地', '').gsub(/[:：]/, '').gsub(/[)）]/, '')
                        else
-                         nil
+                         ''
                        end
 
             h['職業'] = row[4]
@@ -143,10 +143,10 @@ module Pdf2Tsv
             if row[5].match(/無症状/)
               # 症状が無い場合は発症日が空
               h['無症状'] = '無症状'
-              h['発症日'] = nil
+              h['発症日'] = ''
             else
               # 無症状でない場合
-              h['無症状'] = nil
+              h['無症状'] = ''
               m2 = row[6].match(/(?<month>\d+)\/(?<day>\d+)/)
               h['発症日'] = m2 ? Date.parse("2021/#{m2[:month]}/#{m2[:day]}").strftime('%Y/%m/%d') : ''
             end
@@ -156,7 +156,7 @@ module Pdf2Tsv
                               elsif /抗原[：:]検出/.match row[8]
                                 '抗原検査'
                               else
-                                nil
+                                ''
                               end
 
             h['接触歴'] = row[13].length > 1 ? '判明' : '不明'
@@ -192,7 +192,7 @@ module Pdf2Tsv
             h['滞在地'] = unless r3.split(/滞在地[:：]/)[1].nil?
                          r3.split(/滞在地/)[1].split(/[(（]/)[0].gsub('滞在地', '').gsub(/[:：]/, '').gsub(/[)）]/, '')
                        else
-                         nil
+                         ''
                        end
 
             h['職業'] = row[4]
@@ -200,10 +200,10 @@ module Pdf2Tsv
             if row[5].match(/無症状/)
               # 症状が無い場合は発症日が空
               h['無症状'] = '無症状'
-              h['発症日'] = nil
+              h['発症日'] = ''
             else
               # 無症状でない場合
-              h['無症状'] = nil
+              h['無症状'] = ''
               m2 = row[6].match(/(?<month>\d+)月(?<day>\d+)日/)
               h['発症日'] = m2 ? Date.parse("2021/#{m2[:month]}/#{m2[:day]}").strftime('%Y/%m/%d') : ''
             end
@@ -213,7 +213,7 @@ module Pdf2Tsv
                               elsif /抗原[：:]検出/.match row[8]
                                 '抗原検査'
                               else
-                                nil
+                                ''
                               end
 
             h['接触歴'] = row[13].length > 1 ? '判明' : '不明'
