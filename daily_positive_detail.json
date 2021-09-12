@@ -1,5 +1,5 @@
 {
-  "date": "2021-09-12T16:35:23+09:00",
+  "date": "2021-09-12T23:10:03+09:00",
   "data": [
     {
       "diagnosed_date": "2020-02-13",
@@ -4524,10 +4524,10 @@
     {
       "diagnosed_date": "2021-08-31",
       "count": 44,
-      "missing_count": 17,
-      "reported_count": 27,
+      "missing_count": 21,
+      "reported_count": 23,
       "weekly_average_count": 38.29,
-      "weekly_average_untracked_count": 12.29
+      "weekly_average_untracked_count": 12.86
     },
     {
       "diagnosed_date": "2021-09-01",
@@ -4535,7 +4535,7 @@
       "missing_count": 9,
       "reported_count": 35,
       "weekly_average_count": 40.29,
-      "weekly_average_untracked_count": 11.43
+      "weekly_average_untracked_count": 12.0
     },
     {
       "diagnosed_date": "2021-09-02",
@@ -4543,7 +4543,7 @@
       "missing_count": 19,
       "reported_count": 29,
       "weekly_average_count": 41.29,
-      "weekly_average_untracked_count": 12.29
+      "weekly_average_untracked_count": 12.86
     },
     {
       "diagnosed_date": "2021-09-03",
@@ -4551,7 +4551,7 @@
       "missing_count": 13,
       "reported_count": 29,
       "weekly_average_count": 41.29,
-      "weekly_average_untracked_count": 11.57
+      "weekly_average_untracked_count": 12.14
     },
     {
       "diagnosed_date": "2021-09-04",
@@ -4559,7 +4559,7 @@
       "missing_count": 12,
       "reported_count": 30,
       "weekly_average_count": 39.0,
-      "weekly_average_untracked_count": 12.29
+      "weekly_average_untracked_count": 12.86
     },
     {
       "diagnosed_date": "2021-09-05",
@@ -4567,7 +4567,7 @@
       "missing_count": 4,
       "reported_count": 21,
       "weekly_average_count": 40.0,
-      "weekly_average_untracked_count": 12.71
+      "weekly_average_untracked_count": 13.29
     },
     {
       "diagnosed_date": "2021-09-06",
@@ -4575,7 +4575,7 @@
       "missing_count": 8,
       "reported_count": 14,
       "weekly_average_count": 38.14,
-      "weekly_average_untracked_count": 11.71
+      "weekly_average_untracked_count": 12.29
     },
     {
       "diagnosed_date": "2021-09-07",
