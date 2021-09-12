@@ -21,7 +21,7 @@ module Pdf2Tsv
     # デフォルトは generate
     default_command :generate
     # CLIの説明
-    desc 'generate', 'Generate a site.tsv'
+    desc 'generate', 'Generate a pdf.tsv'
     option :rm, type: :boolean
 
     def generate
