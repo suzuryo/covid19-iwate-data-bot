@@ -6522,6 +6522,28 @@
         "ja": "岩手県立大学 (滝沢市)",
         "en": null
       }
+    },
+    {
+      "date": "2021-09-13",
+      "url": {
+        "ja": "https://www.iwate-u.ac.jp/coronavirus2020iwate-u.27.html",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手大学 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-09-13",
+      "url": {
+        "ja": "http://www.fuji-u.ac.jp/news/47952",
+        "en": null
+      },
+      "text": {
+        "ja": "富士大学 (花巻市)",
+        "en": null
+      }
     }
   ]
 }
