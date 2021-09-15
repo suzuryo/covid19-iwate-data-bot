@@ -10,6 +10,17 @@
         "ja": "岩手県独自の「岩手緊急事態宣言」を実施中 [9月9日にver3に改訂 変更点は赤文字の部分]",
         "en": "The Iwate governor declared a Iwate own's state of emergency over COVID-19."
       }
+    },
+    {
+      "date": "2021-09-15",
+      "url": {
+        "ja": "/vaccine/",
+        "en": null
+      },
+      "text": {
+        "ja": "県による集団接種の予約状況(9/15正午申込分)を追記しました",
+        "en": null
+      }
     }
   ]
 }
