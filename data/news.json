@@ -135,17 +135,6 @@
     {
       "date": "2021-09-09",
       "url": {
-        "ja": "https://www.pref.iwate.jp/kurashikankyou/iryou/kenkou/jouhou/1035134.html#40",
-        "en": null
-      },
-      "text": {
-        "ja": "岩手県 新型コロナウイルス感染症対策本部 第40回 本部員会議",
-        "en": null
-      }
-    },
-    {
-      "date": "2021-09-09",
-      "url": {
         "ja": "https://www.youtube.com/watch?v=AoBUI4Bi9Jk",
         "en": null
       },
@@ -162,6 +151,39 @@
       },
       "text": {
         "ja": "岩手県独自の「岩手緊急事態宣言」の改訂 (ver3) [変更点は赤文字の部分]",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-09-16",
+      "url": {
+        "ja": "https://www.pref.iwate.jp/kurashikankyou/iryou/kenkou/jouhou/1035134.html#41",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手県 新型コロナウイルス感染症対策本部 第41回 本部員会議",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-09-16",
+      "url": {
+        "ja": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/035/134/20210916_02_1.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手県独自の「岩手緊急事態宣言」の解除",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-09-16",
+      "url": {
+        "ja": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/035/134/20210916_02_5.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手県による第3期新型コロナワクチン集団接種予定",
         "en": null
       }
     }
