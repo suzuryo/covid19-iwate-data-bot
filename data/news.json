@@ -168,6 +168,17 @@
     {
       "date": "2021-09-16",
       "url": {
+        "ja": "https://www.youtube.com/watch?v=ms6hWq-uGDI",
+        "en": null
+      },
+      "text": {
+        "ja": "知事メッセージ (岩手緊急事態宣言の解除)",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-09-16",
+      "url": {
         "ja": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/035/134/20210916_02_1.pdf",
         "en": null
       },
@@ -183,7 +194,7 @@
         "en": null
       },
       "text": {
-        "ja": "岩手県による第3期新型コロナワクチン集団接種予定",
+        "ja": "岩手県による第3期新型コロナワクチン集団接種",
         "en": null
       }
     }
