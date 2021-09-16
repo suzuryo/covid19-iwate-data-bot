@@ -34,10 +34,10 @@ HOSPITALIZED_NUMBERS = GoogleSheets.data(GoogleSheetsIwate::SHEET_RANGES[:HOSPIT
 raise if HOSPITALIZED_NUMBERS.empty?
 
 NEWS = GoogleSheets.data(GoogleSheetsIwate::SHEET_RANGES[:NEWS])
-raise if NEWS.empty?
+# raise if NEWS.empty?
 
 ALERT = GoogleSheets.data(GoogleSheetsIwate::SHEET_RANGES[:ALERT])
-raise if ALERT.empty?
+# raise if ALERT.empty?
 
 SELF_DISCLOSURES = GoogleSheets.data(GoogleSheetsIwate::SHEET_RANGES[:SELF_DISCLOSURES])
 raise if SELF_DISCLOSURES.empty?
