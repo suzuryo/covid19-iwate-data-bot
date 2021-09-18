@@ -1,6 +1,6 @@
 {
   "patients": {
-    "date": "2021-09-18T16:38:33+09:00",
+    "date": "2021-09-19T07:40:27+09:00",
     "data": [
       {
         "id": 1,
@@ -41315,7 +41315,7 @@
         "居住地": "盛岡市",
         "滞在地": null,
         "url": "http://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/0918.pdf",
-        "yt": null,
+        "yt": "4wAEdkjcavo",
         "接触歴": "判明"
       },
       {
@@ -41327,7 +41327,7 @@
         "居住地": "県央保健所管内",
         "滞在地": null,
         "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/046/698/ptients_20210918.pdf",
-        "yt": null,
+        "yt": "4wAEdkjcavo",
         "接触歴": "不明"
       },
       {
@@ -41339,7 +41339,7 @@
         "居住地": "県央保健所管内",
         "滞在地": null,
         "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/046/698/ptients_20210918.pdf",
-        "yt": null,
+        "yt": "4wAEdkjcavo",
         "接触歴": "不明"
       },
       {
@@ -41351,7 +41351,7 @@
         "居住地": "県央保健所管内",
         "滞在地": null,
         "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/046/698/ptients_20210918.pdf",
-        "yt": null,
+        "yt": "4wAEdkjcavo",
         "接触歴": "判明"
       },
       {
@@ -41363,7 +41363,7 @@
         "居住地": "花巻市",
         "滞在地": null,
         "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/046/698/ptients_20210918.pdf",
-        "yt": null,
+        "yt": "4wAEdkjcavo",
         "接触歴": "判明"
       },
       {
@@ -41375,7 +41375,7 @@
         "居住地": "花巻市",
         "滞在地": null,
         "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/046/698/ptients_20210918.pdf",
-        "yt": null,
+        "yt": "4wAEdkjcavo",
         "接触歴": "判明"
       },
       {
@@ -41387,7 +41387,7 @@
         "居住地": "花巻市",
         "滞在地": null,
         "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/046/698/ptients_20210918.pdf",
-        "yt": null,
+        "yt": "4wAEdkjcavo",
         "接触歴": "判明"
       },
       {
@@ -41399,7 +41399,7 @@
         "居住地": "花巻市",
         "滞在地": null,
         "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/046/698/ptients_20210918.pdf",
-        "yt": null,
+        "yt": "4wAEdkjcavo",
         "接触歴": "判明"
       },
       {
@@ -41411,7 +41411,7 @@
         "居住地": "花巻市",
         "滞在地": null,
         "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/046/698/ptients_20210918.pdf",
-        "yt": null,
+        "yt": "4wAEdkjcavo",
         "接触歴": "判明"
       },
       {
@@ -41423,7 +41423,7 @@
         "居住地": "花巻市",
         "滞在地": null,
         "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/046/698/ptients_20210918.pdf",
-        "yt": null,
+        "yt": "4wAEdkjcavo",
         "接触歴": "判明"
       },
       {
@@ -41435,7 +41435,7 @@
         "居住地": "花巻市",
         "滞在地": null,
         "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/046/698/ptients_20210918.pdf",
-        "yt": null,
+        "yt": "4wAEdkjcavo",
         "接触歴": "判明"
       },
       {
@@ -41447,7 +41447,7 @@
         "居住地": "北上市",
         "滞在地": null,
         "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/046/698/ptients_20210918.pdf",
-        "yt": null,
+        "yt": "4wAEdkjcavo",
         "接触歴": "不明"
       },
       {
@@ -41459,7 +41459,7 @@
         "居住地": "県外",
         "滞在地": "奥州市",
         "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/046/698/ptients_20210918.pdf",
-        "yt": null,
+        "yt": "4wAEdkjcavo",
         "接触歴": "判明"
       },
       {
@@ -41471,13 +41471,13 @@
         "居住地": "久慈保健所管内",
         "滞在地": null,
         "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/046/698/ptients_20210918.pdf",
-        "yt": null,
+        "yt": "4wAEdkjcavo",
         "接触歴": "判明"
       }
     ]
   },
   "patients_summary": {
-    "date": "2021-09-18T16:38:33+09:00",
+    "date": "2021-09-19T07:40:27+09:00",
     "data": [
       {
         "日付": "2020-02-15",
@@ -43809,5 +43809,5 @@
       }
     ]
   },
-  "lastUpdate": "2021-09-18T16:38:33+09:00"
+  "lastUpdate": "2021-09-19T07:40:27+09:00"
 }
