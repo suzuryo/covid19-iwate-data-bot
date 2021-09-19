@@ -122,17 +122,6 @@
       }
     },
     {
-      "date": "2021-09-01",
-      "url": {
-        "ja": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1046603.html",
-        "en": null
-      },
-      "text": {
-        "ja": "県や国などの支援策 まとめ 【第6弾】",
-        "en": null
-      }
-    },
-    {
       "date": "2021-09-09",
       "url": {
         "ja": "https://www.youtube.com/watch?v=AoBUI4Bi9Jk",
@@ -195,6 +184,17 @@
       },
       "text": {
         "ja": "岩手県による第3期新型コロナワクチン集団接種",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-09-17",
+      "url": {
+        "ja": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1046970.html",
+        "en": null
+      },
+      "text": {
+        "ja": "県や国などの支援策 まとめ 【第7弾】",
         "en": null
       }
     }
