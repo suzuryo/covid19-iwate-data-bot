@@ -1,6 +1,6 @@
 {
   "patients": {
-    "date": "2021-09-20T15:22:28+09:00",
+    "date": "2021-09-20T16:55:59+09:00",
     "data": [
       {
         "id": 1,
@@ -41561,31 +41561,31 @@
       {
         "id": 3464,
         "確定日": "2021-09-19",
-        "発症日": null,
+        "発症日": "2021-09-16",
         "無症状": false,
         "年代": "10歳未満",
         "居住地": "中部保健所管内",
         "滞在地": null,
-        "url": null,
-        "yt": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/046/698/patients_20210920.pdf",
+        "yt": "UdWQeXId2Pw",
         "接触歴": "判明"
       },
       {
         "id": 3465,
         "確定日": "2021-09-19",
-        "発症日": null,
+        "発症日": "2021-09-16",
         "無症状": false,
         "年代": "20代",
         "居住地": "二戸保健所管内",
         "滞在地": null,
-        "url": null,
-        "yt": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/046/698/patients_20210920.pdf",
+        "yt": "UdWQeXId2Pw",
         "接触歴": "不明"
       }
     ]
   },
   "patients_summary": {
-    "date": "2021-09-20T15:22:28+09:00",
+    "date": "2021-09-20T16:55:59+09:00",
     "data": [
       {
         "日付": "2020-02-15",
@@ -43925,5 +43925,5 @@
       }
     ]
   },
-  "lastUpdate": "2021-09-20T15:22:28+09:00"
+  "lastUpdate": "2021-09-20T16:55:59+09:00"
 }
