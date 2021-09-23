@@ -1,5 +1,26 @@
 {
   "alertItems": [
-
+    {
+      "date": "2021-09-23",
+      "url": {
+        "ja": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1047159.html",
+        "en": null
+      },
+      "text": {
+        "ja": "県による集団接種(第３期)に「16〜29歳優先枠」が設定され、一般枠より1日早い「9月28日(火) 正午」から先行予約できる。",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-09-23",
+      "url": {
+        "ja": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1047159.html",
+        "en": null
+      },
+      "text": {
+        "ja": "県による集団接種(第３期)の一般枠は「9/29(水)正午」から予約が開始。今回は全日程を対象とした予約開始なので、接種日による予約開始日の分散が無い。",
+        "en": null
+      }
+    }
   ]
 }
