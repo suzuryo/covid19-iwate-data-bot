@@ -1,6 +1,6 @@
 {
   "patients": {
-    "date": "2021-09-24T15:12:50+09:00",
+    "date": "2021-09-25T15:04:49+09:00",
     "data": [
       {
         "id": 1,
@@ -41639,7 +41639,7 @@
         "居住地": "盛岡市",
         "滞在地": null,
         "url": "http://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/0923.pdf",
-        "yt": null,
+        "yt": "XtkCjFC0Xlw",
         "接触歴": "判明"
       },
       {
@@ -41651,7 +41651,7 @@
         "居住地": "花巻市",
         "滞在地": null,
         "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/046/698/patients_20210923.pdf",
-        "yt": null,
+        "yt": "XtkCjFC0Xlw",
         "接触歴": "判明"
       },
       {
@@ -41663,7 +41663,7 @@
         "居住地": "花巻市",
         "滞在地": null,
         "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/046/698/patients_20210923.pdf",
-        "yt": null,
+        "yt": "XtkCjFC0Xlw",
         "接触歴": "判明"
       },
       {
@@ -41675,7 +41675,7 @@
         "居住地": "花巻市",
         "滞在地": null,
         "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/046/698/patients_20210923.pdf",
-        "yt": null,
+        "yt": "XtkCjFC0Xlw",
         "接触歴": "判明"
       },
       {
@@ -41687,13 +41687,25 @@
         "居住地": "一関保健所管内",
         "滞在地": null,
         "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/046/698/patients_20210923.pdf",
+        "yt": "XtkCjFC0Xlw",
+        "接触歴": "不明"
+      },
+      {
+        "id": 3475,
+        "確定日": "2021-09-24",
+        "発症日": null,
+        "無症状": false,
+        "年代": "40代",
+        "居住地": "一関保健所管内",
+        "滞在地": null,
+        "url": null,
         "yt": null,
         "接触歴": "不明"
       }
     ]
   },
   "patients_summary": {
-    "date": "2021-09-24T15:12:50+09:00",
+    "date": "2021-09-25T15:04:49+09:00",
     "data": [
       {
         "日付": "2020-02-15",
@@ -44046,8 +44058,12 @@
       {
         "日付": "2021-09-24",
         "小計": 0
+      },
+      {
+        "日付": "2021-09-25",
+        "小計": 1
       }
     ]
   },
-  "lastUpdate": "2021-09-24T15:12:50+09:00"
+  "lastUpdate": "2021-09-25T15:04:49+09:00"
 }
