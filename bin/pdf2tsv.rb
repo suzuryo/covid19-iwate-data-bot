@@ -28,7 +28,7 @@ module Pdf2Tsv
       cities = PDFS.keys
 
       if options[:rm]
-        exit unless HighLine.agree('本当にダウンロード済のPDFと変換済みのCSVファイルを削除しますか？ [y/n]')
+        exit unless HighLine.agree('本当にダウンロード済のPDFと変換済みのCSVファイルを削除しますか？ [y/N]')
         cities.each do |city|
           FileUtils.rm(Dir.glob(File.join(PDFS[city][:pdf_dir], '*.pdf')), force: true)
           FileUtils.rm(Dir.glob(File.join(PDFS[city][:csv_dir], '*.csv')), force: true)
