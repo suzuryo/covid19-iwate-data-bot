@@ -34,7 +34,7 @@ describe 'PDF' do
         expect(d[10].to_s).to eq google_sheet['url']
         expect(d[11].to_s).to eq google_sheet['接触歴']
         # 3270,3379,3381は何で検出したのかPDFに書いてない
-        expect(d[12].to_s).to eq google_sheet['陽性最終確定検査手法'] unless ['3270', '3379', '3381'].include? id
+        expect(d[12].to_s).to eq google_sheet['陽性最終確定検査手法'] unless ['3270', '3379', '3381', '3468'].include? id
       end
     end
   end
