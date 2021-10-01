@@ -146,17 +146,6 @@
     {
       "date": "2021-09-16",
       "url": {
-        "ja": "https://www.pref.iwate.jp/kurashikankyou/iryou/kenkou/jouhou/1035134.html#41",
-        "en": null
-      },
-      "text": {
-        "ja": "岩手県 新型コロナウイルス感染症対策本部 第41回 本部員会議",
-        "en": null
-      }
-    },
-    {
-      "date": "2021-09-16",
-      "url": {
         "ja": "https://www.youtube.com/watch?v=ms6hWq-uGDI",
         "en": null
       },
@@ -195,6 +184,17 @@
       },
       "text": {
         "ja": "県や国などの支援策 まとめ 【第7弾】",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-09-30",
+      "url": {
+        "ja": "https://www.pref.iwate.jp/kurashikankyou/iryou/kenkou/jouhou/1035134.html#42",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手県 新型コロナウイルス感染症対策本部 第42回 本部員会議",
         "en": null
       }
     }
