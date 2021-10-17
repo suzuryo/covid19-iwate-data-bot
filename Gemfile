@@ -8,7 +8,7 @@ gem 'down'
 gem "functions_framework"
 gem 'google-apis-sheets_v4'
 gem 'highline'
-gem 'nokogiri'
+gem "nokogiri", ">= 1.12.5"
 gem 'sinatra'
 gem 'thor'
 gem 'typhoeus'

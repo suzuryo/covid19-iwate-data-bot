@@ -156,7 +156,7 @@ DEPENDENCIES
   functions_framework
   google-apis-sheets_v4
   highline
-  nokogiri
+  nokogiri (>= 1.12.5)
   rspec
   rubocop
   sinatra
