@@ -1,26 +1,5 @@
 {
   "alertItems": [
-    {
-      "date": "2021-09-23",
-      "url": {
-        "ja": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1047159.html",
-        "en": null
-      },
-      "text": {
-        "ja": "県による集団接種(第３期)の一般枠は「9月29日(水) 正午」から予約受付中",
-        "en": null
-      }
-    },
-    {
-      "date": "2021-10-05",
-      "url": {
-        "ja": "/vaccine/",
-        "en": null
-      },
-      "text": {
-        "ja": "盛岡市による集団接種会場として「岩手大学」が追加され、SGプラザ・岩手大学・医療機関で予約受付中",
-        "en": null
-      }
-    }
+
   ]
 }
