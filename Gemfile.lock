@@ -52,9 +52,9 @@ GEM
       retriable (>= 2.0, < 4.a)
       rexml
       webrick
-    google-apis-sheets_v4 (0.9.0)
+    google-apis-sheets_v4 (0.10.0)
       google-apis-core (>= 0.4, < 2.a)
-    googleauth (1.0.0)
+    googleauth (1.1.0)
       faraday (>= 0.17.3, < 2.0)
       jwt (>= 1.4, < 3.0)
       memoist (~> 0.16)
@@ -63,7 +63,7 @@ GEM
       signet (>= 0.16, < 2.a)
     highline (2.0.3)
     httpclient (2.8.3)
-    i18n (1.8.10)
+    i18n (1.8.11)
       concurrent-ruby (~> 1.0)
     jwt (2.3.0)
     memoist (0.16.2)
@@ -74,18 +74,20 @@ GEM
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
     nio4r (2.5.8)
+    nokogiri (1.12.5-arm64-darwin)
+      racc (~> 1.4)
     nokogiri (1.12.5-x86_64-darwin)
       racc (~> 1.4)
     nokogiri (1.12.5-x86_64-linux)
       racc (~> 1.4)
-    os (1.1.1)
+    os (1.1.4)
     parallel (1.21.0)
-    parser (3.0.2.0)
+    parser (3.0.3.0)
       ast (~> 2.4.1)
     public_suffix (4.0.6)
     puma (5.5.2)
       nio4r (~> 2.0)
-    racc (1.5.2)
+    racc (1.6.0)
     rack (2.2.3)
     rack-protection (2.1.0)
       rack
@@ -109,8 +111,8 @@ GEM
     rspec-mocks (3.10.2)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.10.0)
-    rspec-support (3.10.2)
-    rubocop (1.22.1)
+    rspec-support (3.10.3)
+    rubocop (1.23.0)
       parallel (~> 1.10)
       parser (>= 3.0.0.0)
       rainbow (>= 2.2.2, < 4.0)
@@ -119,7 +121,7 @@ GEM
       rubocop-ast (>= 1.12.0, < 2.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 1.4.0, < 3.0)
-    rubocop-ast (1.12.0)
+    rubocop-ast (1.13.0)
       parser (>= 3.0.1.1)
     ruby-progressbar (1.11.0)
     ruby2_keywords (0.0.5)
@@ -135,7 +137,7 @@ GEM
       tilt (~> 2.0)
     thor (1.1.0)
     tilt (2.0.10)
-    trailblazer-option (0.1.1)
+    trailblazer-option (0.1.2)
     typhoeus (1.4.0)
       ethon (>= 0.9.0)
     tzinfo (2.0.4)
@@ -143,9 +145,10 @@ GEM
     uber (0.1.0)
     unicode-display_width (2.1.0)
     webrick (1.7.0)
-    zeitwerk (2.4.2)
+    zeitwerk (2.5.1)
 
 PLATFORMS
+  arm64-darwin-21
   x86_64-darwin-20
   x86_64-linux
 
@@ -164,4 +167,4 @@ DEPENDENCIES
   typhoeus
 
 BUNDLED WITH
-   2.2.22
+   2.2.32
