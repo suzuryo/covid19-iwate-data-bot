@@ -39,6 +39,9 @@ NEWS = GoogleSheets.data(GoogleSheetsIwate::SHEET_RANGES[:NEWS])
 ALERT = GoogleSheets.data(GoogleSheetsIwate::SHEET_RANGES[:ALERT])
 # raise if ALERT.empty?
 
+URLS = GoogleSheets.data(GoogleSheetsIwate::SHEET_RANGES[:URLS])
+# raise if URLS.empty?
+
 SELF_DISCLOSURES = GoogleSheets.data(GoogleSheetsIwate::SHEET_RANGES[:SELF_DISCLOSURES])
 raise if SELF_DISCLOSURES.empty?
 
@@ -333,6 +336,23 @@ end
 
 ######################################################################
 # データ生成 テンプレート
+# urls.json
+######################################################################
+data_urls_json = {
+  items: []
+}
+
+URLS.each do |row|
+  data_urls_json[:items].append(
+    {
+      item: row['item'].blank? ? nil : row['item'],
+      url: row['url'].blank? ? nil : row['url'],
+    }
+  )
+end
+
+######################################################################
+# データ生成 テンプレート
 # self_disclosures.json
 ######################################################################
 data_self_disclosures_json = {
@@ -414,6 +434,10 @@ end
 
 File.open(File.join(__dir__, '../data/', 'alert.json'), 'w') do |f|
   f.write JSON.pretty_generate(data_alert_json)
+end
+
+File.open(File.join(__dir__, '../data/', 'urls.json'), 'w') do |f|
+  f.write JSON.pretty_generate(data_urls_json)
 end
 
 File.open(File.join(__dir__, '../data/', 'self_disclosures.json'), 'w') do |f|

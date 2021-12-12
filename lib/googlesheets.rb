@@ -21,6 +21,7 @@ class GoogleSheetsIwate
     HOSPITALIZED_NUMBERS: 'output_hospitalized_numbers',
     NEWS: 'input_news',
     ALERT: 'input_alert',
+    URLS: 'input_urls',
     SELF_DISCLOSURES: 'input_self_disclosures'
   }.freeze
 
