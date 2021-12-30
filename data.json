@@ -1,6 +1,6 @@
 {
   "patients": {
-    "date": "2021-12-30T15:08:09+09:00",
+    "date": "2021-12-30T17:56:01+09:00",
     "data": [
       {
         "id": 1,
@@ -41862,11 +41862,11 @@
         "id": 3489,
         "確定日": "2021-12-29",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "40代",
         "居住地": "釜石市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/048/781/patients_20211230.pdf",
         "yt": null,
         "接触歴": "判明"
       },
@@ -41874,18 +41874,18 @@
         "id": 3490,
         "確定日": "2021-12-29",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "10代",
         "居住地": "釜石市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/048/781/patients_20211230.pdf",
         "yt": null,
         "接触歴": "判明"
       }
     ]
   },
   "patients_summary": {
-    "date": "2021-12-30T15:08:09+09:00",
+    "date": "2021-12-30T17:56:01+09:00",
     "data": [
       {
         "日付": "2020-02-15",
@@ -44629,5 +44629,5 @@
       }
     ]
   },
-  "lastUpdate": "2021-12-30T15:08:09+09:00"
+  "lastUpdate": "2021-12-30T17:56:01+09:00"
 }
