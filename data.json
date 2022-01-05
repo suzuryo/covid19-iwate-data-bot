@@ -1,6 +1,6 @@
 {
   "patients": {
-    "date": "2022-01-05T15:07:11+09:00",
+    "date": "2022-01-05T15:14:52+09:00",
     "data": [
       {
         "id": 1,
@@ -41914,7 +41914,7 @@
         "年代": "40代",
         "居住地": "大船渡市",
         "滞在地": null,
-        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220103-2.pdf",
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220103-3.pdf",
         "yt": null,
         "接触歴": "判明"
       },
@@ -41926,7 +41926,7 @@
         "年代": "70代",
         "居住地": "大船渡市",
         "滞在地": null,
-        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220103-2.pdf",
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220103-3.pdf",
         "yt": null,
         "接触歴": "判明"
       },
@@ -41938,7 +41938,7 @@
         "年代": "60代",
         "居住地": "大船渡市",
         "滞在地": null,
-        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220103-2.pdf",
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220103-3.pdf",
         "yt": null,
         "接触歴": "判明"
       },
@@ -42005,7 +42005,7 @@
     ]
   },
   "patients_summary": {
-    "date": "2022-01-05T15:07:11+09:00",
+    "date": "2022-01-05T15:14:52+09:00",
     "data": [
       {
         "日付": "2020-02-15",
@@ -44773,5 +44773,5 @@
       }
     ]
   },
-  "lastUpdate": "2022-01-05T15:07:11+09:00"
+  "lastUpdate": "2022-01-05T15:14:52+09:00"
 }
