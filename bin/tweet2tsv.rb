@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
-require 'active_support/core_ext/time'
+require 'active_support/all'
 require 'dotenv/load'
 require 'json'
 require 'thor'

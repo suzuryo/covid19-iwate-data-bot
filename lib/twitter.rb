@@ -16,7 +16,7 @@ module Tweet2Tsv
       h.merge! /\s(?<month>\d+)月(?<day>\d+)日[（(](?<曜日>[日月火水木金土])[)）]\s■実施報告[：:](?<実施報告>[\d,]+)件\s.*検出[：:](?<実施報告うち検出>[\d,]+)件/.match(text)&.named_captures
       h.merge! /県PCR検査[：:](?<県PCR検査>[\d,]+)件/.match(text)&.named_captures
       h.merge! /民間等[：:](?<民間等>[\d,]+)件/.match(text)&.named_captures
-      h.merge! /地域外来等[：:](?<地域外来等>[\d,]+)件/.match(text)&.named_captures
+      # h.merge! /地域外来等[：:](?<地域外来等>[\d,]+)件/.match(text)&.named_captures
       h.merge! /抗原検査[：:](?<抗原検査>[\d,]+)件/.match(text)&.named_captures
       h.merge! /■累計[：:](?<累計>[\d,]+)件[（(].*検出(?<累計う\sち検出>[\d,]+)件[)）]/.match(text)&.named_captures
       h.merge! /入院中(?<入院中>[\d,]+)名/.match(text)&.named_captures
@@ -135,7 +135,7 @@ module Tweet2Tsv
     def user_tweets
       now = Time.now
       days_ago = now.days_ago(@days)
-      start_time = Time.new(days_ago.year, days_ago.month, days_ago.day, 15, 0, 'JST').rfc3339
+      start_time = Time.new(days_ago.year, days_ago.month, days_ago.day, 15, 0, 0, '+09:00').rfc3339
       end_time = now.rfc3339
 
       options = {
@@ -166,10 +166,18 @@ module Tweet2Tsv
       user_tweets.reverse.each do |line|
         created_at = Time.parse(line['created_at']).in_time_zone('Asia/Tokyo')
         ymd = created_at.strftime('%Y%m%d')
-        tweets[ymd] = {
-          created_at: created_at,
-          text: tweets[ymd] ? tweets[ymd][:text] + line['text'] + "\n\n" : ''
-        }
+
+        if tweets[ymd]
+          tweets[ymd] = {
+            created_at: created_at,
+            text: tweets[ymd] ? tweets[ymd][:text] + line['text'] + "\n\n" : ''
+          }
+        else
+          tweets[ymd] = {
+            created_at: created_at,
+            text: line['text']
+          }
+        end
       end
 
       Tweet2Tsv.parser(tweets)

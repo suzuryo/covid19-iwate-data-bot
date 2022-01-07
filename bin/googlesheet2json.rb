@@ -5,8 +5,7 @@ require 'fileutils'
 require 'json'
 require 'time'
 require 'date'
-require 'active_support/core_ext/object/blank'
-require 'active_support/core_ext/date'
+require 'active_support/all'
 require_relative '../lib/googlesheets'
 
 GoogleSheets = GoogleSheetsIwate.new
