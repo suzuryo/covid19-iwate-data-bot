@@ -25,7 +25,7 @@ module Tweet2Tsv
       h.merge! /退院等(?<退院等>[\d,]+)名/.match(text)&.named_captures
       h.merge! /死亡者(?<死亡者>[\d,]+)名/.match(text)&.named_captures
       h.merge! /調整中(?<調整中>[\d,]+)名/.match(text)&.named_captures
-      h.merge!({ 'date' => Date.parse("2021/#{h['month']}/#{h['day']}") })
+      h.merge!({ 'date' => Date.parse("2022/#{h['month']}/#{h['day']}") })
       d[:main_summary] << h
 
       # patients
