@@ -1,6 +1,6 @@
 {
   "patients": {
-    "date": "2022-01-10T15:16:17+09:00",
+    "date": "2022-01-10T15:23:50+09:00",
     "data": [
       {
         "id": 1,
@@ -42322,7 +42322,7 @@
         "年代": "50代",
         "居住地": "中部保健所管内",
         "滞在地": null,
-        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220109.pdf",
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220109_2.pdf",
         "yt": null,
         "接触歴": "判明"
       },
@@ -42334,7 +42334,7 @@
         "年代": "10代",
         "居住地": "釜石保健所管内",
         "滞在地": null,
-        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220109.pdf",
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220109_2.pdf",
         "yt": null,
         "接触歴": "不明"
       },
@@ -42353,7 +42353,7 @@
     ]
   },
   "patients_summary": {
-    "date": "2022-01-10T15:16:17+09:00",
+    "date": "2022-01-10T15:23:50+09:00",
     "data": [
       {
         "日付": "2020-02-15",
@@ -45141,5 +45141,5 @@
       }
     ]
   },
-  "lastUpdate": "2022-01-10T15:16:17+09:00"
+  "lastUpdate": "2022-01-10T15:23:50+09:00"
 }
