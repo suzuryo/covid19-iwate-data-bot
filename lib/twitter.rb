@@ -22,6 +22,7 @@ module Tweet2Tsv
       h.merge! /入院中(?<入院中>[\d,]+)名/.match(text)&.named_captures
       h.merge! /.*重症者(?<入院中うち重症者>[\d,]+)名/.match(text)&.named_captures
       h.merge! /宿泊療養(?<宿泊療養>[\d,]+)名/.match(text)&.named_captures
+      h.merge! /自宅療養(?<自宅療養>[\d,]+)名/.match(text)&.named_captures
       h.merge! /退院等(?<退院等>[\d,]+)名/.match(text)&.named_captures
       h.merge! /死亡者(?<死亡者>[\d,]+)名/.match(text)&.named_captures
       h.merge! /調整中(?<調整中>[\d,]+)名/.match(text)&.named_captures
