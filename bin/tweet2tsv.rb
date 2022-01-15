@@ -59,7 +59,7 @@ module Tweet2Tsv
       @main_summary1 = ''
       @main_summary2 = ''
       tweets.data[:main_summary].sort_by { |a| a['date'] }.uniq.each do |b|
-        @main_summary1 += "#{b['date'].days_ago(1).strftime('%Y/%m/%d')}\t#{b['県PCR検査']}\t#{b['民間等'].to_i + b['地域外来等'].to_i}\t#{b['抗原検査']}\t#{b['県PCR検査'].to_i + b['民間等'].to_i + b['地域外来等'].to_i}\t#{b['県PCR検査'].to_i + b['民間等'].to_i + b['地域外来等'].to_i + b['抗原検査'].to_i}\n"
+        @main_summary1 += "#{b['date'].days_ago(1).strftime('%Y/%m/%d')}\t0\t#{b['実施報告'].to_i}\t0\n"
         @main_summary2 += "#{b['date'].strftime('%Y/%m/%d')}\t#{b['累計う\\sち検出']}\t#{b['入院中']}\t#{b['入院中うち重症者']}\t#{b['宿泊療養']}\t#{b['自宅療養']}\t#{b['退院等']}\t#{b['死亡者']}\t#{b['調整中']}\n"
       end
 
