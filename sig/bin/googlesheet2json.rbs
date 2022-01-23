@@ -1,0 +1,187 @@
+AGES: Hash[Symbol, String]
+
+# 1日あたりの検査陽性者数
+B3: Hash[Symbol, Rational]
+
+# ワクチン２回接種率（％） ※３回接種者を含む
+B4: Hash[Symbol, Rational]
+
+# ワクチン３回接種率（％）
+B5: Hash[Symbol, Rational]
+
+# デルタ株：（ワクチンなしで）酸素投与を要する率（％）
+B7: Hash[Symbol, Rational]
+
+# デルタ株：（ワクチンなしの）重症化率（％）
+B10: Hash[Symbol, Rational]
+
+# デルタ株と比べたときの流行株の重症化率（％）
+B14: Rational
+
+# 中等症の入院期間（日数）
+B18: Hash[Symbol, Rational]
+
+# 重症者の入院期間（重症病床を占有していないときも含む日数）
+B21: Hash[Symbol, Rational]
+
+# 検査陽性者数の今週/先週比
+B24: Rational
+
+# 現在の酸素投与を要する人の数（重症者を含む）
+B27: Rational
+
+# 現在の重症者数
+B28: Rational
+
+# 現在の全療養者数
+B29: Rational
+
+# ２回接種：感染予防
+B32: Rational
+
+# ２回接種：入院・重症化予防
+B33: Rational
+
+# ３回接種：感染予防
+B34: Rational
+
+# ３回接種：入院・重症化予防
+B35: Rational
+
+# 血中酸素濃度低下の前に治療薬の投与を受けられる割合（％）
+B39: Rational
+
+# 酸素需要を避けられる効果（％）
+B40: Rational
+
+# シナリオ変数
+C44: Rational
+
+# exp B
+B45: Rational
+
+# exp C
+C45: Rational
+
+# ２回感染→入院ワクチン
+B48: Rational
+
+# ３回感染→入院ワクチン
+B49: Rational
+
+# ワクチン２回
+B52: Hash[Symbol, Rational]
+
+# ワクチン３回
+B53: Hash[Symbol, Rational]
+
+# ワクチン０回
+B51: Hash[Symbol, Rational]
+
+# sensitive0
+B55: Hash[Symbol, Rational]
+
+# sensitive2
+B56: Hash[Symbol, Rational]
+
+# sensitive3
+B57: Hash[Symbol, Rational]
+
+# sensitiveSum
+B59: Hash[Symbol, Rational]
+
+# オリジナル中等症（入院必要）率
+B61: Hash[Symbol, Rational]
+
+# ＋ワクチン効果の入院率
+B64: Hash[Symbol, Rational]
+
+# ＋治療薬
+B65: Hash[Symbol, Rational]
+
+# オリジナル重症率
+B67: Hash[Symbol, Rational]
+
+# オリジナル重症/オリジナル入院
+B68: Hash[Symbol, Rational]
+
+# modify重症
+B69: Hash[Symbol, Rational]
+
+# deltaCheck
+B72: Hash[Symbol, Rational]
+
+# delta1-div3
+B74: Hash[Symbol, Rational]
+
+#  delta2-div3
+B75: Hash[Symbol, Rational]
+
+# I
+M98: [Hash[Symbol, Rational]]
+
+# Ha
+V98: [Hash[Symbol, Rational]]
+
+# Hb
+AE98: [Hash[Symbol, Rational]]
+
+# HcH
+AN160: [Hash[Symbol, Rational]]
+
+# HcD
+AN222: [Hash[Symbol, Rational]]
+
+# Da
+AW98: [Hash[Symbol, Rational]]
+
+# Db
+BF98: [Hash[Symbol, Rational]]
+
+# Dc
+BO98: [Hash[Symbol, Rational]]
+
+# 新規陽性者数
+B98: [Hash[Symbol, Rational]]
+
+# 酸素需要を要する人（重症者を含む）
+B163: [Hash[Symbol, Rational]]
+
+# 重症病床を要する人
+B228: [Hash[Symbol, Rational]]
+
+# All
+M293: [Hash[Symbol, Rational]]
+
+# RestA
+V293: [Hash[Symbol, Rational]]
+
+# RestB
+AE293: [Hash[Symbol, Rational]]
+
+# RestC
+AN293: [Hash[Symbol, Rational]]
+
+# RestD
+AW293: [Hash[Symbol, Rational]]
+
+# RestE
+BF293: [Hash[Symbol, Rational]]
+
+# 全療養者
+B293: [Hash[Symbol, Rational]]
+
+# 酸素投与を要する人（重症者を含む）
+C79: Hash[Symbol, Rational]
+
+# 重症者（＝必要と思われる重症病床の確保数）
+H79: Hash[Symbol, Rational]
+
+# 全療養者
+N79: Hash[Symbol, Rational]
+
+# 自宅療養や療養施設を積極的に利用した場合、必要と思われる確保病床数（酸素需要者の2.5倍）
+C85: Hash[Symbol, Rational]
+
+# ハイリスク軽症者や、ハイリスクでなくとも中等症 I は基本的に入院させる場合、必要と思われる確保病床数（酸素需要者の4倍）
+C91: Hash[Symbol, Rational]

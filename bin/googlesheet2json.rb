@@ -400,6 +400,624 @@ data_main_summary = {
 }
 
 ######################################################################
+# health_burden.json
+# main_summary の生成
+######################################################################
+
+# 予測ツール
+# https://github.com/yukifuruse1217/COVIDhealthBurden
+# 医療需要予測ツール_オミクロンとブースター考慮版v3_20220103.xlsx
+# をrubyで実装。
+#
+# B3 とかの配列は、
+# [10歳未満, 10歳台, 20歳台, 30歳台, 40歳台, 50歳台, 60歳台, 70歳台以上]
+# [0s, 10s, 20s, 30s, 30s, 50s, 60s, 70s]
+# の順番にデータが入っている
+#
+# 手動設定が必要な項目
+# B27    現在の酸素投与を要する人の数（重症者を含む）
+
+# 直近１週間の陽性者data
+last7days = data_json[:patients][:data].select { |d| Date.parse(d[:確定日]) > Date.parse(data_daily_positive_detail_json[:data][-1][:diagnosed_date]).days_ago(7) }
+
+AGES = {
+  s00: '10歳未満',
+  s10: '10歳台',
+  s20: '20歳台',
+  s30: '30歳台',
+  s40: '40歳台',
+  s50: '50歳台',
+  s60: '60歳台',
+  s70: '70歳台以上'
+}.freeze
+
+# 1日あたりの検査陽性者数
+B3 = {
+  s00: Rational(last7days.select { |d| ['10歳未満'].include? d[:年代] }.size.to_s) / Rational('7'),
+  s10: Rational(last7days.select { |d| ['10代'].include? d[:年代] }.size.to_s) / Rational('7'),
+  s20: Rational(last7days.select { |d| ['20代'].include? d[:年代] }.size.to_s) / Rational('7'),
+  s30: Rational(last7days.select { |d| ['30代'].include? d[:年代] }.size.to_s) / Rational('7'),
+  s40: Rational(last7days.select { |d| ['40代'].include? d[:年代] }.size.to_s) / Rational('7'),
+  s50: Rational(last7days.select { |d| ['50代'].include? d[:年代] }.size.to_s) / Rational('7'),
+  s60: Rational(last7days.select { |d| ['60代'].include? d[:年代] }.size.to_s) / Rational('7'),
+  s70: Rational(last7days.select { |d| ['70代', '80代', '90歳以上'].include? d[:年代] }.size.to_s) / Rational('7')
+}.freeze
+
+# 岩手県は年代別の接種率を公表していない？
+# https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/035/134/20211122_05_1.pdf
+# 2021/11/17時点において、県内の12歳以上人口約111万7千人のうち、1回目接種は 89.3 ％、2回目は 85.0 ％が終了
+# https://www.fnn.jp/articles/-/288186
+# 2021/12/17時点で1回目が89.8 ％。2回目が 88.6 ％
+# とりあえず、全年齢で90%の接種率として、10代の接種率を求めると、
+# 10 : 0%
+#   11 : 0%
+#   12 : 90%
+#   13 : 90%
+#   14 : 90%
+#   15 : 90%
+#   16 : 90%
+#   17 : 90%
+#   18 : 90%
+#   19 : 90%
+#   とすると、10代の接種率は
+# 10歳,11歳が0%として12歳から90%とすると、 (0 + 0 + 90 * 8) / 100 * 10 = 72 % とする
+
+# ワクチン２回接種率（％） ※３回接種者を含む
+B4 = {
+  s00: Rational('0'),
+  s10: Rational('72'),
+  s20: Rational('90'),
+  s30: Rational('90'),
+  s40: Rational('90'),
+  s50: Rational('90'),
+  s60: Rational('90'),
+  s70: Rational('90')
+}.freeze
+
+# ワクチン３回接種率（％）
+B5 = {
+  s00: Rational('0'),
+  s10: Rational('0'),
+  s20: Rational('0'),
+  s30: Rational('0'),
+  s40: Rational('0'),
+  s50: Rational('0'),
+  s60: Rational('5'),
+  s70: Rational('5')
+}.freeze
+
+# デルタ株：（ワクチンなしで）酸素投与を要する率（％）
+B7 = {
+  s00: Rational('1'),
+  s10: Rational('1'),
+  s20: Rational('1.5'),
+  s30: Rational('5'),
+  s40: Rational('10'),
+  s50: Rational('15'),
+  s60: Rational('25'),
+  s70: Rational('30')
+}.freeze
+
+# デルタ株：（ワクチンなしの）重症化率（％）
+B10 = {
+  s00: Rational('0.1'),
+  s10: Rational('0.1'),
+  s20: Rational('0.1'),
+  s30: Rational('0.6'),
+  s40: Rational('1.5'),
+  s50: Rational('4'),
+  s60: Rational('8'),
+  s70: Rational('11')
+}.freeze
+
+# デルタ株と比べたときの流行株の重症化率（％）
+B14 = Rational('60')
+
+# 中等症の入院期間（日数）
+B18 = {
+  s00: Rational('9'),
+  s10: Rational('9'),
+  s20: Rational('9'),
+  s30: Rational('9'),
+  s40: Rational('9'),
+  s50: Rational('10'),
+  s60: Rational('11'),
+  s70: Rational('14')
+}.freeze
+
+# 重症者の入院期間（重症病床を占有していないときも含む日数）
+B21 = {
+  s00: Rational('14'),
+  s10: Rational('14'),
+  s20: Rational('14'),
+  s30: Rational('14'),
+  s40: Rational('14'),
+  s50: Rational('15'),
+  s60: Rational('17'),
+  s70: Rational('20')
+}.freeze
+
+# 検査陽性者数の今週/先週比
+B24 = Rational(data_daily_positive_detail_json[:data][-7..].reduce(0) { |a, v| a + v[:count] }) / Rational(data_daily_positive_detail_json[:data][-14..-8].reduce(0) { |a, v| a + v[:count] })
+
+# 現在の重症者数
+B28 = Rational(data_main_summary[:重症].to_s)
+
+# 現在の全療養者数
+B29 = Rational(data_main_summary[:入院]) + Rational(data_main_summary[:宿泊療養]) + Rational(data_main_summary[:自宅療養]) + Rational(data_main_summary[:調整中])
+# B29 = Rational('120') # TODO temp
+
+# 現在の酸素投与を要する人の数（重症者を含む）
+# 岩手県は酸素投与が必要な中等症2の数を公表していないが、沖縄県の例だと酸素投与が必要になったのは全体の 0.8 % となっている
+B27 = (B29 * Rational('0.8') / Rational('100')) + B28
+
+# ２回接種：感染予防
+B32 = Rational('30')
+
+# ２回接種：入院・重症化予防
+B33 = Rational('70')
+
+# ３回接種：感染予防
+B34 = Rational('60')
+
+# ３回接種：入院・重症化予防
+B35 = Rational('85')
+
+# 血中酸素濃度低下の前に治療薬の投与を受けられる割合（％）
+B39 = Rational('0')
+
+# 酸素需要を避けられる効果（％）
+B40 = Rational('70')
+
+# シナリオ変数
+C44 = Rational('5')
+
+# exp B
+B45 = Rational((B24**Rational('1', '7')).to_s)
+
+# exp C
+C45 = if C44 == Rational('5')
+        B45
+      elsif C44 == Rational('6')
+        Rational('1')
+      elsif C44 == Rational('7')
+        Rational((Rational('0.85')**Rational('1', '5')).to_s)
+      end
+
+# ２回感染→入院ワクチン
+B48 = Rational((Rational('1') - (B33 / Rational('100'))), (Rational('1') - (B32 / Rational('100'))))
+
+# ３回感染→入院ワクチン
+B49 = Rational((Rational('1') - (B35 / Rational('100'))), (Rational('1') - (B34 / Rational('100'))))
+
+# ワクチン２回
+B52 = AGES.keys.to_h { |k| [k, Rational((B4[k] - B5[k]) / Rational('100'))] }
+
+# ワクチン３回
+B53 = AGES.keys.to_h { |k| [k, Rational(B5[k] / Rational('100'))] }
+
+# ワクチン０回
+B51 = AGES.keys.to_h { |k| [k, Rational(Rational('1') - B52[k] - B53[k])] }
+
+# sensitive0
+B55 = B51
+
+# sensitive2
+B56 = AGES.keys.to_h { |k| [k, Rational(B52[k] * (Rational('1') - (B32 / Rational('100'))))] }
+
+# sensitive3
+B57 = AGES.keys.to_h { |k| [k, Rational(B53[k] * (Rational('1') - (B34 / Rational('100'))))] }
+
+# sensitiveSum
+B59 = AGES.keys.to_h { |k| [k, Rational(B55[k] + B56[k] + B57[k])] }
+
+# オリジナル中等症（入院必要）率
+B61 = AGES.keys.to_h { |k| [k, Rational((B7[k] / Rational('100')) * (B14 / Rational('100')))] }
+
+# ＋ワクチン効果の入院率
+B64 = AGES.keys.to_h do |k|
+  [k, Rational(
+    ((B55[k] / B59[k]) * B61[k]) +
+      ((B56[k] / B59[k]) * B61[k] * B48) +
+      ((B57[k] / B59[k]) * B61[k] * B49)
+  )]
+end
+
+# ＋治療薬
+B65 = AGES.keys.to_h { |k| [k, Rational(B64[k] * (Rational('1') - (B39 / Rational('100' * B40) / Rational('100'))))] }
+
+# オリジナル重症率
+B67 = AGES.keys.to_h { |k| [k, Rational(((B10[k] / Rational('100')) * B14) / Rational('100'))] }
+
+# オリジナル重症/オリジナル入院
+B68 = AGES.keys.to_h { |k| [k, B61[k] == Rational('0') ? Rational('0') : Rational(B67[k] / B61[k])] }
+
+# modify重症
+B69 = AGES.keys.to_h { |k| [k, Rational(B68[k] * B65[k])] }
+
+# deltaCheck
+B72 = {
+  s00: Rational('1'),
+  s10: Rational('1'),
+  s20: Rational('1'),
+  s30: Rational('1'),
+  s40: Rational('1'),
+  s50: Rational('2'),
+  s60: Rational('3'),
+  s70: Rational('4')
+}.freeze
+
+# delta1-div3
+B74 = AGES.keys.to_h { |k| [k, Rational(B18[k] / Rational('3'))] }
+
+#  delta2-div3
+B75 = AGES.keys.to_h { |k| [k, Rational((B21[k] - B18[k]) / Rational('3'))] }
+
+# I
+m98 = [AGES.keys.to_h { |k| [k, B3[k]] }]
+(0...60).each do |i|
+  m98.push(
+    AGES.keys.to_h { |k| [k, Rational(m98[i][k] * B45)] }
+  )
+end
+M98 = m98
+
+# Ha
+v98 = [
+  {
+    s00: Rational('0'),
+    s10: Rational('0'),
+    s20: Rational('0'),
+    s30: Rational('0'),
+    s40: Rational('0'),
+    s50: ((B27 - ((B28 * Rational('2')) / Rational('3'))) / Rational('9')) * Rational('4'),
+    s60: Rational('0'),
+    s70: Rational('0')
+  }
+]
+(0...60).each do |i|
+  v98.push(
+    AGES.keys.to_h do |k|
+      ha = Rational(v98[i][k] + (M98[i][k] * B65[k]) - (v98[i][k] / B74[k]))
+      [k, ha < Rational('0') ? Rational('0') : ha]
+    end
+  )
+end
+V98 = v98
+
+# Hb
+ae98 = [
+  {
+    s00: Rational('0'),
+    s10: Rational('0'),
+    s20: Rational('0'),
+    s30: Rational('0'),
+    s40: Rational('0'),
+    s50: ((B27 - ((B28 * Rational('2')) / Rational('3'))) / Rational('9')) * Rational('3'),
+    s60: Rational('0'),
+    s70: Rational('0')
+  }
+]
+(0...60).each do |i|
+  ae98.push(
+    AGES.keys.to_h do |k|
+      hb = ae98[i][k] + (V98[i][k] / B74[k]) - (ae98[i][k] / B74[k])
+      [k, hb < Rational('0') ? Rational('0') : hb]
+    end
+  )
+end
+AE98 = ae98
+
+# HcH
+an160 = [
+  {
+    s00: Rational('0'),
+    s10: Rational('0'),
+    s20: Rational('0'),
+    s30: Rational('0'),
+    s40: Rational('0'),
+    s50: (Rational('2') * (B27 - (B28 * Rational('2') / Rational('3'))) / Rational('9')) - (Rational('6') * B28 / Rational('18')),
+    s60: Rational('0'),
+    s70: Rational('0')
+  }
+]
+(0...60).each do |i|
+  an160.push(
+    AGES.keys.to_h do |k|
+      hch = an160[i][k] + ((AE98[i][k] / B74[k]) * (Rational('1') - B68[k])) - (an160[i][k] / B74[k])
+      [k, hch < Rational('0') ? Rational('0') : hch]
+    end
+  )
+end
+AN160 = an160
+
+# HcD
+an222 = [
+  {
+    s00: Rational('0'),
+    s10: Rational('0'),
+    s20: Rational('0'),
+    s30: Rational('0'),
+    s40: Rational('0'),
+    s50: (B28 / Rational('18')) * Rational('6'),
+    s60: Rational('0'),
+    s70: Rational('0')
+  }
+]
+(0...60).each do |i|
+  an222.push(
+    AGES.keys.to_h do |k|
+      hcd = an222[i][k] + ((AE98[i][k] / B74[k]) * B68[k]) - (an222[i][k] / B74[k])
+      [k, hcd < Rational('0') ? Rational('0') : hcd]
+    end
+  )
+end
+AN222 = an222
+
+# Da
+aw98 = [
+  {
+    s00: Rational('0'),
+    s10: Rational('0'),
+    s20: Rational('0'),
+    s30: Rational('0'),
+    s40: Rational('0'),
+    s50: (B28 / Rational('18')) * Rational('5'),
+    s60: Rational('0'),
+    s70: Rational('0')
+  }
+]
+(0...60).each do |i|
+  aw98.push(
+    AGES.keys.to_h do |k|
+      da = aw98[i][k] + (AN222[i][k] / B74[k]) - (aw98[i][k] / B75[k])
+      [k, da < Rational('0') ? Rational('0') : da]
+    end
+  )
+end
+AW98 = aw98
+
+# Db
+bf98 = [
+  {
+    s00: Rational('0'),
+    s10: Rational('0'),
+    s20: Rational('0'),
+    s30: Rational('0'),
+    s40: Rational('0'),
+    s50: (B28 / Rational('18')) * Rational('4'),
+    s60: Rational('0'),
+    s70: Rational('0')
+  }
+]
+(0...60).each do |i|
+  bf98.push(
+    AGES.keys.to_h do |k|
+      db = bf98[i][k] + (AW98[i][k] / B75[k]) - (bf98[i][k] / B75[k])
+      [k, db < Rational('0') ? Rational('0') : db]
+    end
+  )
+end
+BF98 = bf98
+
+# Dc
+bo98 = [
+  {
+    s00: Rational('0'),
+    s10: Rational('0'),
+    s20: Rational('0'),
+    s30: Rational('0'),
+    s40: Rational('0'),
+    s50: (B28 / Rational('18')) * Rational('3'),
+    s60: Rational('0'),
+    s70: Rational('0')
+  }
+]
+(0...60).each do |i|
+  bo98.push(
+    AGES.keys.to_h do |k|
+      dc = bo98[i][k] + (BF98[i][k] / B75[k]) - (bo98[i][k] / B75[k])
+      [k, dc < Rational('0') ? Rational('0') : dc]
+    end
+  )
+end
+BO98 = bo98
+
+# 新規陽性者数
+B98 = (0...61).map do |i|
+  M98[i].merge({ sum: M98[i].values.reduce(:+) })
+end
+
+# 酸素需要を要する人（重症者を含む）
+B163 = (0...61).map do |i|
+  a = AGES.keys.to_h do |k|
+    [k, V98[i][k] + AE98[i][k] + AN160[i][k] + AW98[i][k] + BF98[i][k] + BO98[i][k] + AN222[i][k]]
+  end
+  a.merge({ sum: a.values.reduce(:+) })
+end
+
+# 重症病床を要する人
+B228 = (0...61).map do |i|
+  a = AGES.keys.to_h do |k|
+    [k, AW98[i][k] + BF98[i][k] + BO98[i][k] + AN222[i][k]]
+  end
+  a.merge({ sum: a.values.reduce(:+) })
+end
+
+# All
+M293 = M98
+
+# RestA
+v293 = [
+  {
+    s00: Rational('0'),
+    s10: Rational('0'),
+    s20: Rational('0'),
+    s30: Rational('0'),
+    s40: Rational('0'),
+    s50: (B29 - B28 - B27) / Rational('30') * Rational('8'),
+    s60: Rational('0'),
+    s70: Rational('0')
+  }
+]
+(0...60).each do |i|
+  v293.push(
+    AGES.keys.to_h do |k|
+      a = v293[i][k] + (M293[i][k] * (Rational('1') - B65[k])) - (v293[i][k] / Rational('2'))
+      [k, a < Rational('0') ? Rational('0') : a]
+    end
+  )
+end
+V293 = v293
+
+# RestB
+ae293 = [
+  {
+    s00: Rational('0'),
+    s10: Rational('0'),
+    s20: Rational('0'),
+    s30: Rational('0'),
+    s40: Rational('0'),
+    s50: (B29 - B28 - B27) / Rational('30') * Rational('7'),
+    s60: Rational('0'),
+    s70: Rational('0')
+  }
+]
+(0...60).each do |i|
+  ae293.push(
+    AGES.keys.to_h do |k|
+      a = ae293[i][k] + (V293[i][k] / Rational('2')) - (ae293[i][k] / Rational('2'))
+      [k, a < Rational('0') ? Rational('0') : a]
+    end
+  )
+end
+AE293 = ae293
+
+# RestC
+an293 = [
+  {
+    s00: Rational('0'),
+    s10: Rational('0'),
+    s20: Rational('0'),
+    s30: Rational('0'),
+    s40: Rational('0'),
+    s50: (B29 - B28 - B27) / Rational('30') * Rational('6'),
+    s60: Rational('0'),
+    s70: Rational('0')
+  }
+]
+(0...60).each do |i|
+  an293.push(
+    AGES.keys.to_h do |k|
+      a = an293[i][k] + (AE293[i][k] / Rational('2')) - (an293[i][k] / Rational('2'))
+      [k, a < Rational('0') ? Rational('0') : a]
+    end
+  )
+end
+AN293 = an293
+
+# RestD
+aw293 = [
+  {
+    s00: Rational('0'),
+    s10: Rational('0'),
+    s20: Rational('0'),
+    s30: Rational('0'),
+    s40: Rational('0'),
+    s50: (B29 - B28 - B27) / Rational('30') * Rational('5'),
+    s60: Rational('0'),
+    s70: Rational('0')
+  }
+]
+(0...60).each do |i|
+  aw293.push(
+    AGES.keys.to_h do |k|
+      a = aw293[i][k] + (AN293[i][k] / Rational('2')) - (aw293[i][k] / Rational('2'))
+      [k, a < Rational('0') ? Rational('0') : a]
+    end
+  )
+end
+AW293 = aw293
+
+# RestE
+bf293 = [
+  {
+    s00: Rational('0'),
+    s10: Rational('0'),
+    s20: Rational('0'),
+    s30: Rational('0'),
+    s40: Rational('0'),
+    s50: (B29 - B28 - B27) / Rational('30') * Rational('4'),
+    s60: Rational('0'),
+    s70: Rational('0')
+  }
+]
+(0...60).each do |i|
+  bf293.push(
+    AGES.keys.to_h do |k|
+      a = bf293[i][k] + (AW293[i][k] / Rational('2')) - (bf293[i][k] / Rational('2'))
+      [k, a < Rational('0') ? Rational('0') : a]
+    end
+  )
+end
+BF293 = bf293
+
+# 全療養者
+B293 = (0...61).map do |i|
+  a = AGES.keys.to_h do |k|
+    [k, V293[i][k] + AE293[i][k] + AN293[i][k] + AW293[i][k] + BF293[i][k] + B163[i][k]]
+  end
+  a.merge({ sum: a.values.reduce(:+) })
+end
+
+################################################################################
+# シミュレーション結果
+################################################################################
+
+# 酸素投与を要する人（重症者を含む）
+C79 = {
+  week1: B163[4][:sum],
+  week2: B163[11][:sum],
+  week3: B163[18][:sum],
+  week4: B163[25][:sum]
+}.freeze
+
+# 重症者（＝必要と思われる重症病床の確保数）
+H79 = {
+  week1: B228[4][:sum],
+  week2: B228[11][:sum],
+  week3: B228[18][:sum],
+  week4: B228[25][:sum]
+}.freeze
+
+# 全療養者
+N79 = {
+  week1: B293[7][:sum],
+  week2: B293[14][:sum],
+  week3: B293[21][:sum],
+  week4: B293[28][:sum]
+}.freeze
+
+# 自宅療養や療養施設を積極的に利用した場合、必要と思われる確保病床数（酸素需要者の2.5倍）
+C85 = C79.keys.to_h do |k|
+  [k, C79[k] * Rational('2.5')]
+end
+
+# ハイリスク軽症者や、ハイリスクでなくとも中等症 I は基本的に入院させる場合、必要と思われる確保病床数（酸素需要者の4倍）
+C91 = C79.keys.to_h do |k|
+  [k, C79[k] * Rational('4')]
+end
+
+data_health_burden_json = {
+  '酸素投与を要する人': C79.each.to_h { |k, v| [k, v.round] },
+  '重症者': H79.each.to_h { |k, v| [k, v.round] },
+  '全療養者': N79.each.to_h { |k, v| [k, v.round] },
+  '自宅療養や療養施設を積極的に利用した場合': C85.each.to_h { |k, v| [k, v.round] },
+  '基本的に入院させる場合': C91.each.to_h { |k, v| [k, v.round] },
+}
+
+
+######################################################################
 # write json
 ######################################################################
 
@@ -445,4 +1063,8 @@ end
 
 File.open(File.join(__dir__, '../data/', 'main_summary.json'), 'w') do |f|
   f.write JSON.pretty_generate(data_main_summary)
+end
+
+File.open(File.join(__dir__, '../data/', 'health_burden.json'), 'w') do |f|
+  f.write JSON.pretty_generate(data_health_burden_json)
 end
