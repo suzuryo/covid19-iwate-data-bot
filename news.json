@@ -188,20 +188,9 @@
       }
     },
     {
-      "date": "2021-12-08",
-      "url": {
-        "ja": "https://www.pref.iwate.jp/kurashikankyou/iryou/kenkou/jouhou/1035134.html#46",
-        "en": null
-      },
-      "text": {
-        "ja": "岩手県 新型コロナウイルス感染症対策本部 第46回 本部員会議",
-        "en": null
-      }
-    },
-    {
       "date": "2022-01-08",
       "url": {
-        "ja": "https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1049353.html",
+        "ja": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/035/134/20220108_03_1.pdf",
         "en": null
       },
       "text": {
@@ -217,6 +206,17 @@
       },
       "text": {
         "ja": "「岩手緊急事態宣言」を実施",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-12-08",
+      "url": {
+        "ja": "https://www.pref.iwate.jp/kurashikankyou/iryou/kenkou/jouhou/1035134.html#47",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手県 新型コロナウイルス感染症対策本部 第47回 本部員会議",
         "en": null
       }
     }
