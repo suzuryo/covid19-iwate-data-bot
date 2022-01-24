@@ -407,7 +407,7 @@ data_main_summary = {
 # 予測ツール
 # https://github.com/yukifuruse1217/COVIDhealthBurden
 # 医療需要予測ツール_オミクロンとブースター考慮版v3_20220103.xlsx
-# をrubyで実装。
+# の計算をrubyで実装。
 
 # 直近１週間の陽性者data
 last7days = data_json[:patients][:data].select { |d| Date.parse(d[:確定日]) > Date.parse(data_daily_positive_detail_json[:data][-1][:diagnosed_date]).days_ago(7) }
@@ -538,8 +538,21 @@ B28 = Rational(data_main_summary[:重症].to_s)
 B29 = Rational(data_main_summary[:入院]) + Rational(data_main_summary[:宿泊療養]) + Rational(data_main_summary[:自宅療養]) + Rational(data_main_summary[:調整中])
 
 # 現在の酸素投与を要する人の数（重症者を含む）
-# 岩手県は酸素投与が必要な中等症2の数を公表していないが、沖縄県の例だと酸素投与が必要になったのは全体の 0.8 % となっている
-B27 = (B29 * Rational('0.8') / Rational('100')) + B28
+# 岩手県は酸素投与が必要な中等症1,2の数を公表していない。
+# 第47回本部員会議の資料で、オミクロンの現在、中等症(1なの2なの)が1.3%という資料が出た。
+# つまり、76人の入院患者に対して中等症は1人ということ。
+# https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/035/134/20220123_01_3.pdf
+#
+# NIIDの資料では、2022/01/17の時点では、中等症1が1.1%、中等症2が0.4%
+# 40.6 が不明に割り振られているので分かっている分で計算すると、中等症2は (0.4) / (1.1 + 0.4 + 58.1) * 100 = 0.67 %
+# https://www.mhlw.go.jp/content/10900000/000884972.pdf#page=86
+#
+# 先行した沖縄県のデータでは
+# https://www.mhlw.go.jp/content/10900000/000877245.pdf#page=8
+# 2022/01/04時点では 中等症2は3.7%となっている。(NIIDより多い)
+#
+# NIIDの 0.67 % を採用して、全療養者数から中等症2の数を算出しておく。
+B27 = (B29 * Rational('0.67') / Rational('100')) + B28
 
 # ２回接種：感染予防
 B32 = Rational('30')
