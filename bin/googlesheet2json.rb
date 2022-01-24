@@ -139,32 +139,32 @@ PATIENT_MUNICIPALITIES.each do |row|
   )
 end
 
-######################################################################
-# データ生成 テンプレート
-# positive_by_diagnosed.json
-######################################################################
-data_positive_by_diagnosed_json = {
-  date: now.iso8601,
-  data: []
-}
-
-######################################################################
-# positive_by_diagnosed.json
-# data の生成
-######################################################################
-(first_date..Date.parse(POSITIVE_RATE[-1]['diagnosed_date'])).each do |date|
-  positive_by_diagnosed_sum = 0
-  PATIENTS.each do |row|
-    positive_by_diagnosed_sum += 1 if row['確定日'] == date.strftime('%Y-%m-%d')
-  end
-
-  data_positive_by_diagnosed_json[:data].append(
-    {
-      diagnosed_date: date.strftime('%Y-%m-%d'),
-      count: positive_by_diagnosed_sum
-    }
-  )
-end
+# ######################################################################
+# # データ生成 テンプレート
+# # positive_by_diagnosed.json
+# ######################################################################
+# data_positive_by_diagnosed_json = {
+#   date: now.iso8601,
+#   data: []
+# }
+#
+# ######################################################################
+# # positive_by_diagnosed.json
+# # data の生成
+# ######################################################################
+# (first_date..Date.parse(POSITIVE_RATE[-1]['diagnosed_date'])).each do |date|
+#   positive_by_diagnosed_sum = 0
+#   PATIENTS.each do |row|
+#     positive_by_diagnosed_sum += 1 if row['確定日'] == date.strftime('%Y-%m-%d')
+#   end
+#
+#   data_positive_by_diagnosed_json[:data].append(
+#     {
+#       diagnosed_date: date.strftime('%Y-%m-%d'),
+#       count: positive_by_diagnosed_sum
+#     }
+#   )
+# end
 
 ######################################################################
 # データ生成 テンプレート
@@ -1029,9 +1029,9 @@ File.open(File.join(__dir__, '../data/', 'patient_municipalities.json'), 'w') do
   f.write JSON.pretty_generate(data_patient_municipalities_json)
 end
 
-File.open(File.join(__dir__, '../data/', 'positive_by_diagnosed.json'), 'w') do |f|
-  f.write JSON.pretty_generate(data_positive_by_diagnosed_json)
-end
+# File.open(File.join(__dir__, '../data/', 'positive_by_diagnosed.json'), 'w') do |f|
+#   f.write JSON.pretty_generate(data_positive_by_diagnosed_json)
+# end
 
 File.open(File.join(__dir__, '../data/', 'daily_positive_detail.json'), 'w') do |f|
   f.write JSON.pretty_generate(data_daily_positive_detail_json)
