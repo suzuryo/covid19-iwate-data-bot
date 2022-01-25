@@ -1,23 +1,23 @@
 {
-  "date": "2022-01-25T15:37:42+09:00",
+  "date": "2022-01-25T15:45:21+09:00",
   "datasets": {
-    "date": "2022-01-25T15:37:42+09:00",
+    "date": "2022-01-25T15:45:21+09:00",
     "data": [
       {
         "code": "032018",
         "area": "岩手県",
         "label": "盛岡市",
         "ruby": "もりおかし",
-        "count": 1283,
-        "count_per_population": "0.443"
+        "count": 1292,
+        "count_per_population": "0.446"
       },
       {
         "code": "032026",
         "area": "岩手県",
         "label": "宮古市",
         "ruby": "みやこし",
-        "count": 160,
-        "count_per_population": "0.317"
+        "count": 162,
+        "count_per_population": "0.321"
       },
       {
         "code": "032034",
@@ -32,16 +32,16 @@
         "area": "岩手県",
         "label": "花巻市",
         "ruby": "はなまきし",
-        "count": 127,
-        "count_per_population": "0.136"
+        "count": 133,
+        "count_per_population": "0.143"
       },
       {
         "code": "032069",
         "area": "岩手県",
         "label": "北上市",
         "ruby": "きたかみし",
-        "count": 214,
-        "count_per_population": "0.230"
+        "count": 216,
+        "count_per_population": "0.232"
       },
       {
         "code": "032077",
@@ -64,8 +64,8 @@
         "area": "岩手県",
         "label": "一関市",
         "ruby": "いちのせきし",
-        "count": 137,
-        "count_per_population": "0.122"
+        "count": 138,
+        "count_per_population": "0.123"
       },
       {
         "code": "032107",
@@ -104,16 +104,16 @@
         "area": "岩手県",
         "label": "奥州市",
         "ruby": "おうしゅうし",
-        "count": 267,
-        "count_per_population": "0.236"
+        "count": 270,
+        "count_per_population": "0.239"
       },
       {
         "code": "032166",
         "area": "岩手県",
         "label": "滝沢市",
         "ruby": "たきざわし",
-        "count": 152,
-        "count_per_population": "0.273"
+        "count": 153,
+        "count_per_population": "0.275"
       },
       {
         "code": "033014",
