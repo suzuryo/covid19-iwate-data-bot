@@ -25,11 +25,22 @@
     {
       "date": "2022-01-25",
       "url": {
+        "ja": "https://www.youtube.com/watch?v=P6C79wTnJQo",
+        "en": null
+      },
+      "text": {
+        "ja": null,
+        "en": null
+      }
+    },
+    {
+      "date": "2022-01-25",
+      "url": {
         "ja": "https://iwate.stopcovid19.jp/",
         "en": null
       },
       "text": {
-        "ja": "本日は県からの感染者の詳細発表が遅れているため、数値やグラフ等が正確に描画されていません。",
+        "ja": "本日は県からの感染者の詳細発表が遅れているため、数値やグラフ等が正確に描画されていない場合があります。",
         "en": null
       }
     }
