@@ -1,7 +1,7 @@
 {
-  "date": "2022-01-26T19:43:14+09:00",
+  "date": "2022-01-26T20:09:04+09:00",
   "datasets": {
-    "date": "2022-01-26T19:43:14+09:00",
+    "date": "2022-01-26T20:09:04+09:00",
     "data": [
       {
         "code": "032018",
@@ -16,8 +16,8 @@
         "area": "岩手県",
         "label": "宮古市",
         "ruby": "みやこし",
-        "count": 165,
-        "count_per_population": "0.327"
+        "count": 166,
+        "count_per_population": "0.329"
       },
       {
         "code": "032034",
@@ -264,8 +264,8 @@
         "area": "岩手県",
         "label": "一戸町",
         "ruby": "いちのへまち",
-        "count": 4,
-        "count_per_population": "0.035"
+        "count": 9,
+        "count_per_population": "0.078"
       },
       {
         "code": "999999",
