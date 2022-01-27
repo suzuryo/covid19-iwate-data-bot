@@ -7666,6 +7666,39 @@
         "ja": "システムベース 盛岡センター (盛岡市)",
         "en": null
       }
+    },
+    {
+      "date": "2022-01-27",
+      "url": {
+        "ja": "http://www.keisenkai.jp/",
+        "en": null
+      },
+      "text": {
+        "ja": "ケアハウスまべち川 (二戸市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-01-27",
+      "url": {
+        "ja": "https://www.iwatebank.co.jp/assets/pdf/20220127_covid_news.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手銀行 茶畑支店 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-01-27",
+      "url": {
+        "ja": "https://www.kitagin.co.jp/news/download/pdf/20220127_1.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "北日本銀行 本部 (盛岡市)",
+        "en": null
+      }
     }
   ]
 }
