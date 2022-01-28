@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
-require 'active_support/core_ext/date'
+require 'active_support/all'
 require 'csv'
 require 'down'
 require 'fileutils'
@@ -40,7 +40,7 @@ module Pdf2Tsv
       cities.each do |city|
         @patients += parse_pdf(city)
       end
-      @patients.sort_by! { |a| a['id'] }
+      @patients.sort_by! { |a| a['id'].to_s }
 
       # TSV文字列組み立て
       @tsv = ''
@@ -119,52 +119,43 @@ module Pdf2Tsv
         files.map {|a| a[:csv]}.flatten.each do |f|
           csv_file = File.join(PDFS[city][:csv_dir], f)
           CSV.read(csv_file, headers: true).each do |row|
+            pp row
             h = {}
             # id、年代、性別はPDFからの認識ミスが発生するので、正規表現で取り出す
             m1 = /(?<id>\d{4})\s*[(（](?<morioka_id>\d{4})[)）](?<age>\d{2}(代|歳未満|歳以上))\s*(?<sex>[男|女]性)/.match(row[0] + row[1] + row[2])&.named_captures
-            h['id'] = m1['id'].to_i
-            h['年代'] = m1['age']
-            h['性別'] = m1['sex']
+            h['id'] = m1 ? m1['id'].to_i : ''
+            h['年代'] = m1 ? m1['age'] : ''
+            h['性別'] = m1 ? m1['sex'] : ''
 
             r3 = row[3].gsub(/\s/, '')
-            h['居住地'] = if /^県外/.match r3.split(/[(（]/)[0]
-                         '県外'
-                       else
-                         r3.split(/[(（]/)[0].gsub('滞在地', '').gsub(/[:：]/, '')
-                       end
-            h['滞在地'] = unless r3.split(/滞在地[:：]/)[1].nil?
-                         r3.split(/滞在地/)[1].split(/[(（]/)[0].gsub('滞在地', '').gsub(/[:：]/, '').gsub(/[)）]/, '')
-                       else
+            h['居住地'] = r3
+            h['滞在地'] = if r3.match(/盛岡市/)
                          ''
+                       else
+                         '盛岡市'
                        end
 
-            h['職業'] = row[4]
+            h['職業'] = row[7]
 
-            if row[5].match(/無症状/)
+            if row[4].match(/無症状/)
               # 症状が無い場合は発症日が空
               h['無症状'] = '無症状'
               h['発症日'] = ''
             else
               # 無症状でない場合
               h['無症状'] = ''
-              m2 = row[6].match(/(?<month>\d+)\/(?<day>\d+)/)
-              h['発症日'] = m2 ? Date.parse("2021/#{m2[:month]}/#{m2[:day]}").strftime('%Y/%m/%d') : ''
+              m2 = row[5].match(/(?<month>\d+)\/(?<day>\d+)/)
+              h['発症日'] = m2 ? Date.parse("2022/#{m2[:month]}/#{m2[:day]}").strftime('%Y/%m/%d') : ''
             end
 
-            h['陽性最終確定検査手法'] = if /PCR[：:]検出/.match row[8]
-                                'PCR検査'
-                              elsif /抗原[：:]検出/.match row[8]
-                                '抗原検査'
-                              else
-                                ''
-                              end
+            h['陽性最終確定検査手法'] = 'PCR検査'
 
-            h['接触歴'] = row[13].length > 1 ? '判明' : '不明'
+            h['接触歴'] = row[6].length > 1 ? '判明' : '不明'
 
             m2 = /^(?<month>\d{1,2})(?<day>\d{1,2})/.match f
 
-            h['リリース日'] = m2 ? Date.parse("2021/#{m2[:month]}/#{m2[:day]}").strftime('%Y/%m/%d') : ''
-            h['確定日'] = m2 ? Date.parse("2021/#{m2[:month]}/#{m2[:day]}").days_ago(1).strftime('%Y/%m/%d') : ''
+            h['リリース日'] = m2 ? Date.parse("2022/#{m2[:month]}/#{m2[:day]}").strftime('%Y/%m/%d') : ''
+            h['確定日'] = m2 ? Date.parse("2022/#{m2[:month]}/#{m2[:day]}").days_ago(1).strftime('%Y/%m/%d') : ''
             h['url'] = files.find { |a| a[:csv].include? f }[:url]
             patients << h
           end
@@ -176,49 +167,41 @@ module Pdf2Tsv
         files.map {|a| a[:csv]}.flatten.each do |f|
           csv_file = File.join(PDFS[city][:csv_dir], f)
           CSV.read(csv_file, headers: true).each do |row|
+            pp row
             h = {}
             # id、年代、性別はPDFからの認識ミスが発生するので、正規表現で取り出す
             m1 = /(?<id>\d{4})\s*(?<age>\d{2}(代|歳未満|歳以上))\s*(?<sex>[男|女]性)/.match(row[0] + row[1] + row[2])&.named_captures
-            h['id'] = m1['id'].to_i
-            h['年代'] = m1['age']
-            h['性別'] = m1['sex']
+            h['id'] = m1 ? m1['id'].to_i : ''
+            h['年代'] = m1 ? m1['age'] : ''
+            h['性別'] = m1 ? m1['sex'] : ''
 
             r3 = row[3].gsub(/\s/, '')
-            h['居住地'] = if /^県外/.match r3.split(/[(（]/)[0]
-                         '県外'
-                       else
-                         r3.split(/[(（]/)[0].gsub('滞在地', '').gsub(/[:：]/, '')
-                       end
-            h['滞在地'] = unless r3.split(/滞在地[:：]/)[1].nil?
-                         r3.split(/滞在地/)[1].split(/[(（]/)[0].gsub('滞在地', '').gsub(/[:：]/, '').gsub(/[)）]/, '')
+            h['居住地'] = r3.split(/[(（]/)[0]
+            h['滞在地'] = unless r3.split(/[(（]/)[1].nil?
+                         r3.split(/[(（]/)[1].gsub(/[)）]/, '')
                        else
                          ''
                        end
 
-            h['職業'] = row[4]
+            h['職業'] = row[7]
 
-            if row[5].match(/無症状/)
+            if row[4].match(/無症状/)
               # 症状が無い場合は発症日が空
               h['無症状'] = '無症状'
               h['発症日'] = ''
             else
               # 無症状でない場合
               h['無症状'] = ''
-              m2 = row[6].match(/(?<month>\d+)月(?<day>\d+)日/)
-              h['発症日'] = m2 ? Date.parse("2021/#{m2[:month]}/#{m2[:day]}").strftime('%Y/%m/%d') : ''
+              m2 = row[5].match(/(?<month>\d+)月(?<day>\d+)日/)
+              h['発症日'] = m2 ? Date.parse("2022/#{m2[:month]}/#{m2[:day]}").strftime('%Y/%m/%d') : ''
             end
 
-            h['陽性最終確定検査手法'] = if /PCR[：:]検出/.match row[8]
-                                'PCR検査'
-                              elsif /抗原[：:]検出/.match row[8]
-                                '抗原検査'
-                              else
-                                ''
-                              end
+            # 2022/01/28 から検査確定手法の記載が無くなったため、PCRに固定
+            h['陽性最終確定検査手法'] = 'PCR検査'
 
-            h['接触歴'] = row[13].length > 1 ? '判明' : '不明'
+            h['接触歴'] = row[6].length > 1 ? '判明' : '不明'
 
-            m2 = /(?<year>2021)(?<month>.{2})(?<day>.{2})/.match f
+            m2 = /(?<year>2022)(?<month>.{2})(?<day>.{2})/.match f
 
             h['リリース日'] = m2 ? Date.parse("#{m2[:year]}/#{m2[:month]}/#{m2[:day]}").strftime('%Y/%m/%d') : ''
             h['確定日'] = m2 ? Date.parse("#{m2[:year]}/#{m2[:month]}/#{m2[:day]}").days_ago(1).strftime('%Y/%m/%d') : ''
