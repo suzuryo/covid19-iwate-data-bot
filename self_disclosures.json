@@ -7732,6 +7732,28 @@
         "ja": "システムベース 本社 (北上市)",
         "en": null
       }
+    },
+    {
+      "date": "2022-01-26",
+      "url": {
+        "ja": "https://www.city.kitakami.iwate.jp/life/corona/shingatacorona/sonota/21507.html",
+        "en": null
+      },
+      "text": {
+        "ja": "北上市立保育施設 (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-01-26",
+      "url": {
+        "ja": "http://www.hopital-ohshu.or.jp/cgi_data/news/seiwa_1643174192_file1.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "清和会 [第2報]",
+        "en": null
+      }
     }
   ]
 }
