@@ -1,6 +1,6 @@
 {
   "patients": {
-    "date": "2022-01-29T16:34:30+09:00",
+    "date": "2022-01-29T16:40:27+09:00",
     "data": [
       {
         "id": 1,
@@ -52097,1262 +52097,1262 @@
       {
         "id": 4342,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-27",
         "無症状": false,
         "年代": "10代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "不明"
       },
       {
         "id": 4343,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-25",
         "無症状": false,
         "年代": "20代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "不明"
       },
       {
         "id": 4344,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-26",
         "無症状": false,
         "年代": "20代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "不明"
       },
       {
         "id": 4345,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-26",
         "無症状": false,
         "年代": "40代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "不明"
       },
       {
         "id": 4346,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-27",
         "無症状": false,
         "年代": "60代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "不明"
       },
       {
         "id": 4347,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-26",
         "無症状": false,
         "年代": "10代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4348,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-24",
         "無症状": false,
         "年代": "10代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4349,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-24",
         "無症状": false,
         "年代": "10代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4350,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-26",
         "無症状": false,
         "年代": "10代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4351,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-24",
         "無症状": false,
         "年代": "10歳未満",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4352,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-25",
         "無症状": false,
         "年代": "80代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4353,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-26",
         "無症状": false,
         "年代": "80代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4354,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-24",
         "無症状": false,
         "年代": "10代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4355,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-25",
         "無症状": false,
         "年代": "10代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4356,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-24",
         "無症状": false,
         "年代": "10代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4357,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-25",
         "無症状": false,
         "年代": "20代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4358,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-26",
         "無症状": false,
         "年代": "30代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4359,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-25",
         "無症状": false,
         "年代": "10歳未満",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4360,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-25",
         "無症状": false,
         "年代": "10代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4361,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-25",
         "無症状": false,
         "年代": "10歳未満",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4362,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-25",
         "無症状": false,
         "年代": "50代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4363,
         "確定日": "2022-01-28",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "70代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4364,
         "確定日": "2022-01-28",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "10代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4365,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-26",
         "無症状": false,
         "年代": "30代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4366,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-26",
         "無症状": false,
         "年代": "20代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4367,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-28",
         "無症状": false,
         "年代": "10代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4368,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-23",
         "無症状": false,
         "年代": "10代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4369,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-24",
         "無症状": false,
         "年代": "10代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4370,
         "確定日": "2022-01-28",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "10代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4371,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-26",
         "無症状": false,
         "年代": "10代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4372,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-22",
         "無症状": false,
         "年代": "70代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4373,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-26",
         "無症状": false,
         "年代": "10代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4374,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-25",
         "無症状": false,
         "年代": "10歳未満",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4375,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-22",
         "無症状": false,
         "年代": "20代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "不明"
       },
       {
         "id": 4376,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-26",
         "無症状": false,
         "年代": "40代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "不明"
       },
       {
         "id": 4377,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-27",
         "無症状": false,
         "年代": "20代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "不明"
       },
       {
         "id": 4378,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-26",
         "無症状": false,
         "年代": "30代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "不明"
       },
       {
         "id": 4379,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-28",
         "無症状": false,
         "年代": "30代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "不明"
       },
       {
         "id": 4380,
         "確定日": "2022-01-28",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "30代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4381,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-25",
         "無症状": false,
         "年代": "20代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4382,
         "確定日": "2022-01-28",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "20代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4383,
         "確定日": "2022-01-28",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "30代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4384,
         "確定日": "2022-01-28",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "20代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4385,
         "確定日": "2022-01-28",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "20代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4386,
         "確定日": "2022-01-28",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "20代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4387,
         "確定日": "2022-01-28",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "30代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4388,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-24",
         "無症状": false,
         "年代": "30代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4389,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-26",
         "無症状": false,
         "年代": "50代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4390,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-26",
         "無症状": false,
         "年代": "60代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4391,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-26",
         "無症状": false,
         "年代": "40代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4392,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-28",
         "無症状": false,
         "年代": "40代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4393,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-26",
         "無症状": false,
         "年代": "10代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4394,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-27",
         "無症状": false,
         "年代": "30代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4395,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-25",
         "無症状": false,
         "年代": "40代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4396,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-26",
         "無症状": false,
         "年代": "10代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4397,
         "確定日": "2022-01-28",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "40代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4398,
         "確定日": "2022-01-28",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "40代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4399,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-25",
         "無症状": false,
         "年代": "10代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4400,
         "確定日": "2022-01-28",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "40代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4401,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-23",
         "無症状": false,
         "年代": "80代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "不明"
       },
       {
         "id": 4402,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-25",
         "無症状": false,
         "年代": "30代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "不明"
       },
       {
         "id": 4403,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-28",
         "無症状": false,
         "年代": "20代",
         "居住地": "盛岡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/036/827/040129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "不明"
       },
       {
         "id": 4404,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-24",
         "無症状": false,
         "年代": "10代",
         "居住地": "県央保健所管内",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4405,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-24",
         "無症状": false,
         "年代": "10代",
         "居住地": "県央保健所管内",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4406,
         "確定日": "2022-01-28",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "10代",
         "居住地": "紫波町",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4407,
         "確定日": "2022-01-28",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "10代",
         "居住地": "県央保健所管内",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4408,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-25",
         "無症状": false,
         "年代": "10代",
         "居住地": "滝沢市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4409,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-25",
         "無症状": false,
         "年代": "10代",
         "居住地": "県央保健所管内",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4410,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-23",
         "無症状": false,
         "年代": "10代",
         "居住地": "県央保健所管内",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4411,
         "確定日": "2022-01-28",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "70代",
         "居住地": "県央保健所管内",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "不明"
       },
       {
         "id": 4412,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-24",
         "無症状": false,
         "年代": "30代",
         "居住地": "県央保健所管内",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "不明"
       },
       {
         "id": 4413,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-22",
         "無症状": false,
         "年代": "60代",
         "居住地": "滝沢市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "不明"
       },
       {
         "id": 4414,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-27",
         "無症状": false,
         "年代": "20代",
         "居住地": "県央保健所管内",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "不明"
       },
       {
         "id": 4415,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-27",
         "無症状": false,
         "年代": "10代",
         "居住地": "八幡平市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "不明"
       },
       {
         "id": 4416,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-27",
         "無症状": false,
         "年代": "20代",
         "居住地": "滝沢市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "不明"
       },
       {
         "id": 4417,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-27",
         "無症状": false,
         "年代": "40代",
         "居住地": "矢巾町",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "不明"
       },
       {
         "id": 4418,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-25",
         "無症状": false,
         "年代": "30代",
         "居住地": "北上市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "不明"
       },
       {
         "id": 4419,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-26",
         "無症状": false,
         "年代": "30代",
         "居住地": "中部保健所管内",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "不明"
       },
       {
         "id": 4420,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-25",
         "無症状": false,
         "年代": "20代",
         "居住地": "中部保健所管内",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "不明"
       },
       {
         "id": 4421,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-24",
         "無症状": false,
         "年代": "30代",
         "居住地": "中部保健所管内",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4422,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-27",
         "無症状": false,
         "年代": "40代",
         "居住地": "北上市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4423,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-28",
         "無症状": false,
         "年代": "50代",
         "居住地": "北上市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4424,
         "確定日": "2022-01-28",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "30代",
         "居住地": "花巻市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "不明"
       },
       {
         "id": 4425,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-27",
         "無症状": false,
         "年代": "50代",
         "居住地": "花巻市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4426,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-25",
         "無症状": false,
         "年代": "20代",
         "居住地": "花巻市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "不明"
       },
       {
         "id": 4427,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-24",
         "無症状": false,
         "年代": "50代",
         "居住地": "中部保健所管内",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "不明"
       },
       {
         "id": 4428,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-25",
         "無症状": false,
         "年代": "40代",
         "居住地": "北上市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "不明"
       },
       {
         "id": 4429,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-26",
         "無症状": false,
         "年代": "70代",
         "居住地": "中部保健所管内",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "不明"
       },
       {
         "id": 4430,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-26",
         "無症状": false,
         "年代": "10代",
         "居住地": "花巻市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4431,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-26",
         "無症状": false,
         "年代": "30代",
         "居住地": "花巻市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "不明"
       },
       {
         "id": 4432,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-26",
         "無症状": false,
         "年代": "30代",
         "居住地": "北上市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4433,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-24",
         "無症状": false,
         "年代": "30代",
         "居住地": "奥州保健所管内",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4434,
         "確定日": "2022-01-28",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "40代",
         "居住地": "奥州市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4435,
         "確定日": "2022-01-28",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "10代",
         "居住地": "奥州市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4436,
         "確定日": "2022-01-28",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "10代",
         "居住地": "奥州市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4437,
         "確定日": "2022-01-28",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "10代",
         "居住地": "奥州保健所管内",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4438,
         "確定日": "2022-01-28",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "10代",
         "居住地": "奥州保健所管内",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4439,
         "確定日": "2022-01-28",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "10代",
         "居住地": "奥州市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4440,
         "確定日": "2022-01-28",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "20代",
         "居住地": "奥州市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4441,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-27",
         "無症状": false,
         "年代": "20代",
         "居住地": "奥州保健所管内",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4442,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-25",
         "無症状": false,
         "年代": "50代",
         "居住地": "奥州市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "不明"
       },
       {
         "id": 4443,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-26",
         "無症状": false,
         "年代": "30代",
         "居住地": "奥州市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "不明"
       },
       {
         "id": 4444,
         "確定日": "2022-01-28",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "10代",
         "居住地": "奥州市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "不明"
       },
       {
         "id": 4445,
         "確定日": "2022-01-28",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "80代",
         "居住地": "奥州保健所管内",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4446,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-24",
         "無症状": false,
         "年代": "30代",
         "居住地": "奥州保健所管内",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4447,
@@ -53362,614 +53362,614 @@
         "年代": "50代",
         "居住地": "奥州市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "不明"
       },
       {
         "id": 4448,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-28",
         "無症状": false,
         "年代": "20代",
         "居住地": "奥州市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "不明"
       },
       {
         "id": 4449,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-21",
         "無症状": false,
         "年代": "50代",
         "居住地": "奥州保健所管内",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "不明"
       },
       {
         "id": 4450,
         "確定日": "2022-01-28",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "50代",
         "居住地": "奥州保健所管内",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4451,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-26",
         "無症状": false,
         "年代": "30代",
         "居住地": "奥州市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4452,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-27",
         "無症状": false,
         "年代": "20代",
         "居住地": "県外",
         "滞在地": "奥州市",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "不明"
       },
       {
         "id": 4453,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-27",
         "無症状": false,
         "年代": "10代",
         "居住地": "奥州保健所管内",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4454,
         "確定日": "2022-01-28",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "10歳未満",
         "居住地": "奥州市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4455,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-27",
         "無症状": false,
         "年代": "60代",
         "居住地": "奥州市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4456,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-26",
         "無症状": false,
         "年代": "50代",
         "居住地": "奥州市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "不明"
       },
       {
         "id": 4457,
         "確定日": "2022-01-28",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "50代",
         "居住地": "奥州市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4458,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-27",
         "無症状": false,
         "年代": "40代",
         "居住地": "奥州市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4459,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-27",
         "無症状": false,
         "年代": "40代",
         "居住地": "奥州市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4460,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-26",
         "無症状": false,
         "年代": "30代",
         "居住地": "一関市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4461,
         "確定日": "2022-01-28",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "30代",
         "居住地": "一関市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4462,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-25",
         "無症状": false,
         "年代": "10歳未満",
         "居住地": "一関市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4463,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-27",
         "無症状": false,
         "年代": "10歳未満",
         "居住地": "一関市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4464,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-26",
         "無症状": false,
         "年代": "60代",
         "居住地": "一関市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4465,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-26",
         "無症状": false,
         "年代": "50代",
         "居住地": "一関市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4466,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-26",
         "無症状": false,
         "年代": "80代",
         "居住地": "一関市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4467,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-25",
         "無症状": false,
         "年代": "30代",
         "居住地": "一関市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4468,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-26",
         "無症状": false,
         "年代": "10代",
         "居住地": "一関市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4469,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-27",
         "無症状": false,
         "年代": "70代",
         "居住地": "一関市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4470,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-26",
         "無症状": false,
         "年代": "50代",
         "居住地": "一関保健所管内",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4471,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-25",
         "無症状": false,
         "年代": "40代",
         "居住地": "一関保健所管内",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "不明"
       },
       {
         "id": 4472,
         "確定日": "2022-01-28",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "30代",
         "居住地": "一関保健所管内",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4473,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-25",
         "無症状": false,
         "年代": "30代",
         "居住地": "一関保健所管内",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4474,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-26",
         "無症状": false,
         "年代": "50代",
         "居住地": "一関保健所管内",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4475,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-27",
         "無症状": false,
         "年代": "80代",
         "居住地": "一関保健所管内",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4476,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-26",
         "無症状": false,
         "年代": "20代",
         "居住地": "一関保健所管内",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4477,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-27",
         "無症状": false,
         "年代": "70代",
         "居住地": "一関市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "不明"
       },
       {
         "id": 4478,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-28",
         "無症状": false,
         "年代": "10代",
         "居住地": "一関市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4479,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-24",
         "無症状": false,
         "年代": "40代",
         "居住地": "一関市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4480,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-26",
         "無症状": false,
         "年代": "30代",
         "居住地": "一関市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4481,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-23",
         "無症状": false,
         "年代": "40代",
         "居住地": "一関保健所管内",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "不明"
       },
       {
         "id": 4482,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-26",
         "無症状": false,
         "年代": "20代",
         "居住地": "一関保健所管内",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "不明"
       },
       {
         "id": 4483,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-27",
         "無症状": false,
         "年代": "10歳未満",
         "居住地": "大船渡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4484,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-25",
         "無症状": false,
         "年代": "20代",
         "居住地": "大船渡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4485,
         "確定日": "2022-01-28",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "80代",
         "居住地": "大船渡保健所管内",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4486,
         "確定日": "2022-01-28",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "30代",
         "居住地": "大船渡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4487,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-26",
         "無症状": false,
         "年代": "20代",
         "居住地": "大船渡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4488,
         "確定日": "2022-01-28",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "50代",
         "居住地": "大船渡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4489,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-27",
         "無症状": false,
         "年代": "40代",
         "居住地": "大船渡市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4490,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-27",
         "無症状": false,
         "年代": "50代",
         "居住地": "県内",
         "滞在地": "大船渡市",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4491,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-26",
         "無症状": false,
         "年代": "60代",
         "居住地": "県外",
         "滞在地": "大船渡保健所管内",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "不明"
       },
       {
         "id": 4492,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-27",
         "無症状": false,
         "年代": "10代",
         "居住地": "大船渡保健所管内",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4493,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-27",
         "無症状": false,
         "年代": "60代",
         "居住地": "釜石保健所管内",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       },
       {
         "id": 4494,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-27",
         "無症状": false,
         "年代": "10歳未満",
         "居住地": "県外",
         "滞在地": "宮古市",
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "不明"
       },
       {
         "id": 4495,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-24",
         "無症状": false,
         "年代": "20代",
         "居住地": "宮古市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "不明"
       },
       {
         "id": 4496,
         "確定日": "2022-01-28",
-        "発症日": null,
+        "発症日": "2022-01-27",
         "無症状": false,
         "年代": "10代",
         "居住地": "二戸市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "不明"
       },
       {
         "id": 4497,
         "確定日": "2022-01-28",
         "発症日": null,
-        "無症状": false,
+        "無症状": true,
         "年代": "40代",
         "居住地": "二戸市",
         "滞在地": null,
-        "url": null,
+        "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/049/258/patients_20220129.pdf",
         "yt": null,
-        "接触歴": null
+        "接触歴": "判明"
       }
     ]
   },
   "patients_summary": {
-    "date": "2022-01-29T16:34:30+09:00",
+    "date": "2022-01-29T16:40:27+09:00",
     "data": [
       {
         "日付": "2020-02-15",
@@ -56833,5 +56833,5 @@
       }
     ]
   },
-  "lastUpdate": "2022-01-29T16:34:30+09:00"
+  "lastUpdate": "2022-01-29T16:40:27+09:00"
 }
