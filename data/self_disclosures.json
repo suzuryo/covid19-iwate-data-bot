@@ -8326,6 +8326,28 @@
         "ja": "北日本銀行 本部 (盛岡市)",
         "en": null
       }
+    },
+    {
+      "date": "2022-02-01",
+      "url": {
+        "ja": "https://www.japanpost.jp/information/notices2_latest.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手郵便局 (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-02-01",
+      "url": {
+        "ja": "https://www.japanpost.jp/information/notices2_latest.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "水沢横町郵便局 (奥州市)",
+        "en": null
+      }
     }
   ]
 }
