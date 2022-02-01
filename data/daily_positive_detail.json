@@ -1,5 +1,5 @@
 {
-  "date": "2022-02-01T16:54:19+09:00",
+  "date": "2022-02-01T17:06:10+09:00",
   "data": [
     {
       "diagnosed_date": "2020-02-13",
@@ -5723,35 +5723,35 @@
     },
     {
       "diagnosed_date": "2022-01-28",
-      "count": 156,
-      "missing_count": 45,
+      "count": 155,
+      "missing_count": 44,
       "reported_count": 111,
-      "weekly_average_count": 106.43,
-      "weekly_average_untracked_count": 24.43
+      "weekly_average_count": 106.29,
+      "weekly_average_untracked_count": 24.29
     },
     {
       "diagnosed_date": "2022-01-29",
       "count": 105,
       "missing_count": 32,
       "reported_count": 73,
-      "weekly_average_count": 114.57,
-      "weekly_average_untracked_count": 27.86
+      "weekly_average_count": 114.43,
+      "weekly_average_untracked_count": 27.71
     },
     {
       "diagnosed_date": "2022-01-30",
       "count": 142,
       "missing_count": 26,
       "reported_count": 116,
-      "weekly_average_count": 126.14,
-      "weekly_average_untracked_count": 30.43
+      "weekly_average_count": 126.0,
+      "weekly_average_untracked_count": 30.29
     },
     {
       "diagnosed_date": "2022-01-31",
       "count": 119,
       "missing_count": 36,
       "reported_count": 83,
-      "weekly_average_count": 124.29,
-      "weekly_average_untracked_count": 33.0
+      "weekly_average_count": 124.14,
+      "weekly_average_untracked_count": 32.86
     }
   ]
 }
