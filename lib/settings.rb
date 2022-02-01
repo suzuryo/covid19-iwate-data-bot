@@ -4,7 +4,7 @@ TARGET_MIN_ID = 4205
 
 PDFS = {
   iwate: {
-    url: 'https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1049258.html',
+    url: 'https://www.pref.iwate.jp/kurashikankyou/iryou/covid19/1048494.html',
     selector: '#voice > ul.objectlink:nth-child(9) > li.pdf > a',
     url_replace: ['../../../', 'https://www.pref.iwate.jp/'],
     pdf_dir: File.expand_path(File.join(__dir__, '../download/pdf/iwate')),
