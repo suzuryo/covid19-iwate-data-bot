@@ -1018,10 +1018,12 @@ data_health_burden_json = {
   全療養者: N79.each.to_h { |k, v| [k, v.round] },
   自宅療養や療養施設を積極的に利用した場合: C85.each.to_h { |k, v| [k, v.round] },
   基本的に入院させる場合: C91.each.to_h { |k, v| [k, v.round] },
-  新規陽性者数データ: B98.slice(0, 26).map { |v| v[:sum].round },
-  酸素需要を要する人データ: B163.slice(0, 26).map { |v| v[:sum].round },
-  重症病床を要する人データ: B228.slice(0, 26).map { |v| v[:sum].round },
-  全療養者データ: B293.slice(0, 26).map { |v| v[:sum].round },
+  新規陽性者数データ: B98.slice(0, 19).map { |v| v[:sum].round },
+  酸素需要を要する人データ: B163.slice(0, 19).map { |v| v[:sum].round },
+  重症病床を要する人データ: B228.slice(0, 19).map { |v| v[:sum].round },
+  自宅療養や療養施設を積極的に利用した場合データ: B163.slice(0, 19).map { |v| (v[:sum] * Rational('2.5')).round },
+  基本的に入院させる場合データ: B163.slice(0, 19).map { |v| (v[:sum] * Rational('4.0')).round },
+  全療養者データ: B293.slice(0, 19).map { |v| v[:sum].round },
 }
 
 
