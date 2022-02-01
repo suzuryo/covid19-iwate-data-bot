@@ -543,6 +543,10 @@ B29 = Rational(data_main_summary[:入院]) + Rational(data_main_summary[:宿泊�
 # つまり、76人の入院患者に対して中等症は1人ということ。
 # https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/035/134/20220123_01_3.pdf
 #
+# 第48回本部員会議の資料で、中等症(1なの2なの)が2.3%という資料が出た。
+# つまり、177人の入院患者に対して中等症は4人ということ。
+# https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/035/134/20220201_01_3.pdf
+#
 # NIIDの資料では、2022/01/17の時点では、中等症1が1.1%、中等症2が0.4%
 # 40.6 が不明に割り振られているので分かっている分で計算すると、中等症2は (0.4) / (1.1 + 0.4 + 58.1) * 100 = 0.67 %
 # https://www.mhlw.go.jp/content/10900000/000884972.pdf#page=86
