@@ -8066,7 +8066,7 @@
     {
       "date": "2022-01-29",
       "url": {
-        "ja": "https://www.kioxia-iwate.co.jp/news/2021/covid-19b.html",
+        "ja": "https://www.kioxia-iwate.co.jp/news/2021/covid-19b.html#:~:text=2022%E5%B9%B41%E6%9C%8829%E6%97%A5%E3%80%80%E5%85%AC%E8%A1%A8",
         "en": null
       },
       "text": {
@@ -8077,7 +8077,7 @@
     {
       "date": "2022-01-31",
       "url": {
-        "ja": "https://www.kioxia-iwate.co.jp/news/2021/covid-19b.html",
+        "ja": "https://www.kioxia-iwate.co.jp/news/2021/covid-19b.html#:~:text=2022%E5%B9%B41%E6%9C%8831%E6%97%A5%E3%80%80%E5%85%AC%E8%A1%A8",
         "en": null
       },
       "text": {
@@ -8412,6 +8412,39 @@
       },
       "text": {
         "ja": "一関市立の幼稚園 (一関市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-02-01",
+      "url": {
+        "ja": "https://www.kioxia-iwate.co.jp/news/2021/covid-19b.html#:~:text=2022%E5%B9%B42%E6%9C%881%E6%97%A5%E3%80%80%E5%85%AC%E8%A1%A8",
+        "en": null
+      },
+      "text": {
+        "ja": "キオクシア岩手 (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-02-01",
+      "url": {
+        "ja": "https://www.city.tono.iwate.jp/index.cfm/47,63074,286,html",
+        "en": null
+      },
+      "text": {
+        "ja": "遠野市立学校における臨時休業 [続報] (遠野市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-02-01",
+      "url": {
+        "ja": "https://www.ichinoseki.ac.jp/news/news_oshirase.html?id=1684",
+        "en": null
+      },
+      "text": {
+        "ja": "一関工業高等専門学校 [第2報] (一関市)",
         "en": null
       }
     }
