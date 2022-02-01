@@ -210,13 +210,13 @@
       }
     },
     {
-      "date": "2022-01-23",
+      "date": "2022-02-01",
       "url": {
-        "ja": "https://www.pref.iwate.jp/kurashikankyou/iryou/kenkou/jouhou/1035134.html#47",
+        "ja": "https://www.pref.iwate.jp/kurashikankyou/iryou/kenkou/jouhou/1035134.html#48",
         "en": null
       },
       "text": {
-        "ja": "岩手県 新型コロナウイルス感染症対策本部 第47回 本部員会議",
+        "ja": "岩手県 新型コロナウイルス感染症対策本部 第48回 本部員会議",
         "en": null
       }
     },
@@ -228,6 +228,17 @@
       },
       "text": {
         "ja": "1月25日 感染状況 ブリーフィング (YouTube)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-02-01",
+      "url": {
+        "ja": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/035/134/20220201_03_1.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "自宅療養の実施について (第48回本部員会議資料)",
         "en": null
       }
     }
