@@ -124,6 +124,8 @@ module Pdf2Tsv
             # id、年代、性別はPDFからの認識ミスが発生するので、正規表現で取り出す
             m1 = /(?<id>\d{4})\s*[(（](?<morioka_id>\d{4})[)）](?<age>\d{2}(代|歳未満|歳以上))\s*(?<sex>[男|女]性)/.match(row[0] + row[1] + row[2])&.named_captures
             h['id'] = m1 ? m1['id'].to_i : ''
+            next if h['id'].blank?
+
             h['年代'] = m1 ? m1['age'] : ''
             h['性別'] = m1 ? m1['sex'] : ''
 
@@ -144,8 +146,10 @@ module Pdf2Tsv
             else
               # 無症状でない場合
               h['無症状'] = ''
+              p row[5]
               m2 = row[5].match(/(?<month>\d+)\/(?<day>\d+)/)
               h['発症日'] = m2 ? Date.parse("2022/#{m2[:month]}/#{m2[:day]}").strftime('%Y/%m/%d') : ''
+              p h['発症日']
             end
 
             h['陽性最終確定検査手法'] = 'PCR検査'
@@ -172,6 +176,8 @@ module Pdf2Tsv
             # id、年代、性別はPDFからの認識ミスが発生するので、正規表現で取り出す
             m1 = /(?<id>\d{4})\s*(?<age>\d{2}(代|歳未満|歳以上))\s*(?<sex>[男|女]性)/.match(row[0] + row[1] + row[2])&.named_captures
             h['id'] = m1 ? m1['id'].to_i : ''
+            next if h['id'].blank?
+
             h['年代'] = m1 ? m1['age'] : ''
             h['性別'] = m1 ? m1['sex'] : ''
 
@@ -200,6 +206,7 @@ module Pdf2Tsv
             h['陽性最終確定検査手法'] = 'PCR検査'
 
             h['接触歴'] = row[6].length > 1 ? '判明' : '不明'
+            h['接触歴'] = '不明' if row[6] == '(cid:695)'
 
             m2 = /(?<year>2022)(?<month>.{2})(?<day>.{2})/.match f
 
