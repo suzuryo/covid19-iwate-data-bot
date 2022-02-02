@@ -8352,6 +8352,17 @@
     {
       "date": "2022-02-01",
       "url": {
+        "ja": "https://www.japanpost.jp/information/notices2_latest.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "水沢太日通郵便局 (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-02-01",
+      "url": {
         "ja": "https://www.city.hanamaki.iwate.jp/1011531/1013905/1011558/1015818.html#:~:text=2%E6%9C%881%E6%97%A5-,%E5%B8%82%E5%86%85%E5%B0%8F%E4%B8%AD%E5%AD%A6%E6%A0%A1%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E8%87%A8%E6%99%82%E4%BC%91%E6%A5%AD%EF%BC%88%E4%BC%91%E6%A0%A1%EF%BC%89%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%EF%BC%882%E6%9C%881%E6%97%A5%E6%9B%B4%E6%96%B0%EF%BC%89,-%E8%8A%B1%E5%B7%BB%E5%B8%82%E6%95%99%E8%82%B2",
         "en": null
       },
@@ -8577,6 +8588,17 @@
       },
       "text": {
         "ja": "いわてグルージャ盛岡 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-02-02",
+      "url": {
+        "ja": "https://www.japanpost.jp/information/notices2_latest.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "盛岡中央郵便局 (北上市)",
         "en": null
       }
     }
