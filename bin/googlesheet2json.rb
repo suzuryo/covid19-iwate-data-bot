@@ -290,6 +290,7 @@ end
 # news.json
 ######################################################################
 data_news_json = {
+  date: now.iso8601,
   newsItems: []
 }
 
@@ -314,6 +315,7 @@ end
 # alert.json
 ######################################################################
 data_alert_json = {
+  date: now.iso8601,
   alertItems: []
 }
 
@@ -338,6 +340,7 @@ end
 # urls.json
 ######################################################################
 data_urls_json = {
+  date: now.iso8601,
   items: []
 }
 
@@ -355,6 +358,7 @@ end
 # self_disclosures.json
 ######################################################################
 data_self_disclosures_json = {
+  date: now.iso8601,
   newsItems: []
 }
 
