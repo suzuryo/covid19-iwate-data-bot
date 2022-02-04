@@ -1,5 +1,5 @@
 {
-  "date": "2022-02-04T19:05:19+09:00",
+  "date": "2022-02-04T20:05:31+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -8974,6 +8974,116 @@
       },
       "text": {
         "ja": "マイヤ 花泉店 (一関市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-02-04",
+      "url": {
+        "ja": "https://www.japanpost.jp/information/notices2_latest.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "盛岡中央郵便局 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-02-04",
+      "url": {
+        "ja": "https://www.city.ichinoseki.iwate.jp/index.cfm/7,143536,c,html/143536/20220204-185824.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "一関市立のこども園 (一関市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-02-04",
+      "url": {
+        "ja": "https://www.nichiigakkan.co.jp/7ac1eaf03f255d421383b32ecc0f5b7c062f6cfe.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "ニチイケアセンター水沢 (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-02-04",
+      "url": {
+        "ja": "https://www.srg.co.jp/cms/wp-content/uploads/2022/02/covid19-202202.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "白金運輸 (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-02-03",
+      "url": {
+        "ja": "http://www.iwai-hp.com/media/3/20220203-20220203hp_______.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手県立磐井病院 [続報] (一関市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-02-03",
+      "url": {
+        "ja": "http://keiwakai.sakura.ne.jp/keiwakai/topics/2022/02/03/%e6%96%b0%e5%9e%8b%e3%82%b3%e3%83%ad%e3%83%8a%e3%82%a6%e3%82%a4%e3%83%ab%e3%82%b9%e6%84%9f%e6%9f%93%e8%80%85%e3%81%ae%e7%99%ba%e7%94%9f%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b%ef%bc%88%e7%ac%ac/",
+        "en": null
+      },
+      "text": {
+        "ja": "あおやぎの家 [第3報] (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-02-04",
+      "url": {
+        "ja": "https://www.ichinoseki.ac.jp/news/news_oshirase.html?id=1686",
+        "en": null
+      },
+      "text": {
+        "ja": "一関工業高等専門学校 (一関市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-02-04",
+      "url": {
+        "ja": "https://www.ichinoseki.ac.jp/news/news_oshirase.html?id=1687",
+        "en": null
+      },
+      "text": {
+        "ja": "一関工業高等専門学校 (一関市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-02-03",
+      "url": {
+        "ja": "http://ousyu-hidamari.or.jp/",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手ひだまり会 [続報] (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-02-03",
+      "url": {
+        "ja": "http://www.morishin.co.jp/news/pdf/20220203_cvirus.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "盛岡信用金庫 仙北町支店 (盛岡市)",
         "en": null
       }
     }
