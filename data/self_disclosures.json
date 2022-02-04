@@ -1,5 +1,5 @@
 {
-  "date": "2022-02-04T09:20:23+09:00",
+  "date": "2022-02-04T09:31:48+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -8908,6 +8908,17 @@
       },
       "text": {
         "ja": "東北銀行 花巻支店 (花巻市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-02-04",
+      "url": {
+        "ja": "https://www.iwatebank.co.jp/assets/pdf/20220204_covid_news.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手銀行 花巻西支店 (花巻市)",
         "en": null
       }
     }
