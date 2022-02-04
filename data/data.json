@@ -1,6 +1,6 @@
 {
   "patients": {
-    "date": "2022-02-04T14:32:17+09:00",
+    "date": "2022-02-04T15:29:35+09:00",
     "data": [
       {
         "id": 1,
@@ -61897,11 +61897,131 @@
         "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/048/494/20220203_1.pdf",
         "yt": null,
         "接触歴": "不明"
+      },
+      {
+        "id": 0,
+        "確定日": "2022-02-03",
+        "発症日": null,
+        "無症状": false,
+        "年代": null,
+        "居住地": null,
+        "滞在地": null,
+        "url": null,
+        "yt": null,
+        "接触歴": null
+      },
+      {
+        "id": 0,
+        "確定日": "2022-02-03",
+        "発症日": null,
+        "無症状": false,
+        "年代": null,
+        "居住地": null,
+        "滞在地": null,
+        "url": null,
+        "yt": null,
+        "接触歴": null
+      },
+      {
+        "id": 0,
+        "確定日": "2022-02-03",
+        "発症日": null,
+        "無症状": false,
+        "年代": null,
+        "居住地": null,
+        "滞在地": null,
+        "url": null,
+        "yt": null,
+        "接触歴": null
+      },
+      {
+        "id": 0,
+        "確定日": "2022-02-03",
+        "発症日": null,
+        "無症状": false,
+        "年代": null,
+        "居住地": null,
+        "滞在地": null,
+        "url": null,
+        "yt": null,
+        "接触歴": null
+      },
+      {
+        "id": 0,
+        "確定日": "2022-02-03",
+        "発症日": null,
+        "無症状": false,
+        "年代": null,
+        "居住地": null,
+        "滞在地": null,
+        "url": null,
+        "yt": null,
+        "接触歴": null
+      },
+      {
+        "id": 0,
+        "確定日": "2022-02-03",
+        "発症日": null,
+        "無症状": false,
+        "年代": null,
+        "居住地": null,
+        "滞在地": null,
+        "url": null,
+        "yt": null,
+        "接触歴": null
+      },
+      {
+        "id": 0,
+        "確定日": "2022-02-03",
+        "発症日": null,
+        "無症状": false,
+        "年代": null,
+        "居住地": null,
+        "滞在地": null,
+        "url": null,
+        "yt": null,
+        "接触歴": null
+      },
+      {
+        "id": 0,
+        "確定日": "2022-02-03",
+        "発症日": null,
+        "無症状": false,
+        "年代": null,
+        "居住地": null,
+        "滞在地": null,
+        "url": null,
+        "yt": null,
+        "接触歴": null
+      },
+      {
+        "id": 0,
+        "確定日": "2022-02-03",
+        "発症日": null,
+        "無症状": false,
+        "年代": null,
+        "居住地": null,
+        "滞在地": null,
+        "url": null,
+        "yt": null,
+        "接触歴": null
+      },
+      {
+        "id": 0,
+        "確定日": "2022-02-03",
+        "発症日": null,
+        "無症状": false,
+        "年代": null,
+        "居住地": null,
+        "滞在地": null,
+        "url": null,
+        "yt": null,
+        "接触歴": null
       }
     ]
   },
   "patients_summary": {
-    "date": "2022-02-04T14:32:17+09:00",
+    "date": "2022-02-04T15:29:35+09:00",
     "data": [
       {
         "日付": "2020-02-15",
@@ -64785,5 +64905,5 @@
       }
     ]
   },
-  "lastUpdate": "2022-02-04T14:32:17+09:00"
+  "lastUpdate": "2022-02-04T15:29:35+09:00"
 }
