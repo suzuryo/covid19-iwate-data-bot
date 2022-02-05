@@ -1,5 +1,5 @@
 {
-  "date": "2022-02-05T15:30:28+09:00",
+  "date": "2022-02-05T17:00:42+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -9117,6 +9117,17 @@
       },
       "text": {
         "ja": "奥州市総合水沢病院 (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-02-04",
+      "url": {
+        "ja": "https://www.nissay.co.jp/coronavirusoshirase/infomation/index.html",
+        "en": null
+      },
+      "text": {
+        "ja": "日本生命 (盛岡市)",
         "en": null
       }
     }
