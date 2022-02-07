@@ -1,15 +1,15 @@
 {
-  "date": "2022-02-07T13:07:09+09:00",
+  "date": "2022-02-07T15:15:28+09:00",
   "datasets": {
-    "date": "2022-02-07T13:07:09+09:00",
+    "date": "2022-02-07T15:15:28+09:00",
     "data": [
       {
         "code": "032018",
         "area": "岩手県",
         "label": "盛岡市",
         "ruby": "もりおかし",
-        "count": 1753,
-        "count_per_population": "0.605"
+        "count": 1795,
+        "count_per_population": "0.619"
       },
       {
         "code": "032026",
@@ -32,16 +32,16 @@
         "area": "岩手県",
         "label": "花巻市",
         "ruby": "はなまきし",
-        "count": 238,
-        "count_per_population": "0.255"
+        "count": 240,
+        "count_per_population": "0.257"
       },
       {
         "code": "032069",
         "area": "岩手県",
         "label": "北上市",
         "ruby": "きたかみし",
-        "count": 356,
-        "count_per_population": "0.382"
+        "count": 359,
+        "count_per_population": "0.386"
       },
       {
         "code": "032077",
@@ -56,16 +56,16 @@
         "area": "岩手県",
         "label": "遠野市",
         "ruby": "とおのし",
-        "count": 20,
-        "count_per_population": "0.079"
+        "count": 23,
+        "count_per_population": "0.091"
       },
       {
         "code": "032093",
         "area": "岩手県",
         "label": "一関市",
         "ruby": "いちのせきし",
-        "count": 248,
-        "count_per_population": "0.221"
+        "count": 253,
+        "count_per_population": "0.226"
       },
       {
         "code": "032107",
@@ -88,8 +88,8 @@
         "area": "岩手県",
         "label": "二戸市",
         "ruby": "にのへし",
-        "count": 40,
-        "count_per_population": "0.157"
+        "count": 42,
+        "count_per_population": "0.165"
       },
       {
         "code": "032140",
@@ -104,8 +104,8 @@
         "area": "岩手県",
         "label": "奥州市",
         "ruby": "おうしゅうし",
-        "count": 376,
-        "count_per_population": "0.333"
+        "count": 377,
+        "count_per_population": "0.334"
       },
       {
         "code": "032166",
@@ -152,8 +152,8 @@
         "area": "岩手県",
         "label": "矢巾町",
         "ruby": "やはばちょう",
-        "count": 47,
-        "count_per_population": "0.167"
+        "count": 48,
+        "count_per_population": "0.171"
       },
       {
         "code": "033669",
@@ -272,7 +272,7 @@
         "area": "県外",
         "label": "県外",
         "ruby": "けんがい",
-        "count": 206,
+        "count": 207,
         "count_per_population": null
       }
     ]
