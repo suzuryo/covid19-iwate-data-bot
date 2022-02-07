@@ -1,5 +1,5 @@
 {
-  "date": "2022-02-07T20:00:57+09:00",
+  "date": "2022-02-07T20:23:25+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -9425,6 +9425,28 @@
       },
       "text": {
         "ja": "江刺保育園 [続報 全員元気に登園] (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-02-01",
+      "url": {
+        "ja": "https://www.nomura.co.jp/introduc/news/2022/20220201_3.html#:~:text=6.%20%E7%9B%9B%E5%B2%A1%E6%94%AF%E5%BA%97%EF%BC%88%E5%B2%A9%E6%89%8B%E7%9C%8C%E7%9B%9B%E5%B2%A1%E5%B8%82%E5%A4%A7%E9%80%9A2%2D2%2D18%EF%BC%89",
+        "en": null
+      },
+      "text": {
+        "ja": "野村證券 盛岡支店 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-02-07",
+      "url": {
+        "ja": "https://www.universe.co.jp/new/static/up_file/File/220207cov_2.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "ユニバース 花巻桜木店 (花巻市)",
         "en": null
       }
     }
