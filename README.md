@@ -101,6 +101,21 @@ bundle exec bin/iwateNinshouRestaurant2csv.rb
 
 が生成される。
 
+# 6. LINEに届く陽性例の表JPGファイルを input/images に置いてOCRしてCSVを生成する
+
+```
+bundle exec bin/image2tsv.rb
+```
+
+を実行すると、
+
+```
+./tsv/images.csv
+```
+
+が生成される。
+
+
 ------------------------------------------------------------
 
 ## [obsoleted]. 岩手県と盛岡市のサイトからTSVを生成する

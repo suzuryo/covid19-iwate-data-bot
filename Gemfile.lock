@@ -115,6 +115,7 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.10.0)
     rspec-support (3.10.3)
+    rtesseract (3.1.2)
     rubocop (1.24.1)
       parallel (~> 1.10)
       parser (>= 3.0.0.0)
@@ -163,6 +164,7 @@ DEPENDENCIES
   highline
   nokogiri (>= 1.12.5)
   rspec
+  rtesseract
   rubocop
   sinatra
   thor

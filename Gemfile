@@ -5,10 +5,11 @@ source 'https://rubygems.org'
 gem 'activesupport'
 gem 'dotenv'
 gem 'down'
-gem "functions_framework"
+gem 'functions_framework'
 gem 'google-apis-sheets_v4'
 gem 'highline'
-gem "nokogiri", ">= 1.12.5"
+gem 'nokogiri', '>= 1.12.5'
+gem 'rtesseract'
 gem 'sinatra'
 gem 'thor'
 gem 'typhoeus'
