@@ -1,5 +1,5 @@
 {
-  "date": "2022-02-07T19:37:15+09:00",
+  "date": "2022-02-07T20:00:57+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -9359,6 +9359,72 @@
       },
       "text": {
         "ja": "北上市内の小中学校 (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-02-07",
+      "url": {
+        "ja": "https://yorozuya-dc.com/item/%e7%9b%9b%e5%b2%a1%e5%ba%97%e3%80%80%e5%ba%97%e5%86%85%e6%b6%88%e6%af%92%e5%ae%9f%e6%96%bd%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/",
+        "en": null
+      },
+      "text": {
+        "ja": "萬屋 盛岡店 [店内消毒実施のお知らせ] (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-02-06",
+      "url": {
+        "ja": "https://ja-iwatechuoh.or.jp/2022/02/06/%e7%9b%9b%e5%b2%a1%e6%94%af%e6%89%80%e3%81%ae%e5%96%b6%e6%a5%ad%e5%86%8d%e9%96%8b%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6/",
+        "en": null
+      },
+      "text": {
+        "ja": "JAいわて中央 盛岡支所 [営業再開] (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-02-07",
+      "url": {
+        "ja": "http://www.iwai-hp.com/media/3/20220207-20220207hp_______3.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手県立磐井病院 [外来診療再開について] (一関市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-02-07",
+      "url": {
+        "ja": "https://www.toyama-byouin.jp/info/news/2490/",
+        "en": null
+      },
+      "text": {
+        "ja": "遠山病院 [通常体制へ復帰] (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-02-07",
+      "url": {
+        "ja": "https://kizya.co.jp/news/307/#:~:text=%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9%E6%84%9F%E6%9F%93%E8%80%85%E3%81%AE%E7%99%BA%E7%94%9F%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%EF%BC%88%E7%B6%9A%E5%A0%B1%EF%BC%92%EF%BC%89",
+        "en": null
+      },
+      "text": {
+        "ja": "木津屋本店 [続報] (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-02-07",
+      "url": {
+        "ja": "http://esashihoikuen.com/",
+        "en": null
+      },
+      "text": {
+        "ja": "江刺保育園 [続報 全員元気に登園] (奥州市)",
         "en": null
       }
     }
