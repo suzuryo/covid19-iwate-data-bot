@@ -1,5 +1,5 @@
 {
-  "date": "2022-02-07T18:08:42+09:00",
+  "date": "2022-02-07T19:22:11+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -9238,6 +9238,28 @@
       },
       "text": {
         "ja": "遠野市立学校における臨時休業・学校再開 [続報] (遠野市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-02-07",
+      "url": {
+        "ja": "https://www.iwate-med.ac.jp/news/n1-information/22020701-soumu/",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手医科大学 (矢巾町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-02-05",
+      "url": {
+        "ja": "https://www.hosp.iwate-med.ac.jp/yahaba-news/yahaba-news-16368/",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手医科大学附属病院 [入院及び手術の運用制限] (矢巾町)",
         "en": null
       }
     }
