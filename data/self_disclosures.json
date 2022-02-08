@@ -1,5 +1,5 @@
 {
-  "date": "2022-02-08T18:08:28+09:00",
+  "date": "2022-02-08T19:31:58+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -9524,6 +9524,17 @@
       },
       "text": {
         "ja": "一関市役所 本庁・指定管理施設 (一関市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-02-08",
+      "url": {
+        "ja": "http://www.thr.mlit.go.jp/Bumon/kisya/kisyah/images/89623_1.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "田瀬ダム管理支所 (花巻市)",
         "en": null
       }
     }
