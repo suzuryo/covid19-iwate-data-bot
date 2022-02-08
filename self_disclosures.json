@@ -1,5 +1,5 @@
 {
-  "date": "2022-02-09T07:18:13+09:00",
+  "date": "2022-02-09T07:29:01+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -9557,6 +9557,17 @@
       },
       "text": {
         "ja": "久慈市立の小中学校 (久慈市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-02-08",
+      "url": {
+        "ja": "https://www.city.kitakami.iwate.jp/life/kosodate_kyoiku/kyoikuiinkai/21685.html",
+        "en": null
+      },
+      "text": {
+        "ja": "北上市内の小中学校 [続報] (北上市)",
         "en": null
       }
     },
