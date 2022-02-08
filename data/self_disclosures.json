@@ -1,5 +1,5 @@
 {
-  "date": "2022-02-08T21:42:26+09:00",
+  "date": "2022-02-09T07:18:13+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -9546,6 +9546,28 @@
       },
       "text": {
         "ja": "東北銀行 流通センター支店 (矢巾町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-02-08",
+      "url": {
+        "ja": "https://www.city.kuji.iwate.jp/kosodate/kyoiku/kyoikugyosei/corona_kyukou.html",
+        "en": null
+      },
+      "text": {
+        "ja": "久慈市立の小中学校 (久慈市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-02-08",
+      "url": {
+        "ja": "https://www.starlanes.co.jp/morioka/2022/02/08/post-3217/",
+        "en": null
+      },
+      "text": {
+        "ja": "盛岡スターレーン (盛岡市)",
         "en": null
       }
     }
