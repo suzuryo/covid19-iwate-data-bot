@@ -1,15 +1,15 @@
 {
-  "date": "2022-02-08T13:29:39+09:00",
+  "date": "2022-02-08T15:27:39+09:00",
   "datasets": {
-    "date": "2022-02-08T13:29:39+09:00",
+    "date": "2022-02-08T15:27:39+09:00",
     "data": [
       {
         "code": "032018",
         "area": "岩手県",
         "label": "盛岡市",
         "ruby": "もりおかし",
-        "count": 1805,
-        "count_per_population": "0.623"
+        "count": 1840,
+        "count_per_population": "0.635"
       },
       {
         "code": "032026",
@@ -24,24 +24,24 @@
         "area": "岩手県",
         "label": "大船渡市",
         "ruby": "おおふなとし",
-        "count": 95,
-        "count_per_population": "0.273"
+        "count": 106,
+        "count_per_population": "0.305"
       },
       {
         "code": "032051",
         "area": "岩手県",
         "label": "花巻市",
         "ruby": "はなまきし",
-        "count": 240,
-        "count_per_population": "0.257"
+        "count": 255,
+        "count_per_population": "0.274"
       },
       {
         "code": "032069",
         "area": "岩手県",
         "label": "北上市",
         "ruby": "きたかみし",
-        "count": 359,
-        "count_per_population": "0.386"
+        "count": 371,
+        "count_per_population": "0.399"
       },
       {
         "code": "032077",
@@ -56,16 +56,16 @@
         "area": "岩手県",
         "label": "遠野市",
         "ruby": "とおのし",
-        "count": 23,
-        "count_per_population": "0.091"
+        "count": 24,
+        "count_per_population": "0.095"
       },
       {
         "code": "032093",
         "area": "岩手県",
         "label": "一関市",
         "ruby": "いちのせきし",
-        "count": 253,
-        "count_per_population": "0.226"
+        "count": 280,
+        "count_per_population": "0.250"
       },
       {
         "code": "032107",
@@ -104,16 +104,16 @@
         "area": "岩手県",
         "label": "奥州市",
         "ruby": "おうしゅうし",
-        "count": 377,
-        "count_per_population": "0.334"
+        "count": 381,
+        "count_per_population": "0.337"
       },
       {
         "code": "032166",
         "area": "岩手県",
         "label": "滝沢市",
         "ruby": "たきざわし",
-        "count": 266,
-        "count_per_population": "0.478"
+        "count": 275,
+        "count_per_population": "0.495"
       },
       {
         "code": "033014",
@@ -144,16 +144,16 @@
         "area": "岩手県",
         "label": "紫波町",
         "ruby": "しわちょう",
-        "count": 11,
-        "count_per_population": "0.034"
+        "count": 13,
+        "count_per_population": "0.040"
       },
       {
         "code": "033227",
         "area": "岩手県",
         "label": "矢巾町",
         "ruby": "やはばちょう",
-        "count": 49,
-        "count_per_population": "0.175"
+        "count": 51,
+        "count_per_population": "0.182"
       },
       {
         "code": "033669",
@@ -272,7 +272,7 @@
         "area": "県外",
         "label": "県外",
         "ruby": "けんがい",
-        "count": 207,
+        "count": 209,
         "count_per_population": null
       }
     ]
