@@ -1,5 +1,5 @@
 {
-  "date": "2022-02-08T19:31:58+09:00",
+  "date": "2022-02-08T21:42:26+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -9535,6 +9535,17 @@
       },
       "text": {
         "ja": "田瀬ダム管理支所 (花巻市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-02-08",
+      "url": {
+        "ja": "https://www.tohoku-bank.co.jp/showimage/pdf?fileNo=1135",
+        "en": null
+      },
+      "text": {
+        "ja": "東北銀行 流通センター支店 (矢巾町)",
         "en": null
       }
     }
