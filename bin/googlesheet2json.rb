@@ -45,13 +45,73 @@ SELF_DISCLOSURES = GoogleSheets.data(GoogleSheetsIwate::SHEET_RANGES[:SELF_DISCL
 raise if SELF_DISCLOSURES.empty?
 
 ######################################################################
-# データ生成 テンプレート
-# data.json
+# Common
 ######################################################################
 # データを生成した日時
 now = Time.now
+
 # データの最初の日
 first_date = Date.new(2020, 2, 15)
+
+# データの最後の確定日
+latest_date = POSITIVE_RATE.last['diagnosed_date']
+
+# 市町村と管内の対応表
+@cityArea = {
+  '盛岡市' => '盛岡市保健所管内',
+  '宮古市' => '宮古保健所管内',
+  '大船渡市' => '大船渡保健所管内',
+  '花巻市' => '中部保健所管内',
+  '北上市' => '中部保健所管内',
+  '久慈市' => '久慈保健所管内',
+  '遠野市' => '中部保健所管内',
+  '一関市' => '一関保健所管内',
+  '陸前高田市' => '大船渡保健所管内',
+  '釜石市' => '釜石保健所管内',
+  '二戸市' => '二戸保健所管内',
+  '八幡平市' => '県央保健所管内',
+  '奥州市' => '奥州保健所管内',
+  '滝沢市' => '県央保健所管内',
+  '雫石町' => '県央保健所管内',
+  '葛巻町' => '県央保健所管内',
+  '岩手町' => '県央保健所管内',
+  '紫波町' => '県央保健所管内',
+  '矢巾町' => '県央保健所管内',
+  '西和賀町' => '中部保健所管内',
+  '金ケ崎町' => '奥州保健所管内',
+  '平泉町' => '一関保健所管内',
+  '住田町' => '大船渡保健所管内',
+  '大槌町' => '釜石保健所管内',
+  '山田町' => '宮古保健所管内',
+  '岩泉町' => '宮古保健所管内',
+  '田野畑村' => '宮古保健所管内',
+  '普代村' => '久慈保健所管内',
+  '軽米町' => '二戸保健所管内',
+  '野田村' => '久慈保健所管内',
+  '九戸村' => '二戸保健所管内',
+  '洋野町' => '久慈保健所管内',
+  '一戸町' => '二戸保健所管内',
+}
+
+# 市町村の配列
+@cities = @cityArea.keys
+
+# 管内の配列
+@areas = @cityArea.values.uniq
+
+# 居住地や滞在地から管内を返す
+def findArea(place: '県外')
+  if @cities.include? place
+    @cityArea[place]
+  elsif @areas.include? place
+    place
+  end
+end
+
+######################################################################
+# データ生成 テンプレート
+# data.json
+######################################################################
 data_json = {
   patients: {
     date: now.iso8601,
@@ -1034,55 +1094,73 @@ data_health_burden_json = {
   全療養者データ: B293.slice(0, 19).map { |v| v[:sum].round },
 }
 
+######################################################################
+# データ生成 テンプレート
+# confirmed_case_area.json
+######################################################################
+data_confirmed_case_area_json = {
+  date: now.iso8601,
+  data: []
+}
+
+######################################################################
+# confirmed_case_area.json
+# data_confirmed_case_area_json の生成
+######################################################################
+POSITIVE_RATE.map { |a| a['diagnosed_date'] }.each do |diagnosed_date|
+  sum = @areas.to_h { |area| [area, 0] }
+
+  patients = PATIENTS.select do |patient|
+    ((Date.parse(diagnosed_date).days_ago(6))..(Date.parse(diagnosed_date))).include?(Date.parse(patient['確定日']))
+  end
+
+  patients.each do |patient|
+    area = if patient['滞在地'].blank?
+             # 滞在地が無い場合は居住地の管内
+             findArea(place: patient['居住地'])
+           else
+             # 滞在地が有る場合は滞在地の管内
+             findArea(place: patient['滞在地'])
+           end
+    sum[area] += 1 unless area.nil?
+  end
+
+  sum = sum.transform_keys { |key| key.to_s.gsub('保健所管内', '') }
+
+  data_confirmed_case_area_json[:data].append(
+    {
+      date: Date.parse(diagnosed_date).strftime('%Y-%m-%d'),
+      data: sum
+    }
+  )
+end
 
 ######################################################################
 # write json
 ######################################################################
 
-File.open(File.join(__dir__, '../data/', 'data.json'), 'w') do |f|
-  f.write JSON.pretty_generate(data_json)
-end
+File.write(File.join(__dir__, '../data/', 'data.json'), JSON.generate(data_json))
 
-File.open(File.join(__dir__, '../data/', 'patient_municipalities.json'), 'w') do |f|
-  f.write JSON.pretty_generate(data_patient_municipalities_json)
-end
+File.write(File.join(__dir__, '../data/', 'patient_municipalities.json'), JSON.generate(data_patient_municipalities_json))
 
-# File.open(File.join(__dir__, '../data/', 'positive_by_diagnosed.json'), 'w') do |f|
-#   f.write JSON.pretty_generate(data_positive_by_diagnosed_json)
-# end
+# File.write(File.join(__dir__, '../data/', 'positive_by_diagnosed.json'), JSON.generate(data_positive_by_diagnosed_json))
 
-File.open(File.join(__dir__, '../data/', 'daily_positive_detail.json'), 'w') do |f|
-  f.write JSON.pretty_generate(data_daily_positive_detail_json)
-end
+File.write(File.join(__dir__, '../data/', 'daily_positive_detail.json'), JSON.generate(data_daily_positive_detail_json))
 
-File.open(File.join(__dir__, '../data/', 'positive_rate.json'), 'w') do |f|
-  f.write JSON.pretty_generate(data_positive_rate_json)
-end
+File.write(File.join(__dir__, '../data/', 'positive_rate.json'), JSON.generate(data_positive_rate_json))
 
-File.open(File.join(__dir__, '../data/', 'positive_status.json'), 'w') do |f|
-  f.write JSON.pretty_generate(data_positive_status_json)
-end
+File.write(File.join(__dir__, '../data/', 'positive_status.json'), JSON.generate(data_positive_status_json))
 
-File.open(File.join(__dir__, '../data/', 'news.json'), 'w') do |f|
-  f.write JSON.pretty_generate(data_news_json)
-end
+File.write(File.join(__dir__, '../data/', 'news.json'), JSON.generate(data_news_json))
 
-File.open(File.join(__dir__, '../data/', 'alert.json'), 'w') do |f|
-  f.write JSON.pretty_generate(data_alert_json)
-end
+File.write(File.join(__dir__, '../data/', 'alert.json'), JSON.generate(data_alert_json))
 
-File.open(File.join(__dir__, '../data/', 'urls.json'), 'w') do |f|
-  f.write JSON.pretty_generate(data_urls_json)
-end
+File.write(File.join(__dir__, '../data/', 'urls.json'), JSON.generate(data_urls_json))
 
-File.open(File.join(__dir__, '../data/', 'self_disclosures.json'), 'w') do |f|
-  f.write JSON.pretty_generate(data_self_disclosures_json)
-end
+File.write(File.join(__dir__, '../data/', 'self_disclosures.json'), JSON.generate(data_self_disclosures_json))
 
-File.open(File.join(__dir__, '../data/', 'main_summary.json'), 'w') do |f|
-  f.write JSON.pretty_generate(data_main_summary)
-end
+File.write(File.join(__dir__, '../data/', 'main_summary.json'), JSON.generate(data_main_summary))
 
-File.open(File.join(__dir__, '../data/', 'health_burden.json'), 'w') do |f|
-  f.write JSON.pretty_generate(data_health_burden_json)
-end
+File.write(File.join(__dir__, '../data/', 'health_burden.json'), JSON.generate(data_health_burden_json))
+
+File.write(File.join(__dir__, '../data/', 'confirmed_case_area.json'), JSON.generate(data_confirmed_case_area_json))
