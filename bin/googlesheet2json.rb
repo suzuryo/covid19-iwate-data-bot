@@ -1111,7 +1111,7 @@ POSITIVE_RATE.map { |a| a['diagnosed_date'] }.each do |diagnosed_date|
   sum = @areas.to_h { |area| [area, 0] }
 
   patients = PATIENTS.select do |patient|
-    ((Date.parse(diagnosed_date).days_ago(6))..(Date.parse(diagnosed_date))).include?(Date.parse(patient['確定日']))
+    (Date.parse(diagnosed_date).days_ago(6)..Date.parse(diagnosed_date)).cover? Date.parse(patient['確定日'])
   end
 
   patients.each do |patient|
