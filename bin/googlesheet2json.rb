@@ -1108,29 +1108,19 @@ data_confirmed_case_area_json = {
 # data_confirmed_case_area_json の生成
 ######################################################################
 POSITIVE_RATE.map { |a| a['diagnosed_date'] }.each do |diagnosed_date|
-  sum = @areas.to_h { |area| [area, 0] }
-
   patients = PATIENTS.select do |patient|
     (Date.parse(diagnosed_date).days_ago(6)..Date.parse(diagnosed_date)).cover? Date.parse(patient['確定日'])
   end
 
-  patients.each do |patient|
-    area = if patient['滞在地'].blank?
-             # 滞在地が無い場合は居住地の管内
-             findArea(place: patient['居住地'])
-           else
-             # 滞在地が有る場合は滞在地の管内
-             findArea(place: patient['滞在地'])
-           end
-    sum[area] += 1 unless area.nil?
+  sum = patients.each_with_object(@areas.to_h { |a| [a, 0] }) do |patient, hash|
+    area = patient['滞在地'].blank? ? findArea(place: patient['居住地']) : findArea(place: patient['滞在地'])
+    hash[area] += 1 unless hash[area].nil?
   end
-
-  sum = sum.transform_keys { |key| key.to_s.gsub('保健所管内', '') }
 
   data_confirmed_case_area_json[:data].append(
     {
       date: Date.parse(diagnosed_date).strftime('%Y-%m-%d'),
-      data: sum
+      data: sum.map { |item| [item[0].to_s.gsub('保健所管内', ''), (item[1] / 7.0).round(1) ] }
     }
   )
 end
