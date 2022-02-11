@@ -1120,7 +1120,7 @@ POSITIVE_RATE.map { |a| a['diagnosed_date'] }.each do |diagnosed_date|
   data_confirmed_case_area_json[:data].append(
     {
       date: Date.parse(diagnosed_date).strftime('%Y-%m-%d'),
-      data: sum.map { |item| [item[0].to_s.gsub('保健所管内', ''), (item[1] / 7.0).round(1) ] }
+      data: sum.to_h { |key, val| [key.to_s.gsub('保健所管内', ''), (val / 7.0).round(1)] }
     }
   )
 end
