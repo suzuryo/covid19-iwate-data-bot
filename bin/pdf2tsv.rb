@@ -156,7 +156,7 @@ module Pdf2Tsv
 
             h['接触歴'] = row[6].length > 1 ? '判明' : '不明'
 
-            m2 = /^(?<month>\d{1,2})(?<day>\d{1,2})/.match f
+            m2 = /^04(?<month>\d{1,2})(?<day>\d{1,2})/.match f
 
             h['リリース日'] = m2 ? Date.parse("2022/#{m2[:month]}/#{m2[:day]}").strftime('%Y/%m/%d') : ''
             h['確定日'] = m2 ? Date.parse("2022/#{m2[:month]}/#{m2[:day]}").days_ago(1).strftime('%Y/%m/%d') : ''
