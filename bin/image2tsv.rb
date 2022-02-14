@@ -3,6 +3,7 @@
 
 require 'active_support/all'
 require 'dotenv/load'
+require 'open-uri'
 require 'json'
 require 'rtesseract'
 require 'thor'
@@ -37,6 +38,11 @@ module Image2Tsv
 
     desc 'new', 'Create a new image.tsv'
     def new
+
+      json = URI.open('https://raw.githubusercontent.com/suzuryo/covid19-iwate-data-bot/master/data/daily_positive_detail.json').read
+      latest_diagnosed_date = JSON.load(json)['data'].last['diagnosed_date']
+      d1 = Date.parse(latest_diagnosed_date).strftime('%Y/%m/%d')
+      d2 = Date.parse(latest_diagnosed_date).days_ago(1).strftime('%Y/%m/%d')
 
       cityArea = {
         '盛岡市' => '盛岡市保健所管内',
@@ -129,7 +135,7 @@ module Image2Tsv
       prev_val = 0
       h.sort_by { |_k, v| v[:id] }.each_with_index do |v, i|
         tsv += if i.zero? || prev_val == v[0].to_i - i
-                 "#{v[1][:id]}\t\t\t\t\t#{v[1][:age]}\t#{v[1][:sex]}\t#{v[1][:city]}\t\t\t\t#{v[1][:track]}\tPCR検査\n"
+                 "#{v[1][:id]}\t#{d1}\t#{d2}\t\t\t#{v[1][:age]}\t#{v[1][:sex]}\t#{v[1][:city]}\t\t\t\t#{v[1][:track]}\tPCR検査\n"
                else
                  "#{prev_val + 1}\n"
                end
