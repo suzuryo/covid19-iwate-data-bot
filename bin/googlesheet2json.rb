@@ -499,34 +499,19 @@ B3 = {
   s70: Rational(last7days.select { |d| ['70代', '80代', '90歳以上'].include? d[:年代] }.size.to_s) / Rational('7')
 }.freeze
 
-# 岩手県は年代別の接種率を公表していない？
-# https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/035/134/20211122_05_1.pdf
-# 2021/11/17時点において、県内の12歳以上人口約111万7千人のうち、1回目接種は 89.3 ％、2回目は 85.0 ％が終了
-# https://www.fnn.jp/articles/-/288186
-# 2021/12/17時点で1回目が89.8 ％。2回目が 88.6 ％
-# とりあえず、全年齢で90%の接種率として、10代の接種率を求めると、
-# 10 : 0%
-# 11 : 0%
-# 12 : 90%
-# 13 : 90%
-# 14 : 90%
-# 15 : 90%
-# 16 : 90%
-# 17 : 90%
-# 18 : 90%
-# 19 : 90%
-# とすると、10代の接種率は、10歳,11歳が0%として12歳から90%とすると、 (0 + 0 + 90 * 8) / 100 * 10 = 72 % とする
+# 接種率の資料
+# https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html
 
 # ワクチン２回接種率（％） ※３回接種者を含む
 B4 = {
   s00: Rational('0'),
-  s10: Rational('72'),
-  s20: Rational('90'),
-  s30: Rational('90'),
-  s40: Rational('90'),
-  s50: Rational('90'),
-  s60: Rational('90'),
-  s70: Rational('90')
+  s10: Rational('83.64'),
+  s20: Rational('84.80'),
+  s30: Rational('83.64'),
+  s40: Rational('87.58'),
+  s50: Rational('91.48'),
+  s60: (Rational('91.89') + Rational('91.12')) / Rational('2'),
+  s70: (Rational('96.58') + Rational('95.18') + Rational('98.06') + Rational('98.14')) / Rational('4')
 }.freeze
 
 # ワクチン３回接種率（％）
@@ -537,8 +522,8 @@ B5 = {
   s30: Rational('0'),
   s40: Rational('0'),
   s50: Rational('0'),
-  s60: Rational('5'),
-  s70: Rational('5')
+  s60: Rational('9.92') * Rational('8') / Rational('2'),
+  s70: Rational('9.92') * Rational('8') / Rational('2')
 }.freeze
 
 # デルタ株：（ワクチンなしで）酸素投与を要する率（％）
