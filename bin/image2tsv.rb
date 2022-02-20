@@ -3,8 +3,6 @@
 
 require 'active_support/all'
 require 'dotenv/load'
-require 'open-uri'
-require 'json'
 require 'rtesseract'
 require 'thor'
 
@@ -39,10 +37,8 @@ module Image2Tsv
     desc 'new', 'Create a new image.tsv'
     def new
 
-      json = URI.open('https://raw.githubusercontent.com/suzuryo/covid19-iwate-data-bot/master/data/daily_positive_detail.json').read
-      latest_diagnosed_date = JSON.load(json)['data'].last['diagnosed_date']
-      d1 = Date.parse(latest_diagnosed_date).strftime('%Y/%m/%d')
-      d2 = Date.parse(latest_diagnosed_date).days_ago(1).strftime('%Y/%m/%d')
+      d1 = Date.today.strftime('%Y/%m/%d')
+      d2 = Date.today.days_ago(1).strftime('%Y/%m/%d')
 
       cityArea = {
         '盛岡市' => '盛岡市保健所管内',
