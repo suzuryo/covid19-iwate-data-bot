@@ -89,7 +89,7 @@ module Image2Tsv
 
       media_urls.each do |url|
         # ダウンロード
-        tempfile = Down.download(url)
+        tempfile = Down.download("#{url}?name=4096x4096")
 
         # ファイルをPDF_DIRに移動して元の名前を維持する
         FileUtils.mv(tempfile.path, "./input/images/#{tempfile.original_filename}")
