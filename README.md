@@ -101,7 +101,9 @@ bundle exec bin/iwateNinshouRestaurant2csv.rb
 
 が生成される。
 
-## 6. Twitterに書き込まれたpng画像からtesseractでOCRしてOCRしてTSVを生成する
+## 6. Twitterに書き込まれたpng画像からtesseractでOCRしてTSVを生成する
+
+tesseractをインストールしてのPATHを通して、tessdata_bestのjpn.traineddataを導入してから
 
 ```
 bundle exec bin/image2tsv.rb
