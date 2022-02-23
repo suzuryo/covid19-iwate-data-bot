@@ -87,7 +87,7 @@ bundle exec bin/pdf2tsv.rb --rm # ダウンロード済みのPDFと変換済み�
 
 が生成される。
 
-# 5. iwate-ninshou.jp から GoogleMyMap に読み込ませるCSVを生成する
+## 5. iwate-ninshou.jp から GoogleMyMap に読み込ませるCSVを生成する
 
 ```
 bundle exec bin/iwateNinshouRestaurant2csv.rb
@@ -101,7 +101,7 @@ bundle exec bin/iwateNinshouRestaurant2csv.rb
 
 が生成される。
 
-# 6. LINEに届く陽性例の表JPGファイルを input/images に置いてOCRしてCSVを生成する
+## 6. Twitterに書き込まれたpng画像からtesseractでOCRしてOCRしてTSVを生成する
 
 ```
 bundle exec bin/image2tsv.rb
@@ -110,7 +110,7 @@ bundle exec bin/image2tsv.rb
 を実行すると、
 
 ```
-./tsv/images.csv
+./tsv/images.tsv
 ```
 
 が生成される。
