@@ -88,10 +88,10 @@ module Image2Tsv
       media_urls = JSON.parse(media_tweet_response.body)['includes']['media'].map { |d| d['url'] }
 
       media_urls.each do |url|
-        # ダウンロード
+        # Twitterからpngをダウンロード
         tempfile = Down.download("#{url}?name=4096x4096")
 
-        # ファイルをPDF_DIRに移動して元の名前を維持する
+        # ファイルを移動して元の名前を維持する
         FileUtils.mv(tempfile.path, "./input/images/#{tempfile.original_filename}")
 
       end
@@ -175,7 +175,6 @@ module Image2Tsv
           r_age = /(?<age>10歳未満|10代|20代|30代|40代|50代|60代|70代|80代|90歳以上)/.match(row)
           r_sex = /(?<sex>男|女)/.match(row)
           r_city = /(?<city>#{cities.join('|')}|#{areas.join('|')})/.match(row)
-          p r_city
           r_track = /あり/.match(row)
           id = r_id.nil? ? '' : r_id[:id].to_s
           age = if r_age.nil?
