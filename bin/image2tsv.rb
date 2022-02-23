@@ -43,7 +43,7 @@ module Image2Tsv
 
     def new
       now = Time.now
-      days_ago = now.days_ago(0)
+      days_ago = now.hour >= 15 ? now.days_ago(0) : now.days_ago(1)
       start_time = Time.new(days_ago.year, days_ago.month, days_ago.day, 15, 0, 0, '+09:00').rfc3339
       end_time = now.rfc3339
 
@@ -148,32 +148,40 @@ module Image2Tsv
         text = image.to_s.gsub('|', '')
 
         text.split(/\n/).each do |a|
-          row = a.gsub(' ', '')
+          row = a
+                  .gsub(' ', '')
+                  .gsub(/紀岡市|貫岡市|大岡市|弓岡市|紅岡市|答岡市|故岡市/, '盛岡市')
+                  .gsub(/ー関市|-関市|—関市|ｰ関市|−関市|–関市/, '一関市')
+                  .gsub(/ー関保健所管内|-関保健所管内|—関保健所管内|ｰ関保健所管内|−関保健所管内|–関保健所管内/, '一関保健所管内')
+                  .gsub(/自州保健所管内|臭州保健所管内/, '奥州保健所管内')
+                  .gsub(/県天保健所管内/, '県央保健所管内')
+                  .gsub(/10穫未満/, '10歳未満')
+                  .gsub(/90穫以上/, '90歳以上')
+                  .gsub(/10穫/, '10代')
+                  .gsub(/20穫/, '20代')
+                  .gsub(/30穫/, '30代')
+                  .gsub(/40穫/, '40代')
+                  .gsub(/50穫/, '50代')
+                  .gsub(/60穫/, '60代')
+                  .gsub(/70穫/, '70代')
+                  .gsub(/80穫/, '80代')
+
           next if row.blank?
 
           r_id = /^(?<id>\d\d\d\d)/.match(row)
 
           p row
           next if r_id.blank?
-          r_age = /(?<age>10歳未満|10代|20代|30代|40代|50代|60代|70代|80代|90歳以上|10穫未満|10穫|20穫|30穫|40穫|50穫|60穫|70穫|80穫|90穫以上)/.match(row)
+          r_age = /(?<age>10歳未満|10代|20代|30代|40代|50代|60代|70代|80代|90歳以上)/.match(row)
           r_sex = /(?<sex>男|女)/.match(row)
-          r_city = /(?<city>#{cities.join('|')}|#{areas.join('|')})|紀岡市|貫岡市|大岡市|弓岡市|紅岡市|答岡市|故岡市|ー関市|一関市|-関市|—関市|ー関保健所管内|一関保健所管内|-関保健所管内|—関保健所管内|自州保健所管内|臭州保健所管内|県天保健所管内/.match(row)
+          r_city = /(?<city>#{cities.join('|')}|#{areas.join('|')})/.match(row)
+          p r_city
           r_track = /あり/.match(row)
           id = r_id.nil? ? '' : r_id[:id].to_s
           age = if r_age.nil?
                   ''
                 else
                   r_age[:age].to_s
-                             .gsub(/10穫未満/, '10歳未満')
-                             .gsub(/90穫以上/, '90歳以上')
-                             .gsub(/10穫/, '10代')
-                             .gsub(/20穫/, '20代')
-                             .gsub(/30穫/, '30代')
-                             .gsub(/40穫/, '40代')
-                             .gsub(/50穫/, '50代')
-                             .gsub(/60穫/, '60代')
-                             .gsub(/70穫/, '70代')
-                             .gsub(/80穫/, '80代')
                 end
           sex = r_sex.nil? ? '' : r_sex[:sex].to_s.gsub('女', '女性').gsub('男', '男性')
           track = r_track.nil? ? '不明' : '判明'
@@ -181,11 +189,6 @@ module Image2Tsv
                    ''
                  else
                    r_city[:city].to_s
-                                .gsub(/紀岡市|貫岡市|大岡市|弓岡市|紅岡市|答岡市|故岡市/, '盛岡市')
-                                .gsub(/ー関市|-関市|—関市|一関市/, '一関市')
-                                .gsub(/ー関保健所管内|一関保健所管内|-関保健所管内|—関保健所管内/, '一関保健所管内')
-                                .gsub(/自州保健所管内|臭州保健所管内/, '奥州保健所管内')
-                                .gsub(/県天保健所管内/, '県央保健所管内')
                  end
 
           unless id.blank?
