@@ -4,6 +4,8 @@
 require 'active_support/all'
 require 'dotenv/load'
 require 'down'
+require 'fileutils'
+require 'highline/import'
 require 'rtesseract'
 require 'thor'
 require 'typhoeus'
@@ -18,9 +20,9 @@ module Image2Tsv
   # TweetImage2Tsv CLI
   class Cli < Thor
     check_unknown_options!
-    include Thor::Actions
-
-    default_command :new
+    # デフォルトは generate
+    default_command :generate
+    # CLIの説明
 
     def self.exit_on_failure?
       true
@@ -39,9 +41,16 @@ module Image2Tsv
       say "Image2Tsv #{VERSION}"
     end
 
-    desc 'new', 'Create a new image.tsv'
+    desc 'generate', 'Generate a images.tsv'
+    option :rm, type: :boolean
 
-    def new
+    def generate
+      if options[:rm]
+        exit unless HighLine.agree('本当にダウンロード済のPNGを削除しますか？ [y/N]')
+        FileUtils.rm(Dir.glob(File.join(File.expand_path(File.join(__dir__, '../input/images')), '*.png')), force: true)
+        FileUtils.rm(Dir.glob(File.join(File.expand_path(File.join(__dir__, '../input/images')), '*.jpg')), force: true)
+      end
+
       now = Time.now
       days_ago = now.hour >= 15 ? now.days_ago(0) : now.days_ago(1)
       start_time = Time.new(days_ago.year, days_ago.month, days_ago.day, 15, 0, 0, '+09:00').rfc3339
@@ -143,7 +152,11 @@ module Image2Tsv
 
       h = {}
 
-      Dir.glob(['input/images/*.png', 'input/images/*.jpg']).each do |file|
+      Dir.glob([
+                 File.join(File.expand_path(File.join(__dir__, '../input/images')), '*.png'),
+                 File.join(File.expand_path(File.join(__dir__, '../input/images')), '*.jpg')
+               ]).each do |file|
+        p file
         image = RTesseract.new(file, lang: 'jpn')
         text = image.to_s.gsub('|', '')
 
