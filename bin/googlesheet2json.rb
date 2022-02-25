@@ -617,6 +617,7 @@ B29 = Rational(data_main_summary[:入院]) + Rational(data_main_summary[:宿泊�
 # https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/050/416/20220225_01_2.pdf
 #
 # 第50回本部員会議の資料で、酸素投与を受けた患者が 8.5 % という数字が出ている
+# ただしオミクロン前のデータ
 # https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/050/416/20220225_04_2.pdf
 #
 # NIIDの資料では、2022/01/17の時点では、中等症1が1.1%、中等症2が0.4%
