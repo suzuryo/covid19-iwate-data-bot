@@ -182,7 +182,7 @@ module Image2Tsv
 
           next if row.blank?
 
-          r_id = /^(?<id>\d\d\d\d)/.match(row)
+          r_id = /^(?<id>\d{5})/.match(row)
 
           p row
           next if r_id.blank?
