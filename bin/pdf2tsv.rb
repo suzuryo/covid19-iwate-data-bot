@@ -122,7 +122,7 @@ module Pdf2Tsv
             pp row
             h = {}
             # id、年代、性別はPDFからの認識ミスが発生するので、正規表現で取り出す
-            m1 = /(?<id>\d{4})\s*[(（](?<morioka_id>\d{4})[)）](?<age>\d{2}(代|歳未満|歳以上))\s*(?<sex>[男|女]性)/.match(row[0] + row[1] + row[2])&.named_captures
+            m1 = /(?<id>\d{4,5})\s*[(（](?<morioka_id>\d{4})[)）](?<age>\d{2}(代|歳未満|歳以上))\s*(?<sex>[男|女]性)/.match(row[0] + row[1] + row[2])&.named_captures
             h['id'] = m1 ? m1['id'].to_i : ''
             next if h['id'].blank?
 
@@ -174,7 +174,7 @@ module Pdf2Tsv
             pp row
             h = {}
             # id、年代、性別はPDFからの認識ミスが発生するので、正規表現で取り出す
-            m1 = /(?<id>\d{4})\s*(?<age>\d{2}(代|歳未満|歳以上))\s*(?<sex>[男|女]性)/.match(row[0] + row[1] + row[2])&.named_captures
+            m1 = /(?<id>\d{4,5})\s*(?<age>\d{2}(代|歳未満|歳以上))\s*(?<sex>[男|女]性)/.match(row[0] + row[1] + row[2])&.named_captures
             h['id'] = m1 ? m1['id'].to_i : ''
             next if h['id'].blank?
 
