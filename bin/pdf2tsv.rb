@@ -183,10 +183,10 @@ module Pdf2Tsv
 
             r3 = row[3].gsub(/\s/, '')
             h['居住地'] = r3.split(/[(（]/)[0]
-            h['滞在地'] = unless r3.split(/[(（]/)[1].nil?
-                         r3.split(/[(（]/)[1].gsub(/[)）]/, '')
-                       else
+            h['滞在地'] = if r3.split(/[(（]/)[1].nil?
                          ''
+                       else
+                         r3.split(/[(（]/)[1].gsub(/[)）]/, '')
                        end
 
             h['職業'] = row[7]
