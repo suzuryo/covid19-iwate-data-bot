@@ -40,7 +40,7 @@ module Pdf2Tsv
       cities.each do |city|
         @patients += parse_pdf(city)
       end
-      @patients.sort_by! { |a| a['id'].to_s }
+      @patients.sort_by! { |a| a['id'].to_i }
 
       # TSV文字列組み立て
       @tsv = ''
@@ -114,7 +114,7 @@ module Pdf2Tsv
 
       patients = []
 
-      if city === :morioka
+      if city == :morioka
         # 盛岡市の場合
         files.map {|a| a[:csv]}.flatten.each do |f|
           csv_file = File.join(PDFS[city][:csv_dir], f)
@@ -166,7 +166,7 @@ module Pdf2Tsv
         end
       end
 
-      if city === :iwate
+      if city == :iwate
         # 岩手県の場合
         files.map {|a| a[:csv]}.flatten.each do |f|
           csv_file = File.join(PDFS[city][:csv_dir], f)
