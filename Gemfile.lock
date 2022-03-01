@@ -51,6 +51,7 @@ GEM
       concurrent-ruby (~> 1.0)
     jwt (2.3.0)
     memoist (0.16.2)
+    mini_magick (4.11.0)
     mini_mime (1.1.2)
     minitest (5.15.0)
     multi_json (1.15.0)
@@ -143,6 +144,7 @@ DEPENDENCIES
   functions_framework
   google-apis-sheets_v4
   highline
+  mini_magick
   nokogiri (>= 1.12.5)
   rspec
   rtesseract

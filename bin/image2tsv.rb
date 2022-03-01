@@ -6,6 +6,7 @@ require 'dotenv/load'
 require 'down'
 require 'fileutils'
 require 'highline/import'
+require 'mini_magick'
 require 'rtesseract'
 require 'thor'
 require 'typhoeus'
@@ -100,9 +101,9 @@ module Image2Tsv
         # Twitterからpngをダウンロード
         tempfile = Down.download("#{url}?name=4096x4096")
 
-        # ファイルを移動して元の名前を維持する
-        FileUtils.mv(tempfile.path, "./input/images/#{tempfile.original_filename}")
-
+        image = MiniMagick::Image.open(tempfile.path)
+        image.resize '2000'
+        image.write "./input/images/#{tempfile.original_filename}"
       end
 
       d1 = Date.today.strftime('%Y/%m/%d')
