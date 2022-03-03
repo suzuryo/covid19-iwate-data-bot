@@ -48,7 +48,7 @@ module Pdf2Tsv
         prev_id = @patients.first['id']
         @patients.each do |b|
           @tsv += "\n" * (b['id'] - prev_id)
-          @tsv += "#{b['id']}\t#{b['リリース日']}\t#{b['確定日']}\t#{b['発症日']}\t#{b['無症状']}\t#{b['年代']}\t#{b['性別']}\t#{b['居住地']}\t#{b['滞在地']}\t#{b['入院日']}\t#{b['url']}\t#{b['接触歴']}\t#{b['陽性最終確定検査手法']}"
+          @tsv += "#{b['id']}\t#{b['リリース日']}\t#{b['確定日']}\t#{b['発症日']}\t#{b['無症状']}\t#{b['年代']}\t#{b['性別']}\t#{b['居住地']}\t#{b['滞在地']}\t#{b['入院日']}\t#{b['url']}\t#{b['接触歴']}\t#{b['陽性最終確定検査手法']}\t\t#{b['職業']}\t\t\t#{b['クラスター']}"
           prev_id = b['id']
         end
       end
@@ -156,6 +156,10 @@ module Pdf2Tsv
 
             h['接触歴'] = row[6].length > 1 ? '判明' : '不明'
 
+            h['クラスター'] = row[6].split(/[(（)）]/)[1]
+
+            h['職業'] = row[7]
+
             m2 = /^04(?<month>\d{1,2})(?<day>\d{1,2})/.match f
 
             h['リリース日'] = m2 ? Date.parse("2022/#{m2[:month]}/#{m2[:day]}").strftime('%Y/%m/%d') : ''
@@ -207,6 +211,10 @@ module Pdf2Tsv
 
             h['接触歴'] = row[6].length > 1 ? '判明' : '不明'
             h['接触歴'] = '不明' if row[6] == '(cid:695)'
+
+            h['クラスター'] = row[6].split(/[(（)）]/)[1]
+
+            h['職業'] = row[7]
 
             m2 = /(?<year>2022)(?<month>.{2})(?<day>.{2})/.match f
 
