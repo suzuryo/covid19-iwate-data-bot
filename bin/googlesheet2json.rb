@@ -505,13 +505,13 @@ B3 = {
 # ワクチン２回接種率（％） ※３回接種者を含む
 B4 = {
   s00: Rational('0'),
-  s10: Rational('83.70'),
-  s20: Rational('84.88'),
-  s30: Rational('83.68'),
-  s40: Rational('87.58'),
+  s10: Rational('83.76'),
+  s20: Rational('85.02'),
+  s30: Rational('83.70'),
+  s40: Rational('87.60'),
   s50: Rational('91.49'),
-  s60: (Rational('91.89') + Rational('91.04')) / Rational('2'),
-  s70: (Rational('96.61') + Rational('95.23') + Rational('98.24') + Rational('99.02')) / Rational('4')
+  s60: (Rational('91.90') + Rational('90.94')) / Rational('2'),
+  s70: (Rational('96.66') + Rational('95.31') + Rational('98.45') + Rational('99.24')) / Rational('4')
 }.freeze
 
 # ワクチン３回接種率（％）
@@ -521,9 +521,9 @@ B5 = {
   s20: Rational('0'),
   s30: Rational('0'),
   s40: Rational('0'),
-  s50: Rational('0'),
-  s60: Rational('16.34') * Rational('8') / Rational('2'),
-  s70: Rational('16.34') * Rational('8') / Rational('2')
+  s50: Rational('22.33') * Rational('8') / Rational('3'),
+  s60: Rational('22.33') * Rational('8') / Rational('3'),
+  s70: Rational('22.33') * Rational('8') / Rational('3')
 }.freeze
 
 # デルタ株：（ワクチンなしで）酸素投与を要する率（％）
@@ -615,6 +615,11 @@ B29 = Rational(data_main_summary[:入院]) + Rational(data_main_summary[:宿泊�
 # 2022/2/17 - 2022/2/23 の 141 例について 9.2% という資料が出た。
 # つまり、141 人の入院患者に対して中等症は 13 人ということ
 # https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/050/416/20220225_01_2.pdf
+#
+# 第51回本部員会議の資料で、中等症(1なの2なの?)が
+# 2022/2/24 - 2022/3/2 の 115 例について 5.2% という資料が出た。
+# つまり、141 人の入院患者に対して中等症は 6 人ということ
+# https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/050/416/20220304_01_3.pdf
 #
 # 第50回本部員会議の資料で、酸素投与を受けた患者が 8.5 % という数字が出ている
 # ただしオミクロン前のデータ
