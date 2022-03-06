@@ -108,6 +108,8 @@ def findArea(place: '県外')
   end
 end
 
+@ages = %w[10歳未満 10代 20代 30代 40代 50代 60代 70代 80代 90歳以上]
+
 ######################################################################
 # データ生成 テンプレート
 # data.json
@@ -1111,22 +1113,28 @@ data_health_burden_json = {
 ######################################################################
 # データ生成 テンプレート
 # confirmed_case_area.json
+# confirmed_case_age.json
 ######################################################################
 data_confirmed_case_area_json = {
   date: now.iso8601,
   data: []
 }
 
+data_confirmed_case_age_json = {
+  date: now.iso8601,
+  data: []
+}
+
 ######################################################################
-# confirmed_case_area.json
 # data_confirmed_case_area_json の生成
+# data_confirmed_case_age_json の生成
 ######################################################################
 POSITIVE_RATE.map { |a| a['diagnosed_date'] }.each do |diagnosed_date|
   patients = PATIENTS.select do |patient|
     (Date.parse(diagnosed_date).days_ago(6)..Date.parse(diagnosed_date)).cover? Date.parse(patient['確定日'])
   end
 
-  sum = patients.each_with_object(@areas.to_h { |a| [a, 0] }) do |patient, hash|
+  area_sum = patients.each_with_object(@areas.to_h { |a| [a, 0] }) do |patient, hash|
     area = patient['滞在地'].blank? ? findArea(place: patient['居住地']) : findArea(place: patient['滞在地'])
     hash[area] += 1 unless hash[area].nil?
   end
@@ -1134,7 +1142,19 @@ POSITIVE_RATE.map { |a| a['diagnosed_date'] }.each do |diagnosed_date|
   data_confirmed_case_area_json[:data].append(
     {
       date: Date.parse(diagnosed_date).strftime('%Y-%m-%d'),
-      data: sum.to_h { |key, val| [key.to_s.gsub('保健所管内', ''), (val / 7.0).round(1)] }
+      data: area_sum.to_h { |key, val| [key.to_s.gsub('保健所管内', ''), (val / 7.0).round(1)] }
+    }
+  )
+
+  age_sum = patients.each_with_object(@ages.to_h { |a| [a, 0] }) do |patient, hash|
+    age = patient['年代']
+    hash[age] += 1 unless hash[age].nil?
+  end
+
+  data_confirmed_case_age_json[:data].append(
+    {
+      date: Date.parse(diagnosed_date).strftime('%Y-%m-%d'),
+      data: age_sum.to_h { |key, val| [key, (val / 7.0).round(1)] }
     }
   )
 end
@@ -1168,3 +1188,5 @@ File.write(File.join(__dir__, '../data/', 'main_summary.json'), JSON.generate(da
 File.write(File.join(__dir__, '../data/', 'health_burden.json'), JSON.generate(data_health_burden_json))
 
 File.write(File.join(__dir__, '../data/', 'confirmed_case_area.json'), JSON.generate(data_confirmed_case_area_json))
+
+File.write(File.join(__dir__, '../data/', 'confirmed_case_age.json'), JSON.generate(data_confirmed_case_age_json))
