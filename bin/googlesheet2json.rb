@@ -523,9 +523,9 @@ B5 = {
   s20: Rational('0'),
   s30: Rational('0'),
   s40: Rational('0'),
-  s50: Rational('31.0') * Rational('8') / Rational('3'),
-  s60: Rational('31.0') * Rational('8') / Rational('3'),
-  s70: Rational('31.0') * Rational('8') / Rational('3')
+  s50: Rational('33.1') * Rational('8') / Rational('3'),
+  s60: Rational('33.1') * Rational('8') / Rational('3'),
+  s70: Rational('33.1') * Rational('8') / Rational('3')
 }.freeze
 
 # デルタ株：（ワクチンなしで）酸素投与を要する率（％）
