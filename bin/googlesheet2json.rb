@@ -1140,8 +1140,11 @@ data_confirmed_case_age_json = {
 # data_confirmed_case_age_json の生成
 ######################################################################
 POSITIVE_RATE.map { |a| a['diagnosed_date'] }.each do |diagnosed_date|
+  date = Date.parse(diagnosed_date)
+  date_range = date.days_ago(6)..date
+
   patients = PATIENTS.select do |patient|
-    (Date.parse(diagnosed_date).days_ago(6)..Date.parse(diagnosed_date)).cover? Date.parse(patient['確定日'])
+    date_range.cover? Date.parse(patient['確定日'])
   end
 
   area_sum = patients.each_with_object(@areas.to_h { |a| [a, 0] }) do |patient, hash|
@@ -1151,7 +1154,7 @@ POSITIVE_RATE.map { |a| a['diagnosed_date'] }.each do |diagnosed_date|
 
   data_confirmed_case_area_json[:data].append(
     {
-      date: Date.parse(diagnosed_date).strftime('%Y-%m-%d'),
+      date: date.strftime('%Y-%m-%d'),
       data: area_sum.to_h { |key, val| [key.to_s.gsub('保健所管内', ''), (val / 7.0).round(1)] }
     }
   )
@@ -1163,7 +1166,7 @@ POSITIVE_RATE.map { |a| a['diagnosed_date'] }.each do |diagnosed_date|
 
   data_confirmed_case_age_json[:data].append(
     {
-      date: Date.parse(diagnosed_date).strftime('%Y-%m-%d'),
+      date: date.strftime('%Y-%m-%d'),
       data: age_sum.to_h { |key, val| [key, (val / 7.0).round(1)] }
     }
   )
