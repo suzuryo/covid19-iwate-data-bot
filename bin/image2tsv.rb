@@ -44,6 +44,7 @@ module Image2Tsv
 
     desc 'generate', 'Generate a images.tsv'
     option :rm, type: :boolean
+    option :local, type: :boolean
 
     def generate
       if options[:rm]
@@ -57,53 +58,56 @@ module Image2Tsv
       start_time = Time.new(days_ago.year, days_ago.month, days_ago.day, 15, 0, 0, '+09:00').rfc3339
       end_time = now.rfc3339
 
-      options_ids = {
-        method: 'get',
-        headers: {
-          'User-Agent' => 'v2RubyExampleCode',
-          'Authorization' => "Bearer #{BEARER_TOKEN}"
-        },
-        params: {
-          'max_results' => 100,
-          'start_time' => start_time,
-          'end_time' => end_time,
-          'tweet.fields' => 'attachments,author_id,created_at,id'
+      # --local を付けたときはtwitterから画像をダウンロードしない
+      unless options[:local]
+        options_ids = {
+          method: 'get',
+          headers: {
+            'User-Agent' => 'v2RubyExampleCode',
+            'Authorization' => "Bearer #{BEARER_TOKEN}"
+          },
+          params: {
+            'max_results' => 100,
+            'start_time' => start_time,
+            'end_time' => end_time,
+            'tweet.fields' => 'attachments,author_id,created_at,id'
+          }
         }
-      }
-      user_tweet_url = USERS_ENDPOINT_URL.gsub(':id', USER_ID.to_s)
-      user_tweet_request = Typhoeus::Request.new(user_tweet_url, options_ids)
-      user_tweet_response = user_tweet_request.run
+        user_tweet_url = USERS_ENDPOINT_URL.gsub(':id', USER_ID.to_s)
+        user_tweet_request = Typhoeus::Request.new(user_tweet_url, options_ids)
+        user_tweet_response = user_tweet_request.run
 
-      user_tweet_ids = JSON.parse(user_tweet_response.body)['data']
-                         .select { |d| d['author_id'] == USER_ID.to_s && d['attachments'] }
-                         .map { |d| d['id'] }
+        user_tweet_ids = JSON.parse(user_tweet_response.body)['data']
+                           .select { |d| d['author_id'] == USER_ID.to_s && d['attachments'] }
+                           .map { |d| d['id'] }
 
-      options_media = {
-        method: 'get',
-        headers: {
-          'User-Agent' => 'v2RubyExampleCode',
-          'Authorization' => "Bearer #{BEARER_TOKEN}"
-        },
-        params: {
-          'tweet.fields' => 'attachments,author_id,created_at,id',
-          'media.fields' => 'url',
-          'expansions' => 'attachments.media_keys'
+        options_media = {
+          method: 'get',
+          headers: {
+            'User-Agent' => 'v2RubyExampleCode',
+            'Authorization' => "Bearer #{BEARER_TOKEN}"
+          },
+          params: {
+            'tweet.fields' => 'attachments,author_id,created_at,id',
+            'media.fields' => 'url',
+            'expansions' => 'attachments.media_keys'
+          }
         }
-      }
 
-      media_tweet_url = TWEETS_ENDPOINT_URL.gsub(':tweet_ids', user_tweet_ids.join(','))
-      media_tweet_request = Typhoeus::Request.new(media_tweet_url, options_media)
-      media_tweet_response = media_tweet_request.run
+        media_tweet_url = TWEETS_ENDPOINT_URL.gsub(':tweet_ids', user_tweet_ids.join(','))
+        media_tweet_request = Typhoeus::Request.new(media_tweet_url, options_media)
+        media_tweet_response = media_tweet_request.run
 
-      media_urls = JSON.parse(media_tweet_response.body)['includes']['media'].map { |d| d['url'] }
+        media_urls = JSON.parse(media_tweet_response.body)['includes']['media'].map { |d| d['url'] }
 
-      media_urls.each do |url|
-        # Twitterからpngをダウンロード
-        tempfile = Down.download("#{url}?name=4096x4096")
+        media_urls.each do |url|
+          # Twitterからpngをダウンロード
+          tempfile = Down.download("#{url}?name=4096x4096")
 
-        image = MiniMagick::Image.open(tempfile.path)
-        image.resize '2000'
-        image.write "./input/images/#{tempfile.original_filename}"
+          image = MiniMagick::Image.open(tempfile.path)
+          image.resize '2000'
+          image.write "./input/images/#{tempfile.original_filename}"
+        end
       end
 
       d1 = Date.today.strftime('%Y/%m/%d')
