@@ -145,7 +145,7 @@ DEPENDENCIES
   google-apis-sheets_v4
   highline
   mini_magick
-  nokogiri (>= 1.12.5)
+  nokogiri (>= 1.13.4)
   rspec
   rtesseract
   rubocop
