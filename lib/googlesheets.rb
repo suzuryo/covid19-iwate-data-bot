@@ -6,7 +6,7 @@ require 'googleauth/stores/file_token_store'
 
 # GoogleSheetsIwate
 class GoogleSheetsIwate
-  OOB_URI = 'urn:ietf:wg:oauth:2.0:oob'
+  OOB_URI = 'http://localhost:8000'
   APPLICATION_NAME = 'iwate.stopcovid19.jp DATA JSON Converter'
   CREDENTIALS_PATH = File.join(__dir__, '../credentials.json')
   TOKEN_PATH = File.join(__dir__, '../token.yaml')
