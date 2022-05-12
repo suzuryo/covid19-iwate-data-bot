@@ -506,25 +506,25 @@ B3 = {
 # ワクチン２回接種率（％） ※３回接種者を含む
 B4 = {
   s00: Rational('0'),
-  s10: Rational('84.3'),
-  s20: Rational('85.4'),
-  s30: Rational('83.9'),
+  s10: Rational('84.6'),
+  s20: Rational('85.5'),
+  s30: Rational('83.8'),
   s40: Rational('87.4'),
   s50: Rational('91.6'),
-  s60: (Rational('91.9') + Rational('90.2')) / Rational('2'),
-  s70: (Rational('97.1') + Rational('95.5') + Rational('100.4') + Rational('101.6')) / Rational('4')
+  s60: (Rational('91.9') + Rational('90.0')) / Rational('2'),
+  s70: (Rational('97.3') + Rational('95.6') + Rational('100.8') + Rational('101.6')) / Rational('4')
 }.freeze
 
 # ワクチン３回接種率（％）
 B5 = {
   s00: Rational('0'),
-  s10: Rational('8.2'),
-  s20: Rational('29.0'),
-  s30: Rational('31.3'),
-  s40: Rational('38.4'),
-  s50: Rational('55.2'),
-  s60: (Rational('72.9') + Rational('83.9')) / Rational('2'),
-  s70: (Rational('91.7') + Rational('89.2') + Rational('91.9') + Rational('90.1')) / Rational('4')
+  s10: Rational('13.1'),
+  s20: Rational('33.8'),
+  s30: Rational('36.5'),
+  s40: Rational('45.4'),
+  s50: Rational('62.4'),
+  s60: (Rational('78.1') + Rational('84.6')) / Rational('2'),
+  s70: (Rational('92.5') + Rational('90.1') + Rational('93.2') + Rational('91.3')) / Rational('4')
 }.freeze
 
 # デルタ株：（ワクチンなしで）酸素投与を要する率（％）
