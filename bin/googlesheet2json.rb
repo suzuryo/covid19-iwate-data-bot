@@ -662,6 +662,16 @@ B29 = Rational(data_main_summary[:入院]) + Rational(data_main_summary[:宿泊�
 # つまり、60 人の入院患者に対して中等症は 0 人ということ
 # https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/050/416/20220428_01_3.pdf
 #
+# 第56回本部員会議の資料で、中等症(1なの2なの?)が
+# 2022/4/26 - 2022/5/2 の 30 例について 6.7% という資料が出た。
+# つまり、30 人の入院患者に対して中等症は 2 人ということ
+# https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/050/416/20220513_02_2.pdf
+#
+# 第56回本部員会議の資料で、中等症(1なの2なの?)が
+# 2022/5/3 - 2022/5/9 の 44 例について 15.9% という資料が出た。
+# つまり、44 人の入院患者に対して中等症は 7 人ということ
+# https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/050/416/20220513_02_2.pdf
+#
 # 第50回本部員会議の資料で、酸素投与を受けた患者が 8.5 % という数字が出ている
 # ただしオミクロン前のデータ
 # https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/050/416/20220225_04_2.pdf
