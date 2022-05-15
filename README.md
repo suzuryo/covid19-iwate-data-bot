@@ -3,11 +3,15 @@
 ## 1. 環境構築
 
 - ruby 3.0.1
-- Python 3.7.11
 
 ```
-$ bundle
-$ pip install -r requirements.txt
+$ bundle install
+```
+
+- Python 3.9.7 (miniforge3-4.10.3-10)
+
+```
+$ conda install -c conda-forge camelot-py
 ```
 
 ## 2. JSON生成プログラムの実行
