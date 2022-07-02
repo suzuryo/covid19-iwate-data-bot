@@ -2,16 +2,8 @@
 
 ## 1. 環境構築
 
-- ruby 3.0.1
-
 ```
-$ bundle install
-```
-
-- Python 3.9.7 (miniforge3-4.10.3-10)
-
-```
-$ conda install -c conda-forge camelot-py
+docker compose build
 ```
 
 ## 2. JSON生成プログラムの実行
@@ -21,96 +13,36 @@ $ conda install -c conda-forge camelot-py
 - 初回起動時に token.yaml が生成される
 
 ```
-bundle exec bin/googlesheet2json.rb
+docker compose run --rm runner ./bin/googlesheet2json.rb
 ```
 
 実行すると
 
 ```
 ./data/alert.json
+./data/confirmed_case_age.json
+./data/confirmed_case_area.json
 ./data/daily_positive_detail.json
 ./data/data.json
+./data/health_burden.json
 ./data/main_summary.json
 ./data/news.json
 ./data/patient_municipalities.json
-./data/positive_by_diagnosed.json
 ./data/positive_rate.json
 ./data/positive_status.json
 ./data/self_disclosures.json
-```
-
-が生成される。
-
-## 3.1 twitter.com/iwatevscovid19 からTSVを生成する
-
-```
-bundle exec bin/tweet2tsv.rb # 普通はこれ
-bundle exec bin/tweet2tsv.rb new
-bundle exec bin/tweet2tsv.rb new --days NUM
-```
-
-- TWITTER_BEARER_TOKEN を取得して .env に設定する
-
-実行すると、twitter.com/iwatevscovid19 のつぶやき群から、 NUM days のデータを取得して
-
-```
-./tsv/tweet.tsv
+./data/urls.json
 ```
 
 が生成される。
 
 
-## 3.2 ./input/tweets.txt からTSVを生成する
+## 3. Twitterに書き込まれたpng画像からtesseractでOCRしてTSVを生成する
 
-その日の15時にLINEで届くメッセージをコピペして `./input/tweets.txt` を作成してから
-
-```
-bundle exec bin/tweet2tsv.rb --from-files
-```
-
-を実行すると、
+- .env に Twitter API v2 を利用するための TWITTER_BEARER_TOKEN が必要
 
 ```
-./tsv/tweet.tsv
-```
-
-が生成される。
-
-## 4. 岩手県と盛岡市のサイトからPDFをダウンロードしてTSVを生成する
-
-```
-bundle exec bin/pdf2tsv.rb      # 普通はこれ
-bundle exec bin/pdf2tsv.rb --rm # ダウンロード済みのPDFと変換済みのCSVを削除してやり直す
-```
-
-を実行すると
-
-```
-./tsv/pdf.tsv
-```
-
-が生成される。
-
-## 5. iwate-ninshou.jp から GoogleMyMap に読み込ませるCSVを生成する
-
-```
-bundle exec bin/iwateNinshouRestaurant2csv.rb
-```
-
-を実行すると、
-
-```
-./tsv/restaurant.csv
-```
-
-が生成される。
-
-## 6. Twitterに書き込まれたpng画像からtesseractでOCRしてTSVを生成する
-
-tesseractをインストールしてPATHを通して、tessdata_bestのjpn.traineddataを導入してから
-
-```
-bundle exec bin/image2tsv.rb
+docker compose run --rm runner ./bin/image2tsv.rb
 ```
 
 を実行すると、
@@ -122,22 +54,31 @@ bundle exec bin/image2tsv.rb
 が生成される。
 
 
-------------------------------------------------------------
-
-## [obsoleted]. 岩手県と盛岡市のサイトからTSVを生成する
-
-個別ページでの公表が無くなったので 2021/9/2に使えなくなった
+## 4. 岩手県と盛岡市のサイトからPDFをダウンロードしてTSVを生成する
 
 ```
-bundle exec bin/site2tsv.rb # 普通はこれ
-bundle exec bin/site2tsv.rb new
-bundle exec bin/site2tsv.rb new --id NUM
+docker compose run --rm runner ./bin/pdf2tsv.rb
 ```
 
-実行すると、pref.iwateとcity.moriokaのサイトから、id NUM 以降のデータをスクレイピングして
+を実行すると
 
 ```
-./tsv/site.tsv
+./tsv/pdf.tsv
+```
+
+が生成される。
+
+
+## 5. iwate-ninshou.jp から GoogleMyMap に読み込ませるCSVを生成する
+
+```
+docker compose run --rm runner ./bin/iwateNinshouRestaurant2csv.rb
+```
+
+を実行すると、
+
+```
+./tsv/restaurant.csv
 ```
 
 が生成される。
