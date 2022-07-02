@@ -245,7 +245,7 @@ RUN mkdir -p "$GEM_HOME" && chmod 777 "$GEM_HOME"
 #
 # My App
 #
-RUN pip install "camelot-py[cv]"
+RUN /usr/local/bin/pip3 install "camelot-py[cv]"
 
 WORKDIR /app
 
