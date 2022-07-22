@@ -1235,30 +1235,30 @@ end
 # write json
 ######################################################################
 
-File.write(File.join(__dir__, '../data/', 'data.json'), JSON.generate(data_json))
+File.write(File.join(__dir__, '../data/', 'data.json'), JSON.pretty_generate(data_json))
 
-File.write(File.join(__dir__, '../data/', 'patient_municipalities.json'), JSON.generate(data_patient_municipalities_json))
+File.write(File.join(__dir__, '../data/', 'patient_municipalities.json'), JSON.pretty_generate(data_patient_municipalities_json))
 
-# File.write(File.join(__dir__, '../data/', 'positive_by_diagnosed.json'), JSON.generate(data_positive_by_diagnosed_json))
+# File.write(File.join(__dir__, '../data/', 'positive_by_diagnosed.json'), JSON.pretty_generate(data_positive_by_diagnosed_json))
 
-File.write(File.join(__dir__, '../data/', 'daily_positive_detail.json'), JSON.generate(data_daily_positive_detail_json))
+File.write(File.join(__dir__, '../data/', 'daily_positive_detail.json'), JSON.pretty_generate(data_daily_positive_detail_json))
 
-File.write(File.join(__dir__, '../data/', 'positive_rate.json'), JSON.generate(data_positive_rate_json))
+File.write(File.join(__dir__, '../data/', 'positive_rate.json'), JSON.pretty_generate(data_positive_rate_json))
 
-File.write(File.join(__dir__, '../data/', 'positive_status.json'), JSON.generate(data_positive_status_json))
+File.write(File.join(__dir__, '../data/', 'positive_status.json'), JSON.pretty_generate(data_positive_status_json))
 
-File.write(File.join(__dir__, '../data/', 'news.json'), JSON.generate(data_news_json))
+File.write(File.join(__dir__, '../data/', 'news.json'), JSON.pretty_generate(data_news_json))
 
-File.write(File.join(__dir__, '../data/', 'alert.json'), JSON.generate(data_alert_json))
+File.write(File.join(__dir__, '../data/', 'alert.json'), JSON.pretty_generate(data_alert_json))
 
-File.write(File.join(__dir__, '../data/', 'urls.json'), JSON.generate(data_urls_json))
+File.write(File.join(__dir__, '../data/', 'urls.json'), JSON.pretty_generate(data_urls_json))
 
-File.write(File.join(__dir__, '../data/', 'self_disclosures.json'), JSON.generate(data_self_disclosures_json))
+File.write(File.join(__dir__, '../data/', 'self_disclosures.json'), JSON.pretty_generate(data_self_disclosures_json))
 
-File.write(File.join(__dir__, '../data/', 'main_summary.json'), JSON.generate(data_main_summary))
+File.write(File.join(__dir__, '../data/', 'main_summary.json'), JSON.pretty_generate(data_main_summary))
 
-File.write(File.join(__dir__, '../data/', 'health_burden.json'), JSON.generate(data_health_burden_json))
+File.write(File.join(__dir__, '../data/', 'health_burden.json'), JSON.pretty_generate(data_health_burden_json))
 
-File.write(File.join(__dir__, '../data/', 'confirmed_case_area.json'), JSON.generate(data_confirmed_case_area_json))
+File.write(File.join(__dir__, '../data/', 'confirmed_case_area.json'), JSON.pretty_generate(data_confirmed_case_area_json))
 
-File.write(File.join(__dir__, '../data/', 'confirmed_case_age.json'), JSON.generate(data_confirmed_case_age_json))
+File.write(File.join(__dir__, '../data/', 'confirmed_case_age.json'), JSON.pretty_generate(data_confirmed_case_age_json))
