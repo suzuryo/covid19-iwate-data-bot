@@ -1,7 +1,7 @@
 {
-  "date": "2022-07-22T18:31:45+09:00",
+  "date": "2022-07-22T19:05:51+09:00",
   "datasets": {
-    "date": "2022-07-22T18:31:45+09:00",
+    "date": "2022-07-22T19:05:51+09:00",
     "data": [
       {
         "code": "032018",
@@ -88,8 +88,8 @@
         "area": "岩手県",
         "label": "二戸市",
         "ruby": "にのへし",
-        "count": 475,
-        "count_per_population": "1.861"
+        "count": 473,
+        "count_per_population": "1.853"
       },
       {
         "code": "032140",
@@ -232,8 +232,8 @@
         "area": "岩手県",
         "label": "軽米町",
         "ruby": "かるまいまち",
-        "count": 81,
-        "count_per_population": "0.962"
+        "count": 83,
+        "count_per_population": "0.985"
       },
       {
         "code": "035033",
