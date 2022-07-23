@@ -1,5 +1,5 @@
 {
-  "date": "2022-07-23T16:02:09+09:00",
+  "date": "2022-07-23T16:36:22+09:00",
   "data": [
     {
       "diagnosed_date": "2020-02-13",
@@ -8763,13 +8763,13 @@
     },
     {
       "diagnosed_date": "2022-07-08",
-      "positive_count": 304,
-      "pcr_positive_count": 304,
+      "positive_count": 303,
+      "pcr_positive_count": 303,
       "antigen_positive_count": 0,
-      "pcr_negative_count": 21,
+      "pcr_negative_count": 22,
       "antigen_negative_count": 425,
       "weekly_average_diagnosed_count": 270.9,
-      "positive_rate": 29.29
+      "positive_rate": 29.27
     },
     {
       "diagnosed_date": "2022-07-09",
@@ -8779,7 +8779,7 @@
       "pcr_negative_count": 251,
       "antigen_negative_count": 735,
       "weekly_average_diagnosed_count": 326.1,
-      "positive_rate": 27.01
+      "positive_rate": 26.99
     },
     {
       "diagnosed_date": "2022-07-10",
@@ -8789,7 +8789,7 @@
       "pcr_negative_count": 172,
       "antigen_negative_count": 59,
       "weekly_average_diagnosed_count": 349.9,
-      "positive_rate": 28.79
+      "positive_rate": 28.77
     },
     {
       "diagnosed_date": "2022-07-11",
@@ -8799,7 +8799,7 @@
       "pcr_negative_count": 118,
       "antigen_negative_count": 440,
       "weekly_average_diagnosed_count": 390.6,
-      "positive_rate": 29.97
+      "positive_rate": 29.95
     },
     {
       "diagnosed_date": "2022-07-12",
@@ -8809,7 +8809,7 @@
       "pcr_negative_count": 162,
       "antigen_negative_count": 834,
       "weekly_average_diagnosed_count": 449.0,
-      "positive_rate": 31.99
+      "positive_rate": 31.97
     },
     {
       "diagnosed_date": "2022-07-13",
@@ -8819,7 +8819,7 @@
       "pcr_negative_count": 541,
       "antigen_negative_count": 1389,
       "weekly_average_diagnosed_count": 536.7,
-      "positive_rate": 30.14
+      "positive_rate": 30.13
     },
     {
       "diagnosed_date": "2022-07-14",
@@ -8829,7 +8829,7 @@
       "pcr_negative_count": 754,
       "antigen_negative_count": 883,
       "weekly_average_diagnosed_count": 688.7,
-      "positive_rate": 29.23
+      "positive_rate": 29.22
     },
     {
       "diagnosed_date": "2022-07-15",
@@ -8900,6 +8900,16 @@
       "antigen_negative_count": 1159,
       "weekly_average_diagnosed_count": 782.4,
       "positive_rate": 40.7
+    },
+    {
+      "diagnosed_date": "2022-07-22",
+      "positive_count": 1050,
+      "pcr_positive_count": 1050,
+      "antigen_positive_count": 0,
+      "pcr_negative_count": 1281,
+      "antigen_negative_count": 0,
+      "weekly_average_diagnosed_count": 968.6,
+      "positive_rate": 43.26
     }
   ]
 }
