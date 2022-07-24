@@ -1,5 +1,5 @@
 {
-  "date": "2022-07-25T00:30:06+09:00",
+  "date": "2022-07-25T00:57:40+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -10927,7 +10927,7 @@
     {
       "date": "2022-02-16",
       "url": {
-        "ja": "http://www.senmaya-hospital.jp/news/3783",
+        "ja": "https://www.senmaya-hospital.jp/news/3783",
         "en": null
       },
       "text": {
@@ -10938,7 +10938,7 @@
     {
       "date": "2022-02-17",
       "url": {
-        "ja": "http://www.senmaya-hospital.jp/news/3786",
+        "ja": "https://www.senmaya-hospital.jp/news/3786",
         "en": null
       },
       "text": {
@@ -17846,7 +17846,7 @@
     {
       "date": "2022-03-24",
       "url": {
-        "ja": "http://www.senmaya-hospital.jp/news/3803",
+        "ja": "https://www.senmaya-hospital.jp/news/3803",
         "en": null
       },
       "text": {
@@ -35913,6 +35913,138 @@
       },
       "text": {
         "ja": "ヤマダデンキ テックランド紫波店 (紫波町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-22",
+      "url": {
+        "ja": "https://www.junjo.jp/imagem/file/1658470312_01.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "JA全農いわて 園芸育苗センター (紫波町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-22",
+      "url": {
+        "ja": "https://www.junjo.jp/imagem/file/1658470220_01.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "JA全農いわて 北上農機センター (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-22",
+      "url": {
+        "ja": "https://www.junjo.jp/imagem/file/1658470071_01.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "JA全農いわて 石鳥谷農機センター (花巻市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-22",
+      "url": {
+        "ja": "https://www.junjo.jp/imagem/file/1658469900_01.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "JA全農いわて 園芸育苗センター (紫波町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-22",
+      "url": {
+        "ja": "https://www.junjo.jp/imagem/file/1658469819_01.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "JA全農いわて 園芸部 園芸特産課 (矢巾町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-19",
+      "url": {
+        "ja": "https://www.npr.co.jp/news/pdf/2022_0719_01.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "日ピス岩手 (一関市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-05-16",
+      "url": {
+        "ja": "https://www.npr.co.jp/news/pdf/2022_0628_03.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "日ピス岩手 (一関市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-19",
+      "url": {
+        "ja": "https://www.senmaya-hospital.jp/news/3899",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手県立千厩病院 (一関市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-22",
+      "url": {
+        "ja": "https://www.mizhsp-iwate.jp/archives/notification/20220722_covid-19.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "奥州市総合水沢病院 (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-06-13",
+      "url": {
+        "ja": "https://www.mizhsp-iwate.jp/archives/notification/20220613_covid-19.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "奥州市総合水沢病院 (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-06-02",
+      "url": {
+        "ja": "https://www.mizhsp-iwate.jp/archives/notification/20220602_covid-19.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "奥州市総合水沢病院 (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-24",
+      "url": {
+        "ja": "http://oofunato-hp.com/wp-content/uploads/2022/07/R04.07.24-%E9%96%A2%E4%BF%82%E6%A9%9F%E9%96%A2%E7%94%A8-1.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手県立大船渡病院 [外来受入れの一部制限] (大船渡市)",
         "en": null
       }
     }
