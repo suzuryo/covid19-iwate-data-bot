@@ -1,5 +1,5 @@
 {
-  "date": "2022-07-24T22:26:58+09:00",
+  "date": "2022-07-24T23:47:11+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -32003,7 +32003,7 @@
     {
       "date": "2022-07-08",
       "url": {
-        "ja": "https://www.karumai-hospital.net/info/news/post-852",
+        "ja": "https://www.karumai-hospital.net/con_sys/skin/uploads/2022/07/61e125fb7a45620fecde221f4cbcd8db.pdf",
         "en": null
       },
       "text": {
@@ -35732,11 +35732,33 @@
     {
       "date": "2022-07-24",
       "url": {
-        "ja": "https://www.karumai-hospital.net/info/news/post-878",
+        "ja": "https://www.karumai-hospital.net/con_sys/skin/uploads/2022/07/7e0d0b63bb47131b6f8ebd4f58ad3b12.pdf",
         "en": null
       },
       "text": {
         "ja": "岩手県立軽米病院 (軽米町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-23",
+      "url": {
+        "ja": "https://www.prifoods.jp/media/files/_u/topic/file1/1k4xengqae.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "プライフーズ みちのく二戸工場 (二戸市)・軽米工場 (軽米町)・岩手孵卵場 (洋野町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-23",
+      "url": {
+        "ja": "https://www.prifoods.jp/media/files/_u/topic/file1/1k4xengqae.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "ケンタッキーフライドチキン [イオンモール盛岡インター店] (盛岡市前潟)",
         "en": null
       }
     }
