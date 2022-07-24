@@ -1,5 +1,5 @@
 {
-  "date": "2022-07-24T23:47:11+09:00",
+  "date": "2022-07-25T00:12:51+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -35147,6 +35147,17 @@
       }
     },
     {
+      "date": "2022-07-21",
+      "url": {
+        "ja": "http://www.nikkaniwate.co.jp/#:~:text=%E5%90%84%E4%BD%8D-,2022%E5%B9%B47%E6%9C%8821%E6%97%A5,-%EF%BC%97%E6%9C%8821",
+        "en": null
+      },
+      "text": {
+        "ja": "日刊岩手建設工業新聞社 (盛岡市)",
+        "en": null
+      }
+    },
+    {
       "date": "2022-07-15",
       "url": {
         "ja": "https://xing.co.jp/archives/17620#:~:text=%E7%9B%9B%E5%B2%A1%E4%BA%8B%E6%A5%AD%E6%89%80%EF%BC%88%E5%B2%A9%E6%89%8B%E7%9C%8C%E7%9B%9B%E5%B2%A1%E5%B8%82%E7%A8%B2%E8%8D%B7%E7%94%BA8%2D35%EF%BC%89%E3%81%AB%E5%8B%A4%E5%8B%99%E3%81%99%E3%82%8B%E5%BE%93%E6%A5%AD%E5%93%A11%E5%90%8D%E3%81%AE%E6%84%9F%E6%9F%93%E3%81%8C7%E6%9C%8814%E6%97%A5%E3%81%AB%E5%88%A4%E6%98%8E%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F%E3%80%82%E5%BD%93%E8%A9%B2%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%E3%81%AE%E6%9C%80%E7%B5%82%E5%87%BA%E5%8B%A4%E6%97%A5%E3%81%AF7%E6%9C%8814%E6%97%A5%E3%81%A7%E3%81%99%E3%80%82",
@@ -35758,7 +35769,95 @@
         "en": null
       },
       "text": {
-        "ja": "ケンタッキーフライドチキン [イオンモール盛岡インター店] (盛岡市前潟)",
+        "ja": "KFC ケンタッキーフライドチキン [イオンモール盛岡インター店] (盛岡市前潟)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-22",
+      "url": {
+        "ja": "https://www.saitoseika.co.jp/news/article.php?eid=00226",
+        "en": null
+      },
+      "text": {
+        "ja": "三陸菓匠さいとう総本店かもめテラス [営業再開] (大船渡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-22",
+      "url": {
+        "ja": "https://www.nnlife.co.jp/library/pdf/company/messages/2022/220722.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "エヌエヌ生命保険 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-22",
+      "url": {
+        "ja": "https://www.dnp.co.jp/news/detail/10158171_1587.html#:~:text=1%E5%90%8D-,7%E6%9C%8821%E6%97%A5,%E5%8C%97%E4%B8%8A%E5%B7%A5%E5%A0%B4%EF%BC%88%E5%B2%A9%E6%89%8B%E7%9C%8C%EF%BC%89,-1%E5%90%8D",
+        "en": null
+      },
+      "text": {
+        "ja": "大日本印刷 北上工場 (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-22",
+      "url": {
+        "ja": "https://www.michinokubank.co.jp/news_2996.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "みちのく銀行 盛岡支店 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-19",
+      "url": {
+        "ja": "https://www.michinokubank.co.jp/news_2989.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "みちのく銀行 久慈支店 (久慈市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-24",
+      "url": {
+        "ja": "https://geo-online.co.jp/news/581#:~:text=%E3%82%B2%E3%82%AA%E4%BA%8C%E6%88%B8%E5%A0%80%E9%87%8E,%E6%9C%8822%E6%97%A5",
+        "en": null
+      },
+      "text": {
+        "ja": "ゲオ二戸堀野店 (二戸市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-15",
+      "url": {
+        "ja": "https://niisatoshitoukai.jp/publics/index/1/detail=1/b_id=7/r_id=238",
+        "en": null
+      },
+      "text": {
+        "ja": "社会福祉法人新里紫桐会 (宮古市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-16",
+      "url": {
+        "ja": "https://www.karumaisan.jp/news/2969",
+        "en": null
+      },
+      "text": {
+        "ja": "軽米町産業開発 (軽米町)",
         "en": null
       }
     }
