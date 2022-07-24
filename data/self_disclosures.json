@@ -1,5 +1,5 @@
 {
-  "date": "2022-07-25T00:12:51+09:00",
+  "date": "2022-07-25T00:30:06+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -35858,6 +35858,61 @@
       },
       "text": {
         "ja": "軽米町産業開発 (軽米町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-20",
+      "url": {
+        "ja": "https://www.mos.jp/topics/20220720_1/",
+        "en": null
+      },
+      "text": {
+        "ja": "モスバーガー 一関店 (一関市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-22",
+      "url": {
+        "ja": "https://www.autobacs.co.jp/ja/covid-19/news-20220722.html#:~:text=%E3%82%AA%E3%83%BC%E3%83%88%E3%83%90%E3%83%83%E3%82%AF%E3%82%B9%0A%E7%9B%9B%E5%B2%A1,13%E6%97%A5%EF%BC%88%E6%B0%B4%EF%BC%89",
+        "en": null
+      },
+      "text": {
+        "ja": "オートバックス 盛岡北店 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-15",
+      "url": {
+        "ja": "https://www.autobacs.co.jp/ja/covid-19/news-20220715.html#:~:text=%E3%82%AA%E3%83%BC%E3%83%88%E3%83%90%E3%83%83%E3%82%AF%E3%82%B9%0A%E7%9B%9B%E5%B2%A1,12%E6%97%A5%EF%BC%88%E7%81%AB%EF%BC%89",
+        "en": null
+      },
+      "text": {
+        "ja": "オートバックス 盛岡北店 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-22",
+      "url": {
+        "ja": "https://www.pcdepot.co.jp/info/covid19/covid19_info/notices/220722_3.html",
+        "en": null
+      },
+      "text": {
+        "ja": "PCデポ スマートライフ盛岡本店 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-22",
+      "url": {
+        "ja": "https://www.yamada-denki.jp/information/200419prevention/pdf/220722_01.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "ヤマダデンキ テックランド紫波店 (紫波町)",
         "en": null
       }
     }
