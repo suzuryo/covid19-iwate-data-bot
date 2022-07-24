@@ -1,5 +1,5 @@
 {
-  "date": "2022-07-24T00:22:27+09:00",
+  "date": "2022-07-24T10:28:12+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -35638,6 +35638,50 @@
       },
       "text": {
         "ja": "奥州市社会福祉協議会 こども福祉課 (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-13",
+      "url": {
+        "ja": "http://www.kunohe-shakyo.jp/cgi-data/news/ksadmin_1657679775_1.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "九戸村社会福祉協議会 (九戸村)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-23",
+      "url": {
+        "ja": "https://www.heim-tohoku.co.jp/media/files/_u/topic/file/25a26j0aid.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "セキスイハイム東北 北東北支店 (一関市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-23",
+      "url": {
+        "ja": "https://www.heim-tohoku.co.jp/media/files/_u/topic/file/2eo9i0onv8.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "セキスイハイム東北 北東北支店 (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-22",
+      "url": {
+        "ja": "https://www.bikkuri-donkey.com/%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E6%84%9F%E6%9F%93%E8%80%85%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B_0722.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "びっくりドンキー 上堂店 (盛岡市)・盛岡南店 (盛岡市)",
         "en": null
       }
     }
