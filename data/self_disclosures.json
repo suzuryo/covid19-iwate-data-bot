@@ -1,5 +1,5 @@
 {
-  "date": "2022-07-24T22:12:14+09:00",
+  "date": "2022-07-24T22:26:58+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -35715,6 +35715,28 @@
       },
       "text": {
         "ja": "ふじ原 開運橋通り (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-22",
+      "url": {
+        "ja": "https://dental.miyasawa.com/",
+        "en": null
+      },
+      "text": {
+        "ja": "宮沢歯科医院 (軽米町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-24",
+      "url": {
+        "ja": "https://www.karumai-hospital.net/info/news/post-878",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手県立軽米病院 (軽米町)",
         "en": null
       }
     }
