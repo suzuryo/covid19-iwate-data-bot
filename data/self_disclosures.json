@@ -1,5 +1,5 @@
 {
-  "date": "2022-07-25T20:42:18+09:00",
+  "date": "2022-07-25T20:58:37+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -34311,7 +34311,7 @@
       }
     },
     {
-      "date": "2022-07-18",
+      "date": "2022-07-16",
       "url": {
         "ja": "https://kazenooka.tonofurusato.jp/news/%e6%96%b0%e5%9e%8b%e3%82%b3%e3%83%ad%e3%83%8a%e3%82%a6%e3%82%a4%e3%83%ab%e3%82%b9%e6%84%9f%e6%9f%93%e7%97%87%e3%81%ae%e7%99%ba%e7%94%9f%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6-2/",
         "en": null
@@ -36425,6 +36425,28 @@
     {
       "date": "2022-07-25",
       "url": {
+        "ja": "https://www.town.kanegasaki.iwate.jp/articles/2022072500026/",
+        "en": null
+      },
+      "text": {
+        "ja": "金ケ崎町職員 [役場庁舎内・役場庁舎外施設] (金ケ崎町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-25",
+      "url": {
+        "ja": "https://www.town.karumai.iwate.jp/article/covid-19/health_medical/entry-basename-2.html#:~:text=%E8%81%B7%E5%93%A1%E3%81%AE%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9%E6%84%9F%E6%9F%93%E7%97%87%E3%81%B8%E3%81%AE%E6%84%9F%E6%9F%93%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%EF%BC%88%E4%BB%A4%E5%92%8C%EF%BC%94%E5%B9%B4%EF%BC%97%E6%9C%8825%E6%97%A5%EF%BC%89",
+        "en": null
+      },
+      "text": {
+        "ja": "軽米町職員 [本庁舎・本庁舎外] (軽米町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-25",
+      "url": {
         "ja": "https://www.sumitomolife.co.jp/infolist/coronavirus3.html",
         "en": null
       },
@@ -36474,6 +36496,17 @@
       },
       "text": {
         "ja": "住友生命 盛岡支社 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-08",
+      "url": {
+        "ja": "https://www.town.iwaizumi.lg.jp/docs/2022051200046/#:~:text=%E5%B2%A9%E6%B3%89%E7%94%BA%E8%81%B7%E5%93%A1%E3%81%AE%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9%E6%84%9F%E6%9F%93%E7%A2%BA%E8%AA%8D%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%EF%BC%88%E4%BB%A4%E5%92%8C%EF%BC%94%E5%B9%B4%EF%BC%97%E6%9C%88%EF%BC%98%E6%97%A5%E7%A2%BA%E8%AA%8D%EF%BC%89",
+        "en": null
+      },
+      "text": {
+        "ja": "岩泉町職員 (岩泉町)",
         "en": null
       }
     }
