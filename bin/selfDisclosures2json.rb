@@ -56,4 +56,4 @@ end
 # write json
 ######################################################################
 
-File.write(File.join(__dir__, '../data/', 'self_disclosures.json'), JSON.generate(data_self_disclosures_json))
+File.write(File.join(__dir__, '../data/', 'self_disclosures.json'), JSON.pretty_generate(data_self_disclosures_json))
