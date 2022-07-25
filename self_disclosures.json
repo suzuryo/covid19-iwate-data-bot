@@ -1,5 +1,5 @@
 {
-  "date": "2022-07-25T20:25:29+09:00",
+  "date": "2022-07-25T20:42:18+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -1053,7 +1053,7 @@
         "en": null
       },
       "text": {
-        "ja": "住友生命保険相互会社 盛岡支社 (盛岡市)",
+        "ja": "住友生命 盛岡支社 (盛岡市)",
         "en": null
       }
     },
@@ -1086,7 +1086,7 @@
         "en": null
       },
       "text": {
-        "ja": "住友生命保険相互会社 盛岡支社 (盛岡市)",
+        "ja": "住友生命 盛岡支社 (盛岡市)",
         "en": null
       }
     },
@@ -6806,7 +6806,7 @@
         "en": null
       },
       "text": {
-        "ja": "住友生命保険相互会社 盛岡支社 (盛岡市)",
+        "ja": "住友生命 盛岡支社 (盛岡市)",
         "en": null
       }
     },
@@ -6817,7 +6817,7 @@
         "en": null
       },
       "text": {
-        "ja": "住友生命保険相互会社 盛岡支社 (盛岡市)",
+        "ja": "住友生命 盛岡支社 (盛岡市)",
         "en": null
       }
     },
@@ -6828,7 +6828,7 @@
         "en": null
       },
       "text": {
-        "ja": "住友生命保険相互会社 盛岡支社 (盛岡市)",
+        "ja": "住友生命 盛岡支社 (盛岡市)",
         "en": null
       }
     },
@@ -6839,7 +6839,7 @@
         "en": null
       },
       "text": {
-        "ja": "住友生命保険相互会社 盛岡支社 (盛岡市)",
+        "ja": "住友生命 盛岡支社 (盛岡市)",
         "en": null
       }
     },
@@ -36386,6 +36386,94 @@
       },
       "text": {
         "ja": "北上市内の小中学校 [臨時休業の状況] (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-24",
+      "url": {
+        "ja": "https://www.heim-tohoku.co.jp/media/files/_u/topic/file/2b289vg5at.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "セキスイハイム東北 北東北支店 (宮古市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-25",
+      "url": {
+        "ja": "https://www.kioxia-iwate.co.jp/news/2021/covid-latest.html#:~:text=%E2%96%A0-,%E5%85%AC%E8%A1%A8%E6%97%A5%EF%BC%9A2022%E5%B9%B47%E6%9C%8825%E6%97%A5%EF%BC%88%E6%9C%88%EF%BC%89,-%E2%96%A0%E5%85%AC%E8%A1%A8%E6%97%A5%EF%BC%9A2022",
+        "en": null
+      },
+      "text": {
+        "ja": "キオクシア岩手 (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-25",
+      "url": {
+        "ja": "https://www.yakuodo.co.jp/images/upnews/62ddec6fd9740.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "薬王堂 [盛岡市・釜石市・胆沢郡の店舗]",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-25",
+      "url": {
+        "ja": "https://www.sumitomolife.co.jp/infolist/coronavirus3.html",
+        "en": null
+      },
+      "text": {
+        "ja": "住友生命 盛岡支社 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-15",
+      "url": {
+        "ja": "https://www.sumitomolife.co.jp/infolist/coronavirus3.html",
+        "en": null
+      },
+      "text": {
+        "ja": "住友生命 盛岡支社 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-19",
+      "url": {
+        "ja": "https://www.sumitomolife.co.jp/infolist/coronavirus3.html",
+        "en": null
+      },
+      "text": {
+        "ja": "住友生命 盛岡支社 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-20",
+      "url": {
+        "ja": "https://www.sumitomolife.co.jp/infolist/coronavirus3.html",
+        "en": null
+      },
+      "text": {
+        "ja": "住友生命 盛岡支社 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-21",
+      "url": {
+        "ja": "https://www.sumitomolife.co.jp/infolist/coronavirus3.html",
+        "en": null
+      },
+      "text": {
+        "ja": "住友生命 盛岡支社 (盛岡市)",
         "en": null
       }
     }
