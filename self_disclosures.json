@@ -1,5 +1,5 @@
 {
-  "date": "2022-07-26T14:11:19+09:00",
+  "date": "2022-07-26T17:13:08+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -36914,6 +36914,28 @@
       },
       "text": {
         "ja": "源喜屋 盛岡店 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-26",
+      "url": {
+        "ja": "http://karumai-shakyo.or.jp/publics/index/1/detail=1/b_id=1/r_id=108",
+        "en": null
+      },
+      "text": {
+        "ja": "特別養護老人ホームいちい荘 (軽米町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-26",
+      "url": {
+        "ja": "https://www.toyota-ej.co.jp/images/news_pdf/20220726.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "トヨタ自動車東日本 岩手工場 (金ケ崎町)",
         "en": null
       }
     }
