@@ -1,5 +1,5 @@
 {
-  "date": "2022-07-26T22:55:47+09:00",
+  "date": "2022-07-26T23:12:07+09:00",
   "data": [
     {
       "diagnosed_date": "2020-02-13",
@@ -7091,59 +7091,59 @@
     },
     {
       "diagnosed_date": "2022-07-18",
-      "count": 340,
-      "missing_count": 126,
+      "count": 339,
+      "missing_count": 125,
       "reported_count": 214,
-      "weekly_average_count": 515.71,
-      "weekly_average_untracked_count": 185.86
+      "weekly_average_count": 515.57,
+      "weekly_average_untracked_count": 185.71
     },
     {
       "diagnosed_date": "2022-07-19",
       "count": 594,
       "missing_count": 243,
       "reported_count": 351,
-      "weekly_average_count": 515.29,
-      "weekly_average_untracked_count": 190.57
+      "weekly_average_count": 515.14,
+      "weekly_average_untracked_count": 190.43
     },
     {
       "diagnosed_date": "2022-07-20",
       "count": 975,
       "missing_count": 414,
       "reported_count": 561,
-      "weekly_average_count": 575.14,
-      "weekly_average_untracked_count": 221.29
+      "weekly_average_count": 575.0,
+      "weekly_average_untracked_count": 221.14
     },
     {
       "diagnosed_date": "2022-07-21",
       "count": 976,
       "missing_count": 375,
       "reported_count": 601,
-      "weekly_average_count": 631.14,
-      "weekly_average_untracked_count": 245.86
+      "weekly_average_count": 631.0,
+      "weekly_average_untracked_count": 245.71
     },
     {
       "diagnosed_date": "2022-07-22",
       "count": 1051,
       "missing_count": 392,
       "reported_count": 659,
-      "weekly_average_count": 697.0,
-      "weekly_average_untracked_count": 274.0
+      "weekly_average_count": 696.86,
+      "weekly_average_untracked_count": 273.86
     },
     {
       "diagnosed_date": "2022-07-23",
       "count": 911,
       "missing_count": 399,
       "reported_count": 512,
-      "weekly_average_count": 748.0,
-      "weekly_average_untracked_count": 300.43
+      "weekly_average_count": 747.86,
+      "weekly_average_untracked_count": 300.29
     },
     {
       "diagnosed_date": "2022-07-24",
       "count": 602,
       "missing_count": 212,
       "reported_count": 390,
-      "weekly_average_count": 778.43,
-      "weekly_average_untracked_count": 308.71
+      "weekly_average_count": 778.29,
+      "weekly_average_untracked_count": 308.57
     },
     {
       "diagnosed_date": "2022-07-25",
