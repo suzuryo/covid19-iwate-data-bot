@@ -1,5 +1,5 @@
 {
-  "date": "2022-07-26T17:41:19+09:00",
+  "date": "2022-07-26T17:56:42+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -36951,6 +36951,61 @@
       }
     },
     {
+      "date": "2022-07-13",
+      "url": {
+        "ja": "https://www.nta.go.jp/data2/040713_02.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "盛岡税務署 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-12",
+      "url": {
+        "ja": "https://www.nta.go.jp/data2/040712_02.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "水沢税務署 (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-26",
+      "url": {
+        "ja": "https://www.city.kitakami.iwate.jp/life/corona/shingatacorona/closeinfo/19704.html#:~:text=%E6%9C%8826%E6%97%A5%EF%BC%89-,%E5%B8%82%E5%86%85%E5%B0%8F%E4%B8%AD%E5%AD%A6%E6%A0%A1%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E8%87%A8%E6%99%82%E4%BC%91%E6%A5%AD%EF%BC%88%E4%BC%91%E6%A0%A1%EF%BC%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%EF%BC%887%E6%9C%8826%E6%97%A5%EF%BC%89,-%E5%8C%97%E4%B8%8A%E5%B8%82%E6%95%99%E8%82%B2",
+        "en": null
+      },
+      "text": {
+        "ja": "北上市内の小中学校 [臨時休業の状況] (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-25",
+      "url": {
+        "ja": "https://www.city.hanamaki.iwate.jp/1011531/1013919/1014278/1017010.html#:~:text=%E3%81%A3%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99%E3%80%82-,%E8%81%B7%E5%93%A1%E3%81%AE%E6%84%9F%E6%9F%93%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6,%E6%8E%A5%E8%A7%A6%E8%80%85%E3%81%AB%E5%BD%93%E3%81%9F%E3%82%8B%E8%80%85%E3%81%AF%E3%81%84%E3%81%AA%E3%81%84%E3%81%A8%E3%81%95%E3%82%8C%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99%E3%80%82,-7%E6%9C%8824",
+        "en": null
+      },
+      "text": {
+        "ja": "財務部職員・幼児教育保育施設等職員・花巻中央消防署職員 (花巻市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-26",
+      "url": {
+        "ja": "https://www.city.tono.iwate.jp/index.cfm/50,63524,327,html#:~:text=%E5%B8%82%E8%81%B7%E5%93%A1%E3%81%AE%E6%84%9F%E6%9F%93%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%EF%BC%88%E4%BB%A4%E5%92%8C%EF%BC%94%E5%B9%B4%EF%BC%97%E6%9C%8826%E6%97%A5%E7%A2%BA%E8%AA%8D%EF%BC%89",
+        "en": null
+      },
+      "text": {
+        "ja": "健康福祉部 (遠野市)",
+        "en": null
+      }
+    },
+    {
       "date": "2022-07-26",
       "url": {
         "ja": "https://www.ninohe-hp.net/b-img/%E5%BD%93%E9%99%A2%E8%81%B7%E5%93%A1%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9%E6%84%9F%E6%9F%93%E7%97%87%E3%81%AE%E7%99%BA%E7%94%9F%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%EF%BC%880725%EF%BC%89.pdf",
@@ -37057,6 +37112,17 @@
       },
       "text": {
         "ja": "岩手医科大学 (矢巾町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-26",
+      "url": {
+        "ja": "https://www.tohoku-bank.co.jp/showimage/pdf?fileNo=1198",
+        "en": null
+      },
+      "text": {
+        "ja": "東北銀行 水沢支店 (奥州市)",
         "en": null
       }
     }
