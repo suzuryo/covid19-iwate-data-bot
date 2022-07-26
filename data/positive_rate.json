@@ -1,5 +1,5 @@
 {
-  "date": "2022-07-26T22:55:47+09:00",
+  "date": "2022-07-26T23:12:07+09:00",
   "data": [
     {
       "diagnosed_date": "2020-02-13",
@@ -8863,13 +8863,13 @@
     },
     {
       "diagnosed_date": "2022-07-18",
-      "positive_count": 340,
-      "pcr_positive_count": 340,
+      "positive_count": 339,
+      "pcr_positive_count": 339,
       "antigen_positive_count": 0,
       "pcr_negative_count": 0,
       "antigen_negative_count": 297,
       "weekly_average_diagnosed_count": 714.9,
-      "positive_rate": 35.23
+      "positive_rate": 35.22
     },
     {
       "diagnosed_date": "2022-07-19",
@@ -8879,7 +8879,7 @@
       "pcr_negative_count": 440,
       "antigen_negative_count": 474,
       "weekly_average_diagnosed_count": 754.1,
-      "positive_rate": 35.49
+      "positive_rate": 35.48
     },
     {
       "diagnosed_date": "2022-07-20",
@@ -8889,7 +8889,7 @@
       "pcr_negative_count": 510,
       "antigen_negative_count": 1608,
       "weekly_average_diagnosed_count": 809.6,
-      "positive_rate": 37.38
+      "positive_rate": 37.37
     },
     {
       "diagnosed_date": "2022-07-21",
@@ -8899,7 +8899,7 @@
       "pcr_negative_count": 172,
       "antigen_negative_count": 1159,
       "weekly_average_diagnosed_count": 782.4,
-      "positive_rate": 40.7
+      "positive_rate": 40.69
     },
     {
       "diagnosed_date": "2022-07-22",
@@ -8909,7 +8909,7 @@
       "pcr_negative_count": 121,
       "antigen_negative_count": 1159,
       "weekly_average_diagnosed_count": 803.0,
-      "positive_rate": 43.27
+      "positive_rate": 43.26
     },
     {
       "diagnosed_date": "2022-07-23",
@@ -8919,7 +8919,7 @@
       "pcr_negative_count": 0,
       "antigen_negative_count": 784,
       "weekly_average_diagnosed_count": 855.9,
-      "positive_rate": 44.43
+      "positive_rate": 44.42
     },
     {
       "diagnosed_date": "2022-07-24",
@@ -8929,7 +8929,7 @@
       "pcr_negative_count": 657,
       "antigen_negative_count": 181,
       "weekly_average_diagnosed_count": 1003.6,
-      "positive_rate": 42.95
+      "positive_rate": 42.94
     },
     {
       "diagnosed_date": "2022-07-25",
