@@ -1,5 +1,5 @@
 {
-  "date": "2022-07-26T10:44:20+09:00",
+  "date": "2022-07-26T12:10:59+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -36711,7 +36711,7 @@
     {
       "date": "2022-07-26",
       "url": {
-        "ja": "https://koutou-kodomoen.jp/publics/index/1/detail=1/b_id=3/r_id=161",
+        "ja": "https://koutou-kodomoen.jp/publics/index/1/detail=1/b_id=3/r_id=162",
         "en": null
       },
       "text": {
@@ -36738,6 +36738,17 @@
       },
       "text": {
         "ja": "岩手銀行 北上支店 (北上市)・巣子支店 (滝沢市)・水沢支店 (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-21",
+      "url": {
+        "ja": "http://www.morishin.co.jp/news/pdf/20220721_cvirus.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "盛岡信用金庫 青山町支店 (盛岡市)",
         "en": null
       }
     }
