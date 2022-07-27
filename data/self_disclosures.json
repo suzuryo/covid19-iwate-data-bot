@@ -1,5 +1,5 @@
 {
-  "date": "2022-07-27T09:12:39+09:00",
+  "date": "2022-07-27T13:05:52+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -37178,6 +37178,50 @@
       },
       "text": {
         "ja": "岩手銀行 大通支店 (盛岡市)・大槌支店 (大槌町)・材木町支店 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-27",
+      "url": {
+        "ja": "https://twitter.com/iwatefujiwara_/status/1552122178816348160",
+        "en": null
+      },
+      "text": {
+        "ja": "ふじ原 開運橋通り [営業再開のお知らせ] (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-06-10",
+      "url": {
+        "ja": "http://www.mizusawashinkin.co.jp/00_top/pdf/20220610.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "水沢信用金庫 江刺支店 (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-26",
+      "url": {
+        "ja": "http://www.mizusawashinkin.co.jp/00_top/pdf/20220726.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "水沢信用金庫 本部 (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-26",
+      "url": {
+        "ja": "https://www.japanpost.jp/information/notices2_latest.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": null,
         "en": null
       }
     }
