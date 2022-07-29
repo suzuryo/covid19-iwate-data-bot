@@ -1,5 +1,5 @@
 {
-  "date": "2022-07-29T17:14:16+09:00",
+  "date": "2022-07-29T17:45:40+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -38388,6 +38388,61 @@
       },
       "text": {
         "ja": "キオクシア岩手 (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-29",
+      "url": {
+        "ja": "https://www.city.tono.iwate.jp/index.cfm/50,63524,327,html#:~:text=%E5%B8%82%E8%81%B7%E5%93%A1%E3%81%AE%E6%84%9F%E6%9F%93%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%EF%BC%88%E4%BB%A4%E5%92%8C%EF%BC%94%E5%B9%B4%EF%BC%97%E6%9C%8829%E6%97%A5%E7%A2%BA%E8%AA%8D%EF%BC%89",
+        "en": null
+      },
+      "text": {
+        "ja": "宮守総合支所 (遠野市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-29",
+      "url": {
+        "ja": "https://www.toyota-ej.co.jp/images/news_pdf/20220729.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "トヨタ自動車東日本 岩手工場 (金ケ崎町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-29",
+      "url": {
+        "ja": "https://www.iwate-pu.ac.jp/whatsnew/2022/07/post-755.html",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手県立大学 (滝沢市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-28",
+      "url": {
+        "ja": "https://www.irc.or.jp/news/2858",
+        "en": null
+      },
+      "text": {
+        "ja": "いわてリハビリテーションセンター (雫石町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-29",
+      "url": {
+        "ja": "https://www.nissay.co.jp/coronavirusoshirase/infomation/#:~:text=%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA%E6%9C%89%E6%A5%BD%E7%94%BA-,7%E6%9C%8828%E6%97%A5,%E5%B2%A9%E6%89%8B%E7%9C%8C%E7%B4%AB%E6%B3%A2%E9%83%A1%E7%9F%A2%E5%B7%BE%E7%94%BA,-7%E6%9C%8828",
+        "en": null
+      },
+      "text": {
+        "ja": "日本生命 (矢巾町)",
         "en": null
       }
     }
