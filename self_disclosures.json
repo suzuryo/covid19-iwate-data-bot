@@ -1,5 +1,5 @@
 {
-  "date": "2022-07-29T18:45:53+09:00",
+  "date": "2022-07-29T20:42:38+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -38498,6 +38498,116 @@
       },
       "text": {
         "ja": "平泉町職員 (平泉町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-29",
+      "url": {
+        "ja": "https://www.tohoku-bank.co.jp/showimage/pdf?fileNo=1202",
+        "en": null
+      },
+      "text": {
+        "ja": "東北銀行 紫波支店 (紫波町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-29",
+      "url": {
+        "ja": "https://hanamaki.hosp.go.jp/#:~:text=%EF%BC%9C%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9%E6%84%9F%E6%9F%93%E7%97%87%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E7%97%85%E9%99%A2%E3%81%8B%E3%82%89%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%EF%BC%88%E7%AC%AC%EF%BC%92%EF%BC%95%E5%A0%B1%EF%BC%89%EF%BC%9E",
+        "en": null
+      },
+      "text": {
+        "ja": "国立病院機構花巻病院 (花巻市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-26",
+      "url": {
+        "ja": "https://www.shinkin.co.jp/hanamaki/pdf/20220726.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "花巻信用金庫 一日市支店 (花巻市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-29",
+      "url": {
+        "ja": "https://www.japanpost.jp/information/notices2_latest.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "好摩郵便局 (盛岡市)・宮古郵便局 (宮古市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-29",
+      "url": {
+        "ja": "https://www.nta.go.jp/data2/040729_02.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "大船渡税務署 (大船渡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-28",
+      "url": {
+        "ja": "https://www.nta.go.jp/data2/040728_02.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "盛岡税務署 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-29",
+      "url": {
+        "ja": "https://www.meijiyasuda.co.jp/profile/news/info/information383.html#:~:text=%E5%A4%A7%E9%98%AA%E5%8C%97%E6%94%AF%E7%A4%BE%E3%80%81-,%E7%9B%9B%E5%B2%A1%E6%94%AF%E7%A4%BE,-%E3%80%81%E9%83%A1%E5%B1%B1%E6%94%AF%E7%A4%BE%E3%80%81%E9%87%91%E6%B2%A2",
+        "en": null
+      },
+      "text": {
+        "ja": "明治安田生命 盛岡支社 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-26",
+      "url": {
+        "ja": "https://www.duskin.jp/info/pdf/status_jp.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "ダスキン 岩手工場 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-05-25",
+      "url": {
+        "ja": "http://www.palgroup.co.jp/important/20220729/#:~:text=%E3%81%BE%E3%81%84%E3%82%8A%E3%81%BE%E3%81%99%E3%80%82-,2022%E5%B9%B45%E6%9C%8825%E6%97%A5%EF%BC%88%E6%B0%B4%EF%BC%89%E3%80%81DISCOAT%C2%A0%E3%82%A4%E3%82%AA%E3%83%B3%E3%83%A2%E3%83%BC%E3%83%AB%E7%9B%9B%E5%B2%A1,%E6%8B%A1%E5%A4%A7%E4%BA%88%E9%98%B2%E3%81%AE%E5%8F%96%E3%82%8A%E7%B5%84%E3%81%BF%E3%82%92%E5%BC%B7%E5%8C%96%E3%81%97%E3%81%A6%E3%81%BE%E3%81%84%E3%82%8A%E3%81%BE%E3%81%99%E3%80%82,-5%E6%9C%8821",
+        "en": null
+      },
+      "text": {
+        "ja": "DISCOAT イオンモール盛岡南店 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-25",
+      "url": {
+        "ja": "https://jp.toto.com/importantnews/other/PDF01-covid19-20220725-1/",
+        "en": null
+      },
+      "text": {
+        "ja": "TOTO東北販売",
         "en": null
       }
     }
