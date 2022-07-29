@@ -1,5 +1,5 @@
 {
-  "date": "2022-07-29T14:18:31+09:00",
+  "date": "2022-07-29T15:44:52+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -38289,6 +38289,61 @@
       },
       "text": {
         "ja": "岩手県立胆沢病院 (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-28",
+      "url": {
+        "ja": "https://3palace.com/pdf/2022.07.28.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "特別養護老人ホームサントピア [第2報] (二戸市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-29",
+      "url": {
+        "ja": "http://www.morishin.co.jp/news/pdf/20220729_cvirus.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "盛岡信用金庫 本部 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-29",
+      "url": {
+        "ja": "http://www.mizusawashinkin.co.jp/00_top/pdf/20220729.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "水沢信用金庫 本部 (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-28",
+      "url": {
+        "ja": "http://www.mizusawashinkin.co.jp/00_top/pdf/20220728.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "水沢信用金庫 前沢支店 (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-27",
+      "url": {
+        "ja": "http://www.mizusawashinkin.co.jp/00_top/pdf/20220727.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "水沢信用金庫 本部 (奥州市)",
         "en": null
       }
     }
