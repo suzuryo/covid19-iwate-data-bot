@@ -1,5 +1,5 @@
 {
-  "date": "2022-07-29T17:45:40+09:00",
+  "date": "2022-07-29T18:07:16+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -37778,7 +37778,7 @@
     {
       "date": "2022-07-28",
       "url": {
-        "ja": "https://www.instagram.com/taguru_teuchisoba",
+        "ja": "https://www.instagram.com/taguru_teuchisoba/",
         "en": null
       },
       "text": {
@@ -38443,6 +38443,50 @@
       },
       "text": {
         "ja": "日本生命 (矢巾町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-29",
+      "url": {
+        "ja": "https://www.city.hanamaki.iwate.jp/1011531/1013919/1014278/1017034.html#:~:text=1%20%E8%B2%A1%E5%8B%99%E9%83%A8,%E3%81%A8%E3%81%97%E3%81%A6%E3%81%8A%E3%82%8A%E3%81%BE%E3%81%99%E3%80%82",
+        "en": null
+      },
+      "text": {
+        "ja": "財務部職員・幼児教育保育施設等職員 (花巻市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-29",
+      "url": {
+        "ja": "https://www.yakuodo.co.jp/images/upnews/62e33112ead0d.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "薬王堂 [奥州市・釜石市の店舗]",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-29",
+      "url": {
+        "ja": "https://www.tsuruha.co.jp/dl.php?id=5256",
+        "en": null
+      },
+      "text": {
+        "ja": "ツルハドラッグ [県内店舗]",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-28",
+      "url": {
+        "ja": "https://www.vill.noda.iwate.jp/soshiki/somuka/shomubosaihan/seisaku_keikaku/1415.html",
+        "en": null
+      },
+      "text": {
+        "ja": "野田村職員 (野田村)",
         "en": null
       }
     }
