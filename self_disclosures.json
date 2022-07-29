@@ -1,5 +1,5 @@
 {
-  "date": "2022-07-29T07:14:48+09:00",
+  "date": "2022-07-29T13:29:53+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -38223,6 +38223,61 @@
       },
       "text": {
         "ja": "遠野高等職業訓練校 (遠野市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-29",
+      "url": {
+        "ja": "http://www.care-net.biz/03/applehome/data2/2022/0729/01.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "地域包括支援センターえさし中央 (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-26",
+      "url": {
+        "ja": "https://www.town.shizukuishi.iwate.jp/docs/2021081000022/file_contents/040726info.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "雫石町職員 [雫石町役場] (雫石町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-27",
+      "url": {
+        "ja": "https://www.town.shizukuishi.iwate.jp/docs/2021081000022/file_contents/040727info.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "雫石町職員 [雫石町役場] (雫石町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-28",
+      "url": {
+        "ja": "https://www.town.shizukuishi.iwate.jp/docs/2021081000022/file_contents/040728info.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "雫石町職員 [雫石町役場] (雫石町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-29",
+      "url": {
+        "ja": "https://www.superosen.biz/2022/07/29/%e5%bc%8a%e7%a4%be%e5%be%93%e6%a5%ad%e5%93%a1%e3%81%ae%e6%96%b0%e5%9e%8b%e3%82%b3%e3%83%ad%e3%83%8a%e3%82%a6%e3%82%a4%e3%83%ab%e3%82%b9%e6%84%9f%e6%9f%93%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%e3%81%ae/",
+        "en": null
+      },
+      "text": {
+        "ja": "スーパーオセン 湯本本店 (西和賀町)・北上店 (北上市)",
         "en": null
       }
     }
