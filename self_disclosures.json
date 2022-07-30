@@ -1,5 +1,5 @@
 {
-  "date": "2022-07-30T20:37:17+09:00",
+  "date": "2022-07-31T00:22:05+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -38696,6 +38696,83 @@
       },
       "text": {
         "ja": "総合保健福祉センター (一戸町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-30",
+      "url": {
+        "ja": "https://www.srg.co.jp/cms/wp-content/uploads/2022/07/covid19-202207.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "白金運輸 本社 (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-29",
+      "url": {
+        "ja": "https://www.morioka-fire.jp/rink/7.29syokuinn_kannsenn.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "盛岡中央消防署 山岸出張所 (盛岡市)・盛岡西消防署 (盛岡市)・紫波消防署 (紫波町)・盛岡中央消防署 玉山出張所 (盛岡市)・盛岡南消防署 矢巾分署 (矢巾町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-30",
+      "url": {
+        "ja": "https://www.city.kamaishi.iwate.jp/docs/2020030900307/file_contents/sisyokuinn0730made.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "産業振興部 [第3庁舎] (釜石市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-29",
+      "url": {
+        "ja": "https://www.city.rikuzentakata.iwate.jp/kenko_fukushi/corona/5845.html#:~:text=%E6%9C%AC%E5%B8%82%E8%81%B7%E5%93%A1%E3%81%AE%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9%E6%84%9F%E6%9F%93%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%EF%BC%88%E4%BB%A4%E5%92%8C4%E5%B9%B47%E6%9C%8827%E6%97%A5%E3%80%8128%E6%97%A5%E7%A2%BA%E8%AA%8D%EF%BC%89",
+        "en": null
+      },
+      "text": {
+        "ja": "陸前高田市職員 [本庁舎・外局] (陸前高田市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-27",
+      "url": {
+        "ja": "http://oofunato-hp.com/wp-content/uploads/2022/07/%E5%A4%96%E6%9D%A5%E5%8F%97%E5%85%A5%E3%82%8C%E3%81%AE%E4%B8%80%E9%83%A8%E5%88%B6%E9%99%90%E7%AD%89%E3%81%AE%E8%A7%A3%E9%99%A4%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手県立大船渡病院 [外来受入れの一部制限等の解除] (大船渡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-26",
+      "url": {
+        "ja": "http://www.iwai-hp.com/media/3/20220726-r040725_.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手県立磐井病院 (一関市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-26",
+      "url": {
+        "ja": "https://www.kojin-hp.jp/publics/index/200/detail=1/b_id=1393/r_id=142",
+        "en": null
+      },
+      "text": {
+        "ja": "孝仁病院 (盛岡市)",
         "en": null
       }
     }
