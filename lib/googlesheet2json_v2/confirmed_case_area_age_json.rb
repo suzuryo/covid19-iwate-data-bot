@@ -14,7 +14,7 @@ def confirmed_case_area_age_json(patients_summary, hospitalized_numbers, now)
     data: []
   }
 
-  date_range = hospitalized_numbers.slice(0..-1).map { |a| a['date'] }
+  date_range = hospitalized_numbers.map { |a| a['date'] }
 
   date_range.each_with_index do |date, index|
     # next if index < 890
