@@ -1,5 +1,5 @@
 {
-  "date": "2022-07-31T16:43:05+09:00",
+  "date": "2022-07-31T19:30:24+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -38806,6 +38806,39 @@
       },
       "text": {
         "ja": "宮守総合支所 (遠野市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-28",
+      "url": {
+        "ja": "https://www.iwate-mazda.com/flyer/202208colona.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手マツダ販売 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-24",
+      "url": {
+        "ja": "https://www.iwate-mazda.com/flyer/202207colona.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手マツダ販売 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-30",
+      "url": {
+        "ja": "http://www.kouyouhaitsu.com/wp-content/uploads/2022/07/%EF%BC%B204.07.30-%EF%BC%88%E3%82%B3%E3%83%AD%E3%83%8A%E7%99%BA%E7%94%9F%E9%96%A2%E4%BF%82%EF%BC%89.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "特別養護老人ホーム孝養ハイツ (一関市)",
         "en": null
       }
     }
