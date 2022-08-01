@@ -182,10 +182,10 @@ r_positive_status.send [HOSPITALIZED_NUMBERS, NOW]
 
 # main_summary.json
 r_main_summary = Ractor.new name: 'main_summary' do
-  hospitalized_numbers, now = Ractor.receive
-  main_summary_json(hospitalized_numbers, now)
+  hospitalized_numbers, patients_summary, now = Ractor.receive
+  main_summary_json(hospitalized_numbers, patients_summary, now)
 end
-r_main_summary.send [HOSPITALIZED_NUMBERS, NOW]
+r_main_summary.send [HOSPITALIZED_NUMBERS, PATIENTS_SUMMARY, NOW]
 
 # confirmed_case_area.json
 # confirmed_case_age.json

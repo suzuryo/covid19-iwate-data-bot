@@ -1,11 +1,11 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
-def main_summary_json(hospitalized_numbers, now)
+def main_summary_json(hospitalized_numbers, patients_summary, now)
   json = {
     date: now.iso8601,
     陽性者数: hospitalized_numbers[-1]['陽性者数（累計）'].to_i,
-    陽性者数前日差: hospitalized_numbers[-1]['陽性者数（累計）'].to_i - hospitalized_numbers[-2]['陽性者数（累計）'].to_i,
+    陽性者数前日差: patients_summary.last['年代別計'].to_i,
     入院: hospitalized_numbers[-1]['入院'].to_i,
     入院前日差: hospitalized_numbers[-1]['入院'].to_i - hospitalized_numbers[-2]['入院'].to_i,
     重症: hospitalized_numbers[-1]['重症'].to_i,
