@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-01T22:46:16+09:00",
+  "date": "2022-08-01T23:06:36+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -39212,7 +39212,29 @@
         "en": null
       },
       "text": {
-        "ja": "岩手県立久慈病院 [第6報] (久慈市)",
+        "ja": "岩手県立久慈病院 [第6報 一部の手術等の延期・外来診療体制の一部縮小] (久慈市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-31",
+      "url": {
+        "ja": "https://www.iwate-subaru.com/cms/wp-content/uploads/2022/07/iwate_covid19_20220731.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手スバル⾃動⾞ 盛岡上堂店 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-30",
+      "url": {
+        "ja": "https://www.iwate-subaru.com/cms/wp-content/uploads/2022/07/iwate_covid19_20220731.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手スバル⾃動⾞ 盛岡上堂店 (盛岡市)",
         "en": null
       }
     }
