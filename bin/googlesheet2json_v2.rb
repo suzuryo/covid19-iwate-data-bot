@@ -8,6 +8,7 @@ require_relative '../lib/googlesheets'
 require_relative '../lib/googlesheet2json_v2/alert_json'
 # require_relative '../lib/googlesheet2json_v2/data_json'
 require_relative '../lib/googlesheet2json_v2/confirmed_case_area_age_json'
+require_relative '../lib/googlesheet2json_v2/confirmed_case_city_json'
 require_relative '../lib/googlesheet2json_v2/daily_positive_detail_json'
 require_relative '../lib/googlesheet2json_v2/health_burden_json'
 require_relative '../lib/googlesheet2json_v2/main_summary_json'
@@ -217,6 +218,13 @@ r_daily_positive_detail = Ractor.new name: 'daily_positive_detail' do
 end
 r_daily_positive_detail.send [PATIENTS_SUMMARY, NOW]
 
+# confirmed_case_city.json の生成
+r_confirmed_case_city = Ractor.new name: 'confirmed_case_city' do
+  patients_summary, now = Ractor.receive
+  confirmed_case_city_json(patients_summary, now)
+end
+r_confirmed_case_city.send [PATIENTS_SUMMARY, NOW]
+
 
 ################################################################################
 # # 20220727 から 個別事例 が公表されなくなったため、集計不能
@@ -239,6 +247,7 @@ r_confirmed_case_area_age.take
 r_positive_rate.take
 r_health_burden.take
 r_daily_positive_detail.take
+r_confirmed_case_city.take
 
 ################################################################################
 # 集計不能
