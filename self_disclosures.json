@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-01T12:32:30+09:00",
+  "date": "2022-08-01T15:39:09+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -38949,6 +38949,61 @@
       },
       "text": {
         "ja": "マイヤ千厩店 (一関市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-01",
+      "url": {
+        "ja": "https://jikeikai.jimdofree.com/%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9%E9%96%A2%E4%BF%82/#:~:text=%E5%BD%93%E6%96%BD%E8%A8%AD%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9%E6%84%9F%E6%9F%93%E7%97%87%E9%99%BD%E6%80%A7%E8%80%85%E3%81%AE%E7%99%BA%E7%94%9F%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%EF%BC%88%E7%AC%AC%EF%BC%93%E5%A0%B1%EF%BC%89",
+        "en": null
+      },
+      "text": {
+        "ja": "特別養護老人ホーム 和光苑 (久慈市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-01",
+      "url": {
+        "ja": "https://www.shinkin.co.jp/hanamaki/pdf/20220801.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "花巻信用金庫 本店営業部 (花巻市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-01",
+      "url": {
+        "ja": "https://www.yakuodo.co.jp/images/upnews/62e717c506850.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "薬王堂 [盛岡市・一関市の店舗]",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-01",
+      "url": {
+        "ja": "http://juntakukai.com/#:~:text=%E6%B2%A2%E5%86%85%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B-,2022/08/01,-%E4%BB%A4%E5%92%8C%EF%BC%94%E5%B9%B4",
+        "en": null
+      },
+      "text": {
+        "ja": "障がい者支援施設ワークステーション湯田・沢内 [第2報] (西和賀町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-01",
+      "url": {
+        "ja": "https://www.bikkuri-donkey.com/%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E6%84%9F%E6%9F%93%E8%80%85%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B_0801.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "びっくりドンキー 盛岡インター店 (盛岡市)",
         "en": null
       }
     }
