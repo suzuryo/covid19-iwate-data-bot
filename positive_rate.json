@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-01T18:39:39+09:00",
+  "date": "2022-08-01T19:31:10+09:00",
   "data": [
     {
       "diagnosed_date": "2020-02-13",
@@ -9895,8 +9895,8 @@
       "positive_count": 895,
       "pcr_positive_count": 895,
       "antigen_positive_count": 0,
-      "pcr_negative_count": 246,
-      "antigen_negative_count": 0,
+      "pcr_negative_count": 0,
+      "antigen_negative_count": 296,
       "weekly_average_diagnosed_count": 2504.4,
       "positive_rate": 37.72,
       "weekly_average_positive_count": 944.6
