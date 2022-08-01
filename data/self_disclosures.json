@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-01T15:39:09+09:00",
+  "date": "2022-08-01T18:39:39+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -39004,6 +39004,94 @@
       },
       "text": {
         "ja": "びっくりドンキー 盛岡インター店 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-01",
+      "url": {
+        "ja": "https://www.tohoku-bank.co.jp/showimage/pdf?fileNo=1203",
+        "en": null
+      },
+      "text": {
+        "ja": "東北銀行 紫波支店 (紫波町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-01",
+      "url": {
+        "ja": "https://www.kioxia-iwate.co.jp/news/2021/covid-latest.html#:~:text=%E2%96%A0-,%E5%85%AC%E8%A1%A8%E6%97%A5%EF%BC%9A2022%E5%B9%B48%E6%9C%881%E6%97%A5%EF%BC%88%E6%9C%88%EF%BC%89,-%E2%96%A0%E5%85%AC%E8%A1%A8%E6%97%A5%EF%BC%9A2022",
+        "en": null
+      },
+      "text": {
+        "ja": "キオクシア岩手 (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-01",
+      "url": {
+        "ja": "https://www.city.rikuzentakata.iwate.jp/kenko_fukushi/corona/5845.html#:~:text=%E6%9C%AC%E5%B8%82%E8%81%B7%E5%93%A1%E3%81%AE%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9%E6%84%9F%E6%9F%93%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%EF%BC%88%E4%BB%A4%E5%92%8C4%E5%B9%B48%E6%9C%881%E6%97%A5%E7%A2%BA%E8%AA%8D%EF%BC%89",
+        "en": null
+      },
+      "text": {
+        "ja": "陸前高田市職員 [本庁舎・外局] (陸前高田市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-01",
+      "url": {
+        "ja": "http://www.kamaishi-hp.com/media/3/20220801-touin_kansen2.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手県立釜石病院 (釜石市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-01",
+      "url": {
+        "ja": "http://www.miyako-hp.jp/media/2/20220801-4_8_1-_______________________________________________________________________________________.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手県立宮古病院 [第3報 外来・通院の一部を制限] (宮古市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-01",
+      "url": {
+        "ja": "http://www.care-net.biz/03/applehome/data2/2022/0801/02.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "地域包括支援センターえさし中央 [第3報] (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-01",
+      "url": {
+        "ja": "http://www.care-net.biz/03/applehome/data2/2022/0801/03.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "特別養護老人ホーム あっぷるホーム (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-01",
+      "url": {
+        "ja": "https://www.athome-kuzumaki.or.jp/news#ttl-1:~:text=2022.%EF%BC%98.%EF%BC%91%20%E3%80%80%E5%BD%93%E6%96%BD%E8%A8%AD%E8%81%B7%E5%93%A1%E3%81%AE%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9%E6%84%9F%E6%9F%93%E7%97%87%E3%81%AE%E7%99%BA%E7%94%9F%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%EF%BC%88%E7%AC%AC%EF%BC%92%E5%A0%B1%EF%BC%89",
+        "en": null
+      },
+      "text": {
+        "ja": "介護老人保健施設アットホームくずまき (葛巻町)",
         "en": null
       }
     }
