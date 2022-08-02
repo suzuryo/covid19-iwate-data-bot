@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-02T13:56:16+09:00",
+  "date": "2022-08-02T15:02:36+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -33360,7 +33360,7 @@
         "en": null
       },
       "text": {
-        "ja": "マイヤ滝沢店 (滝沢市)",
+        "ja": "マイヤ 滝沢店 (滝沢市)",
         "en": null
       }
     },
@@ -34108,7 +34108,7 @@
         "en": null
       },
       "text": {
-        "ja": "マイヤ青山店 (盛岡市)",
+        "ja": "マイヤ 青山店 (盛岡市)",
         "en": null
       }
     },
@@ -35065,7 +35065,7 @@
         "en": null
       },
       "text": {
-        "ja": "マイヤ青山店 (盛岡市)",
+        "ja": "マイヤ 青山店 (盛岡市)",
         "en": null
       }
     },
@@ -38948,7 +38948,7 @@
         "en": null
       },
       "text": {
-        "ja": "マイヤ千厩店 (一関市)",
+        "ja": "マイヤ 千厩店 (一関市)",
         "en": null
       }
     },
@@ -39279,6 +39279,72 @@
       },
       "text": {
         "ja": "通所介護事業所サンホームみやこ (宮古市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-02",
+      "url": {
+        "ja": "https://www.town.yamada.iwate.jp/docs/4474.html#:~:text=%E5%B1%B1%E7%94%B0%E7%94%BA%E8%81%B7%E5%93%A1%E3%81%AE%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9%E6%84%9F%E6%9F%93%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%EF%BC%88%E4%BB%A4%E5%92%8C4%E5%B9%B47%E6%9C%8829%E6%97%A5%E7%A2%BA%E8%AA%8D%EF%BC%89",
+        "en": null
+      },
+      "text": {
+        "ja": "山田町職員 (山田町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-06-13",
+      "url": {
+        "ja": "https://www.morioka-water.jp/covid19/covid19_220613.html",
+        "en": null
+      },
+      "text": {
+        "ja": "盛岡市上下水道局 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-26",
+      "url": {
+        "ja": "https://www.morioka-water.jp/covid19/covid19_220726.html",
+        "en": null
+      },
+      "text": {
+        "ja": "盛岡市上下水道局 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-01",
+      "url": {
+        "ja": "https://www.fukoku-life.co.jp/about/information/download/20220801.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "富国生命保険 岩手営業所 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-02",
+      "url": {
+        "ja": "http://www.miyako-hp.jp/media/2/20220802-4_8_1-_______________________________________________________________________________________.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手県立宮古病院 [第3報(更新) 入退院・外来・通院の一部を制限] (宮古市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-01",
+      "url": {
+        "ja": "https://www.komeri.bit.or.jp/news/img/220801virus.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "コメリパワー 北上店 (北上市)",
         "en": null
       }
     }
