@@ -1,7 +1,7 @@
 {
-  "date": "2022-08-02T19:52:09+09:00",
+  "date": "2022-08-02T22:26:48+09:00",
   "datasets": {
-    "date": "2022-08-02T19:52:09+09:00",
+    "date": "2022-08-02T22:26:48+09:00",
     "data": [
       {
         "code": "032018",
@@ -11,7 +11,7 @@
         "count": 16732,
         "count_per_population": "5.8",
         "last7days": 2110,
-        "last7_per_100k": "727.0"
+        "last7_per_100k": "727.9"
       },
       {
         "code": "032026",
@@ -21,7 +21,7 @@
         "count": 790,
         "count_per_population": "1.6",
         "last7days": 252,
-        "last7_per_100k": "499.0"
+        "last7_per_100k": "500.0"
       },
       {
         "code": "032034",
@@ -31,7 +31,7 @@
         "count": 657,
         "count_per_population": "1.9",
         "last7days": 106,
-        "last7_per_100k": "305.0"
+        "last7_per_100k": "305.1"
       },
       {
         "code": "032051",
@@ -41,7 +41,7 @@
         "count": 3767,
         "count_per_population": "4.0",
         "last7days": 528,
-        "last7_per_100k": "566.0"
+        "last7_per_100k": "566.3"
       },
       {
         "code": "032069",
@@ -51,7 +51,7 @@
         "count": 5207,
         "count_per_population": "5.6",
         "last7days": 690,
-        "last7_per_100k": "741.0"
+        "last7_per_100k": "741.2"
       },
       {
         "code": "032077",
@@ -61,7 +61,7 @@
         "count": 933,
         "count_per_population": "2.8",
         "last7days": 135,
-        "last7_per_100k": "408.0"
+        "last7_per_100k": "408.3"
       },
       {
         "code": "032085",
@@ -71,7 +71,7 @@
         "count": 740,
         "count_per_population": "2.9",
         "last7days": 93,
-        "last7_per_100k": "366.0"
+        "last7_per_100k": "366.4"
       },
       {
         "code": "032093",
@@ -81,7 +81,7 @@
         "count": 3125,
         "count_per_population": "2.8",
         "last7days": 503,
-        "last7_per_100k": "449.0"
+        "last7_per_100k": "449.2"
       },
       {
         "code": "032107",
@@ -91,7 +91,7 @@
         "count": 394,
         "count_per_population": "2.2",
         "last7days": 102,
-        "last7_per_100k": "558.0"
+        "last7_per_100k": "558.3"
       },
       {
         "code": "032115",
@@ -101,7 +101,7 @@
         "count": 213,
         "count_per_population": "0.7",
         "last7days": 117,
-        "last7_per_100k": "364.0"
+        "last7_per_100k": "364.5"
       },
       {
         "code": "032131",
@@ -111,7 +111,7 @@
         "count": 617,
         "count_per_population": "2.4",
         "last7days": 96,
-        "last7_per_100k": "376.0"
+        "last7_per_100k": "376.1"
       },
       {
         "code": "032140",
@@ -121,7 +121,7 @@
         "count": 486,
         "count_per_population": "2.0",
         "last7days": 80,
-        "last7_per_100k": "332.0"
+        "last7_per_100k": "332.8"
       },
       {
         "code": "032158",
@@ -131,7 +131,7 @@
         "count": 4372,
         "count_per_population": "3.9",
         "last7days": 600,
-        "last7_per_100k": "530.0"
+        "last7_per_100k": "530.8"
       },
       {
         "code": "032166",
@@ -141,7 +141,7 @@
         "count": 2428,
         "count_per_population": "4.4",
         "last7days": 348,
-        "last7_per_100k": "625.0"
+        "last7_per_100k": "625.9"
       },
       {
         "code": "033014",
@@ -151,7 +151,7 @@
         "count": 309,
         "count_per_population": "2.0",
         "last7days": 90,
-        "last7_per_100k": "571.0"
+        "last7_per_100k": "571.7"
       },
       {
         "code": "033022",
@@ -161,7 +161,7 @@
         "count": 64,
         "count_per_population": "1.1",
         "last7days": 2,
-        "last7_per_100k": "35.0"
+        "last7_per_100k": "35.5"
       },
       {
         "code": "033031",
@@ -171,7 +171,7 @@
         "count": 161,
         "count_per_population": "1.3",
         "last7days": 25,
-        "last7_per_100k": "203.0"
+        "last7_per_100k": "203.4"
       },
       {
         "code": "033219",
@@ -181,7 +181,7 @@
         "count": 972,
         "count_per_population": "3.0",
         "last7days": 217,
-        "last7_per_100k": "674.0"
+        "last7_per_100k": "674.6"
       },
       {
         "code": "033227",
@@ -191,7 +191,7 @@
         "count": 831,
         "count_per_population": "3.0",
         "last7days": 139,
-        "last7_per_100k": "495.0"
+        "last7_per_100k": "495.1"
       },
       {
         "code": "033669",
@@ -201,7 +201,7 @@
         "count": 46,
         "count_per_population": "0.9",
         "last7days": 11,
-        "last7_per_100k": "214.0"
+        "last7_per_100k": "214.1"
       },
       {
         "code": "033812",
@@ -211,7 +211,7 @@
         "count": 429,
         "count_per_population": "2.8",
         "last7days": 120,
-        "last7_per_100k": "771.0"
+        "last7_per_100k": "772.0"
       },
       {
         "code": "034029",
@@ -221,7 +221,7 @@
         "count": 56,
         "count_per_population": "0.8",
         "last7days": 29,
-        "last7_per_100k": "399.0"
+        "last7_per_100k": "399.6"
       },
       {
         "code": "034410",
@@ -231,7 +231,7 @@
         "count": 68,
         "count_per_population": "1.3",
         "last7days": 7,
-        "last7_per_100k": "138.0"
+        "last7_per_100k": "138.6"
       },
       {
         "code": "034614",
@@ -241,7 +241,7 @@
         "count": 38,
         "count_per_population": "0.3",
         "last7days": 30,
-        "last7_per_100k": "272.0"
+        "last7_per_100k": "272.4"
       },
       {
         "code": "034827",
@@ -251,7 +251,7 @@
         "count": 101,
         "count_per_population": "0.7",
         "last7days": 75,
-        "last7_per_100k": "523.0"
+        "last7_per_100k": "523.3"
       },
       {
         "code": "034835",
@@ -261,7 +261,7 @@
         "count": 14,
         "count_per_population": "0.2",
         "last7days": 12,
-        "last7_per_100k": "137.0"
+        "last7_per_100k": "137.4"
       },
       {
         "code": "034843",
@@ -271,7 +271,7 @@
         "count": 22,
         "count_per_population": "0.7",
         "last7days": 11,
-        "last7_per_100k": "359.0"
+        "last7_per_100k": "359.6"
       },
       {
         "code": "034851",
@@ -281,7 +281,7 @@
         "count": 47,
         "count_per_population": "1.9",
         "last7days": 38,
-        "last7_per_100k": "1526.0"
+        "last7_per_100k": "1526.7"
       },
       {
         "code": "035017",
@@ -291,7 +291,7 @@
         "count": 158,
         "count_per_population": "1.9",
         "last7days": 56,
-        "last7_per_100k": "664.0"
+        "last7_per_100k": "664.8"
       },
       {
         "code": "035033",
@@ -301,7 +301,7 @@
         "count": 34,
         "count_per_population": "0.9",
         "last7days": 23,
-        "last7_per_100k": "584.0"
+        "last7_per_100k": "584.1"
       },
       {
         "code": "035068",
@@ -311,7 +311,7 @@
         "count": 78,
         "count_per_population": "1.5",
         "last7days": 14,
-        "last7_per_100k": "260.0"
+        "last7_per_100k": "260.4"
       },
       {
         "code": "035076",
@@ -321,7 +321,7 @@
         "count": 205,
         "count_per_population": "1.4",
         "last7days": 52,
-        "last7_per_100k": "344.0"
+        "last7_per_100k": "344.4"
       },
       {
         "code": "035246",
@@ -331,17 +331,7 @@
         "count": 312,
         "count_per_population": "2.7",
         "last7days": 62,
-        "last7_per_100k": "538.0"
-      },
-      {
-        "code": "999999",
-        "area": "県外",
-        "label": "県外",
-        "ruby": "けんがい",
-        "count": 633,
-        "count_per_population": null,
-        "last7days": 59,
-        "last7_per_100k": null
+        "last7_per_100k": "538.8"
       }
     ]
   }
