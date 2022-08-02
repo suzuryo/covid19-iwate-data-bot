@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-01T23:06:36+09:00",
+  "date": "2022-08-02T12:29:51+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -39235,6 +39235,39 @@
       },
       "text": {
         "ja": "岩手スバル⾃動⾞ 盛岡上堂店 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-02",
+      "url": {
+        "ja": "https://www.echna.co.jp/info/post-3151/#:~:text=%EF%BC%9C2022%E5%B9%B48,%E8%87%AA%E5%AE%85%E7%99%82%E9%A4%8A%E4%B8%AD",
+        "en": null
+      },
+      "text": {
+        "ja": "エクナ 本社 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-02",
+      "url": {
+        "ja": "https://www.maiya.co.jp/wp-content/uploads/2022/08/c124418ca055b736560521bd7efbcdfa.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "マイヤ 高田店 (陸前高田市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-02",
+      "url": {
+        "ja": "https://www.kitagin.co.jp/news/download/pdf/20220802_1-1.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "北日本銀行 肴町支店 (盛岡市)・大通支店 (盛岡市)・加賀野支店 (盛岡市)・金ケ崎支店 (金ケ崎町)",
         "en": null
       }
     }
