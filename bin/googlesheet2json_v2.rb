@@ -63,6 +63,9 @@ URLS = GoogleSheets.data(GoogleSheetsIwate::SHEET_RANGES[:URLS])
 SELF_DISCLOSURES = GoogleSheets.data(GoogleSheetsIwate::SHEET_RANGES[:SELF_DISCLOSURES])
 raise if SELF_DISCLOSURES.empty?
 
+MASTER_CITIES = GoogleSheets.data(GoogleSheetsIwate::SHEET_RANGES[:MASTER_CITIES])
+raise if MASTER_CITIES.empty?
+
 
 ######################################################################
 # Common
@@ -83,47 +86,24 @@ TODAY = Ractor.make_shareable Date.today
 YESTERDAY = Ractor.make_shareable Date.yesterday
 
 # City, Area
-CITY_AREA = Ractor.make_shareable(
-  {
-    '盛岡市' => '盛岡市保健所管内',
-    '宮古市' => '宮古保健所管内',
-    '大船渡市' => '大船渡保健所管内',
-    '花巻市' => '中部保健所管内',
-    '北上市' => '中部保健所管内',
-    '久慈市' => '久慈保健所管内',
-    '遠野市' => '中部保健所管内',
-    '一関市' => '一関保健所管内',
-    '陸前高田市' => '大船渡保健所管内',
-    '釜石市' => '釜石保健所管内',
-    '二戸市' => '二戸保健所管内',
-    '八幡平市' => '県央保健所管内',
-    '奥州市' => '奥州保健所管内',
-    '滝沢市' => '県央保健所管内',
-    '雫石町' => '県央保健所管内',
-    '葛巻町' => '県央保健所管内',
-    '岩手町' => '県央保健所管内',
-    '紫波町' => '県央保健所管内',
-    '矢巾町' => '県央保健所管内',
-    '西和賀町' => '中部保健所管内',
-    '金ケ崎町' => '奥州保健所管内',
-    '平泉町' => '一関保健所管内',
-    '住田町' => '大船渡保健所管内',
-    '大槌町' => '釜石保健所管内',
-    '山田町' => '宮古保健所管内',
-    '岩泉町' => '宮古保健所管内',
-    '田野畑村' => '宮古保健所管内',
-    '普代村' => '久慈保健所管内',
-    '軽米町' => '二戸保健所管内',
-    '野田村' => '久慈保健所管内',
-    '九戸村' => '二戸保健所管内',
-    '洋野町' => '久慈保健所管内',
-    '一戸町' => '二戸保健所管内'
-  }
-)
+CITY_AREA = Ractor.make_shareable(MASTER_CITIES.to_h { |city| [city['label'], city['area']] }.except('県外'))
+
+CITY_POPULATION = Ractor.make_shareable(MASTER_CITIES.to_h { |city| [city['label'], city['population'].to_i] }.except('県外'))
 
 CITIES = Ractor.make_shareable CITY_AREA.keys
 
-AREAS = Ractor.make_shareable CITY_AREA.values.uniq
+AREAS = Ractor.make_shareable CITY_AREA.values.compact.uniq
+
+AREA_POPULATION = Ractor.make_shareable(
+  AREAS.to_h do |area|
+    [
+      area,
+      CITY_POPULATION.inject(0) do |sum, (k, v)|
+        CITY_AREA[k] == area ? sum + v : sum + 0
+      end
+    ]
+  end
+)
 
 AGES = Ractor.make_shareable %w[10歳未満 10代 20代 30代 40代 50代 60代 70代 80代 90歳以上]
 

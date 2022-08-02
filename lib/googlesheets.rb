@@ -23,7 +23,8 @@ class GoogleSheetsIwate
     NEWS: 'input_news',
     ALERT: 'input_alert',
     URLS: 'input_urls',
-    SELF_DISCLOSURES: 'input_self_disclosures'
+    SELF_DISCLOSURES: 'input_self_disclosures',
+    MASTER_CITIES: 'master_cities'
   }.freeze
 
   def initialize

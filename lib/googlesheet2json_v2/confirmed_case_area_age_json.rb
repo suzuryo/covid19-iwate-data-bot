@@ -44,9 +44,12 @@ def confirmed_case_area_age_json(patients_summary, hospitalized_numbers, now)
         end
       end
 
+      # last7ma:        保健所管内の陽性者数7MA
+      # last7_per_100k: 直近1週間の陽性者数(対人口10万人あたり)
       {
         date: ed.strftime('%Y-%m-%d'),
-        data: area_sum.to_h { |key, val| [key.to_s.gsub('保健所管内', ''), (val / 7.0).round(1)] }
+        last7ma: area_sum.to_h { |key, val| [key.to_s.gsub('保健所管内', ''), (val / 7.0).round(1)] },
+        last7_per_100k: area_sum.to_h { |key, val| [key.to_s.gsub('保健所管内', ''), (val * 100000.0 / AREA_POPULATION[key]).round(1)] }
       }
     end
 
@@ -63,9 +66,10 @@ def confirmed_case_area_age_json(patients_summary, hospitalized_numbers, now)
         end
       end
 
+      # data:     年代別の陽性者数7MA
       {
         date: ed.strftime('%Y-%m-%d'),
-        data: age_sum.to_h { |key, val| [key, (val / 7.0).round(1)] }
+        data: age_sum.transform_values { |val| (val / 7.0).round(1) }
       }
     end
 
