@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-02T22:26:48+09:00",
+  "date": "2022-08-03T12:41:21+09:00",
   "newsItems": [
     {
       "date": "2020-07-31",
@@ -240,6 +240,17 @@
       },
       "text": {
         "ja": "新型コロナウイルス感染症COVID-19 診療の手引き 第8.0版",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-06-13",
+      "url": {
+        "ja": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/031/415/honbun04-06.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "新型コロナウイルス感染症対策に配慮した避難所運営ガイドライン",
         "en": null
       }
     }
