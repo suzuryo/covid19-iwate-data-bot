@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-03T12:56:00+09:00",
+  "date": "2022-08-03T13:15:01+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -39620,6 +39620,28 @@
       },
       "text": {
         "ja": "介護老人保健施設 リハビリタウンくじ [第8報] (久慈市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-02",
+      "url": {
+        "ja": "https://www.japanpost.jp/information/notices2_list.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "大船渡郵便局 (大船渡市)・岩手郵便局 (北上市)・岩泉郵便局 (岩泉町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-01",
+      "url": {
+        "ja": "https://www.japanpost.jp/information/notices2_list.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "盛岡中央郵便局 (盛岡市)・盛岡北郵便局 (盛岡市)・水沢郵便局 (奥州市)・日詰駅前郵便局 (紫波町)・好摩郵便局 (盛岡市)・宮古郵便局 (宮古市)",
         "en": null
       }
     }
