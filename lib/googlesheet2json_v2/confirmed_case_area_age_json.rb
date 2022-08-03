@@ -35,6 +35,7 @@ def confirmed_case_area_age_json(patients_summary, hospitalized_numbers, now)
       apd, psd, ed = Ractor.receive
       area_sum = apd.each_with_object(AREAS.to_h { |a| [a, 0] }) do |patient, hash|
         area = patient['滞在地'].blank? ? findArea(patient['居住地']) : findArea(patient['滞在地'])
+        hash['県全体'] += 1
         hash[area] += 1 unless hash[area].nil?
       end
 

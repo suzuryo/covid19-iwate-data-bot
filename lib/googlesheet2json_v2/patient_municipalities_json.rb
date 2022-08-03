@@ -37,7 +37,11 @@ def patient_municipalities_json(patients_summary, now)
     a = data_until20220726['datasets']['data'].find { |x| x['label'] == area }
     c = a['count'] + patients_summary.reduce(0) { |sum, row| sum + row[area].to_i }
 
-    last7days_archived = archived_patients_data.select { |patient| patient['滞在地'] == area || patient['居住地'] == area }.size
+    last7days_archived = if area == '県全体'
+                           archived_patients_data.size
+                         else
+                           archived_patients_data.select { |patient| patient['滞在地'] == area || patient['居住地'] == area }.size
+                         end
     last7days = patients_summary_data.reduce(0) { |sum, d| sum + d[area].to_i }
     data[area] = a.merge(
       {
@@ -56,5 +60,3 @@ def patient_municipalities_json(patients_summary, now)
 
   File.write(File.join(__dir__, '../../data/', 'patient_municipalities.json'), JSON.pretty_generate(json))
 end
-
-
