@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-04T08:12:17+09:00",
+  "date": "2022-08-04T11:25:01+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -39972,6 +39972,61 @@
       },
       "text": {
         "ja": "八幡平市立病院 [新規入院の受入停止] (八幡平市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-04",
+      "url": {
+        "ja": "https://www.iwatebank.co.jp/assets/pdf/20220804_covid_news.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手銀行 世田米支店 (住田町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-01",
+      "url": {
+        "ja": "http://www.morishin.co.jp/news/pdf/20220801_cvirus.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "盛岡信用金庫 山岸支店 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-03",
+      "url": {
+        "ja": "https://www.kuji-kouiki.jp/soumu/%e8%81%b7%e5%93%a1%e3%81%ae%e6%96%b0%e5%9e%8b%e3%82%b3%e3%83%ad%e3%83%8a%e3%82%a6%e3%82%a4%e3%83%ab%e3%82%b9%e6%84%9f%e6%9f%93%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6-12/",
+        "en": null
+      },
+      "text": {
+        "ja": "久慈広域連合 (久慈市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-03",
+      "url": {
+        "ja": "https://www.kuji-kouiki.jp/soumu/%e8%81%b7%e5%93%a1%e3%81%ae%e6%96%b0%e5%9e%8b%e3%82%b3%e3%83%ad%e3%83%8a%e3%82%a6%e3%82%a4%e3%83%ab%e3%82%b9%e6%84%9f%e6%9f%93%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6-11/",
+        "en": null
+      },
+      "text": {
+        "ja": "消防本部職員 (久慈市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-01",
+      "url": {
+        "ja": "https://www.kuji-kouiki.jp/soumu/%e8%81%b7%e5%93%a1%e3%81%ae%e6%96%b0%e5%9e%8b%e3%82%b3%e3%83%ad%e3%83%8a%e3%82%a6%e3%82%a4%e3%83%ab%e3%82%b9%e6%84%9f%e6%9f%93%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6-10/",
+        "en": null
+      },
+      "text": {
+        "ja": "消防本部職員 (久慈市)",
         "en": null
       }
     }
