@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-04T16:17:31+09:00",
+  "date": "2022-08-04T18:51:00+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -40060,6 +40060,105 @@
       },
       "text": {
         "ja": "滝沢市上下水道お客様センター (滝沢市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-04",
+      "url": {
+        "ja": "https://www.city.hanamaki.iwate.jp/1011531/1013919/1014278/1017034.html#:~:text=%E7%9B%AE%E3%81%A8%E3%81%AA%E3%82%8A%E3%81%BE%E3%81%99%E3%80%82-,%E8%81%B7%E5%93%A1%E3%81%AE%E6%84%9F%E6%9F%93%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6,%E8%80%85%E3%81%AB%E5%BD%93%E3%81%9F%E3%82%8B%E8%80%85%E3%81%AF%E7%A2%BA%E8%AA%8D%E3%81%95%E3%82%8C%E3%81%A6%E3%81%8A%E3%82%8A%E3%81%BE%E3%81%9B%E3%82%93%E3%80%82,-8%E6%9C%883",
+        "en": null
+      },
+      "text": {
+        "ja": "石鳥谷総合支所職員・幼児教育保育施設等職員・教育機関職員 (花巻市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-04",
+      "url": {
+        "ja": "https://www.town.hiraizumi.iwate.jp/index.cfm/1,9512,156,html",
+        "en": null
+      },
+      "text": {
+        "ja": "平泉町農業委員会 (平泉町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-04",
+      "url": {
+        "ja": "https://www.iwate-u.ac.jp/coronavirus2020iwate-u.27.html#:~:text=%E5%B2%A9%E6%89%8B%E5%A4%A7%E5%AD%A6%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9%E6%84%9F%E6%9F%93%E7%97%87%E7%BD%B9%E6%82%A3%E8%80%85%E3%81%AE%E7%99%BA%E7%94%9F%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%EF%BC%888/4%EF%BC%89",
+        "en": "https://www.iwate-u.ac.jp/english/coronavirus2020iwate-u.27.eng.html#:~:text=Outbreak%20of%20a%20New%20Coronavirus%20(COVID%2D19)%20Infection%20at%20Iwate%20University%20(8/4)"
+      },
+      "text": {
+        "ja": "岩手大学 (盛岡市)",
+        "en": "Iwate University (Morioka)"
+      }
+    },
+    {
+      "date": "2022-08-03",
+      "url": {
+        "ja": "https://www.iwate-uhms.ac.jp/cgi-bin/detail.cgi?f1=1659500484",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手保健医療大学 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-04",
+      "url": {
+        "ja": "https://www.iwate-uhms.ac.jp/cgi-bin/detail.cgi?f1=1659576957",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手保健医療大学 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-04",
+      "url": {
+        "ja": "https://www.warabeya.co.jp/ja/news2/news2415113612800273559/main/0/link/20220804oshirase.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "わらべや日洋食品 岩手工場 (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-03",
+      "url": {
+        "ja": "http://www.fuji-foods.com/news/%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9%E6%84%9F%E6%9F%93%E8%80%85%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B_220802.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "フジフーズ 岩手工場 (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-02",
+      "url": {
+        "ja": "http://www.fuji-foods.com/news/%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9%E6%84%9F%E6%9F%93%E8%80%85%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B_220801.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "フジフーズ 岩手工場 (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-02",
+      "url": {
+        "ja": "https://www.toyota-ej.co.jp/images/news_pdf/20220802.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "トヨタ自動車東日本 岩手工場 (金ケ崎町)",
         "en": null
       }
     }
