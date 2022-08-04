@@ -17,7 +17,7 @@ class GoogleSheetsIwate
     # PATIENTS: 'archived_output_patients',
     PATIENTS_SUMMARY: 'input_patients_summary',
     # PATIENT_MUNICIPALITIES: 'archived_output_patient_municipalities',
-    # POSITIVE_BY_DIAGNOSED: 'archived_output_positive_by_diagnosed',
+    POSITIVE_BY_DIAGNOSED: 'output_positive_by_diagnosed',
     POSITIVE_RATE: 'output_positive_rate',
     HOSPITALIZED_NUMBERS: 'output_hospitalized_numbers',
     NEWS: 'input_news',

@@ -42,8 +42,8 @@ raise if PATIENTS_SUMMARY.empty?
 # PATIENT_MUNICIPALITIES = GoogleSheets.data(GoogleSheetsIwate::SHEET_RANGES[:PATIENT_MUNICIPALITIES])
 # raise if PATIENT_MUNICIPALITIES.empty?
 
-# POSITIVE_BY_DIAGNOSED = GoogleSheets.data(GoogleSheetsIwate::SHEET_RANGES[:POSITIVE_BY_DIAGNOSED])
-# raise if POSITIVE_BY_DIAGNOSED.empty?
+POSITIVE_BY_DIAGNOSED = GoogleSheets.data(GoogleSheetsIwate::SHEET_RANGES[:POSITIVE_BY_DIAGNOSED])
+raise if POSITIVE_BY_DIAGNOSED.empty?
 
 POSITIVE_RATE = GoogleSheets.data(GoogleSheetsIwate::SHEET_RANGES[:POSITIVE_RATE])
 raise if POSITIVE_RATE.empty?
@@ -193,10 +193,10 @@ r_health_burden.send [PATIENTS_SUMMARY, POSITIVE_RATE, HOSPITALIZED_NUMBERS, NOW
 
 # daily_positive_detail.json の生成
 r_daily_positive_detail = Ractor.new name: 'daily_positive_detail' do
-  patients_summary, now = Ractor.receive
-  daily_positive_detail_json(patients_summary, now)
+  positive_by_diagnosed, now = Ractor.receive
+  daily_positive_detail_json(positive_by_diagnosed, now)
 end
-r_daily_positive_detail.send [PATIENTS_SUMMARY, NOW]
+r_daily_positive_detail.send [POSITIVE_BY_DIAGNOSED, NOW]
 
 # confirmed_case_city.json の生成
 r_confirmed_case_city = Ractor.new name: 'confirmed_case_city' do
