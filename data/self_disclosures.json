@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-04T19:53:15+09:00",
+  "date": "2022-08-04T21:22:13+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -40203,6 +40203,39 @@
       },
       "text": {
         "ja": "岩手県立大船渡病院 (大船渡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-03",
+      "url": {
+        "ja": "https://www.ichinoseki-shakyo.com/news/archives/149",
+        "en": null
+      },
+      "text": {
+        "ja": "一関市総合福祉センター [貸館を再開] (一関市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-31",
+      "url": {
+        "ja": "https://www.ichinoseki-shakyo.com/news/archives/146",
+        "en": null
+      },
+      "text": {
+        "ja": "一関市社会福祉協議会 生活支援課 (一関市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-28",
+      "url": {
+        "ja": "https://www.ichinoseki-shakyo.com/news/archives/145",
+        "en": null
+      },
+      "text": {
+        "ja": "一関市総合福祉センター (一関市)",
         "en": null
       }
     }
