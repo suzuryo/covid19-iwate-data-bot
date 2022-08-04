@@ -1,16 +1,6 @@
 {
-  "date": "2022-08-04T21:22:13+09:00",
+  "date": "2022-08-04T21:37:04+09:00",
   "alertItems": [
-    {
-      "date": "2022-08-03",
-      "url": {
-        "ja": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/050/145/shiori3.pdf#page=6",
-        "en": null
-      },
-      "text": {
-        "ja": "災害発生時は、濃厚接触者や自宅療養中でも、ためらうことなく事前に確認した安全な場所へ避難 ( 自宅療養のしおり 項目 6. )",
-        "en": null
-      }
-    }
+
   ]
 }
