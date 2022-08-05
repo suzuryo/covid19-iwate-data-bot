@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-05T18:49:58+09:00",
+  "date": "2022-08-05T19:16:30+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -40462,6 +40462,28 @@
     {
       "date": "2022-08-05",
       "url": {
+        "ja": "https://www.shinkin.co.jp/hanamaki/pdf/20220805.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "花巻信用金庫 本店営業部 (花巻市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-05",
+      "url": {
+        "ja": "https://www.e-nexco.co.jp/news/cms_assets/news/2022/08/05/24.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "NEXCO東日本 グループ会社 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-05",
+      "url": {
         "ja": "http://www.hopital-ohshu.or.jp/cgi_data/news/oushu_1659686223_file1.pdf",
         "en": null
       },
@@ -40478,6 +40500,50 @@
       },
       "text": {
         "ja": "岩手県立中央病院 [診療体制が破綻してしまう危険性のある非常事態] (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-04",
+      "url": {
+        "ja": "https://www.meijiyasuda.co.jp/profile/news/info/information387.html",
+        "en": null
+      },
+      "text": {
+        "ja": "明治安田生命 盛岡支社 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-03",
+      "url": {
+        "ja": "https://www.meijiyasuda.co.jp/profile/news/info/information386.html",
+        "en": null
+      },
+      "text": {
+        "ja": "明治安田生命 盛岡支社 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-02",
+      "url": {
+        "ja": "https://www.meijiyasuda.co.jp/profile/news/info/information385.html",
+        "en": null
+      },
+      "text": {
+        "ja": "明治安田生命 盛岡支社 (盛岡市)・岩手南支社 (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-04",
+      "url": {
+        "ja": "https://www.iwate-subaru.com/cms/wp-content/uploads/2022/08/iwate_covid19_20220804.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手スバル⾃動⾞ 本社 (盛岡市)・盛岡上堂店 サービスセンター (盛岡市)",
         "en": null
       }
     }
