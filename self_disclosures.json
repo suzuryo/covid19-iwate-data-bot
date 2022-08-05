@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-05T17:07:21+09:00",
+  "date": "2022-08-05T17:22:43+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -40434,6 +40434,28 @@
       },
       "text": {
         "ja": "幼児教育保育施設等職員 (花巻市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-05",
+      "url": {
+        "ja": "https://www.toyota-ej.co.jp/images/news_pdf/20220805.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "トヨタ自動車東日本 岩手工場 (金ケ崎町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-05",
+      "url": {
+        "ja": "http://www.hopital-ohshu.or.jp/cgi_data/news/oushu_1659686223_file1.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "奥州病院 [入退院等の制限] (奥州市)",
         "en": null
       }
     },
