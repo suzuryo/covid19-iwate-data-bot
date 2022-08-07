@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-07T15:09:53+09:00",
+  "date": "2022-08-07T21:24:32+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -40940,6 +40940,39 @@
       },
       "text": {
         "ja": "立根介護センター (大船渡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-04",
+      "url": {
+        "ja": "https://tanimura-fs.com/free/covid-19#:~:text=%E8%80%85%E7%99%BA%E7%94%9F%E7%8A%B6%E6%B3%81-,2022%E5%B9%B48%E6%9C%884%E6%97%A5%E5%85%AC%E8%A1%A8,-%E5%BC%8A%E7%A4%BE%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E3%82%B3%E3%83%AD%E3%83%8A",
+        "en": null
+      },
+      "text": {
+        "ja": "タニムラフードサービス (久慈市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-07",
+      "url": {
+        "ja": "https://www.iwate-subaru.com/cms/wp-content/uploads/2022/08/iwate_covid19_20220807.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手スバル⾃動⾞ 本社 (盛岡市)・盛岡上堂店 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-04",
+      "url": {
+        "ja": "http://www.h4kt.co.jp/hondacars-iwate/news.html#n4688:~:text=%E3%81%AE%E5%AF%BE%E5%BF%9C%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6-,2022/08/04,-%E3%82%AB%E3%83%86%E3%82%B4%E3%83%AA%E3%83%BC%EF%BC%9A%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B",
+        "en": null
+      },
+      "text": {
+        "ja": "Honda Cars 北山店 (盛岡市)",
         "en": null
       }
     }
