@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-08T16:18:09+09:00",
+  "date": "2022-08-08T17:12:15+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -41204,6 +41204,94 @@
       },
       "text": {
         "ja": "花巻市議会議員 (花巻市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-08",
+      "url": {
+        "ja": "https://www.town.nishiwaga.lg.jp/gyosei_shigoto_sangyo/jinji_saiyo_shokuin/2/3124.html#:~:text=%E6%9B%B4%E6%96%B0%E6%97%A5%EF%BC%9A-,2022%E5%B9%B408%E6%9C%8808%E6%97%A5,-%E4%BB%A4%E5%92%8C4%E5%B9%B4",
+        "en": null
+      },
+      "text": {
+        "ja": "西和賀町職員 (西和賀町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-08",
+      "url": {
+        "ja": "http://kuji-hp.com/%e6%96%b0%e5%9e%8b%e3%82%b3%e3%83%ad%e3%83%8a%e3%82%a6%e3%82%a3%e3%83%ab%e3%82%b9%e6%84%9f%e6%9f%93%e7%97%87%e3%81%ae%e7%99%ba%e7%94%9f%e7%8a%b6%e6%b3%81%e3%81%b8%e3%81%ae%e5%af%be%e5%bf%9c%e7%ad%89/",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手県立久慈病院 [地域医療崩壊を防ぐためのやむを得ない措置] (久慈市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-08",
+      "url": {
+        "ja": "https://www.kioxia-iwate.co.jp/news/2021/covid-latest.html#:~:text=%E2%96%A0-,%E5%85%AC%E8%A1%A8%E6%97%A5%EF%BC%9A2022%E5%B9%B48%E6%9C%888%E6%97%A5%EF%BC%88%E6%9C%88%EF%BC%89,-%E2%96%A0%E5%85%AC%E8%A1%A8%E6%97%A5%EF%BC%9A2022",
+        "en": null
+      },
+      "text": {
+        "ja": "キオクシア岩手 (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-08",
+      "url": {
+        "ja": "https://www.iwate-u.ac.jp/coronavirus2020iwate-u.27.html#:~:text=%E5%B2%A9%E6%89%8B%E5%A4%A7%E5%AD%A6%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9%E6%84%9F%E6%9F%93%E7%97%87%E7%BD%B9%E6%82%A3%E8%80%85%E3%81%AE%E7%99%BA%E7%94%9F%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%EF%BC%888/8%EF%BC%89",
+        "en": "https://www.iwate-u.ac.jp/english/coronavirus2020iwate-u.27.eng.html#:~:text=Outbreak%20of%20a%20New%20Coronavirus%20(COVID%2D19)%20Infection%20at%20Iwate%20University%20(8/8)"
+      },
+      "text": {
+        "ja": "岩手大学 (盛岡市)",
+        "en": "Iwate University (Morioka)"
+      }
+    },
+    {
+      "date": "2022-08-08",
+      "url": {
+        "ja": "https://www.city.ichinoseki.iwate.jp/index.cfm/7,149068,88,html",
+        "en": null
+      },
+      "text": {
+        "ja": "一関市議会議員 (一関市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-08",
+      "url": {
+        "ja": "https://www.yakuodo.co.jp/images/upnews/62f0684ea4ead.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "薬王堂 [盛岡市・二戸市・紫波郡・九戸郡・一関保健所管轄の店舗]",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-08",
+      "url": {
+        "ja": "http://www.morioka-times.com/corona_20220808.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "盛岡タイムス 関連会社 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-08",
+      "url": {
+        "ja": "http://www.nikkaniwate.co.jp/#:~:text=%E5%90%84%E4%BD%8D-,2022%E5%B9%B48%E6%9C%888%E6%97%A5,-%EF%BC%98%E6%9C%88%EF%BC%95",
+        "en": null
+      },
+      "text": {
+        "ja": "日刊岩手建設工業新聞社 (盛岡市)",
         "en": null
       }
     }
