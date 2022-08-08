@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-08T10:43:14+09:00",
+  "date": "2022-08-08T10:58:35+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -41028,6 +41028,61 @@
       },
       "text": {
         "ja": "岩手県立大学宮古短期大学部 (宮古市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-05",
+      "url": {
+        "ja": "http://chuyokai.or.jp/media/2/20220805-20220805_yamayuri_press3.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "介護老人保健施設 やまゆりの里 [第3報] (遠野市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-03",
+      "url": {
+        "ja": "http://chuyokai.or.jp/media/2/20220803-20220803_yamayuri_press2.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "介護老人保健施設 やまゆりの里 [続報] (遠野市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-02",
+      "url": {
+        "ja": "http://chuyokai.or.jp/media/2/20220802-20220802_hayachine_press.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "介護老人保健施設 はやちねの里 (花巻市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-02",
+      "url": {
+        "ja": "http://chuyokai.or.jp/media/2/20220802-20220802_yamayuri_press.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "介護老人保健施設 やまゆりの里 (遠野市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-29",
+      "url": {
+        "ja": "https://www.systembase.co.jp/wp-content/uploads/2022/07/COVID-19-20220729.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "システムベース 本社 (北上市)・盛岡センター (盛岡市)・大船渡センター (大船渡市)",
         "en": null
       }
     }
