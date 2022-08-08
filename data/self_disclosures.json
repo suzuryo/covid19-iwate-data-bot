@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-08T15:26:40+09:00",
+  "date": "2022-08-08T15:42:11+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -41138,6 +41138,50 @@
       },
       "text": {
         "ja": "北上信用金庫 大堤支店 (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-08",
+      "url": {
+        "ja": "https://www.prifoods.jp/media/files/_u/topic/file1/1eawuu8bbp.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "プライフーズ 軽米工場 (軽米町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-08",
+      "url": {
+        "ja": "https://www.town.shizukuishi.iwate.jp/docs/2021081000022/file_contents/040805info.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "雫石町職員 [役場庁舎外] (雫石町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-08",
+      "url": {
+        "ja": "https://www.town.otsuchi.iwate.jp/gyosei/docs/442678.html",
+        "en": null
+      },
+      "text": {
+        "ja": "大槌町職員 (大槌町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-05",
+      "url": {
+        "ja": "https://www.city.rikuzentakata.iwate.jp/kenko_fukushi/corona/5845.html#:~:text=%E6%9C%AC%E5%B8%82%E8%81%B7%E5%93%A1%E3%81%AE%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9%E6%84%9F%E6%9F%93%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%EF%BC%88%E4%BB%A4%E5%92%8C4%E5%B9%B48%E6%9C%884%E6%97%A5%E7%A2%BA%E8%AA%8D%EF%BC%89",
+        "en": null
+      },
+      "text": {
+        "ja": "陸前高田市職員 [本庁舎] (陸前高田市)",
         "en": null
       }
     }
