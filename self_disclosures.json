@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-09T16:20:48+09:00",
+  "date": "2022-08-09T18:17:12+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -41776,6 +41776,116 @@
       },
       "text": {
         "ja": "イトーヨーカドー 花巻店 [食品ギフト売場] (花巻市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-09",
+      "url": {
+        "ja": "https://www.toyota-ej.co.jp/images/news_pdf/20220809.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "トヨタ自動車東日本 岩手工場 (金ケ崎町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-09",
+      "url": {
+        "ja": "https://www.town.hiraizumi.iwate.jp/index.cfm/1,9516,156,html",
+        "en": null
+      },
+      "text": {
+        "ja": "役場庁舎内に勤務する町職員 (平泉町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-28",
+      "url": {
+        "ja": "https://www.city.ninohe.lg.jp/div/hisho-jinji/pdf/colona/R040728_colonayousei.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "二戸市職員 (二戸市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-29",
+      "url": {
+        "ja": "https://www.city.ninohe.lg.jp/div/hisho-jinji/pdf/colona/R040729_colonayousei.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "二戸市職員 (二戸市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-08",
+      "url": {
+        "ja": "https://www.city.ninohe.lg.jp/div/hisho-jinji/pdf/colona/R040808_colonayousei.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "二戸市職員 (二戸市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-09",
+      "url": {
+        "ja": "https://www.city.kamaishi.iwate.jp/docs/2020030900307/file_contents/siyokuinkannsennssya0809made.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "保健福祉部 (釜石市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-09",
+      "url": {
+        "ja": "https://www.city.rikuzentakata.iwate.jp/kenko_fukushi/corona/5845.html",
+        "en": null
+      },
+      "text": {
+        "ja": "陸前高田市職員 [本庁舎] (陸前高田市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-09",
+      "url": {
+        "ja": "https://www.town.yamada.iwate.jp/docs/4474.html#:~:text=%E5%B1%B1%E7%94%B0%E7%94%BA%E8%81%B7%E5%93%A1%E3%81%AE%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9%E6%84%9F%E6%9F%93%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%EF%BC%88%E4%BB%A4%E5%92%8C4%E5%B9%B48%E6%9C%889%E6%97%A5%E7%A2%BA%E8%AA%8D%EF%BC%89",
+        "en": null
+      },
+      "text": {
+        "ja": "山田町職員 (山田町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-07",
+      "url": {
+        "ja": "https://www.town.yamada.iwate.jp/docs/4474.html#:~:text=%E5%B1%B1%E7%94%B0%E7%94%BA%E8%81%B7%E5%93%A1%E3%81%AE%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9%E6%84%9F%E6%9F%93%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%EF%BC%88%E4%BB%A4%E5%92%8C4%E5%B9%B48%E6%9C%887%E6%97%A5%E7%A2%BA%E8%AA%8D%EF%BC%89",
+        "en": null
+      },
+      "text": {
+        "ja": "山田町職員 (山田町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-09",
+      "url": {
+        "ja": "https://www.japanpost.jp/information/notices2_list.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手郵便局 (北上市)・東山郵便局 (一関市)・紫波郵便局 (紫波町)",
         "en": null
       }
     }
