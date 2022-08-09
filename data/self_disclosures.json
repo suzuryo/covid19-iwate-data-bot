@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-09T10:37:41+09:00",
+  "date": "2022-08-09T10:53:26+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -41380,6 +41380,83 @@
       },
       "text": {
         "ja": "岩手医科大学附属病院 [救急病棟におけるクラスターの発生・救急の受入停止や制限] (矢巾町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-05-09",
+      "url": {
+        "ja": "https://chuo-hp.jp/media/2/covid20220509.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手県立中央病院 [診療制限解除] (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-09",
+      "url": {
+        "ja": "https://chuo-hp.jp/#:~:text=7%E6%9C%8823,%E9%95%B7%E3%80%80%E5%AE%AE%E7%94%B0%E3%80%80%E5%89%9B",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手県立中央病院 [整形外科病棟のロックダウン解除] (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-08",
+      "url": {
+        "ja": "http://www.iwate-fukushi.or.jp/news/fadmin_1659927483_file1.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "救護施設 松山荘 [第3報] (宮古市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-05",
+      "url": {
+        "ja": "http://www.iwate-fukushi.or.jp/news/fadmin_1659690071_file1.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "県立療育センター 医療型障害児入所施設 [第2報] (矢巾町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-25",
+      "url": {
+        "ja": "http://www.iwate-fukushi.or.jp/news/fadmin_1658913212_file1.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "県立療育センター 医療型障害児入所施設 [第1報] (矢巾町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-25",
+      "url": {
+        "ja": "http://www.iwate-fukushi.or.jp/news/fadmin_1658737325_file1.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "救護施設 松山荘 [第2報] (宮古市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-25",
+      "url": {
+        "ja": "http://www.iwate-fukushi.or.jp/news/fadmin_1658723638_file1.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "救護施設 松山荘 [第1報] (宮古市)",
         "en": null
       }
     }
