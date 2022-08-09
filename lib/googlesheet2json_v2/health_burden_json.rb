@@ -224,6 +224,26 @@ def health_burden_json(patients_summary, positive_rate, hospitalized_numbers, no
   # つまり、119 人の入院患者に対して中等症は 20 人ということ
   # https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/050/416/20220708_01_3.pdf
   #
+  # 第59回本部員会議の資料で、中等症(1なの2なの?)が
+  # 2022/7/7 - 2022/7/13 の 62 例について 5 人 という資料が出た。
+  # つまり、8.0 % ということ
+  # https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/050/416/20220714_01_4.pdf
+  #
+  # 第60回本部員会議の資料で、中等症(1なの2なの?)が
+  # 2022/7/8 - 2022/7/14 の 48 例について 4 人 という資料が出た。
+  # つまり、8.3 % ということ
+  # https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/050/416/20220722_01_3.pdf
+  #
+  # 第60回本部員会議の資料で、中等症(1なの2なの?)が
+  # 2022/7/15 - 2022/7/21 の 93 例について 6 人 という資料が出た。
+  # つまり、6.4 % ということ
+  # https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/050/416/20220722_01_3.pdf
+  #
+  # 第61回本部員会議の資料で、中等症(1なの2なの?)が
+  # 2022/7/25 - 2022/8/7 の 209 例について 34 人 という資料が出た。
+  # つまり、16.3 % ということ
+  # https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/050/416/20220809_01_3.pdf
+  #
   # 第50回本部員会議の資料で、酸素投与を受けた患者が 8.5 % という数字が出ている
   # ただしオミクロン前のデータ
   # https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/050/416/20220225_04_2.pdf
