@@ -43,25 +43,25 @@ def health_burden_json(patients_summary, positive_rate, hospitalized_numbers, no
   # ワクチン２回接種率（％） ※３回接種者を含む
   b4 = {
     s00: Rational('0'),
-    s10: Rational('84.9'),
-    s20: Rational('85.7'),
-    s30: Rational('83.7'),
-    s40: Rational('87.2'),
-    s50: Rational('91.7'),
-    s60: (Rational('91.7') + Rational('89.6')) / Rational('2'),
-    s70: (Rational('97.7') + Rational('95.5') + Rational('101.2') + Rational('102.7')) / Rational('4')
+    s10: Rational('84.8'),
+    s20: Rational('85.9'),
+    s30: Rational('83.3'),
+    s40: Rational('87.0'),
+    s50: Rational('91.8'),
+    s60: (Rational('91.4') + Rational('89.2')) / Rational('2'),
+    s70: (Rational('98.0') + Rational('95.5') + Rational('101.9') + Rational('103.3')) / Rational('4')
   }
 
   # ワクチン３回接種率（％）
   b5 = {
     s00: Rational('0'),
-    s10: Rational('40.4'),
-    s20: Rational('52.2'),
-    s30: Rational('54.8'),
-    s40: Rational('64.5'),
-    s50: Rational('78.0'),
-    s60: (Rational('85.1') + Rational('86.2')) / Rational('2'),
-    s70: (Rational('94.4') + Rational('91.6') + Rational('95.8') + Rational('94.4')) / Rational('4')
+    s10: Rational('50.1'),
+    s20: Rational('58.0'),
+    s30: Rational('60.0'),
+    s40: Rational('69.3'),
+    s50: Rational('81.4'),
+    s60: (Rational('86.1') + Rational('86.3')) / Rational('2'),
+    s70: (Rational('95.3') + Rational('92.2') + Rational('97.3') + Rational('96.0')) / Rational('4')
   }
 
   # デルタ株：（ワクチンなしで）酸素投与を要する率（％）
