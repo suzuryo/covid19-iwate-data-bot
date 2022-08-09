@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-09T13:23:46+09:00",
+  "date": "2022-08-09T14:49:25+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -41523,6 +41523,83 @@
       },
       "text": {
         "ja": "岩手医科大学附属病院 [救急病棟におけるクラスターの発生・救急の受入停止や制限] (矢巾町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-08",
+      "url": {
+        "ja": "https://ishii1969.com/wp-content/uploads/2022/08/eded916d01ad658ac40d69c5a67d0147.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "イシイ 東北孵卵場 (紫波郡)・東部種鶏部 (県内)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-08",
+      "url": {
+        "ja": "https://www.fukoku-life.co.jp/about/information/download/20220808.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "富国生命保険 岩手営業所 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-05",
+      "url": {
+        "ja": "https://www.densetsuko.co.jp/01news/pdf/2022/20220805.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "日本電設工業 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-08",
+      "url": {
+        "ja": "https://www.daido-life.co.jp/company/info/pdf/220808.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "大同生命保険 盛岡営業所 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-27",
+      "url": {
+        "ja": "https://www.valuence.inc/covid-19-info/#:~:text=%E7%9A%86%E3%81%95%E3%81%BE%E3%81%B8%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%E3%81%95%E3%81%9B%E3%81%A6%E3%81%84%E3%81%9F%E3%81%A0%E3%81%8D%E3%81%BE%E3%81%99%E3%80%82-,2022.7.27,%E6%84%9F%E6%9F%93%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%E3%81%8C%E5%88%A4%E6%98%8E%E3%81%84%E3%81%9F%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F%E3%80%82,-%E5%BD%93%E8%A9%B2%E5%BE%93%E6%A5%AD%E5%93%A1%E3%81%AF%E3%80%817%E6%9C%8826",
+        "en": null
+      },
+      "text": {
+        "ja": "バリュエンスジャパン なんぼや盛岡フェザン店 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-05",
+      "url": {
+        "ja": "https://www.nissay.co.jp/coronavirusoshirase/infomation/#:~:text=%E5%B8%82%E5%B9%B8%E7%94%BA-,8%E6%9C%885%E6%97%A5,%E5%B2%A9%E6%89%8B%E7%9C%8C%E5%8C%97%E4%B8%8A%E5%B8%82%E5%A4%A7%E9%80%9A%E3%82%8A,-8%E6%9C%885",
+        "en": null
+      },
+      "text": {
+        "ja": "日本生命 (北上市・矢巾町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-09",
+      "url": {
+        "ja": "https://www.ebara.co.jp/corporate/newsroom/release/company/detail/__icsFiles/afieldfile/2022/08/09/covid_20220809.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "荏原フィールドテック (北上市)",
         "en": null
       }
     }
