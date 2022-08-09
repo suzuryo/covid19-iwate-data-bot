@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-09T10:53:26+09:00",
+  "date": "2022-08-09T11:11:37+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -41373,17 +41373,6 @@
       }
     },
     {
-      "date": "2022-08-08",
-      "url": {
-        "ja": "https://www.hosp.iwate-med.ac.jp/yahaba-news/yahaba-news-17473/",
-        "en": null
-      },
-      "text": {
-        "ja": "岩手医科大学附属病院 [救急病棟におけるクラスターの発生・救急の受入停止や制限] (矢巾町)",
-        "en": null
-      }
-    },
-    {
       "date": "2022-05-09",
       "url": {
         "ja": "https://chuo-hp.jp/media/2/covid20220509.pdf",
@@ -41457,6 +41446,83 @@
       },
       "text": {
         "ja": "救護施設 松山荘 [第1報] (宮古市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-08",
+      "url": {
+        "ja": "https://www.murasakinodo.jp/news/14440",
+        "en": null
+      },
+      "text": {
+        "ja": "むらさきの歯科医院 (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-08",
+      "url": {
+        "ja": "https://www.iwate-hino.co.jp/news/%e4%b8%80%e9%96%a2%e5%96%b6%e6%a5%ad%e6%89%80%e5%96%b6%e6%a5%ad%e5%86%8d%e9%96%8b%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手日野自動車 一関営業所 [営業再開] (一関市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-08",
+      "url": {
+        "ja": "https://www.e-nexco.co.jp/news/cms_assets/news/2022/08/08/29.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "NEXCO東日本 グループ会社 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-08",
+      "url": {
+        "ja": "https://www.komeri.bit.or.jp/news/img/220808virus.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "コメリパワー 花巻店 (花巻市) コメリハード＆グリーン 一関店 (一関市)・コメリハード＆グリーン 陸前高田店 (陸前高田市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-08",
+      "url": {
+        "ja": "http://mikihp.jp/wp/wp-content/uploads/2022/08/covid19-22.08.073f.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "美希病院 [入退院等の一部制限] (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-08",
+      "url": {
+        "ja": "http://mikihp.jp/wp/wp-content/uploads/2022/08/covid19-22.08.07renkei.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "美希病院 地域連携室 (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-08",
+      "url": {
+        "ja": "https://www.hosp.iwate-med.ac.jp/yahaba-news/yahaba-news-17473/",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手医科大学附属病院 [救急病棟におけるクラスターの発生・救急の受入停止や制限] (矢巾町)",
         "en": null
       }
     }
