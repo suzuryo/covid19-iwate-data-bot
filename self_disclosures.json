@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-09T15:15:57+09:00",
+  "date": "2022-08-09T16:09:31+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -5035,7 +5035,7 @@
         "en": null
       },
       "text": {
-        "ja": "バイタルネット 盛岡支店 (盛岡市)",
+        "ja": "バイタルネット 盛岡支店 (矢巾町)",
         "en": null
       }
     },
@@ -41655,6 +41655,83 @@
       },
       "text": {
         "ja": "一関学院高等学校 (一関市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-04-19",
+      "url": {
+        "ja": "https://www.yodoko.co.jp/release/2022/pdf/220419.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "淀川製鋼所 東北ブロック盛岡営業所 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-02",
+      "url": {
+        "ja": "https://www.vitalnet.jp/news/2848",
+        "en": null
+      },
+      "text": {
+        "ja": "バイタルネット 盛岡支店 (矢巾町)・久慈支店 (久慈市)・大船渡支店 (大船渡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-04-08",
+      "url": {
+        "ja": "http://blog.wing-pp.co.jp/?eid=70",
+        "en": null
+      },
+      "text": {
+        "ja": "WING (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-04-05",
+      "url": {
+        "ja": "http://blog.wing-pp.co.jp/?eid=69",
+        "en": null
+      },
+      "text": {
+        "ja": "WING (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-04-04",
+      "url": {
+        "ja": "http://blog.wing-pp.co.jp/?eid=68",
+        "en": null
+      },
+      "text": {
+        "ja": "WING (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-09",
+      "url": {
+        "ja": "http://www.shokyukai.or.jp/6219/",
+        "en": null
+      },
+      "text": {
+        "ja": "介護老人保健施設 気仙苑 (大船渡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-09",
+      "url": {
+        "ja": "https://www.kioxia-iwate.co.jp/news/2021/covid-latest.html#:~:text=%E2%96%A0-,%E5%85%AC%E8%A1%A8%E6%97%A5%EF%BC%9A2022%E5%B9%B48%E6%9C%889%E6%97%A5%EF%BC%88%E7%81%AB%EF%BC%89,-%E2%96%A0%E5%85%AC%E8%A1%A8%E6%97%A5%EF%BC%9A2022",
+        "en": null
+      },
+      "text": {
+        "ja": "キオクシア岩手 (北上市)",
         "en": null
       }
     }
