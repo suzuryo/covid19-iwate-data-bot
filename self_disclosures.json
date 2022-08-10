@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-10T15:14:20+09:00",
+  "date": "2022-08-10T18:17:23+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -42172,6 +42172,171 @@
       },
       "text": {
         "ja": "軽米町社会福祉協議会 本部 (軽米町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-10",
+      "url": {
+        "ja": "http://www.yamada-shakyo.or.jp/wordpress/wp-content/uploads/2022/08/fukudate.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "山田町社会福祉協議会 (山田町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-10",
+      "url": {
+        "ja": "https://hoiku-tonokko.jp/40821",
+        "en": null
+      },
+      "text": {
+        "ja": "遠野市内の保育園 (遠野市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-09",
+      "url": {
+        "ja": "https://www.ichinoseki.ac.jp/covid-19/notice/notice_news.html?id=1924",
+        "en": null
+      },
+      "text": {
+        "ja": "一関工業高等専門学校 (一関市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-10",
+      "url": {
+        "ja": "https://www.ichinoseki.ac.jp/covid-19/notice/notice_news.html?id=1926",
+        "en": null
+      },
+      "text": {
+        "ja": "一関工業高等専門学校 (一関市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-10",
+      "url": {
+        "ja": "http://ichinoseki-shinkin.jp/info/pdf/20220810_covid19.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "一関信用金庫 山目支店 (一関市)・三関支店 (一関市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-09",
+      "url": {
+        "ja": "http://ichinoseki-shinkin.jp/info/pdf/20220809_covid19.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "一関信用金庫 一関インター支店 (一関市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-08",
+      "url": {
+        "ja": "http://ichinoseki-shinkin.jp/info/pdf/20220808_covid19.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "一関信用金庫 本店 (一関市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-09",
+      "url": {
+        "ja": "https://www.e-nexco.co.jp/news/cms_assets/news/2022/08/09/09.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "E4 東北自動車道 西根料金所 (八幡平市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-09",
+      "url": {
+        "ja": "https://www.e-nexco.co.jp/news/cms_assets/news/2022/08/09/33.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "NEXCO東日本 グループ会社 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-09",
+      "url": {
+        "ja": "https://www.e-nexco.co.jp/news/cms_assets/news/2022/08/09/37.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "NEXCO東日本 グループ会社 (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-10",
+      "url": {
+        "ja": "https://www.e-nexco.co.jp/news/cms_assets/news/2022/08/10a/35.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "NEXCO東日本 グループ会社 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-10",
+      "url": {
+        "ja": "https://www.japanpost.jp/information/notices2_list.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "盛岡北郵便局 (盛岡市)・盛岡中央郵便局 (盛岡市)・岩手郵便局 (北上市)・千厩郵便局 (一関市)・御所郵便局 (雫石町)・沼宮内郵便局 (岩手町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-10",
+      "url": {
+        "ja": "https://www.jaiwate.or.jp/jabank/wp-content/uploads/2022/08/news_20220810.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "JA岩手県信連 本所 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-10",
+      "url": {
+        "ja": "https://www.iwate-med.ac.jp/news/n1-information/22081001-soumu/",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手医科大学 (矢巾町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-10",
+      "url": {
+        "ja": "https://www.bikkuri-donkey.com/%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E6%84%9F%E6%9F%93%E8%80%85%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B_0810.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "びっくりドンキー 一関店 (一関市)",
         "en": null
       }
     }
