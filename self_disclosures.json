@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-10T18:17:23+09:00",
+  "date": "2022-08-10T18:32:15+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -41199,7 +41199,7 @@
     {
       "date": "2022-08-08",
       "url": {
-        "ja": "https://www.city.hanamaki.iwate.jp/shigikai/1017073.html",
+        "ja": "https://www.city.hanamaki.iwate.jp/shigikai/1017073.html#:~:text=%E6%84%9F%E6%9F%93%E6%83%85%E5%A0%B11,%E3%82%8C%E3%81%BE%E3%81%97%E3%81%9F%E3%80%82",
         "en": null
       },
       "text": {
@@ -42337,6 +42337,72 @@
       },
       "text": {
         "ja": "びっくりドンキー 一関店 (一関市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-10",
+      "url": {
+        "ja": "https://www.town.kanegasaki.iwate.jp/articles/2022081000036/",
+        "en": null
+      },
+      "text": {
+        "ja": "金ケ崎町職員 [役場庁舎外施設] (金ケ崎町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-10",
+      "url": {
+        "ja": "https://www.city.hanamaki.iwate.jp/shigikai/1017073.html#:~:text=%E6%84%9F%E6%9F%93%E6%83%85%E5%A0%B12,%E3%82%8C%E3%81%BE%E3%81%97%E3%81%9F%E3%80%82",
+        "en": null
+      },
+      "text": {
+        "ja": "花巻市議会議員 (花巻市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-10",
+      "url": {
+        "ja": "https://www.city.kamaishi.iwate.jp/docs/2020030900307/file_contents/siyokuinn0810made.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "保健福祉部 (釜石市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-10",
+      "url": {
+        "ja": "https://www.city.kuji.iwate.jp/shisei/soshiki/220810_oshirase_1_1_1_1_1_1_1_1.html",
+        "en": null
+      },
+      "text": {
+        "ja": "市長部局に所属、本庁に勤務する職員 (久慈市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-10",
+      "url": {
+        "ja": "https://www.city.rikuzentakata.iwate.jp/kenko_fukushi/corona/5845.html#:~:text=%E6%9C%AC%E5%B8%82%E8%81%B7%E5%93%A1%E3%81%AE%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9%E6%84%9F%E6%9F%93%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%EF%BC%88%E4%BB%A4%E5%92%8C4%E5%B9%B48%E6%9C%8810%E6%97%A5%E7%A2%BA%E8%AA%8D%EF%BC%89",
+        "en": null
+      },
+      "text": {
+        "ja": "陸前高田市職員 [本庁舎] (陸前高田市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-10",
+      "url": {
+        "ja": "https://www.2ndstreet.jp/covid-19-information/details?infoType=5&page=1&itemsPerPage=16&id=94457#:~:text=%E3%82%BB%E3%82%AB%E3%83%B3%E3%83%89%E3%82%B9%E3%83%88%E3%83%AA%E3%83%BC%E3%83%88%E3%81%BF%E3%81%9F%E3%81%91,%E6%9C%889%E6%97%A5",
+        "en": null
+      },
+      "text": {
+        "ja": "セカンドストリートみたけ店 (盛岡市)",
         "en": null
       }
     }
