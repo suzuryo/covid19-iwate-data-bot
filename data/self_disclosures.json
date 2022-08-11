@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-10T21:24:47+09:00",
+  "date": "2022-08-11T10:05:59+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -42447,6 +42447,72 @@
       },
       "text": {
         "ja": "介護老人保健施設さいき [第2報] (一関市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-10",
+      "url": {
+        "ja": "https://www.mizuichi.ed.jp/cgi-bin/detail.cgi?kind=2&type=v&f1=1617347718#:~:text=%E6%84%9F%E6%9F%93%E7%97%87%E9%96%A2%E9%80%A3-,2022.08.10,-%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9",
+        "en": null
+      },
+      "text": {
+        "ja": "水沢第一高等学校 (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-08",
+      "url": {
+        "ja": "http://www.mizhsp-iwate.jp/archives/notification/20220808_covid-19-02.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "奥州市総合水沢病院 (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-01",
+      "url": {
+        "ja": "https://www.mizhsp-iwate.jp/archives/notification/20220801_covid-19.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "奥州市総合水沢病院 (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-10",
+      "url": {
+        "ja": "https://www.facebook.com/koiwaiikku",
+        "en": null
+      },
+      "text": {
+        "ja": "小岩井駅前 焼処 いっく (滝沢市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-11",
+      "url": {
+        "ja": "https://daito-soudan.wixsite.com/website/post/%E6%96%BD%E8%A8%AD%E8%81%B7%E5%93%A1%E3%81%AE%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9%E6%84%9F%E6%9F%93%E7%A2%BA%E8%AA%8D%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6-3",
+        "en": null
+      },
+      "text": {
+        "ja": "グループホームにこにこだいとう (一関市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-10",
+      "url": {
+        "ja": "https://www.kitagin.co.jp/news/download/pdf/20220810_2.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "北日本銀行 岩泉支店 (岩泉町)・久慈支店 (久慈市)",
         "en": null
       }
     }
