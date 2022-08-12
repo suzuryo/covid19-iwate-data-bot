@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-12T19:09:00+09:00",
+  "date": "2022-08-12T19:56:25+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -42744,6 +42744,61 @@
       },
       "text": {
         "ja": "花巻信用金庫 石鳥谷支店 (花巻市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-12",
+      "url": {
+        "ja": "https://www.vill.kunohe.iwate.jp/docs/1854.html",
+        "en": null
+      },
+      "text": {
+        "ja": "村立保育園 (九戸村)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-12",
+      "url": {
+        "ja": "https://www.city.kamaishi.iwate.jp/docs/2020030900307/file_contents/siyokuinkouhyou0812made.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "教育委員会事務局 (釜石市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-12",
+      "url": {
+        "ja": "https://www.city.hanamaki.iwate.jp/shigikai/1017073.html#:~:text=%E6%9C%8812%E6%97%A5-,%E6%84%9F%E6%9F%93%E6%83%85%E5%A0%B13,-%E5%B8%82%E8%AD%B0%E4%BC%9A%E8%AD%B0%E5%93%A11",
+        "en": null
+      },
+      "text": {
+        "ja": "花巻市議会議員 (花巻市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-12",
+      "url": {
+        "ja": "https://www.iwate-uhms.ac.jp/cgi-bin/detail.cgi?f1=1660284935",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手保健医療大学 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-12",
+      "url": {
+        "ja": "http://ichinoseki-shinkin.jp/info/pdf/20220812-2_covid19.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "一関信用金庫 駅前支店  (一関市)・一関インター支店 (一関市)",
         "en": null
       }
     }
