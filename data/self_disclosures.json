@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-13T11:39:44+09:00",
+  "date": "2022-08-13T14:04:03+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -42865,6 +42865,28 @@
       },
       "text": {
         "ja": "セカンドストリートみたけ店 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-12",
+      "url": {
+        "ja": "https://www.maiya.co.jp/wp-content/uploads/2022/08/86cffa2c24a272f07e2d78a6a5218f1b.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "マイヤ 赤崎店 (大船渡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-12",
+      "url": {
+        "ja": "https://www.maiya.co.jp/wp-content/uploads/2022/08/227329b8de155046e80fcf71999be025-2.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "マイヤ 釜石店 (釜石市)",
         "en": null
       }
     }
