@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-13T17:06:51+09:00",
+  "date": "2022-08-13T18:27:21+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -42920,6 +42920,17 @@
       },
       "text": {
         "ja": "特別養護老人ホーム みやもり荘 (遠野市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-10",
+      "url": {
+        "ja": "https://www.kioxia-iwate.co.jp/news/2021/covid-latest.html#:~:text=%E2%96%A0-,%E5%85%AC%E8%A1%A8%E6%97%A5%EF%BC%9A2022%E5%B9%B48%E6%9C%8810%E6%97%A5%EF%BC%88%E6%B0%B4%EF%BC%89,-%E2%96%A0%E5%85%AC%E8%A1%A8%E6%97%A5%EF%BC%9A2022",
+        "en": null
+      },
+      "text": {
+        "ja": "キオクシア岩手 (北上市)",
         "en": null
       }
     }
