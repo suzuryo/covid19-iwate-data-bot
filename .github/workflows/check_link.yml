@@ -1,0 +1,28 @@
+name: check link
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+
+jobs:
+  build:
+    name: check link
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          persist-credentials: false
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1.2'
+          bundler-cache: true
+      - name: check link
+        run: |
+          echo "::set-output name=check-link::$(bundle exec bin/check_link.rb)\n"
+        id: run_check
+      - name: Slack Notification
+        uses: rtCamp/action-slack-notify@v2
+        env:
+          SLACK_MESSAGE: ${{join(steps.run_check.outputs.*, '\n')}}
+          SLACK_WEBHOOK: ${{ secrets.CHECK_LINK_SLACK_WEBHOOK }}
