@@ -28,7 +28,6 @@ def check_urls(urls)
   hydra.run
 
   requests.map do |request|
-    puts Time.now
     puts "#{request.response.response_code} #{request.base_url}" if request.response.response_code != 201
   end
 end
