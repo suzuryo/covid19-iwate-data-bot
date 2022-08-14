@@ -27,12 +27,9 @@ def check_urls(urls)
 
   hydra.run
 
-  # github actions debug
-  puts Time.now
-  puts "#{request.response.response_code} #{request.base_url}"
-
   requests.map do |request|
-    puts "#{request.response.response_code} #{request.base_url}" if request.response.response_code != 200
+    puts Time.now
+    puts "#{request.response.response_code} #{request.base_url}" if request.response.response_code != 201
   end
 end
 
