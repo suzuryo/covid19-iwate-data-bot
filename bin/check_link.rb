@@ -2,6 +2,7 @@
 # frozen_string_literal: true
 
 require 'typhoeus'
+require 'slack-notifier'
 
 urls = %w[
   https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/052/938/040812_itiran10.pdf
@@ -27,11 +28,18 @@ def check_urls(urls)
 
   hydra.run
 
-  slack_msg = ''
+  slack_msg = "#{Time.now}\n"
   requests.map do |request|
-    slack_msg += "#{request.response.response_code} #{request.base_url}\n" if request.response.response_code != 200
+    slack_msg += "#{request.response.response_code} #{request.base_url}\n" if request.response.response_code != 201
   end
-  put slack_msg
+
+  return if slack_msg.size.zero?
+
+  notifier = Slack::Notifier.new ENV.fetch('SLACK_WEBHOOK', nil) do
+    defaults channel: '#check_link',
+             username: 'check_link'
+  end
+  notifier.ping slack_msg
 end
 
 check_urls(urls)

@@ -10,6 +10,7 @@ gem 'highline'
 gem 'mini_magick'
 gem 'nokogiri'
 gem 'rtesseract'
+gem 'slack-notifier'
 gem 'thor'
 gem 'typhoeus'
 
