@@ -28,9 +28,9 @@ def check_urls(urls)
 
   hydra.run
 
-  slack_msg = "#{Time.now}\n"
+  slack_msg = ''
   requests.map do |request|
-    slack_msg += "#{request.response.response_code} #{request.base_url}\n" if request.response.response_code != 201
+    slack_msg += "#{Time.now}\n#{request.response.response_code} #{request.base_url}\n" if request.response.response_code != 200
   end
 
   return if slack_msg.size.zero?
