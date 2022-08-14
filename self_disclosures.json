@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-13T23:18:36+09:00",
+  "date": "2022-08-14T11:16:35+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -43052,6 +43052,149 @@
       },
       "text": {
         "ja": "山崎製パン 岩手営業所 (滝沢市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-13",
+      "url": {
+        "ja": "https://peraichi.com/landing_pages/view/kenjikai001/#:~:text=2022.08.13,%E7%AC%AC2%E5%A0%B1%E3%80%91",
+        "en": null
+      },
+      "text": {
+        "ja": "グループホームぬくもり (野田村)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-09",
+      "url": {
+        "ja": "https://www.autobacs.co.jp/ja/covid-19/news-20220809.html#:~:text=%E3%82%AA%E3%83%BC%E3%83%88%E3%83%90%E3%83%83%E3%82%AF%E3%82%B9%0A%E6%B0%B4%E6%B2%A2,7%E6%97%A5%EF%BC%88%E6%97%A5%EF%BC%89",
+        "en": null
+      },
+      "text": {
+        "ja": "オートバックス 水沢店 (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-08",
+      "url": {
+        "ja": "https://www.autobacs.co.jp/ja/covid-19/news-20220808.html#:~:text=%E3%82%AA%E3%83%BC%E3%83%88%E3%83%90%E3%83%83%E3%82%AF%E3%82%B9%0A%E7%9B%9B%E5%B2%A1,31%E6%97%A5%EF%BC%88%E6%97%A5%EF%BC%89",
+        "en": null
+      },
+      "text": {
+        "ja": "オートバックス 盛岡西バイパス店 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-02-25",
+      "url": {
+        "ja": "https://www.hondacars-iwateminami.com/home/img/notice.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "ホンダカーズ盛岡南店 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-02-10",
+      "url": {
+        "ja": "https://www.eidai.com/profile/data/20220210coronavirus.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "永大産業 盛岡営業所 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-06-11",
+      "url": {
+        "ja": "https://www.daiwahouse.co.jp/info/pdf/20210611-2.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "大和ハウス工業 北東北支社 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-03",
+      "url": {
+        "ja": "https://www.gas-pal.com/tohoku/pdf/miyagi_covid_20220803.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "ガスパル東北 岩手販売所 (滝沢市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-06-30",
+      "url": {
+        "ja": "https://www.gas-pal.com/tohoku/pdf/miyagi_covid_20220630.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "ガスパル東北 北上販売所 (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-05-16",
+      "url": {
+        "ja": "http://www.karitsu.co.jp/east/pdf/news_20220516e.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "カリツー東日本 (金ケ崎町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-04-13",
+      "url": {
+        "ja": "https://www.asahi-ind.co.jp/pdf/info0413.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "旭工業 花巻工場 (花巻市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-10",
+      "url": {
+        "ja": "https://www.kknsp.jp/covid-19info/2208-004/",
+        "en": null
+      },
+      "text": {
+        "ja": "NSP 盛岡営業所 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-13",
+      "url": {
+        "ja": "https://www.city.kamaishi.iwate.jp/docs/2020030900307/file_contents/sisyokuinn0813made.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "文化スポーツ部・教育委員会事務局 (釜石市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-13",
+      "url": {
+        "ja": "https://www.city.kamaishi.iwate.jp/docs/2020030900307/#:~:text=%E4%BB%A4%E5%92%8C%EF%BC%94%E5%B9%B4%EF%BC%98%E6%9C%8811%E6%97%A5%E5%8F%8A%E3%81%B3%EF%BC%98%E6%9C%8812%E6%97%A5%E3%81%AB%E3%80%81%E5%B8%82%E5%86%85%E6%95%99%E8%82%B2%E3%83%BB%E4%BF%9D%E8%82%B2%E6%96%BD%E8%A8%AD%E3%81%AB%E5%8B%A4%E5%8B%99%E3%81%99%E3%82%8B%E8%81%B7%E5%93%A1%EF%BC%92%E5%90%8D%E3%81%AE%E9%99%BD%E6%80%A7%E3%81%8C%E6%96%B0%E3%81%9F%E3%81%AB%E7%A2%BA%E8%AA%8D%E3%81%95%E3%82%8C%E3%81%BE%E3%81%97%E3%81%9F%E3%80%82%E5%BC%95%E3%81%8D%E7%B6%9A%E3%81%8D%E3%80%81%E6%84%9F%E6%9F%93%E9%98%B2%E6%AD%A2%E5%AF%BE%E7%AD%96%E3%82%92%E5%BE%B9%E5%BA%95%E3%81%97%E3%80%81%E6%84%9F%E6%9F%93%E3%81%8C%E6%8B%A1%E5%A4%A7%E3%81%97%E3%81%AA%E3%81%84%E3%82%88%E3%81%86%E5%8A%AA%E3%82%81%E3%81%A6%E3%81%BE%E3%81%84%E3%82%8A%E3%81%BE%E3%81%99%E3%80%82",
+        "en": null
+      },
+      "text": {
+        "ja": "市内教育保育施設 (釜石市)",
         "en": null
       }
     }
