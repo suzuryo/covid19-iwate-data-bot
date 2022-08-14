@@ -25,5 +25,5 @@ jobs:
       - name: Slack Notification
         uses: rtCamp/action-slack-notify@v2
         env:
-          SLACK_MESSAGE: ${{ steps.run_check.outputs.* }}
+          SLACK_MESSAGE: ${{ join(steps.run_check.outputs.*, '\n') }}
           SLACK_WEBHOOK: ${{ secrets.CHECK_LINK_SLACK_WEBHOOK }}
