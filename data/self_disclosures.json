@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-15T15:58:33+09:00",
+  "date": "2022-08-15T16:37:50+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -43250,6 +43250,28 @@
       },
       "text": {
         "ja": "松尾デイサービスセンター (八幡平市)・富士見荘 指定訪問介護事業所 (八幡平市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-15",
+      "url": {
+        "ja": "https://www.isawayamayurikai.com/post-920/",
+        "en": null
+      },
+      "text": {
+        "ja": "特別養護老人ホームぬくもりの家 (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-15",
+      "url": {
+        "ja": "https://www.tohoku-bank.co.jp/showimage/pdf?fileNo=1207",
+        "en": null
+      },
+      "text": {
+        "ja": "東北銀行 高田支店 (陸前高田市)・二戸支店 (二戸市)・種市支店 (洋野町)",
         "en": null
       }
     }
