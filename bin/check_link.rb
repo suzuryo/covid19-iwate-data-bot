@@ -5,8 +5,8 @@ require 'typhoeus'
 require 'slack-notifier'
 
 urls = %w[
-  https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/052/938/040812_itiran10.pdf
-  https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/052/938/040815_obon2.pdf
+  https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/052/938/040815_itiran.pdf
+  https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/052/938/040815_obon3.pdf
 ]
 
 def check_urls(urls)
