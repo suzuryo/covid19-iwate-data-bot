@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-15T10:04:18+09:00",
+  "date": "2022-08-15T10:35:45+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -43206,6 +43206,28 @@
       },
       "text": {
         "ja": "岩手銀行 加賀野支店 (盛岡市)・宮古中央支店 (宮古市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-14",
+      "url": {
+        "ja": "https://www.city.kamaishi.iwate.jp/docs/2020030900307/file_contents/sisyokuinnkannsesya0814made.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "教育委員会事務局 (釜石市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-15",
+      "url": {
+        "ja": "https://www.nta.go.jp/data2/040815_02.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "盛岡税務署 (盛岡市)",
         "en": null
       }
     }
