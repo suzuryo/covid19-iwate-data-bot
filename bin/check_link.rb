@@ -6,7 +6,7 @@ require 'slack-notifier'
 
 urls = %w[
   https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/052/938/040812_itiran10.pdf
-  https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/052/938/040813_obon8.pdf
+  https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/052/938/040815_obon2.pdf
 ]
 
 def check_urls(urls)
