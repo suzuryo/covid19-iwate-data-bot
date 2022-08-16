@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-16T11:45:01+09:00",
+  "date": "2022-08-16T13:54:49+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -43459,6 +43459,39 @@
       },
       "text": {
         "ja": "フジフーズ 岩手工場 (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-16",
+      "url": {
+        "ja": "https://zuiunsou.jp/info/wp-content/uploads/2022/08/PCR%E9%99%BD%E6%80%A7%E5%91%8A%E7%9F%A5%EF%BC%882022.8.16%E5%A0%B1%EF%BC%89.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "障がい者支援施設瑞雲荘 (滝沢市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-10",
+      "url": {
+        "ja": "https://www.starbucks.co.jp/notice/20223524.php#:~:text=%E5%A5%A5%E5%B7%9E%E6%B0%B4%E6%B2%A2%E5%BA%97,%E2%80%90",
+        "en": null
+      },
+      "text": {
+        "ja": "スターバックス 奥州水沢店 (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-15",
+      "url": {
+        "ja": "https://www.komeri.bit.or.jp/news/img/220815virus.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "コメリハード＆グリーン 沼宮内店 (岩手町)",
         "en": null
       }
     }
