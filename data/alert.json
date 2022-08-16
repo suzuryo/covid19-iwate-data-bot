@@ -1,16 +1,6 @@
 {
-  "date": "2022-08-16T18:53:11+09:00",
+  "date": "2022-08-16T20:11:23+09:00",
   "alertItems": [
-    {
-      "date": "2022-08-12",
-      "url": {
-        "ja": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/052/938/040815_obon3.pdf",
-        "en": null
-      },
-      "text": {
-        "ja": "お盆期間（8/11～8/16）に開設している診療・検査医療機関一覧",
-        "en": null
-      }
-    }
+
   ]
 }
