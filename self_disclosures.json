@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-16T16:53:06+09:00",
+  "date": "2022-08-16T17:28:19+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -43569,6 +43569,28 @@
       },
       "text": {
         "ja": "特別養護老人ホーム大谷荘・大谷荘短期入所生活介護事業所 (花巻市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-16",
+      "url": {
+        "ja": "https://www.tohoku-bank.co.jp/showimage/pdf?fileNo=1208",
+        "en": null
+      },
+      "text": {
+        "ja": "東北銀行 みたけ支店 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-16",
+      "url": {
+        "ja": "https://www.japanpost.jp/information/notices2_list.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "盛岡北郵便局 (盛岡市)・岩手郵便局 (北上市)・ゆうちょ銀行 岩手パートナーセンター (盛岡市)",
         "en": null
       }
     }
