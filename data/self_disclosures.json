@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-16T17:28:19+09:00",
+  "date": "2022-08-16T18:19:46+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -34093,11 +34093,11 @@
     {
       "date": "2022-07-19",
       "url": {
-        "ja": "http://www.nhokamaishi.jp/modules/bulletin/index.php?page=article&storyid=107",
+        "ja": "http://www.nhokamaishi.jp/modules/mydownloads/visit.php?cid=0&lid=314",
         "en": null
       },
       "text": {
-        "ja": "独立行政法人国立病院機構釜石病院 (釜石市)",
+        "ja": "独立行政法人国立病院機構釜石病院 [第1報] (釜石市)",
         "en": null
       }
     },
@@ -34577,11 +34577,11 @@
     {
       "date": "2022-07-21",
       "url": {
-        "ja": "http://www.nhokamaishi.jp/modules/bulletin/index.php?page=article&storyid=108",
+        "ja": "http://www.nhokamaishi.jp/modules/mydownloads/visit.php?cid=0&lid=316",
         "en": null
       },
       "text": {
-        "ja": "独立行政法人国立病院機構釜石病院 (釜石市)",
+        "ja": "独立行政法人国立病院機構釜石病院 [第2報] (釜石市)",
         "en": null
       }
     },
@@ -43591,6 +43591,94 @@
       },
       "text": {
         "ja": "盛岡北郵便局 (盛岡市)・岩手郵便局 (北上市)・ゆうちょ銀行 岩手パートナーセンター (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-16",
+      "url": {
+        "ja": "https://www.hohoeminosato.jp/info/data1/220816_17460800b.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "グループホームすまいる2号館 [第3報] (宮古市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-09",
+      "url": {
+        "ja": "http://www.nhokamaishi.jp/modules/mydownloads/visit.php?cid=0&lid=321",
+        "en": null
+      },
+      "text": {
+        "ja": "独立行政法人国立病院機構釜石病院 [第6報] (釜石市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-03",
+      "url": {
+        "ja": "http://www.nhokamaishi.jp/modules/mydownloads/visit.php?cid=0&lid=320",
+        "en": null
+      },
+      "text": {
+        "ja": "独立行政法人国立病院機構釜石病院 [第5報] (釜石市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-02",
+      "url": {
+        "ja": "http://www.nhokamaishi.jp/modules/mydownloads/visit.php?cid=0&lid=319",
+        "en": null
+      },
+      "text": {
+        "ja": "独立行政法人国立病院機構釜石病院 [第4報] (釜石市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2021-04-22",
+      "url": {
+        "ja": "https://www.rakuzankai.jp/swfu/d/info_20210422.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "介護老人保健施設 はまゆりケアセンター (釜石市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-04",
+      "url": {
+        "ja": "https://hori-iin.com/news/%e8%80%b3%e9%bc%bb%e5%92%bd%e5%96%89%e7%a7%91%e8%87%a8%e6%99%82%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/",
+        "en": null
+      },
+      "text": {
+        "ja": "堀耳鼻咽喉科眼科医院 耳鼻咽喉科 (釜石市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-16",
+      "url": {
+        "ja": "https://www.hosp.iwate-med.ac.jp/yahaba-news/yahaba-news-17517/",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手医科大学附属病院 [第4報] (矢巾町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-04",
+      "url": {
+        "ja": "http://www.kojin-hp.jp/publics/index/200/detail=1/b_id=1393/r_id=144",
+        "en": null
+      },
+      "text": {
+        "ja": "孝仁病院 [制限解除] (盛岡市)",
         "en": null
       }
     }
