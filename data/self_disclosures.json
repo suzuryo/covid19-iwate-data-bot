@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-16T15:22:19+09:00",
+  "date": "2022-08-16T16:19:20+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -43503,6 +43503,39 @@
       },
       "text": {
         "ja": "盛岡市立病院 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-06-29",
+      "url": {
+        "ja": "https://tris.iwate.jp/new/%e5%bd%93%e7%a4%be%e7%a4%be%e5%93%a1%e3%81%ae%e6%96%b0%e5%9e%8b%e3%82%b3%e3%83%ad%e3%83%8a%e3%82%a6%e3%82%a4%e3%83%ab%e3%82%b9%e6%84%9f%e6%9f%93%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6-2/",
+        "en": null
+      },
+      "text": {
+        "ja": "トライス (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-08",
+      "url": {
+        "ja": "https://www.kentaku.co.jp/corporate/pr/info/2022/aqehc4000006uo4r-att/corona_kansensha_20220808.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "大東建託 盛岡支店 (盛岡市)・大東建託パートナーズ 盛岡営業所 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-01",
+      "url": {
+        "ja": "https://www.kentaku.co.jp/corporate/pr/info/2022/aqehc4000006pl9z-att/corona_kansensha_20220801.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "ガスパル東北 岩手販売所 (滝沢市)",
         "en": null
       }
     }
