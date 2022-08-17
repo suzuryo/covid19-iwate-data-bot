@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-17T11:45:22+09:00",
+  "date": "2022-08-17T15:23:28+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -43767,6 +43767,72 @@
       },
       "text": {
         "ja": "盛岡公共職業安定所 (盛岡市)・宮古公共職業安定所 (宮古市)・一関労働基準監督署・岩手労働局・盛岡労働基準監督署",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-17",
+      "url": {
+        "ja": "https://karumai-shakyo.or.jp/publics/index/1/detail=1/b_id=1/r_id=116",
+        "en": null
+      },
+      "text": {
+        "ja": "軽米町社会福祉協議会 本部 (軽米町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-16",
+      "url": {
+        "ja": "http://www.fuji-foods.com/news/%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9%E6%84%9F%E6%9F%93%E8%80%85%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B_220816.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "フジフーズ 岩手工場 (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-17",
+      "url": {
+        "ja": "https://www.yakuodo.co.jp/images/upnews/62fc359a4580c.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "薬王堂 [久慈市の店舗]",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-17",
+      "url": {
+        "ja": "https://www.town.karumai.iwate.jp/article/covid-19/health_medical/entry-basename-2.html#:~:text=%E8%81%B7%E5%93%A1%E3%81%AE%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9%E6%84%9F%E6%9F%93%E7%97%87%E3%81%B8%E3%81%AE%E6%84%9F%E6%9F%93%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%EF%BC%88%E4%BB%A4%E5%92%8C%EF%BC%94%E5%B9%B4%EF%BC%98%E6%9C%88%EF%BC%91%EF%BC%96%E6%97%A5%EF%BC%89",
+        "en": null
+      },
+      "text": {
+        "ja": "軽米町職員 [本庁舎] (軽米町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-17",
+      "url": {
+        "ja": "https://www.city.ofunato.iwate.jp/soshiki/soumu/23115.html#:~:text=%E6%9B%B4%E6%96%B0%E6%97%A5%EF%BC%9A-,2022%E5%B9%B48%E6%9C%8817%E6%97%A5%E6%9B%B4%E6%96%B0,-%E4%BB%A4%E5%92%8C%EF%BC%94%E5%B9%B4",
+        "en": null
+      },
+      "text": {
+        "ja": "本庁舎 (大船渡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-17",
+      "url": {
+        "ja": "https://www.town.nishiwaga.lg.jp/kinkyujoho/3123.html#:~:text=%E6%9B%B4%E6%96%B0%E6%97%A5%EF%BC%9A-,2022%E5%B9%B408%E6%9C%8817%E6%97%A5,-%E4%BB%A4%E5%92%8C4%E5%B9%B4",
+        "en": null
+      },
+      "text": {
+        "ja": "西和賀町職員 (西和賀町)",
         "en": null
       }
     }
