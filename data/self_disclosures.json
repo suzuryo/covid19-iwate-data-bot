@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-19T07:32:41+09:00",
+  "date": "2022-08-19T08:17:13+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -44372,6 +44372,17 @@
       },
       "text": {
         "ja": "住友生命 盛岡支社 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-18",
+      "url": {
+        "ja": "https://www.tohoku-bank.co.jp/showimage/pdf?fileNo=1209",
+        "en": null
+      },
+      "text": {
+        "ja": "東北銀行 種市支店 (洋野町)",
         "en": null
       }
     }
