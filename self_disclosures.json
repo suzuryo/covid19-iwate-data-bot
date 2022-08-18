@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-18T09:42:14+09:00",
+  "date": "2022-08-18T12:42:54+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -44031,6 +44031,83 @@
       },
       "text": {
         "ja": "岩手大学 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-12",
+      "url": {
+        "ja": "http://tomori-kai.jp/2022/08/16/2504",
+        "en": null
+      },
+      "text": {
+        "ja": "特別養護老人ホーム みやもり荘 [第2報] (遠野市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-18",
+      "url": {
+        "ja": "https://michinoku.or.jp/wp-content/uploads/2022/08/%e6%84%9f%e6%9f%93%e6%83%85%e5%a0%b1-%ef%bc%88%e7%ac%ac3%e5%a0%b1%ef%bc%89.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "特別養護老人ホーム 富士見荘 (八幡平市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-16",
+      "url": {
+        "ja": "https://www.srg.co.jp/cms/wp-content/uploads/2022/08/covid19-202208.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "白金運輸 北上流通加工センター (北上市)・北上営業所 (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-17",
+      "url": {
+        "ja": "https://www.fukoku-life.co.jp/about/information/download/20220816.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "富国生命保険 岩手営業所 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-17",
+      "url": {
+        "ja": "https://www.vill.noda.iwate.jp/soshiki/somuka/shomubosaihan/seisaku_keikaku/1415.html#:~:text=%E6%9B%B4%E6%96%B0%E6%97%A5%EF%BC%9A-,2022%E5%B9%B408%E6%9C%8817%E6%97%A5,-%E4%BB%A4%E5%92%8C4%E5%B9%B4",
+        "en": null
+      },
+      "text": {
+        "ja": "野田村職員 (野田村)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-17",
+      "url": {
+        "ja": "https://www.vill.noda.iwate.jp/soshiki/somuka/shomubosaihan/seisaku_keikaku/1412.html#:~:text=%E6%9B%B4%E6%96%B0%E6%97%A5%EF%BC%9A-,2022%E5%B9%B408%E6%9C%8817%E6%97%A5,-%E4%BB%A4%E5%92%8C4%E5%B9%B4",
+        "en": null
+      },
+      "text": {
+        "ja": "野田村職員 (野田村)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-18",
+      "url": {
+        "ja": "https://khjd.jp/news/%e5%85%83%e6%b0%97%e3%81%ae%e6%b3%89%e3%83%87%e3%82%a4%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e3%82%bb%e3%83%b3%e3%82%bf%e3%83%bc%e3%81%ab%e3%81%8a%e3%81%91%e3%82%8b%e6%96%b0%e5%9e%8b%e3%82%b3%e3%83%ad/",
+        "en": null
+      },
+      "text": {
+        "ja": "元気の泉デイサービスセンター (久慈市)",
         "en": null
       }
     }
