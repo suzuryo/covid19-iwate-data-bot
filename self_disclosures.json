@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-19T11:08:39+09:00",
+  "date": "2022-08-19T13:08:05+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -44037,7 +44037,7 @@
     {
       "date": "2022-08-12",
       "url": {
-        "ja": "http://tomori-kai.jp/2022/08/16/2504",
+        "ja": "http://tomori-kai.jp/2022/08/12/2500",
         "en": null
       },
       "text": {
@@ -44438,6 +44438,94 @@
       },
       "text": {
         "ja": "岩手銀行 前沢支店 (奥州市)・世田米支店 (住田町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-16",
+      "url": {
+        "ja": "http://tomori-kai.jp/2022/08/16/2504",
+        "en": null
+      },
+      "text": {
+        "ja": "特別養護老人ホーム みやもり荘 (遠野市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-16",
+      "url": {
+        "ja": "https://www.koujyukai.or.jp/relays/download/70/481/176//?file=/files/libs/961/202208161603367341.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "特別養護老人ホーム光寿苑 (西和賀町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-13",
+      "url": {
+        "ja": "https://www.koujyukai.or.jp/relays/download/70/481/174/961/?file=/files/libs/954/202208131207078455.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "特別養護老人ホーム光寿苑 (西和賀町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-10",
+      "url": {
+        "ja": "https://www.koujyukai.or.jp/relays/download/70/481/173/954/?file=/files/libs/952/202208101559125475.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "特別養護老人ホーム光寿苑 (西和賀町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-08",
+      "url": {
+        "ja": "https://www.koujyukai.or.jp/relays/download/70/481/172/952/?file=/files/libs/944/202208081625318818.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "特別養護老人ホーム光寿苑 (西和賀町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-19",
+      "url": {
+        "ja": "https://www.iwate-med.ac.jp/news/n1-information/22081901-soumu/",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手医科大学 (矢巾町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-19",
+      "url": {
+        "ja": "https://www.yakuodo.co.jp/images/upnews/62fed835e0499.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "薬王堂 [花巻市・北上市・久慈市の店舗]",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-18",
+      "url": {
+        "ja": "https://www.yakuodo.co.jp/images/upnews/62fd8a083c776.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "薬王堂 [一関市の店舗]",
         "en": null
       }
     }
