@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-19T17:41:24+09:00",
+  "date": "2022-08-19T21:55:04+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -44647,6 +44647,105 @@
       },
       "text": {
         "ja": "盛岡中央郵便局 (盛岡市)・盛岡北郵便局 (盛岡市)・宮古新町郵便局 (宮古市)・紫波郵便局 (紫波町)・岩手郵便局 (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-17",
+      "url": {
+        "ja": "https://www.jaiwate.or.jp/jabank/wp-content/uploads/2022/08/news_20220817.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "JA岩手県信連 本所 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-19",
+      "url": {
+        "ja": "https://www.kioxia-iwate.co.jp/news/2021/covid-latest.html#:~:text=%E2%96%A0-,%E5%85%AC%E8%A1%A8%E6%97%A5%EF%BC%9A2022%E5%B9%B48%E6%9C%8819%E6%97%A5%EF%BC%88%E9%87%91%EF%BC%89,-%E2%96%A0%E5%85%AC%E8%A1%A8%E6%97%A5%EF%BC%9A2022",
+        "en": null
+      },
+      "text": {
+        "ja": "キオクシア岩手 (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-19",
+      "url": {
+        "ja": "https://www.ichinoseki.ac.jp/covid-19/notice/notice_news.html?id=1937",
+        "en": null
+      },
+      "text": {
+        "ja": "一関工業高等専門学校 (一関市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-19",
+      "url": {
+        "ja": "https://www.iwate-u.ac.jp/coronavirus2020iwate-u.27.html#:~:text=%E5%B2%A9%E6%89%8B%E5%A4%A7%E5%AD%A6%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9%E6%84%9F%E6%9F%93%E7%97%87%E7%BD%B9%E6%82%A3%E8%80%85%E3%81%AE%E7%99%BA%E7%94%9F%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%EF%BC%888/19%EF%BC%89",
+        "en": "https://www.iwate-u.ac.jp/english/coronavirus2020iwate-u.27.eng.html#:~:text=Outbreak%20of%20a%20New%20Coronavirus%20(COVID%2D19)%20Infection%20at%20Iwate%20University%20(8/19)"
+      },
+      "text": {
+        "ja": "岩手大学 (盛岡市)",
+        "en": "Iwate University (Morioka)"
+      }
+    },
+    {
+      "date": "2022-08-19",
+      "url": {
+        "ja": "https://www.iwate-pu.ac.jp/whatsnew/2022/08/post-767.html",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手県立大学 (滝沢市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-18",
+      "url": {
+        "ja": "https://www.iwate-it.ac.jp/news/%e7%94%a3%e6%a5%ad%e6%8a%80%e8%a1%93%e7%9f%ad%e6%9c%9f%e5%a4%a7%e5%ad%a6%e6%a0%a1%e3%81%ab%e3%81%8a%e3%81%91%e3%82%8b%e6%96%b0%e5%9e%8b%e3%82%b3%e3%83%ad%e3%83%8a%e3%82%a6%e3%82%a4%e3%83%ab%e3%82%b9-3/",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手県立産業技術短期大学校 (矢巾町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-19",
+      "url": {
+        "ja": "http://www.ichinohe-hp.com/media/2/r4_8_19______________________________________________.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手県立一戸病院 [精神科救急入院の受入制限等] (一戸町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-19",
+      "url": {
+        "ja": "https://www.city.kamaishi.iwate.jp/docs/2020030900307/file_contents/sisyokuinn0819made.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "総務企画部・その他 (釜石市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-19",
+      "url": {
+        "ja": "https://www.city.kamaishi.iwate.jp/docs/2020030900307/#:~:text=%E4%BB%A4%E5%92%8C4%E5%B9%B48%E6%9C%8818%E6%97%A5%E3%80%81%E5%B8%82%E5%86%85%E5%B0%8F%E5%AD%A6%E6%A0%A1%E3%81%AB%E5%8B%A4%E5%8B%99%E3%81%99%E3%82%8B%E8%81%B7%E5%93%A1",
+        "en": null
+      },
+      "text": {
+        "ja": "市内小学校に勤務する職員 (釜石市)",
         "en": null
       }
     }
