@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-19T13:08:05+09:00",
+  "date": "2022-08-19T15:11:16+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -44526,6 +44526,83 @@
       },
       "text": {
         "ja": "薬王堂 [一関市の店舗]",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-19",
+      "url": {
+        "ja": "https://kozuya-sunburg.jp/important/korona-2/",
+        "en": null
+      },
+      "text": {
+        "ja": "介護老人保健施設こずやサンブルク [収束] (一戸町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-18",
+      "url": {
+        "ja": "http://www.i-shinseikai.jp/relays/download/411/1549/150/9131/?file=/files/libs/9131/202208191345106419.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "新生園 (矢巾町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-18",
+      "url": {
+        "ja": "http://www.i-shinseikai.jp/relays/download/411/1549/151/9132/?file=/files/libs/9132/202208191347025795.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "第二新生園 (矢巾町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-18",
+      "url": {
+        "ja": "http://www.i-shinseikai.jp/relays/download/411/1549/152/9133/?file=/files/libs/9133/202208191348562595.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "あさあけの園 (矢巾町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-18",
+      "url": {
+        "ja": "http://www.i-shinseikai.jp/relays/download/411/1549/153/9134/?file=/files/libs/9134/20220819134958507.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "しんせい (矢巾町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-19",
+      "url": {
+        "ja": "https://www.vill.kunohe.iwate.jp/docs/1858.html",
+        "en": null
+      },
+      "text": {
+        "ja": "村職員 [本庁舎] (九戸村)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-14",
+      "url": {
+        "ja": "https://twitter.com/SABO_Cafe/status/1558730367783567360",
+        "en": null
+      },
+      "text": {
+        "ja": "SABO (滝沢市)",
         "en": null
       }
     }
