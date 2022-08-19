@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-19T15:11:16+09:00",
+  "date": "2022-08-19T16:10:46+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -44541,50 +44541,6 @@
       }
     },
     {
-      "date": "2022-08-18",
-      "url": {
-        "ja": "http://www.i-shinseikai.jp/relays/download/411/1549/150/9131/?file=/files/libs/9131/202208191345106419.pdf",
-        "en": null
-      },
-      "text": {
-        "ja": "新生園 (矢巾町)",
-        "en": null
-      }
-    },
-    {
-      "date": "2022-08-18",
-      "url": {
-        "ja": "http://www.i-shinseikai.jp/relays/download/411/1549/151/9132/?file=/files/libs/9132/202208191347025795.pdf",
-        "en": null
-      },
-      "text": {
-        "ja": "第二新生園 (矢巾町)",
-        "en": null
-      }
-    },
-    {
-      "date": "2022-08-18",
-      "url": {
-        "ja": "http://www.i-shinseikai.jp/relays/download/411/1549/152/9133/?file=/files/libs/9133/202208191348562595.pdf",
-        "en": null
-      },
-      "text": {
-        "ja": "あさあけの園 (矢巾町)",
-        "en": null
-      }
-    },
-    {
-      "date": "2022-08-18",
-      "url": {
-        "ja": "http://www.i-shinseikai.jp/relays/download/411/1549/153/9134/?file=/files/libs/9134/20220819134958507.pdf",
-        "en": null
-      },
-      "text": {
-        "ja": "しんせい (矢巾町)",
-        "en": null
-      }
-    },
-    {
       "date": "2022-08-19",
       "url": {
         "ja": "https://www.vill.kunohe.iwate.jp/docs/1858.html",
@@ -44603,6 +44559,39 @@
       },
       "text": {
         "ja": "SABO (滝沢市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-18",
+      "url": {
+        "ja": "http://www.i-shinseikai.jp/publics/index/411/#block1549-150:~:text=R4.8.18%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9%E6%84%9F%E6%9F%93%E7%8A%B6%E6%B3%81%EF%BC%88%E8%87%AA%E4%B8%BB%E5%85%AC%E8%A1%A8%EF%BC%89",
+        "en": null
+      },
+      "text": {
+        "ja": "新生会 [新生園・第二新生園・あさあけの園・しんせい] (矢巾町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-19",
+      "url": {
+        "ja": "https://koutou-kodomoen.jp/publics/index/1/detail=1/b_id=3/r_id=162",
+        "en": null
+      },
+      "text": {
+        "ja": "野田学園甲東こども園 (釜石市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-19",
+      "url": {
+        "ja": "https://www.town.sumita.iwate.jp/docs/2022072700020/",
+        "en": null
+      },
+      "text": {
+        "ja": "住田町内の学校 (住田町)",
         "en": null
       }
     }
