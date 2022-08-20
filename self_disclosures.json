@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-20T05:19:15+09:00",
+  "date": "2022-08-20T13:58:30+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -44790,6 +44790,39 @@
       },
       "text": {
         "ja": "二戸市職員 (二戸市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-19",
+      "url": {
+        "ja": "https://www.ja-iwatekouseiren.or.jp/wp-content/uploads/2022/08/news_20220818.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "介護⽼⼈保健施設ハートフルもりおか [第2報] (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-16",
+      "url": {
+        "ja": "https://www.ja-iwatekouseiren.or.jp/wp-content/uploads/2022/08/news_20220816.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "介護⽼⼈保健施設ハートフルもりおか (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-20",
+      "url": {
+        "ja": "http://www.sakuraginosato.jp/publics/index/1/detail=1/b_id=1/r_id=436#block1-436",
+        "en": null
+      },
+      "text": {
+        "ja": "特別養護老人ホームさくらぎの里 (盛岡市)",
         "en": null
       }
     }
