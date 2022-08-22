@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-22T20:57:53+09:00",
+  "date": "2022-08-22T21:19:45+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -45329,6 +45329,171 @@
       },
       "text": {
         "ja": "キオクシア岩手 (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-22",
+      "url": {
+        "ja": "https://www.srg.co.jp/cms/wp-content/uploads/2022/08/covid19-202208.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "白金運輸 北上流通加工センター (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-22",
+      "url": {
+        "ja": "https://www.ichinoseki.ac.jp/covid-19/notice/notice_news.html?id=1940",
+        "en": null
+      },
+      "text": {
+        "ja": "一関工業高等専門学校 (一関市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-22",
+      "url": {
+        "ja": "http://ichinoseki-shinkin.jp/info/pdf/20220822_covid19.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "一関信用金庫 駅前支店 (一関市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-22",
+      "url": {
+        "ja": "http://ichinoseki-shinkin.jp/info/pdf/20220822-2_covid19.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "一関信用金庫 駅前支店 (一関市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-18",
+      "url": {
+        "ja": "http://www.morishin.co.jp/news/pdf/20220818_cvirus.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "盛岡信用金庫 六⽇町本部 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-22",
+      "url": {
+        "ja": "http://www.morishin.co.jp/news/pdf/20220822_cvirus.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "盛岡信用金庫 本町支店 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-19",
+      "url": {
+        "ja": "https://www.iwate-uhms.ac.jp/cgi-bin/detail.cgi?f1=1660891040",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手保健医療大学 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-17",
+      "url": {
+        "ja": "https://www.ichinoseki-shakyo.com/news/archives/151",
+        "en": null
+      },
+      "text": {
+        "ja": "デイサービスセンター東山 [第2報] (一関市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-19",
+      "url": {
+        "ja": "https://www.town.ichinohe.iwate.jp/kinkyujoho/4449.html",
+        "en": null
+      },
+      "text": {
+        "ja": "役場庁舎に勤務する職員 (一戸町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-18",
+      "url": {
+        "ja": "https://www.town.ichinohe.iwate.jp/kinkyujoho/4445.html",
+        "en": null
+      },
+      "text": {
+        "ja": "役場庁舎に勤務する職員 (一戸町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-22",
+      "url": {
+        "ja": "http://www.vill.kunohe.iwate.jp/docs/1861.html",
+        "en": null
+      },
+      "text": {
+        "ja": "村職員 [本庁舎] (九戸村)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-19",
+      "url": {
+        "ja": "http://www.vill.kunohe.iwate.jp/docs/1858.html",
+        "en": null
+      },
+      "text": {
+        "ja": "村職員 [本庁舎] (九戸村)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-17",
+      "url": {
+        "ja": "https://www.vill.noda.iwate.jp/soshiki/somuka/shomubosaihan/seisaku_keikaku/1412.html#:~:text=%E6%9C%8817%E6%97%A5%EF%BC%89-,%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9%E6%84%9F%E6%9F%93%E7%97%87%E3%81%AE%E6%9D%91%E8%81%B7%E5%93%A1%E6%84%9F%E6%9F%93%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%EF%BC%88%E4%BB%A4%E5%92%8C4%E5%B9%B48%E6%9C%8817%E6%97%A5%EF%BC%89,-%E6%9B%B4%E6%96%B0%E6%97%A5%EF%BC%9A2022",
+        "en": null
+      },
+      "text": {
+        "ja": "野田村職員 (野田村)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-17",
+      "url": {
+        "ja": "https://www.city.rikuzentakata.iwate.jp/kenko_fukushi/corona/5845.html#:~:text=%E6%9C%AC%E5%B8%82%E8%81%B7%E5%93%A1%E3%81%AE%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9%E6%84%9F%E6%9F%93%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%EF%BC%88%E4%BB%A4%E5%92%8C4%E5%B9%B48%E6%9C%8817%E6%97%A5%E7%A2%BA%E8%AA%8D%EF%BC%89",
+        "en": null
+      },
+      "text": {
+        "ja": "陸前高田市職員 [本庁舎] (陸前高田市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-19",
+      "url": {
+        "ja": "https://www.city.rikuzentakata.iwate.jp/kenko_fukushi/corona/5845.html#:~:text=%E6%9C%AC%E5%B8%82%E8%81%B7%E5%93%A1%E3%81%AE%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9%E6%84%9F%E6%9F%93%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%EF%BC%88%E4%BB%A4%E5%92%8C4%E5%B9%B48%E6%9C%8819%E6%97%A5%E7%A2%BA%E8%AA%8D%EF%BC%89",
+        "en": null
+      },
+      "text": {
+        "ja": "陸前高田市職員 [外局] (陸前高田市)",
         "en": null
       }
     }
