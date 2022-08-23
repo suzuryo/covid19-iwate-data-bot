@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-23T16:18:07+09:00",
+  "date": "2022-08-23T17:32:48+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -45813,6 +45813,50 @@
       },
       "text": {
         "ja": "宮古山口病院 (宮古市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-23",
+      "url": {
+        "ja": "http://mizusawa-kousya.sakura.ne.jp/korona_2022_08_23.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "水沢環境公社 (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-22",
+      "url": {
+        "ja": "https://www.e-nexco.co.jp/news/cms_assets/news/2022/08/22/08.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "E4 東北自動車道 岩手山SA 下り線 (八幡平市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-22",
+      "url": {
+        "ja": "https://www.e-nexco.co.jp/news/cms_assets/news/2022/08/22/23.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "NEXCO東日本 グループ会社 (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-22",
+      "url": {
+        "ja": "https://www.e-nexco.co.jp/news/cms_assets/news/2022/08/22/37.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "E46 釜石自動車道 花巻空港料金所 (花巻市)",
         "en": null
       }
     }
