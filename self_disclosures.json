@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-24T21:28:25+09:00",
+  "date": "2022-08-24T22:14:13+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -46363,6 +46363,39 @@
       },
       "text": {
         "ja": "盛岡北郵便局 (盛岡市)・花巻温泉郵便局 (花巻市)・盛岡中央郵便局かんぽサービス部 (盛岡市)・二戸郵便局かんぽサービス部 (二戸市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-22",
+      "url": {
+        "ja": "https://www.yakuodo.co.jp/images/upnews/6302cf74b0aca.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "薬王堂 [盛岡市・久慈市・八幡平市・上閉伊郡の店舗]",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-23",
+      "url": {
+        "ja": "https://www.yakuodo.co.jp/images/upnews/63048142b89e3.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "薬王堂 [盛岡市・二戸市・宮古市・釜石市・岩手郡の店舗]",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-24",
+      "url": {
+        "ja": "https://www.yakuodo.co.jp/images/upnews/6305dec088a2e.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "薬王堂 [盛岡市・釜石市・岩手郡の店舗]",
         "en": null
       }
     }
