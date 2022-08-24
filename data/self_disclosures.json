@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-25T01:07:14+09:00",
+  "date": "2022-08-25T07:35:50+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -46726,6 +46726,17 @@
       },
       "text": {
         "ja": "遠野長寿の郷 (遠野市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-23",
+      "url": {
+        "ja": "https://www.mizuichi.ed.jp/cgi-bin/detail.cgi?kind=2&type=v&f1=1617347718",
+        "en": null
+      },
+      "text": {
+        "ja": "水沢第一高等学校 (奥州市)",
         "en": null
       }
     }
