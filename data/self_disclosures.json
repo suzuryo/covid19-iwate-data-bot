@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-24T15:08:24+09:00",
+  "date": "2022-08-24T17:10:45+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -45669,7 +45669,7 @@
         "en": null
       },
       "text": {
-        "ja": "市内小学校に勤務する職員 (釜石市)",
+        "ja": "市内小中学校に勤務する職員 (釜石市)",
         "en": null
       }
     },
@@ -46165,6 +46165,83 @@
       },
       "text": {
         "ja": "西和賀町職員 (西和賀町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-24",
+      "url": {
+        "ja": "http://aigokai.sakura.ne.jp/sblo_files/aigokaijyouzanen/image/E7ACAC2E5A0B1.jpg",
+        "en": null
+      },
+      "text": {
+        "ja": "障がい者支援施設静山園 [第2報] (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-23",
+      "url": {
+        "ja": "http://www.morishin.co.jp/news/pdf/20220823_cvirus.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "盛岡信用金庫 本店 (盛岡市)・厨川支店 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-22",
+      "url": {
+        "ja": "http://www.fuji-foods.com/news/%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9%E6%84%9F%E6%9F%93%E8%80%85%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B_220822.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "フジフーズ 岩手工場 (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-19",
+      "url": {
+        "ja": "https://www.warabeya.co.jp/ja/news2/news2-6063078644320191229/main/0/link/20220819oshirase.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "わらべや日洋食品 岩手工場 (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-24",
+      "url": {
+        "ja": "https://www.city.kamaishi.iwate.jp/docs/2020030900307/#:~:text=%E4%BB%A4%E5%92%8C4%E5%B9%B48%E6%9C%8822%E6%97%A5%E3%80%81%E5%B8%82%E5%86%85%E5%B0%8F%E5%AD%A6%E6%A0%A1%E3%81%AB%E5%8B%A4%E5%8B%99%E3%81%99%E3%82%8B%E8%81%B7%E5%93%A1",
+        "en": null
+      },
+      "text": {
+        "ja": "市内小学校に勤務する職員 (釜石市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-24",
+      "url": {
+        "ja": "https://www.city.kamaishi.iwate.jp/docs/2020030900307/file_contents/sisyokuinkansen0824made.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "保健福祉部・総務企画部 (釜石市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-24",
+      "url": {
+        "ja": "http://www.miyako-hp.jp/media/2/20220824-r4_8_24_____________________________________________.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手県立宮古病院 [第1報 院内感染の発生] (宮古市)",
         "en": null
       }
     }
