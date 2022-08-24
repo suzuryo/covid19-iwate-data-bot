@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-24T23:26:44+09:00",
+  "date": "2022-08-25T00:10:25+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -44068,7 +44068,7 @@
       }
     },
     {
-      "date": "2022-08-17",
+      "date": "2022-08-16",
       "url": {
         "ja": "https://www.fukoku-life.co.jp/about/information/download/20220816.pdf",
         "en": null
@@ -46407,6 +46407,314 @@
       },
       "text": {
         "ja": "中田薬局 (釜石市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-24",
+      "url": {
+        "ja": "https://www.nissay.co.jp/coronavirusoshirase/infomation/#:~:text=%E5%8C%97%E5%8C%BA%E5%A0%82%E5%B1%B1%E7%94%BA-,8%E6%9C%8823%E6%97%A5,%E5%B2%A9%E6%89%8B%E7%9C%8C%E7%9B%9B%E5%B2%A1%E5%B8%82%E4%B8%8A%E5%A0%82,-8%E6%9C%8823",
+        "en": null
+      },
+      "text": {
+        "ja": "日本生命 (奥州市・宮古市・盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-23",
+      "url": {
+        "ja": "https://www.nissay.co.jp/coronavirusoshirase/infomation/#:~:text=%E5%8C%97%EF%BC%97%E6%9D%A1%E8%A5%BF-,8%E6%9C%8822%E6%97%A5,%E5%B2%A9%E6%89%8B%E7%9C%8C%E5%8C%97%E4%B8%8A%E5%B8%82%E5%A4%A7%E9%80%9A%E3%82%8A,-8%E6%9C%8822",
+        "en": null
+      },
+      "text": {
+        "ja": "日本生命 (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-19",
+      "url": {
+        "ja": "https://www.nissay.co.jp/coronavirusoshirase/infomation/#:~:text=%E6%9D%BE%E6%88%B8%E5%B8%82%E4%BA%94%E9%A6%99%E5%85%AD%E5%AE%9F-,8%E6%9C%8818%E6%97%A5,%E5%B2%A9%E6%89%8B%E7%9C%8C%E9%87%9C%E7%9F%B3%E5%B8%82%E4%B8%AD%E5%A6%BB%E7%94%BA,-8%E6%9C%8818",
+        "en": null
+      },
+      "text": {
+        "ja": "日本生命 (盛岡市・釜石市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-18",
+      "url": {
+        "ja": "https://www.nissay.co.jp/coronavirusoshirase/infomation/#:~:text=%E9%83%A1%E5%A4%A7%E6%B2%B3%E5%8E%9F%E7%94%BA-,8%E6%9C%8818%E6%97%A5,%E5%B2%A9%E6%89%8B%E7%9C%8C%E7%9B%9B%E5%B2%A1%E5%B8%82%E4%B8%8A%E5%A0%82,-8%E6%9C%8818",
+        "en": null
+      },
+      "text": {
+        "ja": "日本生命 (奥州市・宮古市・盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-17",
+      "url": {
+        "ja": "https://www.nissay.co.jp/coronavirusoshirase/infomation/#:~:text=%E5%B8%82%E8%A5%BF%E4%B8%89%E6%9D%A1%E5%8D%97-,8%E6%9C%8817%E6%97%A5,%E5%B2%A9%E6%89%8B%E7%9C%8C%E4%B8%8B%E9%96%89%E4%BC%8A%E9%83%A1%E5%B1%B1%E7%94%B0%E7%94%BA,-8%E6%9C%8817",
+        "en": null
+      },
+      "text": {
+        "ja": "日本生命 (山田町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-17",
+      "url": {
+        "ja": "https://www.nissay.co.jp/coronavirusoshirase/infomation/#:~:text=%E5%B8%82%E6%B2%A2%E6%B8%A1%E7%94%BA-,8%E6%9C%8816%E6%97%A5,%E5%B2%A9%E6%89%8B%E7%9C%8C%E7%9B%9B%E5%B2%A1%E5%B8%82%E5%A4%A7%E9%80%9A,-8%E6%9C%8816",
+        "en": null
+      },
+      "text": {
+        "ja": "日本生命 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-15",
+      "url": {
+        "ja": "https://www.nissay.co.jp/coronavirusoshirase/infomation/#:~:text=%E5%B8%82%E4%B8%AD%E5%A4%AE%E7%94%BA-,8%E6%9C%8815%E6%97%A5,%E5%B2%A9%E6%89%8B%E7%9C%8C%E7%9B%9B%E5%B2%A1%E5%B8%82%E5%A4%A7%E9%80%9A,-8%E6%9C%8815",
+        "en": null
+      },
+      "text": {
+        "ja": "日本生命 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-14",
+      "url": {
+        "ja": "https://www.nissay.co.jp/coronavirusoshirase/infomation/#:~:text=%E5%B8%82%E4%B8%89%E6%A9%8B%E7%94%BA-,8%E6%9C%8814%E6%97%A5,%E5%B2%A9%E6%89%8B%E7%9C%8C%E5%8C%97%E4%B8%8A%E5%B8%82%E5%A4%A7%E9%80%9A%E3%82%8A,-8%E6%9C%8814",
+        "en": null
+      },
+      "text": {
+        "ja": "日本生命 (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-13",
+      "url": {
+        "ja": "https://www.nissay.co.jp/coronavirusoshirase/infomation/#:~:text=%E5%A4%A7%E5%88%86%E5%B8%82%E6%9D%BE%E5%8E%9F%E7%94%BA-,8%E6%9C%8813%E6%97%A5,%E5%B2%A9%E6%89%8B%E7%9C%8C%E7%9B%9B%E5%B2%A1%E5%B8%82%E5%A4%A7%E9%80%9A,-8%E6%9C%8813",
+        "en": null
+      },
+      "text": {
+        "ja": "日本生命 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-12",
+      "url": {
+        "ja": "https://www.nissay.co.jp/coronavirusoshirase/infomation/#:~:text=%E4%B8%87%E6%89%8D%E7%94%BA-,8%E6%9C%8812%E6%97%A5,%E5%B2%A9%E6%89%8B%E7%9C%8C%E7%B4%AB%E6%B3%A2%E9%83%A1%E7%9F%A2%E5%B7%BE%E7%94%BA%E9%A7%85%E6%9D%B1,-8%E6%9C%8812",
+        "en": null
+      },
+      "text": {
+        "ja": "日本生命 (矢巾町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-23",
+      "url": {
+        "ja": "https://www.dnp.co.jp/news/topic/sustainability/220823.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "大日本印刷 盛岡事業所 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-23",
+      "url": {
+        "ja": "https://www.nnlife.co.jp/library/pdf/company/messages/2022/220823.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "エヌエヌ生命保険 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-23",
+      "url": {
+        "ja": "https://www.misterdonut.jp/topics/cv_info/pdf/cv_list_202208.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "ミスタードナツ花巻ショップ (花巻市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-19",
+      "url": {
+        "ja": "https://www.kentaku.co.jp/corporate/pr/info/2022/aqehc4000006xxz6-att/corona_kansensha_20220819.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "大東建託 北上支店 (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-23",
+      "url": {
+        "ja": "https://www.standard-k.co.jp/news/covid-19/#:~:text=%E6%8B%A0%E7%82%B9(%E6%89%80%E5%9C%A8%E5%9C%B0)%EF%BC%9AJOYSOUND%E7%9B%9B%E5%B2%A1%E5%A4%A7%E9%80%9A%E3%82%8A%E5%BA%97%EF%BC%88%E5%B2%A9%E6%89%8B%E7%9C%8C%E7%9B%9B%E5%B2%A1%E5%B8%82%EF%BC%89%0A%E6%84%9F%E6%9F%93%E8%80%85%EF%BC%9A1%E4%BA%BA%0A%E9%99%BD%E6%80%A7%E5%88%A4%E6%98%8E%EF%BC%9A8%E6%9C%8819%E6%97%A5(%E9%87%91)%0A%E6%9C%80%E7%B5%82%E5%87%BA%E5%8B%A4%E6%97%A5%EF%BC%9A8%E6%9C%8815%E6%97%A5(%E6%9C%88)",
+        "en": null
+      },
+      "text": {
+        "ja": "JOYSOUND盛岡大通り店 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-05",
+      "url": {
+        "ja": "https://www.standard-k.co.jp/news/covid-19/#:~:text=%EF%BC%9C2022%E5%B9%B48%E6%9C%885%E6%97%A5%E5%85%AC%E8%A1%A8%EF%BC%9E%0A%E6%8B%A0%E7%82%B9(%E6%89%80%E5%9C%A8%E5%9C%B0)%EF%BC%9AJOYSOUND%E7%9B%9B%E5%B2%A1%E5%A4%A7%E9%80%9A%E3%82%8A%E5%BA%97%EF%BC%88%E5%B2%A9%E6%89%8B%E7%9C%8C%E7%9B%9B%E5%B2%A1%E5%B8%82%EF%BC%89%0A%E6%84%9F%E6%9F%93%E8%80%85%EF%BC%9A1%E4%BA%BA%0A%E9%99%BD%E6%80%A7%E5%88%A4%E6%98%8E%EF%BC%9A8%E6%9C%881%E6%97%A5(%E6%9C%88)%0A%E6%9C%80%E7%B5%82%E5%87%BA%E5%8B%A4%E6%97%A5%EF%BC%9A7%E6%9C%8827%E6%97%A5(%E6%B0%B4)",
+        "en": null
+      },
+      "text": {
+        "ja": "JOYSOUND盛岡大通り店 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-23",
+      "url": {
+        "ja": "https://ni-iwate.nissan-dealer.jp/content/dam/nissan/0130_%E5%B2%A9%E6%89%8B%E6%97%A5%E7%94%A3%E8%87%AA%E5%8B%95%E8%BB%8A%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE/000_%E5%85%B1%E9%80%9A/%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/20220822_covid.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手日産自動車 大船渡店 (大船渡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-22",
+      "url": {
+        "ja": "https://blog.nissan.co.jp/DEALER/0130/140/entry23",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手日産自動車 大船渡店 (大船渡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-23",
+      "url": {
+        "ja": "https://www.fukoku-life.co.jp/about/information/download/20220823.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "富国生命保険 盛岡支店 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-24",
+      "url": {
+        "ja": "https://www.srg.co.jp/cms/wp-content/uploads/2022/08/covid19-202208.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "白金運輸 北上流通加工センター (北上市)・江刺工業団地内 (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-23",
+      "url": {
+        "ja": "https://www.itoyokado.co.jp/__resources__/0cce4fd6-8ad5-4cc6-bd0d-72eb4fa585f5.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "イトーヨーカドー花巻店 [オバラメガネ・従業員食堂・惣菜売場・ミスタードーナツ] (花巻市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-20",
+      "url": {
+        "ja": "https://www.city.ninohe.lg.jp/div/hisho-jinji/pdf/colona/R040820_colonayousei.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "二戸市職員 (二戸市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-23",
+      "url": {
+        "ja": "https://www.city.ninohe.lg.jp/div/hisho-jinji/pdf/colona/R040823_colonayousei.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "二戸市職員 (二戸市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-24",
+      "url": {
+        "ja": "https://www.city.ninohe.lg.jp/div/hisho-jinji/pdf/colona/R040824-02_colonayousei.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "二戸市職員 (二戸市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-24",
+      "url": {
+        "ja": "https://www.city.rikuzentakata.iwate.jp/soshiki/gikaijimukyoku/1_1/6541.html",
+        "en": null
+      },
+      "text": {
+        "ja": "陸前高田市議会議員 (陸前高田市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-22",
+      "url": {
+        "ja": "http://www.oshu-shakyo.jp/wp-content/uploads/2022/08/20220817.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "奥州市社会福祉協議会 生活応援課 (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-22",
+      "url": {
+        "ja": "https://ishii1969.com/wp-content/uploads/2022/07/2395d7126d1718ab71a42856bbdf6495.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "イシイ さんさ農場 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-07-22",
+      "url": {
+        "ja": "https://ishii1969.com/wp-content/uploads/2022/07/65b422fdf6d3a95f59d6b9b991f098ec.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "イシイ さんさ農場 (盛岡市)",
         "en": null
       }
     }
