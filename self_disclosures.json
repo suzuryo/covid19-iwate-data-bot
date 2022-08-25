@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-25T15:16:51+09:00",
+  "date": "2022-08-25T18:43:56+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -46891,6 +46891,83 @@
       },
       "text": {
         "ja": "西和賀町職員 (西和賀町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-25",
+      "url": {
+        "ja": "https://hanamaki.hosp.go.jp/#:~:text=%EF%BC%9C%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9%E6%84%9F%E6%9F%93%E7%97%87%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E7%97%85%E9%99%A2%E3%81%8B%E3%82%89%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%EF%BC%88%E7%AC%AC%EF%BC%93%EF%BC%91%E5%A0%B1%EF%BC%89%EF%BC%9E",
+        "en": null
+      },
+      "text": {
+        "ja": "国立病院機構花巻病院 (花巻市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-25",
+      "url": {
+        "ja": "https://www.ichinoseki.ac.jp/covid-19/notice/notice_news.html?id=1946",
+        "en": null
+      },
+      "text": {
+        "ja": "一関工業高等専門学校 (一関市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-25",
+      "url": {
+        "ja": "https://www.yakuodo.co.jp/images/upnews/6306dc25d4141.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "薬王堂 [盛岡市の店舗]",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-25",
+      "url": {
+        "ja": "https://chuo-hp.jp/#:~:text=%E3%81%9F%E3%81%97%E3%81%BE%E3%81%99%E3%80%82-,%E4%BB%A4%E5%92%8C4%E5%B9%B48%E6%9C%8825%E6%97%A5,-%E7%97%85%E9%99%A2%E9%95%B7%E3%80%80%E5%AE%AE%E7%94%B0",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手県立中央病院 [消化器内科 診療制限] (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-25",
+      "url": {
+        "ja": "https://www.japanpost.jp/information/notices2_list.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "盛岡北郵便局 (盛岡市)・花巻温泉郵便局 (花巻市)・山根郵便局 (久慈市)・磐清水簡易郵便局 (一関市)・金ヶ崎郵便局 (金ケ崎町)・大槌郵便局 (大槌町)・かんぽ生命保険 盛岡支店 (盛岡市)・盛岡中央郵便局かんぽサービス部 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-25",
+      "url": {
+        "ja": "https://www.e-nexco.co.jp/news/cms_assets/news/2022/08/25/07.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "E4 東北自動車道 紫波SA 下り線 家族亭 (紫波町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-25",
+      "url": {
+        "ja": "https://www.e-nexco.co.jp/news/cms_assets/news/2022/08/25/26.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "E46 釜石自動車道 花巻空港料金所 (花巻市)",
         "en": null
       }
     }
