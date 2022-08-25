@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-25T08:29:42+09:00",
+  "date": "2022-08-25T09:31:22+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -46770,6 +46770,28 @@
       },
       "text": {
         "ja": "軽米町職員 [本庁舎外] (軽米町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-20",
+      "url": {
+        "ja": "https://www.city.ofunato.iwate.jp/soshiki/soumu/23115.html#:~:text=%E4%BB%A4%E5%92%8C%EF%BC%94%E5%B9%B4%EF%BC%98%E6%9C%8819%E6%97%A5%E3%80%81%E6%9C%AC%E5%B8%82%E8%81%B7%E5%93%A1%E3%81%AE%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9%E6%84%9F%E6%9F%93%E3%81%8C%E7%A2%BA%E8%AA%8D%E3%81%95%E3%82%8C%E3%81%BE%E3%81%97%E3%81%9F%E3%81%AE%E3%81%A7%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%E3%81%97%E3%81%BE%E3%81%99%E3%80%82",
+        "en": null
+      },
+      "text": {
+        "ja": "本庁舎 (大船渡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-25",
+      "url": {
+        "ja": "https://www.iwatebank.co.jp/assets/pdf/20220825_covid_news.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手銀行 本店営業部 (盛岡市)・北上支店 (北上市)",
         "en": null
       }
     }
