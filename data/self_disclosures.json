@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-26T12:03:15+09:00",
+  "date": "2022-08-26T15:20:04+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -47133,6 +47133,28 @@
       },
       "text": {
         "ja": "岩手県立産業技術短期大学校 (矢巾町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-26",
+      "url": {
+        "ja": "http://aigokaijyouzanen.sblo.jp/article/189774003.html",
+        "en": null
+      },
+      "text": {
+        "ja": "障がい者支援施設静山園 [第4報] (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-25",
+      "url": {
+        "ja": "http://aigokaijyouzanen.sblo.jp/article/189771922.html",
+        "en": null
+      },
+      "text": {
+        "ja": "障がい者支援施設静山園 [第3報] (奥州市)",
         "en": null
       }
     }
