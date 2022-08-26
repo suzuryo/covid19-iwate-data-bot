@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-26T20:50:50+09:00",
+  "date": "2022-08-26T21:14:22+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -47716,6 +47716,72 @@
       },
       "text": {
         "ja": "盛岡市立病院 [第2報] (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-26",
+      "url": {
+        "ja": "http://www.fuji-u.ac.jp/news/news-covid/57968",
+        "en": null
+      },
+      "text": {
+        "ja": "富士大学 (花巻市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-24",
+      "url": {
+        "ja": "http://www.fuji-foods.com/news/%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9%E6%84%9F%E6%9F%93%E8%80%85%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B_220824.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "フジフーズ 岩手工場 (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-22",
+      "url": {
+        "ja": "http://www.fuji-foods.com/news/%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9%E6%84%9F%E6%9F%93%E8%80%85%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B_220822.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "フジフーズ 岩手工場 (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-25",
+      "url": {
+        "ja": "https://www.kioxia-iwate.co.jp/news/2021/covid-latest.html#:~:text=%E2%96%A0-,%E5%85%AC%E8%A1%A8%E6%97%A5%EF%BC%9A2022%E5%B9%B48%E6%9C%8825%E6%97%A5%EF%BC%88%E6%9C%A8%EF%BC%89,-%E2%96%A0%E5%85%AC%E8%A1%A8%E6%97%A5%EF%BC%9A2022",
+        "en": null
+      },
+      "text": {
+        "ja": "キオクシア岩手 (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-26",
+      "url": {
+        "ja": "https://www.kioxia-iwate.co.jp/news/2021/covid-latest.html#:~:text=%E2%96%A0-,%E5%85%AC%E8%A1%A8%E6%97%A5%EF%BC%9A2022%E5%B9%B48%E6%9C%8826%E6%97%A5%EF%BC%88%E9%87%91%EF%BC%89,-%E2%96%A0%E5%85%AC%E8%A1%A8%E6%97%A5%EF%BC%9A2022",
+        "en": null
+      },
+      "text": {
+        "ja": "キオクシア岩手 (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-26",
+      "url": {
+        "ja": "https://www.japanpost.jp/information/notices2_latest.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "山根郵便局 [業務を休止] (久慈市)",
         "en": null
       }
     }
