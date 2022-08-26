@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-26T10:01:12+09:00",
+  "date": "2022-08-26T10:16:50+09:00",
   "newsItems": [
     {
       "date": "2020-07-31",
@@ -178,17 +178,6 @@
       }
     },
     {
-      "date": "2022-07-13",
-      "url": {
-        "ja": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/050/145/shiori3.pdf",
-        "en": null
-      },
-      "text": {
-        "ja": "自宅療養のしおり [第3版]",
-        "en": null
-      }
-    },
-    {
       "date": "2022-03-29",
       "url": {
         "ja": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/050/416/20220329_02_3.pdf",
@@ -251,6 +240,17 @@
       },
       "text": {
         "ja": "岩手県 新型コロナウイルス感染症対策本部 第61回 本部員会議",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-25",
+      "url": {
+        "ja": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/050/145/shiori4.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "自宅療養のしおり [第4版]",
         "en": null
       }
     }
