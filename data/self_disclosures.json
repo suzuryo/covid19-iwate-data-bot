@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-26T10:16:50+09:00",
+  "date": "2022-08-26T12:03:15+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -47067,6 +47067,72 @@
       },
       "text": {
         "ja": "岩手銀行 雫石支店 (雫石町)・金ケ崎支店 (金ケ崎町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-26",
+      "url": {
+        "ja": "https://www.hohoeminosato.jp/info/data1/220826_10362400b.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "グループホームすまいる2号館 [第5報 収束] (宮古市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-18",
+      "url": {
+        "ja": "https://www.hohoeminosato.jp/info/data1/220818_18424700b.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "グループホームすまいる2号館 [第4報] (宮古市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-26",
+      "url": {
+        "ja": "http://www.vill.kunohe.iwate.jp/docs/1868.html",
+        "en": null
+      },
+      "text": {
+        "ja": "村職員 [本庁舎] (九戸村)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-26",
+      "url": {
+        "ja": "https://www.yakuodo.co.jp/images/upnews/63080e656ec28.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "薬王堂 [花巻市・北上市の店舗]",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-25",
+      "url": {
+        "ja": "https://www.nta.go.jp/data2/040825_02.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "二戸税務署 (二戸市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-23",
+      "url": {
+        "ja": "https://www.iwate-it.ac.jp/news/%e7%94%a3%e6%a5%ad%e6%8a%80%e8%a1%93%e7%9f%ad%e6%9c%9f%e5%a4%a7%e5%ad%a6%e6%a0%a1%e3%81%ab%e3%81%8a%e3%81%91%e3%82%8b%e6%96%b0%e5%9e%8b%e3%82%b3%e3%83%ad%e3%83%8a%e3%82%a6%e3%82%a4%e3%83%ab%e3%82%b9-2/#:~:text=%E7%94%A3%E6%A5%AD%E6%8A%80%E8%A1%93%E7%9F%AD%E6%9C%9F%E5%A4%A7%E5%AD%A6%E6%A0%A1%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9%E6%84%9F%E6%9F%93%E7%97%87%E6%82%A3%E8%80%85%E3%81%AE%E7%99%BA%E7%94%9F%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%EF%BC%888%E6%9C%8823%E6%97%A5%EF%BC%89",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手県立産業技術短期大学校 (矢巾町)",
         "en": null
       }
     }
