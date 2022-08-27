@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-27T15:08:29+09:00",
+  "date": "2022-08-27T16:55:09+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -48046,6 +48046,28 @@
       },
       "text": {
         "ja": "障害者支援施設 松風園 [第1報] (花巻市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-25",
+      "url": {
+        "ja": "https://www.city.kuji.iwate.jp/kosodate/kyoiku/kyoikugyosei/corona_kyukou_1_1_1.html#:~:text=8%E6%9C%8825%E6%97%A5%EF%BC%88%E6%9C%A8%E6%9B%9C%E6%97%A5,8%E6%9C%8826%E6%97%A5%EF%BC%88%E9%87%91%E6%9B%9C%E6%97%A5%EF%BC%89",
+        "en": null
+      },
+      "text": {
+        "ja": "久慈市立の小中学校 [臨時休業の状況] (久慈市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-25",
+      "url": {
+        "ja": "https://tanimura-fs.com/free/covid-19#:~:text=%E8%80%85%E7%99%BA%E7%94%9F%E7%8A%B6%E6%B3%81-,2022%E5%B9%B48%E6%9C%8825%E6%97%A5%E5%85%AC%E8%A1%A8,-%E5%BC%8A%E7%A4%BE%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E3%82%B3%E3%83%AD%E3%83%8A",
+        "en": null
+      },
+      "text": {
+        "ja": "タニムラフードサービス (久慈市)",
         "en": null
       }
     }
