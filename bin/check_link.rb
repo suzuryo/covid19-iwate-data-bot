@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
+require 'digest'
 require 'typhoeus'
 require 'slack-notifier'
 
@@ -17,7 +18,7 @@ def check_urls(urls)
       headers: {
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'
       },
-      method: :head,
+      method: :get,
       followlocation: true,
       timeout: 3
     )
@@ -29,7 +30,10 @@ def check_urls(urls)
 
   slack_msg = ''
   requests.map do |request|
-    slack_msg += "#{Time.now}\n#{request.response.response_code} #{request.base_url}\n" if request.response.response_code != 200
+    hexdigest = Digest::SHA256.hexdigest(request.response.body)
+    response_code = request.response.response_code
+    slack_msg += "#{Time.now}\n#{hexdigest}" if hexdigest != '465118ee4c825345259a7fc5f0e0ac6871e04d7e7ac3d78e694676dfaedec83c'
+    slack_msg += "#{Time.now}\n#{response_code} #{request.base_url}\n" if response_code != 200
   end
 
   return if slack_msg.size.zero?
