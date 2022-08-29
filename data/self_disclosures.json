@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-29T10:57:07+09:00",
+  "date": "2022-08-29T15:06:16+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -48167,6 +48167,39 @@
       },
       "text": {
         "ja": "わらべや日洋食品 岩手工場 (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-27",
+      "url": {
+        "ja": "https://www.town.ichinohe.iwate.jp/kinkyujoho/4460.html",
+        "en": null
+      },
+      "text": {
+        "ja": "役場庁舎に勤務する職員 (一戸町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-29",
+      "url": {
+        "ja": "http://aigokaijyouzanen.sblo.jp/article/189780354.html",
+        "en": null
+      },
+      "text": {
+        "ja": "障がい者支援施設静山園 [第4報] (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-29",
+      "url": {
+        "ja": "https://www.city.kamaishi.iwate.jp/docs/2020030900307/file_contents/sisyokuin0829made.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "保健福祉部 [保健福祉センター] (釜石市)",
         "en": null
       }
     }
