@@ -32,7 +32,7 @@ def check_urls(urls)
   requests.map do |request|
     hexdigest = Digest::SHA256.hexdigest(request.response.body)
     response_code = request.response.response_code
-    slack_msg += "#{Time.now}\n#{hexdigest}" if hexdigest != '465118ee4c825345259a7fc5f0e0ac6871e04d7e7ac3d78e694676dfaedec83c'
+    slack_msg += "#{Time.now}\n#{hexdigest}\n" if hexdigest != '465118ee4c825345259a7fc5f0e0ac6871e04d7e7ac3d78e694676dfaedec83c'
     slack_msg += "#{Time.now}\n#{response_code} #{request.base_url}\n" if response_code != 200
   end
 
