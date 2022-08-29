@@ -6,7 +6,7 @@ require 'typhoeus'
 require 'slack-notifier'
 
 urls = %w[
-  https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/052/938/040821_itiran2.pdf
+  https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/052/938/shinryokensalist_040820-3.pdf
 ]
 
 def check_urls(urls)
@@ -32,7 +32,7 @@ def check_urls(urls)
   requests.map do |request|
     hexdigest = Digest::SHA256.hexdigest(request.response.body)
     response_code = request.response.response_code
-    slack_msg += "#{Time.now}\n#{hexdigest}\n" if hexdigest != '465118ee4c825345259a7fc5f0e0ac6871e04d7e7ac3d78e694676dfaedec83c'
+    slack_msg += "#{Time.now}\n#{hexdigest}\n" if hexdigest != 'fa129c17d2c78d2b066df0d30994c51fe8a50f1ae76f177a9785242c183da27d'
     slack_msg += "#{Time.now}\n#{response_code} #{request.base_url}\n" if response_code != 200
   end
 
