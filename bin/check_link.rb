@@ -46,7 +46,7 @@ def check_urls(urls)
              username: 'check_link'
   end
   notifier.ping slack_msg
-  raise 'slack_msg is not blank'
+  raise 'slack_msg is not blank' unless slack_msg.size.zero?
 end
 
 check_urls(urls)
