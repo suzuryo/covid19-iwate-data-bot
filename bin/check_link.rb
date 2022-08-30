@@ -38,6 +38,8 @@ def check_urls(urls)
 
   return if slack_msg.size.zero?
 
+  p slack_msg
+
   # When slack_msg is not blank
   notifier = Slack::Notifier.new ENV.fetch('SLACK_WEBHOOK', nil) do
     defaults channel: '#check_link',
