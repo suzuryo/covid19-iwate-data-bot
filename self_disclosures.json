@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-30T10:00:34+09:00",
+  "date": "2022-08-30T12:45:52+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -48519,6 +48519,17 @@
       },
       "text": {
         "ja": "キオクシア岩手 (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-30",
+      "url": {
+        "ja": "https://www.town.nishiwaga.lg.jp/gyosei_shigoto_sangyo/jinji_saiyo_shokuin/2/3124.html#:~:text=%E6%9B%B4%E6%96%B0%E6%97%A5%EF%BC%9A-,2022%E5%B9%B408%E6%9C%8830%E6%97%A5,-%E4%BB%A4%E5%92%8C4%E5%B9%B4",
+        "en": null
+      },
+      "text": {
+        "ja": "西和賀町職員 (西和賀町)",
         "en": null
       }
     }
