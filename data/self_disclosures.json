@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-30T15:46:04+09:00",
+  "date": "2022-08-30T16:44:35+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -48629,6 +48629,17 @@
       },
       "text": {
         "ja": "薬王堂 [盛岡市・花巻市・奥州市・九戸郡の店舗]",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-30",
+      "url": {
+        "ja": "https://www.meijiyasuda.co.jp/profile/news/info/information398.html#:~:text=%E6%94%AF%E7%A4%BE%E3%80%81%E9%9D%92%E6%A3%AE%E6%94%AF%E7%A4%BE%E3%80%81-,%E7%9B%9B%E5%B2%A1%E6%94%AF%E7%A4%BE,-%E3%80%81%E6%96%B0%E6%BD%9F%E6%94%AF%E7%A4%BE%E3%80%81%E5%AF%8C%E5%B1%B1",
+        "en": null
+      },
+      "text": {
+        "ja": "明治安田生命 盛岡支社 (盛岡市)",
         "en": null
       }
     }
