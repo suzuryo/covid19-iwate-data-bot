@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-30T23:21:05+09:00",
+  "date": "2022-08-31T08:41:43+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -44356,7 +44356,7 @@
     {
       "date": "2022-08-18",
       "url": {
-        "ja": "https://www.sumitomolife.co.jp/infolist/coronavirus3.html",
+        "ja": "https://www.sumitomolife.co.jp/infolist/coronavirus3.html#:~:text=%E6%94%AF%E7%A4%BE%E3%80%81%E9%95%B7%E5%B4%8E%E6%94%AF%E7%A4%BE%E3%80%81-,%E7%9B%9B%E5%B2%A1%E6%94%AF%E7%A4%BE,-%E3%80%81%E5%8C%97%E8%A6%8B%E6%94%AF%E7%A4%BE%E3%80%81%E5%A0%BA",
         "en": null
       },
       "text": {
@@ -44367,7 +44367,7 @@
     {
       "date": "2022-08-16",
       "url": {
-        "ja": "https://www.sumitomolife.co.jp/infolist/coronavirus3.html",
+        "ja": "https://www.sumitomolife.co.jp/infolist/coronavirus3.html#:~:text=%E9%B3%A5%E5%8F%96%E6%94%AF%E7%A4%BE%E3%80%81-,%E7%9B%9B%E5%B2%A1%E6%94%AF%E7%A4%BE,-%E3%80%81%E9%9D%99%E5%B2%A1%E6%94%AF%E7%A4%BE%E3%80%81%E6%AD%A6%E8%94%B5%E9%87%8E",
         "en": null
       },
       "text": {
@@ -44928,7 +44928,7 @@
     {
       "date": "2022-08-19",
       "url": {
-        "ja": "https://www.sumitomolife.co.jp/infolist/coronavirus3.html",
+        "ja": "https://www.sumitomolife.co.jp/infolist/coronavirus3.html#:~:text=%E6%94%AF%E7%A4%BE%E3%80%81%E5%B2%B8%E5%92%8C%E7%94%B0%E6%94%AF%E7%A4%BE%E3%80%81-,%E7%9B%9B%E5%B2%A1%E6%94%AF%E7%A4%BE,-%E3%80%81%E5%A5%88%E8%89%AF%E6%94%AF%E7%A4%BE%E3%80%81%E4%BA%AC%E9%98%AA",
         "en": null
       },
       "text": {
@@ -46116,7 +46116,7 @@
     {
       "date": "2022-08-23",
       "url": {
-        "ja": "https://www.sumitomolife.co.jp/infolist/coronavirus3.html",
+        "ja": "https://www.sumitomolife.co.jp/infolist/coronavirus3.html#:~:text=%E6%9C%AC%E7%A4%BE%EF%BC%88%E7%A6%8F%E5%B2%A1%EF%BC%89%E3%80%81-,%E7%9B%9B%E5%B2%A1%E6%94%AF%E7%A4%BE,-%E3%80%81%E6%9D%B1%E5%A4%A7%E9%98%AA%E6%94%AF%E7%A4%BE%E3%80%81%E6%B2%96%E7%B8%84",
         "en": null
       },
       "text": {
@@ -48750,6 +48750,50 @@
       },
       "text": {
         "ja": "岩手県立大学 (滝沢市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-30",
+      "url": {
+        "ja": "https://www.sumitomolife.co.jp/infolist/coronavirus3.html#:~:text=%E6%94%AF%E7%A4%BE%E3%80%81%E9%95%B7%E5%B4%8E%E6%94%AF%E7%A4%BE%E3%80%81-,%E7%9B%9B%E5%B2%A1%E6%94%AF%E7%A4%BE,-%E3%80%81%E6%9C%AC%E7%A4%BE%EF%BC%88%E5%A4%A7%E9%98%AA%EF%BC%89%E3%80%81%E9%83%BD",
+        "en": null
+      },
+      "text": {
+        "ja": "住友生命 盛岡支社 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-26",
+      "url": {
+        "ja": "https://www.sumitomolife.co.jp/infolist/coronavirus3.html#:~:text=%E6%94%AF%E7%A4%BE%E3%80%81%E9%95%B7%E5%B2%A1%E6%94%AF%E7%A4%BE%E3%80%81-,%E7%9B%9B%E5%B2%A1%E6%94%AF%E7%A4%BE,-%E3%80%81%E5%90%8D%E5%8F%A4%E5%B1%8B%E6%94%AF%E7%A4%BE%E3%80%81%E5%9F%BC%E7%8E%89",
+        "en": null
+      },
+      "text": {
+        "ja": "住友生命 盛岡支社 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-30",
+      "url": {
+        "ja": "https://www.kitagin.co.jp/news/download/pdf/20220830_1-1.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "北日本銀行 一関支店 (一関市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-30",
+      "url": {
+        "ja": "https://www.tohoku-bank.co.jp/showimage/pdf?fileNo=1222",
+        "en": null
+      },
+      "text": {
+        "ja": "東北銀行 本部 (盛岡市)",
         "en": null
       }
     }
