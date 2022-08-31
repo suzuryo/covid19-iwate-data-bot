@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-31T17:49:25+09:00",
+  "date": "2022-08-31T18:08:12+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -49102,6 +49102,28 @@
       },
       "text": {
         "ja": "岩手県立釜石病院 [整形外科診療制限] (釜石市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-31",
+      "url": {
+        "ja": "https://www.japanpost.jp/information/notices2_list.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "盛岡中央郵便局 (盛岡市)・盛岡北郵便局 (盛岡市)・宮古郵便局 (宮古市)・一関郵便局 (一関市)・厳美郵便局 (一関市)・かんぽ生命保険 盛岡支店  (盛岡市)・水沢郵便局かんぽ サービス部 (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-31",
+      "url": {
+        "ja": "http://www.h4kt.co.jp/hondacars-iwate/news.html#:~:text=%E3%80%90US%E7%9B%9B%E5%B2%A1%E3%80%91%E6%96%B0%E5%9E%8B,2022/08/31",
+        "en": null
+      },
+      "text": {
+        "ja": "Honda Cars 岩手 U-Select盛岡 (盛岡市)・北上北店 (北上市)",
         "en": null
       }
     }
