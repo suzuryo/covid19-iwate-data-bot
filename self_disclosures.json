@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-31T15:15:35+09:00",
+  "date": "2022-08-31T15:29:16+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -48893,6 +48893,39 @@
       },
       "text": {
         "ja": "マイヤ 水沢店 (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-25",
+      "url": {
+        "ja": "http://www.iwate-fukushi.or.jp/news/fadmin_1661417261_file1.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "中山の園障害者支援施設 りんどう [第4報] (一戸町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-31",
+      "url": {
+        "ja": "https://www.kioxia-iwate.co.jp/news/2021/covid-latest.html#:~:text=%E2%96%A0-,%E5%85%AC%E8%A1%A8%E6%97%A5%EF%BC%9A2022%E5%B9%B48%E6%9C%8831%E6%97%A5%EF%BC%88%E6%B0%B4%EF%BC%89,-%E2%96%A0%E5%85%AC%E8%A1%A8%E6%97%A5%EF%BC%9A2022",
+        "en": null
+      },
+      "text": {
+        "ja": "キオクシア岩手 (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-30",
+      "url": {
+        "ja": "https://www.kioxia-iwate.co.jp/news/2021/covid-latest.html#:~:text=%E2%96%A0-,%E5%85%AC%E8%A1%A8%E6%97%A5%EF%BC%9A2022%E5%B9%B48%E6%9C%8830%E6%97%A5%EF%BC%88%E7%81%AB%EF%BC%89,-%E2%96%A0%E5%85%AC%E8%A1%A8%E6%97%A5%EF%BC%9A2022",
+        "en": null
+      },
+      "text": {
+        "ja": "キオクシア岩手 (北上市)",
         "en": null
       }
     }
