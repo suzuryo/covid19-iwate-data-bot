@@ -1,5 +1,5 @@
 {
-  "date": "2022-08-31T18:08:12+09:00",
+  "date": "2022-08-31T20:28:23+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -49124,6 +49124,17 @@
       },
       "text": {
         "ja": "Honda Cars 岩手 U-Select盛岡 (盛岡市)・北上北店 (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-31",
+      "url": {
+        "ja": "https://www.hohoeminosato.jp/info/index.php?sc=220831_192629&actm=202208",
+        "en": null
+      },
+      "text": {
+        "ja": "介護老人保健施設ほほえみの里 [第3報] (宮古市)",
         "en": null
       }
     }
