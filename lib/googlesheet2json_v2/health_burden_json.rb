@@ -244,6 +244,11 @@ def health_burden_json(patients_summary, positive_rate, hospitalized_numbers, no
   # つまり、16.3 % ということ
   # https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/050/416/20220809_01_3.pdf
   #
+  # 第62回本部員会議の資料で、中等症(1なの2なの?)が
+  # 2022/8/1 - 2022/8/29 の 274 例について 39 人 という資料が出た。
+  # つまり、14.2 % ということ
+  # https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/050/416/20220831_01_02.pdf
+  #
   # 第50回本部員会議の資料で、酸素投与を受けた患者が 8.5 % という数字が出ている
   # ただしオミクロン前のデータ
   # https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/050/416/20220225_04_2.pdf
