@@ -1,5 +1,5 @@
 {
-  "date": "2022-09-01T08:36:55+09:00",
+  "date": "2022-09-01T13:33:41+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -49157,6 +49157,39 @@
       },
       "text": {
         "ja": "北上市内の小中学校 [臨時休業の状況] (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-31",
+      "url": {
+        "ja": "https://www.meijiyasuda.co.jp/profile/news/info/information399.html#:~:text=%E6%94%AF%E7%A4%BE%E3%80%81%E5%85%AB%E6%88%B8%E6%94%AF%E7%A4%BE%E3%80%81-,%E5%B2%A9%E6%89%8B%E5%8D%97%E6%94%AF%E7%A4%BE,-%E3%80%81%E7%BE%A4%E9%A6%AC%E6%94%AF%E7%A4%BE%E3%80%81%E3%81%A4%E3%81%8F%E3%81%B0",
+        "en": null
+      },
+      "text": {
+        "ja": "明治安田生命 岩手南支社 (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-01",
+      "url": {
+        "ja": "https://hanakeian.com/wp-content/uploads/2022/09/rokuharacobit0901.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "花憩庵ろくはら (金ケ崎町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-01",
+      "url": {
+        "ja": "https://www.iwatebank.co.jp/assets/pdf/20220901_covid_news.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手銀行 軽米支店 (軽米町)",
         "en": null
       }
     }
