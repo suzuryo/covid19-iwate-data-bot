@@ -1,5 +1,5 @@
 {
-  "date": "2022-09-01T15:12:08+09:00",
+  "date": "2022-09-01T20:09:34+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -49130,7 +49130,7 @@
     {
       "date": "2022-08-31",
       "url": {
-        "ja": "https://www.hohoeminosato.jp/info/index.php?sc=220831_192629&actm=202208",
+        "ja": "https://www.hohoeminosato.jp/info/data1/220831_19262900b.pdf",
         "en": null
       },
       "text": {
@@ -49190,6 +49190,226 @@
       },
       "text": {
         "ja": "岩手銀行 軽米支店 (軽米町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-01",
+      "url": {
+        "ja": "https://www.japanpost.jp/information/notices2_list.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "盛岡マリオス郵便局 (盛岡市)・萩荘郵便局 (一関市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-01",
+      "url": {
+        "ja": "https://www.tohoku-bank.co.jp/showimage/pdf?fileNo=1223",
+        "en": null
+      },
+      "text": {
+        "ja": "東北銀行 本宮市店 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-29",
+      "url": {
+        "ja": "https://www.mizuichi.ed.jp/cgi-bin/detail.cgi?kind=2&type=v&f1=1617347718#:~:text=%E6%84%9F%E6%9F%93%E7%97%87%E9%96%A2%E9%80%A3-,2022.08.29,-%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9",
+        "en": null
+      },
+      "text": {
+        "ja": "水沢第一高等学校 (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-01",
+      "url": {
+        "ja": "https://www.city.kamaishi.iwate.jp/docs/2020030900307/#:~:text=%E4%BB%A4%E5%92%8C4%E5%B9%B48%E6%9C%8831%E6%97%A5%E3%80%81%E5%B8%82%E5%86%85%E4%B8%AD%E5%AD%A6%E6%A0%A1%E3%81%AB%E5%8B%A4%E5%8B%99%E3%81%99%E3%82%8B%E8%81%B7%E5%93%A11%E5%90%8D%E3%81%AE%E9%99%BD%E6%80%A7%E3%81%8C%E7%A2%BA%E8%AA%8D%E3%81%95%E3%82%8C%E3%81%BE%E3%81%97%E3%81%9F%E3%80%82%E6%A0%A1%E5%86%85%E3%81%AB%E6%BF%83%E5%8E%9A%E6%8E%A5%E8%A7%A6%E8%80%85%E3%81%A8%E3%81%AA%E3%82%8B%E8%81%B7%E5%93%A1%E7%AD%89%E3%81%AF%E3%81%84%E3%81%AA%E3%81%84%E3%81%93%E3%81%A8%E3%81%8B%E3%82%89%E3%80%81%E6%A0%A1%E5%86%85%E3%81%A7%E6%84%9F%E6%9F%93%E3%81%8C%E6%8B%A1%E5%A4%A7%E3%81%99%E3%82%8B%E3%81%93%E3%81%A8%E3%81%AF%E3%81%82%E3%82%8A%E3%81%BE%E3%81%9B%E3%82%93%E3%80%82",
+        "en": null
+      },
+      "text": {
+        "ja": "市内中学校に勤務する職員 (釜石市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-01",
+      "url": {
+        "ja": "https://www.city.kamaishi.iwate.jp/docs/2020030900307/file_contents/sisyokuin0901made2.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "産業振興部・教育委員会事務局 (釜石市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-01",
+      "url": {
+        "ja": "https://www.morioka-fire.jp/rink/9.1syokuinn_kannsenn.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "八幡平消防署 安代出張所 (八幡平市)・盛岡中央消防署 (盛岡市)・紫波消防署 (紫波町)・滝沢消防署 (滝沢市)・盛岡中央消防署 上田出張所 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-01",
+      "url": {
+        "ja": "https://www.city.kuji.iwate.jp/kosodate/kyoiku/kyoikugyosei/corona_kyukou_1_1_1_1_1.html",
+        "en": null
+      },
+      "text": {
+        "ja": "久慈市立の小中学校 [臨時休業の状況] (久慈市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-31",
+      "url": {
+        "ja": "https://www.city.oshu.iwate.jp/uploaded/life/54276_185132_misc.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "まごころ病院 (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-01",
+      "url": {
+        "ja": "https://www.city.ninohe.lg.jp/div/hisho-jinji/pdf/colona/R040901_colonayousei.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "二戸市職員 (二戸市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-01",
+      "url": {
+        "ja": "https://www.iwate-med.ac.jp/news/n1-information/22090101-soumu/",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手医科大学 (矢巾町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-01",
+      "url": {
+        "ja": "https://www.town.kanegasaki.iwate.jp/articles/2022090100048/",
+        "en": null
+      },
+      "text": {
+        "ja": "役場庁舎内施設勤務の職員 (一戸町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-01",
+      "url": {
+        "ja": "https://www.yakuodo.co.jp/images/upnews/63103b51282e5.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "薬王堂 [岩手郡・大船渡保健所管轄店舗]",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-31",
+      "url": {
+        "ja": "https://www.yakuodo.co.jp/images/upnews/630f113f85f33.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "薬王堂 [奥州市・一関保健所管轄店舗]",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-01",
+      "url": {
+        "ja": "https://www.hohoeminosato.jp/info/data1/220901_19522100b.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "介護老人保健施設ほほえみの里 [第4報] (宮古市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-08",
+      "url": {
+        "ja": "https://www.city.ichinoseki.iwate.jp/index.cfm/7,149031,c,html/149031/20220824-144606.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "一関市議会議員 (一関市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-16",
+      "url": {
+        "ja": "https://www.city.ichinoseki.iwate.jp/index.cfm/7,149031,c,html/149031/20220824-144732.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "一関市議会議員 (一関市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-29",
+      "url": {
+        "ja": "https://hanamaki.hosp.go.jp/#:~:text=%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9%E6%84%9F%E6%9F%93%E7%97%87%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E7%97%85%E9%99%A2%E3%81%8B%E3%82%89%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%EF%BC%88%E7%AC%AC%EF%BC%93%EF%BC%92%E5%A0%B1%EF%BC%89",
+        "en": null
+      },
+      "text": {
+        "ja": "国立病院機構花巻病院 (花巻市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-29",
+      "url": {
+        "ja": "https://www.kuji-kouiki.jp/soumu/%e8%81%b7%e5%93%a1%e3%81%ae%e6%96%b0%e5%9e%8b%e3%82%b3%e3%83%ad%e3%83%8a%e3%82%a6%e3%82%a4%e3%83%ab%e3%82%b9%e6%84%9f%e6%9f%93%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6-15/",
+        "en": null
+      },
+      "text": {
+        "ja": "消防本部職員 (久慈市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-31",
+      "url": {
+        "ja": "https://www.morioka-city-hosp.jp/%e6%96%b0%e5%9e%8b%e3%82%b3%e3%83%ad%e3%83%8a%e3%82%a6%e3%82%a4%e3%83%ab%e3%82%b9%e6%84%9f%e6%9f%93%e8%80%85%e3%81%ae%e7%99%ba%e7%94%9f%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%ef%bc%88%e3%81%9d%e3%81%ae-2/",
+        "en": null
+      },
+      "text": {
+        "ja": "盛岡市立病院 [第3報 整形外科の入院及び外来新患受付の停止並びに救急の一部制限を解除] (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-31",
+      "url": {
+        "ja": "https://www.hosp.iwate-med.ac.jp/yahaba-news/yahaba-news-17567/",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手医科大学附属病院 [第1報 リハビリテーション及び一部の手術を制限] (矢巾町)",
         "en": null
       }
     }
