@@ -1,5 +1,5 @@
 {
-  "date": "2022-09-02T20:18:30+09:00",
+  "date": "2022-09-02T20:50:20+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -49828,6 +49828,50 @@
       },
       "text": {
         "ja": "介護老人保健施設ほほえみの里 [第5報] (宮古市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-02",
+      "url": {
+        "ja": "http://www.h4kt.co.jp/hondacars-iwate/news.html#:~:text=%E3%80%90%E6%9C%AC%E7%A4%BE%E3%80%91%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A,2022/09/02",
+        "en": null
+      },
+      "text": {
+        "ja": "ホンダ四輪販売北・東北 本社 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-30",
+      "url": {
+        "ja": "https://www.iwate373.com/pdf/20220830.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "トヨタカローラ南岩手 奥州店 (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-01",
+      "url": {
+        "ja": "https://www.iwate-subaru.com/cms/wp-content/uploads/2022/09/iwate_covid19_20220901.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手スバル⾃動⾞ 北上店 (北上市)・宮古バイパス店 (宮古市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-02",
+      "url": {
+        "ja": "https://www.nissay.co.jp/coronavirusoshirase/infomation/#:~:text=%E6%B8%AF%E5%8D%97%E5%8C%BA%E4%B8%B8%E5%B1%B1%E5%8F%B0-,9%E6%9C%881%E6%97%A5,%E5%B2%A9%E6%89%8B%E7%9C%8C%E7%9B%9B%E5%B2%A1%E5%B8%82%E4%B8%8A%E5%A0%82,-9%E6%9C%881",
+        "en": null
+      },
+      "text": {
+        "ja": "日本生命 (盛岡市)",
         "en": null
       }
     }
