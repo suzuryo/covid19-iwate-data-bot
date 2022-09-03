@@ -1,5 +1,5 @@
 {
-  "date": "2022-09-03T01:45:07+09:00",
+  "date": "2022-09-03T09:52:55+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -49883,6 +49883,50 @@
       },
       "text": {
         "ja": "カシオペアFM (二戸市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-29",
+      "url": {
+        "ja": "https://www.esashijyuseikai.or.jp/wp/wp-content/uploads/2022/08/%E9%9B%AB%E7%9F%B3%E3%82%A8%E3%83%AA%E3%82%A2%E7%AC%AC%EF%BC%92%E5%A0%B1.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "養護老人ホーム 松寿荘 [第2報] (雫石町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-25",
+      "url": {
+        "ja": "https://www.esashijyuseikai.or.jp/wp/wp-content/uploads/2022/08/%E9%9B%AB%E7%9F%B3%E3%82%A8%E3%83%AA%E3%82%A2%E3%80%808%E6%9C%8825%E6%97%A5%E7%99%BA%E7%94%9F-1.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "養護老人ホーム 松寿荘 (雫石町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-05",
+      "url": {
+        "ja": "https://www.esashijyuseikai.or.jp/wp/hojin/%e5%bd%93%e6%b3%95%e4%ba%ba%e8%81%b7%e5%93%a1%e3%81%ae%e6%96%b0%e5%9e%8b%e3%82%b3%e3%83%ad%e3%83%8a%e3%82%a6%e3%82%a4%e3%83%ab%e3%82%b9%e6%84%9f%e6%9f%93%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%ef%bc%88-2/",
+        "en": null
+      },
+      "text": {
+        "ja": "養護老人ホーム 松寿荘 (雫石町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-06-28",
+      "url": {
+        "ja": "https://www.esashijyuseikai.or.jp/wp/wp-content/uploads/2022/06/2022.6.28%E5%8F%8E%E6%9D%9F.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "認知症高齢者グループホームかつひろの家 [収束報告] (奥州市)",
         "en": null
       }
     }
