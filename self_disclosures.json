@@ -1,5 +1,5 @@
 {
-  "date": "2022-09-03T18:44:01+09:00",
+  "date": "2022-09-03T19:46:24+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -19478,7 +19478,7 @@
         "en": null
       },
       "text": {
-        "ja": "セカンドストリート北上店 (北上市)",
+        "ja": "セカンドストリート 北上店 (北上市)",
         "en": null
       }
     },
@@ -19489,7 +19489,7 @@
         "en": null
       },
       "text": {
-        "ja": "セカンドストリート盛岡店 (盛岡市)",
+        "ja": "セカンドストリート 盛岡店 (盛岡市)",
         "en": null
       }
     },
@@ -50257,6 +50257,50 @@
       },
       "text": {
         "ja": "千厩寿慶会デイサービスセンター (一関市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-03",
+      "url": {
+        "ja": "http://aigokaijyouzanen.sblo.jp/article/189790106.html",
+        "en": null
+      },
+      "text": {
+        "ja": "障がい者支援施設静山園 [第7報] (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-03",
+      "url": {
+        "ja": "https://www.2ndstreet.jp/covid-19-information/details?infoType=5&page=1&itemsPerPage=16&id=94457#:~:text=%E3%82%BB%E3%82%AB%E3%83%B3%E3%83%89%E3%82%B9%E3%83%88%E3%83%AA%E3%83%BC%E3%83%88%E3%81%BF%E3%81%9F%E3%81%91,%E6%9C%882%E6%97%A5",
+        "en": null
+      },
+      "text": {
+        "ja": "セカンドストリート みたけ店 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-27",
+      "url": {
+        "ja": "https://www.2ndstreet.jp/covid-19-information/details?infoType=5&page=1&itemsPerPage=16&id=94457#:~:text=%E6%9C%8826%E6%97%A5-,%E3%82%BB%E3%82%AB%E3%83%B3%E3%83%89%E3%82%B9%E3%83%88%E3%83%AA%E3%83%BC%E3%83%88%E6%B1%9F%E5%88%BA%E5%BA%97%EF%BC%88%E5%B2%A9%E6%89%8B%E7%9C%8C%E5%A5%A5%E5%B7%9E%E5%B8%82%EF%BC%89,8%E6%9C%8825%E6%97%A5,-%E3%82%BB%E3%82%AB%E3%83%B3%E3%83%89%E3%82%B9%E3%83%88%E3%83%AA%E3%83%BC%E3%83%88%E4%BB%99%E5%8F%B0",
+        "en": null
+      },
+      "text": {
+        "ja": "セカンドストリート 江刺店 (奥州市)・北上店 (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-03",
+      "url": {
+        "ja": "https://geo-online.co.jp/news/581#:~:text=%E3%82%B2%E3%82%AA%E4%BA%8C%E6%88%B8%E5%A0%80%E9%87%8E,%E6%9C%882%E6%97%A5",
+        "en": null
+      },
+      "text": {
+        "ja": "ゲオ二戸堀野店 (二戸市)",
         "en": null
       }
     }
