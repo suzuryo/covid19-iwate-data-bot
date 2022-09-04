@@ -1,5 +1,5 @@
 {
-  "date": "2022-09-04T15:09:49+09:00",
+  "date": "2022-09-04T19:43:12+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -50323,6 +50323,28 @@
       },
       "text": {
         "ja": "介護老人保健施設ほほえみの里 [第6報] (宮古市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-04",
+      "url": {
+        "ja": "https://www.nitorihd.co.jp/news/items/1ad9aac541f1e3fb9aa729fa779b740e_284.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "ニトリ 北上店 (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-04",
+      "url": {
+        "ja": "https://www.itoyokado.co.jp/__resources__/169f1a16-e364-42f9-a13b-88070c7814e9.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "イトーヨーカドー花巻店 [マイスター&アカトー] (花巻市)",
         "en": null
       }
     }
