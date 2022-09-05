@@ -1,5 +1,5 @@
 {
-  "date": "2022-09-05T18:56:10+09:00",
+  "date": "2022-09-05T23:34:24+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -50499,6 +50499,61 @@
       },
       "text": {
         "ja": "E4 東北自動車道 岩手山SA 下り線 GS (八幡平市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-05",
+      "url": {
+        "ja": "https://www.senninnosato.jp/publics/index/1/detail=1/b_id=242/r_id=51#block242-51",
+        "en": null
+      },
+      "text": {
+        "ja": "仙人の里デイサービスセンター [臨時休業] (釜石市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-31",
+      "url": {
+        "ja": "http://www.iwate-hanamizuki.jp/news/210/",
+        "en": null
+      },
+      "text": {
+        "ja": "特別養護老人ホーム はなみずき [第1報] (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-02",
+      "url": {
+        "ja": "http://www.iwate-hanamizuki.jp/news/213/",
+        "en": null
+      },
+      "text": {
+        "ja": "特別養護老人ホーム はなみずき [第2報] (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-05",
+      "url": {
+        "ja": "http://www.iwate-hanamizuki.jp/news/215/",
+        "en": null
+      },
+      "text": {
+        "ja": "特別養護老人ホーム はなみずき [第3報] (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-27",
+      "url": {
+        "ja": "https://www.prifoods.jp/media/files/_u/topic/file1/1gzfr77byw.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "プライフーズ 岩手農場 (九戸村)",
         "en": null
       }
     }
