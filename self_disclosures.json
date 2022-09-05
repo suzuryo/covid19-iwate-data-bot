@@ -1,5 +1,5 @@
 {
-  "date": "2022-09-05T15:05:43+09:00",
+  "date": "2022-09-05T18:56:10+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -50329,7 +50329,7 @@
     {
       "date": "2022-09-04",
       "url": {
-        "ja": "https://www.nitorihd.co.jp/news/items/1ad9aac541f1e3fb9aa729fa779b740e_284.pdf",
+        "ja": "https://www.nitorihd.co.jp/news/items/1ad9aac541f1e3fb9aa729fa779b740e_285.pdf",
         "en": null
       },
       "text": {
@@ -50422,6 +50422,83 @@
       },
       "text": {
         "ja": "遠野市職員 [総務企画部] (遠野市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-05",
+      "url": {
+        "ja": "https://www.tohoku-bank.co.jp/showimage/pdf?fileNo=1228",
+        "en": null
+      },
+      "text": {
+        "ja": "東北銀行 本部 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-05",
+      "url": {
+        "ja": "https://www.kioxia-iwate.co.jp/news/2021/covid-latest.html#:~:text=%E2%96%A0-,%E5%85%AC%E8%A1%A8%E6%97%A5%EF%BC%9A2022%E5%B9%B49%E6%9C%885%E6%97%A5%EF%BC%88%E6%9C%88%EF%BC%89,-%E2%96%A0%E5%85%AC%E8%A1%A8%E6%97%A5%EF%BC%9A2022",
+        "en": null
+      },
+      "text": {
+        "ja": "キオクシア岩手 (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-05",
+      "url": {
+        "ja": "https://www.japanpost.jp/information/notices2_list.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "盛岡北郵便局 (盛岡市)・北上郵便局 (北上市)・久慈郵便局 (久慈市)・久慈湊郵便局 (久慈市)・江刺郵便局 (奥州市)・普代郵便局 (普代村)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-05",
+      "url": {
+        "ja": "https://www.city.kitakami.iwate.jp/life/kosodate_kyoiku/kyoikuiinkai/21685.html#:~:text=%E6%9C%885%E6%97%A5%EF%BC%89-,%E5%B8%82%E5%86%85%E5%B0%8F%E4%B8%AD%E5%AD%A6%E6%A0%A1%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E8%87%A8%E6%99%82%E4%BC%91%E6%A5%AD%EF%BC%88%E4%BC%91%E6%A0%A1%EF%BC%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%EF%BC%889%E6%9C%885%E6%97%A5%EF%BC%89,-%E5%8C%97%E4%B8%8A%E5%B8%82%E6%95%99%E8%82%B2",
+        "en": null
+      },
+      "text": {
+        "ja": "北上市内の小中学校 [臨時休業の状況] (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-05",
+      "url": {
+        "ja": "https://www.city.kamaishi.iwate.jp/docs/2020030900307/file_contents/sisyokuin0905made.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "市民生活部 (釜石市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-05",
+      "url": {
+        "ja": "https://www.iwate-med.ac.jp/news/n1-information/22090501-soumu/",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手医科大学 (矢巾町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-05",
+      "url": {
+        "ja": "https://www.e-nexco.co.jp/news/cms_assets/news/2022/09/05a/pdf.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "E4 東北自動車道 岩手山SA 下り線 GS (八幡平市)",
         "en": null
       }
     }
