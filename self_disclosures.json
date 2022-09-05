@@ -1,5 +1,5 @@
 {
-  "date": "2022-09-04T19:43:12+09:00",
+  "date": "2022-09-05T13:28:04+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -50345,6 +50345,72 @@
       },
       "text": {
         "ja": "イトーヨーカドー花巻店 [マイスター&アカトー] (花巻市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-05",
+      "url": {
+        "ja": "http://aigokaijyouzanen.sblo.jp/article/189793654.html",
+        "en": null
+      },
+      "text": {
+        "ja": "障がい者支援施設静山園 [第8報] (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-05",
+      "url": {
+        "ja": "http://tomori-kai.jp/2022/09/05/2510",
+        "en": null
+      },
+      "text": {
+        "ja": "特別養護老人ホーム みやもり荘 [収束] (遠野市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-05",
+      "url": {
+        "ja": "http://www.shokyukai.or.jp/6270/",
+        "en": null
+      },
+      "text": {
+        "ja": "気仙苑ディ・ケアセンター (大船渡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-31",
+      "url": {
+        "ja": "https://michinoku.or.jp/news/%e5%bd%93%e6%b3%95%e4%ba%ba%e3%81%ab%e3%81%8a%e3%81%91%e3%82%8b%e6%96%b0%e5%9e%8b%e3%82%b3%e3%83%ad%e3%83%8a%e3%82%a6%e3%82%a4%e3%83%ab%e3%82%b9%e6%84%9f%e6%9f%93%e8%80%85%e3%81%ae%e7%b5%8c%e9%81%8e/",
+        "en": null
+      },
+      "text": {
+        "ja": "みちのく協会 (八幡平市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-05",
+      "url": {
+        "ja": "https://michinoku.or.jp/wp-content/uploads/2022/09/%e6%84%9f%e6%9f%93%e6%83%85%e5%a0%b1%ef%bc%88%e7%ac%ac4%e5%a0%b1%ef%bc%89.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "地域密着型介護老人福祉施設はらからの里 (八幡平市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-05",
+      "url": {
+        "ja": "https://www.kitagin.co.jp/news/download/pdf/20220905_1.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "北日本銀行 大通支店 (盛岡市)",
         "en": null
       }
     }
