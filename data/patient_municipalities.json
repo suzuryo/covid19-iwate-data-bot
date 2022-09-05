@@ -1,34 +1,34 @@
 {
-  "date": "2022-09-05T13:28:04+09:00",
+  "date": "2022-09-05T15:05:43+09:00",
   "datasets": {
-    "date": "2022-09-05T13:28:04+09:00",
+    "date": "2022-09-05T15:05:43+09:00",
     "data": [
       {
         "code": "032018",
         "area": "岩手県",
         "label": "盛岡市",
         "ruby": "もりおかし",
-        "count": 27622,
-        "count_per_population": "9.5",
-        "last7days": 1623,
-        "last7_per_100k": "559.9"
+        "count": 27823,
+        "count_per_population": "9.6",
+        "last7days": 1646,
+        "last7_per_100k": "567.8"
       },
       {
         "code": "032026",
         "area": "岩手県",
         "label": "宮古市",
         "ruby": "みやこし",
-        "count": 2106,
+        "count": 2135,
         "count_per_population": "4.2",
-        "last7days": 310,
-        "last7_per_100k": "615.1"
+        "last7days": 320,
+        "last7_per_100k": "634.9"
       },
       {
         "code": "032034",
         "area": "岩手県",
         "label": "大船渡市",
         "ruby": "おおふなとし",
-        "count": 1671,
+        "count": 1682,
         "count_per_population": "4.8",
         "last7days": 160,
         "last7_per_100k": "460.6"
@@ -38,57 +38,57 @@
         "area": "岩手県",
         "label": "花巻市",
         "ruby": "はなまきし",
-        "count": 6619,
+        "count": 6651,
         "count_per_population": "7.1",
-        "last7days": 346,
-        "last7_per_100k": "371.1"
+        "last7days": 338,
+        "last7_per_100k": "362.5"
       },
       {
         "code": "032069",
         "area": "岩手県",
         "label": "北上市",
         "ruby": "きたかみし",
-        "count": 8138,
-        "count_per_population": "8.7",
-        "last7days": 558,
-        "last7_per_100k": "599.4"
+        "count": 8189,
+        "count_per_population": "8.8",
+        "last7days": 548,
+        "last7_per_100k": "588.7"
       },
       {
         "code": "032077",
         "area": "岩手県",
         "label": "久慈市",
         "ruby": "くじし",
-        "count": 2053,
-        "count_per_population": "6.2",
-        "last7days": 183,
-        "last7_per_100k": "553.5"
+        "count": 2069,
+        "count_per_population": "6.3",
+        "last7days": 179,
+        "last7_per_100k": "541.4"
       },
       {
         "code": "032085",
         "area": "岩手県",
         "label": "遠野市",
         "ruby": "とおのし",
-        "count": 1692,
+        "count": 1704,
         "count_per_population": "6.7",
-        "last7days": 166,
-        "last7_per_100k": "654.0"
+        "last7days": 151,
+        "last7_per_100k": "594.9"
       },
       {
         "code": "032093",
         "area": "岩手県",
         "label": "一関市",
         "ruby": "いちのせきし",
-        "count": 6273,
+        "count": 6313,
         "count_per_population": "5.6",
-        "last7days": 523,
-        "last7_per_100k": "467.1"
+        "last7days": 540,
+        "last7_per_100k": "482.3"
       },
       {
         "code": "032107",
         "area": "岩手県",
         "label": "陸前高田市",
         "ruby": "りくぜんたかたし",
-        "count": 820,
+        "count": 821,
         "count_per_population": "4.5",
         "last7days": 40,
         "last7_per_100k": "218.9"
@@ -98,60 +98,60 @@
         "area": "岩手県",
         "label": "釜石市",
         "ruby": "かまいしし",
-        "count": 1126,
-        "count_per_population": "3.5",
-        "last7days": 229,
-        "last7_per_100k": "713.5"
+        "count": 1154,
+        "count_per_population": "3.6",
+        "last7days": 232,
+        "last7_per_100k": "722.8"
       },
       {
         "code": "032131",
         "area": "岩手県",
         "label": "二戸市",
         "ruby": "にのへし",
-        "count": 1156,
+        "count": 1159,
         "count_per_population": "4.5",
-        "last7days": 100,
-        "last7_per_100k": "391.7"
+        "last7days": 88,
+        "last7_per_100k": "344.7"
       },
       {
         "code": "032140",
         "area": "岩手県",
         "label": "八幡平市",
         "ruby": "はちまんたいし",
-        "count": 1153,
+        "count": 1158,
         "count_per_population": "4.8",
-        "last7days": 98,
-        "last7_per_100k": "407.6"
+        "last7days": 101,
+        "last7_per_100k": "420.1"
       },
       {
         "code": "032158",
         "area": "岩手県",
         "label": "奥州市",
         "ruby": "おうしゅうし",
-        "count": 7810,
+        "count": 7854,
         "count_per_population": "6.9",
-        "last7days": 697,
-        "last7_per_100k": "616.7"
+        "last7days": 701,
+        "last7_per_100k": "620.2"
       },
       {
         "code": "032166",
         "area": "岩手県",
         "label": "滝沢市",
         "ruby": "たきざわし",
-        "count": 4656,
+        "count": 4692,
         "count_per_population": "8.4",
-        "last7days": 291,
-        "last7_per_100k": "523.4"
+        "last7days": 302,
+        "last7_per_100k": "543.2"
       },
       {
         "code": "033014",
         "area": "岩手県",
         "label": "雫石町",
         "ruby": "しずくいしちょう",
-        "count": 1021,
+        "count": 1028,
         "count_per_population": "6.5",
-        "last7days": 96,
-        "last7_per_100k": "609.8"
+        "last7days": 97,
+        "last7_per_100k": "616.2"
       },
       {
         "code": "033022",
@@ -160,15 +160,15 @@
         "ruby": "くずまきまち",
         "count": 140,
         "count_per_population": "2.5",
-        "last7days": 10,
-        "last7_per_100k": "177.4"
+        "last7days": 9,
+        "last7_per_100k": "159.6"
       },
       {
         "code": "033031",
         "area": "岩手県",
         "label": "岩手町",
         "ruby": "いわてまち",
-        "count": 389,
+        "count": 393,
         "count_per_population": "3.2",
         "last7days": 52,
         "last7_per_100k": "423.0"
@@ -178,40 +178,40 @@
         "area": "岩手県",
         "label": "紫波町",
         "ruby": "しわちょう",
-        "count": 2091,
-        "count_per_population": "6.5",
-        "last7days": 201,
-        "last7_per_100k": "624.9"
+        "count": 2107,
+        "count_per_population": "6.6",
+        "last7days": 196,
+        "last7_per_100k": "609.3"
       },
       {
         "code": "033227",
         "area": "岩手県",
         "label": "矢巾町",
         "ruby": "やはばちょう",
-        "count": 1817,
+        "count": 1828,
         "count_per_population": "6.5",
-        "last7days": 195,
-        "last7_per_100k": "694.5"
+        "last7days": 196,
+        "last7_per_100k": "698.1"
       },
       {
         "code": "033669",
         "area": "岩手県",
         "label": "西和賀町",
         "ruby": "にしわがまち",
-        "count": 127,
+        "count": 128,
         "count_per_population": "2.5",
-        "last7days": 16,
-        "last7_per_100k": "311.5"
+        "last7days": 15,
+        "last7_per_100k": "292.0"
       },
       {
         "code": "033812",
         "area": "岩手県",
         "label": "金ケ崎町",
         "ruby": "かねがさきちょう",
-        "count": 937,
-        "count_per_population": "6.0",
-        "last7days": 79,
-        "last7_per_100k": "508.2"
+        "count": 943,
+        "count_per_population": "6.1",
+        "last7days": 84,
+        "last7_per_100k": "540.4"
       },
       {
         "code": "034029",
@@ -220,8 +220,8 @@
         "ruby": "ひらいずみちょう",
         "count": 493,
         "count_per_population": "6.8",
-        "last7days": 123,
-        "last7_per_100k": "1694.7"
+        "last7days": 116,
+        "last7_per_100k": "1598.2"
       },
       {
         "code": "034410",
@@ -230,38 +230,38 @@
         "ruby": "すみたちょう",
         "count": 180,
         "count_per_population": "3.6",
-        "last7days": 18,
-        "last7_per_100k": "356.4"
+        "last7days": 14,
+        "last7_per_100k": "277.2"
       },
       {
         "code": "034614",
         "area": "岩手県",
         "label": "大槌町",
         "ruby": "おおつちちょう",
-        "count": 338,
+        "count": 344,
         "count_per_population": "3.1",
-        "last7days": 96,
-        "last7_per_100k": "871.7"
+        "last7days": 90,
+        "last7_per_100k": "817.2"
       },
       {
         "code": "034827",
         "area": "岩手県",
         "label": "山田町",
         "ruby": "やまだまち",
-        "count": 332,
-        "count_per_population": "2.3",
-        "last7days": 27,
-        "last7_per_100k": "188.4"
+        "count": 337,
+        "count_per_population": "2.4",
+        "last7days": 32,
+        "last7_per_100k": "223.3"
       },
       {
         "code": "034835",
         "area": "岩手県",
         "label": "岩泉町",
         "ruby": "いわいずみちょう",
-        "count": 91,
-        "count_per_population": "1.0",
-        "last7days": 10,
-        "last7_per_100k": "114.5"
+        "count": 92,
+        "count_per_population": "1.1",
+        "last7days": 11,
+        "last7_per_100k": "126.0"
       },
       {
         "code": "034843",
@@ -288,20 +288,20 @@
         "area": "岩手県",
         "label": "軽米町",
         "ruby": "かるまいまち",
-        "count": 460,
+        "count": 465,
         "count_per_population": "5.5",
-        "last7days": 55,
-        "last7_per_100k": "653.0"
+        "last7days": 57,
+        "last7_per_100k": "676.7"
       },
       {
         "code": "035033",
         "area": "岩手県",
         "label": "野田村",
         "ruby": "のだむら",
-        "count": 114,
+        "count": 115,
         "count_per_population": "2.9",
-        "last7days": 16,
-        "last7_per_100k": "406.3"
+        "last7days": 14,
+        "last7_per_100k": "355.5"
       },
       {
         "code": "035068",
@@ -310,15 +310,15 @@
         "ruby": "くのへむら",
         "count": 210,
         "count_per_population": "3.9",
-        "last7days": 16,
-        "last7_per_100k": "297.6"
+        "last7days": 13,
+        "last7_per_100k": "241.8"
       },
       {
         "code": "035076",
         "area": "岩手県",
         "label": "洋野町",
         "ruby": "ひろのちょう",
-        "count": 576,
+        "count": 577,
         "count_per_population": "3.8",
         "last7days": 31,
         "last7_per_100k": "205.3"
@@ -328,7 +328,7 @@
         "area": "岩手県",
         "label": "一戸町",
         "ruby": "いちのへまち",
-        "count": 624,
+        "count": 627,
         "count_per_population": "5.4",
         "last7days": 51,
         "last7_per_100k": "443.2"
@@ -338,10 +338,10 @@
         "area": "県全体",
         "label": "県全体",
         "ruby": "けんぜんたい",
-        "count": 96055,
-        "count_per_population": "7.9",
-        "last7days": 6423,
-        "last7_per_100k": "530.3"
+        "count": 96631,
+        "count_per_population": "8.0",
+        "last7days": 6431,
+        "last7_per_100k": "531.0"
       }
     ]
   }
