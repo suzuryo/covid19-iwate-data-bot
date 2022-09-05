@@ -1,5 +1,5 @@
 {
-  "date": "2022-09-05T23:34:24+09:00",
+  "date": "2022-09-05T23:54:26+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -49310,7 +49310,7 @@
         "en": null
       },
       "text": {
-        "ja": "役場庁舎内施設勤務の職員 (一戸町)",
+        "ja": "金ケ崎町職員 [役場庁舎内施設] (金ケ崎町)",
         "en": null
       }
     },
@@ -50554,6 +50554,28 @@
       },
       "text": {
         "ja": "プライフーズ 岩手農場 (九戸村)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-05",
+      "url": {
+        "ja": "https://www.town.kanegasaki.iwate.jp/articles/2022090500039/",
+        "en": null
+      },
+      "text": {
+        "ja": "金ケ崎町職員 [役場庁舎外施設] (金ケ崎町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-05",
+      "url": {
+        "ja": "https://www.bikkuri-donkey.com/control-panel/uploads/2022/09/covid_info_0905.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "びっくりドンキー 盛岡南店 (盛岡市)",
         "en": null
       }
     }
