@@ -1,5 +1,5 @@
 {
-  "date": "2022-09-05T23:54:26+09:00",
+  "date": "2022-09-06T10:02:18+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -50576,6 +50576,72 @@
       },
       "text": {
         "ja": "びっくりドンキー 盛岡南店 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-05",
+      "url": {
+        "ja": "https://www.kitakami-shakyo.jp/docs/2022090600012/",
+        "en": null
+      },
+      "text": {
+        "ja": "北上市社会福祉協議会 (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-05",
+      "url": {
+        "ja": "http://www.iwate-fukushi.or.jp/news/fadmin_1662369107_file1.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "中山の園障害者支援施設 りんどう [第8報] (一戸町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-05",
+      "url": {
+        "ja": "http://www.iwate-fukushi.or.jp/news/fadmin_1662369414_file1.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "障害者支援施設 松風園 [第5報] (花巻市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-02",
+      "url": {
+        "ja": "http://www.iwate-fukushi.or.jp/news/fadmin_1662106885_file1.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "障害者支援施設 松風園 [第4報] (花巻市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-06",
+      "url": {
+        "ja": "https://www.iwatebank.co.jp/assets/pdf/20220906_covid_news.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手銀行 盛岡市役所出張所 (盛岡市)・津志田支店 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-05",
+      "url": {
+        "ja": "https://e-shinkin.net/files/lib/7/736/202209051517353128.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "北上信用金庫 東支店 (北上市)",
         "en": null
       }
     }
