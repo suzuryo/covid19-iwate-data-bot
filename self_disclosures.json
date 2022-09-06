@@ -1,5 +1,5 @@
 {
-  "date": "2022-09-06T15:29:15+09:00",
+  "date": "2022-09-06T21:27:50+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -46919,7 +46919,7 @@
     {
       "date": "2022-08-25",
       "url": {
-        "ja": "https://chuo-hp.jp/#:~:text=%E3%81%9F%E3%81%97%E3%81%BE%E3%81%99%E3%80%82-,%E4%BB%A4%E5%92%8C4%E5%B9%B48%E6%9C%8825%E6%97%A5,-%E7%97%85%E9%99%A2%E9%95%B7%E3%80%80%E5%AE%AE%E7%94%B0",
+        "ja": "https://chuo-hp.jp/media/2/covid0825.pdf",
         "en": null
       },
       "text": {
@@ -50653,6 +50653,138 @@
       },
       "text": {
         "ja": "北日本銀行 大通支店 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-06",
+      "url": {
+        "ja": "https://www.mizuichi.ed.jp/cgi-bin/detail.cgi?kind=2&type=v&f1=1617347718",
+        "en": null
+      },
+      "text": {
+        "ja": "水沢第一高等学校 (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-05",
+      "url": {
+        "ja": "https://tanimura-fs.com/free/covid-19#:~:text=%E8%80%85%E7%99%BA%E7%94%9F%E7%8A%B6%E6%B3%81-,2022%E5%B9%B49%E6%9C%885%E6%97%A5%E5%85%AC%E8%A1%A8,-%E5%BC%8A%E7%A4%BE%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E3%82%B3%E3%83%AD%E3%83%8A",
+        "en": null
+      },
+      "text": {
+        "ja": "タニムラフードサービス (久慈市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-05",
+      "url": {
+        "ja": "https://www.city.kuji.iwate.jp/shisei/soshiki/220905_oshirase_1_1_1_1_1_1_1_1_1_1_1_1_.html",
+        "en": null
+      },
+      "text": {
+        "ja": "市長部局に所属、本庁外に勤務する職員・教育委員会に所属、本庁に勤務する職員 (久慈市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-06",
+      "url": {
+        "ja": "https://www.city.kuji.iwate.jp/kosodate/kyoiku/kyoikugyosei/corona_kyukou_1_1_1_1_1_1_2.html#:~:text=9%E6%9C%886%E6%97%A5%EF%BC%88%E7%81%AB%E6%9B%9C%E6%97%A5,9%E6%9C%889%E6%97%A5%EF%BC%88%E9%87%91%E6%9B%9C%E6%97%A5%EF%BC%89",
+        "en": null
+      },
+      "text": {
+        "ja": "久慈市立の小中学校 [臨時休業の状況] (久慈市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-06",
+      "url": {
+        "ja": "https://www.city.kuji.iwate.jp/shisei/soshiki/220906_oshirase_1_1_1_1_1_1_1_1_1_1_1_1.html",
+        "en": null
+      },
+      "text": {
+        "ja": "市長部局に所属、本庁に勤務する職員 (久慈市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-23",
+      "url": {
+        "ja": "https://www.noukai.com/info/R4koronakansen.html",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手県職業能力開発協会 (矢巾町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-05",
+      "url": {
+        "ja": "https://chuo-hp.jp/#:~:text=%E3%81%97%E4%B8%8A%E3%81%92%E3%81%BE%E3%81%99%E3%80%82-,%E4%BB%A4%E5%92%8C4%E5%B9%B49%E6%9C%885%E6%97%A5,-%E7%97%85%E9%99%A2%E9%95%B7%E3%80%80%E5%AE%AE%E7%94%B0",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手県立中央病院 [消化器内科診療制限解除] (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-05",
+      "url": {
+        "ja": "http://www.fuji-u.ac.jp/news/news-covid/58457",
+        "en": null
+      },
+      "text": {
+        "ja": "富士大学 (花巻市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-06",
+      "url": {
+        "ja": "https://www.kioxia-iwate.co.jp/news/2021/covid-latest.html#:~:text=%E2%96%A0-,%E5%85%AC%E8%A1%A8%E6%97%A5%EF%BC%9A2022%E5%B9%B49%E6%9C%886%E6%97%A5%EF%BC%88%E7%81%AB%EF%BC%89,-%E2%96%A0%E5%85%AC%E8%A1%A8%E6%97%A5%EF%BC%9A2022",
+        "en": null
+      },
+      "text": {
+        "ja": "キオクシア岩手 (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-06",
+      "url": {
+        "ja": "https://www.iwate-med.ac.jp/news/n1-information/22090601-soumu/",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手医科大学 (矢巾町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-06",
+      "url": {
+        "ja": "https://www.japanpost.jp/information/notices2_latest.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "普代郵便局 [業務を休止] (普代村)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-06",
+      "url": {
+        "ja": "https://www.japanpost.jp/information/notices2_list.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "盛岡北郵便局 (盛岡市)・岩手郵便局 (北上市)・普代郵便局 (普代村)",
         "en": null
       }
     }
