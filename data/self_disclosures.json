@@ -1,5 +1,5 @@
 {
-  "date": "2022-09-07T17:37:52+09:00",
+  "date": "2022-09-07T18:37:52+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -50994,6 +50994,61 @@
       },
       "text": {
         "ja": "教育関連施設 (住田町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-07",
+      "url": {
+        "ja": "https://www.city.tono.iwate.jp/index.cfm/50,63524,327,html#:~:text=%E5%B8%82%E8%81%B7%E5%93%A1%E3%81%AE%E6%84%9F%E6%9F%93%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%EF%BC%88%E4%BB%A4%E5%92%8C%EF%BC%94%E5%B9%B4%EF%BC%99%E6%9C%88%EF%BC%97%E6%97%A5%E7%A2%BA%E8%AA%8D%EF%BC%89",
+        "en": null
+      },
+      "text": {
+        "ja": "遠野市職員 [教育委員会事務局] (遠野市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-07",
+      "url": {
+        "ja": "https://seiaiikuseikai.or.jp/covid19/",
+        "en": null
+      },
+      "text": {
+        "ja": "地域密着型特別養護老人ホーム聖愛園にっかわ (奥州市)・聖愛ベビーホーム (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-07",
+      "url": {
+        "ja": "https://www.japanpost.jp/information/notices2_list.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "盛岡中央郵便局 (盛岡市)・江刺郵便局 (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-07",
+      "url": {
+        "ja": "https://www.kioxia-iwate.co.jp/news/2021/covid-latest.html#:~:text=%E2%96%A0-,%E5%85%AC%E8%A1%A8%E6%97%A5%EF%BC%9A2022%E5%B9%B49%E6%9C%887%E6%97%A5%EF%BC%88%E6%B0%B4%EF%BC%89,-%E2%96%A0%E5%85%AC%E8%A1%A8%E6%97%A5%EF%BC%9A2022",
+        "en": null
+      },
+      "text": {
+        "ja": "キオクシア岩手 (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-07",
+      "url": {
+        "ja": "https://www.bikkuri-donkey.com/control-panel/uploads/2022/09/covid_info_0907.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "びっくりドンキー 盛岡インター店 (盛岡市)",
         "en": null
       }
     }
