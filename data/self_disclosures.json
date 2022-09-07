@@ -1,5 +1,5 @@
 {
-  "date": "2022-09-07T06:48:39+09:00",
+  "date": "2022-09-07T13:07:47+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -50829,6 +50829,39 @@
       },
       "text": {
         "ja": "軽米町職員 [本庁舎勤務] (軽米町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-06",
+      "url": {
+        "ja": "https://www.city.tono.iwate.jp/index.cfm/47,66564,286,html#:~:text=%E9%81%A0%E9%87%8E%E5%B8%82%E7%AB%8B%E5%AD%A6%E6%A0%A1%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E8%87%A8%E6%99%82%E4%BC%91%E6%A5%AD%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%80%90%EF%BC%99%E6%9C%88%EF%BC%96%E6%97%A5%E6%8E%B2%E8%BC%89%E3%80%91",
+        "en": null
+      },
+      "text": {
+        "ja": "遠野市立学校 [臨時休業の状況] (遠野市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-06",
+      "url": {
+        "ja": "https://www.city.kitakami.iwate.jp/life/kosodate_kyoiku/kyoikuiinkai/21685.html#:~:text=%E6%9C%886%E6%97%A5%EF%BC%89-,%E5%B8%82%E5%86%85%E5%B0%8F%E4%B8%AD%E5%AD%A6%E6%A0%A1%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E8%87%A8%E6%99%82%E4%BC%91%E6%A5%AD%EF%BC%88%E4%BC%91%E6%A0%A1%EF%BC%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%EF%BC%889%E6%9C%886%E6%97%A5%EF%BC%89,-%E5%8C%97%E4%B8%8A%E5%B8%82%E6%95%99%E8%82%B2",
+        "en": null
+      },
+      "text": {
+        "ja": "北上市内の小中学校 [臨時休業の状況] (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-06",
+      "url": {
+        "ja": "https://jsite.mhlw.go.jp/iwate-roudoukyoku/content/contents/001242521.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "一関公共職業安定所 (北上市)・岩手労働局 (盛岡市)",
         "en": null
       }
     }
