@@ -5,8 +5,11 @@ require 'digest'
 require 'typhoeus'
 require 'slack-notifier'
 
-urls = %w[
-  https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/052/938/shinryokensalist_040901-2.pdf
+urls = [
+  {
+    url: 'https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/052/938/shinryokensalist_040901-2.pdf',
+    hexdigest: '5f04b8c38004f9a5fa80fc304441f6d814caf1b09f664065fa7a75fbe42fb304'
+  }
 ]
 
 def check_urls(urls)
@@ -14,7 +17,7 @@ def check_urls(urls)
 
   requests = urls.uniq.map do |url|
     request = Typhoeus::Request.new(
-      url,
+      url[:url],
       headers: {
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'
       },
@@ -32,7 +35,7 @@ def check_urls(urls)
   requests.map do |request|
     hexdigest = Digest::SHA256.hexdigest(request.response.body)
     response_code = request.response.response_code
-    slack_msg += "#{Time.now}\n#{hexdigest}\n" if hexdigest != 'be4b7d1662617a12f62eefd99230d65c88898df6a9db99189a92477edacf5ee6'
+    slack_msg += "#{Time.now}\n#{hexdigest}\n" unless urls.map { |url| url[:hexdigest] }.include? hexdigest
     slack_msg += "#{Time.now}\n#{response_code} #{request.base_url}\n" if response_code != 200
   end
 
