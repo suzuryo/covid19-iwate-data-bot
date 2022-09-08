@@ -1,5 +1,5 @@
 {
-  "date": "2022-09-08T15:06:51+09:00",
+  "date": "2022-09-08T16:50:54+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -51126,6 +51126,39 @@
       },
       "text": {
         "ja": "タニムラフードサービス (久慈市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-08",
+      "url": {
+        "ja": "https://www.city.kuji.iwate.jp/kosodate/kyoiku/kyoikugyosei/corona_kyukou_1_1_1_1_1_1_2_1.html#:~:text=9%E6%9C%88%EF%BC%98%E6%97%A5%EF%BC%88%E6%9C%A8%E6%9B%9C%E6%97%A5,9%E6%9C%889%E6%97%A5%EF%BC%88%E9%87%91%E6%9B%9C%E6%97%A5%EF%BC%89",
+        "en": null
+      },
+      "text": {
+        "ja": "久慈市立の小中学校 [臨時休業の状況] (久慈市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-08",
+      "url": {
+        "ja": "https://www.kioxia-iwate.co.jp/news/2021/covid-latest.html#:~:text=%E2%96%A0-,%E5%85%AC%E8%A1%A8%E6%97%A5%EF%BC%9A2022%E5%B9%B49%E6%9C%888%E6%97%A5%EF%BC%88%E6%9C%A8%EF%BC%89,-%E2%96%A0%E5%85%AC%E8%A1%A8%E6%97%A5%EF%BC%9A2022",
+        "en": null
+      },
+      "text": {
+        "ja": "キオクシア岩手 (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-08",
+      "url": {
+        "ja": "https://www.ichinoseki.ac.jp/covid-19/notice/notice_news.html?id=1966",
+        "en": null
+      },
+      "text": {
+        "ja": "一関工業高等専門学校 (一関市)",
         "en": null
       }
     }
