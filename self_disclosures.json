@@ -1,5 +1,5 @@
 {
-  "date": "2022-09-08T20:18:34+09:00",
+  "date": "2022-09-08T22:38:32+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -51203,6 +51203,50 @@
       },
       "text": {
         "ja": "水沢税務署 (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-07",
+      "url": {
+        "ja": "https://www.meijiyasuda.co.jp/profile/news/info/information403.html#:~:text=%E6%94%AF%E7%A4%BE%E3%80%81%E5%85%AB%E6%88%B8%E6%94%AF%E7%A4%BE%E3%80%81-,%E7%9B%9B%E5%B2%A1%E6%94%AF%E7%A4%BE,-%E3%80%81%E4%BB%99%E5%8F%B0%E6%94%AF%E7%A4%BE%E3%80%81%E9%83%A1%E5%B1%B1",
+        "en": null
+      },
+      "text": {
+        "ja": "明治安田生命 盛岡支社 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-06",
+      "url": {
+        "ja": "http://www.kamaishi-hp.com/media/3/20220906-shoukaki_seigen.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手県立釜石病院 [消化器内科診療制限] (釜石市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-08",
+      "url": {
+        "ja": "https://www.iwate-med.ac.jp/news/n1-information/22090801-soumu/",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手医科大学 (矢巾町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-08",
+      "url": {
+        "ja": "https://www.hosp.iwate-med.ac.jp/yahaba-news/yahaba-news-17598/",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手医科大学附属病院 [第3報 終報] (矢巾町)",
         "en": null
       }
     }
