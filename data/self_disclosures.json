@@ -1,5 +1,5 @@
 {
-  "date": "2022-09-08T16:50:54+09:00",
+  "date": "2022-09-08T19:48:24+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -51159,6 +51159,50 @@
       },
       "text": {
         "ja": "一関工業高等専門学校 (一関市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-08",
+      "url": {
+        "ja": "https://www.iwate-pu.ac.jp/whatsnew/2022/09/post-780.html",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手県立大学 (滝沢市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-08",
+      "url": {
+        "ja": "https://www.japanpost.jp/information/notices2_list.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "盛岡中央郵便局 (盛岡市)・岩手西山郵便局 (雫石町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-08",
+      "url": {
+        "ja": "https://www.e-nexco.co.jp/news/cms_assets/news/2022/09/08a/pdf.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "E4 東北自動車道 岩手山SA 下り線 GS・飲食店 (八幡平市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-06",
+      "url": {
+        "ja": "https://www.nta.go.jp/data2/040906_02.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "水沢税務署 (奥州市)",
         "en": null
       }
     }
