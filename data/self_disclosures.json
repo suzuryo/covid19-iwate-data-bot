@@ -1,5 +1,5 @@
 {
-  "date": "2022-09-10T15:08:18+09:00",
+  "date": "2022-09-10T22:31:13+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -51434,6 +51434,72 @@
       },
       "text": {
         "ja": "東北労働金庫 北上支店 (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-10",
+      "url": {
+        "ja": "https://www.athome-kuzumaki.or.jp/news#ttl-10:~:text=2022.9.10%20%E3%80%80%E5%BD%93%E6%96%BD%E8%A8%AD%E8%81%B7%E5%93%A1%E3%81%AE%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9%E6%84%9F%E6%9F%93%E7%97%87%E3%81%AE%E7%99%BA%E7%94%9F%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%EF%BC%88%E7%AC%AC9%E5%A0%B1%EF%BC%89",
+        "en": null
+      },
+      "text": {
+        "ja": "介護老人保健施設アットホームくずまき [第9報] (葛巻町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-09",
+      "url": {
+        "ja": "https://www.yamada-denki.jp/information/200419prevention/pdf/220909_01.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "ヤマダデンキ テックランド北上店 (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-02",
+      "url": {
+        "ja": "https://www.yamada-denki.jp/information/200419prevention/pdf/220902_01.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "ヤマダデンキ Tecc LIFE SELECT 盛岡本店 (盛岡市)・テックランド 盛岡北店 (盛岡市)・テックランド 宮古店 (宮古市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-26",
+      "url": {
+        "ja": "https://www.yamada-denki.jp/information/200419prevention/pdf/220826_01.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "ヤマダデンキ Tecc LIFE SELECT 盛岡本店 (盛岡市)・テックランド 二戸店 (二戸市)・テックランド 盛岡北店 (盛岡市)・テックランド 宮古店 (宮古市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-19",
+      "url": {
+        "ja": "https://www.yamada-denki.jp/information/200419prevention/pdf/220819_01.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "ヤマダデンキ Tecc LIFE SELECT 盛岡本店 (盛岡市)・盛岡配工センター (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-08-12",
+      "url": {
+        "ja": "https://www.yamada-denki.jp/information/200419prevention/pdf/220812_01.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "ヤマダデンキ Tecc LIFE SELECT 盛岡本店 (盛岡市)",
         "en": null
       }
     }
