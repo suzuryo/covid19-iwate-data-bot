@@ -1,5 +1,5 @@
 {
-  "date": "2022-09-12T15:56:59+09:00",
+  "date": "2022-09-12T17:25:49+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -51632,6 +51632,94 @@
       },
       "text": {
         "ja": "村職員 [本庁舎外] (九戸村)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-12",
+      "url": {
+        "ja": "https://kamaishi-shakyo.or.jp/#:~:text=%E8%81%B7%E5%93%A1%E3%81%AE%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A3%E3%83%AB%E3%82%B9%E6%84%9F%E6%9F%93%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B(R4.9.12)",
+        "en": null
+      },
+      "text": {
+        "ja": "釜石市社会福祉協議会 生活ご安心センター (釜石市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-12",
+      "url": {
+        "ja": "https://www.town.ichinohe.iwate.jp/kinkyujoho/4490.html",
+        "en": null
+      },
+      "text": {
+        "ja": "町民文化センター (一戸町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-09",
+      "url": {
+        "ja": "https://www.city.kuji.iwate.jp/kosodate/kyoiku/kyoikugyosei/corona_kyukou_1_1_1_1_1_1_2_1_1.html#:~:text=9%E6%9C%889%E6%97%A5%EF%BC%88%E9%87%91%E6%9B%9C%E6%97%A5,9%E6%9C%8812%E6%97%A5%EF%BC%88%E6%9C%88%E6%9B%9C%E6%97%A5%EF%BC%89",
+        "en": null
+      },
+      "text": {
+        "ja": "久慈市立の小中学校 [臨時休業の状況] (久慈市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-12",
+      "url": {
+        "ja": "https://www.kitagin.co.jp/news/download/pdf/20220912_1.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "北日本銀行 盛岡北コンサルティングプラザ (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-12",
+      "url": {
+        "ja": "https://www.kitagin.co.jp/news/download/pdf/20220912_2.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "北日本銀行 青山町支店 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-12",
+      "url": {
+        "ja": "https://www.2ndstreet.jp/covid-19-information/details?infoType=5&page=1&itemsPerPage=16&id=94457#:~:text=%E9%99%BD%E6%80%A7%E5%88%A4%E6%98%8E%E6%97%A5-,%E3%82%BB%E3%82%AB%E3%83%B3%E3%83%89%E3%82%B9%E3%83%88%E3%83%AA%E3%83%BC%E3%83%88%E3%81%BF%E3%81%9F%E3%81%91%E5%BA%97%EF%BC%88%E5%B2%A9%E6%89%8B%E7%9C%8C%E7%9B%9B%E5%B2%A1%E5%B8%82%EF%BC%89,-9%E6%9C%889",
+        "en": null
+      },
+      "text": {
+        "ja": "セカンドストリート みたけ店 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-12",
+      "url": {
+        "ja": "https://www.e-nexco.co.jp/news/cms_assets/news/2022/09/12/pdf.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "東北自動車道 岩手山SA 下り線 [物販] (八幡平市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-12",
+      "url": {
+        "ja": "https://www.japanpost.jp/information/notices2_list.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "北上郵便局 (北上市)・伊保内郵便局 (九戸村)",
         "en": null
       }
     }
