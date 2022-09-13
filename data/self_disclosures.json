@@ -1,5 +1,5 @@
 {
-  "date": "2022-09-13T12:33:03+09:00",
+  "date": "2022-09-13T12:46:56+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -51797,6 +51797,17 @@
       },
       "text": {
         "ja": "浄法寺通所介護事業所 (二戸市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-13",
+      "url": {
+        "ja": "https://www.donijan.com/web-G/donijan.com/Public_html/web-donijan.com/kouhou/janm1/202209132janmarucorona.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "じゃんまる津志田店 (盛岡市)",
         "en": null
       }
     }
