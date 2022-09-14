@@ -1,5 +1,5 @@
 {
-  "date": "2022-09-14T13:26:51+09:00",
+  "date": "2022-09-14T14:17:07+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -51940,6 +51940,50 @@
       },
       "text": {
         "ja": "町内こども園 (岩泉町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-06",
+      "url": {
+        "ja": "http://www.kuji-shakyo.jp/#:~:text=%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9%E6%84%9F%E6%9F%93%E7%97%87%E3%81%AE%E7%A4%BE%E5%8D%94%E8%81%B7%E5%93%A1%E3%81%AE%E6%84%9F%E6%9F%93%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%0A%EF%BC%88%E4%BB%A4%E5%92%8C4%E5%B9%B49%E6%9C%886%E6%97%A5%E7%A2%BA%E8%AA%8D%EF%BC%89",
+        "en": null
+      },
+      "text": {
+        "ja": "久慈市社会福祉協議会 (久慈市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-08",
+      "url": {
+        "ja": "http://www.kuji-shakyo.jp/#:~:text=%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9%E6%84%9F%E6%9F%93%E7%97%87%E3%81%AE%E7%A4%BE%E5%8D%94%E8%81%B7%E5%93%A1%E3%81%AE%E6%84%9F%E6%9F%93%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%0A%EF%BC%88%E4%BB%A4%E5%92%8C4%E5%B9%B49%E6%9C%888%E6%97%A5%E7%A2%BA%E8%AA%8D%EF%BC%89",
+        "en": null
+      },
+      "text": {
+        "ja": "久慈市社会福祉協議会 (久慈市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-12",
+      "url": {
+        "ja": "http://www.kuji-shakyo.jp/#:~:text=%E5%B1%8B%E5%86%85%E6%B8%A9%E6%B0%B4%E3%83%97%E3%83%BC%E3%83%AB%E5%96%B6%E6%A5%AD%E5%86%8D%E9%96%8B%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%EF%BC%88%E4%BB%A4%E5%92%8C4%E5%B9%B49%E6%9C%8812%E6%97%A5%EF%BC%89",
+        "en": null
+      },
+      "text": {
+        "ja": "久慈市社会福祉協議会 屋内温水プール [営業再開] (久慈市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-14",
+      "url": {
+        "ja": "https://jsite.mhlw.go.jp/iwate-roudoukyoku/content/contents/001248437.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手労働局 (盛岡市)・盛岡労働基準監督署 (盛岡市)・盛岡公共職業安定所菜園庁舎 (盛岡市)",
         "en": null
       }
     }
