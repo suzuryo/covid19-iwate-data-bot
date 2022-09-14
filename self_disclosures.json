@@ -1,5 +1,5 @@
 {
-  "date": "2022-09-14T15:38:54+09:00",
+  "date": "2022-09-14T16:10:18+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -52039,6 +52039,28 @@
       },
       "text": {
         "ja": "岩手医科大学 (矢巾町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-14",
+      "url": {
+        "ja": "https://www.city.ofunato.iwate.jp/soshiki/soumu/23115.html#:~:text=%E4%BB%A4%E5%92%8C%EF%BC%94%E5%B9%B4%EF%BC%99%E6%9C%8810,%E3%81%AF%E3%80%81%E8%87%AA%E5%AE%85%E5%BE%85%E6%A9%9F%E3%81%A8%E3%81%97%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99%E3%80%82",
+        "en": null
+      },
+      "text": {
+        "ja": "市立保育教育施設・本庁舎 (大船渡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-14",
+      "url": {
+        "ja": "https://www.city.kamaishi.iwate.jp/docs/2020030900307/file_contents/sisyokuin0914made.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "教育委員会事務局 (釜石市)",
         "en": null
       }
     }
