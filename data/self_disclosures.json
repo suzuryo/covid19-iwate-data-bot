@@ -1,5 +1,5 @@
 {
-  "date": "2022-09-15T18:05:29+09:00",
+  "date": "2022-09-15T18:24:07+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -52182,6 +52182,39 @@
       },
       "text": {
         "ja": "二子郵便局 (北上市)・水沢大町郵便局 (奥州市)・岩泉郵便局 (岩泉町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-13",
+      "url": {
+        "ja": "https://www.meijiyasuda.co.jp/profile/news/info/information407.html#:~:text=%E6%94%AF%E7%A4%BE%E3%80%81%E5%B1%B1%E5%BD%A2%E6%94%AF%E7%A4%BE%E3%80%81-,%E7%9B%9B%E5%B2%A1%E6%94%AF%E7%A4%BE,-%E3%80%81%E6%B0%B4%E6%88%B8%E6%94%AF%E7%A4%BE%E3%80%81%E5%B2%A1%E5%B1%B1",
+        "en": null
+      },
+      "text": {
+        "ja": "明治安田生命 盛岡支社 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-02",
+      "url": {
+        "ja": "https://www.dnp.co.jp/news/topic/sustainability/220902.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "大日本印刷 盛岡事業所 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-14",
+      "url": {
+        "ja": "https://www.kioxia-iwate.co.jp/news/2021/covid-latest.html#:~:text=%E2%96%A0-,%E5%85%AC%E8%A1%A8%E6%97%A5%EF%BC%9A2022%E5%B9%B49%E6%9C%8814%E6%97%A5%EF%BC%88%E6%B0%B4%EF%BC%89,-%E2%96%A0%E5%85%AC%E8%A1%A8%E6%97%A5%EF%BC%9A2022",
+        "en": null
+      },
+      "text": {
+        "ja": "キオクシア岩手 (北上市)",
         "en": null
       }
     }
