@@ -1,5 +1,5 @@
 {
-  "date": "2022-09-15T15:09:03+09:00",
+  "date": "2022-09-15T18:05:29+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -52138,6 +52138,50 @@
       },
       "text": {
         "ja": "特別養護老人ホーム富士見荘 (八幡平市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-15",
+      "url": {
+        "ja": "https://www.town.iwaizumi.lg.jp/docs/2022082200015/#:~:text=%E5%B2%A9%E6%B3%89%E7%94%BA%E8%81%B7%E5%93%A1%E3%81%AE%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9%E6%84%9F%E6%9F%93%E7%A2%BA%E8%AA%8D%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%EF%BC%88%E4%BB%A4%E5%92%8C%EF%BC%94%E5%B9%B4%EF%BC%99%E6%9C%8815%E6%97%A5%E7%A2%BA%E8%AA%8D%EF%BC%89",
+        "en": null
+      },
+      "text": {
+        "ja": "岩泉町職員 (岩泉町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-15",
+      "url": {
+        "ja": "https://www.town.iwaizumi.lg.jp/docs/2022072900017/#:~:text=%E7%94%BA%E5%86%85%E3%81%93%E3%81%A9%E3%82%82%E5%9C%92%E3%81%AE%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9%E6%84%9F%E6%9F%93%E7%A2%BA%E8%AA%8D%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%EF%BC%88%E4%BB%A4%E5%92%8C%EF%BC%94%E5%B9%B4%EF%BC%99%E6%9C%8815%E6%97%A5%E7%A2%BA%E8%AA%8D%EF%BC%89",
+        "en": null
+      },
+      "text": {
+        "ja": "町内こども園 (岩泉町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-14",
+      "url": {
+        "ja": "https://www.town.iwaizumi.lg.jp/docs/2022072900017/#:~:text=%E7%94%BA%E5%86%85%E3%81%93%E3%81%A9%E3%82%82%E5%9C%92%E3%81%AE%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9%E6%84%9F%E6%9F%93%E7%A2%BA%E8%AA%8D%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%EF%BC%88%E4%BB%A4%E5%92%8C%EF%BC%94%E5%B9%B4%EF%BC%99%E6%9C%8814%E6%97%A5%E7%A2%BA%E8%AA%8D%EF%BC%89",
+        "en": null
+      },
+      "text": {
+        "ja": "町内こども園 (岩泉町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-15",
+      "url": {
+        "ja": "https://www.japanpost.jp/information/notices2_list.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "二子郵便局 (北上市)・水沢大町郵便局 (奥州市)・岩泉郵便局 (岩泉町)",
         "en": null
       }
     }
