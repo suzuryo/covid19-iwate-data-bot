@@ -1,5 +1,5 @@
 {
-  "date": "2022-09-15T18:24:07+09:00",
+  "date": "2022-09-16T09:25:01+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -52215,6 +52215,39 @@
       },
       "text": {
         "ja": "キオクシア岩手 (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-15",
+      "url": {
+        "ja": "http://mizusawa-kousya.sakura.ne.jp/korona_2022_09_15.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "水沢環境公社 (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-15",
+      "url": {
+        "ja": "https://aozoranet.exblog.jp/32283618/",
+        "en": null
+      },
+      "text": {
+        "ja": "吉田けい子 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-16",
+      "url": {
+        "ja": "http://aigokai.sakura.ne.jp/sblo_files/aigokaijyouzanen/image/E7ACAC10E5A0B1.jpg",
+        "en": null
+      },
+      "text": {
+        "ja": "障がい者支援施設静山園 [第10報 収束] (奥州市)",
         "en": null
       }
     }
