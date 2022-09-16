@@ -1,5 +1,5 @@
 {
-  "date": "2022-09-16T09:25:01+09:00",
+  "date": "2022-09-16T15:07:35+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -52248,6 +52248,39 @@
       },
       "text": {
         "ja": "障がい者支援施設静山園 [第10報 収束] (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-16",
+      "url": {
+        "ja": "https://www.kioxia-iwate.co.jp/news/2021/covid-latest.html#:~:text=%E2%96%A0-,%E5%85%AC%E8%A1%A8%E6%97%A5%EF%BC%9A2022%E5%B9%B49%E6%9C%8816%E6%97%A5%EF%BC%88%E9%87%91%EF%BC%89,-%E2%96%A0%E5%85%AC%E8%A1%A8%E6%97%A5%EF%BC%9A2022",
+        "en": null
+      },
+      "text": {
+        "ja": "キオクシア岩手 (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-16",
+      "url": {
+        "ja": "https://www.town.nishiwaga.lg.jp/kinkyujoho/3123.html#:~:text=%E6%84%9F%E6%9F%93%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B-,%E6%9B%B4%E6%96%B0%E6%97%A5%EF%BC%9A2022%E5%B9%B409%E6%9C%8816%E6%97%A5,-%E4%BB%A4%E5%92%8C4%E5%B9%B4",
+        "en": null
+      },
+      "text": {
+        "ja": "西和賀町職員 (西和賀町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-16",
+      "url": {
+        "ja": "https://www.town.iwaizumi.lg.jp/docs/2022072900017/#:~:text=%E7%94%BA%E5%86%85%E5%B0%8F%E4%B8%AD%E5%AD%A6%E6%A0%A1%E3%81%AE%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9%E6%84%9F%E6%9F%93%E7%A2%BA%E8%AA%8D%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%EF%BC%88%E4%BB%A4%E5%92%8C%EF%BC%94%E5%B9%B4%EF%BC%99%E6%9C%8815%E6%97%A5%E7%A2%BA%E8%AA%8D%EF%BC%89",
+        "en": null
+      },
+      "text": {
+        "ja": "町内小中学校 (岩泉町)",
         "en": null
       }
     }
