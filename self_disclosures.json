@@ -1,5 +1,5 @@
 {
-  "date": "2022-09-16T16:21:42+09:00",
+  "date": "2022-09-16T17:56:05+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -52347,6 +52347,39 @@
       },
       "text": {
         "ja": "北上市内の小中学校 [臨時休業の状況] (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-16",
+      "url": {
+        "ja": "https://tanimura-fs.com/free/covid-19#:~:text=%E8%80%85%E7%99%BA%E7%94%9F%E7%8A%B6%E6%B3%81-,2022%E5%B9%B49%E6%9C%8816%E6%97%A5%E5%85%AC%E8%A1%A8,-%E5%BC%8A%E7%A4%BE%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E3%82%B3%E3%83%AD%E3%83%8A",
+        "en": null
+      },
+      "text": {
+        "ja": "タニムラフードサービス (久慈市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-16",
+      "url": {
+        "ja": "https://khjd.jp/news/%e9%a4%8a%e8%ad%b7%e8%80%81%e4%ba%ba%e3%83%9b%e3%83%bc%e3%83%a0%e9%a4%8a%e5%af%bf%e8%8d%98%e3%81%ab%e3%81%8a%e3%81%91%e3%82%8b%e6%96%b0%e5%9e%8b%e3%82%b3%e3%83%ad%e3%83%8a%e3%82%a6%e3%82%a4%e3%83%ab/",
+        "en": null
+      },
+      "text": {
+        "ja": "養護老人ホーム養寿荘 (久慈市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-16",
+      "url": {
+        "ja": "https://www.japanpost.jp/information/notices2_list.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "北上郵便局 (北上市)・江刺郵便局 (奥州市)・雫石郵便局 (雫石町)",
         "en": null
       }
     }
