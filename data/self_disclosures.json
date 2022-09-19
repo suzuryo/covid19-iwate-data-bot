@@ -1,5 +1,5 @@
 {
-  "date": "2022-09-19T20:45:17+09:00",
+  "date": "2022-09-20T08:40:38+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -52446,6 +52446,17 @@
       },
       "text": {
         "ja": "千葉じゅんこ (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-16",
+      "url": {
+        "ja": "https://www.bikkuri-donkey.com/control-panel/uploads/2022/09/covid_info_0916.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "びっくりドンキー 花巻店 (花巻市)",
         "en": null
       }
     }
