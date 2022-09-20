@@ -1,5 +1,5 @@
 {
-  "date": "2022-09-20T08:40:38+09:00",
+  "date": "2022-09-20T09:21:29+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -52417,7 +52417,7 @@
       }
     },
     {
-      "date": "2022-09-16",
+      "date": "2022-09-17",
       "url": {
         "ja": "https://www.town.sumita.iwate.jp/docs/2022081800018/",
         "en": null
@@ -52457,6 +52457,28 @@
       },
       "text": {
         "ja": "びっくりドンキー 花巻店 (花巻市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-20",
+      "url": {
+        "ja": "https://tanimura-fs.com/free/covid-19#:~:text=%E8%80%85%E7%99%BA%E7%94%9F%E7%8A%B6%E6%B3%81-,2022%E5%B9%B49%E6%9C%8820%E6%97%A5%E5%85%AC%E8%A1%A8,-%E5%BC%8A%E7%A4%BE%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E3%82%B3%E3%83%AD%E3%83%8A",
+        "en": null
+      },
+      "text": {
+        "ja": "タニムラフードサービス (久慈市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-20",
+      "url": {
+        "ja": "https://www.iwatebank.co.jp/assets/pdf/20220920_covid_news.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手銀行 水沢支店 (奥州市)・久慈中央支店 (久慈市)",
         "en": null
       }
     }
