@@ -1,5 +1,5 @@
 {
-  "date": "2022-09-21T15:12:00+09:00",
+  "date": "2022-09-21T15:25:35+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -52655,6 +52655,94 @@
       },
       "text": {
         "ja": "みちのく療育園メディカルセンター [第5報] (矢巾町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-21",
+      "url": {
+        "ja": "https://www.iwatebank.co.jp/assets/pdf/20220921_covid_news.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手銀行 水沢支店 (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-20",
+      "url": {
+        "ja": "https://www.kitagin.co.jp/news/download/pdf/20220920_1.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "北日本銀行 久慈支店 (久慈市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-21",
+      "url": {
+        "ja": "https://www.kitagin.co.jp/news/download/pdf/20220921_2.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "北日本銀行 久慈支店 (久慈市)・本宮市店 (盛岡市)・都南支店 (盛岡市)・流通センター支店 (矢巾町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-16",
+      "url": {
+        "ja": "https://www.iwate-pu.ac.jp/whatsnew/2022/09/post-783.html",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手県立大学 (滝沢市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-20",
+      "url": {
+        "ja": "http://www.morishin.co.jp/news/pdf/20220920_cvirus.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "盛岡信用金庫 高松支店 (盛岡市)・本部 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-12",
+      "url": {
+        "ja": "http://www.mizusawashinkin.co.jp/00_top/pdf/20220912.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "水沢信用金庫 本店及び本部 (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-20",
+      "url": {
+        "ja": "http://www.mizusawashinkin.co.jp/00_top/pdf/20220920.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "水沢信用金庫 江刺支店 (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-12",
+      "url": {
+        "ja": "https://www.shinkin.co.jp/hanamaki/pdf/20220912.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "花巻信用金庫 本部 (花巻市)",
         "en": null
       }
     }
