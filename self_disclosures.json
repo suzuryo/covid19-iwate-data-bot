@@ -1,5 +1,5 @@
 {
-  "date": "2022-09-21T15:40:03+09:00",
+  "date": "2022-09-21T20:24:43+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -52754,6 +52754,94 @@
       },
       "text": {
         "ja": "町内小中学校 (岩泉町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-21",
+      "url": {
+        "ja": "https://www.isawayamayurikai.com/post-938/",
+        "en": null
+      },
+      "text": {
+        "ja": "やまゆり荘デイサービスセンター (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-20",
+      "url": {
+        "ja": "https://www.mizhsp-iwate.jp/archives/notification/20220920_covid-19.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "奥州市総合水沢病院 (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-21",
+      "url": {
+        "ja": "https://www.city.kamaishi.iwate.jp/docs/2020030900307/#:~:text=%E4%BB%A4%E5%92%8C4%E5%B9%B49%E6%9C%8820%E6%97%A5%E3%80%81%E5%B8%82%E5%86%85%E5%B0%8F%E5%AD%A6%E6%A0%A1%E3%81%AB%E5%8B%A4%E5%8B%99%E3%81%99%E3%82%8B%E8%81%B7%E5%93%A11%E5%90%8D%E3%81%AE%E9%99%BD%E6%80%A7%E3%81%8C%E7%A2%BA%E8%AA%8D%E3%81%95%E3%82%8C%E3%81%BE%E3%81%97%E3%81%9F%E3%80%82%E6%A0%A1%E5%86%85%E3%81%AB%E6%BF%83%E5%8E%9A%E6%8E%A5%E8%A7%A6%E8%80%85%E3%81%A8%E3%81%AA%E3%82%8B%E8%81%B7%E5%93%A1%E7%AD%89%E3%81%AF%E3%81%84%E3%81%AA%E3%81%84%E3%81%93%E3%81%A8%E3%81%8B%E3%82%89%E3%80%81%E6%A0%A1%E5%86%85%E3%81%A7%E6%84%9F%E6%9F%93%E3%81%8C%E6%8B%A1%E5%A4%A7%E3%81%99%E3%82%8B%E3%81%93%E3%81%A8%E3%81%AF%E3%81%82%E3%82%8A%E3%81%BE%E3%81%9B%E3%82%93%E3%80%82",
+        "en": null
+      },
+      "text": {
+        "ja": "市内小学校に勤務する職員 (釜石市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-21",
+      "url": {
+        "ja": "https://www.japanpost.jp/information/notices2_list.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "小友郵便局 (遠野市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-21",
+      "url": {
+        "ja": "https://www.taiyo-seimei.co.jp/wr2/pdf/news_article/c1lqbg00000002gy-att/20220921_corona.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "太陽生命保険 盛岡支社 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-20",
+      "url": {
+        "ja": "https://www.city.kuji.iwate.jp/kosodate/kyoiku/kyoikugyosei/corona_kyukou_1_1_1_1_1_1_2_1_1_1.html#:~:text=9%E6%9C%8820%E6%97%A5%EF%BC%88%E7%81%AB%E6%9B%9C%E6%97%A5,9%E6%9C%8821%E6%97%A5%EF%BC%88%E6%B0%B4%E6%9B%9C%E6%97%A5%EF%BC%89",
+        "en": null
+      },
+      "text": {
+        "ja": "久慈市立の小中学校 [臨時休業の状況] (久慈市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-21",
+      "url": {
+        "ja": "https://www.kioxia-iwate.co.jp/news/2021/covid-latest.html#:~:text=%E2%96%A0-,%E5%85%AC%E8%A1%A8%E6%97%A5%EF%BC%9A2022%E5%B9%B49%E6%9C%8821%E6%97%A5%EF%BC%88%E6%B0%B4%EF%BC%89,-%E2%96%A0%E5%85%AC%E8%A1%A8%E6%97%A5%EF%BC%9A2022",
+        "en": null
+      },
+      "text": {
+        "ja": "キオクシア岩手 (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-20",
+      "url": {
+        "ja": "https://www.town.sumita.iwate.jp/docs/2022081800018/#:~:text=%E3%81%AE%E6%84%9F%E6%9F%93%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6-,2022%E5%B9%B49%E6%9C%8820%E6%97%A5,-%E4%BB%A4%E5%92%8C%EF%BC%94%E5%B9%B4",
+        "en": null
+      },
+      "text": {
+        "ja": "住田町職員 [本庁舎] (住田町)",
         "en": null
       }
     }
