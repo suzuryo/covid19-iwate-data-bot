@@ -1,5 +1,5 @@
 {
-  "date": "2022-09-21T15:40:03+09:00",
+  "date": "2022-09-21T20:24:43+09:00",
   "newsItems": [
     {
       "date": "2020-07-31",
@@ -235,17 +235,6 @@
     {
       "date": "2022-08-31",
       "url": {
-        "ja": "https://www.pref.iwate.jp/kurashikankyou/iryou/kenkou/jouhou/1050416.html#62",
-        "en": null
-      },
-      "text": {
-        "ja": "岩手県 新型コロナウイルス感染症対策本部 第62回 本部員会議",
-        "en": null
-      }
-    },
-    {
-      "date": "2022-08-31",
-      "url": {
         "ja": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/050/416/20220831_02_01.pdf",
         "en": null
       },
@@ -273,6 +262,17 @@
       },
       "text": {
         "ja": "自宅療養のしおり [第5版]",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-21",
+      "url": {
+        "ja": "https://www.pref.iwate.jp/kurashikankyou/iryou/kenkou/jouhou/1050416.html#63",
+        "en": null
+      },
+      "text": {
+        "ja": "岩手県 新型コロナウイルス感染症対策本部 第63回 本部員会議",
         "en": null
       }
     }
