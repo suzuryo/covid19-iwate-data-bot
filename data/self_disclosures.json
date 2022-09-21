@@ -1,5 +1,5 @@
 {
-  "date": "2022-09-21T21:42:52+09:00",
+  "date": "2022-09-21T23:13:10+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -52864,6 +52864,28 @@
       },
       "text": {
         "ja": "岩手医科大学 (矢巾町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-21",
+      "url": {
+        "ja": "https://www.itoyokado.co.jp/__resources__/9ef7f929-35d9-49fd-a5dd-8ec3d48f867c.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "イトーヨーカドー花巻店 [食品レジ担当] (花巻市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-16",
+      "url": {
+        "ja": "https://www.yamada-denki.jp/information/200419prevention/pdf/220916_01.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "ヤマダデンキ Tecc LIFE SELECT 盛岡本店 (盛岡市)・ヤマダアウトレット水沢店 (奥州市)",
         "en": null
       }
     }
