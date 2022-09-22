@@ -1,5 +1,5 @@
 {
-  "date": "2022-09-22T09:03:11+09:00",
+  "date": "2022-09-22T15:05:38+09:00",
   "data": [
     {
       "diagnosed_date": "2020-02-13",
@@ -7608,6 +7608,14 @@
       "reported_count": 192,
       "weekly_average_count": 419.57,
       "weekly_average_untracked_count": 285.14
+    },
+    {
+      "diagnosed_date": "2022-09-21",
+      "count": 643,
+      "missing_count": 459,
+      "reported_count": 184,
+      "weekly_average_count": 425.71,
+      "weekly_average_untracked_count": 288.71
     }
   ]
 }
