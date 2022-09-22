@@ -1,5 +1,5 @@
 {
-  "date": "2022-09-22T21:08:52+09:00",
+  "date": "2022-09-22T21:32:32+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -52974,6 +52974,39 @@
       },
       "text": {
         "ja": "北上信用金庫 藤根支店 (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-21",
+      "url": {
+        "ja": "https://www.city.kitakami.iwate.jp/life/kosodate_kyoiku/kyoikuiinkai/21685.html#:~:text=%E6%9C%8821%E6%97%A5%EF%BC%89-,%E5%B8%82%E5%86%85%E5%B0%8F%E4%B8%AD%E5%AD%A6%E6%A0%A1%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E8%87%A8%E6%99%82%E4%BC%91%E6%A5%AD%EF%BC%88%E4%BC%91%E6%A0%A1%EF%BC%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%EF%BC%889%E6%9C%8821%E6%97%A5%EF%BC%89,-%E5%8C%97%E4%B8%8A%E5%B8%82%E6%95%99%E8%82%B2",
+        "en": null
+      },
+      "text": {
+        "ja": "北上市内の小中学校 [臨時休業の状況] (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-21",
+      "url": {
+        "ja": "https://www.prifoods.jp/media/files/_u/topic/file1/18l48w8mc3.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "プライフーズ 九戸肥料工場 (九戸村)・軽米種鶏場 (軽米町)・岩手孵卵場 (洋野町)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-21",
+      "url": {
+        "ja": "https://www.nitorihd.co.jp/news/items/644dc27180ca40016761ce9c03d0f201_172.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "ニトリ 水沢店 (奥州市)",
         "en": null
       }
     }
