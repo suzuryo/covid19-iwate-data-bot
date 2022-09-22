@@ -1,5 +1,5 @@
 {
-  "date": "2022-09-22T15:05:38+09:00",
+  "date": "2022-09-22T21:08:52+09:00",
   "newsItems": [
     {
       "date": "2020-07-29",
@@ -52908,6 +52908,72 @@
       },
       "text": {
         "ja": "普代村生活支援ハウス (普代村)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-22",
+      "url": {
+        "ja": "https://www.kioxia-iwate.co.jp/news/2021/covid-latest.html#:~:text=%E2%96%A0-,%E5%85%AC%E8%A1%A8%E6%97%A5%EF%BC%9A2022%E5%B9%B49%E6%9C%8822%E6%97%A5%EF%BC%88%E6%9C%A8%EF%BC%89,-%E2%96%A0%E5%85%AC%E8%A1%A8%E6%97%A5%EF%BC%9A2022",
+        "en": null
+      },
+      "text": {
+        "ja": "キオクシア岩手 (北上市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-21",
+      "url": {
+        "ja": "https://www.meijiyasuda.co.jp/profile/news/info/information412.html#:~:text=%E6%94%AF%E7%A4%BE%E3%80%81%E6%A8%AA%E6%B5%9C%E6%94%AF%E7%A4%BE%E3%80%81-,%E7%9B%9B%E5%B2%A1%E6%94%AF%E7%A4%BE,-%E3%80%81%E5%AF%8C%E5%B1%B1%E6%94%AF%E7%A4%BE%E3%80%81%E9%9D%99%E5%B2%A1",
+        "en": null
+      },
+      "text": {
+        "ja": "明治安田生命 盛岡支社 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-20",
+      "url": {
+        "ja": "https://www.meijiyasuda.co.jp/profile/news/info/information411.html#:~:text=%E6%94%AF%E7%A4%BE%E3%80%81%E5%87%BD%E9%A4%A8%E6%94%AF%E7%A4%BE%E3%80%81-,%E7%9B%9B%E5%B2%A1%E6%94%AF%E7%A4%BE,-%E3%80%81%E6%B0%B4%E6%88%B8%E6%94%AF%E7%A4%BE%E3%80%81%E3%81%A4%E3%81%8F%E3%81%B0",
+        "en": null
+      },
+      "text": {
+        "ja": "明治安田生命 盛岡支社 (盛岡市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-22",
+      "url": {
+        "ja": "https://www.japanpost.jp/information/notices2_list.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "胆沢郵便局 (奥州市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-22",
+      "url": {
+        "ja": "https://www.itoyokado.co.jp/__resources__/dd33f5a7-e8e4-4857-b479-d287c00cbfc5.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "イトーヨーカドー花巻店 [ミスタードーナツ] (花巻市)",
+        "en": null
+      }
+    },
+    {
+      "date": "2022-09-22",
+      "url": {
+        "ja": "https://e-shinkin.net/files/lib/7/739/202209221157512693.pdf",
+        "en": null
+      },
+      "text": {
+        "ja": "北上信用金庫 藤根支店 (北上市)",
         "en": null
       }
     }
