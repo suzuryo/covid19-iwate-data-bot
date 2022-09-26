@@ -1,5 +1,5 @@
 {
-  "date": "2022-09-26T20:11:28+09:00",
+  "date": "2022-09-26T20:34:19+09:00",
   "alertItems": [
     {
       "date": "2022-09-26",
@@ -9,7 +9,7 @@
       },
       "text": {
         "ja": "9月26日の陽性者の全数届出の見直しに伴い、当サイトのデータ更新を停止しました",
-        "en": "This site is out of date as Japan (Iwate Pref) have stopped reporting testing positivity or significantly scaled down their testing reports at Sep 26 2022. Data visualizations will remain available for past dates and reports, but will no longer have up to date information."
+        "en": "This site is no longer actively maintained. Japan (Iwate Pref) have stopped reporting testing positivity or significantly scaled down their testing reports at Sep 26 2022. Data visualizations will remain available for past dates and reports, but will no longer have up to date information."
       }
     }
   ]
