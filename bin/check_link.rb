@@ -8,7 +8,7 @@ require 'slack-notifier'
 urls = [
   {
     url: 'https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/052/938/shinryokensalist_040930-1.pdf',
-    hexdigest: 'd04e814fe5ef5fce364a0b3745a5842b19be1e9a9efb7351c42538d46a72b0d1'
+    hexdigest: '537410aa269f61c380fae5eede19bb78577ccea7b1e95fe679d4348f69328806'
   }
 ]
 
